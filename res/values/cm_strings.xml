@@ -65,6 +65,8 @@
     <!-- On Settings screen, led color title and summary label -->
     <string name="account_settings_led_color_label">Custom LED color</string>
     <string name="account_settings_led_color_summary">Default value is the account color</string>
+    <!-- On Settings screen, tutorial header title label -->
+    <string name="account_settings_tutorial_header_title">View tutorial</string>
     <!-- General preference: Labels for the setting to mark emails as read before archiving them-->
     <string name="general_preference_mark_archive_messages_read">Archive as read</string>
     <string name="general_preference_mark_archive_messages_read_description">Mark emails as read before archiving them</string>
