@@ -48,6 +48,7 @@
   <string name="account_settings_led_notification_custom_color">Utilitza un color de LED personalitzat</string>
   <string name="account_settings_led_color_label">Color personalitzat de LED</string>
   <string name="account_settings_led_color_summary">El valor per defecte és el color del compte</string>
+  <string name="account_settings_tutorial_header_title">Mostra el tutorial</string>
   <string name="general_preference_mark_archive_messages_read">Arxiva com a llegit</string>
   <string name="general_preference_mark_archive_messages_read_description">Marca els correus com a llegits abans d\'arxivar-los</string>
   <string name="search_hint">Cerca al correu electrònic</string>

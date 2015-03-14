@@ -17,8 +17,11 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="email_provider">E-Mail</string>
+  <string name="mailbox_name_display_local_drafts">Lokale Entwürfe</string>
+  <string name="mailbox_name_display_server_drafts">Server-Entwürfe</string>
   <string name="mailbox_name_display_todo">To-Do</string>
   <string name="mailbox_name_display_archive">Archiv</string>
+  <string name="mailbox_name_local_only_display_name"> – Lokal</string>
   <string name="account_setup_start_company_slogan_text">Willkommen zu einem besserem Posteingang</string>
   <string name="account_setup_start_email_address_hint">Gebe deine E-Mail Adresse ein</string>
   <string name="account_setup_start_password_hint">Passwort</string>
@@ -35,10 +38,15 @@
   <string name="account_setup_options_sync_contacts_label">Kontakte dieses Kontos synchronisieren</string>
   <string name="account_setup_options_sync_calendar_label">Kalender dieses Kontos synchronisieren</string>
   <string name="account_setup_options_sync_email_label">E-Mails dieses Kontos synchronisieren</string>
+  <string name="account_setup_options_disable_convo_threading_label">Gruppierung von Konversationen deaktivieren</string>
   <string name="account_settings_show_all_images_title">Bilder</string>
   <string name="account_settings_account_color_title">Kontofarbe</string>
   <string name="account_settings_account_color_dialog_title">Wählen Sie eine Farbe</string>
   <string name="account_settings_led_notification_label">LED-Benachrichtigung aktivieren</string>
+  <string name="account_settings_led_color_label">Benutzerdefinierte LED-Farbe</string>
+  <string name="account_settings_led_color_summary">Standardwert ist die Kontofarbe</string>
+  <string name="account_settings_tutorial_header_title">Anleitung anschauen</string>
+  <string name="general_preference_mark_archive_messages_read">Als gelesen archivieren</string>
   <string name="general_preference_mark_archive_messages_read_description">E-Mails vor dem Archivieren als gelesen markieren</string>
   <string name="search_hint">In E-Mails suchen</string>
   <string name="tutorial_done_button">Fertig</string>
@@ -47,6 +55,7 @@
   <string name="tutorial_finished_heading">Das ist es!\nKlicken Sie unten, um E-Mails zu nutzen.</string>
   <string name="tutorial_text1">Alte E-Mail zu archivieren ist so einfach, Sie müssen sie nur vom Bildschirm wischen. Versuchen Sie die Nachricht oben weg zu wischen.</string>
   <string name="tutorial_text2">Nachrichten löschen geht auch schnell! Versuche nach links zu wischen, um Nachrichten zu löschen.</string>
+  <string name="tutorial_text3">Haben Sie einen Fehler gemacht? Keine Sorge, alles ist bestens. Tippen Sie auf den Rückgängig-Button, um den Fehler zu korrigieren.</string>
   <string name="tutorial_text5">Klicke auf Spam, um eine Nachricht als Spam zu markieren</string>
   <string name="oauth_authentication_title">Authorisierung anfordern</string>
   <string name="sign_in_title">Einloggen</string>
@@ -56,4 +65,5 @@
   <string name="signed_in_with_service_label">Eingeloggt mit %s</string>
   <string name="authentication_label">Authentifikation</string>
   <string name="add_authentication_label">Authentifizierung hinzufügen</string>
+  <string name="oauth_saving_message">Speichere\u2026</string>
 </resources>

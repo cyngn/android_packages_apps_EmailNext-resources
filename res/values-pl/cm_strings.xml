@@ -48,6 +48,7 @@
   <string name="account_settings_led_notification_custom_color">Użyj niestandardowego koloru diody LED</string>
   <string name="account_settings_led_color_label">Niestandardowy kolor diody LED</string>
   <string name="account_settings_led_color_summary">Wartość domyślna jest kolorem konta</string>
+  <string name="account_settings_tutorial_header_title">Zobacz poradnik</string>
   <string name="general_preference_mark_archive_messages_read">Archiwizuj jako przeczytane</string>
   <string name="general_preference_mark_archive_messages_read_description">Oznacz e-maile jako przeczytane przez ich archiwizacją</string>
   <string name="search_hint">Wyszukaj w wiadomościach e-mail</string>

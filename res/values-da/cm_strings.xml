@@ -48,6 +48,7 @@
   <string name="account_settings_led_notification_custom_color">Brug brugerdefineret LED-farve</string>
   <string name="account_settings_led_color_label">Brugerdefineret LED-farve</string>
   <string name="account_settings_led_color_summary">Standardværdien er kontofarven</string>
+  <string name="account_settings_tutorial_header_title">Se vejledning</string>
   <string name="general_preference_mark_archive_messages_read">Arkivér som læst</string>
   <string name="general_preference_mark_archive_messages_read_description">Markér e-mails som læst, inden de arkiveres</string>
   <string name="search_hint">Søg i e-mail</string>

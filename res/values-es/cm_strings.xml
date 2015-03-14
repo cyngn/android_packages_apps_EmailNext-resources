@@ -48,6 +48,7 @@
   <string name="account_settings_led_notification_custom_color">Utilizar color personalizado del LED</string>
   <string name="account_settings_led_color_label">Color personalizado del LED</string>
   <string name="account_settings_led_color_summary">El valor predeterminado es el color de la cuenta</string>
+  <string name="account_settings_tutorial_header_title">Ver tutorial</string>
   <string name="general_preference_mark_archive_messages_read">Archivo como leído</string>
   <string name="general_preference_mark_archive_messages_read_description">Marcar los correos electrónicos como leídos antes de archivarlos</string>
   <string name="search_hint">Buscar correo</string>

@@ -80,7 +80,7 @@
   <string name="accounts_welcome">É possível configurar a sua conta em apenas alguns passos.</string>
   <string name="account_setup_basics_email_label">Endereço de e-mail</string>
   <string name="account_setup_basics_manual_setup_action">Configuração manual</string>
-  <string name="account_setup_username_password_toast">Introduza um endereço de e-mail e palavra-passe válidos.</string>
+  <string name="account_setup_username_password_toast">Digite um endereço de e-mail e uma palavra-passe válidos.</string>
   <string name="account_duplicate_dlg_title">Conta duplicada</string>
   <string name="account_duplicate_dlg_message_fmt">Este nome de utilizador já está a ser utilizado para a conta “<xliff:g id="DUPLICATE">%s</xliff:g>”.</string>
   <string name="account_password_spaces_error">Esta palavra-passe começa ou termina com um ou mais caracteres de espaço. Muitos servidores não suportam palavras-passe com espaços.</string>
@@ -147,7 +147,7 @@
   <string name="account_setup_options_mail_window_all">Todas</string>
   <string name="account_setup_options_mail_window_default">Utilizar predef. conta</string>
   <string name="account_setup_failed_dlg_auth_message">O nome de utilizador ou a palavra-passe estão incorretos.</string>
-  <string name="account_setup_failed_dlg_auth_message_fmt">O início de sessão falhou. \n (<xliff:g id="ERROR">%s</xliff:g>)</string>
+  <string name="account_setup_failed_dlg_auth_message_fmt">O início de sessão falhou. \n(<xliff:g id="error">%s</xliff:g>)</string>
   <string name="account_setup_autodiscover_dlg_authfail_title">Problema na configuração da conta</string>
   <string name="account_setup_autodiscover_dlg_authfail_message">Confirme se o nome de utilizador, a palavra-passe e as definições da conta estão corretos.</string>
   <string name="account_setup_failed_dlg_certificate_message">Não é possível ligar ao servidor em segurança.</string>
@@ -169,7 +169,7 @@
   <string name="account_setup_username_uneditable_error">Não é possível alterar o nome de utilizador de uma conta. Para adicionar uma conta com outro nome de utilizador, toque em Adicionar Conta.</string>
   <string name="disable_admin_warning">AVISO: a desativação da autorização da aplicação E-mail para administrar o aparelho eliminará todas as contas de e-mail que necessitam desta, juntamente com o respetivo e-mail, contactos, eventos de agenda e outros dados.</string>
   <string name="account_security_dialog_title">Atualização de segurança</string>
-  <string name="account_security_dialog_content_fmt"><xliff:g id="ACCOUNT">%s</xliff:g> requer a atualização das definições de segurança.</string>
+  <string name="account_security_dialog_content_fmt"><xliff:g id="account">%s</xliff:g> requer a atualização das definições de segurança.</string>
   <string name="security_unsupported_ticker_fmt">Não é possível sincronizar a conta \"<xliff:g id="ACCOUNT">%s</xliff:g>\" devido a requisitos de segurança.</string>
   <string name="security_needed_ticker_fmt">A conta \"<xliff:g id="ACCOUNT">%s</xliff:g>\" requer a atualização das definições de segurança.</string>
   <string name="security_changed_ticker_fmt">A conta \"<xliff:g id="ACCOUNT">%s</xliff:g>\" alterou as definições de segurança; não é necessária qualquer ação do utilizador.</string>
@@ -179,17 +179,17 @@
   <string name="account_security_title">Segurança do dispositivo</string>
   <string name="account_security_policy_explanation_fmt">O servidor <xliff:g id="SERVER">%s</xliff:g> requer permissão para controlar remotamente algumas das funcionalidades de segurança do aparelho Android.</string>
   <string name="account_setup_failed_dlg_edit_details_action">Editar detalhes</string>
-  <string name="password_expire_warning_ticker_fmt">“<xliff:g id="ACCOUNT">%s</xliff:g>” solicita que altere o PIN ou palavra-passe do ecrã de bloqueio.</string>
-  <string name="password_expire_warning_content_title">Palavra-passe de bloq. do ecrã a expirar</string>
+  <string name="password_expire_warning_ticker_fmt">“<xliff:g id="account">%s</xliff:g>” solicita que altere o PIN ou palavra-passe do ecrã de bloqueio.</string>
+  <string name="password_expire_warning_content_title">Palavra-passe de bloqueio do ecrã a expirar</string>
   <string name="password_expired_ticker">O seu PIN ou palavra-passe de bloqueio do ecrã expirou.</string>
-  <string name="password_expired_content_title">A palavra-passe de bloq. do ecrã expirou</string>
-  <string name="password_expire_warning_dialog_title">Palavra-passe de bloq. do ecrã a expirar</string>
-  <string name="password_expire_warning_dialog_content_fmt">Tem de alterar o PIN ou a palavra-passe de bloqueio do ecrã ou os dados de <xliff:g id="ACCOUNT">%s</xliff:g> serão apagados. Pretende alterar agora?</string>
-  <string name="password_expired_dialog_title">A palavra-passe de bloq. do ecrã expirou</string>
-  <string name="password_expired_dialog_content_fmt">Os dados de <xliff:g id="ACCOUNT">%s</xliff:g> estão a ser apagados do dispositivo. Pode restaurá-los alterando o PIN ou a palavra-passe de bloqueio do ecrã. Pretende alterar agora?</string>
+  <string name="password_expired_content_title">A palavra-passe de bloqueio do ecrã expirou</string>
+  <string name="password_expire_warning_dialog_title">Palavra-passe de bloqueio do ecrã a expirar</string>
+  <string name="password_expire_warning_dialog_content_fmt">Tem de alterar o PIN ou a palavra-passe de bloqueio do ecrã ou os dados de <xliff:g id="account">%s</xliff:g> serão apagados. Pretende alterar agora?</string>
+  <string name="password_expired_dialog_title">A palavra-passe de bloqueio do ecrã expirou</string>
+  <string name="password_expired_dialog_content_fmt">Os dados de <xliff:g id="account">%s</xliff:g> estão a ser apagados do dispositivo. Pode restaurá-los alterando o PIN ou a palavra-passe de bloqueio do ecrã. Pretende alterar agora?</string>
   <string name="account_settings_exit_server_settings">Rejeitar alterações não guardadas?</string>
   <string name="account_settings_login_dialog_title">Não foi possível iniciar sessão.</string>
-  <string name="account_settings_login_dialog_content_fmt">O nome de utilizador ou a palavra-passe para <xliff:g id="ACCOUNT">%s</xliff:g> estão incorretos. Pretende atualizá-los agora?</string>
+  <string name="account_settings_login_dialog_content_fmt">O nome de utilizador ou a palavra-passe para <xliff:g id="account">%s</xliff:g> estão incorretos. Pretende atualizá-los agora?</string>
   <string name="account_settings_login_dialog_reason_fmt">O seu início de sessão para <xliff:g id="ACCOUNT">%s</xliff:g> falhou; o servidor perguntou: <xliff:g id="REASON">%s</xliff:g> Pretende atualizar o seu nome de utilizador e/ou palavra-passe?</string>
   <string name="account_settings_background_attachments_label">Transferir anexos</string>
   <string name="account_settings_background_attachments_summary">Transferir automaticamente anexos de mensagens recentes p/ Wi-Fi</string>
@@ -198,9 +198,9 @@
   <string name="account_settings_notify_summary">Enviar notificação quando chegar um e-mail</string>
   <string name="account_settings_mail_check_frequency_label">Frequência de sincronização</string>
   <string name="account_settings_incoming_label">Definições de receção</string>
-  <string name="account_settings_incoming_summary">Nome de utiliz., palavra-passe e outras def. do serv. de receção</string>
+  <string name="account_settings_incoming_summary">Nome de utilizador, palavra-passe e outras def. do serv. de receção</string>
   <string name="account_settings_outgoing_label">Definições de envio</string>
-  <string name="account_settings_outgoing_summary">Nome de utiliz., palavra-passe e outras def. do serv. de envio</string>
+  <string name="account_settings_outgoing_summary">Nome de utilizador, palavra-passe e outras def. do serv. de envio</string>
   <string name="account_settings_enforced_label">Políticas aplicadas</string>
   <string name="account_settings_enforced_summary">Nenhum</string>
   <string name="account_settings_unsupported_label">Políticas não suportadas</string>
@@ -265,8 +265,8 @@
   <string name="general_preference_text_zoom_huge">Muito grande</string>
   <string name="more_than_999">999+</string>
   <string name="policy_dont_allow_camera">Não perm. utilização câmara do aparelho</string>
-  <string name="policy_require_password">Solicitar palavra-passe do aparelho</string>
-  <string name="policy_password_history">Limitar reutilização pal.-passe recentes</string>
+  <string name="policy_require_password">Solicitar palavra-passe do dispositivo</string>
+  <string name="policy_password_history">Limitar reutilização de palavras-passe recentes</string>
   <string name="policy_password_expiration">Solicitar validade das palavras-passe</string>
   <string name="policy_screen_timeout">Necessário apar. inat. para bloq. ecrã</string>
   <string name="policy_calendar_age">Limitar n.º de eventos de calendário sincronizados</string>

@@ -31,6 +31,7 @@
   <string name="password_label">Password</string>
   <string name="account_setup_basics_progress_message">Rilevamento automatico in corso</string>
   <string name="account_setup_options_title">Personalizza</string>
+  <string name="account_setup_options_mail_check_frequency_label">Controlla casella di posta</string>
   <string name="account_setup_options_mail_check_frequency_2hour">Ogni 2 ore</string>
   <string name="account_setup_options_mail_check_frequency_4hour">Ogni 4 ore</string>
   <string name="account_setup_options_mail_check_frequency_1day">Ogni giorno</string>
@@ -47,13 +48,18 @@
   <string name="account_settings_led_notification_custom_color">Utilizzare un colore personalizzato per il LED</string>
   <string name="account_settings_led_color_label">Colore personalizzato per il LED</string>
   <string name="account_settings_led_color_summary">Il valore predefinito è il colore dell\'account</string>
+  <string name="account_settings_tutorial_header_title">Visualizza tutorial</string>
   <string name="general_preference_mark_archive_messages_read">Archivia come letta</string>
   <string name="general_preference_mark_archive_messages_read_description">Segna le email come lette prima di archiviarle</string>
   <string name="search_hint">Cerca email</string>
   <string name="tutorial_done_button">Fatto</string>
   <string name="tutorial_get_started_button">Inizia</string>
   <string name="tutorial_skip_tutorial">Salta lezione</string>
+  <string name="tutorial_finished_heading">Questo è tutto!\nClicca in basso per iniziare ad usare l\'email.</string>
+  <string name="tutorial_text1">L\'archiviazione delle vecchie e-mail è semplice come trascinarle fuori dalla schermata. Prova a trascinare il messaggio qui sopra.</string>
   <string name="tutorial_text2">Anche l\'eliminazione di un messaggio è veloce. Prova a trascinarle più a sinistra per cancellare.</string>
+  <string name="tutorial_text3">Hai fatto un errore? Non preoccuparti, sei al sicuro. Prova a toccare il pulsante di annullamento per correggere l\'errore.</string>
+  <string name="tutorial_text4">Ora hai un sacco di modi per intervenire rapidamente sulle mail. Trascina a destra per vedere la griglia di azione.</string>
   <string name="tutorial_text5">Prova a toccare Spam per contrassegnare il messaggio come indesiderato.</string>
   <string name="oauth_authentication_title">Richiesta di autorizzazione</string>
   <string name="sign_in_title">Accedi</string>

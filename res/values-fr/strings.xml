@@ -80,13 +80,13 @@
   <string name="accounts_welcome">Quelques étapes suffisent pour configurer votre compte.</string>
   <string name="account_setup_basics_email_label">Adresse e-mail</string>
   <string name="account_setup_basics_manual_setup_action">Config. manuelle</string>
-  <string name="account_setup_username_password_toast">Saisissez une adresse e-mail et un mot de passe corrects.</string>
+  <string name="account_setup_username_password_toast">Entrez une adresse e-mail et un mot de passe corrects.</string>
   <string name="account_duplicate_dlg_title">Dupliquer le compte</string>
   <string name="account_duplicate_dlg_message_fmt">Vous utilisez déjà ce nom d\'utilisateur pour le compte \"<xliff:g id="DUPLICATE">%s</xliff:g>\".</string>
   <string name="account_password_spaces_error">Ce mot de passe débute ou se termine par un ou plusieurs espaces. De nombreux serveurs n\'acceptent pas les mots de passe contenant des espaces.</string>
   <string name="account_setup_check_settings_retr_info_msg">Récupération des informations sur le compte…</string>
-  <string name="account_setup_check_settings_check_incoming_msg">Validation des paramètres du serveur en cours…</string>
-  <string name="account_setup_check_settings_check_outgoing_msg">Validation des paramètres SMTP en cours…</string>
+  <string name="account_setup_check_settings_check_incoming_msg">Validation des paramètres du serveur en cours\u2026</string>
+  <string name="account_setup_check_settings_check_outgoing_msg">Validation des paramètres SMTP en cours\u2026</string>
   <string name="account_setup_creating_account_msg">Création du compte en cours…</string>
   <string name="account_setup_names_title">Configuration du compte</string>
   <string name="account_setup_names_headline">Votre compte est configuré et votre messagerie est activée !</string>
@@ -153,7 +153,7 @@
   <string name="account_setup_failed_dlg_certificate_message">Impossible d\'établir une connexion sécurisée avec le serveur.</string>
   <string name="account_setup_failed_dlg_certificate_message_fmt">Impossible d\'établir une connexion sécurisée avec le serveur.\n(<xliff:g id="ERROR">%s</xliff:g>)</string>
   <string name="account_setup_failed_certificate_required">Certificat client requis. Voulez-vous vous connecter au serveur avec un certificat client ?</string>
-  <string name="account_setup_failed_certificate_inaccessible">Le certificat est invalide ou inaccessible.</string>
+  <string name="account_setup_failed_certificate_inaccessible">Le certificat est incorrect ou inaccessible.</string>
   <string name="account_setup_failed_check_credentials_message">Erreur du serveur. Veuillez vérifier votre nom d\'utilisateur et votre mot de passe, puis réessayer.</string>
   <string name="account_setup_failed_dlg_server_message">Impossible de se connecter au serveur.</string>
   <string name="account_setup_failed_dlg_server_message_fmt">Impossible de se connecter au serveur.\n(<xliff:g id="ERROR">%s</xliff:g>)</string>
@@ -238,7 +238,7 @@
   <string name="mailbox_settings_sync_enabled_summary">Tous les messages sont téléchargés lorsque vous vous connectez</string>
   <string name="mailbox_settings_mailbox_sync_window_label">Synchroniser depuis</string>
   <string name="prefDialogTitle_conversationListIcon">Image de l\'expéditeur</string>
-  <string name="provider_note_live">Seuls certains comptes \"Plus\" disposent d\'un accès POP permettant à ce programme de se connecter. Si vous ne parvenez pas à vous connecter avec l\'adresse e-mail et le mot de passe corrects, vous ne possédez peut-être pas de compte payant \"Plus\". Pour accéder à ces comptes de messagerie, lancez le navigateur Web.</string>
+  <string name="provider_note_live">Seuls certains comptes « Plus » disposent d\'un accès POP permettant à ce programme de se connecter. Si vous ne parvenez pas à vous connecter avec l\'adresse e-mail et le mot de passe corrects, vous ne possédez peut-être pas de compte payant « Plus ». Pour accéder à ces comptes de messagerie, lancez le navigateur Web.</string>
   <string name="provider_note_t_online">Avant de configurer ce compte de messagerie, consultez le site Web de T-Online et créez un mot de passe d\'accès à la messagerie POP3.</string>
   <string name="system_account_create_failed">Impossible de créer le compte. Veuillez réessayer.</string>
   <string name="device_admin_label">E-mail</string>
