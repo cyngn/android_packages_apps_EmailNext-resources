@@ -213,9 +213,9 @@
   <string name="system_folders_trash_title">ゴミ箱フォルダ</string>
   <string name="system_folders_trash_summary">サーバーのゴミ箱フォルダを選択</string>
   <string name="system_folders_trash_dlg">サーバーのゴミ箱フォルダを選択</string>
-  <string name="system_folders_sent_title">送信済みフォルダ</string>
-  <string name="system_folders_sent_summary">サーバーの送信済みフォルダを選択</string>
-  <string name="system_folders_sent_dlg">サーバーの送信済みフォルダを選択</string>
+  <string name="system_folders_sent_title">送信済みアイテムフォルダ</string>
+  <string name="system_folders_sent_summary">サーバーの送信済みアイテムフォルダを選択</string>
+  <string name="system_folders_sent_dlg">サーバーの送信済みアイテムフォルダを選択</string>
   <string name="edit_quick_response_dialog">クイック返信</string>
   <string name="save_action">保存</string>
   <string name="account_settings_sync_contacts_enable">連絡先を同期</string>

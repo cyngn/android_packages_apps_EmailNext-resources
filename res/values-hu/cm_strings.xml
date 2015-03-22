@@ -17,8 +17,11 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="email_provider">Email</string>
+  <string name="mailbox_name_display_local_drafts">Helyi piszkozatok</string>
+  <string name="mailbox_name_display_server_drafts">Kiszolgálói piszkozatok</string>
   <string name="mailbox_name_display_todo">Feladatok</string>
   <string name="mailbox_name_display_archive">Archív</string>
+  <string name="mailbox_name_local_only_display_name"> - Helyi</string>
   <string name="account_setup_start_company_slogan_text">Üdvözölünk egy jobb postafiókban</string>
   <string name="account_setup_start_email_address_hint">Adja meg e-mail címét</string>
   <string name="account_setup_start_password_hint">Jelszó</string>
@@ -27,6 +30,8 @@
   <string name="account_setup_start_invalid_email_address">Érvénytelen e-mail cím</string>
   <string name="password_label">Jelszó</string>
   <string name="account_setup_basics_progress_message">Automatikus beállítás folyamatban</string>
+  <string name="account_setup_options_title">Személyre szabás</string>
+  <string name="account_setup_options_mail_check_frequency_label">Bejövő üzenetek ellenőrzése</string>
   <string name="account_setup_options_mail_check_frequency_2hour">2 óránként</string>
   <string name="account_setup_options_mail_check_frequency_4hour">4 óránként</string>
   <string name="account_setup_options_mail_check_frequency_1day">Naponta</string>
@@ -35,6 +40,7 @@
   <string name="account_setup_options_sync_calendar_label">Naptár szinkronizálása ebből a fiókból</string>
   <string name="account_setup_options_sync_email_label">Az e-mailek szinkronizálása ebből a fiókból</string>
   <string name="account_setup_options_disable_convo_threading_label">Üzenetek összefűzésének kikapcsolása</string>
+  <string name="account_settings_show_all_images_title">Képek</string>
   <string name="account_settings_account_color_title">Fiók színe</string>
   <string name="account_settings_account_color_summary">Fiók színének módosítása</string>
   <string name="account_settings_account_color_dialog_title">Válassz egy színt</string>
@@ -42,13 +48,18 @@
   <string name="account_settings_led_notification_custom_color">Egyedi LED szín használata</string>
   <string name="account_settings_led_color_label">Egyedi LED szín</string>
   <string name="account_settings_led_color_summary">Alapértelmezett értéke a Fiók színe</string>
+  <string name="account_settings_tutorial_header_title">Útmutató megtekintése</string>
   <string name="general_preference_mark_archive_messages_read">Archív megjelölése olvasottként</string>
   <string name="general_preference_mark_archive_messages_read_description">Email megjelölése olvasottként archiválás előtt</string>
   <string name="search_hint">E-mail keresése</string>
   <string name="tutorial_done_button">Kész</string>
   <string name="tutorial_get_started_button">Kezdjünk bele</string>
   <string name="tutorial_skip_tutorial">Bemutató kihagyása</string>
+  <string name="tutorial_finished_heading">Készen is vagyunk!\nÉrintse meg alul, hogy használhassa az e-mailt.</string>
+  <string name="tutorial_text1">A régi üzenetek archiválása olyan egyszerű, mint a képernyőről való kicsúsztatás. Próbálja most kicsúsztatni a fenti üzenetet.</string>
   <string name="tutorial_text2">Törölni is lehet gyorsan. Próbáld balra kihúzni.</string>
+  <string name="tutorial_text3">Elrontott valamit? Ne aggódjon, be van biztosítva. Érintse meg a visszavonás gombot, hogy a hibát kijavítsa.</string>
+  <string name="tutorial_text4">Mostantól rengeteg módja van, hogy gyors műveleteket végezzen az e-mailen. Csúsztasson balra a műveleti rács megjelenítéséhez.</string>
   <string name="tutorial_text5">Kattints a Spam -re szemétnek jelöléshez.</string>
   <string name="oauth_authentication_title">Hitelesítés indítása</string>
   <string name="sign_in_title">Bejelentkezés</string>

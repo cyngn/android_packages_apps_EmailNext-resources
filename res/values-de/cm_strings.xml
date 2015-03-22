@@ -43,6 +43,7 @@
   <string name="account_settings_account_color_title">Kontofarbe</string>
   <string name="account_settings_account_color_dialog_title">Wählen Sie eine Farbe</string>
   <string name="account_settings_led_notification_label">LED-Benachrichtigung aktivieren</string>
+  <string name="account_settings_led_notification_custom_color">Benutzerdefinierte LED-Farben verwenden</string>
   <string name="account_settings_led_color_label">Benutzerdefinierte LED-Farbe</string>
   <string name="account_settings_led_color_summary">Standardwert ist die Kontofarbe</string>
   <string name="account_settings_tutorial_header_title">Anleitung anschauen</string>

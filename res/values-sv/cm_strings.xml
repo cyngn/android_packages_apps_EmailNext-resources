@@ -16,9 +16,13 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="email_provider">E-post</string>
+  <string name="account_setup_start_login_button">Logga in</string>
+  <string name="password_label">Lösenord</string>
   <string name="account_setup_options_notify_label">Meddela mig när jag får e-post</string>
   <string name="account_setup_options_sync_contacts_label">Synkronisera kontakter från det här kontot</string>
   <string name="account_setup_options_sync_calendar_label">Synkronisera kalendern från det här kontot</string>
   <string name="account_setup_options_sync_email_label">Synkronisera e-post från det här kontot</string>
+  <string name="account_settings_show_all_images_title">Bilder</string>
   <string name="search_hint">Sök efter e-post</string>
 </resources>

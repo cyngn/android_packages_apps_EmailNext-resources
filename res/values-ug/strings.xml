@@ -258,6 +258,7 @@
   <string name="general_preference_text_zoom_normal">ئادەتتىكى</string>
   <string name="general_preference_text_zoom_large">چوڭ</string>
   <string name="general_preference_text_zoom_huge">چوڭراق</string>
+  <string name="more_than_999">999+</string>
   <string name="policy_dont_allow_camera">ئۈسكۈنە كامېراسىنى ئىشلىتىشكە يول قويمايدۇ</string>
   <string name="policy_require_password">ئۈسكۈنە ئىم زۆرۈر</string>
   <string name="policy_password_history">يېقىندا ئىشلەتكەن ئىمنى قايتا ئىشلىتىشنى چەكلەيدۇ</string>
