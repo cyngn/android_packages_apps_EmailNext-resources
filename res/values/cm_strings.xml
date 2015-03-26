@@ -98,4 +98,5 @@
     <!-- Label for the add authentication icon [CHAR LIMIT=40] -->
     <string name="add_authentication_label">Add authentication</string>
     <string name="oauth_saving_message">Saving\u2026</string>
+    <string name="about_app_header_title">About</string>
 </resources>
