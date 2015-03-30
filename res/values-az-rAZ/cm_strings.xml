@@ -16,9 +16,5 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="account_setup_options_notify_label">E-məktub gələn zaman mənə xəbər ver</string>
-  <string name="account_setup_options_sync_contacts_label">Bu hesabdakı şəxsləri sinxronlaşdır</string>
-  <string name="account_setup_options_sync_calendar_label">Bu hesabdakı təqvimi sinxronlaşdır</string>
-  <string name="account_setup_options_sync_email_label">Bu hesabdan e-poçtu sinxronlaşdır</string>
-  <string name="search_hint">E-poçtda axtarın</string>
+  <string name="email_provider">E-poçt</string>
 </resources>

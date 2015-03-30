@@ -34,10 +34,6 @@
   <string name="account_setup_options_mail_check_frequency_2hour">Alle 2 Stunden</string>
   <string name="account_setup_options_mail_check_frequency_4hour">Alle 4 Stunden</string>
   <string name="account_setup_options_mail_check_frequency_1day">Jeden Tag</string>
-  <string name="account_setup_options_notify_label">Bei neuer E-Mail benachrichtigen</string>
-  <string name="account_setup_options_sync_contacts_label">Kontakte dieses Kontos synchronisieren</string>
-  <string name="account_setup_options_sync_calendar_label">Kalender dieses Kontos synchronisieren</string>
-  <string name="account_setup_options_sync_email_label">E-Mails dieses Kontos synchronisieren</string>
   <string name="account_setup_options_disable_convo_threading_label">Gruppierung von Konversationen deaktivieren</string>
   <string name="account_settings_show_all_images_title">Bilder</string>
   <string name="account_settings_account_color_title">Kontofarbe</string>
@@ -49,7 +45,6 @@
   <string name="account_settings_tutorial_header_title">Anleitung anschauen</string>
   <string name="general_preference_mark_archive_messages_read">Als gelesen archivieren</string>
   <string name="general_preference_mark_archive_messages_read_description">E-Mails vor dem Archivieren als gelesen markieren</string>
-  <string name="search_hint">In E-Mails suchen</string>
   <string name="tutorial_done_button">Fertig</string>
   <string name="tutorial_get_started_button">Starten</string>
   <string name="tutorial_skip_tutorial">Einführung überspringen</string>

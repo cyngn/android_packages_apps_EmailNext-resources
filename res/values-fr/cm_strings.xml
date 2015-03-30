@@ -35,10 +35,6 @@
   <string name="account_setup_options_mail_check_frequency_2hour">Toutes les deux heures</string>
   <string name="account_setup_options_mail_check_frequency_4hour">Toutes les 4 heures</string>
   <string name="account_setup_options_mail_check_frequency_1day">Tous les jours</string>
-  <string name="account_setup_options_notify_label">M\'avertir lors de la réception d\'un e-mail</string>
-  <string name="account_setup_options_sync_contacts_label">Synchroniser les contacts de ce compte</string>
-  <string name="account_setup_options_sync_calendar_label">Synchroniser l\'agenda de ce compte</string>
-  <string name="account_setup_options_sync_email_label">Synchroniser les e-mails de ce compte</string>
   <string name="account_setup_options_disable_convo_threading_label">Désactiver l\'enfilade de la discussion</string>
   <string name="account_settings_show_all_images_title">Images</string>
   <string name="account_settings_account_color_title">Couleur du compte</string>
@@ -51,7 +47,6 @@
   <string name="account_settings_tutorial_header_title">Voir le tutoriel</string>
   <string name="general_preference_mark_archive_messages_read">Archiver en lisant</string>
   <string name="general_preference_mark_archive_messages_read_description">Marquer les e-mails comme lus avant de les archiver</string>
-  <string name="search_hint">Rechercher l\'e-mail</string>
   <string name="tutorial_done_button">Effectué</string>
   <string name="tutorial_get_started_button">Démarrer</string>
   <string name="tutorial_skip_tutorial">Passer le tutoriel</string>
@@ -59,7 +54,6 @@
   <string name="tutorial_text1">L\'archivage des anciens e-mails est aussi simple que de les glisser hors de votre écran. Essayez de glisser le message ci-dessus maintenant.</string>
   <string name="tutorial_text2">Effacer un message est également rapide. Essayez de balayer vers la gauche.</string>
   <string name="tutorial_text3">Vous avez fait une erreur ? Ne vous inquiétez pas, vous êtes couvert. Essayez d\'appuyer sur le bouton d\'annulation pour corriger l\'erreur.</string>
-  <string name="tutorial_text4">Vous avez maintenant une tonne de façons d\'agir rapidement sur un e-mail. Balayez vers la droite pour voir la grille d\'action.</string>
   <string name="tutorial_text5">Essayez d\'appuyer sur le bouton « Spam » pour marquer ce message comme spam.</string>
   <string name="oauth_authentication_title">Demande de permission</string>
   <string name="sign_in_title">Se connecter</string>

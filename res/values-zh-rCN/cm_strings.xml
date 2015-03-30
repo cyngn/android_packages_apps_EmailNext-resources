@@ -35,10 +35,6 @@
   <string name="account_setup_options_mail_check_frequency_2hour">每 2 个小时</string>
   <string name="account_setup_options_mail_check_frequency_4hour">每 4 个小时</string>
   <string name="account_setup_options_mail_check_frequency_1day">每天</string>
-  <string name="account_setup_options_notify_label">收到电子邮件时通知我</string>
-  <string name="account_setup_options_sync_contacts_label">同步此帐户中的联系人</string>
-  <string name="account_setup_options_sync_calendar_label">同步此帐户中的日历</string>
-  <string name="account_setup_options_sync_email_label">同步此帐户中的电子邮件</string>
   <string name="account_setup_options_disable_convo_threading_label">关闭会话线程</string>
   <string name="account_settings_show_all_images_title">图片</string>
   <string name="account_settings_account_color_title">帐户颜色</string>
@@ -51,7 +47,6 @@
   <string name="account_settings_tutorial_header_title">查看教程</string>
   <string name="general_preference_mark_archive_messages_read">归档为已读</string>
   <string name="general_preference_mark_archive_messages_read_description">在归档邮件之前先标记为已读</string>
-  <string name="search_hint">搜索电子邮件</string>
   <string name="tutorial_done_button">完成</string>
   <string name="tutorial_get_started_button">开始使用</string>
   <string name="tutorial_skip_tutorial">跳过教程</string>
@@ -59,7 +54,6 @@
   <string name="tutorial_text1">要存档旧邮件，只需要在屏幕上滑动它们。立刻尝试滑动下面的信息。</string>
   <string name="tutorial_text2">删除一条信息同样很快。尝试更远距离的滑动进行删除。</string>
   <string name="tutorial_text3">犯了一个错误？不用着急，有办法恢复。尝试点击撤销按钮来修正错误。</string>
-  <string name="tutorial_text4">你现在有了大量的方法来操作邮件。向右滑动查看动作窗格。</string>
   <string name="tutorial_text5">尝试点击“垃圾邮件”来标记此信息为垃圾邮件。</string>
   <string name="oauth_authentication_title">正在请求授权</string>
   <string name="sign_in_title">登录</string>
@@ -70,4 +64,5 @@
   <string name="authentication_label">身份验证</string>
   <string name="add_authentication_label">添加身份验证</string>
   <string name="oauth_saving_message">正在保存\u2026</string>
+  <string name="about_app_header_title">关于</string>
 </resources>

@@ -35,10 +35,6 @@
   <string name="account_setup_options_mail_check_frequency_2hour">Kas 2 valandas</string>
   <string name="account_setup_options_mail_check_frequency_4hour">Kas 4 valandas</string>
   <string name="account_setup_options_mail_check_frequency_1day">Kas dieną</string>
-  <string name="account_setup_options_notify_label">Pranešti, kai gausiu el. laišką</string>
-  <string name="account_setup_options_sync_contacts_label">Sinchronizuoti šios paskyros kontaktus</string>
-  <string name="account_setup_options_sync_calendar_label">Sinchronizuoti šios paskyros kalendorių</string>
-  <string name="account_setup_options_sync_email_label">Sinchronizuoti šios paskyros el. paštą</string>
   <string name="account_setup_options_disable_convo_threading_label">Išjungti pokalbio gijų kūrimą</string>
   <string name="account_settings_show_all_images_title">Vaizdai</string>
   <string name="account_settings_account_color_title">Paskyros spalva</string>
@@ -51,7 +47,6 @@
   <string name="account_settings_tutorial_header_title">Žiūrėti pamoką</string>
   <string name="general_preference_mark_archive_messages_read">Archyvuoti kaip perskaitytą</string>
   <string name="general_preference_mark_archive_messages_read_description">Pažymėti laiškus kaip perskaitytus prieš juos archyvuojant</string>
-  <string name="search_hint">Paieška el. pašte</string>
   <string name="tutorial_done_button">Atlikta</string>
   <string name="tutorial_get_started_button">Pradėkite</string>
   <string name="tutorial_skip_tutorial">Praleisti pamoką</string>
@@ -59,7 +54,6 @@
   <string name="tutorial_text1">Archyvuoti senus laiškus yra taip paprasta, kaip braukiant juos nuo ekrano. Dabar pabandykite braukti pranešimą į viršų.</string>
   <string name="tutorial_text2">Ištrinti pranešimą yra taip pat greitą. Pabandykite braukti toliau į kairę, kad ištrintumėte.</string>
   <string name="tutorial_text3">Padarėte klaidą? Nesijaudinkite, jūs apsaugotas. Pabandykite bakstelėti mygtuką atšaukti, kad ištaisytumėtę klaidą.</string>
-  <string name="tutorial_text4">Dabar jūs turite būdų, kaip greitai imtis veiksmų dėl el. pašto. Braukite į dešinę, kad pamatytumėte veiksmų tinklelį.</string>
   <string name="tutorial_text5">Pabandykite bakstelėti „Šlamštas“, kad pažymėtumėte šį pranešimą kaip šlamštą.</string>
   <string name="oauth_authentication_title">Prašoma leidimo</string>
   <string name="sign_in_title">Prisijungti</string>
@@ -70,4 +64,5 @@
   <string name="authentication_label">Atpažinimas</string>
   <string name="add_authentication_label">Pridėti autentifikavimą</string>
   <string name="oauth_saving_message">Išsaugoma\u2026</string>
+  <string name="about_app_header_title">Apie</string>
 </resources>

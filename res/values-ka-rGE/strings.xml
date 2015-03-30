@@ -32,6 +32,7 @@
   <string name="menu_folder_options">სინქრონიზაციის პარამეტრები</string>
   <string name="status_network_error">კავშირის პრობლემა.</string>
   <plurals name="move_messages">
+    <item quantity="one">შეტყობინებების გადატანა</item>
     <item quantity="other">შეტყობინებების გადატანა</item>
   </plurals>
   <string name="cannot_move_protocol_not_supported_toast">გადაადგილება მხარდაუჭერელია POP3 ანგარიშებისთვის.</string>
@@ -59,15 +60,19 @@
   <string name="login_failed_ticker"><xliff:g id="ACCOUNT_NAME">%s</xliff:g> შესვლა წარუმატებლად დასრულდა.</string>
   <string name="login_failed_title">შესვლა ვერ მოხერხდა</string>
   <plurals name="message_view_attachment_bytes">
+    <item quantity="one"><xliff:g id="SIZE_IN_BYTES">%d</xliff:g>ბაიტი</item>
     <item quantity="other"><xliff:g id="SIZE_IN_BYTES">%d</xliff:g>ბაიტი</item>
   </plurals>
   <plurals name="message_view_attachment_kilobytes">
+    <item quantity="one"><xliff:g id="SIZE_IN_KILOBYTES">%d</xliff:g>კბაიტი</item>
     <item quantity="other"><xliff:g id="SIZE_IN_KILOBYTES">%d</xliff:g>კბაიტი</item>
   </plurals>
   <plurals name="message_view_attachment_megabytes">
+    <item quantity="one"><xliff:g id="SIZE_IN_MEGABYTES">%d</xliff:g>მბაიტი</item>
     <item quantity="other"><xliff:g id="SIZE_IN_MEGABYTES">%d</xliff:g>მბაიტი</item>
   </plurals>
   <plurals name="message_view_attachment_gigabytes">
+    <item quantity="one"><xliff:g id="SIZE_IN_GIGABYTES">%d</xliff:g>გბაიტი</item>
     <item quantity="other"><xliff:g id="SIZE_IN_GIGABYTES">%d</xliff:g>გბაიტი</item>
   </plurals>
   <string name="account_setup_basics_title">ანგარიშის დაყენება</string>

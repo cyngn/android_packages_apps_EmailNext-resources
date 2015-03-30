@@ -59,7 +59,6 @@
   <string name="tutorial_text1">Archiving old emails is as simple as swiping them off your screen. Try swiping the message above now.</string>
   <string name="tutorial_text2">Deleting a message is fast too. Try swiping farther left to delete.</string>
   <string name="tutorial_text3">Make a mistake? Don\'t worry, you\'re covered. Try tapping the undo button now to correct a mistake.</string>
-  <string name="tutorial_text4">You now have a ton of ways to quickly take action on mail. Swipe to the right to see the action grid.</string>
   <string name="tutorial_text5">Try tapping \'Spam\' to mark this message as spam.</string>
   <string name="oauth_authentication_title">Requesting authorization</string>
   <string name="sign_in_title">Sign in</string>

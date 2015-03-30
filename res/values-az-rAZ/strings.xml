@@ -17,6 +17,9 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="permission_read_attachment_label">E-poçt qoşmalarını oxu</string>
   <string name="permission_read_attachment_desc">Tətbiqetməyə e-poçt qoşmalarını oxuma icazəsi verər.</string>
-  <string name="permission_access_provider_label">E-poçt təchizatçısı verilənlərinə giriş</string>
-  <string name="permission_access_provider_desc">Tətbiqetməyə qəbul edilən və göndərilən mesajlar, istifadəçi adları və şifrələrdə daxil olmaqla e-poçt verilənlər bazanıza giriş icazəsi verər.</string>
+  <string name="permission_access_provider_label">E-poçt təchizatçısı verilənlərinə müraciət</string>
+  <string name="permission_access_provider_desc">Tətbiqetməyə qəbul edilən və göndərilən mesajlar, istifadəçi adları və şifrələrdə daxil olmaqla e-poçt verilənlər bazanıza müraciət icazəsi verər.</string>
+  <string name="account_setup_failed_certificate_inaccessible">Sertifikat etibarsızdır və ya müraciət edilə bilməz.</string>
+  <string name="provider_note_live">Yalnız bəzi \"Plus\" hesabları bu proqramın əlaqə yaratmasına icazə verən POP müraciəti ehtiva edir. Düzgün e-poçt ünvanı və şifrənizlə giriş edə bilmirsinizsə, ödəniş edilən \"Plus\" hesabına sahib olmaya bilərsiniz. Bu e-poçt ünvanlarına müraciət üçün web səyyahınızı başladın.</string>
+  <string name="provider_note_t_online">Bu e-poçt hesabını tənzimləməmişdən əvvəl, T-Online veb saytına ziyarət edin və POP3 e-poçt müraciəti üçün şifrə yaradın.</string>
 </resources>
