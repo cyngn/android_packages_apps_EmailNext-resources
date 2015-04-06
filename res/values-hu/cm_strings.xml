@@ -47,6 +47,7 @@
   <string name="account_settings_tutorial_header_title">Útmutató megtekintése</string>
   <string name="general_preference_mark_archive_messages_read">Archív megjelölése olvasottként</string>
   <string name="general_preference_mark_archive_messages_read_description">Email megjelölése olvasottként archiválás előtt</string>
+  <string name="search_hint">E-mail keresése\u2026</string>
   <string name="tutorial_done_button">Kész</string>
   <string name="tutorial_get_started_button">Kezdjünk bele</string>
   <string name="tutorial_skip_tutorial">Bemutató kihagyása</string>
@@ -54,6 +55,7 @@
   <string name="tutorial_text1">A régi üzenetek archiválása olyan egyszerű, mint a képernyőről való kicsúsztatás. Próbálja most kicsúsztatni a fenti üzenetet.</string>
   <string name="tutorial_text2">Törölni is lehet gyorsan. Próbáld balra kihúzni.</string>
   <string name="tutorial_text3">Elrontott valamit? Ne aggódjon, be van biztosítva. Érintse meg a visszavonás gombot, hogy a hibát kijavítsa.</string>
+  <string name="tutorial_text4">Mostantól rengeteg módja van, hogy gyors műveleteket végezzen az e-mailen. Csúsztasson balra a műveleti rács megjelenítéséhez.</string>
   <string name="tutorial_text5">Kattints a Spam -re szemétnek jelöléshez.</string>
   <string name="oauth_authentication_title">Hitelesítés indítása</string>
   <string name="sign_in_title">Bejelentkezés</string>
@@ -64,4 +66,5 @@
   <string name="authentication_label">Hitelesítés</string>
   <string name="add_authentication_label">Hitelesítés használata</string>
   <string name="oauth_saving_message">Mentés...</string>
+  <string name="about_app_header_title">Névjegy</string>
 </resources>

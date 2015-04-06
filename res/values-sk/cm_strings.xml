@@ -35,7 +35,10 @@
   <string name="account_setup_options_mail_check_frequency_2hour">Každé 2 hodiny</string>
   <string name="account_setup_options_mail_check_frequency_4hour">Každé 4 hodiny</string>
   <string name="account_setup_options_mail_check_frequency_1day">Každý deň</string>
+  <string name="account_setup_options_notify_label"><b>Upozorniť ma</b> na príchod e-mailu</string>
+  <string name="account_setup_options_sync_contacts_label"><b>Synchronizovať kontakty</b> z tohto účtu</string>
   <string name="account_setup_options_sync_calendar_label"><b>Synchronizovať kalendár</b> z tohto účtu</string>
+  <string name="account_setup_options_sync_email_label"><b>Synchronizovať e-mail</b> z tohto účtu</string>
   <string name="account_setup_options_disable_convo_threading_label">Vypnúť konverzácie vo vláknach</string>
   <string name="account_settings_show_all_images_title">Obrázky</string>
   <string name="account_settings_account_color_title">Farba účtu</string>
@@ -56,6 +59,7 @@
   <string name="tutorial_text1">Archiváciu starých e-mailov vykonáte ich potiahnutím mimo obrazovky. Teraz potiahnite správu vyššie.</string>
   <string name="tutorial_text2">Vymazanie správy je príliš rýchle. Potiahnite ďalej doľava pre vymazanie.</string>
   <string name="tutorial_text3">Urobili ste chybu? Nevadí. Teraz kliknite na tlačidlo Späť pre opravu chyby.</string>
+  <string name="tutorial_text4">Teraz máte množstvo možností, ako rýchlo vykonať akcie na e-maile. Potiahnite doprava pre zobrazenie mriežky s akciami.</string>
   <string name="tutorial_text5">Kliknutím na \'Nevyžiadaná pošta\' označíte túto správu ako nevyžiadanú.</string>
   <string name="oauth_authentication_title">Požadovanie overenia</string>
   <string name="sign_in_title">Prihlásiť sa</string>

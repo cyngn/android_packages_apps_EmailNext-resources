@@ -17,4 +17,9 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="email_provider">E-poçt</string>
+  <string name="account_setup_options_notify_label">E-poçt gələndə mənə bildir</string>
+  <string name="account_setup_options_sync_contacts_label">Bu hesabdakı şəxsləri sinxronlaşdır</string>
+  <string name="account_setup_options_sync_calendar_label">Bu hesabdakı təqvimi sinxronlaşdır</string>
+  <string name="account_setup_options_sync_email_label">Bu hesabdan e-poçtu sinxronlaşdır</string>
+  <string name="search_hint">E-poçtda axtarın</string>
 </resources>

@@ -27,4 +27,5 @@
   <string name="tutorial_get_started_button">Sa incepem</string>
   <string name="tutorial_skip_tutorial">Sari peste</string>
   <string name="tutorial_text2">Stergerea unui mesaj este rapida de asemenea. Incercati sa trageti de mesaj mai departe la stanga pentru a-l sterge.</string>
+  <string name="about_app_header_title">Despre</string>
 </resources>

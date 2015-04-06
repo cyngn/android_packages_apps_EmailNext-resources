@@ -55,10 +55,11 @@
   <string name="tutorial_done_button">Gereed</string>
   <string name="tutorial_get_started_button">Beginnen</string>
   <string name="tutorial_skip_tutorial">Uitleg overslaan</string>
-  <string name="tutorial_finished_heading">Dat was het! \nTik hieronder om te starten met email.</string>
+  <string name="tutorial_finished_heading">Dat was het! \nTik hieronder om te starten met e-mail.</string>
   <string name="tutorial_text1">Archiveren van e-mails gebeurt met een simpele veegbeweging. Probeer bovenstaand bericht van het scherm af te vegen.</string>
   <string name="tutorial_text2">Een bericht verwijderen gaat ook snel. Probeer verder naar links te vegen om te verwijderen.</string>
   <string name="tutorial_text3">Een fout gemaakt? Geen zorgen, tik op de knop voor ongedaan maken om een fout te herstellen.</string>
+  <string name="tutorial_text4">U heeft nu veel manieren om e-mailacties uit te voeren. Veeg naar rechts om het actievenster te zien.</string>
   <string name="tutorial_text5">Tik op \'Spam\' om dit bericht als ongewenst te markeren.</string>
   <string name="oauth_authentication_title">Autorisatie verkrijgen</string>
   <string name="sign_in_title">Aanmelden</string>
