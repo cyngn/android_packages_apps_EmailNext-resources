@@ -55,6 +55,8 @@
     <string name="account_setup_options_disable_convo_threading_label">Turn off conversation threading</string>
     <!-- On Settings screen, setting option for showing all images -->
     <string name="account_settings_show_all_images_title">Images</string>
+    <string name="account_settings_show_all_images_show">Always show</string>
+    <string name="account_settings_show_all_images_ask">Ask before showing</string>
     <!-- On Settings Screen, setting option for setting the account color -->
     <string name="account_settings_account_color_title">Account color</string>
     <string name="account_settings_account_color_summary">Edit the color for this account</string>
@@ -99,4 +101,11 @@
     <string name="add_authentication_label">Add authentication</string>
     <string name="oauth_saving_message">Saving\u2026</string>
     <string name="about_app_header_title">About</string>
+
+    <!-- A sync window length setting (i.e. load messages this far back) [CHAR LIMIT=25]  -->
+    <string name="account_setup_options_mail_window_3months">Last 3 months</string>
+    <!-- A sync window length setting (i.e. load messages this far back) [CHAR LIMIT=25]  -->
+    <string name="account_setup_options_mail_window_6months">Last 6 months</string>
+
+    <string name="account_settings_unable_to_edit_field">Your administrator does not allow this field to be modified</string>
 </resources>
