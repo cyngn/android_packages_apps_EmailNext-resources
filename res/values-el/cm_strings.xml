@@ -41,6 +41,8 @@
   <string name="account_setup_options_sync_email_label"><b>Συγχρονισμός ηλεκτρονικού ταχυδρομείου</b> από αυτόν τον λογαριασμό</string>
   <string name="account_setup_options_disable_convo_threading_label">Απενεργοποίηση threading συνομιλιών</string>
   <string name="account_settings_show_all_images_title">Εικόνες</string>
+  <string name="account_settings_show_all_images_show">Πάντα εμφάνιση</string>
+  <string name="account_settings_show_all_images_ask">Ερώτηση πριν από την εμφάνιση</string>
   <string name="account_settings_account_color_title">Χρώμα λογαριασμού</string>
   <string name="account_settings_account_color_summary">Επεξεργαστείτε το χρώμα για αυτόν το λογαριασμό</string>
   <string name="account_settings_account_color_dialog_title">Επιλέξτε ένα χρώμα</string>
@@ -71,4 +73,7 @@
   <string name="add_authentication_label">Προσθήκη ελέγχου ταυτότητας</string>
   <string name="oauth_saving_message">Αποθήκευση\u2026</string>
   <string name="about_app_header_title">Σχετικά</string>
+  <string name="account_setup_options_mail_window_3months">Τελευταίοι 3 μήνες</string>
+  <string name="account_setup_options_mail_window_6months">Τελευταίοι 6 μήνες</string>
+  <string name="account_settings_unable_to_edit_field">Ο διαχειριστής σας δεν επιτρέπει την τροποποίηση αυτού του πεδίου</string>
 </resources>

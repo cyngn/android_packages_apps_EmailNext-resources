@@ -41,6 +41,8 @@
   <string name="account_setup_options_sync_email_label"><b>Synkronoi</b> tämän tilin <b>sähköpostit</b></string>
   <string name="account_setup_options_disable_convo_threading_label">Ota viestien yhdistäminen keskusteluiksi pois käytöstä</string>
   <string name="account_settings_show_all_images_title">Kuvat</string>
+  <string name="account_settings_show_all_images_show">Näytä aina</string>
+  <string name="account_settings_show_all_images_ask">Kysy ennen näyttämistä</string>
   <string name="account_settings_account_color_title">Tilin väri</string>
   <string name="account_settings_account_color_summary">Muokkaa tämän tilin väriä</string>
   <string name="account_settings_account_color_dialog_title">Valitse väri</string>
@@ -71,4 +73,7 @@
   <string name="add_authentication_label">Lisää todennus</string>
   <string name="oauth_saving_message">Tallennetaan\u2026</string>
   <string name="about_app_header_title">Tietoja</string>
+  <string name="account_setup_options_mail_window_3months">Viimeiset 3 kuukautta</string>
+  <string name="account_setup_options_mail_window_6months">Viimeiset 6 kuukautta</string>
+  <string name="account_settings_unable_to_edit_field">Järjestelmänvalvojasi ei salli tämän kentän muokkaamista</string>
 </resources>

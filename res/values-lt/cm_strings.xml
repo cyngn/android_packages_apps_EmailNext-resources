@@ -25,7 +25,7 @@
   <string name="account_setup_start_company_slogan_text">Sveiki atvykę į geresnę pašto dėžutę</string>
   <string name="account_setup_start_email_address_hint">Įveskite savo el. pašto adresą</string>
   <string name="account_setup_start_password_hint">Slaptažodis</string>
-  <string name="account_setup_start_get_started_button">Pradėkite</string>
+  <string name="account_setup_start_get_started_button">Pradėti</string>
   <string name="account_setup_start_login_button">Prisijungti</string>
   <string name="account_setup_start_invalid_email_address">Neteisingas el.pašto adresas</string>
   <string name="password_label">Slaptažodis</string>
@@ -41,19 +41,21 @@
   <string name="account_setup_options_sync_email_label"><b>Sinchronizuoti el. paštą</b> iš šios paskyros</string>
   <string name="account_setup_options_disable_convo_threading_label">Išjungti pokalbio gijų kūrimą</string>
   <string name="account_settings_show_all_images_title">Vaizdai</string>
+  <string name="account_settings_show_all_images_show">Visada rodyti</string>
+  <string name="account_settings_show_all_images_ask">Paklausti prieš parodant</string>
   <string name="account_settings_account_color_title">Paskyros spalva</string>
   <string name="account_settings_account_color_summary">Redaguoti paskyros spalvą</string>
   <string name="account_settings_account_color_dialog_title">Pasirinkti spalvą</string>
   <string name="account_settings_led_notification_label">Įgalinti LED pranešimą</string>
   <string name="account_settings_led_notification_custom_color">Naudoti tinkintą LED spalvą</string>
   <string name="account_settings_led_color_label">Tinkinta LED spalva</string>
-  <string name="account_settings_led_color_summary">Numatytoji reikšmė yra paskyros spalva</string>
+  <string name="account_settings_led_color_summary">Numatytoji vertė yra paskyros spalva</string>
   <string name="account_settings_tutorial_header_title">Žiūrėti pamoką</string>
   <string name="general_preference_mark_archive_messages_read">Archyvuoti kaip perskaitytą</string>
   <string name="general_preference_mark_archive_messages_read_description">Pažymėti laiškus kaip perskaitytus prieš juos archyvuojant</string>
   <string name="search_hint">Paieška\u2026</string>
   <string name="tutorial_done_button">Atlikta</string>
-  <string name="tutorial_get_started_button">Pradėkite</string>
+  <string name="tutorial_get_started_button">Pradėti</string>
   <string name="tutorial_skip_tutorial">Praleisti pamoką</string>
   <string name="tutorial_finished_heading">Štai ir viskas!\nSpustelėkite žemiau, kad pradėtumėte naudotis el. paštu.</string>
   <string name="tutorial_text1">Archyvuoti senus laiškus yra taip paprasta, kaip braukiant juos nuo ekrano. Dabar pabandykite braukti pranešimą į viršų.</string>
@@ -71,4 +73,7 @@
   <string name="add_authentication_label">Pridėti autentifikavimą</string>
   <string name="oauth_saving_message">Išsaugoma\u2026</string>
   <string name="about_app_header_title">Apie</string>
+  <string name="account_setup_options_mail_window_3months">Paskutinius 3 mėnesius</string>
+  <string name="account_setup_options_mail_window_6months">Paskutinius 6 mėnesius</string>
+  <string name="account_settings_unable_to_edit_field">Administratorius neleidžia keisti šio lauko</string>
 </resources>

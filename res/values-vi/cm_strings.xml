@@ -16,10 +16,9 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="email_provider">E-poçt</string>
-  <string name="account_setup_options_notify_label">E-poçt gələndə <b>mənə bildir</b></string>
-  <string name="account_setup_options_sync_contacts_label">Bu hesabdakı <b>şəxsləri sinxronlaşdır</b></string>
-  <string name="account_setup_options_sync_calendar_label">Bu hesabdakı <b>təqvimi sinxronlaşdır</b></string>
-  <string name="account_setup_options_sync_email_label">Bu hesabdan <b>e-poçtu sinxronlaşdır</b></string>
-  <string name="search_hint">E-poçtda axtarın</string>
+  <string name="email_provider">Email</string>
+  <string name="mailbox_name_display_archive">Lưu trữ</string>
+  <string name="account_settings_led_notification_label">Bật đèn thông báo</string>
+  <string name="tutorial_done_button">Xong</string>
+  <string name="sign_in_button">Xong</string>
 </resources>

@@ -41,6 +41,8 @@
   <string name="account_setup_options_sync_email_label"><b>Synchronizuj e-maile</b> z tego konta</string>
   <string name="account_setup_options_disable_convo_threading_label">Wyłącz wygląd konwersacji w wątkach</string>
   <string name="account_settings_show_all_images_title">Zdjęcia</string>
+  <string name="account_settings_show_all_images_show">Zawsze wyświetlaj</string>
+  <string name="account_settings_show_all_images_ask">Zapytaj przed wyświetleniem</string>
   <string name="account_settings_account_color_title">Kolor konta</string>
   <string name="account_settings_account_color_summary">Edycja kolorów dla tego konta</string>
   <string name="account_settings_account_color_dialog_title">Wybierz kolor</string>
@@ -59,6 +61,7 @@
   <string name="tutorial_text1">Archiwizowanie starych e-maili jest proste, wystarczy przesunąć je poza ekran. Spróbuj teraz przesunąć powyższą wiadomość.</string>
   <string name="tutorial_text2">Usuwanie wiadomości też jest szybkie. Spróbuj przesunąć palcem dalej w lewo, aby usunąć.</string>
   <string name="tutorial_text3">Pomyłka? Nie martw się, jesteś kryty. Spróbuj nacisnąć przycisk cofnij, aby poprawić błąd.</string>
+  <string name="tutorial_text4">Teraz masz mnóstwo sposobów, aby szybko działać w aplikacji e-mail. Przesuń palcem w prawo, aby zobaczyć siatkę szybkich akcji.</string>
   <string name="tutorial_text5">Wybierz \"Spam\", aby oznaczyć tą wiadomość jako spam.</string>
   <string name="oauth_authentication_title">Żądanie autoryzacji</string>
   <string name="sign_in_title">Zaloguj się</string>
@@ -70,4 +73,7 @@
   <string name="add_authentication_label">Dodaj uwierzytelnienia</string>
   <string name="oauth_saving_message">Zapisywanie\u2026</string>
   <string name="about_app_header_title">O programie</string>
+  <string name="account_setup_options_mail_window_3months">Ostatnie 3 miesiące</string>
+  <string name="account_setup_options_mail_window_6months">Ostatnie 6 miesięcy</string>
+  <string name="account_settings_unable_to_edit_field">Twój administrator nie zezwala na modyfikację tego pola</string>
 </resources>

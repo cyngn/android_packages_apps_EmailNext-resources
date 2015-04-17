@@ -41,6 +41,8 @@
   <string name="account_setup_options_sync_email_label">Bu hesaptaki <b>e-postaları eşitle</b></string>
   <string name="account_setup_options_disable_convo_threading_label">Sohbet gruplandırmasını kapat</string>
   <string name="account_settings_show_all_images_title">Görseller</string>
+  <string name="account_settings_show_all_images_show">Her zaman göster</string>
+  <string name="account_settings_show_all_images_ask">Göstermeden önce sor</string>
   <string name="account_settings_account_color_title">Hesap rengi</string>
   <string name="account_settings_account_color_summary">Bu hesabın rengini düzenle</string>
   <string name="account_settings_account_color_dialog_title">Bir renk seçin</string>
@@ -71,4 +73,7 @@
   <string name="add_authentication_label">Kimlik doğrulama ekle</string>
   <string name="oauth_saving_message">Kaydediliyor\u2026</string>
   <string name="about_app_header_title">Hakkında</string>
+  <string name="account_setup_options_mail_window_3months">Son 3 ay</string>
+  <string name="account_setup_options_mail_window_6months">Son 6 ay</string>
+  <string name="account_settings_unable_to_edit_field">Yöneticiniz bu alanının değiştirilmesine izin vermiyor</string>
 </resources>

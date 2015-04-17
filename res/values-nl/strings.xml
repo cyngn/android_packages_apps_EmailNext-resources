@@ -140,9 +140,9 @@
   <string name="account_setup_options_mail_window_label">Dagen om te synchroniseren</string>
   <string name="account_setup_options_mail_window_auto">Automatisch</string>
   <string name="account_setup_options_mail_window_1day">Afgelopen dag</string>
-  <string name="account_setup_options_mail_window_3days">Afgelopen drie dagen</string>
+  <string name="account_setup_options_mail_window_3days">Afgelopen 3 dagen</string>
   <string name="account_setup_options_mail_window_1week">Afgelopen week</string>
-  <string name="account_setup_options_mail_window_2weeks">Afgelopen twee weken</string>
+  <string name="account_setup_options_mail_window_2weeks">Afgelopen 2 weken</string>
   <string name="account_setup_options_mail_window_1month">Afgelopen maand</string>
   <string name="account_setup_options_mail_window_all">Alles</string>
   <string name="account_setup_options_mail_window_default">Accountstandaard gebruiken</string>

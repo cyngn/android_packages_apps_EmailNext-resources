@@ -41,6 +41,8 @@
   <string name="account_setup_options_sync_email_label">同步此帐户中的<b>电子邮件</b></string>
   <string name="account_setup_options_disable_convo_threading_label">关闭会话线程</string>
   <string name="account_settings_show_all_images_title">图片</string>
+  <string name="account_settings_show_all_images_show">总是显示</string>
+  <string name="account_settings_show_all_images_ask">在显示之前询问</string>
   <string name="account_settings_account_color_title">帐户颜色</string>
   <string name="account_settings_account_color_summary">编辑此帐户的颜色</string>
   <string name="account_settings_account_color_dialog_title">选取一种颜色</string>
@@ -71,4 +73,7 @@
   <string name="add_authentication_label">添加身份验证</string>
   <string name="oauth_saving_message">正在保存\u2026</string>
   <string name="about_app_header_title">关于</string>
+  <string name="account_setup_options_mail_window_3months">过去 3 个月</string>
+  <string name="account_setup_options_mail_window_6months">过去 6 个月</string>
+  <string name="account_settings_unable_to_edit_field">您的管理员不允许您修改此字段</string>
 </resources>

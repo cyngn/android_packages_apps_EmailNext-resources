@@ -41,6 +41,8 @@
   <string name="account_setup_options_sync_email_label"><b>Sincronitza el correu</b> d\'aquest compte</string>
   <string name="account_setup_options_disable_convo_threading_label">Desactiva els fils per les converses</string>
   <string name="account_settings_show_all_images_title">Imatges</string>
+  <string name="account_settings_show_all_images_show">Mostra sempre</string>
+  <string name="account_settings_show_all_images_ask">Pregunta abans de mostrar</string>
   <string name="account_settings_account_color_title">Color del compte</string>
   <string name="account_settings_account_color_summary">Edita el color per a aquest compte</string>
   <string name="account_settings_account_color_dialog_title">Tria un color</string>
@@ -71,4 +73,7 @@
   <string name="add_authentication_label">Afegeix autentificació</string>
   <string name="oauth_saving_message">S\'està desant\u2026</string>
   <string name="about_app_header_title">Quant a</string>
+  <string name="account_setup_options_mail_window_3months">3 últims mesos</string>
+  <string name="account_setup_options_mail_window_6months">6 últims mesos</string>
+  <string name="account_settings_unable_to_edit_field">El teu administrador no permet que aquest camp sigui modificat</string>
 </resources>

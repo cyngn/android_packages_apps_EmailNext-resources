@@ -184,7 +184,7 @@
   <string name="password_expired_ticker">Il PIN o la password di blocco dello schermo sono scaduti.</string>
   <string name="password_expired_content_title">Password blocco schermo scaduta</string>
   <string name="password_expire_warning_dialog_title">Password blocco schermo in scadenza</string>
-  <string name="password_expire_warning_dialog_content_fmt">Appena possibile devi cambiare il PIN o la password di blocco dello schermo; in caso contrario i dati di <xliff:g id="ACCOUNT">%s</xliff:g> verranno cancellati. Vuoi apportare la modifica ora?</string>
+  <string name="password_expire_warning_dialog_content_fmt">Appena possibile devi cambiare il PIN o la password di blocco dello schermo; in caso contrario i dati di <xliff:g id="ACCOUNT">%s</xliff:g> verranno eliminati. Vuoi apportare la modifica ora?</string>
   <string name="password_expired_dialog_title">Password blocco schermo scaduta</string>
   <string name="password_expired_dialog_content_fmt">I dati relativi a <xliff:g id="ACCOUNT">%s</xliff:g> stanno per essere cancellati dal dispositivo. È possibile ripristinarli modificando il PIN o la password di blocco dello schermo. Vuoi apportare la modifica ora?</string>
   <string name="account_settings_exit_server_settings">Ignorare le modifiche non salvate?</string>
