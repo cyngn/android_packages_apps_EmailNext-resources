@@ -41,6 +41,8 @@
   <string name="account_setup_options_sync_email_label"><b>Synchronizovať e-mail</b> z tohto účtu</string>
   <string name="account_setup_options_disable_convo_threading_label">Vypnúť konverzácie vo vláknach</string>
   <string name="account_settings_show_all_images_title">Obrázky</string>
+  <string name="account_settings_show_all_images_show">Vždy zobrazovať</string>
+  <string name="account_settings_show_all_images_ask">Opýtať sa pred zobrazením</string>
   <string name="account_settings_account_color_title">Farba účtu</string>
   <string name="account_settings_account_color_summary">Upraviť farbu pre tento účet</string>
   <string name="account_settings_account_color_dialog_title">Vyberte farbu</string>
@@ -71,4 +73,7 @@
   <string name="add_authentication_label">Pridať overenie</string>
   <string name="oauth_saving_message">Ukladanie\u2026</string>
   <string name="about_app_header_title">O aplikácii</string>
+  <string name="account_setup_options_mail_window_3months">Posledné 3 mesiace</string>
+  <string name="account_setup_options_mail_window_6months">Posledných 6 mesiacov</string>
+  <string name="account_settings_unable_to_edit_field">Správca nepovolil úpravu tohto poľa</string>
 </resources>

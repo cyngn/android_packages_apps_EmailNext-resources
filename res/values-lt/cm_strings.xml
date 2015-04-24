@@ -42,7 +42,7 @@
   <string name="account_setup_options_disable_convo_threading_label">Išjungti pokalbio gijų kūrimą</string>
   <string name="account_settings_show_all_images_title">Vaizdai</string>
   <string name="account_settings_show_all_images_show">Visada rodyti</string>
-  <string name="account_settings_show_all_images_ask">Paklausti prieš parodant</string>
+  <string name="account_settings_show_all_images_ask">Paklausti prieš rodant</string>
   <string name="account_settings_account_color_title">Paskyros spalva</string>
   <string name="account_settings_account_color_summary">Redaguoti paskyros spalvą</string>
   <string name="account_settings_account_color_dialog_title">Pasirinkti spalvą</string>

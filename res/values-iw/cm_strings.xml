@@ -19,7 +19,7 @@
   <string name="email_provider">דוא\"ל</string>
   <string name="mailbox_name_display_local_drafts">טיוטות מקומיות</string>
   <string name="mailbox_name_display_server_drafts">טיוטות שרת</string>
-  <string name="mailbox_name_display_todo">משימות לביצוע</string>
+  <string name="mailbox_name_display_todo">לביצוע</string>
   <string name="mailbox_name_display_archive">העבר לארכיון</string>
   <string name="mailbox_name_local_only_display_name"> - מקומי</string>
   <string name="account_setup_start_company_slogan_text">ברוכים הבאים לדוא\"ל טוב יותר</string>

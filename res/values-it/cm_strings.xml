@@ -41,6 +41,8 @@
   <string name="account_setup_options_sync_email_label">Sincronizza email di questo account</string>
   <string name="account_setup_options_disable_convo_threading_label">Disattivare il threading per la conversazione</string>
   <string name="account_settings_show_all_images_title">Immagini</string>
+  <string name="account_settings_show_all_images_show">Mostra sempre</string>
+  <string name="account_settings_show_all_images_ask">Chiedi prima di mostrare</string>
   <string name="account_settings_account_color_title">Colore dell\'account</string>
   <string name="account_settings_account_color_summary">Modifica il colore per questo account</string>
   <string name="account_settings_account_color_dialog_title">Scegli un colore</string>
@@ -71,4 +73,7 @@
   <string name="add_authentication_label">Aggiungi autenticazione</string>
   <string name="oauth_saving_message">Salvataggio...</string>
   <string name="about_app_header_title">Info</string>
+  <string name="account_setup_options_mail_window_3months">Ultimi 3 mesi</string>
+  <string name="account_setup_options_mail_window_6months">Ultimi 6 mesi</string>
+  <string name="account_settings_unable_to_edit_field">L\'amministratore non consente di modificare questo campo</string>
 </resources>

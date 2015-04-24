@@ -41,6 +41,8 @@
   <string name="account_setup_options_sync_email_label">Synkroniser e-mails fra denne konto</string>
   <string name="account_setup_options_disable_convo_threading_label">Slå samtalevisning fra</string>
   <string name="account_settings_show_all_images_title">Billeder</string>
+  <string name="account_settings_show_all_images_show">Vis altid</string>
+  <string name="account_settings_show_all_images_ask">Spørg før visning</string>
   <string name="account_settings_account_color_title">Konto farve</string>
   <string name="account_settings_account_color_summary">Redigér farven på denne konto</string>
   <string name="account_settings_account_color_dialog_title">Vælg en farve</string>
@@ -59,6 +61,7 @@
   <string name="tutorial_text1">Arkivering af gamle e-mails er så simpelt som at skubbe dem ud af skærmen. Prøv at skubbe beskeden ovenfor væk.</string>
   <string name="tutorial_text2">Sletning af en meddelelse er også hurtigt. Prøv at skubbe længere mod venstre for at slette.</string>
   <string name="tutorial_text3">Lavet en fejl? Ingen grund til bekymring. Prøv at trykke på knappen \'Fortryd\' nu for at rette en fejl.</string>
+  <string name="tutorial_text4">Du har nu et væld af muligheder for at håndtere mails. Stryg til højre for at se handlingsgitter.</string>
   <string name="tutorial_text5">Prøv at klikke \'Spam\' for at markere meddelelsen som spam.</string>
   <string name="oauth_authentication_title">Anmoder om tilladelse</string>
   <string name="sign_in_title">Log ind</string>
@@ -69,4 +72,8 @@
   <string name="authentication_label">Godkendelse</string>
   <string name="add_authentication_label">Tilføj godkendelse</string>
   <string name="oauth_saving_message">Gemmer\u2026</string>
+  <string name="about_app_header_title">Om</string>
+  <string name="account_setup_options_mail_window_3months">Seneste 3 måneder</string>
+  <string name="account_setup_options_mail_window_6months">Seneste 6 måneder</string>
+  <string name="account_settings_unable_to_edit_field">Administratoren tillader ikke at dette felt ændres</string>
 </resources>

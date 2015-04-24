@@ -17,6 +17,8 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="email_provider">E-post</string>
+  <string name="mailbox_name_display_todo">Att göra</string>
+  <string name="account_setup_start_password_hint">Lösenord</string>
   <string name="account_setup_start_login_button">Logga in</string>
   <string name="password_label">Lösenord</string>
   <string name="account_settings_show_all_images_title">Bilder</string>
