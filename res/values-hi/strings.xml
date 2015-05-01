@@ -251,11 +251,11 @@
   <string name="general_preference_confirm_send_summary">संदेश</string>
   <string name="general_preference_text_zoom_label">संदेश पाठ का आकार</string>
   <string-array name="general_preference_text_zoom_summary_array">
-    <item>Tiny text</item>
+    <item>छोटा पाठ</item>
     <item>छोटा पाठ</item>
     <item>सामान्य आकार का पाठ</item>
     <item>बड़ा पाठ</item>
-    <item>Huge text</item>
+    <item>बड़ा पाठ</item>
   </string-array>
   <string name="general_preference_text_zoom_dialog_title">संदेश पाठ का आकार</string>
   <string name="general_preference_text_zoom_tiny">बहुत छोटा</string>

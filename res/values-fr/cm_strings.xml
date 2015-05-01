@@ -39,7 +39,7 @@
   <string name="account_setup_options_sync_contacts_label"><b>Synchroniser les contacts</b> de ce compte</string>
   <string name="account_setup_options_sync_calendar_label"><b>Synchroniser l\'agenda</b> de ce compte</string>
   <string name="account_setup_options_sync_email_label"><b>Synchroniser les e-mails</b> de ce compte</string>
-  <string name="account_setup_options_disable_convo_threading_label">Désactiver l\'enfilade de la discussion</string>
+  <string name="account_setup_options_disable_convo_threading_label">Désactiver les discussions en cascade</string>
   <string name="account_settings_show_all_images_title">Images</string>
   <string name="account_settings_account_color_title">Couleur du compte</string>
   <string name="account_settings_account_color_summary">Modifier la couleur du compte</string>
