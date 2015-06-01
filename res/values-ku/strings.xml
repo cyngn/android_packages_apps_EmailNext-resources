@@ -66,20 +66,20 @@
         <xliff:g id="account_name">%s</xliff:g> چوونه‌ژووره‌وه‌ سه‌رکه‌وتوونه‌بوو.</string>
   <string name="login_failed_title">نەتوانرا بچێتەژورەوە</string>
   <plurals name="message_view_attachment_bytes">
-    <item quantity="one"><xliff:g id="size_in_bytes" example="1">%d</xliff:g>B</item>
-    <item quantity="other"><xliff:g id="size_in_bytes" example="279">%d</xliff:g>B</item>
+    <item quantity="one"><xliff:g id="size_in_bytes" example="١">%d</xliff:g>B</item>
+    <item quantity="other"><xliff:g id="size_in_bytes" example="٢٧٩">%d</xliff:g>B</item>
   </plurals>
   <plurals name="message_view_attachment_kilobytes">
-    <item quantity="one"><xliff:g id="size_in_kilobytes" example="1">%d</xliff:g>KB</item>
-    <item quantity="other"><xliff:g id="size_in_kilobytes" example="279">%d</xliff:g>KB</item>
+    <item quantity="one"><xliff:g id="size_in_kilobytes" example="١">%d</xliff:g>KB</item>
+    <item quantity="other"><xliff:g id="size_in_kilobytes" example="٢٧٩">%d</xliff:g>KB</item>
   </plurals>
   <plurals name="message_view_attachment_megabytes">
-    <item quantity="one"><xliff:g id="size_in_megabytes" example="1">%d</xliff:g>MB</item>
-    <item quantity="other"><xliff:g id="size_in_megabytes" example="279">%d</xliff:g>MB</item>
+    <item quantity="one"><xliff:g id="size_in_megabytes" example="١">%d</xliff:g>MB</item>
+    <item quantity="other"><xliff:g id="size_in_megabytes" example="٢٧٩">%d</xliff:g>MB</item>
   </plurals>
   <plurals name="message_view_attachment_gigabytes">
-    <item quantity="one"><xliff:g id="size_in_gigabytes" example="1">%d</xliff:g>GB</item>
-    <item quantity="other"><xliff:g id="size_in_gigabytes" example="279">%d</xliff:g>GB</item>
+    <item quantity="one"><xliff:g id="size_in_gigabytes" example="١">%d</xliff:g>GB</item>
+    <item quantity="other"><xliff:g id="size_in_gigabytes" example="٢٧٩">%d</xliff:g>GB</item>
   </plurals>
   <string name="account_setup_basics_title">دامه‌زراندنی هه‌ژمار</string>
   <string name="account_setup_basics_headline">هه‌ژماری پۆستی ئه‌لیکترۆنی</string>
@@ -344,7 +344,7 @@
      سوڕاوه‌نه‌یی.</string>
   <string name="confirm_response">ناردنی وه‌ڵام&#8230;</string>
   <string name="imap_name">IMAP</string>
-  <string name="pop3_name">POP3</string>
+  <string name="pop3_name">POP٣</string>
   <string name="folder_picker_title">بوخچه‌گر</string>
   <string name="trash_folder_selection_title">دیاریکردنی زبڵی ڕاژه‌ بۆ بوخچه‌ی <xliff:g id="account">%s</xliff:g></string>
   <string name="sent_folder_selection_title">دیاریکردنی ڕاژه‌ی ناردن بۆ بوخچه‌ی <xliff:g id="account">%s</xliff:g></string>

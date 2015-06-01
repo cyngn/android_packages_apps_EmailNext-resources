@@ -89,7 +89,7 @@
   <string name="account_setup_check_settings_check_outgoing_msg">SMTP ayarları doğrulanıyor…</string>
   <string name="account_setup_creating_account_msg">Hesap oluşturuluyor...</string>
   <string name="account_setup_names_title">Hesap kurulumu</string>
-  <string name="account_setup_names_headline">Hesabınız ayarlandı ve e-posta gönderildi!</string>
+  <string name="account_setup_names_headline">Hesabınız ayarlandı artık kullanabilirsiniz!</string>
   <string name="account_setup_names_account_name_label">Bu hesaba bir ad ver (isteğe bağlı)</string>
   <string name="account_setup_names_user_name_label">Adınız (giden iletilerde görüntülenir)</string>
   <string name="account_setup_names_user_name_empty_error">Bu alan boş olamaz.</string>

@@ -41,6 +41,8 @@
   <string name="account_setup_options_sync_email_label"><b>Синхронизуј е-пошту</b> са овог налога</string>
   <string name="account_setup_options_disable_convo_threading_label">Искључи низање преписки</string>
   <string name="account_settings_show_all_images_title">Слике</string>
+  <string name="account_settings_show_all_images_show">Увек прикажи</string>
+  <string name="account_settings_show_all_images_ask">Питај пре показивања</string>
   <string name="account_settings_account_color_title">Боја налога</string>
   <string name="account_settings_account_color_summary">Промени боју за овај налог</string>
   <string name="account_settings_account_color_dialog_title">Изабери боју</string>
@@ -71,4 +73,7 @@
   <string name="add_authentication_label">Додај проверу</string>
   <string name="oauth_saving_message">Чување\u2026</string>
   <string name="about_app_header_title">О програму</string>
+  <string name="account_setup_options_mail_window_3months">Задња 3 месеца</string>
+  <string name="account_setup_options_mail_window_6months">Задњих 6 месеци</string>
+  <string name="account_settings_unable_to_edit_field">Твој администратор не дозвољава да се ово поље мења</string>
 </resources>

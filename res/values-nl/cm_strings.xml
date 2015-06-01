@@ -24,7 +24,7 @@
   <string name="mailbox_name_local_only_display_name"> - Lokaal</string>
   <string name="account_setup_start_company_slogan_text">Welkom bij een verbeterde inbox</string>
   <string name="account_setup_start_email_address_hint">E-mailadres invoeren</string>
-  <string name="account_setup_start_password_hint">Wachtwoord</string>
+  <string name="account_setup_start_password_hint">wachtwoord</string>
   <string name="account_setup_start_get_started_button">Beginnen</string>
   <string name="account_setup_start_login_button">Inloggen</string>
   <string name="account_setup_start_invalid_email_address">Ongeldig e-mailadres ingevoerd</string>

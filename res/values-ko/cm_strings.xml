@@ -41,6 +41,8 @@
   <string name="account_setup_options_sync_email_label">이 계정에서 <b>이메일 동기화</b></string>
   <string name="account_setup_options_disable_convo_threading_label">대화형 메일 보기 끄기</string>
   <string name="account_settings_show_all_images_title">이미지</string>
+  <string name="account_settings_show_all_images_show">항상 표시</string>
+  <string name="account_settings_show_all_images_ask">표시하기 전에 물음</string>
   <string name="account_settings_account_color_title">계정 색상</string>
   <string name="account_settings_account_color_summary">이 계정의 색상 편집</string>
   <string name="account_settings_account_color_dialog_title">색상 선택</string>
@@ -71,4 +73,7 @@
   <string name="add_authentication_label">인증 추가</string>
   <string name="oauth_saving_message">저장\u2026</string>
   <string name="about_app_header_title">정보</string>
+  <string name="account_setup_options_mail_window_3months">최근 3달</string>
+  <string name="account_setup_options_mail_window_6months">최근 6달</string>
+  <string name="account_settings_unable_to_edit_field">관리자가 이 값을 수정하지 못하게 하였습니다</string>
 </resources>

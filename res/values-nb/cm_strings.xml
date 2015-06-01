@@ -41,6 +41,8 @@
   <string name="account_setup_options_sync_email_label">Synkroniser e-poster fra denne kontoen</string>
   <string name="account_setup_options_disable_convo_threading_label">Slå av samtaletråder</string>
   <string name="account_settings_show_all_images_title">Bilder</string>
+  <string name="account_settings_show_all_images_show">Vis alltid</string>
+  <string name="account_settings_show_all_images_ask">Spør før du viser</string>
   <string name="account_settings_account_color_title">Konto farge</string>
   <string name="account_settings_account_color_summary">Endre farge for denne kontoen</string>
   <string name="account_settings_account_color_dialog_title">Velg en farge</string>
@@ -71,4 +73,7 @@
   <string name="add_authentication_label">Legg til godkjenning</string>
   <string name="oauth_saving_message">Lagrer\u2026</string>
   <string name="about_app_header_title">Om</string>
+  <string name="account_setup_options_mail_window_3months">Siste 3 måneder</string>
+  <string name="account_setup_options_mail_window_6months">Siste 6 måneder</string>
+  <string name="account_settings_unable_to_edit_field">Systemansvarlig tillater ikke at dette feltet endres</string>
 </resources>
