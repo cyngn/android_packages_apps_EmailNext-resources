@@ -25,7 +25,6 @@
     <!-- In the UI, the archive will be displayed with this name -->
     <string name="mailbox_name_display_archive">Archive</string>
     <string name="mailbox_name_local_only_display_name"> - Local</string>
-    <string name="account_setup_start_company_slogan_text">Welcome to a better inbox</string>
     <string name="account_setup_start_email_address_hint">Enter your email address</string>
     <string name="account_setup_start_password_hint">Password</string>
     <string name="account_setup_start_get_started_button">Get started</string>
@@ -74,15 +73,6 @@
     <string name="general_preference_mark_archive_messages_read_description">Mark emails as read before archiving them</string>
     <!-- The hint used in the search box when searching all mailboxes [CHAR LIMIT=35] -->
     <string name="search_hint">Search\u2026</string>
-    <string name="tutorial_done_button">Done</string>
-    <string name="tutorial_get_started_button">Get started</string>
-    <string name="tutorial_skip_tutorial">Skip tutorial</string>
-    <string name="tutorial_finished_heading">That\'s it!\nClick below to start using email.</string>
-    <string name="tutorial_text1">Archiving old emails is as simple as swiping them off your screen. Try swiping the message above now.</string>
-    <string name="tutorial_text2">Deleting a message is fast too. Try swiping farther left to delete.</string>
-    <string name="tutorial_text3">Make a mistake? Don\'t worry, you\'re covered. Try tapping the undo button now to correct a mistake.</string>
-    <string name="tutorial_text4">You now have a ton of ways to quickly take action on mail. Swipe to the right to see the action grid.</string>
-    <string name="tutorial_text5">Try tapping \'Spam\' to mark this message as spam.</string>
     <!-- Title of screen when trying to get oauth authentication -->
     <string name="oauth_authentication_title">Requesting authorization</string>
     <!-- Title of screen to choose with authentication to use -->
@@ -108,4 +98,19 @@
     <string name="account_setup_options_mail_window_6months">Last 6 months</string>
 
     <string name="account_settings_unable_to_edit_field">Your administrator does not allow this field to be modified</string>
+
+    <string name="tutorial_welcome_title">Welcome to email</string>
+    <string name="tutorial_welcome_subtitle">Smarter. Faster. Tailored. Email.</string>
+    <string name="tutorial_page1_title">Custom Swipes</string>
+    <string name="tutorial_page1_subtitle">Customize your swipe actions and build your own experience.</string>
+    <string name="tutorial_page2_title">Bulk Actions</string>
+    <string name="tutorial_page2_subtitle">Our bulk select feature is the fastest way to manage your inbox.</string>
+    <string name="tutorial_page3_title">Action Grid</string>
+    <string name="tutorial_page3_subtitle">Powerful integrations and functionality at the tap of a button.</string>
+    <string name="tutorial_skip_button">Skip</string>
+    <string name="tutorial_done_button">Done</string>
+
+    <string name="message_send_failed_ticker">Message sending failed</string>
+    <string name="message_send_failed_title">Message not sent</string>
+
 </resources>
