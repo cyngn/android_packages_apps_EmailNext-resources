@@ -99,6 +99,11 @@
 
     <string name="account_settings_unable_to_edit_field">Your administrator does not allow this field to be modified</string>
 
+    <!-- Menu item for sending availability from compose. [CHAR_LIMIT=30] -->
+    <string name="message_compose_send_availability_menu_title">Send availability</string>
+    <!-- Menu item for including an invite from compose. [CHAR_LIMIT=30] -->
+    <string name="message_compose_create_invite_menu_title">Create invite</string>
+
     <string name="tutorial_welcome_title">Welcome to email</string>
     <string name="tutorial_welcome_subtitle">Smarter. Faster. Tailored. Email.</string>
     <string name="tutorial_page1_title">Custom Swipes</string>
@@ -112,5 +117,13 @@
 
     <string name="message_send_failed_ticker">Message sending failed</string>
     <string name="message_send_failed_title">Message not sent</string>
+
+    <string name="preferences_clear_search_history_title">Clear search history</string>
+    <string name="preferences_clear_search_history_summary">Remove all the searches you\'ve performed</string>
+    <string name="search_history_cleared">Search history cleared.</string>
+
+    <string name="update_available_ticker">There is an update available for Email</string>
+    <string name="update_availalable_title">An update is available</string>
+    <string name="update_available_content">Tap to install update</string>
 
 </resources>
