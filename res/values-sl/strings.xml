@@ -219,7 +219,6 @@
   <string name="mailbox_settings_mailbox_sync_window_label">Sinhronizacija pošte za toliko dni</string>
   <string name="prefDialogTitle_conversationListIcon">Slika pošiljatelja</string>
   <string name="provider_note_live">Samo nekateri računi »Plus« ponujajo tudi dostop do strežnika POP, da se lahko ta program poveže. Če ste pravilno vnesli svoj e-poštni naslov in geslo, a se ne morete prijaviti, morda nimate plačljivega računa »Plus«. Zaženite brskalnik, če želite dostopati do teh e-poštnih računov.</string>
-  <string name="provider_note_t_online">Preden nastavite ta e-poštni račun, pojdite na spletno mesto T-Online in ustvarite geslo za e-poštni dostop POP3.</string>
   <string name="system_account_create_failed">Računa ni bilo mogoče ustvariti. Poskusite znova.</string>
   <string name="device_admin_label">E-pošta</string>
   <string name="device_admin_description">Omogoči varnostne pravilnike, ki jih določi strežnik</string>

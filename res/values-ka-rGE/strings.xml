@@ -239,7 +239,6 @@
   <string name="mailbox_settings_mailbox_sync_window_label">ფოსტის სინქრონიზაციისათვის დღეების რაოდენობა</string>
   <string name="prefDialogTitle_conversationListIcon">გამგზავნის სურათი</string>
   <string name="provider_note_live">მხოლოდ ზოგ „Plus“ ანგარიშს აქვს წვდომა POP პროტოკოლზე, რომელიც პროგრამას დაკავშირების საშუალებას აძლევს. თუ თქვენ არ შეგიძლიათ თქვენი პაროლითა და ელფოსტის მისამართით ავტორიზაცია, ე.ი. არ იყენებთ „Plus“ ფასიან ანგარიშს. ელფოსტის ანგარიშებში შესასვლელად, გამოიყენოთ ვებ ბრაუზერი.</string>
-  <string name="provider_note_t_online">ელფოსტის ანგარიშის დაყენებამდე ეწვიეთ T-Online-ს ვებ-გვერდს და შექმენით პაროლი POP3 ელფოსტაზე წვდომისთვის.</string>
   <string name="system_account_create_failed">ანგარიშის შექმნა ვერ მოხერხდა. სცადეთ ხელახლა.</string>
   <string name="device_admin_label">ელფოსტა</string>
   <string name="device_admin_description">სერვერის უსაფრთხოების პოლიტიკის ჩართვა</string>

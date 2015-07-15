@@ -219,7 +219,6 @@
   <string name="mailbox_settings_mailbox_sync_window_label">Dni do synchronizacji</string>
   <string name="prefDialogTitle_conversationListIcon">Zdjęcie nadawcy</string>
   <string name="provider_note_live">Tylko niektóre konta typu „Plus” zawierają funkcję dostępu POP umożliwiającą łączenie się za pomocą tego programu. Jeśli nie możesz zalogować się przy użyciu poprawnego adresu e-mail i hasła, być może nie masz płatnego konta typu „Plus”. Uruchom przeglądarkę, aby uzyskać dostęp do tych kont e-mail.</string>
-  <string name="provider_note_t_online">Przed skonfigurowaniem tego konta e-mail odwiedź witrynę T-Online i utwórz hasło dostępu do poczty POP3.</string>
   <string name="system_account_create_failed">Nie można utworzyć konta. Spróbuj ponownie.</string>
   <string name="device_admin_label">E-mail</string>
   <string name="device_admin_description">Włącza zasady zabezpieczeń określone na serwerze</string>

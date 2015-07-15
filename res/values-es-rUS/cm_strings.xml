@@ -22,7 +22,6 @@
   <string name="mailbox_name_display_todo">Tareas</string>
   <string name="mailbox_name_display_archive">Archivar</string>
   <string name="mailbox_name_local_only_display_name"> - Local</string>
-  <string name="account_setup_start_company_slogan_text">Bienvenido a una bandeja de entrada mejor</string>
   <string name="account_setup_start_email_address_hint">Introduce tu dirección de correo electrónico</string>
   <string name="account_setup_start_password_hint">Contraseña</string>
   <string name="account_setup_start_get_started_button">Comenzar</string>
@@ -54,15 +53,6 @@
   <string name="general_preference_mark_archive_messages_read">Archivar como leído</string>
   <string name="general_preference_mark_archive_messages_read_description">Marcar los correos electrónicos como leídos antes de archivarlos</string>
   <string name="search_hint">Buscar\u2026</string>
-  <string name="tutorial_done_button">Listo</string>
-  <string name="tutorial_get_started_button">Comenzar</string>
-  <string name="tutorial_skip_tutorial">Omitir tutorial</string>
-  <string name="tutorial_finished_heading">¡Eso es todo!\nToca abajo para empezar a utilizar el correo electrónico.</string>
-  <string name="tutorial_text1">Archivar viejos correos electrónicos es tan sencillo como deslizarlos fuera de tu pantalla. Intenta deslizar el mensaje de arriba ahora.</string>
-  <string name="tutorial_text2">Borrar un mensaje es rápido también. Intenta deslizar más hacia la izquierda para eliminar.</string>
-  <string name="tutorial_text3">¿Cometiste un error? No te preocupes, estás cubierto. Intenta tocar el botón deshacer para corregir un error.</string>
-  <string name="tutorial_text4">Ahora tienes un montón de maneras de actuar rápidamente en el correo. Desliza hacia la derecha para ver la cuadrícula de acciones.</string>
-  <string name="tutorial_text5">Intenta tocar en \'Spam\' para marcar este mensaje como spam.</string>
   <string name="oauth_authentication_title">Solicitando autorización</string>
   <string name="sign_in_title">Iniciar sesión</string>
   <string name="sign_in_button">Listo</string>
@@ -76,4 +66,5 @@
   <string name="account_setup_options_mail_window_3months">Últimos 3 meses</string>
   <string name="account_setup_options_mail_window_6months">Últimos 6 meses</string>
   <string name="account_settings_unable_to_edit_field">Tu administrador no permite que este campo sea modificado</string>
+  <string name="tutorial_done_button">Listo</string>
 </resources>

@@ -20,7 +20,7 @@
   <string name="permission_access_provider_label">Accesaţi datele furnizorului de e-mail</string>
   <string name="permission_access_provider_desc">Permite aplicaţiei să acceseze baza de date a adresei de e-mail, incluzând mesajele primite, mesajele trimise, numele de utilizator şi parolele.</string>
   <string name="app_name">E-mail</string>
-  <string name="debug_title">Remediaţi erorile</string>
+  <string name="debug_title">Depanare</string>
   <string name="next_action">Înainte</string>
   <string name="okay_action">OK</string>
   <string name="cancel_action">Anulaţi</string>
@@ -219,7 +219,6 @@
   <string name="mailbox_settings_mailbox_sync_window_label">Zile de sincronizat pentru e-mailuri</string>
   <string name="prefDialogTitle_conversationListIcon">Imaginea expeditorului</string>
   <string name="provider_note_live">Numai unele conturi de tip „Plus” includ accesul de tip POP, permiţând conectarea acestui program. Dacă nu reuşiţi să vă conectaţi cu adresa de e-mail şi parola corecte, este posibil să nu aveţi un cont de tip „Plus” plătit. Lansaţi browserul web pentru a obţine accesul la aceste conturi de e-mail.</string>
-  <string name="provider_note_t_online">Înainte de configurarea acestui cont de e-mail, accesaţi site-ul web T-Online şi creaţi o parolă pentru accesul la serviciile de e-mail POP3.</string>
   <string name="system_account_create_failed">Contul nu a putut fi creat. Încercaţi din nou.</string>
   <string name="device_admin_label">E-mail</string>
   <string name="device_admin_description">Activează politicile de securitate specificate pentru server</string>
@@ -251,7 +250,7 @@
   <string name="policy_screen_timeout">Disp. inactiv necesar pt. blocare ecran</string>
   <string name="policy_calendar_age">Limitare număr evenimente de calendar sincronizate</string>
   <string name="policy_email_age">Limitare număr de e-mailuri sincronizate</string>
-  <string name="quick_1">Vă mulţumim!</string>
+  <string name="quick_1">Vă mulțumim!</string>
   <string name="quick_2">Sună bine!</string>
   <string name="quick_3">Voi citi mai târziu acest mesaj şi vă voi contacta.</string>
   <string name="quick_4">Să stabilim o întâlnire pentru a discuta această acţiune.</string>

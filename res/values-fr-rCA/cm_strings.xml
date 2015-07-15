@@ -22,7 +22,6 @@
   <string name="mailbox_name_display_todo">À faire</string>
   <string name="mailbox_name_display_archive">Archiver</string>
   <string name="mailbox_name_local_only_display_name"> - Local</string>
-  <string name="account_setup_start_company_slogan_text">Bienvenue à une meilleure boîte de réception</string>
   <string name="account_setup_start_email_address_hint">Entrez votre courriel</string>
   <string name="account_setup_start_password_hint">Mot de passe</string>
   <string name="account_setup_start_get_started_button">Démarrer</string>
@@ -54,15 +53,6 @@
   <string name="general_preference_mark_archive_messages_read">Archiver en lisant</string>
   <string name="general_preference_mark_archive_messages_read_description">Marquer les courriels comme lus avant de les archiver</string>
   <string name="search_hint">Rechercher le courriel</string>
-  <string name="tutorial_done_button">Terminé</string>
-  <string name="tutorial_get_started_button">Démarrer</string>
-  <string name="tutorial_skip_tutorial">Passer le tutoriel</string>
-  <string name="tutorial_finished_heading">Ça y est !\nAppuyez ci-dessous pour commencer à utiliser l\'e-mail.</string>
-  <string name="tutorial_text1">L\'archivage des anciens courriels est aussi simple que de les glisser hors de votre écran. Essayez de glisser le message ci-dessus maintenant.</string>
-  <string name="tutorial_text2">Effacer un message est également rapide. Essayez de balayer vers la gauche.</string>
-  <string name="tutorial_text3">Vous avez fait une erreur ? Ne vous inquiétez pas, vous êtes couvert. Essayez d\'appuyer sur le bouton d\'annulation pour corriger l\'erreur.</string>
-  <string name="tutorial_text4">Vous avez maintenant une tonne de façons d\'agir rapidement sur un e-mail. Balayez vers la droite pour voir la grille d\'action.</string>
-  <string name="tutorial_text5">Essayez d\'appuyer sur le bouton « Spam » pour marquer ce message comme spam.</string>
   <string name="oauth_authentication_title">Demande de permission</string>
   <string name="sign_in_title">Se connecter</string>
   <string name="sign_in_button">Terminé</string>
@@ -76,4 +66,5 @@
   <string name="account_setup_options_mail_window_3months">Les 3 derniers mois</string>
   <string name="account_setup_options_mail_window_6months">Les 6 derniers mois</string>
   <string name="account_settings_unable_to_edit_field">Votre administrateur ne permet pas la modification de ce domaine</string>
+  <string name="tutorial_done_button">Terminé</string>
 </resources>

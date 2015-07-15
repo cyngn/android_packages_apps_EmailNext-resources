@@ -239,7 +239,6 @@
   <string name="mailbox_settings_mailbox_sync_window_label">Izinsuku ze-imeyili ukuya ekuvumelaniseni</string>
   <string name="prefDialogTitle_conversationListIcon">Isithombe somthumeli</string>
   <string name="provider_note_live">Kuphela amanye ama-akhawunti \"Okuhlanganisa\" ahlanganisa ukufinyelela i-POP okuvumela lolu hlelo ukuxhuma. Uma ungakwazi ukungena ngekheli lakho le-imeyili elilungile kanye nephasiwedi, kungase kwenzeke awunayo i-akhawunti ekhokhelwe \"Hlanganisa\". Sicela uqalise isipheqululis seWebhu ukuthola ukufinyelela kulama akhawunti e-imeyili.</string>
-  <string name="provider_note_t_online">Ngaphambi kokuhlela le-akhawunti ye-imeyili, sicela uvakashele Iwebhusayithi ye-T-Online bese wenza iphasiwedi ukufinyelela kwi-imeyili ye-POP3.</string>
   <string name="system_account_create_failed">Ayikwazanga ukwenza i-akhawunti. Zama futhi.</string>
   <string name="device_admin_label">I-imeyli</string>
   <string name="device_admin_description">Ivumela izinqubomgomo zokuphepha eziqondene neseva</string>

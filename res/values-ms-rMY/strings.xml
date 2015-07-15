@@ -234,7 +234,6 @@
   <string name="mailbox_settings_mailbox_sync_window_label">Bilangan hari untuk menyegerakkan mel</string>
   <string name="prefDialogTitle_conversationListIcon">Imej penghantar</string>
   <string name="provider_note_live">Hanya sesetengah akaun \"Plus\" sahaja yang menyertakan akses POP, membenarkan program ini untuk menyambung. Jika anda tidak boleh melog masuk dengan alamat dan kata laluan e-mel anda yang betul, anda mungkin tidak mempunyai akaun \"Plus\" berbayar. Sila lancarkan penyemak imbas Web untuk mendapatkan akses kepada akaun e-mel ini.</string>
-  <string name="provider_note_t_online">Sebelum menyediakan akaun e-mel ini, sila lawati tapak Web T-Online dan buat kata laluan untuk akses e-mel POP3.</string>
   <string name="system_account_create_failed">Tidak dapat membuat akaun. Sila cuba lagi.</string>
   <string name="device_admin_label">E-mel</string>
   <string name="device_admin_description">Mendayakan dasar keselamatan tentuan pelayan</string>

@@ -22,7 +22,6 @@
   <string name="mailbox_name_display_todo">לביצוע</string>
   <string name="mailbox_name_display_archive">העבר לארכיון</string>
   <string name="mailbox_name_local_only_display_name"> - מקומי</string>
-  <string name="account_setup_start_company_slogan_text">ברוכים הבאים לדוא\"ל טוב יותר</string>
   <string name="account_setup_start_email_address_hint">הזן את כתובת הדוא\"ל שלך</string>
   <string name="account_setup_start_password_hint">סיסמה</string>
   <string name="account_setup_start_get_started_button">התחל</string>
@@ -54,15 +53,6 @@
   <string name="general_preference_mark_archive_messages_read">העבר לארכיון כנקרא</string>
   <string name="general_preference_mark_archive_messages_read_description">סמן הודעות כנקראו לפני העברתם לארכיון</string>
   <string name="search_hint">חפש\u2026</string>
-  <string name="tutorial_done_button">סיום</string>
-  <string name="tutorial_get_started_button">התחל</string>
-  <string name="tutorial_skip_tutorial">דלג על המדריך</string>
-  <string name="tutorial_finished_heading">זהו!\nלחץ למטה כדי להתחיל להשתמש בדוא\"ל.</string>
-  <string name="tutorial_text1">ניתן להעביר הודעות לארכיון על ידי גרירתן מחוץ למסך. נסה לגרור את ההודעה הנ\"ל עכשיו.</string>
-  <string name="tutorial_text2">ניתן גם למחוק הודעות במהירות. נסה לגרור רחוק יותר ימינה כדי למחוק.</string>
-  <string name="tutorial_text3">עשית טעות? אל תדאג, אתה מכוסה. נסה ללחוץ על \"בטל\" עכשיו כדי לתקן את הטעות.</string>
-  <string name="tutorial_text4">יש לך המון דרכים כדי לבצע פעולות אימייל במהירות. החלק ימינה כדי לראות את סרגל הפעולות.</string>
-  <string name="tutorial_text5">נסה ללחוץ על \"דואר זבל\" על מנת לסמן את ההודעה כדואר זבל.</string>
   <string name="oauth_authentication_title">מבצע אימות</string>
   <string name="sign_in_title">התחבר</string>
   <string name="sign_in_button">סיום</string>
@@ -76,4 +66,11 @@
   <string name="account_setup_options_mail_window_3months">3 חודשים אחרונים</string>
   <string name="account_setup_options_mail_window_6months">6 חודשים אחרונים</string>
   <string name="account_settings_unable_to_edit_field">מנהל המערכת שלך לא מאפשר לשנות שדה זה</string>
+  <string name="tutorial_welcome_title">ברוכים הבאים לדואר האלקטרוני</string>
+  <string name="tutorial_welcome_subtitle">חכם יותר. מהיר יותר. מותאם יותר. אלקטרוני יותר.</string>
+  <string name="tutorial_page3_title">מרכז פעולות</string>
+  <string name="tutorial_skip_button">דלג</string>
+  <string name="tutorial_done_button">סיום</string>
+  <string name="message_send_failed_ticker">שליחת ההודעה נכשלה</string>
+  <string name="message_send_failed_title">הודעה לא נשלחה</string>
 </resources>

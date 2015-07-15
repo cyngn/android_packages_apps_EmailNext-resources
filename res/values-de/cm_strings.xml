@@ -22,7 +22,6 @@
   <string name="mailbox_name_display_todo">To-Do</string>
   <string name="mailbox_name_display_archive">Archiv</string>
   <string name="mailbox_name_local_only_display_name"> – Lokal</string>
-  <string name="account_setup_start_company_slogan_text">Willkommen zu einem besserem Posteingang</string>
   <string name="account_setup_start_email_address_hint">Gebe deine E-Mail Adresse ein</string>
   <string name="account_setup_start_password_hint">Passwort</string>
   <string name="account_setup_start_get_started_button">Auf geht\'s</string>
@@ -54,15 +53,6 @@
   <string name="general_preference_mark_archive_messages_read">Als gelesen archivieren</string>
   <string name="general_preference_mark_archive_messages_read_description">E-Mails vor dem Archivieren als gelesen markieren</string>
   <string name="search_hint">Suche\u2026</string>
-  <string name="tutorial_done_button">Fertig</string>
-  <string name="tutorial_get_started_button">Starten</string>
-  <string name="tutorial_skip_tutorial">Einführung überspringen</string>
-  <string name="tutorial_finished_heading">Das ist es!\nKlicken Sie unten, um E-Mails zu nutzen.</string>
-  <string name="tutorial_text1">Alte E-Mail zu archivieren ist so einfach, Sie müssen sie nur vom Bildschirm wischen. Versuchen Sie die Nachricht oben weg zu wischen.</string>
-  <string name="tutorial_text2">Nachrichten löschen geht auch schnell! Versuche nach links zu wischen, um Nachrichten zu löschen.</string>
-  <string name="tutorial_text3">Haben Sie einen Fehler gemacht? Keine Sorge, alles ist bestens. Tippen Sie auf den Rückgängig-Button, um den Fehler zu korrigieren.</string>
-  <string name="tutorial_text4">Sie haben nun unzählige Möglichkeiten mit Mails zu interagieren. Wischen Sie nach rechts, um das Aktionsraster zu sehen.</string>
-  <string name="tutorial_text5">Klicke auf Spam, um eine Nachricht als Spam zu markieren</string>
   <string name="oauth_authentication_title">Authorisierung anfordern</string>
   <string name="sign_in_title">Einloggen</string>
   <string name="sign_in_button">Fertig</string>
@@ -76,4 +66,23 @@
   <string name="account_setup_options_mail_window_3months">Letzten 3 Monate</string>
   <string name="account_setup_options_mail_window_6months">Letzten 6 Monate</string>
   <string name="account_settings_unable_to_edit_field">Ihr Administrator erlaubt nicht dieses Feld zu ändern</string>
+  <string name="message_compose_create_invite_menu_title">Einladung erstellen</string>
+  <string name="tutorial_welcome_title">Willkommen bei E-Mail</string>
+  <string name="tutorial_welcome_subtitle">Intelligenter, schneller, angepasst – E-Mail.</string>
+  <string name="tutorial_page1_title">Benutzerdefiniertes Wischen</string>
+  <string name="tutorial_page1_subtitle">Passen Sie Ihre Wisch-Aktionen an und basteln Sie sich Ihr eigenes Erlebnis.</string>
+  <string name="tutorial_page2_title">Massen-Aktionen</string>
+  <string name="tutorial_page2_subtitle">Unsere Massen-Auswahl-Funktion ist der schnellste Weg, um Ihren Posteingang zu verwalten.</string>
+  <string name="tutorial_page3_title">Aktionsraster</string>
+  <string name="tutorial_page3_subtitle">Leistungsstarke Integrationen und Funktionalität beim Drücken einer Taste.</string>
+  <string name="tutorial_skip_button">Überspringen</string>
+  <string name="tutorial_done_button">Fertig</string>
+  <string name="message_send_failed_ticker">Senden der Nachricht fehlgeschlagen</string>
+  <string name="message_send_failed_title">Nachricht nicht gesendet</string>
+  <string name="preferences_clear_search_history_title">Suchverlauf löschen</string>
+  <string name="preferences_clear_search_history_summary">Entfernt alle Suchen, die Sie ausgeführt haben</string>
+  <string name="search_history_cleared">Suchverlauf gelöscht.</string>
+  <string name="update_available_ticker">Es ist ein Update für E-Mail verfügbar</string>
+  <string name="update_availalable_title">Ein Update ist verfügbar</string>
+  <string name="update_available_content">Tippen, um das Update zu installieren</string>
 </resources>

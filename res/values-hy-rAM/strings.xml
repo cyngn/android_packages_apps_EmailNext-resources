@@ -234,7 +234,6 @@
   <string name="mailbox_settings_mailbox_sync_window_label">Փոստի համաժամեցման օրեր</string>
   <string name="prefDialogTitle_conversationListIcon">Ուղարկողի պատկերը</string>
   <string name="provider_note_live">Միայն որոշ «Plus» հաշիվներ են ներառում POP մուտք` թույլատրելով այս ծրագրին միանալ: Եթե ​​դուք չեք կարող մուտք գործել ձեր ճիշտ էլփոստի հասցեով և գաղտնաբառով, դուք հնարավոր է չունեք վճարովի «Plus» հաշիվ: Գործարկեք վեբ զննարկիչը` այս էլփոստի հաշիվներ մուտք ստանալու համար:</string>
-  <string name="provider_note_t_online">Նախքան այս էլփոստի հաշիվը ստեղծելը խնդրում ենք այցելել T-Online կայքէջը և ստեղծել գաղտնաբառ` POP3 էլփոստի մուտքի համար:</string>
   <string name="system_account_create_failed">Չհաջողվեց ստեղծել հաշիվը: Փորձեք կրկին:</string>
   <string name="device_admin_label">Էլփոստ</string>
   <string name="device_admin_description">Միացնում է սերվերին հատուկ անվտանգության քաղաքականությունները</string>

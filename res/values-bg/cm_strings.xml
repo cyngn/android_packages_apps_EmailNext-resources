@@ -19,7 +19,6 @@
   <string name="email_provider">Имейл</string>
   <string name="mailbox_name_display_todo">Да се направи</string>
   <string name="mailbox_name_display_archive">Архив</string>
-  <string name="account_setup_start_company_slogan_text">Добре дошли в една най-добра входяща кутия</string>
   <string name="account_setup_start_email_address_hint">Въведете вашия имейл</string>
   <string name="account_setup_start_password_hint">Парола</string>
   <string name="account_setup_start_get_started_button">Да започнете</string>
@@ -40,9 +39,6 @@
   <string name="account_settings_led_color_summary">Стойността по подразбиране е цвета на акаунт</string>
   <string name="general_preference_mark_archive_messages_read">Запиши като прочетени</string>
   <string name="general_preference_mark_archive_messages_read_description">Маркирй писма като прочетени преди записване на тях</string>
-  <string name="tutorial_done_button">Готово</string>
-  <string name="tutorial_get_started_button">Започнете</string>
-  <string name="tutorial_skip_tutorial">Прескочи инструкцията</string>
   <string name="oauth_authentication_title">Искане на разрешение</string>
   <string name="sign_in_title">Влезте</string>
   <string name="sign_in_button">Готово</string>
@@ -52,4 +48,5 @@
   <string name="authentication_label">Удостоверяване</string>
   <string name="add_authentication_label">Добавяне на удостоверяване</string>
   <string name="oauth_saving_message">Записване...</string>
+  <string name="tutorial_done_button">Готово</string>
 </resources>

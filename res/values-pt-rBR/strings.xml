@@ -239,7 +239,6 @@
   <string name="mailbox_settings_mailbox_sync_window_label">Dias de e-mails para sincronizar</string>
   <string name="prefDialogTitle_conversationListIcon">Imagem do remetente</string>
   <string name="provider_note_live">Somente algumas contas \"Plus\" incluem o acesso POP permitindo que este programa seja conectado. Se não for possível fazer login com seu endereço de e-mail e senha corretos, você talvez não tenha uma conta \"Plus\" paga. Inicie o navegador da web para acessar essas contas de e-mail.</string>
-  <string name="provider_note_t_online">Antes de configurar essa conta de e-mail, acesse o site T-Online e crie uma senha para acessar e-mail POP3.</string>
   <string name="system_account_create_failed">Não foi possível criar a conta. Tente novamente.</string>
   <string name="device_admin_label">E-mail</string>
   <string name="device_admin_description">Ativa as políticas de segurança especificadas pelo servidor</string>

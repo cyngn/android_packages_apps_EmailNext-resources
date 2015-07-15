@@ -239,7 +239,6 @@
   <string name="mailbox_settings_mailbox_sync_window_label">Dae se pos om te sinkroniseer</string>
   <string name="prefDialogTitle_conversationListIcon">Stuurderprent</string>
   <string name="provider_note_live">Slegs sekere \"Plus\"-rekeninge sluit POP-toegang in wat hierdie program in staat stel om te koppel. As jy nie kan aanmeld met jou korrekte e-posadres en wagwoord nie, het jy dalk nie \'n betaalde \"Plus\"-rekening nie. Maak die webblaaier oop om toegang tot hierdie e-posrekeninge te kry.</string>
-  <string name="provider_note_t_online">Voor jy hierdie e-posrekening opstel, besoek asseblief die T-Online-webwerf en skep \'n wagwoord vir POP3-e-postoegang.</string>
   <string name="system_account_create_failed">Kon nie die rekening skep nie. Probeer weer.</string>
   <string name="device_admin_label">E-pos</string>
   <string name="device_admin_description">Aktiveer bedienergespesifiseerde veiligheidsbeleide</string>

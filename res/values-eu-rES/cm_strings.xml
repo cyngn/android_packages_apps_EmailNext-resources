@@ -16,18 +16,17 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="email_provider">Posta</string>
+  <string name="email_provider">Eposta</string>
   <string name="mailbox_name_display_local_drafts">Tokiko zirriborroak</string>
   <string name="mailbox_name_display_server_drafts">Zerbitzariko zirriborroak</string>
   <string name="mailbox_name_display_todo">Zeregina</string>
   <string name="mailbox_name_display_archive">Artxiboa</string>
   <string name="mailbox_name_local_only_display_name"> - Tokikoa</string>
-  <string name="account_setup_start_company_slogan_text">Ongi etorri sarrera ontzi hobe batetara</string>
-  <string name="account_setup_start_email_address_hint">Sartu zure posta helbidea</string>
+  <string name="account_setup_start_email_address_hint">Sartu zure eposta helbidea</string>
   <string name="account_setup_start_password_hint">Pasahitza</string>
   <string name="account_setup_start_get_started_button">Hasi</string>
   <string name="account_setup_start_login_button">Hasi saioa</string>
-  <string name="account_setup_start_invalid_email_address">Posta helbide baliogabea</string>
+  <string name="account_setup_start_invalid_email_address">Eposta helbide baliogabea</string>
   <string name="password_label">Pasahitza</string>
   <string name="account_setup_basics_progress_message">Aurkikuntza automatikoa lanean</string>
   <string name="account_setup_options_title">Pertsonalizatu</string>
@@ -35,10 +34,10 @@
   <string name="account_setup_options_mail_check_frequency_2hour">2 ordutik behin</string>
   <string name="account_setup_options_mail_check_frequency_4hour">4 ordutik behin</string>
   <string name="account_setup_options_mail_check_frequency_1day">Egunero</string>
-  <string name="account_setup_options_notify_label"><b>Jakinarazi niri</b> posta heltzean</string>
+  <string name="account_setup_options_notify_label"><b>Jakinarazi niri</b> eposta heltzean</string>
   <string name="account_setup_options_sync_contacts_label"><b>Sinkronizatu kontaktuak</b> kontu honetatik</string>
   <string name="account_setup_options_sync_calendar_label"><b>Sinkronizatu egutegia</b> kontu honetatik</string>
-  <string name="account_setup_options_sync_email_label"><b>Sinkronizatu posta</b> kontu honetatik</string>
+  <string name="account_setup_options_sync_email_label"><b>Sinkronizatu eposta</b> kontu honetatik</string>
   <string name="account_setup_options_disable_convo_threading_label">Ezgaitu elkarrizketak haritzea</string>
   <string name="account_settings_show_all_images_title">Irudiak</string>
   <string name="account_settings_show_all_images_show">Erakutsi beti</string>
@@ -54,15 +53,6 @@
   <string name="general_preference_mark_archive_messages_read">Artxibatu irakurrita gisa</string>
   <string name="general_preference_mark_archive_messages_read_description">Markatu mezuak irakurrita gisa artxibatu baino lehen</string>
   <string name="search_hint">Bilatu\u2026</string>
-  <string name="tutorial_done_button">Eginda</string>
-  <string name="tutorial_get_started_button">Hasi</string>
-  <string name="tutorial_skip_tutorial">Saltatu tutoriala</string>
-  <string name="tutorial_finished_heading">Kito!\nSakatu azpian posta erabiltzen hasteko.</string>
-  <string name="tutorial_text1">Mezu zaharrak artxibatzeko hatza pasatuz pantailatik atera itzazu. Saiatu goiko mezutik hatza pasatzen orain.</string>
-  <string name="tutorial_text2">Mezu bat azkar ezabatu daiteke ere. Hatza ezkerreraino pasatu ezabatzeko.</string>
-  <string name="tutorial_text3">Akatsen bat egin duzu? Lasai, konponbidea du. Sakatu desegin botoia akatsa zuzentzeko.</string>
-  <string name="tutorial_text4">Orain baduzu postan ekintza mordoa azkar egiteko aukera. Pasatu hatza eskumara ekintzen sareta ikusteko.</string>
-  <string name="tutorial_text5">Sakatu \'Zabor posta\' mezu hau zabor posta gisa markatzeko.</string>
   <string name="oauth_authentication_title">Baimena eskatzen</string>
   <string name="sign_in_title">Hasi saioa</string>
   <string name="sign_in_button">Eginda</string>
@@ -76,4 +66,24 @@
   <string name="account_setup_options_mail_window_3months">Azken 3 hilabeteak</string>
   <string name="account_setup_options_mail_window_6months">Azken 6 hilabeteak</string>
   <string name="account_settings_unable_to_edit_field">Zure administratzaileak ez du baimentzen eremu hau aldatzea</string>
+  <string name="message_compose_send_availability_menu_title">Bidali eskuragarritasuna</string>
+  <string name="message_compose_create_invite_menu_title">Sortu gonbidapena</string>
+  <string name="tutorial_welcome_title">Ongi etorri epostara</string>
+  <string name="tutorial_welcome_subtitle">Eposta. Adimentsuagoa. Azkarragoa. Neurrira.</string>
+  <string name="tutorial_page1_title">Hatza pasatze pertsonalizatuak</string>
+  <string name="tutorial_page1_subtitle">Pertsonalizatu hatza pasatze ekintzak eta eraiki zure esperientzia propioa.</string>
+  <string name="tutorial_page2_title">Ekintza masiboak</string>
+  <string name="tutorial_page2_subtitle">Hautaketa masiboa sarrera ontzia kudeatzeko modu azkarrena da.</string>
+  <string name="tutorial_page3_title">Ekintza sareta</string>
+  <string name="tutorial_page3_subtitle">Integrazio eta funtzio aurreratuak botoi bat sakatzean.</string>
+  <string name="tutorial_skip_button">Saltatu</string>
+  <string name="tutorial_done_button">Eginda</string>
+  <string name="message_send_failed_ticker">Mezua bidaltzeak huts egin du</string>
+  <string name="message_send_failed_title">Mezua ez da bidali</string>
+  <string name="preferences_clear_search_history_title">Ezabatu bilaketen historia</string>
+  <string name="preferences_clear_search_history_summary">Ezabatu aurreko bilaketa guztiak</string>
+  <string name="search_history_cleared">Bilaketen historia ezabatu da.</string>
+  <string name="update_available_ticker">Epostaren eguneraketa bat dago eskuragarri</string>
+  <string name="update_availalable_title">Eguneraketa bat dago eskuragarri</string>
+  <string name="update_available_content">Ukitu eguneraketa instalatzeko</string>
 </resources>

@@ -239,7 +239,6 @@
   <string name="mailbox_settings_mailbox_sync_window_label">Antall dager med e-post å synkronisere</string>
   <string name="prefDialogTitle_conversationListIcon">Avsenderbilder</string>
   <string name="provider_note_live">Bare noen «Pluss»-kontoer tilbyr POP-tilgangen denne appen trenger for å koble til. Hvis du ikke klarer å logge på med riktig e-postadresse og passord, kan det være du ikke har en betalt «Pluss»-konto. Start nettleseren for å få tilgang til slike e-postkontoer.</string>
-  <string name="provider_note_t_online">Før du konfigurerer denne e-postkontoen, må du gå til nettstedet for T-Online og opprette et passord for e-posttilgang via POP3.</string>
   <string name="system_account_create_failed">Kan ikke opprette kontoen. Prøv på nytt.</string>
   <string name="device_admin_label">E-post</string>
   <string name="device_admin_description">Aktiverer tjenerspesifikke sikkerhetsinnstillinger</string>

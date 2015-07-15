@@ -239,7 +239,6 @@
   <string name="mailbox_settings_mailbox_sync_window_label">Postanın senkronize edileceği gün sayısı</string>
   <string name="prefDialogTitle_conversationListIcon">Gönderen resmi</string>
   <string name="provider_note_live">Yalnızca bazı \"Plus\" hesapları bu programın bağlanmasına izin veren POP erişimi içerir. Doğru e-posta adresinizle ve şifrenizle oturum açamıyorsanız, ödemeli bir \"Plus\" hesabına sahip olmayabilirsiniz. Bu e-posta hesaplarına erişmek için web tarayıcıyı başlatın.</string>
-  <string name="provider_note_t_online">Bu e-posta hesabını ayarlamadan önce T-Online web sitesini ziyaret edin ve POP3 e-posta erişimi için bir şifre oluşturun.</string>
   <string name="system_account_create_failed">Hesap oluşturulamadı. Tekrar deneyin.</string>
   <string name="device_admin_label">E-posta</string>
   <string name="device_admin_description">Sunucu tarafından belirlenen güvenlik politikalarını etkinleştirir</string>

@@ -239,7 +239,6 @@
   <string name="mailbox_settings_mailbox_sync_window_label">Dagar med e-post som ska synkroniseras</string>
   <string name="prefDialogTitle_conversationListIcon">Bild på avsändare</string>
   <string name="provider_note_live">POP-åtkomst, som gör att denna app kan ansluta, ingår bara i vissa pluskonton. Om det inte går att logga in med rätt e-postadress och lösenord kanske du inte har betalat för ett pluskonto. Öppna webbläsaren igen om du vill få åtkomst till dessa e-postkonton.</string>
-  <string name="provider_note_t_online">Innan du skapar e-postkontot besöker du T-Onlines webbplats och skapar ett lösenord för POP3-åtkomst till e-post.</string>
   <string name="system_account_create_failed">Det gick inte att skapa kontot. Försök igen.</string>
   <string name="device_admin_label">E-post</string>
   <string name="device_admin_description">Aktiverar serverangivna säkerhetsprinciper</string>

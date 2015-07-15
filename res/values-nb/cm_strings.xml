@@ -22,7 +22,6 @@
   <string name="mailbox_name_display_todo">Gjøremål</string>
   <string name="mailbox_name_display_archive">Arkiv</string>
   <string name="mailbox_name_local_only_display_name"> -Lokal</string>
-  <string name="account_setup_start_company_slogan_text">Velkommen til en bedre innboks</string>
   <string name="account_setup_start_email_address_hint">Skriv inn epostadressen din</string>
   <string name="account_setup_start_password_hint">Passord</string>
   <string name="account_setup_start_get_started_button">Kom i gang</string>
@@ -54,15 +53,6 @@
   <string name="general_preference_mark_archive_messages_read">Arkiver som lest</string>
   <string name="general_preference_mark_archive_messages_read_description">Merk eposter som lest før de blir arkivert</string>
   <string name="search_hint">Søk i e-post</string>
-  <string name="tutorial_done_button">Ferdig</string>
-  <string name="tutorial_get_started_button">Kom i gang</string>
-  <string name="tutorial_skip_tutorial">Hopp over opplæringen</string>
-  <string name="tutorial_finished_heading">Det er det! \nTrykk nedenfor for å bruke e-post.</string>
-  <string name="tutorial_text1">Arkivering av gamle e-poster er så enkelt som å dra dem på skjermen. Prøv å dra meldingen ovenfor nå.</string>
-  <string name="tutorial_text2">Slett en melding er raskt også. Prøv å dra lenger til venstre for å slette.</string>
-  <string name="tutorial_text3">Gjort en feil? Ingen grunn til bekymring. Prøv å trykke på angre-knappen nå for å rette opp feilen.</string>
-  <string name="tutorial_text4">Nå har du mange måter å raskt håndtere en e-post. Dra til høyre for å se handlingsrutenettet.</string>
-  <string name="tutorial_text5">Prøv å trykke \"Spam\" for å merke meldingen som spam.</string>
   <string name="oauth_authentication_title">Ber om godkjenning</string>
   <string name="sign_in_title">logg inn</string>
   <string name="sign_in_button">Ferdig</string>
@@ -76,4 +66,5 @@
   <string name="account_setup_options_mail_window_3months">Siste 3 måneder</string>
   <string name="account_setup_options_mail_window_6months">Siste 6 måneder</string>
   <string name="account_settings_unable_to_edit_field">Systemansvarlig tillater ikke at dette feltet endres</string>
+  <string name="tutorial_done_button">Ferdig</string>
 </resources>

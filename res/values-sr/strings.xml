@@ -219,7 +219,6 @@
   <string name="mailbox_settings_mailbox_sync_window_label">Дани поште за синхронизацију</string>
   <string name="prefDialogTitle_conversationListIcon">Слика пошиљаоца</string>
   <string name="provider_note_live">Само неки „Плус“ налози подржавају приступ преко POP протокола, што омогућава повезивање овог програма. Ако не можете да се пријавите користећи тачну адресу е-поште и лозинку, можда немате плаћени „Плус“ налог. Покрените веб прегледач да бисте приступили овим налозима е-поште.</string>
-  <string name="provider_note_t_online">Пре него што подесите овај налог е-поште, посетите T-Online веб сајт и направите лозинку за приступ е-пошти преко POP3 протокола.</string>
   <string name="system_account_create_failed">Није могуће отворити налог. Покушајте поново.</string>
   <string name="device_admin_label">Пошаљи е-поштом</string>
   <string name="device_admin_description">Омогућава безбедносне смернице за одређене сервере</string>

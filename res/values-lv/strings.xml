@@ -219,7 +219,6 @@
   <string name="mailbox_settings_mailbox_sync_window_label">Sinhronizējamo dienu skaits</string>
   <string name="prefDialogTitle_conversationListIcon">Sūtītāja attēls</string>
   <string name="provider_note_live">Tikai dažiem Plus kontiem ir pieejama POP piekļuve, kas nodrošina šīs programmas savienojuma izveidi. Ja nevarat pierakstīties, izmantojot pareizo e-pasta adresi un paroli, iespējams, jums nav apmaksāta Plus konta. Lai piekļūtu šiem e-pasta kontiem, palaidiet tīmekļa pārlūkprogrammu.</string>
-  <string name="provider_note_t_online">Pirms šī e-pasta konta iestatīšanas apmeklējiet T-Online vietni un izveidojiet paroli, lai piekļūtu e-pastam pa protokolu POP3.</string>
   <string name="system_account_create_failed">Nevarēja izveidot kontu. Mēģiniet vēlreiz.</string>
   <string name="device_admin_label">E-pasts</string>
   <string name="device_admin_description">Iespējo servera noteiktas drošības politikas</string>

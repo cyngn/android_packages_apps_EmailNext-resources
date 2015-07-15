@@ -239,7 +239,6 @@
   <string name="mailbox_settings_mailbox_sync_window_label">Dies per sincronitzar correu</string>
   <string name="prefDialogTitle_conversationListIcon">Imatge del remitent</string>
   <string name="provider_note_live">Només alguns comptes \"Plus\" inclouen l\'accés POP que permet que aquest programa s\'hi connecti. Si no pots iniciar la sessió amb l\'adreça electrònica i la contrasenya correctes, pot ser que no tinguis un compte \"Plus\" de pagament. Inicia el navegador web per accedir a aquests comptes de correu.</string>
-  <string name="provider_note_t_online">Abans de configurar aquest compte de correu electrònic, visita el lloc web de T-Online i crea una contrasenya per a l\'accés al correu electrònic POP3.</string>
   <string name="system_account_create_failed">No s\'ha pogut crear el compte. Torna-ho a provar.</string>
   <string name="device_admin_label">Correu electrònic</string>
   <string name="device_admin_description">Permet les polítiques de seguretat especificades pel servidor</string>

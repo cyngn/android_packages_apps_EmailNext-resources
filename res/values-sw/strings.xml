@@ -239,7 +239,6 @@
   <string name="mailbox_settings_mailbox_sync_window_label">Siku za kusawazisha barua</string>
   <string name="prefDialogTitle_conversationListIcon">Picha ya mtumaji</string>
   <string name="provider_note_live">Akaunti zingine za \"Plus\" tu ndizo zinazojumuisha ufikivu wa POP na kwa hivyo kuruhusu programu hii kuunganisha. Kama hauwezi kuingia kwa kutumia anwani yako ya barua pepe na nenosiri lako sahihi, huenda usiwe na akaunti iliyolipiwa ya \"Plus\". Tafadhali zindua Kivinjari cha Wavuti ili uweze kufikia akaunti hizi za barua pepe.</string>
-  <string name="provider_note_t_online">Kabla ya kusanidi akaunti ya barua pepe hii, tembelea wavuti ya T-Online na unda nenosiri ya ufikivu wa barua pepe ya POP3.</string>
   <string name="system_account_create_failed">Haikuweza kufungua akaunti. Jaribu tena.</string>
   <string name="device_admin_label">Barua pepe</string>
   <string name="device_admin_description">Huwezesha sera za usalama zinazobainishwa na seva</string>

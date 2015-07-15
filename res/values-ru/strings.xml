@@ -219,7 +219,6 @@
   <string name="mailbox_settings_mailbox_sync_window_label">Период синхронизации</string>
   <string name="prefDialogTitle_conversationListIcon">Фотографии отправителей</string>
   <string name="provider_note_live">Доступ по протоколу POP, позволяющий этой программе подключаться, разрешен только в некоторых аккаунтах Plus. Если вам не удается войти с помощью своего адреса электронной почты и пароля, скорее всего, у вас бесплатный аккаунт (не Plus). Чтобы войти в такой аккаунт, используйте браузер.</string>
-  <string name="provider_note_t_online">Прежде чем настраивать аккаунт, перейдите на веб-сайт оператора связи и установите пароль для доступа к электронной почте по протоколу POP3.</string>
   <string name="system_account_create_failed">Не удалось создать аккаунт. Повторите попытку.</string>
   <string name="device_admin_label">Электронная почта</string>
   <string name="device_admin_description">Включение серверных политик безопасности</string>

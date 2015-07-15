@@ -234,7 +234,6 @@
   <string name="mailbox_settings_mailbox_sync_window_label">قەدەمداشلايدىغان تور خەتلەرنىڭ كۈن سانى</string>
   <string name="prefDialogTitle_conversationListIcon">يوللىغۇچى سۈرىتى</string>
   <string name="provider_note_live">پەقەت بەزى \"Plus\" ھېساباتلا POP زىيارەتنى قوللاپ بۇ پىروگراممىنىڭ باغلىنىشىغا يول قويىدۇ. ئەگەر توغرا تورخەت ئادرېسى ۋە ئىم بىلەن تىزىمغا كىرەلمىسىڭىز ئۇنداقتا ھەقلىق \"Plus\" ھېساباتىنى ئاچقۇزماپسىز. توركۆرگۈنى قوزغىتىپ بۇ تورخەت ھېساباتلىرىنىڭ زىيارەت ھوقۇقىغا ئېرىشىڭ.</string>
-  <string name="provider_note_t_online">بۇ تورخەت ھېساباتىنى تەڭشەشتىن ئىلگىرى، T-Online تورتۇرانى زىيارەت قىلىپ، بۇ ھېساباتنىڭ POP3 تورخەت زىيارىتى ئۈچۈن ئىم قۇرۇڭ.</string>
   <string name="system_account_create_failed">ھېسابات قۇرالمىدى. قايتا سىناڭ.</string>
   <string name="device_admin_label">تورخەت</string>
   <string name="device_admin_description">بەلگىلەنگەن مۇلازىمېتىرنىڭ بىخەتەرلىك تاكتىكىسى قوزغىتىلدى</string>

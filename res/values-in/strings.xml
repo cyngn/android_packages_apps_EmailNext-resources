@@ -234,7 +234,6 @@
   <string name="mailbox_settings_mailbox_sync_window_label">Jumlah hari email yang akan disinkronkan</string>
   <string name="prefDialogTitle_conversationListIcon">Gambar pengirim</string>
   <string name="provider_note_live">Hanya beberapa akun \"Plus\" termasuk akses POP yang mengizinkan program ini tersambung. Jika tidak dapat masuk dengan sandi dan alamat email yang benar, Anda mungkin tidak memiliki akun \"Plus\" berbayar. Luncurkan browser web untuk mendapat akses ke akun email ini.</string>
-  <string name="provider_note_t_online">Sebelum menyiapkan akun email ini, kunjungi situs web T-Online dan buat sandi untuk akses email POP3.</string>
   <string name="system_account_create_failed">Tidak dapat membuat akun. Coba lagi.</string>
   <string name="device_admin_label">Email</string>
   <string name="device_admin_description">Mengaktifkan kebijakan keamanan yang ditentukan server</string>

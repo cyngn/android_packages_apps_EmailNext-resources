@@ -234,7 +234,6 @@
   <string name="mailbox_settings_mailbox_sync_window_label">ມື້ຂອງອີເມວທີ່ຈະຊິ້ງຂໍ້ມູນ</string>
   <string name="prefDialogTitle_conversationListIcon">ຮູບຜູ່ສົ່ງ</string>
   <string name="provider_note_live">ມີແຕ່ບາງບັນຊີ \"Plus\" ທີ່ມີການເຂົ້າເຖິງ POP ເພື່ອອະນຸຍາດໃຫ້ໂປຣແກຣມນີ້ເຊື່ອມຕໍ່. ຫາກທ່ານບໍ່ສາມາດເຂົ້າສູ່ລະບົບດ້ວຍທີ່ຢູ່ອີເມວ ແລະ ລະຫັດຜ່ານທີ່ຖືກຕ້ອງ, ທ່ານອາດບໍ່ມີບັນຊີ \"Plus\" ທີ່ບໍ່ທຳການຊຳລະ. ເປີດໂປຣແກຣມທ່ອງເວັບເພື່ອເຂົ້າເຖິງບັນຊີອີເມວເຫຼົ່ານີ້.</string>
-  <string name="provider_note_t_online">ກ່ອນທີ່ຈະຕິດຕັ້ງບັນຊີອີເມວ, ໃຫ້ເຂົ້າຊົມເວັບໄຊ T-Online ແລະ ສ້າງລະຫັດຜ່ານສຳລັບການເຂົ້າເຖິງອີເມວ POP3 ກ່ອນ.</string>
   <string name="system_account_create_failed">ບໍ່ສາມາດສ້າງບັນຊີໄດ້. ລອງໃໝ່ອີກຄັ້ງ.</string>
   <string name="device_admin_label">ອີເມວ</string>
   <string name="device_admin_description">ເປີດນຳໃຊ້ຂໍ້ກຳນົດຄວາມປອດໄພສະເພາະເຊີບເວີ</string>

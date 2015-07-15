@@ -239,7 +239,6 @@
   <string name="mailbox_settings_mailbox_sync_window_label">Дни от пощата за синхронизиране</string>
   <string name="prefDialogTitle_conversationListIcon">Изображение на подателя</string>
   <string name="provider_note_live">Само някои „Plus“ профили включват достъп чрез POP, позволявайки на тази програма да се свърже. Ако не можете да влезете с правилния си имейл адрес и парола, може да не сте платили за такъв профил. Моля, стартирайте уеб браузъра, за да получите достъп до тези имейл адреси.</string>
-  <string name="provider_note_t_online">Преди да настроите този имейл адрес, посетете уебсайта на T-Online и създайте парола за достъп до имейл чрез POP3.</string>
   <string name="system_account_create_failed">Профилът не можа да бъде създаден. Опитайте отново.</string>
   <string name="device_admin_label">Имейл</string>
   <string name="device_admin_description">Активира определени от сървъра защитни правила</string>

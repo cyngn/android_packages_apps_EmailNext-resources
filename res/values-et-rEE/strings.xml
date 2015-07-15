@@ -239,7 +239,6 @@
   <string name="mailbox_settings_mailbox_sync_window_label">Sünkroonitava e-posti päevade arv</string>
   <string name="prefDialogTitle_conversationListIcon">Saatja pilt</string>
   <string name="provider_note_live">Ainult mõnel kontol „Plus” on POP-juurdepääs, mis lubab programmiga ühendust võtta. Kui te ei saa oma õige e-posti aadressi ja parooliga sisse logida, pole teil võib-olla tasulist kontot „Plus”. Neile meilikontodele juurdepääsuks käivitage veebibrauser.</string>
-  <string name="provider_note_t_online">Enne selle meilikonto loomist külastage T-Online\'i veebisaiti ja looge parool POP3-meilile juurdepääsuks.</string>
   <string name="system_account_create_failed">Konto loomine ebaõnnestus. Proovige uuesti.</string>
   <string name="device_admin_label">E-post</string>
   <string name="device_admin_description">Võimaldab serveripõhiseid turvaeeskirju</string>

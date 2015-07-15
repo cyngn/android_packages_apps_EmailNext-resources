@@ -128,7 +128,7 @@
   <string name="account_setup_exchange_use_certificate">Clientszertifikat benotzen</string>
   <string name="account_setup_exchange_remove_certificate">Ewechhuelen</string>
   <string name="account_setup_exchange_no_certificate">Keen</string>
-  <string name="account_setup_exchange_device_id_label">ID vum mobilen Apparat</string>
+  <string name="account_setup_exchange_device_id_label">ID vum mobillen Apparat</string>
   <string name="account_setup_options_headline">Kontenoptiounen</string>
   <string name="account_setup_options_mail_check_frequency_never">Ni</string>
   <string name="account_setup_options_mail_check_frequency_push">Automatesch (Push)</string>
@@ -242,7 +242,6 @@ Wëlls du däi Benotzernumm an/oder däi Passwuert aktualiséieren?</string>
   <string name="mailbox_settings_mailbox_sync_window_label">Deeg fir déi synchroniséiert soll ginn</string>
   <string name="prefDialogTitle_conversationListIcon">Ofsenderbild</string>
   <string name="provider_note_live">Just e puer \"Plus\"-Konten erlabe POP-Zougrëff wouduerch dëse Programm drop zougräife kann. Wann s du dech net mat denger korrekter E-Mail-Adress an dengem Passwuert kanns umellen, dann hues du méiglecherweis kee bezuelte \"Plus\"-Kont. Féier däi Web-Browser aus fir Zougrëff op deng E-Mail-Konten ze kréien.</string>
-  <string name="provider_note_t_online">Stell op der T-Online-Internetsäit e Passwuert fir POP3-Zougank an, ier s de den E-Mail-Kont erstells.</string>
   <string name="system_account_create_failed">Konnt de Kont net erstellen. Probéier nees.</string>
   <string name="device_admin_label">E-Mail</string>
   <string name="device_admin_description">Aktivéiert serverspezifesch Sécherheetsrichtlinnen</string>

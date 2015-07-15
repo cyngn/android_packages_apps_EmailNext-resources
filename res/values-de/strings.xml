@@ -239,7 +239,6 @@
   <string name="mailbox_settings_mailbox_sync_window_label">E-Mails: zu synchronisierende Tage</string>
   <string name="prefDialogTitle_conversationListIcon">Bild des Absenders</string>
   <string name="provider_note_live">Nur einige \"Plus\"-Konten haben einen POP-Zugang, der diesem Programm ermöglicht, eine Verbindung aufzubauen. Sollten Sie nicht dazu in der Lage sein, sich mit Ihrer korrekten E-Mail-Adresse und dem richtigen Passwort anzumelden, verfügen Sie möglicherweise nicht über ein kostenpflichtiges \"Plus\"-Konto. Starten Sie Ihren Webbrowser, um auf diese Konten zuzugreifen.</string>
-  <string name="provider_note_t_online">Richten Sie vor der Erstellung des E-Mail-Kontos ein Passwort für den POP3-E-Mail-Zugang auf der T-Online-Website ein.</string>
   <string name="system_account_create_failed">Konto konnte nicht erstellt werden. Bitte versuchen Sie es erneut.</string>
   <string name="device_admin_label">E-Mail</string>
   <string name="device_admin_description">Aktiviert serverspezifische Sicherheitsrichtlinien</string>

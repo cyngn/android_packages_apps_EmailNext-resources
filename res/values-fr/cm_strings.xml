@@ -22,7 +22,6 @@
   <string name="mailbox_name_display_todo">À faire</string>
   <string name="mailbox_name_display_archive">Archives</string>
   <string name="mailbox_name_local_only_display_name"> - Local</string>
-  <string name="account_setup_start_company_slogan_text">Bienvenue à une meilleure boîte de réception</string>
   <string name="account_setup_start_email_address_hint">Entrez votre adresse e-mail</string>
   <string name="account_setup_start_password_hint">Mot de passe</string>
   <string name="account_setup_start_get_started_button">Démarrer</string>
@@ -54,15 +53,6 @@
   <string name="general_preference_mark_archive_messages_read">Archiver en lisant</string>
   <string name="general_preference_mark_archive_messages_read_description">Marquer les e-mails comme lus avant de les archiver</string>
   <string name="search_hint">Rechercher\u2026</string>
-  <string name="tutorial_done_button">Effectué</string>
-  <string name="tutorial_get_started_button">Démarrer</string>
-  <string name="tutorial_skip_tutorial">Passer le tutoriel</string>
-  <string name="tutorial_finished_heading">Ça y est !\nAppuyez ci-dessous pour commencer à utiliser l\'e-mail.</string>
-  <string name="tutorial_text1">L\'archivage des anciens e-mails est aussi simple que de les glisser hors de votre écran. Essayez de glisser le message ci-dessus maintenant.</string>
-  <string name="tutorial_text2">Effacer un message est également rapide. Essayez de balayer vers la gauche.</string>
-  <string name="tutorial_text3">Vous avez fait une erreur ? Ne vous inquiétez pas, vous êtes couvert. Essayez d\'appuyer sur le bouton d\'annulation pour corriger l\'erreur.</string>
-  <string name="tutorial_text4">Vous avez maintenant plusieurs façons d\'agir rapidement sur un e-mail. Balayez vers la droite pour voir la grille d\'action.</string>
-  <string name="tutorial_text5">Essayez d\'appuyer sur le bouton « Spam » pour marquer ce message comme spam.</string>
   <string name="oauth_authentication_title">Demande de permission</string>
   <string name="sign_in_title">Se connecter</string>
   <string name="sign_in_button">Effectué</string>
@@ -76,4 +66,17 @@
   <string name="account_setup_options_mail_window_3months">3 derniers mois</string>
   <string name="account_setup_options_mail_window_6months">6 derniers mois</string>
   <string name="account_settings_unable_to_edit_field">Votre administrateur n\'autorise pas la modification de ce champ</string>
+  <string name="tutorial_welcome_title">Bienvenue sur Email</string>
+  <string name="tutorial_welcome_subtitle">Email. Plus intelligent. Plus rapide. Sur mesure.</string>
+  <string name="tutorial_page3_title">Grille d\'action</string>
+  <string name="tutorial_skip_button">Passer</string>
+  <string name="tutorial_done_button">Effectué</string>
+  <string name="message_send_failed_ticker">L\'envoi du message a échoué</string>
+  <string name="message_send_failed_title">Message non envoyé</string>
+  <string name="preferences_clear_search_history_title">Effacer l\'historique de recherche</string>
+  <string name="preferences_clear_search_history_summary">Supprimer toutes les recherches effectuées</string>
+  <string name="search_history_cleared">Historique des recherches effacé.</string>
+  <string name="update_available_ticker">Une mise à jour d\'Email est disponible</string>
+  <string name="update_availalable_title">Une mise à jour est disponible</string>
+  <string name="update_available_content">Appuyer pour installer la mise à jour</string>
 </resources>

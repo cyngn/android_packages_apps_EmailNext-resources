@@ -22,7 +22,6 @@
   <string name="mailbox_name_display_todo">Om-te-doen</string>
   <string name="mailbox_name_display_archive">Argiveer</string>
   <string name="mailbox_name_local_only_display_name"> - Plaaslik</string>
-  <string name="account_setup_start_company_slogan_text">Welkom by \'n beter inkassie</string>
   <string name="account_setup_start_email_address_hint">Tik jou epos adres</string>
   <string name="account_setup_start_password_hint">Wagwoord</string>
   <string name="account_setup_start_get_started_button">Kom ons begin</string>
@@ -54,15 +53,6 @@
   <string name="general_preference_mark_archive_messages_read">Argief as gelees</string>
   <string name="general_preference_mark_archive_messages_read_description">Merk e-pos as gelees voordat argiveer</string>
   <string name="search_hint">Deursoek e-pos</string>
-  <string name="tutorial_done_button">Gedoen</string>
-  <string name="tutorial_get_started_button">Kom ons begin</string>
-  <string name="tutorial_skip_tutorial">Slaan tutoriaal oor</string>
-  <string name="tutorial_finished_heading">Dit is dit!\nKlik hieronder om jou e-pos te gebruik.</string>
-  <string name="tutorial_text1">Argiveer van ou e-pos is so eenvoudig soos vee hulle af jou skerm. Probeer nou met die die boodskap hier bo.</string>
-  <string name="tutorial_text2">Verwydering van \'n boodskap is ook so vinnig. Probeer verder links vee om te verwyder.</string>
-  <string name="tutorial_text3">\'n Fout gemaak? Moenie bekommerd wees nie, u is gedek. Probeer om die ongedaan knoppie te tik om \'n fout reg te stel.</string>
-  <string name="tutorial_text4">Jy het nou baie maniere om vinnig aksies te doen met jou e-pos. Vee na die regterkant om die aksie rooster te sien.</string>
-  <string name="tutorial_text5">Probeer \'Strooipos\' te raak om \'n boodskap as ongewenste epos te merk.</string>
   <string name="oauth_authentication_title">Versoek magtiging</string>
   <string name="sign_in_title">Teken in</string>
   <string name="sign_in_button">Gedoen</string>
@@ -76,4 +66,5 @@
   <string name="account_setup_options_mail_window_3months">Laaste 3 maande</string>
   <string name="account_setup_options_mail_window_6months">Laaste 6 maande</string>
   <string name="account_settings_unable_to_edit_field">Jou administrateurder laat jou nie toe om die veld te verander nie</string>
+  <string name="tutorial_done_button">Gedoen</string>
 </resources>

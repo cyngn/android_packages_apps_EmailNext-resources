@@ -239,7 +239,6 @@
   <string name="mailbox_settings_mailbox_sync_window_label">ለማመሳሰል የደብዳቤ ቀናት</string>
   <string name="prefDialogTitle_conversationListIcon">የላኪ ምስል</string>
   <string name="provider_note_live">ጥቂት \"Plus\" መለያዎች ይህን ፕሮግራም ለማገናኘት ብቻ የPOP ድረስ ያካትታሉ። ከትክክለኛ ኢሜይል አድራሻህ እና የይለፍ ቃልህን ማስገባት ካልቻልክ የተከፈለበት የ\"Plus\" መለያ ሊኖርህ አይችልም። እባክህ ወደ እነዚህ የመልዕክት መለያዎች መዳረሻ ለማግኘት የድረ አሳሹን አስነሳ።</string>
-  <string name="provider_note_t_online">ይህን ኢሜይል ከመፍጠርህ በፊት፣ የT-Online ድረ ጣቢያን ጎብኝ እና ለPOP3 ኢሜይል ለመድረስ ይለፍ ቃል ፍጠር።</string>
   <string name="system_account_create_failed">መለያውን መፍጠር አልቻለም:: እባክህ እንደገና ሞክር።</string>
   <string name="device_admin_label">ኢሜይል</string>
   <string name="device_admin_description">በአገልጋይ-የተገለፁ የደህንነት ፖሊሲዎች አንቃ</string>

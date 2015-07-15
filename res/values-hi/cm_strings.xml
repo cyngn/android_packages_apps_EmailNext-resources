@@ -22,7 +22,6 @@
   <string name="mailbox_name_display_todo">करना है</string>
   <string name="mailbox_name_display_archive">पुरालेख</string>
   <string name="mailbox_name_local_only_display_name"> - स्थानीय</string>
-  <string name="account_setup_start_company_slogan_text">बेहतर इनबॉक्स में आपका स्वागत है</string>
   <string name="account_setup_start_email_address_hint">अपना ईमेल पता दर्ज करें</string>
   <string name="account_setup_start_password_hint">पासवर्ड</string>
   <string name="account_setup_start_get_started_button">शुरू करें</string>
@@ -54,15 +53,6 @@
   <string name="general_preference_mark_archive_messages_read">पढ़ लिया के रूप में पुरालेखित करें</string>
   <string name="general_preference_mark_archive_messages_read_description">ईमेलों को पुरालेखित करने से पहले उन्हें पढ़ लिया है कि रूप में चिह्नित करें</string>
   <string name="search_hint">ईमेल खोजें</string>
-  <string name="tutorial_done_button">हो गया</string>
-  <string name="tutorial_get_started_button">शुरू करें</string>
-  <string name="tutorial_skip_tutorial">ट्यूटोरियल रहने दें</string>
-  <string name="tutorial_finished_heading">बस इतना ही है!\nईमेल का उपयोग करना शुरू करने के लिए नीचे क्लिक करें।</string>
-  <string name="tutorial_text1">पुराने ईमेलों को पुरालेखित करना उन्हें स्क्रीन से बुहारकर हटा देने जितना सरल है। ऊपर के संदेश को अभी बुहारकर देखें।</string>
-  <string name="tutorial_text2">संदेश को हटाना भी आसान है। हटाने के लिए और भी थोड़ा अधिक बायाँ स्वाइप करें।</string>
-  <string name="tutorial_text3">ग़लती हो गई? चिंता नहीं करें। ग़लती सुधारने के लिए पूर्ववत करें बटन को अभी टैप करके देखें।</string>
-  <string name="tutorial_text4">अब आपको अपनी डाक पर कार्रवाई करने के ढेर सारे तरीके उपलब्ध हैं। कार्य ग्रिड देखने के लिए दाईं ओर स्वाइप करें।</string>
-  <string name="tutorial_text5">इस संदेश को स्पैम के रूप में चिह्नित करने के लिए \'स्पैम\' को टैप करें।</string>
   <string name="oauth_authentication_title">प्राधिकरण माँगने जा रहे हैं</string>
   <string name="sign_in_title">साइन इन करें</string>
   <string name="sign_in_button">हो गया</string>
@@ -76,4 +66,5 @@
   <string name="account_setup_options_mail_window_3months">पिछले 3 महीने</string>
   <string name="account_setup_options_mail_window_6months">पिछले 6 महीने</string>
   <string name="account_settings_unable_to_edit_field">आपका प्रशासक इस फील्ड को परिवर्तित करने की अनुमति नहीं देता है</string>
+  <string name="tutorial_done_button">हो गया</string>
 </resources>

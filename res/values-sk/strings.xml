@@ -244,7 +244,6 @@
   <string name="mailbox_settings_mailbox_sync_window_label">Počet dní na synchronizáciu pošty</string>
   <string name="prefDialogTitle_conversationListIcon">Obrázok odosielateľa</string>
   <string name="provider_note_live">Len niektoré účty Plus majú prístup prostredníctvom protokolu POP, ktorý umožňuje pripojenie tohto programu. Ak sa nemôžete prihlásiť so správnou e-mailovou adresou a heslom, pravdepodobne nemáte platený účet „Plus“. Ak chcete pristupovať k týmto e-mailovým účtom, urobte tak prostredníctvom webového prehliadača.</string>
-  <string name="provider_note_t_online">Pred nastavením tohto e-mailového účtu navštívte webové stránky T-Online a vytvorte heslo pre e-mailový prístup POP3.</string>
   <string name="system_account_create_failed">Účet sa nepodarilo vytvoriť. Skúste to znova.</string>
   <string name="device_admin_label">Poslať e-mail</string>
   <string name="device_admin_description">Povoľuje pravidlá zabezpečenia určené serverom</string>

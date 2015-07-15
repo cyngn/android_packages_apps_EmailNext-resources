@@ -16,10 +16,10 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="permission_read_attachment_label">Irakurri mezuei erantsitako fitxategiak</string>
-  <string name="permission_read_attachment_desc">Posta mezuetara erantsitako fitxategiak irakurtzea ahalbidetzen dio aplikazioari.</string>
-  <string name="permission_access_provider_label">Atzitu posta hornitzailearen datuak</string>
-  <string name="permission_access_provider_desc">Zure posta datu-basera sartzea ahalbidetzen dio aplikazioari, jasotako mezuak, bidalitako mezuak, erabiltzaile izen eta pasahitzak barne.</string>
-  <string name="app_name">Posta</string>
+  <string name="permission_read_attachment_desc">Eposta mezuetara erantsitako fitxategiak irakurtzea ahalbidetzen dio aplikazioari.</string>
+  <string name="permission_access_provider_label">Atzitu eposta hornitzailearen datuak</string>
+  <string name="permission_access_provider_desc">Zure eposta datu-basera sartzea ahalbidetzen dio aplikazioari, jasotako mezuak, bidalitako mezuak, erabiltzaile izen eta pasahitzak barne.</string>
+  <string name="app_name">Eposta</string>
   <string name="debug_title">Araztu</string>
   <string name="next_action">Hurrengoa</string>
   <string name="okay_action">Ados</string>
@@ -76,12 +76,12 @@
     <item quantity="other"><xliff:g id="size_in_gigabytes" example="279">%d</xliff:g>GB</item>
   </plurals>
   <string name="account_setup_basics_title">Kontuaren ezarpena</string>
-  <string name="account_setup_basics_headline">Posta elektronikoko kontua</string>
+  <string name="account_setup_basics_headline">Eposta kontua</string>
   <string name="accounts_welcome">Zure kontua urrats gutxi batzuekin ezarri dezakezu.
         </string>
-  <string name="account_setup_basics_email_label">Posta helbidea</string>
+  <string name="account_setup_basics_email_label">Eposta helbidea</string>
   <string name="account_setup_basics_manual_setup_action">Eskuzko konfigurazioa</string>
-  <string name="account_setup_username_password_toast">Idatzi posta helbide eta pasahitza egokiak.</string>
+  <string name="account_setup_username_password_toast">Idatzi eposta helbide eta pasahitza egokiak.</string>
   <string name="account_duplicate_dlg_title">Bikoiztu kontua</string>
   <string name="account_duplicate_dlg_message_fmt">Erabiltzaile izen hau jada \"<xliff:g id="duplicate">%s</xliff:g>\" kontuarentzat erabiltzen duzu.</string>
   <string name="account_password_spaces_error">Zure pasahitzak espazioren bat du hasieran edo amaieran. Zerbitzari askok ez dituzte onartzen espazioak pasahitzetan.</string>
@@ -109,7 +109,7 @@
   <string name="account_setup_incoming_security_ssl_label">SSL/TLS</string>
   <string name="account_setup_incoming_security_tls_trust_certificates_label">STARTTLS (onartu ziurtagiri guztiak)</string>
   <string name="account_setup_incoming_security_tls_label">STARTTLS</string>
-  <string name="account_setup_incoming_delete_policy_label">Ezabatu posta zerbitzaritik</string>
+  <string name="account_setup_incoming_delete_policy_label">Ezabatu eposta zerbitzaritik</string>
   <string name="account_setup_incoming_delete_policy_never_label">Inoiz ez</string>
   <string name="account_setup_incoming_delete_policy_delete_label">Sarrera ontzitik ezabatzen dudanean</string>
   <string name="account_setup_incoming_imap_path_prefix_label">IMAP bidearen aurrizkia</string>
@@ -162,13 +162,13 @@
   <string name="account_setup_failed_auth_required">Zerbitzariak ez ditu onartzen autentifikazio metodoak.</string>
   <string name="account_setup_failed_security">Ezin izan da zerbitzariarekin konexioa ezarri segurtasun errore bat dela eta.</string>
   <string name="account_setup_failed_ioerror">Ezin izan da zerbitzariarekin konexioa ezarri.</string>
-  <string name="account_setup_failed_protocol_unsupported">Zerbitzari helbide oker bat idatzi duzu edo zerbitzariak Posta-k onartzen ez duen protokolo bat erabiltzen du.</string>
+  <string name="account_setup_failed_protocol_unsupported">Zerbitzari helbide oker bat idatzi duzu edo zerbitzariak Epostak onartzen ez duen protokolo bat erabiltzen du.</string>
   <string name="account_setup_failed_access_denied">Ez duzu zerbitzari honekin sinkronizatzeko baimenik. Jarri kontaktuan zerbitzariaren administratzailearekin gehiago jakiteko.</string>
   <string name="account_setup_security_required_title">Urruneko segurtasunaren administrazioa</string>
   <string name="account_setup_security_policies_required_fmt"> <xliff:g id="server">%s</xliff:g> zerbitzariak zure Android gailuko segurtasun ezaugarri batzuk urrunetik kontrolatzea baimendu diezaiozula eskatzen dizu. Kontu hau ezartzen bukatu nahi duzu?</string>
   <string name="account_setup_failed_security_policies_unsupported">Zerbitzari honek zure Android gailuan euskarririk ez duten segurtasun ezaugarriak behar ditu, besteak beste: <xliff:g id="error">%s</xliff:g></string>
   <string name="account_setup_username_uneditable_error">Ezin da kontu baten erabiltzaile izena aldatu. Beste erabiltzaile izen bat duen kontua gehitzeko, ukitu Gehitu kontua.</string>
-  <string name="disable_admin_warning">ABISUA: zure gailua administratzeko Posta aplikazioaren baimena desaktibatzen baduzu, aplikazio honetan hori behar duten kontu guztiak ezabatuko dira, baita posta helbideak, kontaktuak, egutegiko gertakariak eta bestelako datuak ere.</string>
+  <string name="disable_admin_warning">ABISUA: zure gailua administratzeko Eposta aplikazioaren baimena desaktibatzen baduzu, aplikazio honetan hori behar duten kontu guztiak ezabatuko dira, baita eposta helbideak, kontaktuak, egutegiko gertakariak eta bestelako datuak ere.</string>
   <string name="account_security_dialog_title">Segurtasunezko eguneraketa</string>
   <string name="account_security_dialog_content_fmt"><xliff:g id="account">%s</xliff:g> kontuak zuk segurtasun ezarpenak eguneratzea behar du.</string>
   <string name="security_unsupported_ticker_fmt">\"<xliff:g id="account">%s</xliff:g>\" kontua ezin da sinkronizatu segurtasun baldintzak direla eta.</string>
@@ -194,9 +194,9 @@
   <string name="account_settings_login_dialog_reason_fmt">Huts egin du <xliff:g id="account">%s</xliff:g> kontuarekin saioa hastea; zerbitzariak dio: <xliff:g id="reason">%s</xliff:g>. Erabiltzailea edo eta pasahitza eguneratu nahi duzu?</string>
   <string name="account_settings_background_attachments_label">Deskargatu eranskinak</string>
   <string name="account_settings_background_attachments_summary">Automatikoki deskargatu berriki jasotako mezuen eranskinak Wi-Fi bidez</string>
-  <string name="account_settings_notify_label">Posta jakinarazpenak</string>
+  <string name="account_settings_notify_label">Eposta jakinarazpenak</string>
   <string name="account_settings_summary">Sinkronizazio maiztasuna, jakinarazpenak, etab.</string>
-  <string name="account_settings_notify_summary">Jakinarazi posta berria iristean</string>
+  <string name="account_settings_notify_summary">Jakinarazi eposta berria iristean</string>
   <string name="account_settings_mail_check_frequency_label">Sinkronizazio maiztasuna</string>
   <string name="account_settings_incoming_label">Sarrerako ezarpenak</string>
   <string name="account_settings_incoming_summary">Erabiltzailea, pasahitza eta sarrera zerbitzariaren beste ezarpenak</string>
@@ -211,7 +211,7 @@
   <string name="account_settings_description_label">Kontuaren izena</string>
   <string name="account_settings_name_label">Zure izena</string>
   <string name="account_settings_edit_quick_responses_label">Erantzun azkarrak</string>
-  <string name="account_settings_edit_quick_responses_summary">Editatu posta idaztean maiz erabiltzen duzun testua</string>
+  <string name="account_settings_edit_quick_responses_summary">Editatu eposta idaztean maiz erabiltzen duzun testua</string>
   <string name="account_settings_notifications">Jakinarazpenen ezarpenak</string>
   <string name="account_settings_data_usage">Datuen erabilera</string>
   <string name="account_settings_policies">Segurtasun politikak</string>
@@ -228,8 +228,8 @@
   <string name="account_settings_sync_contacts_summary">Sinkronizatu kontu honetako kontaktuak</string>
   <string name="account_settings_sync_calendar_enable">Sinkronizatu egutegia</string>
   <string name="account_settings_sync_calendar_summary">Sinkronizatu kontu honetako egutegia</string>
-  <string name="account_settings_sync_email_enable">Sinkronizatu posta</string>
-  <string name="account_settings_sync_email_summary">Sinkronizatu kontu honetako posta</string>
+  <string name="account_settings_sync_email_enable">Sinkronizatu eposta</string>
+  <string name="account_settings_sync_email_summary">Sinkronizatu kontu honetako eposta</string>
   <string name="account_settings_vibrate_when_label">Bibratu</string>
   <string name="account_settings_ringtone">Hautatu dei doinua</string>
   <string name="account_settings_servers">Zerbitzariaren ezarpenak</string>
@@ -239,10 +239,9 @@
   <string name="mailbox_settings_sync_enabled_summary">Mezuak konektatzerakoan deskargatuko dira</string>
   <string name="mailbox_settings_mailbox_sync_window_label">Zenbat egunetako posta sinkronizatu</string>
   <string name="prefDialogTitle_conversationListIcon">Igorlearen irudia</string>
-  <string name="provider_note_live">Soilik \"Plus\" kontu batzuk dute aplikazio honi sartzea ahalbidetzen dion POP sarbidea. Ezin baduzu saioa hasi zure helbide elektroniko eta pasahitzarekin, agian ez duzu ordaindu \"Plus\" kontu bat. Abiarazi nabigatzailea posta helbide hauetara sartzeko.</string>
-  <string name="provider_note_t_online">Posta kontu hau konfiguratu baino lehen, mesedez sartu T-Online webgunera eta sortu pasahitz bat POP3 postara sarbidea izateko.</string>
+  <string name="provider_note_live">Soilik \"Plus\" kontu batzuk dute aplikazio honi sartzea ahalbidetzen dion POP sarbidea. Ezin baduzu saioa hasi zure helbide elektroniko eta pasahitzarekin, agian ez duzu ordaindu \"Plus\" kontu bat. Abiarazi nabigatzailea eposta helbide hauetara sartzeko.</string>
   <string name="system_account_create_failed">Ezin izan da kontua sortu. Saiatu berriro.</string>
-  <string name="device_admin_label">Posta</string>
+  <string name="device_admin_label">Eposta</string>
   <string name="device_admin_description">Zerbitzariak zehaztutako segurtasun politikak gaitzen ditu</string>
   <string name="settings_activity_title">Ezarpenak</string>
   <string name="header_label_general_preferences">Ezarpen orokorrak</string>
@@ -271,7 +270,7 @@
   <string name="policy_password_expiration">Behartu pasahitzak iraungitzea</string>
   <string name="policy_screen_timeout">Behartu langabe dagoen gailua pantaila blokeatzera</string>
   <string name="policy_calendar_age">Mugatu sinkronizatuko den egutegiko gertaera kopurua</string>
-  <string name="policy_email_age">Murriztu sinkronizatuko den posta kopurua</string>
+  <string name="policy_email_age">Murriztu sinkronizatuko den eposta kopurua</string>
   <string name="quick_1">Eskerrik asko!</string>
   <string name="quick_2">Ondo deritzot!</string>
   <string name="quick_3">Geroago irakurriko dut eta esango dizut ezer.</string>

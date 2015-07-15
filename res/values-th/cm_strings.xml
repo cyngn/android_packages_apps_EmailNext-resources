@@ -22,7 +22,6 @@
   <string name="mailbox_name_display_todo">สิ่งที่ต้องทำ</string>
   <string name="mailbox_name_display_archive">เก็บถาวร</string>
   <string name="mailbox_name_local_only_display_name"> - ในเครื่อง</string>
-  <string name="account_setup_start_company_slogan_text">ยินดีต้อนรับสู่กล่องจดหมายที่ดีกว่า</string>
   <string name="account_setup_start_email_address_hint">กรอกอีเมลของคุณ</string>
   <string name="account_setup_start_password_hint">รหัสผ่าน</string>
   <string name="account_setup_start_get_started_button">เริ่มต้นใช้งาน</string>
@@ -54,15 +53,6 @@
   <string name="general_preference_mark_archive_messages_read">เก็บเป็นอ่านแล้ว</string>
   <string name="general_preference_mark_archive_messages_read_description">ทำเครื่องหมายอีเมลเป็นอ่านแล้วก็ทำการจัดเก็บ</string>
   <string name="search_hint">ค้นหาอีเมล</string>
-  <string name="tutorial_done_button">เสร็จสิ้น</string>
-  <string name="tutorial_get_started_button">เริ่มต้นใช้งาน</string>
-  <string name="tutorial_skip_tutorial">ข้ามการแนะนำ</string>
-  <string name="tutorial_finished_heading">ใช่แล้ว! \nแตะด้านล่างเพื่อเริ่มต้นใช้งานอีเมล</string>
-  <string name="tutorial_text1">เก็บอีเมลเก่าได้ง่ายดายโดยการสไลค์พวกมันไปข้างๆ ลองปัดข้อความดูตอนนี้เลยสิ</string>
-  <string name="tutorial_text2">ลบข้อความอย่างรวดเร็วลองปัดมันไปทางซ้ายสิ</string>
-  <string name="tutorial_text3">ทำผิด? ไม่ต้องกังวล แตะปุ่มย้อนกลับได้ทันที</string>
-  <string name="tutorial_text4">ตอนนี้คุณสามารถจัดการอีเมลจำนวนมหาศาลได้อย่างรวดเร็ว ลองปัดไปทางขาวเพื่อดูการทำงานที่ทำได้</string>
-  <string name="tutorial_text5">แตะปุ่ม สแปม เพื่อบอกว่าข้อความนี้เป็นสแปม</string>
   <string name="oauth_authentication_title">ต้องการยืนยันตัวตน</string>
   <string name="sign_in_title">เข้าสู่ระบบ</string>
   <string name="sign_in_button">เสร็จสิ้น</string>
@@ -76,4 +66,5 @@
   <string name="account_setup_options_mail_window_3months">3 เดือนที่ผ่านมา</string>
   <string name="account_setup_options_mail_window_6months">6 เดือนที่ผ่านมา</string>
   <string name="account_settings_unable_to_edit_field">ผู้ดูแลนะบบของคุณไม่อนุญาตให้แก้ไขข้อมูลในฟิลนี้</string>
+  <string name="tutorial_done_button">เสร็จสิ้น</string>
 </resources>

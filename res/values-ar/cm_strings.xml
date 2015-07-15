@@ -19,7 +19,6 @@
   <string name="email_provider">البريد الالكتروني</string>
   <string name="mailbox_name_display_todo">سيتم عمله</string>
   <string name="mailbox_name_display_archive">أرشيف</string>
-  <string name="account_setup_start_company_slogan_text">مرحبا بكم في علبة الوارد الافضل</string>
   <string name="account_setup_start_email_address_hint">أدخل عنوان بريدك الإلكتروني</string>
   <string name="account_setup_start_password_hint">كلمة المرور</string>
   <string name="account_setup_start_get_started_button">الشروع في العمل</string>
@@ -42,15 +41,6 @@
   <string name="general_preference_mark_archive_messages_read">ارشفة كـ مقروء</string>
   <string name="general_preference_mark_archive_messages_read_description">تحديد البريد الالكتروني كمقروء
         قبل ارشفته</string>
-  <string name="tutorial_done_button">تم</string>
-  <string name="tutorial_get_started_button">الشروع في العمل</string>
-  <string name="tutorial_skip_tutorial">تخطي البرنامج التعليمي</string>
-  <string name="tutorial_text2">
-        حذف رسالة سريع ايضاً. جرب التمرير يساراً للحذف.
-    </string>
-  <string name="tutorial_text5">
-        جرب النقر على البريد المزعج لتحديد الرسالة كـ بريد مزعج.
-    </string>
   <string name="oauth_authentication_title">طلب الإذن</string>
   <string name="sign_in_title">تسجل الدخول</string>
   <string name="sign_in_button">تم</string>
@@ -60,4 +50,5 @@
   <string name="authentication_label">المصادقة</string>
   <string name="add_authentication_label">أضف المصادقة</string>
   <string name="oauth_saving_message">يتم الحفظ...</string>
+  <string name="tutorial_done_button">تم</string>
 </resources>

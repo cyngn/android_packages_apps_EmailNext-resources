@@ -22,7 +22,6 @@
   <string name="mailbox_name_display_todo">Feladatok</string>
   <string name="mailbox_name_display_archive">Archív</string>
   <string name="mailbox_name_local_only_display_name"> - Helyi</string>
-  <string name="account_setup_start_company_slogan_text">Üdvözölünk egy jobb postafiókban</string>
   <string name="account_setup_start_email_address_hint">Adja meg e-mail címét</string>
   <string name="account_setup_start_password_hint">Jelszó</string>
   <string name="account_setup_start_get_started_button">Kezdjünk bele</string>
@@ -54,15 +53,6 @@
   <string name="general_preference_mark_archive_messages_read">Archív megjelölése olvasottként</string>
   <string name="general_preference_mark_archive_messages_read_description">Email megjelölése olvasottként archiválás előtt</string>
   <string name="search_hint">E-mail keresése\u2026</string>
-  <string name="tutorial_done_button">Kész</string>
-  <string name="tutorial_get_started_button">Kezdjünk bele</string>
-  <string name="tutorial_skip_tutorial">Bemutató kihagyása</string>
-  <string name="tutorial_finished_heading">Készen is vagyunk!\nÉrintse meg alul, hogy használhassa az e-mailt.</string>
-  <string name="tutorial_text1">A régi üzenetek archiválása olyan egyszerű, mint a képernyőről való kicsúsztatás. Próbálja most kicsúsztatni a fenti üzenetet.</string>
-  <string name="tutorial_text2">Törölni is lehet gyorsan. Próbáld balra kihúzni.</string>
-  <string name="tutorial_text3">Elrontott valamit? Ne aggódjon, be van biztosítva. Érintse meg a visszavonás gombot, hogy a hibát kijavítsa.</string>
-  <string name="tutorial_text4">Mostantól rengeteg módja van, hogy gyors műveleteket végezzen az e-mailen. Csúsztasson balra a műveleti rács megjelenítéséhez.</string>
-  <string name="tutorial_text5">Kattints a Spam -re szemétnek jelöléshez.</string>
   <string name="oauth_authentication_title">Hitelesítés indítása</string>
   <string name="sign_in_title">Bejelentkezés</string>
   <string name="sign_in_button">Kész</string>
@@ -76,4 +66,16 @@
   <string name="account_setup_options_mail_window_3months">Elmúlt 3 hónap</string>
   <string name="account_setup_options_mail_window_6months">Elmúlt 6 hónap</string>
   <string name="account_settings_unable_to_edit_field">A rendszergazda nem tette lehetővé a mező módosítását</string>
+  <string name="tutorial_welcome_title">Üdvözöljük az e-mailben</string>
+  <string name="tutorial_welcome_subtitle">Okosabb. Gyorsabb. Személyre szabott. E-mail.</string>
+  <string name="tutorial_page1_title">Egyéni csúsztatási műveletek</string>
+  <string name="tutorial_page1_subtitle">Csúsztatási műveleteinek testreszabása és saját tapasztalat felépítése.</string>
+  <string name="tutorial_page2_title">Tömeges műveletek</string>
+  <string name="tutorial_page2_subtitle">A tömeges kiválasztási funkció a leggyorsabb módja a postaládája kezelésének.</string>
+  <string name="tutorial_page3_title">Rács nézet</string>
+  <string name="tutorial_page3_subtitle">Erőteljes integráció és funkcionalitás gombnyomásra.</string>
+  <string name="tutorial_skip_button">Kihagyás</string>
+  <string name="tutorial_done_button">Kész</string>
+  <string name="message_send_failed_ticker">Üzenet küldése nem sikerült</string>
+  <string name="message_send_failed_title">Üzenet nincs elküldve</string>
 </resources>

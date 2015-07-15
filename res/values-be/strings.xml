@@ -204,7 +204,6 @@
   <string name="mailbox_settings_activity_title_with_mailbox"> Параметры сінхранізацыi( <xliff:g id="MAILBOXX_NAME">%s</xliff:g> )</string>
   <string name="prefDialogTitle_conversationListIcon">Выява адпраўнiка</string>
   <string name="provider_note_live">Толькі некаторыя ўліковыя запісы Google Plus маюць доступ да пратаколу POP, які дазваляе падключэнне гэтай праграме. Калі не атрымліваецца ўвайсці ў сістэму з правільным адрасам электроннай пошты і паролем, магчыма, уліковы запіс Plus не аплачаны. Запусціце вэб-браўзэр, каб атрымаць доступ да гэтых уліковых запісаў.</string>
-  <string name="provider_note_t_online">Перад наладай гэтага ўліковага запісу электроннай пошты наведайце вэб-сайт T-Online і стварыце пароль для доступу да электроннай пошты па пратаколу POP3.</string>
   <string name="system_account_create_failed">Не атрымалася стварыць уліковы запіс. Паспрабуйце яшчэ раз.</string>
   <string name="device_admin_label">Электронная пошта</string>
   <string name="device_admin_description">Уключае спецыяльныя палітыкі бяспекі сервера</string>

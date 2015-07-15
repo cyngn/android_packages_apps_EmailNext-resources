@@ -234,7 +234,6 @@
   <string name="mailbox_settings_mailbox_sync_window_label">同期するメールの日数</string>
   <string name="prefDialogTitle_conversationListIcon">送信者の画像</string>
   <string name="provider_note_live">このプログラムでPOPアクセスが許可されているのは一部の「Plus」アカウントだけです。有料の「Plus」アカウントがなければ、正しいメールアドレスとパスワードを入力してもログインできません。これらのメールアカウントにはブラウザからアクセスしてください。</string>
-  <string name="provider_note_t_online">このメールアカウントをセットアップする前に、T-Onlineウェブサイトにアクセスして、POP3メールアクセス用のパスワードを作成してください。</string>
   <string name="system_account_create_failed">アカウントを作成できませんでした。もう一度お試しください。</string>
   <string name="device_admin_label">メール</string>
   <string name="device_admin_description">サーバーが指定したセキュリティポリシーを有効にします</string>

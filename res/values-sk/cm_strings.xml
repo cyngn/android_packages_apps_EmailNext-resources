@@ -22,7 +22,6 @@
   <string name="mailbox_name_display_todo">Úlohy</string>
   <string name="mailbox_name_display_archive">Archív</string>
   <string name="mailbox_name_local_only_display_name"> - Miestne</string>
-  <string name="account_setup_start_company_slogan_text">Vitajte v lepšej doručenej pošte</string>
   <string name="account_setup_start_email_address_hint">Zadajte vašu emailovú adresu</string>
   <string name="account_setup_start_password_hint">Heslo</string>
   <string name="account_setup_start_get_started_button">Začať</string>
@@ -54,15 +53,6 @@
   <string name="general_preference_mark_archive_messages_read">Archivovať ako prečítané</string>
   <string name="general_preference_mark_archive_messages_read_description">Označiť e-maily ako prečítané pred ich archiváciou</string>
   <string name="search_hint">Hľadať\u2026</string>
-  <string name="tutorial_done_button">Hotovo</string>
-  <string name="tutorial_get_started_button">Začať</string>
-  <string name="tutorial_skip_tutorial">Preskočiť sprievodcu</string>
-  <string name="tutorial_finished_heading">Hotovo! \nKliknite nižšie pre začatie používania e-mailu.</string>
-  <string name="tutorial_text1">Archiváciu starých e-mailov vykonáte ich potiahnutím mimo obrazovky. Teraz potiahnite správu vyššie.</string>
-  <string name="tutorial_text2">Vymazanie správy je príliš rýchle. Potiahnite ďalej doľava pre vymazanie.</string>
-  <string name="tutorial_text3">Urobili ste chybu? Nevadí. Teraz kliknite na tlačidlo Späť pre opravu chyby.</string>
-  <string name="tutorial_text4">Teraz máte množstvo možností, ako rýchlo vykonať akcie na e-maile. Potiahnite doprava pre zobrazenie mriežky s akciami.</string>
-  <string name="tutorial_text5">Kliknutím na \'Nevyžiadaná pošta\' označíte túto správu ako nevyžiadanú.</string>
   <string name="oauth_authentication_title">Požadovanie overenia</string>
   <string name="sign_in_title">Prihlásiť sa</string>
   <string name="sign_in_button">Hotovo</string>
@@ -76,4 +66,16 @@
   <string name="account_setup_options_mail_window_3months">Posledné 3 mesiace</string>
   <string name="account_setup_options_mail_window_6months">Posledných 6 mesiacov</string>
   <string name="account_settings_unable_to_edit_field">Správca nepovolil úpravu tohto poľa</string>
+  <string name="tutorial_welcome_title">Vitajte v E-maili</string>
+  <string name="tutorial_welcome_subtitle">Múdrejší. Rýchlejší. Na mieru. E-mail.</string>
+  <string name="tutorial_page1_title">Vlastné potiahnutia</string>
+  <string name="tutorial_page1_subtitle">Prispôsobte si akcie potiahnutia a vytvorte si váš vlastný zážitok.</string>
+  <string name="tutorial_page2_title">Hromadné akcie</string>
+  <string name="tutorial_page2_subtitle">Naša funkcia hromadného výberu je najrýchlejší spôsob, ako spravovať poštu.</string>
+  <string name="tutorial_page3_title">Mriežka akcií</string>
+  <string name="tutorial_page3_subtitle">Výkonné integrácie a funkčnosť po kliknutí na tlačidlo.</string>
+  <string name="tutorial_skip_button">Preskočiť</string>
+  <string name="tutorial_done_button">Hotovo</string>
+  <string name="message_send_failed_ticker">Odosielanie správy zlyhalo</string>
+  <string name="message_send_failed_title">Správa nebola odoslaná</string>
 </resources>

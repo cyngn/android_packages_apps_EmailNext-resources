@@ -22,7 +22,6 @@
   <string name="mailbox_name_display_todo">Opgaver</string>
   <string name="mailbox_name_display_archive">Arkiv</string>
   <string name="mailbox_name_local_only_display_name"> - Lokal</string>
-  <string name="account_setup_start_company_slogan_text">Velkommen til en bedre indbakke</string>
   <string name="account_setup_start_email_address_hint">Indtast din e-mail adresse</string>
   <string name="account_setup_start_password_hint">Adgangskode</string>
   <string name="account_setup_start_get_started_button">Kom i gang</string>
@@ -54,15 +53,6 @@
   <string name="general_preference_mark_archive_messages_read">Arkivér som læst</string>
   <string name="general_preference_mark_archive_messages_read_description">Markér e-mails som læst, inden de arkiveres</string>
   <string name="search_hint">Søg i e-mail</string>
-  <string name="tutorial_done_button">Udført</string>
-  <string name="tutorial_get_started_button">Kom i gang</string>
-  <string name="tutorial_skip_tutorial">Spring guide over</string>
-  <string name="tutorial_finished_heading">Det var det!\nKlik nedenfor for at begynde at bruge e-mail.</string>
-  <string name="tutorial_text1">Arkivering af gamle e-mails er så simpelt som at skubbe dem ud af skærmen. Prøv at skubbe beskeden ovenfor væk.</string>
-  <string name="tutorial_text2">Sletning af en meddelelse er også hurtigt. Prøv at skubbe længere mod venstre for at slette.</string>
-  <string name="tutorial_text3">Lavet en fejl? Ingen grund til bekymring. Prøv at trykke på knappen \'Fortryd\' nu for at rette en fejl.</string>
-  <string name="tutorial_text4">Du har nu et væld af muligheder for at håndtere mails. Stryg til højre for at se handlingsgitter.</string>
-  <string name="tutorial_text5">Prøv at klikke \'Spam\' for at markere meddelelsen som spam.</string>
   <string name="oauth_authentication_title">Anmoder om tilladelse</string>
   <string name="sign_in_title">Log ind</string>
   <string name="sign_in_button">Udført</string>
@@ -76,4 +66,16 @@
   <string name="account_setup_options_mail_window_3months">Seneste 3 måneder</string>
   <string name="account_setup_options_mail_window_6months">Seneste 6 måneder</string>
   <string name="account_settings_unable_to_edit_field">Administratoren tillader ikke at dette felt ændres</string>
+  <string name="tutorial_welcome_title">Velkommen til e-mail</string>
+  <string name="tutorial_welcome_subtitle">Smartere. Hurtigere. Skræddersyet. E-mail.</string>
+  <string name="tutorial_page1_title">Tilpasset Strøg</string>
+  <string name="tutorial_page1_subtitle">Tilpas dine stryge-handlinger og byg din egen oplevelse.</string>
+  <string name="tutorial_page2_title">Omfattende Handlinger</string>
+  <string name="tutorial_page2_subtitle">Vores omfattende vælge funktion er den hurtigste måde at administrere din indbakke.</string>
+  <string name="tutorial_page3_title">Handlingsgitter</string>
+  <string name="tutorial_page3_subtitle">Stærke integrationer og funktionalitet ved et enkelt tryk på en knap.</string>
+  <string name="tutorial_skip_button">Spring over</string>
+  <string name="tutorial_done_button">Udført</string>
+  <string name="message_send_failed_ticker">Afsendelse af meddelelse mislykkedes</string>
+  <string name="message_send_failed_title">Meddelelse ikke sendt</string>
 </resources>

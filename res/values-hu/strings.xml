@@ -239,7 +239,6 @@
   <string name="mailbox_settings_mailbox_sync_window_label">Ennyi nap leveleinek szinkronizálása</string>
   <string name="prefDialogTitle_conversationListIcon">Feladó képe</string>
   <string name="provider_note_live">Csak bizonyos \"Plus\" típusú fiókok rendelkeznek olyan POP-hozzáféréssel, amely lehetővé teszi a program számára a kapcsolódást. Ha nem tud bejelentkezni a megfelelő e-mail címmel és jelszóval, valószínűleg nem fizetett elő \"Plus\" típusú fiókra. Az ilyen e-mail fiókok eléréséhez indítsa el a böngészőt.</string>
-  <string name="provider_note_t_online">Kérjük, az e-mail fiók beállítása előtt keresse fel a T-Online webhelyét, és hozzon létre jelszót a POP3-alapú e-mail hozzáféréshez.</string>
   <string name="system_account_create_failed">Nem sikerült létrehozni a fiókot. Próbálja újra.</string>
   <string name="device_admin_label">E-mail</string>
   <string name="device_admin_description">Engedélyezi a szerverspecifikus biztonsági irányelveket</string>

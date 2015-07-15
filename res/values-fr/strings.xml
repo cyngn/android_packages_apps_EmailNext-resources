@@ -239,7 +239,6 @@
   <string name="mailbox_settings_mailbox_sync_window_label">Synchroniser depuis</string>
   <string name="prefDialogTitle_conversationListIcon">Image de l\'expéditeur</string>
   <string name="provider_note_live">Seuls certains comptes « Plus » disposent d\'un accès POP permettant à ce programme de se connecter. Si vous ne parvenez pas à vous connecter avec l\'adresse e-mail et le mot de passe corrects, vous ne possédez peut-être pas de compte payant « Plus ». Pour accéder à ces comptes de messagerie, lancez le navigateur Web.</string>
-  <string name="provider_note_t_online">Avant de configurer ce compte de messagerie, consultez le site Web de T-Online et créez un mot de passe d\'accès à la messagerie POP3.</string>
   <string name="system_account_create_failed">Impossible de créer le compte. Veuillez réessayer.</string>
   <string name="device_admin_label">E-mail</string>
   <string name="device_admin_description">Active les stratégies de sécurité spécifiées par le serveur.</string>

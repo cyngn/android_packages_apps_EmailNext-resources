@@ -239,7 +239,6 @@
   <string name="mailbox_settings_mailbox_sync_window_label">כמה ימי דואר לסנכרן</string>
   <string name="prefDialogTitle_conversationListIcon">תמונת השולח</string>
   <string name="provider_note_live">‏רק חשבונות \"Plus\" מסוימים כוללים גישה ל-POP, שמאפשרת לתוכנית זו להתחבר. אם אינך מצליח להיכנס עם כתובת הדוא\"ל והסיסמה הנכונות שלך, ייתכן שאין לך חשבון \"Plus\" בתשלום. הפעל את דפדפן האינטרנט כדי לקבל גישה לחשבונות דוא\"ל אלה.</string>
-  <string name="provider_note_t_online">‏לפני הגדרת חשבון דוא\"ל זה, בקר באתר T-Online וצור סיסמה לגישה לדוא\"ל מסוג POP3.</string>
   <string name="system_account_create_failed">לא ניתן ליצור את החשבון. נסה שוב.</string>
   <string name="device_admin_label">דוא\"ל</string>
   <string name="device_admin_description">מאפשר מדיניות אבטחה המצוינת בשרת</string>

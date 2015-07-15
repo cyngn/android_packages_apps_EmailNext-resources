@@ -22,7 +22,6 @@
   <string name="mailbox_name_display_todo">To-Do</string>
   <string name="mailbox_name_display_archive">Archiv</string>
   <string name="mailbox_name_local_only_display_name"> – Lokal</string>
-  <string name="account_setup_start_company_slogan_text">Wëllkomm bei engem bessere Postagank</string>
   <string name="account_setup_start_email_address_hint">Gëff deng E-Mail-Adress an</string>
   <string name="account_setup_start_password_hint">Passwuert</string>
   <string name="account_setup_start_get_started_button">Lassleeën</string>
@@ -45,9 +44,6 @@
   <string name="account_settings_led_color_label">Eegen LED-Faarf</string>
   <string name="account_settings_tutorial_header_title">Aleedung uweisen</string>
   <string name="search_hint">Sichen\u2026</string>
-  <string name="tutorial_done_button">Fäerdeg</string>
-  <string name="tutorial_get_started_button">Lassleeën</string>
-  <string name="tutorial_skip_tutorial">Aleedung iwwersprangen</string>
   <string name="oauth_authentication_title">Autoriséierung gëtt ugefrot</string>
   <string name="sign_in_title">Aloggen</string>
   <string name="sign_in_button">Fäerdeg</string>
@@ -59,4 +55,5 @@
   <string name="about_app_header_title">Iwwer</string>
   <string name="account_setup_options_mail_window_3months">Lescht 3 Méint</string>
   <string name="account_setup_options_mail_window_6months">Lescht 6 Méint</string>
+  <string name="tutorial_done_button">Fäerdeg</string>
 </resources>

@@ -22,7 +22,6 @@
   <string name="mailbox_name_display_todo">Agenda</string>
   <string name="mailbox_name_display_archive">Arsip</string>
   <string name="mailbox_name_local_only_display_name"> - Lokal</string>
-  <string name="account_setup_start_company_slogan_text">Selamat datang di inbox yang lebih baik</string>
   <string name="account_setup_start_email_address_hint">Masukkan alamat email anda</string>
   <string name="account_setup_start_password_hint">Sandi</string>
   <string name="account_setup_start_get_started_button">Memulai</string>
@@ -54,15 +53,6 @@
   <string name="general_preference_mark_archive_messages_read">Arsipkan sebagai telah dibaca</string>
   <string name="general_preference_mark_archive_messages_read_description">Tandai email sebagai telah dibaca sebelum diarsipkan</string>
   <string name="search_hint">Telusuri email</string>
-  <string name="tutorial_done_button">Selesai</string>
-  <string name="tutorial_get_started_button">Memulai</string>
-  <string name="tutorial_skip_tutorial">Lewati panduan</string>
-  <string name="tutorial_finished_heading">Itu dia!\nKlik dibawah ini untuk mulai menggunakan email.</string>
-  <string name="tutorial_text1">Pengarsipan email lama yang sederhana hanya dengan menggesekkannya dari layar anda. Cobalah gesekkan pesan di atas sekarang.</string>
-  <string name="tutorial_text2">Menghapus pesan cepat juga. Cobalah gesek jauh ke kiri untuk menghapus.</string>
-  <string name="tutorial_text3">Membuat kesalahan? Jangan khawatir, anda terlindungi. Cobalah menekan tombol undo sekarang untuk memperbaiki kesalahan.</string>
-  <string name="tutorial_text4">Sekarang anda memiliki banyak cara untuk dengan cepat mengambil tindakan pada pesan. Geser ke kanan untuk melihat grid tindakan.</string>
-  <string name="tutorial_text5">Cobalah menekan \'Spam\' untuk menandai pesan ini sebagai spam.</string>
   <string name="oauth_authentication_title">Meminta otorisasi</string>
   <string name="sign_in_title">Masuk</string>
   <string name="sign_in_button">Selesai</string>
@@ -76,4 +66,16 @@
   <string name="account_setup_options_mail_window_3months">3 bulan terakhir</string>
   <string name="account_setup_options_mail_window_6months">6 bulan terakhir</string>
   <string name="account_settings_unable_to_edit_field">Administrator Anda tidak mengizinkan bidang ini diubah</string>
+  <string name="tutorial_welcome_title">Selamat datang di email</string>
+  <string name="tutorial_welcome_subtitle">Email. Dirancang. Lebih Pintar. Cepat.</string>
+  <string name="tutorial_page1_title">Sapuan kustom</string>
+  <string name="tutorial_page1_subtitle">Ubah aksi sapuan Anda dan buat pengalaman anda sendiri.</string>
+  <string name="tutorial_page2_title">Aksi cepat</string>
+  <string name="tutorial_page2_subtitle">Fitur pemilihan cepat kami adalah cara paling cepat untuk mengatur kotak masuk anda.</string>
+  <string name="tutorial_page3_title">Garis Tindakan</string>
+  <string name="tutorial_page3_subtitle">Integrasi Kuat dan fungsionalitas hanya dengan sentuhan tombol.</string>
+  <string name="tutorial_skip_button">Lewati</string>
+  <string name="tutorial_done_button">Selesai</string>
+  <string name="message_send_failed_ticker">Pengiriman pesan gagal</string>
+  <string name="message_send_failed_title">Pesan tidak terkirim</string>
 </resources>

@@ -22,7 +22,6 @@
   <string name="mailbox_name_display_todo">Reikia padaryti</string>
   <string name="mailbox_name_display_archive">Archyvas</string>
   <string name="mailbox_name_local_only_display_name"> - Vietinis</string>
-  <string name="account_setup_start_company_slogan_text">Sveiki atvykę į geresnę pašto dėžutę</string>
   <string name="account_setup_start_email_address_hint">Įveskite savo el. pašto adresą</string>
   <string name="account_setup_start_password_hint">Slaptažodis</string>
   <string name="account_setup_start_get_started_button">Pradėti</string>
@@ -54,15 +53,6 @@
   <string name="general_preference_mark_archive_messages_read">Archyvuoti kaip perskaitytą</string>
   <string name="general_preference_mark_archive_messages_read_description">Pažymėti laiškus kaip perskaitytus prieš juos archyvuojant</string>
   <string name="search_hint">Paieška\u2026</string>
-  <string name="tutorial_done_button">Atlikta</string>
-  <string name="tutorial_get_started_button">Pradėti</string>
-  <string name="tutorial_skip_tutorial">Praleisti pamoką</string>
-  <string name="tutorial_finished_heading">Štai ir viskas!\nSpustelėkite žemiau, kad pradėtumėte naudotis el. paštu.</string>
-  <string name="tutorial_text1">Archyvuoti senus laiškus yra taip paprasta, kaip braukiant juos nuo ekrano. Dabar pabandykite braukti pranešimą į viršų.</string>
-  <string name="tutorial_text2">Ištrinti pranešimą yra taip pat greitą. Pabandykite braukti toliau į kairę, kad ištrintumėte.</string>
-  <string name="tutorial_text3">Padarėte klaidą? Nesijaudinkite, jūs apsaugotas. Pabandykite bakstelėti mygtuką atšaukti, kad ištaisytumėtę klaidą.</string>
-  <string name="tutorial_text4">Dabar jūs turite begalės būdų, kaip greitai imtis veiksmų dėl el. pašto. Braukite į dešinę, kad pamatytumėte veiksmų tinklelį.</string>
-  <string name="tutorial_text5">Pabandykite bakstelėti „Šlamštas“, kad pažymėtumėte šį pranešimą kaip šlamštą.</string>
   <string name="oauth_authentication_title">Prašoma leidimo</string>
   <string name="sign_in_title">Prisijungti</string>
   <string name="sign_in_button">Atlikta</string>
@@ -76,4 +66,5 @@
   <string name="account_setup_options_mail_window_3months">Paskutinius 3 mėnesius</string>
   <string name="account_setup_options_mail_window_6months">Paskutinius 6 mėnesius</string>
   <string name="account_settings_unable_to_edit_field">Administratorius neleidžia keisti šio lauko</string>
+  <string name="tutorial_done_button">Atlikta</string>
 </resources>

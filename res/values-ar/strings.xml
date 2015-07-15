@@ -219,7 +219,6 @@
   <string name="mailbox_settings_mailbox_sync_window_label">أيام مزامنة البريد</string>
   <string name="prefDialogTitle_conversationListIcon">صورة المرسل</string>
   <string name="provider_note_live">‏تتضمن بعض حسابات \"Plus\" الوصول عبر بروتوكول POP والذي يسمح لهذا البرنامج بالاتصال. إذا تعذر عليك تسجيل الدخول باستخدام عنوان البريد الإلكتروني وكلمة المرور الصحيحين، فقد تكون غير ممتلك لحساب \"Plus\" مدفوع. يمكنك تشغيل متصفح الويب لتتمكن من الدخول إلى حسابات البريد هذه.</string>
-  <string name="provider_note_t_online">‏قبل إعداد حساب البريد الإلكتروني هذا، انتقل إلى موقع ويب T-Online وأنشئ كلمة مرور للدخول إلى البريد الإلكتروني عبر بروتوكول POP3.</string>
   <string name="system_account_create_failed">تعذر إنشاء الحساب. أعد المحاولة.</string>
   <string name="device_admin_label">بريد إلكتروني</string>
   <string name="device_admin_description">لتمكين سياسات الأمان الخاصة بالخادم</string>

@@ -239,7 +239,6 @@
   <string name="mailbox_settings_mailbox_sync_window_label">Díes pa sincronizar corréu</string>
   <string name="prefDialogTitle_conversationListIcon">Imaxe del remitente</string>
   <string name="provider_note_live">Namái dalgunes cuentes \"Plus\" inclúin accesu POP pa permitir qu\'esti programa se coneute. Si nun pues acceder cola to direición de corréu-e y contraseña, ye dable que nun tengas una cuenta \"Plus\" de pagu. Usa\'l restolador web p\'acceder a estes cuentes de corréu.</string>
-  <string name="provider_note_t_online">Pa configurar esta cuenta de corréu-e, accedi al sitiu web de T-Online y crea una contraseña p\'acceder al corréu electrónicu POP3.</string>
   <string name="system_account_create_failed">Nun pudo crease la cuenta. Inténtalo de nueves.</string>
   <string name="device_admin_label">Corréu-e</string>
   <string name="device_admin_description">Permite les polítiques de seguridá especificaes pol sirvidor.</string>

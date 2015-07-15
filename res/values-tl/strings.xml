@@ -239,7 +239,6 @@
   <string name="mailbox_settings_mailbox_sync_window_label">Mga araw ng mail na isi-sync</string>
   <string name="prefDialogTitle_conversationListIcon">Larawan ng nagpadala</string>
   <string name="provider_note_live">Ilang mga \"Plus\" account lamang ang kinabibilangan ng access sa POP nag nagbibigay-daan sa program na ito na makakonekta. Kung hindi mo magawang mag-sign in gamit ang iyong tamang email address at password, maaaring wala kang may bayad na \"Plus\" account. Ilunsad ang web browser upang makakuha ng access sa mga email account na ito.</string>
-  <string name="provider_note_t_online">Bago i-set up ng email account na ito, bisitahin ang T-Online website at lumikha ng password para sa access sa POP3 email.</string>
   <string name="system_account_create_failed">Hindi malikha ang account. Subukang muli.</string>
   <string name="device_admin_label">Email</string>
   <string name="device_admin_description">Pinapagana ang mga patakaran sa seguridad na partikular sa server</string>

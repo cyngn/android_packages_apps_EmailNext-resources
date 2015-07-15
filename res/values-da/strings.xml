@@ -239,7 +239,6 @@
   <string name="mailbox_settings_mailbox_sync_window_label">Antal dages e-mail, der synkroniseres</string>
   <string name="prefDialogTitle_conversationListIcon">Afsenderbillede</string>
   <string name="provider_note_live">Det er kun nogle \"Plus\"-konti med POP-adgang, der tillader, at dette program opretter forbindelse. Hvis du ikke kan logge ind med din rigtige e-mailadresse og adgangskode, har du muligvis ikke en betalt \"Plus\"-konto. Åbn webbrowseren igen for at få adgang til disse e-mailkonti.</string>
-  <string name="provider_note_t_online">Inden du konfigurerer denne e-mailkonto, skal du gå til T-Onlines website og oprette en adgangskode for e-mailadgang via POP3.</string>
   <string name="system_account_create_failed">Kontoen kunne ikke oprettes. Prøv igen.</string>
   <string name="device_admin_label">E-mail</string>
   <string name="device_admin_description">Muliggør serverspecifikke sikkerhedspolitikker</string>

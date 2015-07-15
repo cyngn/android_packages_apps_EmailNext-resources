@@ -219,7 +219,6 @@
   <string name="mailbox_settings_mailbox_sync_window_label">Broj dana pošte za sinkronizaciju</string>
   <string name="prefDialogTitle_conversationListIcon">Slika pošiljatelja</string>
   <string name="provider_note_live">Samo neki računi usluge \"Plus\" uključuju POP pristup koji ovom programu omogućuje povezivanje. Ako se ne možete prijaviti sa svojom ispravnom adresom e-pošte i zaporkom, možda nemate plaćeni račun usluge \"Plus\". Pokrenite web-preglednik kako biste dobili pristup tim računima e-pošte.</string>
-  <string name="provider_note_t_online">Prije postavljanja ovog računa e-pošte posjetite web-lokaciju T-Online i stvorite zaporku za POP3 pristup e-pošti.</string>
   <string name="system_account_create_failed">Izrada računa nije uspjela. Pokušajte ponovo.</string>
   <string name="device_admin_label">E-pošta</string>
   <string name="device_admin_description">Omogućuje sigurnosna pravila određena poslužiteljem</string>

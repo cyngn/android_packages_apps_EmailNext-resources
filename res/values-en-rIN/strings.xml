@@ -239,7 +239,6 @@
   <string name="mailbox_settings_mailbox_sync_window_label">Days of mail to sync</string>
   <string name="prefDialogTitle_conversationListIcon">Sender image</string>
   <string name="provider_note_live">Only some \"Plus\" accounts include POP access allowing this programme to connect. If you\'re not able to sign in with your correct email address and password, you may not have a paid \"Plus\" account. Launch the web browser to gain access to these email accounts.</string>
-  <string name="provider_note_t_online">Before setting up this email account, please visit the T-Online website and create a password for POP3 email access.</string>
   <string name="system_account_create_failed">Couldn\'t create the account. Try again.</string>
   <string name="device_admin_label">Email</string>
   <string name="device_admin_description">Enables server-specified security policies</string>
