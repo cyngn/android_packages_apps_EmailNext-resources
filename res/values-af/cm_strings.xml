@@ -66,5 +66,24 @@
   <string name="account_setup_options_mail_window_3months">Laaste 3 maande</string>
   <string name="account_setup_options_mail_window_6months">Laaste 6 maande</string>
   <string name="account_settings_unable_to_edit_field">Jou administrateurder laat jou nie toe om die veld te verander nie</string>
+  <string name="message_compose_send_availability_menu_title">Stuur beskikbaarheid</string>
+  <string name="message_compose_create_invite_menu_title">Skep uitnodiging</string>
+  <string name="tutorial_welcome_title">Welkom by epos</string>
+  <string name="tutorial_welcome_subtitle">Slimmer. Vinniger. Aangepas. Epos.</string>
+  <string name="tutorial_page1_title">Persoonlike sleep</string>
+  <string name="tutorial_page1_subtitle">Verpersoonlik jou sleep aksie en bou jou eie ervaring.</string>
+  <string name="tutorial_page2_title">Grootmaat aksies</string>
+  <string name="tutorial_page2_subtitle">Ons grootmaat kies opsie is die vinnigste manier om jou inkassie te bestuur.</string>
+  <string name="tutorial_page3_title">Aksie rooster</string>
+  <string name="tutorial_page3_subtitle">Kragtige integrasie en funksionaliteit met die raak van \'n knoppie.</string>
+  <string name="tutorial_skip_button">Slaan oor</string>
   <string name="tutorial_done_button">Gedoen</string>
+  <string name="message_send_failed_ticker">Stuur van boodskap het mislik</string>
+  <string name="message_send_failed_title">Boodskap nie gestuur</string>
+  <string name="preferences_clear_search_history_title">Maak soek geskiedenis skoon</string>
+  <string name="preferences_clear_search_history_summary">Verwyder al die soektogte wat jy uitgevoer het</string>
+  <string name="search_history_cleared">Soek geskiedenis uitgevee.</string>
+  <string name="update_available_ticker">Daar is \'n opdatering beskikbaar vir epos</string>
+  <string name="update_availalable_title">\'n Opdatering is beskikbaar</string>
+  <string name="update_available_content">Raak om opdatering te installeer</string>
 </resources>

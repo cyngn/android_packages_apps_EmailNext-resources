@@ -66,5 +66,24 @@
   <string name="account_setup_options_mail_window_3months">Senaste 3 månader</string>
   <string name="account_setup_options_mail_window_6months">Senaste 6 månader</string>
   <string name="account_settings_unable_to_edit_field">Din administratör tillåter inte att detta fält ändras</string>
+  <string name="message_compose_send_availability_menu_title">Sänd tillgänglighet</string>
+  <string name="message_compose_create_invite_menu_title">Skapa inbjudan</string>
+  <string name="tutorial_welcome_title">Välkommen till e-post</string>
+  <string name="tutorial_welcome_subtitle">Smartare. Snabbare. Skräddarsydd. E-post.</string>
+  <string name="tutorial_page1_title">Anpassade svep</string>
+  <string name="tutorial_page1_subtitle">Anpassa dina svep och bygg din egen upplevelse.</string>
+  <string name="tutorial_page2_title">Bulkåtgärder</string>
+  <string name="tutorial_page2_subtitle">Vår funktion för bulkval är den snabbaste vägen till att hantera din inkorg.</string>
+  <string name="tutorial_page3_title">Åtgärdsmatris</string>
+  <string name="tutorial_page3_subtitle">Kraftfulla integrationer och funktionalitet med ett knapptryck.</string>
+  <string name="tutorial_skip_button">Hoppa över</string>
   <string name="tutorial_done_button">Klar</string>
+  <string name="message_send_failed_ticker">Kunde inte skicka meddelande</string>
+  <string name="message_send_failed_title">Meddelande skickades inte</string>
+  <string name="preferences_clear_search_history_title">Töm sökhistorik</string>
+  <string name="preferences_clear_search_history_summary">Ta bort alla genomförda sökningar</string>
+  <string name="search_history_cleared">Sökhistorik tömdes.</string>
+  <string name="update_available_ticker">Det finns en uppdatering tillgänglig för e-post</string>
+  <string name="update_availalable_title">En uppdatering är tillgänglig</string>
+  <string name="update_available_content">Tryck för att installera uppdateringen</string>
 </resources>

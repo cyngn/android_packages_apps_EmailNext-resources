@@ -66,6 +66,7 @@
   <string name="account_setup_options_mail_window_3months">Letzten 3 Monate</string>
   <string name="account_setup_options_mail_window_6months">Letzten 6 Monate</string>
   <string name="account_settings_unable_to_edit_field">Ihr Administrator erlaubt nicht dieses Feld zu ändern</string>
+  <string name="message_compose_send_availability_menu_title">Verfügbarkeit senden</string>
   <string name="message_compose_create_invite_menu_title">Einladung erstellen</string>
   <string name="tutorial_welcome_title">Willkommen bei E-Mail</string>
   <string name="tutorial_welcome_subtitle">Intelligenter, schneller, angepasst – E-Mail.</string>

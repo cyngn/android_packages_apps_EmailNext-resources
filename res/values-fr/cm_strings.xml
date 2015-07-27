@@ -66,9 +66,16 @@
   <string name="account_setup_options_mail_window_3months">3 derniers mois</string>
   <string name="account_setup_options_mail_window_6months">6 derniers mois</string>
   <string name="account_settings_unable_to_edit_field">Votre administrateur n\'autorise pas la modification de ce champ</string>
+  <string name="message_compose_send_availability_menu_title">Envoyer la disponibilité</string>
+  <string name="message_compose_create_invite_menu_title">Créer une invitation</string>
   <string name="tutorial_welcome_title">Bienvenue sur Email</string>
   <string name="tutorial_welcome_subtitle">Email. Plus intelligent. Plus rapide. Sur mesure.</string>
+  <string name="tutorial_page1_title">Balayages personnalisés</string>
+  <string name="tutorial_page1_subtitle">Personnalisez vos actions de balayage et votre utilisation.</string>
+  <string name="tutorial_page2_title">Actions en masse</string>
+  <string name="tutorial_page2_subtitle">Notre fonction de sélection en masse est le meilleur moyen de gérer votre boîte de réception.</string>
   <string name="tutorial_page3_title">Grille d\'action</string>
+  <string name="tutorial_page3_subtitle">Des fonctionnalités et des intégrations puissantes par simple appui d\'un bouton.</string>
   <string name="tutorial_skip_button">Passer</string>
   <string name="tutorial_done_button">Effectué</string>
   <string name="message_send_failed_ticker">L\'envoi du message a échoué</string>

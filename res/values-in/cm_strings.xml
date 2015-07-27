@@ -66,6 +66,8 @@
   <string name="account_setup_options_mail_window_3months">3 bulan terakhir</string>
   <string name="account_setup_options_mail_window_6months">6 bulan terakhir</string>
   <string name="account_settings_unable_to_edit_field">Administrator Anda tidak mengizinkan bidang ini diubah</string>
+  <string name="message_compose_send_availability_menu_title">Kirim ketersediaan</string>
+  <string name="message_compose_create_invite_menu_title">Buat undangan</string>
   <string name="tutorial_welcome_title">Selamat datang di email</string>
   <string name="tutorial_welcome_subtitle">Email. Dirancang. Lebih Pintar. Cepat.</string>
   <string name="tutorial_page1_title">Sapuan kustom</string>
@@ -78,4 +80,10 @@
   <string name="tutorial_done_button">Selesai</string>
   <string name="message_send_failed_ticker">Pengiriman pesan gagal</string>
   <string name="message_send_failed_title">Pesan tidak terkirim</string>
+  <string name="preferences_clear_search_history_title">Hapus riwayat pencarian</string>
+  <string name="preferences_clear_search_history_summary">Hapus semua penelusuran yang telah Anda lakukan</string>
+  <string name="search_history_cleared">Riwayat penelusuran dihapus.</string>
+  <string name="update_available_ticker">Ada pembaruan yang tersedia untuk Email</string>
+  <string name="update_availalable_title">Ada pembaruan tersedia</string>
+  <string name="update_available_content">Ketuk untuk memasang pembaruan</string>
 </resources>

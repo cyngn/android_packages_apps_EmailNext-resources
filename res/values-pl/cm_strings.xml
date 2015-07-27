@@ -66,6 +66,7 @@
   <string name="account_setup_options_mail_window_3months">Ostatnie 3 miesiące</string>
   <string name="account_setup_options_mail_window_6months">Ostatnie 6 miesięcy</string>
   <string name="account_settings_unable_to_edit_field">Twój administrator nie zezwala na modyfikację tego pola</string>
+  <string name="message_compose_send_availability_menu_title">Wyślij dostępność</string>
   <string name="message_compose_create_invite_menu_title">Stwórz zaproszenie</string>
   <string name="tutorial_welcome_title">Witamy w e-mail</string>
   <string name="tutorial_welcome_subtitle">Mądrzejszy. Szybszy. Dopasowany. E-mail.</string>
@@ -82,6 +83,7 @@
   <string name="preferences_clear_search_history_title">Wyczyść historię wyszukiwania</string>
   <string name="preferences_clear_search_history_summary">Usuń wszystkie poprzednie wyszukiwania</string>
   <string name="search_history_cleared">Wyczyszczono historię wyszukiwania.</string>
+  <string name="update_available_ticker">Dla aplikacji E-mail jest dostępna aktualizacja</string>
   <string name="update_availalable_title">Dostępna jest aktualizacja</string>
   <string name="update_available_content">Dotknij, aby zainstalować aktualizację</string>
 </resources>

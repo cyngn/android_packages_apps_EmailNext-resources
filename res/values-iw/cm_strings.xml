@@ -66,11 +66,24 @@
   <string name="account_setup_options_mail_window_3months">3 חודשים אחרונים</string>
   <string name="account_setup_options_mail_window_6months">6 חודשים אחרונים</string>
   <string name="account_settings_unable_to_edit_field">מנהל המערכת שלך לא מאפשר לשנות שדה זה</string>
+  <string name="message_compose_send_availability_menu_title">שלח זמינות</string>
+  <string name="message_compose_create_invite_menu_title">צור הזמנה</string>
   <string name="tutorial_welcome_title">ברוכים הבאים לדואר האלקטרוני</string>
   <string name="tutorial_welcome_subtitle">חכם יותר. מהיר יותר. מותאם יותר. אלקטרוני יותר.</string>
+  <string name="tutorial_page1_title">פעולות הזזה מותאמות אישית</string>
+  <string name="tutorial_page1_subtitle">התאימו אישית את פעולות ההזזה שלכם, ובנו את החוויה שלכם בעצמכם.</string>
+  <string name="tutorial_page2_title">פעולות על פריטים מרובים</string>
+  <string name="tutorial_page2_subtitle">אפשרות הבחירה המרובה שלנו היא הדרך המהירה ביותר לניהול הדואר הנכנס שלכם.</string>
   <string name="tutorial_page3_title">מרכז פעולות</string>
+  <string name="tutorial_page3_subtitle">מגוון אפשרויות ושילובים עוצמתיים בלחיצת כפתור.</string>
   <string name="tutorial_skip_button">דלג</string>
   <string name="tutorial_done_button">סיום</string>
   <string name="message_send_failed_ticker">שליחת ההודעה נכשלה</string>
   <string name="message_send_failed_title">הודעה לא נשלחה</string>
+  <string name="preferences_clear_search_history_title">נקה היסטוריית חיפוש</string>
+  <string name="preferences_clear_search_history_summary">מוחק את כל החיפושים שביצעת</string>
+  <string name="search_history_cleared">היסטוריית החיפוש נוקתה.</string>
+  <string name="update_available_ticker">קיים עדכון זמין ליישום הדוא\"ל</string>
+  <string name="update_availalable_title">קיים עדכון זמין</string>
+  <string name="update_available_content">הקש להתקנת העדכון</string>
 </resources>

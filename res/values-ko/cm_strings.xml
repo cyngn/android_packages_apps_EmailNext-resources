@@ -66,5 +66,24 @@
   <string name="account_setup_options_mail_window_3months">최근 3달</string>
   <string name="account_setup_options_mail_window_6months">최근 6달</string>
   <string name="account_settings_unable_to_edit_field">관리자가 이 값을 수정하지 못하게 하였습니다</string>
+  <string name="message_compose_send_availability_menu_title">전송 가능 여부</string>
+  <string name="message_compose_create_invite_menu_title">초대장 만들기</string>
+  <string name="tutorial_welcome_title">이메일에 오신 것을 환영합니다</string>
+  <string name="tutorial_welcome_subtitle">더 똑똑하고, 빠르고, 사용자 맞춤형인 이메일.</string>
+  <string name="tutorial_page1_title">사용자 지정 스와이프</string>
+  <string name="tutorial_page1_subtitle">스와이프 작업을 직접 지정하여 사용자만의 앱을 만드세요.</string>
+  <string name="tutorial_page2_title">대량 작업</string>
+  <string name="tutorial_page2_subtitle">대량 선택 기능은 받은 편지함을 관리하는 가장 빠른 방법입니다.</string>
+  <string name="tutorial_page3_title">액션 그리드</string>
+  <string name="tutorial_page3_subtitle">강력한 기능을 버튼 탭 한 번만에.</string>
+  <string name="tutorial_skip_button">건너뛰기</string>
   <string name="tutorial_done_button">완료</string>
+  <string name="message_send_failed_ticker">메시지 전송 실패</string>
+  <string name="message_send_failed_title">메시지가 전송되지 않았음</string>
+  <string name="preferences_clear_search_history_title">검색 기록 삭제</string>
+  <string name="preferences_clear_search_history_summary">검색했던 기록을 모두 삭제</string>
+  <string name="search_history_cleared">검색기록이 삭제되었습니다.</string>
+  <string name="update_available_ticker">이메일의 업데이트가 있습니다</string>
+  <string name="update_availalable_title">업데이트가 있음</string>
+  <string name="update_available_content">탭하여 업데이트를 설치</string>
 </resources>

@@ -66,5 +66,24 @@
   <string name="account_setup_options_mail_window_3months">過去3ヶ月</string>
   <string name="account_setup_options_mail_window_6months">過去6ヶ月</string>
   <string name="account_settings_unable_to_edit_field">管理者がこの欄の変更を許可していません</string>
+  <string name="message_compose_send_availability_menu_title">予定を送信</string>
+  <string name="message_compose_create_invite_menu_title">招待状を作成</string>
+  <string name="tutorial_welcome_title">メールへようこそ</string>
+  <string name="tutorial_welcome_subtitle">スマート、高速、作り込まれたメールです。</string>
+  <string name="tutorial_page1_title">カスタムスワイプ</string>
+  <string name="tutorial_page1_subtitle">スワイプ動作をカスタマイズしてあなた専用のユーザーエクスペリエンスを構成してください。</string>
+  <string name="tutorial_page2_title">一括操作</string>
+  <string name="tutorial_page2_subtitle">一括操作は受信トレイを管理する最速の方法です。</string>
+  <string name="tutorial_page3_title">アクショングリッド</string>
+  <string name="tutorial_page3_subtitle">ボタンのタップで強力な統合と機能性を。</string>
+  <string name="tutorial_skip_button">スキップ</string>
   <string name="tutorial_done_button">完了</string>
+  <string name="message_send_failed_ticker">メッセージを送信できませんでした</string>
+  <string name="message_send_failed_title">メッセージは送信されていません</string>
+  <string name="preferences_clear_search_history_title">検索履歴を消去</string>
+  <string name="preferences_clear_search_history_summary">実行したすべての検索を削除する</string>
+  <string name="search_history_cleared">検索履歴を消去しました。</string>
+  <string name="update_available_ticker">メールのアップデートが利用可能です</string>
+  <string name="update_availalable_title">アップデートが利用可能です</string>
+  <string name="update_available_content">タップしてアップデートをインストール</string>
 </resources>

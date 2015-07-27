@@ -66,6 +66,8 @@
   <string name="account_setup_options_mail_window_3months">Seneste 3 måneder</string>
   <string name="account_setup_options_mail_window_6months">Seneste 6 måneder</string>
   <string name="account_settings_unable_to_edit_field">Administratoren tillader ikke at dette felt ændres</string>
+  <string name="message_compose_send_availability_menu_title">Send tilgængelighed</string>
+  <string name="message_compose_create_invite_menu_title">Opret invitation</string>
   <string name="tutorial_welcome_title">Velkommen til e-mail</string>
   <string name="tutorial_welcome_subtitle">Smartere. Hurtigere. Skræddersyet. E-mail.</string>
   <string name="tutorial_page1_title">Tilpasset Strøg</string>
@@ -78,4 +80,10 @@
   <string name="tutorial_done_button">Udført</string>
   <string name="message_send_failed_ticker">Afsendelse af meddelelse mislykkedes</string>
   <string name="message_send_failed_title">Meddelelse ikke sendt</string>
+  <string name="preferences_clear_search_history_title">Tøm søgehistorik</string>
+  <string name="preferences_clear_search_history_summary">Fjern alle foretagne søgninger</string>
+  <string name="search_history_cleared">Søgeoversigten er ryddet.</string>
+  <string name="update_available_ticker">Der findes en opdatering til e-mail</string>
+  <string name="update_availalable_title">En opdatering er tilgængelig</string>
+  <string name="update_available_content">Tryk for at installere opdatering</string>
 </resources>

@@ -66,5 +66,24 @@
   <string name="account_setup_options_mail_window_3months">पिछले 3 महीने</string>
   <string name="account_setup_options_mail_window_6months">पिछले 6 महीने</string>
   <string name="account_settings_unable_to_edit_field">आपका प्रशासक इस फील्ड को परिवर्तित करने की अनुमति नहीं देता है</string>
+  <string name="message_compose_send_availability_menu_title">उपलब्धता भेजें</string>
+  <string name="message_compose_create_invite_menu_title">आमंत्रण निर्मित करें</string>
+  <string name="tutorial_welcome_title">ईमेल में आपका स्वागत है</string>
+  <string name="tutorial_welcome_subtitle">अधिक चतुर। अधिक तेज़। विशेषीकृत। ईमेल।</string>
+  <string name="tutorial_page1_title">कस्टम स्वाइप</string>
+  <string name="tutorial_page1_subtitle">अपने स्वाइप क्रियाओं को मनपसंद रूप दें और अपना निजी अनुभव निर्मित करें।</string>
+  <string name="tutorial_page2_title">थोक क्रियाएँ</string>
+  <string name="tutorial_page2_subtitle">हमारी थोक चयन सुविधा अपने इनबॉक्स को प्रबंधित करने का सबसे तेज़ तरीक़ा है।</string>
+  <string name="tutorial_page3_title">कार्य ग्रिड</string>
+  <string name="tutorial_page3_subtitle">शक्तिशाली समेकन और सुविधाएँ, मात्र बटन छूकर।</string>
+  <string name="tutorial_skip_button">छोड़ें</string>
   <string name="tutorial_done_button">हो गया</string>
+  <string name="message_send_failed_ticker">संदेश भेजना विफल हुआ</string>
+  <string name="message_send_failed_title">संदेश नहीं भेजा गया</string>
+  <string name="preferences_clear_search_history_title">खोज इतिहास को साफ़ करें</string>
+  <string name="preferences_clear_search_history_summary">आपके द्वारा की गई सभी खोजों को निकालें</string>
+  <string name="search_history_cleared">खोज इतिहास को साफ़ कर दिया गया।</string>
+  <string name="update_available_ticker">ईमेल के लिए एक अद्यतन उपलब्ध है</string>
+  <string name="update_availalable_title">एक अद्यतन उपलब्ध है</string>
+  <string name="update_available_content">अद्यतन को स्थापित करने के लिए टैप करें</string>
 </resources>

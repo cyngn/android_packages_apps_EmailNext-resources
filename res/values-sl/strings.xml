@@ -16,7 +16,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="permission_read_attachment_label">Branje e-poštnih prilog</string>
-  <string name="permission_read_attachment_desc">Dovoli temu programu branje e-poštnih prilog.</string>
+  <string name="permission_read_attachment_desc">Omogoča temu programu branje e-poštnih prilog.</string>
   <string name="permission_access_provider_label">Dostop do podatkov e-poštnega ponudnika</string>
   <string name="permission_access_provider_desc">Programu omogoča dostop do vaše e-poštne zbirke podatkov, vključno s prejetimi in poslanimi sporočili, uporabniškimi imeni in gesli.</string>
   <string name="app_name">E-pošta</string>
@@ -147,7 +147,7 @@
   <string name="account_setup_security_policies_required_fmt">Strežniku <xliff:g id="SERVER">%s</xliff:g> morate dovoliti, da na daljavo nadzira nekatere varnostne funkcije vaše naprave Android. Ali želite dokončati nastavitev tega računa?</string>
   <string name="account_setup_failed_security_policies_unsupported">Za ta strežnik so potrebne varnostne funkcije, ki jih vaša naprava Android ne podpira: <xliff:g id="ERROR">%s</xliff:g></string>
   <string name="account_setup_username_uneditable_error">Uporabniškega imena za račun ni mogoče spreminjati. Če želite dodati račun z drugim uporabniškim imenom, se dotaknite možnosti »Dodaj račun«.</string>
-  <string name="disable_admin_warning">Opozorilo: Če onemogočite pravico e-poštnega programa za upravljanja naprave, boste izbrisali vse e-poštne račune, ki jo potrebujejo, skupaj z e-pošto, stiki, dogodki koledarja in drugimi podatki.</string>
+  <string name="disable_admin_warning">Opozorilo: Če onemogočite pravico e-poštnega programa za upravljanja naprave, boste izbrisali vse e-poštne račune, ki jo zahtevajo, skupaj z e-pošto, stiki, dogodki koledarja in drugimi podatki.</string>
   <string name="account_security_dialog_title">Varnostna posodobitev</string>
   <string name="account_security_dialog_content_fmt">Za račun <xliff:g id="ACCOUNT">%s</xliff:g> morate posodobiti varnostne nastavitve.</string>
   <string name="security_unsupported_ticker_fmt">Računa »<xliff:g id="ACCOUNT">%s</xliff:g>« zaradi varnostnih zahtev ni mogoče sinhronizirati.</string>

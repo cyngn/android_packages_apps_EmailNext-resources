@@ -66,7 +66,7 @@
   <string name="account_setup_options_mail_window_3months">Son 3 ay</string>
   <string name="account_setup_options_mail_window_6months">Son 6 ay</string>
   <string name="account_settings_unable_to_edit_field">Yöneticiniz bu alanının değiştirilmesine izin vermiyor</string>
-  <string name="message_compose_send_availability_menu_title">Kullanılabilirliği gönder</string>
+  <string name="message_compose_send_availability_menu_title">Uygunluğunuzu gönderin</string>
   <string name="message_compose_create_invite_menu_title">Davet oluştur</string>
   <string name="tutorial_welcome_title">E-postaya hoş geldiniz</string>
   <string name="tutorial_welcome_subtitle">Daha akıllı. Daha hızlı. Özel. E-posta.</string>

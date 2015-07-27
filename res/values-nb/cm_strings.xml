@@ -66,5 +66,24 @@
   <string name="account_setup_options_mail_window_3months">Siste 3 måneder</string>
   <string name="account_setup_options_mail_window_6months">Siste 6 måneder</string>
   <string name="account_settings_unable_to_edit_field">Systemansvarlig tillater ikke at dette feltet endres</string>
+  <string name="message_compose_send_availability_menu_title">Send tilgjengelighet</string>
+  <string name="message_compose_create_invite_menu_title">Opprett invitasjon</string>
+  <string name="tutorial_welcome_title">Velkommen til e-post</string>
+  <string name="tutorial_welcome_subtitle">Smartere, raskere og skreddersydd e-post.</string>
+  <string name="tutorial_page1_title">Tilpassede sveip</string>
+  <string name="tutorial_page1_subtitle">Tilpass sveipehandlingene dine og lag din egen opplevelse.</string>
+  <string name="tutorial_page2_title">Massehandlinger</string>
+  <string name="tutorial_page2_subtitle">Massevalgsfunksjonen vår er den raskeste måten å administrere innboksen din på.</string>
+  <string name="tutorial_page3_title">Handlingsrutenett</string>
+  <string name="tutorial_page3_subtitle">Kraftig integrering og funksjonalitet med ett knappetrykk.</string>
+  <string name="tutorial_skip_button">Hopp over</string>
   <string name="tutorial_done_button">Ferdig</string>
+  <string name="message_send_failed_ticker">Sending av meldingen mislyktes</string>
+  <string name="message_send_failed_title">Meldingen ble ikke sendt</string>
+  <string name="preferences_clear_search_history_title">Tøm søkeloggen</string>
+  <string name="preferences_clear_search_history_summary">Fjern alle søkene du har utført</string>
+  <string name="search_history_cleared">Søkeloggen er tømt.</string>
+  <string name="update_available_ticker">En oppdatering er tilgjengelig for e-post</string>
+  <string name="update_availalable_title">En oppdatering er tilgjengelig</string>
+  <string name="update_available_content">Trykk for å installere oppdateringen</string>
 </resources>

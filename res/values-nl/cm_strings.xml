@@ -68,14 +68,14 @@
   <string name="account_settings_unable_to_edit_field">Uw beheerder staat niet toe dat dit veld gewijzigd wordt</string>
   <string name="message_compose_send_availability_menu_title">Beschikbaarheid invoegen</string>
   <string name="message_compose_create_invite_menu_title">Uitnodiging maken</string>
-  <string name="tutorial_welcome_title">Welkom bij e-mail</string>
+  <string name="tutorial_welcome_title">Welkom bij E-mail</string>
   <string name="tutorial_welcome_subtitle">Slimmer. Sneller. Op maat. E-mail.</string>
   <string name="tutorial_page1_title">Aangepaste veegacties</string>
   <string name="tutorial_page1_subtitle">Uw veegacties aanpassen naar uw eigen smaak.</string>
   <string name="tutorial_page2_title">Bulkacties</string>
   <string name="tutorial_page2_subtitle">Bulkselectie is de snelste manier om uw inbox te beheren.</string>
   <string name="tutorial_page3_title">Actievenster</string>
-  <string name="tutorial_page3_subtitle">Krachtige integraties en functionaliteit met een druk op de knop.</string>
+  <string name="tutorial_page3_subtitle">Krachtige integratie en functionaliteit met een druk op de knop.</string>
   <string name="tutorial_skip_button">Overslaan</string>
   <string name="tutorial_done_button">Gereed</string>
   <string name="message_send_failed_ticker">Bericht verzenden mislukt</string>
