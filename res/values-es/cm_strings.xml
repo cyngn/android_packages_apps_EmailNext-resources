@@ -68,7 +68,7 @@
   <string name="account_settings_unable_to_edit_field">El administrador no permite que este campo sea modificado</string>
   <string name="message_compose_send_availability_menu_title">Enviar disponibilidad</string>
   <string name="message_compose_create_invite_menu_title">Crear invitación</string>
-  <string name="tutorial_welcome_title">Bienvenido al correo electrónico</string>
+  <string name="tutorial_welcome_title">Bienvenido a email</string>
   <string name="tutorial_welcome_subtitle">Más inteligente. Más rápido. A medida. Correo electrónico.</string>
   <string name="tutorial_page1_title">Gestos personalizados</string>
   <string name="tutorial_page1_subtitle">Personaliza tus acciones asociadas a gestos y construye tu propia experiencia.</string>
