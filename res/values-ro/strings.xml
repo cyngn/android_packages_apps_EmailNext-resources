@@ -53,18 +53,18 @@
   <string name="message_decode_error">A apărut o eroare la decodificarea mesajului.</string>
   <string name="forward_download_failed_ticker">Nu se pot redirecționa unul sau mai multe atașamente.</string>
   <string name="forward_download_failed_title">Ataşamentul nu a fost trimis</string>
-  <string name="login_failed_ticker">Conectare eşuată pentru <xliff:g id="ACCOUNT_NAME">%s</xliff:g>.</string>
+  <string name="login_failed_ticker">Conectare eșuată pentru <xliff:g id="account_name">%s</xliff:g>.</string>
   <string name="login_failed_title">Nu s-a putut conecta</string>
   <string name="account_setup_basics_title">Configurare cont</string>
   <string name="account_setup_basics_headline">Cont de e-mail</string>
-  <string name="accounts_welcome">Puteţi configura contul dvs. în doar câţiva paşi.</string>
+  <string name="accounts_welcome">Puteți configura contul dvs. în doar câțiva pași.        </string>
   <string name="account_setup_basics_email_label">Adresă de e-mail</string>
   <string name="account_setup_basics_manual_setup_action">Configurare manuală</string>
   <string name="account_setup_username_password_toast">Introduceţi o adresă de e-mail şi o parolă valide.</string>
   <string name="account_duplicate_dlg_title">Cont duplicat</string>
   <string name="account_duplicate_dlg_message_fmt">Utilizaţi deja acest nume de utilizator pentru contul „<xliff:g id="DUPLICATE">%s</xliff:g>”.</string>
-  <string name="account_password_spaces_error">Această parolă începe sau se termină cu unul sau mai multe spaţii. Numeroase servere nu acceptă parole cu spaţii.</string>
-  <string name="account_setup_check_settings_retr_info_msg">Se preiau informaţiile despre cont...</string>
+  <string name="account_password_spaces_error">Această parolă începe sau se termină cu unul sau mai multe spații. Numeroase servere nu acceptă parole cu spații.</string>
+  <string name="account_setup_check_settings_retr_info_msg">Se preiau informațiile despre cont\u2026</string>
   <string name="account_setup_check_settings_check_incoming_msg">Se validează setările serverului...</string>
   <string name="account_setup_check_settings_check_outgoing_msg">Se validează setările SMTP...</string>
   <string name="account_setup_creating_account_msg">Se creează contul…</string>
@@ -94,7 +94,7 @@
   <string name="account_setup_incoming_imap_path_prefix_label">Prefixul de cale pentru accesul IMAP</string>
   <string name="account_setup_incoming_imap_path_prefix_hint">Opțional</string>
   <string name="account_setup_outgoing_title">Configurare cont</string>
-  <string name="account_setup_outgoing_headline">Setări pentru serverul de mesaje de ieşire</string>
+  <string name="account_setup_outgoing_headline">Setări pentru serverul de mesaje de ieșire</string>
   <string name="account_setup_outgoing_smtp_server_label">Server SMTP</string>
   <string name="account_setup_outgoing_port_label">Port</string>
   <string name="account_setup_outgoing_security_label">Tipul de securitate</string>
@@ -103,7 +103,7 @@
   <string name="account_setup_outgoing_password_label">Parolă</string>
   <string name="account_setup_exchange_certificate_title">Certificat client</string>
   <string name="account_setup_exchange_select_certificate">Selectare</string>
-  <string name="account_setup_exchange_use_certificate">Utilizaţi certificatul de client</string>
+  <string name="account_setup_exchange_use_certificate">Utilizați certificatul de client</string>
   <string name="account_setup_exchange_remove_certificate">Eliminaţi</string>
   <string name="account_setup_exchange_no_certificate">Niciunul</string>
   <string name="account_setup_exchange_device_id_label">ID dispozitiv mobil</string>
@@ -147,6 +147,7 @@
   <string name="account_setup_security_policies_required_fmt">Serverul <xliff:g id="SERVER">%s</xliff:g> vă solicită permisiunea de a controla de la distanţă unele funcţii de securitate ale dispozitivului Android. Doriţi să finalizaţi configurarea acestui cont?</string>
   <string name="account_setup_failed_security_policies_unsupported">Pentru acest server sunt necesare funcţii de securitate pe care dispozitivul dvs. Android nu le acceptă, inclusiv: <xliff:g id="ERROR">%s</xliff:g></string>
   <string name="account_setup_username_uneditable_error">Nu puteți schimba numele de utilizator al unui cont. Pentru a adăuga un cont cu alt nume de utilizator, atingeți Adăugați un cont.</string>
+  <string name="disable_admin_warning">AVERTISMENT: Dacă dezactivați autoritatea aplicației E-mail de administrare a dispozitivului dvs. se șterg toate conturile de e-mail care au nevoie de aceasta, împreună cu e-mailurile, agenda, evenimentele din calendar și alte date pe care aceste conturi le conțin.</string>
   <string name="account_security_dialog_title">Actualizare de securitate</string>
   <string name="account_security_dialog_content_fmt"><xliff:g id="ACCOUNT">%s</xliff:g> vă solicită actualizarea setărilor dvs. de securitate.</string>
   <string name="security_unsupported_ticker_fmt">Contul „<xliff:g id="ACCOUNT">%s</xliff:g>” nu poate fi sincronizat din cauza cerinţelor de securitate.</string>
@@ -157,7 +158,7 @@
   <string name="security_notification_content_unsupported_title">Politici securitate nerespect.</string>
   <string name="account_security_title">Securitatea dispozitivului</string>
   <string name="account_security_policy_explanation_fmt">Serverul <xliff:g id="SERVER">%s</xliff:g> vă solicită permisiunea de a controla de la distanţă unele caracteristici de securitate ale dispozitivului dvs. Android.</string>
-  <string name="account_setup_failed_dlg_edit_details_action">Modificaţi detaliile</string>
+  <string name="account_setup_failed_dlg_edit_details_action">Modificați detaliile</string>
   <string name="password_expire_warning_ticker_fmt">„<xliff:g id="ACCOUNT">%s</xliff:g>” vă solicită să modificaţi codul PIN sau parola de blocare a ecranului.</string>
   <string name="password_expire_warning_content_title">Parola blocare ecran expiră</string>
   <string name="password_expired_ticker">Codul PIN sau parola de blocare a ecranului a expirat.</string>
@@ -168,10 +169,10 @@
   <string name="password_expired_dialog_content_fmt">Datele pentru <xliff:g id="ACCOUNT">%s</xliff:g> sunt şterse de pe dispozitiv, dar le puteţi restabili modificând codul PIN sau parola de blocare a ecranului. Modificaţi acum?</string>
   <string name="account_settings_exit_server_settings">Renunţaţi la modificările nesalvate?</string>
   <string name="account_settings_login_dialog_title">Nu s-a putut conecta</string>
-  <string name="account_settings_login_dialog_content_fmt">Numele de utilizator sau parola pentru <xliff:g id="ACCOUNT">%s</xliff:g> sunt incorecte. Doriţi să le actualizaţi acum?</string>
+  <string name="account_settings_login_dialog_content_fmt">Numele de utilizator sau parola pentru <xliff:g id="account">%s</xliff:g> sunt incorecte. Doriți să le actualizați acum?</string>
   <string name="account_settings_login_dialog_reason_fmt">Conectarea dvs. la <xliff:g id="ACCOUNT">%s</xliff:g> a eşuat; motivul invocat de server a fost: <xliff:g id="REASON">%s</xliff:g> Doriţi să actualizaţi numele de utilizator şi/sau parola?</string>
-  <string name="account_settings_background_attachments_label">Descărcaţi ataşamentele</string>
-  <string name="account_settings_background_attachments_summary">Descărcaţi în mod automat prin Wi-Fi ataşam. mesaj. recente</string>
+  <string name="account_settings_background_attachments_label">Descărcați atașamentele</string>
+  <string name="account_settings_background_attachments_summary">Descărcați în mod automat prin Wi-Fi atașam. mesaj. recente</string>
   <string name="account_settings_notify_label">Notificările de e-mail</string>
   <string name="account_settings_summary">Frecvența sincronizării, notificări etc.</string>
   <string name="account_settings_notify_summary">Trimiteți notificare la primire e-mail</string>

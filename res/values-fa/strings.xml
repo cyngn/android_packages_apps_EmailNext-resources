@@ -225,7 +225,7 @@
   <string name="account_settings_sync_email_enable">همگام‌سازی ایمیل</string>
   <string name="account_settings_sync_email_summary">همگام‌سازی ایمیل برای این حساب</string>
   <string name="account_settings_vibrate_when_label">لرزش</string>
-  <string name="account_settings_ringtone">انتخاب آهنگ زنگ</string>
+  <string name="account_settings_ringtone">انتخاب صدای زنگ</string>
   <string name="account_settings_servers">تنظیمات سرور</string>
   <string name="mailbox_settings_activity_title">گزینه‌های همگام‌سازی</string>
   <string name="mailbox_settings_activity_title_with_mailbox">گزینه‌های همگام‌سازی (<xliff:g id="MAILBOXX_NAME">%s</xliff:g>)</string>
