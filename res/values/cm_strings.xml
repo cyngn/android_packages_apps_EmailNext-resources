@@ -68,6 +68,12 @@
     <string name="account_settings_led_color_summary">Default value is the account color</string>
     <!-- On Settings screen, tutorial header title label -->
     <string name="account_settings_tutorial_header_title">View tutorial</string>
+    <!-- On Settings screen, title for label/move preference -->
+    <string name="account_settings_move_label_title">Label/Move messages</string>
+    <!-- On Settings screen, shown as an option for label/move preference -->
+    <string name="account_settings_move_title">Move</string>
+    <!-- On Settings screen, shown as an option for label/move preference -->
+    <string name="account_settings_label_title">Label</string>
     <!-- General preference: Labels for the setting to mark emails as read before archiving them-->
     <string name="general_preference_mark_archive_messages_read">Archive as read</string>
     <string name="general_preference_mark_archive_messages_read_description">Mark emails as read before archiving them</string>
@@ -103,8 +109,10 @@
     <string name="message_compose_send_availability_menu_title">Send availability</string>
     <!-- Menu item for including an invite from compose. [CHAR_LIMIT=30] -->
     <string name="message_compose_create_invite_menu_title">Create invite</string>
+    <!-- Preference for the compose toolbar -->
+    <string name="preference_compose_toolbar_visibility">Show compose toolbar</string>
 
-    <string name="tutorial_welcome_title">Welcome to email</string>
+    <string name="tutorial_welcome_title">Welcome to Email</string>
     <string name="tutorial_welcome_subtitle">Smarter. Faster. Tailored. Email.</string>
     <string name="tutorial_page1_title">Custom Swipes</string>
     <string name="tutorial_page1_subtitle">Customize your swipe actions and build your own experience.</string>
