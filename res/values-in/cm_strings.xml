@@ -68,7 +68,6 @@
   <string name="account_settings_unable_to_edit_field">Administrator Anda tidak mengizinkan bidang ini diubah</string>
   <string name="message_compose_send_availability_menu_title">Kirim ketersediaan</string>
   <string name="message_compose_create_invite_menu_title">Buat undangan</string>
-  <string name="tutorial_welcome_title">Selamat datang di email</string>
   <string name="tutorial_welcome_subtitle">Email. Dirancang. Lebih Pintar. Cepat.</string>
   <string name="tutorial_page1_title">Sapuan kustom</string>
   <string name="tutorial_page1_subtitle">Ubah aksi sapuan Anda dan buat pengalaman anda sendiri.</string>

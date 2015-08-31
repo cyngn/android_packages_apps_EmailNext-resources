@@ -68,7 +68,6 @@
   <string name="account_settings_unable_to_edit_field">Twój administrator nie zezwala na modyfikację tego pola</string>
   <string name="message_compose_send_availability_menu_title">Wyślij dostępność</string>
   <string name="message_compose_create_invite_menu_title">Stwórz zaproszenie</string>
-  <string name="tutorial_welcome_title">Witamy w e-mail</string>
   <string name="tutorial_welcome_subtitle">Mądrzejszy. Szybszy. Dopasowany. E-mail.</string>
   <string name="tutorial_page1_title">Niestandardowe akcje przesunięcia</string>
   <string name="tutorial_page1_subtitle">Dostosuj swoje akcje przesunięcia i zbuduj własne doświadczenia.</string>

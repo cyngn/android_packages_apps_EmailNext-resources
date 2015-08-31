@@ -50,6 +50,9 @@
   <string name="account_settings_led_color_label">צבע LED מותאם אישית</string>
   <string name="account_settings_led_color_summary">ערך ברירת מחדל הוא צבע החשבון</string>
   <string name="account_settings_tutorial_header_title">הצג הדרכה</string>
+  <string name="account_settings_move_label_title">תוויות/העברת הודעות</string>
+  <string name="account_settings_move_title">העבר</string>
+  <string name="account_settings_label_title">תווית</string>
   <string name="general_preference_mark_archive_messages_read">העבר לארכיון כנקרא</string>
   <string name="general_preference_mark_archive_messages_read_description">סמן הודעות כנקראו לפני העברתם לארכיון</string>
   <string name="search_hint">חפש\u2026</string>
@@ -68,7 +71,8 @@
   <string name="account_settings_unable_to_edit_field">מנהל המערכת שלך לא מאפשר לשנות שדה זה</string>
   <string name="message_compose_send_availability_menu_title">שלח זמינות</string>
   <string name="message_compose_create_invite_menu_title">צור הזמנה</string>
-  <string name="tutorial_welcome_title">ברוכים הבאים לדואר האלקטרוני</string>
+  <string name="preference_compose_toolbar_visibility">הצג סרגל הכתיבה</string>
+  <string name="tutorial_welcome_title">ברוכים הבאים לדוא\"ל</string>
   <string name="tutorial_welcome_subtitle">חכם יותר. מהיר יותר. מותאם יותר. אלקטרוני יותר.</string>
   <string name="tutorial_page1_title">פעולות הזזה מותאמות אישית</string>
   <string name="tutorial_page1_subtitle">התאימו אישית את פעולות ההזזה שלכם, ובנו את החוויה שלכם בעצמכם.</string>

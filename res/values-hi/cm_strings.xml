@@ -68,7 +68,6 @@
   <string name="account_settings_unable_to_edit_field">आपका प्रशासक इस फील्ड को परिवर्तित करने की अनुमति नहीं देता है</string>
   <string name="message_compose_send_availability_menu_title">उपलब्धता भेजें</string>
   <string name="message_compose_create_invite_menu_title">आमंत्रण निर्मित करें</string>
-  <string name="tutorial_welcome_title">ईमेल में आपका स्वागत है</string>
   <string name="tutorial_welcome_subtitle">अधिक चतुर। अधिक तेज़। विशेषीकृत। ईमेल।</string>
   <string name="tutorial_page1_title">कस्टम स्वाइप</string>
   <string name="tutorial_page1_subtitle">अपने स्वाइप क्रियाओं को मनपसंद रूप दें और अपना निजी अनुभव निर्मित करें।</string>

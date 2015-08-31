@@ -50,6 +50,9 @@
   <string name="account_settings_led_color_label">Özel LED rengi</string>
   <string name="account_settings_led_color_summary">Varsayılan değer hesap rengidir</string>
   <string name="account_settings_tutorial_header_title">Öğreticiyi görüntüle</string>
+  <string name="account_settings_move_label_title">Mesajları Etiketle/Taşı</string>
+  <string name="account_settings_move_title">Taşı</string>
+  <string name="account_settings_label_title">Etiket</string>
   <string name="general_preference_mark_archive_messages_read">Okundu olarak arşivle</string>
   <string name="general_preference_mark_archive_messages_read_description">Mesajları arşivlemeden önce okundu olarak işaretle</string>
   <string name="search_hint">E-postada ara</string>
@@ -68,6 +71,7 @@
   <string name="account_settings_unable_to_edit_field">Yöneticiniz bu alanının değiştirilmesine izin vermiyor</string>
   <string name="message_compose_send_availability_menu_title">Uygunluğunuzu gönderin</string>
   <string name="message_compose_create_invite_menu_title">Davet oluştur</string>
+  <string name="preference_compose_toolbar_visibility">Düzenleme çubuğunu göster</string>
   <string name="tutorial_welcome_title">E-postaya hoş geldiniz</string>
   <string name="tutorial_welcome_subtitle">Daha akıllı. Daha hızlı. Özel. E-posta.</string>
   <string name="tutorial_page1_title">Özel Kaydırmalar</string>

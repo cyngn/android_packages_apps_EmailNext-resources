@@ -68,7 +68,6 @@
   <string name="account_settings_unable_to_edit_field">Твој администратор не дозвољава да се ово поље мења</string>
   <string name="message_compose_send_availability_menu_title">Пошаљи расположивост</string>
   <string name="message_compose_create_invite_menu_title">Направи позивницу</string>
-  <string name="tutorial_welcome_title">Добро дошли у Е-пошту</string>
   <string name="tutorial_welcome_subtitle">Паметнија. Бржа. Скројена. Е-пошта.</string>
   <string name="tutorial_page1_title">Прилагоди превлачење</string>
   <string name="tutorial_page1_subtitle">Прилагоди акцију превлачења и направи сопствено искуство.</string>

@@ -50,6 +50,9 @@
   <string name="account_settings_led_color_label">Egyedi LED szín</string>
   <string name="account_settings_led_color_summary">Alapértelmezett értéke a Fiók színe</string>
   <string name="account_settings_tutorial_header_title">Útmutató megtekintése</string>
+  <string name="account_settings_move_label_title">Üzenetek áthelyezése/címkézése</string>
+  <string name="account_settings_move_title">Áthelyez</string>
+  <string name="account_settings_label_title">Címke</string>
   <string name="general_preference_mark_archive_messages_read">Archív megjelölése olvasottként</string>
   <string name="general_preference_mark_archive_messages_read_description">Email megjelölése olvasottként archiválás előtt</string>
   <string name="search_hint">E-mail keresése\u2026</string>
@@ -66,6 +69,9 @@
   <string name="account_setup_options_mail_window_3months">Elmúlt 3 hónap</string>
   <string name="account_setup_options_mail_window_6months">Elmúlt 6 hónap</string>
   <string name="account_settings_unable_to_edit_field">A rendszergazda nem tette lehetővé a mező módosítását</string>
+  <string name="message_compose_send_availability_menu_title">Elérhetőség küldése</string>
+  <string name="message_compose_create_invite_menu_title">Meghívás létrehozása</string>
+  <string name="preference_compose_toolbar_visibility">Létrehozási eszköztár megjelenítése</string>
   <string name="tutorial_welcome_title">Üdvözöljük az e-mailben</string>
   <string name="tutorial_welcome_subtitle">Okosabb. Gyorsabb. Személyre szabott. E-mail.</string>
   <string name="tutorial_page1_title">Egyéni csúsztatási műveletek</string>
@@ -78,4 +84,10 @@
   <string name="tutorial_done_button">Kész</string>
   <string name="message_send_failed_ticker">Üzenet küldése nem sikerült</string>
   <string name="message_send_failed_title">Üzenet nincs elküldve</string>
+  <string name="preferences_clear_search_history_title">Keresési előzmények törlése</string>
+  <string name="preferences_clear_search_history_summary">Az összes végrehajtott keresés törlése</string>
+  <string name="search_history_cleared">A keresési előzmények törölve.</string>
+  <string name="update_available_ticker">Frissítés érhető el az E-mail alkalmazáshoz</string>
+  <string name="update_availalable_title">Frissítés érhető el</string>
+  <string name="update_available_content">Érintse meg a frissítés telepítéséhez</string>
 </resources>

@@ -50,6 +50,9 @@
   <string name="account_settings_led_color_label">Προσαρμοσμένο χρώμα LED</string>
   <string name="account_settings_led_color_summary">Η προεπιλεγμένη τιμή είναι το χρώμα του λογαριασμού</string>
   <string name="account_settings_tutorial_header_title">Προβολή οδηγού</string>
+  <string name="account_settings_move_label_title">Προσθήκη ετικέτας/Μετακίνηση μηνυμάτων</string>
+  <string name="account_settings_move_title">Μετακίνηση</string>
+  <string name="account_settings_label_title">Προσθήκη ετικέτας</string>
   <string name="general_preference_mark_archive_messages_read">Αρχειοθέτηση ως αναγνωσμένα</string>
   <string name="general_preference_mark_archive_messages_read_description">Επισήμανση των μηνυμάτων ηλεκτρονικού ταχυδρομείου ως αναγνωσμένα πριν την αρχειοθέτησή τους</string>
   <string name="search_hint">Αναζήτηση\u2026</string>
@@ -68,7 +71,8 @@
   <string name="account_settings_unable_to_edit_field">Ο διαχειριστής σας δεν επιτρέπει την τροποποίηση αυτού του πεδίου</string>
   <string name="message_compose_send_availability_menu_title">Αποστολή διαθεσιμότητας</string>
   <string name="message_compose_create_invite_menu_title">Δημιουργία πρόσκλησης</string>
-  <string name="tutorial_welcome_title">Καλώς ήλθατε στο ηλεκτρονικό ταχυδρομείο</string>
+  <string name="preference_compose_toolbar_visibility">Εμφάνιση εργαλειοθήκης σύνθεσης</string>
+  <string name="tutorial_welcome_title">Καλώς ήλθατε στο Ηλεκτρονικό ταχυδρομείο</string>
   <string name="tutorial_welcome_subtitle">Εξυπνότερο. Πιο γρήγορο. Προσαρμόσιμο. Ηλεκτρονικό ταχυδρομείο.</string>
   <string name="tutorial_page1_title">Προσαρμοσμένα συρσίματα</string>
   <string name="tutorial_page1_subtitle">Προσαρμόστε τις ενέργειες συρσίματος και χτίστε τη δική σας εμπειρία.</string>

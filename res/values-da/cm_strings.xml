@@ -68,7 +68,6 @@
   <string name="account_settings_unable_to_edit_field">Administratoren tillader ikke at dette felt ændres</string>
   <string name="message_compose_send_availability_menu_title">Send tilgængelighed</string>
   <string name="message_compose_create_invite_menu_title">Opret invitation</string>
-  <string name="tutorial_welcome_title">Velkommen til e-mail</string>
   <string name="tutorial_welcome_subtitle">Smartere. Hurtigere. Skræddersyet. E-mail.</string>
   <string name="tutorial_page1_title">Tilpasset Strøg</string>
   <string name="tutorial_page1_subtitle">Tilpas dine stryge-handlinger og byg din egen oplevelse.</string>

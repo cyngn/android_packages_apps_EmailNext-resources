@@ -18,11 +18,11 @@
   <string name="permission_read_attachment_label">خواندن پیوستهای ایمیل</string>
   <string name="permission_read_attachment_desc">به برنامه اجازه می‌دهد پیوست‌های ایمیل شما را بخواند.</string>
   <string name="permission_access_provider_label">دسترسی به داده‌های ارائه‌کننده ایمیل</string>
-  <string name="permission_access_provider_desc">به برنامهٔ کاربردی اجازه می‌دهد به پایگاه داده ایمیل شما، شامل پیام‌های دریافتی، پیام‌های ارسالی، نام‌های کاربری و گذرواژه‌ها دسترسی داشته باشد.</string>
+  <string name="permission_access_provider_desc">به برنامه اجازه می‌دهد به پایگاه داده ایمیل شما، شامل پیام‌های دریافتی، پیام‌های ارسالی، نام‌های کاربری و گذرواژه‌ها دسترسی داشته باشد.</string>
   <string name="app_name">ایمیل</string>
   <string name="debug_title">رفع خطا</string>
   <string name="next_action">بعدی</string>
-  <string name="okay_action">تأیید</string>
+  <string name="okay_action">بسیارخب</string>
   <string name="cancel_action">لغو</string>
   <string name="previous_action">قبلی</string>
   <string name="done_action">انجام شد</string>
@@ -75,10 +75,10 @@
   <string name="accounts_welcome">می‌توانید حسابتان را در چند گام کوتاه راه‌اندازی کنید.</string>
   <string name="account_setup_basics_email_label">آدرس ایمیل</string>
   <string name="account_setup_basics_manual_setup_action">تنظیم دستی</string>
-  <string name="account_setup_username_password_toast">یک آدرس ایمیل و گذرواژه معتبر تایپ کنید.</string>
+  <string name="account_setup_username_password_toast">آدرس ایمیل و گذرواژه معتبری تایپ کنید.</string>
   <string name="account_duplicate_dlg_title">حساب تکراری</string>
   <string name="account_duplicate_dlg_message_fmt">شما در حال حاضر از این نام کاربری برای حساب \"<xliff:g id="DUPLICATE">%s</xliff:g>\" استفاده می‌کنید.</string>
-  <string name="account_password_spaces_error">این رمز ورود دارای یک یا چند نویسه فاصله در ابتدا یا انتهای خود است. بسیاری از سرورها از رمز ورودهای دارای فاصله پشتیبانی نمی‌کنند.</string>
+  <string name="account_password_spaces_error">این گذرواژه دارای یک یا چند کاراکتر فاصله در ابتدا یا انتهای خود است. بسیاری از سرورها از گذرواژه دارای فاصله پشتیبانی نمی‌کنند.</string>
   <string name="account_setup_check_settings_retr_info_msg">در حال بازیابی اطلاعات حساب...</string>
   <string name="account_setup_check_settings_check_incoming_msg">درحال تأیید اعتبار تنظیمات سرور...</string>
   <string name="account_setup_check_settings_check_outgoing_msg">‏درحال تأیید اعتبار تنظیمات smtp...</string>
@@ -94,7 +94,7 @@
   <string name="account_setup_incoming_title">تنظیم حساب</string>
   <string name="account_setup_incoming_headline">تنظیمات سرور ورودی</string>
   <string name="account_setup_incoming_username_label">نام کاربری</string>
-  <string name="account_setup_incoming_password_label">رمز ورود</string>
+  <string name="account_setup_incoming_password_label">گذرواژه</string>
   <string name="account_setup_incoming_server_label">سرور</string>
   <string name="account_setup_incoming_port_label">درگاه</string>
   <string name="account_setup_incoming_security_label">نوع امنیت</string>
@@ -115,7 +115,7 @@
   <string name="account_setup_outgoing_security_label">نوع امنیت</string>
   <string name="account_setup_outgoing_require_login_label">ورود به سیستم لازم است</string>
   <string name="account_setup_outgoing_username_label">نام کاربری</string>
-  <string name="account_setup_outgoing_password_label">رمز ورود</string>
+  <string name="account_setup_outgoing_password_label">گذرواژه</string>
   <string name="account_setup_exchange_certificate_title">گواهی سرویس گیرنده</string>
   <string name="account_setup_exchange_select_certificate">انتخاب</string>
   <string name="account_setup_exchange_use_certificate">استفاده از گواهی مشتری</string>
@@ -130,7 +130,7 @@
   <string name="account_setup_options_mail_check_frequency_15min">هر ۱۵ دقیقه</string>
   <string name="account_setup_options_mail_check_frequency_30min">هر ۳۰ دقیقه</string>
   <string name="account_setup_options_mail_check_frequency_1hour">هر ساعت</string>
-  <string name="account_setup_options_background_attachments_label">‏دانلود خودکار پیوست‌ها هنگام اتصال به Wi-Fi</string>
+  <string name="account_setup_options_background_attachments_label">‏دانلود خودکار پیوست‌ها هنگام اتصال به وای‌فای</string>
   <string name="account_setup_failed_dlg_title">پایان نیافت</string>
   <string name="account_setup_options_mail_window_label">روزهای همگام‌سازی</string>
   <string name="account_setup_options_mail_window_auto">خودکار</string>
@@ -141,22 +141,22 @@
   <string name="account_setup_options_mail_window_1month">ماه گذشته</string>
   <string name="account_setup_options_mail_window_all">همه</string>
   <string name="account_setup_options_mail_window_default">استفاده از پیش‌فرض حساب</string>
-  <string name="account_setup_failed_dlg_auth_message">نام کاربری یا گذرواژهٔ شما اشتباه است.</string>
-  <string name="account_setup_failed_dlg_auth_message_fmt">ورود به سیستم انجام نشد. \n(<xliff:g id="ERROR">%s</xliff:g>)</string>
+  <string name="account_setup_failed_dlg_auth_message">نام کاربری یا گذرواژه نادرست است.</string>
+  <string name="account_setup_failed_dlg_auth_message_fmt">ورود به سیستم انجام نشد.\n(<xliff:g id="error">%s</xliff:g>)</string>
   <string name="account_setup_autodiscover_dlg_authfail_title">مشکل در تنظیم حساب</string>
-  <string name="account_setup_autodiscover_dlg_authfail_message">تأیید کنید نام کاربری، گذرواژه، و تنظیمات حساب درست هستند.</string>
+  <string name="account_setup_autodiscover_dlg_authfail_message">تایید کنید نام کاربری، گذرواژه، و تنظیمات حساب درست هستند.</string>
   <string name="account_setup_failed_dlg_certificate_message">اتصال امن به سرور امکان‌پذیر نیست.</string>
   <string name="account_setup_failed_dlg_certificate_message_fmt">اتصال امن به سرور امکان‌پذیر نیست.\n(<xliff:g id="ERROR">%s</xliff:g>)</string>
   <string name="account_setup_failed_certificate_required">به گواهی‌نامه کلاینت نیاز دارد. آیا می‌خواهید با گواهی‌نامه کلاینت به سرور متصل شوید؟</string>
   <string name="account_setup_failed_certificate_inaccessible">گواهی‌نامه نامعتبر است و یا غیرقابل دسترس است.</string>
-  <string name="account_setup_failed_check_credentials_message">سرور با یک خطا پاسخ داد. نام کاربری و گذرواژهٔ خود را بررسی کرده و دوباره امتحان کنید.</string>
+  <string name="account_setup_failed_check_credentials_message">سرور با خطا همراه بود. نام کاربری و گذرواژه خود را بررسی کرده و دوباره امتحان کنید.</string>
   <string name="account_setup_failed_dlg_server_message">اتصال به سرور امکان‌پذیر نیست.</string>
   <string name="account_setup_failed_dlg_server_message_fmt">اتصال به سرور امکان‌پذیر نیست.\n(<xliff:g id="ERROR">%s</xliff:g>)</string>
   <string name="account_setup_failed_tls_required">‏TLS لازم است اما توسط سرور پشتیبانی نمی‌شود.</string>
   <string name="account_setup_failed_auth_required">روش‌های تأیید اعتبار توسط سرور پشتیبانی نمی‌شوند.</string>
   <string name="account_setup_failed_security">به دلیل خطای امنیتی، اتصال به سرور باز نمی‌شود.</string>
   <string name="account_setup_failed_ioerror">اتصال به سرور برقرار نمی‌شود.</string>
-  <string name="account_setup_failed_protocol_unsupported">آدرس سرور را اشتباه وارد کرده‌اید یا سرور به نسخه پروتکلی احتیاج دارد که ایمیل پشتیبانی نمی‌کند.</string>
+  <string name="account_setup_failed_protocol_unsupported">آدرس سرور را نادرست وارد کرده‌اید یا سرور به نسخه پروتکلی احتیاج دارد که ایمیل پشتیبانی نمی‌کند.</string>
   <string name="account_setup_failed_access_denied">شما اجازه همگام‌سازی با این سرور را ندارید. برای کسب اطلاعات بیشتر با سرپرست سرور خود تماس بگیرید.</string>
   <string name="account_setup_security_required_title">مدیریت امنیت راه دور</string>
   <string name="account_setup_security_policies_required_fmt">‏سرور <xliff:g id="SERVER">%s</xliff:g> از شما می‌خواهد که به آن اجازه دهید برخی از ویژگی‌های امنیتی دستگاه Android شما را از راه دور کنترل کند. آیا می‌خواهید تنظیم این حساب را به پایان برسانید؟</string>
@@ -174,28 +174,28 @@
   <string name="account_security_title">امنیت دستگاه</string>
   <string name="account_security_policy_explanation_fmt">‏سرور <xliff:g id="SERVER">%s</xliff:g> از شما می‌خواهد که به آن اجازه دهید برخی از ویژگی‌های امنیتی دستگاه Android شما را از راه دور کنترل کند.</string>
   <string name="account_setup_failed_dlg_edit_details_action">ویرایش جزئیات</string>
-  <string name="password_expire_warning_ticker_fmt">\"<xliff:g id="ACCOUNT">%s</xliff:g>\" از شما می‌خواهد کد پین یا گذرواژه قفل صفحه را تغییر دهید.</string>
-  <string name="password_expire_warning_content_title">رمز ورود قفل صفحه در حال انقضا</string>
-  <string name="password_expired_ticker">کد پین یا رمز ورود قفل صفحه منقضی شده است.</string>
-  <string name="password_expired_content_title">رمز ورود قفل صفحه منقضی شده است</string>
-  <string name="password_expire_warning_dialog_title">رمز ورود قفل صفحه در حال انقضا</string>
-  <string name="password_expire_warning_dialog_content_fmt">باید پین قفل صفحه یا گذرواژهٔ خود را سریع تغییر دهید، در غیر اینصورت داده‌های <xliff:g id="ACCOUNT">%s</xliff:g> پاک خواهد شد . آیا می‌خواهید اکنون آن‌ را تغییر دهید؟</string>
-  <string name="password_expired_dialog_title">رمز ورود قفل صفحه منقضی شده است</string>
-  <string name="password_expired_dialog_content_fmt">داده‌های <xliff:g id="ACCOUNT">%s</xliff:g> در حال پاک شدن از دستگاه شما است. با تغییر دادن پین صفحه قفل یا گذرواژهٔ خود می‌توانید آن‌ها را بازگردانید. آیا می‌خواهید هم‌اکنون آن‌ را تغییر دهید؟</string>
+  <string name="password_expire_warning_ticker_fmt">\"<xliff:g id="account">%s</xliff:g>\" نیاز دارد تا شما پین یا گذرواژه قفل صفحه را تغییر دهید.</string>
+  <string name="password_expire_warning_content_title">منقضی شدن گذرواژه قفل صفحه</string>
+  <string name="password_expired_ticker">پین یا گذرواژه قفل صفحه منقضی شده است.</string>
+  <string name="password_expired_content_title">گذرواژه قفل صفحه منقضی شده است</string>
+  <string name="password_expire_warning_dialog_title">منقضی شدن گذرواژه قفل صفحه</string>
+  <string name="password_expire_warning_dialog_content_fmt">باید پین یا گذرواژه قفل صفحه خود را سریع تغییر دهید، در غیر این صورت داده‌های <xliff:g id="account">%s</xliff:g> پاک خواهد شد. آیا می‌خواهید اکنون آن‌ را تغییر دهید؟</string>
+  <string name="password_expired_dialog_title">گذرواژه قفل صفحه منقضی شده است</string>
+  <string name="password_expired_dialog_content_fmt">داده‌های <xliff:g id="account">%s</xliff:g> در حال پاک شدن از دستگاه شما است. با تغییر دادن پین یا گذرواژه قفل صفحه خود می‌توانید آن‌ها را بازگردانید. آیا می‌خواهید هم‌اکنون آن‌ را تغییر دهید؟</string>
   <string name="account_settings_exit_server_settings">از تغییرات ذخیره نشده صرفنظر شود؟</string>
   <string name="account_settings_login_dialog_title">ورود به سیستم ممکن نیست</string>
-  <string name="account_settings_login_dialog_content_fmt">نام کاربری یا گذرواژه <xliff:g id="ACCOUNT">%s</xliff:g> نادرست است. آیا می‌خواهید هم‌اکنون آن‌ها را به‌روز کنید؟</string>
-  <string name="account_settings_login_dialog_reason_fmt">ورود به سیستم شما به <xliff:g id="ACCOUNT">%s</xliff:g> انجام نشد؛ سرور این پیام را داد: <xliff:g id="REASON">%s</xliff:g> آیا می‌خواهید نام کاربری و/یا  گذرواژه خود را به‌روزرسانی کنید؟</string>
+  <string name="account_settings_login_dialog_content_fmt">نام کاربری یا گذرواژه <xliff:g id="account">%s</xliff:g> نادرست است. آیا می‌خواهید هم‌اکنون آن‌ها را بروز کنید؟</string>
+  <string name="account_settings_login_dialog_reason_fmt">ورود شما به <xliff:g id="account">%s</xliff:g> انجام نشد؛ سرور این پیام را داد: <xliff:g id="reason">%s</xliff:g> آیا می‌خواهید نام کاربری و یا گذرواژه خود را بروز کنید؟</string>
   <string name="account_settings_background_attachments_label">دانلود پیوست‌ها</string>
-  <string name="account_settings_background_attachments_summary">‏دانلود خودکار پیوست‌ها به پیام‌های اخیر از طریق Wi-Fi</string>
+  <string name="account_settings_background_attachments_summary">‏دانلود خودکار پیوست‌ها به پیام‌های اخیر از طریق وای‌فای</string>
   <string name="account_settings_notify_label">اعلان‌های ایمیل</string>
   <string name="account_settings_summary">تکرار همگام‌سازی، اعلان‌ها، موارد دیگر</string>
   <string name="account_settings_notify_summary">ارسال اعلان هنگام ورود ایمیل</string>
   <string name="account_settings_mail_check_frequency_label">تعداد دفعات همگام‌سازی</string>
   <string name="account_settings_incoming_label">تنظیمات ورودی</string>
-  <string name="account_settings_incoming_summary">نام کاربری، رمز ورود و سایر تنظیمات سرور ورودی</string>
+  <string name="account_settings_incoming_summary">نام کاربری، گذرواژه و سایر تنظیمات وارده سرور</string>
   <string name="account_settings_outgoing_label">تنظیمات خروجی</string>
-  <string name="account_settings_outgoing_summary">نام کاربری، رمز ورود و سایر تنظیمات سرور خروجی</string>
+  <string name="account_settings_outgoing_summary">نام کاربری، گذرواژه و سایر تنظیمات صادره سرور</string>
   <string name="account_settings_enforced_label">خط‌مشی‌های اعمال شده</string>
   <string name="account_settings_enforced_summary">هیچکدام</string>
   <string name="account_settings_unsupported_label">خط مشی‌های پشتیبانی نشده</string>
@@ -225,7 +225,7 @@
   <string name="account_settings_sync_email_enable">همگام‌سازی ایمیل</string>
   <string name="account_settings_sync_email_summary">همگام‌سازی ایمیل برای این حساب</string>
   <string name="account_settings_vibrate_when_label">لرزش</string>
-  <string name="account_settings_ringtone">انتخاب آهنگ زنگ</string>
+  <string name="account_settings_ringtone">انتخاب صدای زنگ</string>
   <string name="account_settings_servers">تنظیمات سرور</string>
   <string name="mailbox_settings_activity_title">گزینه‌های همگام‌سازی</string>
   <string name="mailbox_settings_activity_title_with_mailbox">گزینه‌های همگام‌سازی (<xliff:g id="MAILBOXX_NAME">%s</xliff:g>)</string>
@@ -233,7 +233,7 @@
   <string name="mailbox_settings_sync_enabled_summary">پس از برقراری اتصال، پیام‌ها دانلود می‌شوند</string>
   <string name="mailbox_settings_mailbox_sync_window_label">تعداد روزها برای همگام‌سازی نامه‌ها</string>
   <string name="prefDialogTitle_conversationListIcon">تصویر فرستنده</string>
-  <string name="provider_note_live">‏فقط برخی از حساب‌های \"Plus\" از جمله دسترسی POP به این برنامه اجازه می‌دهند متصل شود. اگر نمی‌توانید با گذرواژه و آدرس ایمیل درست خود به سیستم وارد شوید، ممکن است فاقد یک حساب \"Plus\" غیر رایگان باشید. لطفاً مرورگر وب را برای دسترسی به این حساب‌های ایمیل راه‌اندازی کنید.</string>
+  <string name="provider_note_live">‏فقط برخی از حساب‌های \"Plus\" که دسترسی POP دارند به این برنامه اجازه می‌دهند متصل شود. اگر نمی‌توانید با گذرواژه و آدرس ایمیل درست خود به سیستم وارد شوید، ممکن است فاقد یک حساب \"Plus\" غیر رایگان باشید. لطفا مرورگر وب را برای دسترسی به این حساب‌های ایمیل اجرا کنید.</string>
   <string name="system_account_create_failed">حساب ایجاد نشد. دوباره امتحان کنید.</string>
   <string name="device_admin_label">ایمیل</string>
   <string name="device_admin_description">خط مشی‌های امنیتی تعیین شده توسط سرور را فعال می‌کند</string>
@@ -259,9 +259,9 @@
   <string name="general_preference_text_zoom_huge">بسیار بزرگ</string>
   <string name="more_than_999">999+</string>
   <string name="policy_dont_allow_camera">استفاده از دوربین دستگاه مجاز نیست</string>
-  <string name="policy_require_password">گذرواژهٔ دستگاه لازم است</string>
-  <string name="policy_password_history">استفاده مجدد از گذرواژه‌های اخیر محدود است</string>
-  <string name="policy_password_expiration">گذرواژه‌ها باید منقضی شوند</string>
+  <string name="policy_require_password">نیاز به گذرواژه دستگاه</string>
+  <string name="policy_password_history">محدود کردن استفاده‌ی مجدد از گذرواژه‌های اخیر</string>
+  <string name="policy_password_expiration">نیاز به منقضی شدن گذرواژه‌ها</string>
   <string name="policy_screen_timeout">برای قفل کردن صفحه خود یک دستگاه آماده به کار لازم است</string>
   <string name="policy_calendar_age">محدود کردن تعداد رویدادهای همگام‌سازی شده تقویم</string>
   <string name="policy_email_age">محدود کردن تعداد ایمیل‌های همگام‌سازی شده</string>

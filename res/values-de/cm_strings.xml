@@ -68,7 +68,6 @@
   <string name="account_settings_unable_to_edit_field">Ihr Administrator erlaubt nicht dieses Feld zu ändern</string>
   <string name="message_compose_send_availability_menu_title">Verfügbarkeit senden</string>
   <string name="message_compose_create_invite_menu_title">Einladung erstellen</string>
-  <string name="tutorial_welcome_title">Willkommen bei E-Mail</string>
   <string name="tutorial_welcome_subtitle">Intelligenter, schneller, angepasst – E-Mail.</string>
   <string name="tutorial_page1_title">Benutzerdefiniertes Wischen</string>
   <string name="tutorial_page1_subtitle">Passen Sie Ihre Wisch-Aktionen an und basteln Sie sich Ihr eigenes Erlebnis.</string>

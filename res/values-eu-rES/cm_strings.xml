@@ -50,6 +50,9 @@
   <string name="account_settings_led_color_label">Pertsonalizatutako LED kolorea</string>
   <string name="account_settings_led_color_summary">Balio lehenetsia kontuaren kolorea da</string>
   <string name="account_settings_tutorial_header_title">Ikusi tutoriala</string>
+  <string name="account_settings_move_label_title">Etiketatu/Mugitu mezuak</string>
+  <string name="account_settings_move_title">Mugitu</string>
+  <string name="account_settings_label_title">Etiketa</string>
   <string name="general_preference_mark_archive_messages_read">Artxibatu irakurrita gisa</string>
   <string name="general_preference_mark_archive_messages_read_description">Markatu mezuak irakurrita gisa artxibatu baino lehen</string>
   <string name="search_hint">Bilatu\u2026</string>
@@ -68,7 +71,6 @@
   <string name="account_settings_unable_to_edit_field">Zure administratzaileak ez du baimentzen eremu hau aldatzea</string>
   <string name="message_compose_send_availability_menu_title">Bidali eskuragarritasuna</string>
   <string name="message_compose_create_invite_menu_title">Sortu gonbidapena</string>
-  <string name="tutorial_welcome_title">Ongi etorri epostara</string>
   <string name="tutorial_welcome_subtitle">Eposta. Adimentsuagoa. Azkarragoa. Neurrira.</string>
   <string name="tutorial_page1_title">Hatza pasatze pertsonalizatuak</string>
   <string name="tutorial_page1_subtitle">Pertsonalizatu hatza pasatze ekintzak eta eraiki zure esperientzia propioa.</string>

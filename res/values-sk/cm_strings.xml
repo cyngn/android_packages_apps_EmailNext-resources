@@ -50,6 +50,9 @@
   <string name="account_settings_led_color_label">Vlastná farba LED</string>
   <string name="account_settings_led_color_summary">Predvolená hodnota je farba účtu</string>
   <string name="account_settings_tutorial_header_title">Zobraziť sprievodcu</string>
+  <string name="account_settings_move_label_title">Označiť/presunúť správy</string>
+  <string name="account_settings_move_title">Presunúť</string>
+  <string name="account_settings_label_title">Štítok</string>
   <string name="general_preference_mark_archive_messages_read">Archivovať ako prečítané</string>
   <string name="general_preference_mark_archive_messages_read_description">Označiť e-maily ako prečítané pred ich archiváciou</string>
   <string name="search_hint">Hľadať\u2026</string>
@@ -66,6 +69,9 @@
   <string name="account_setup_options_mail_window_3months">Posledné 3 mesiace</string>
   <string name="account_setup_options_mail_window_6months">Posledných 6 mesiacov</string>
   <string name="account_settings_unable_to_edit_field">Správca nepovolil úpravu tohto poľa</string>
+  <string name="message_compose_send_availability_menu_title">Odoslať dostupnosť</string>
+  <string name="message_compose_create_invite_menu_title">Vytvoriť pozvánku</string>
+  <string name="preference_compose_toolbar_visibility">Zobraziť panel návrhu</string>
   <string name="tutorial_welcome_title">Vitajte v E-maili</string>
   <string name="tutorial_welcome_subtitle">Múdrejší. Rýchlejší. Na mieru. E-mail.</string>
   <string name="tutorial_page1_title">Vlastné potiahnutia</string>
@@ -78,4 +84,10 @@
   <string name="tutorial_done_button">Hotovo</string>
   <string name="message_send_failed_ticker">Odosielanie správy zlyhalo</string>
   <string name="message_send_failed_title">Správa nebola odoslaná</string>
+  <string name="preferences_clear_search_history_title">Vymazať históriu vyhľadávania</string>
+  <string name="preferences_clear_search_history_summary">Odstrániť všetky vaše uskutočnené vyhľadávania</string>
+  <string name="search_history_cleared">História vyhľadávania bola vymazaná.</string>
+  <string name="update_available_ticker">Aktualizácia pre E-mail je k dispozícii</string>
+  <string name="update_availalable_title">Aktualizácia je k dispozícii</string>
+  <string name="update_available_content">Dotykom nainštalujte aktualizáciu</string>
 </resources>

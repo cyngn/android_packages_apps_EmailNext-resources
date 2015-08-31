@@ -50,6 +50,9 @@
   <string name="account_settings_led_color_label">Barva LED po meri</string>
   <string name="account_settings_led_color_summary">Privzeta vrednost je barva računa</string>
   <string name="account_settings_tutorial_header_title">Pokaži vodnik</string>
+  <string name="account_settings_move_label_title">Označi/Premakni sporočila</string>
+  <string name="account_settings_move_title">Premakni</string>
+  <string name="account_settings_label_title">Označi</string>
   <string name="general_preference_mark_archive_messages_read">Arhiviraj kot prebrano</string>
   <string name="general_preference_mark_archive_messages_read_description">Pred arhiviranjem označi e-pošto kot prebrano</string>
   <string name="search_hint">Iskanje \u2026</string>
@@ -68,7 +71,8 @@
   <string name="account_settings_unable_to_edit_field">Vaš skrbnik no dovoli spreminjanja tega polja</string>
   <string name="message_compose_send_availability_menu_title">Pošlji razpoložljivost</string>
   <string name="message_compose_create_invite_menu_title">Ustvari povabilo</string>
-  <string name="tutorial_welcome_title">Dobrodošli v e-pošto</string>
+  <string name="preference_compose_toolbar_visibility">Prikaži orodno vrstico za sestavljanje</string>
+  <string name="tutorial_welcome_title">Dobrodošli v E-pošto</string>
   <string name="tutorial_welcome_subtitle">Pametnejša. Hitrejša. Prilagojena. E-pošta.</string>
   <string name="tutorial_page1_title">Potegi po meri</string>
   <string name="tutorial_page1_subtitle">Prilagodite dejanja potegov in ustvarite svojo lastno doživetje.</string>

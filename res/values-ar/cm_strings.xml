@@ -18,7 +18,6 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="email_provider">البريد الالكتروني</string>
   <string name="mailbox_name_display_local_drafts">المسودات المحلية</string>
-  <string name="mailbox_name_display_server_drafts">مسودات الخادم</string>
   <string name="mailbox_name_display_todo">سيتم عمله</string>
   <string name="mailbox_name_display_archive">أرشيف</string>
   <string name="mailbox_name_local_only_display_name"> --محلي</string>
@@ -69,7 +68,6 @@
   <string name="account_settings_unable_to_edit_field">لا يسمح مسؤول النظام بتعديل هذا الحقل</string>
   <string name="message_compose_send_availability_menu_title">إرسال التوافر</string>
   <string name="message_compose_create_invite_menu_title">إنشاء دعوة</string>
-  <string name="tutorial_welcome_title">مرحبا بك في البريد الإلكتروني</string>
   <string name="tutorial_welcome_subtitle">بريد إلكتروني. أكثر ذكاء. أسرع. مصمم خصيصاً.</string>
   <string name="tutorial_page1_title">تمريرات مخصصة</string>
   <string name="tutorial_page1_subtitle">قم بتخصيص تمريراتك وإنشاء تجربتك الخاصة.</string>

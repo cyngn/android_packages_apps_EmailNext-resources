@@ -68,7 +68,6 @@
   <string name="account_settings_unable_to_edit_field">L\'amministratore non consente di modificare questo campo</string>
   <string name="message_compose_send_availability_menu_title">Invia disponibilità</string>
   <string name="message_compose_create_invite_menu_title">Crea invito</string>
-  <string name="tutorial_welcome_title">Benvenuto in EMail</string>
   <string name="tutorial_welcome_subtitle">Più intelligente. Più veloce. Su misura. EMail.</string>
   <string name="tutorial_page1_title">Swype personalizzato</string>
   <string name="tutorial_page1_subtitle">Personalizza le azioni di scorrimenti per personalizzare la tua esperienza.</string>

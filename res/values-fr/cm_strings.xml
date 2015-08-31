@@ -68,7 +68,6 @@
   <string name="account_settings_unable_to_edit_field">Votre administrateur n\'autorise pas la modification de ce champ</string>
   <string name="message_compose_send_availability_menu_title">Envoyer la disponibilité</string>
   <string name="message_compose_create_invite_menu_title">Créer une invitation</string>
-  <string name="tutorial_welcome_title">Bienvenue sur Email</string>
   <string name="tutorial_welcome_subtitle">Email. Plus intelligent. Plus rapide. Sur mesure.</string>
   <string name="tutorial_page1_title">Balayages personnalisés</string>
   <string name="tutorial_page1_subtitle">Personnalisez vos actions de balayage et votre utilisation.</string>

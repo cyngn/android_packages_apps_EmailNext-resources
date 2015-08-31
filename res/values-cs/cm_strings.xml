@@ -50,6 +50,9 @@
   <string name="account_settings_led_color_label">Vlastní barva LED</string>
   <string name="account_settings_led_color_summary">Výchozí hodnota je barva účtu</string>
   <string name="account_settings_tutorial_header_title">Zobrazit tutoriál</string>
+  <string name="account_settings_move_label_title">Oštítkovat/přesunout zprávy</string>
+  <string name="account_settings_move_title">Přesunout</string>
+  <string name="account_settings_label_title">Štítek</string>
   <string name="general_preference_mark_archive_messages_read">Archivovat jako přečtené</string>
   <string name="general_preference_mark_archive_messages_read_description">Před archivací označit e-maily jako přečtené</string>
   <string name="search_hint">Vyhledávat\u2026</string>
@@ -68,6 +71,7 @@
   <string name="account_settings_unable_to_edit_field">Váš správce neumožnil změnu tohoto pole</string>
   <string name="message_compose_send_availability_menu_title">Odeslat dostupnost</string>
   <string name="message_compose_create_invite_menu_title">Vytvoření pozvání</string>
+  <string name="preference_compose_toolbar_visibility">Zobrazit panel nástrojů</string>
   <string name="tutorial_welcome_title">Vítejte v e-mailu</string>
   <string name="tutorial_welcome_subtitle">Chytřejší. Rychleji. Na míru. E-mail.</string>
   <string name="tutorial_page1_title">Vlastní gesta</string>

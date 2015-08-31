@@ -68,7 +68,6 @@
   <string name="account_settings_unable_to_edit_field">Зміна поля заборонена адміністратором</string>
   <string name="message_compose_send_availability_menu_title">Відправити доступність</string>
   <string name="message_compose_create_invite_menu_title">Створити запрошення</string>
-  <string name="tutorial_welcome_title">Ласкаво просимо до email</string>
   <string name="tutorial_welcome_subtitle">Розумніше. Швидше. Толковіше. Email.</string>
   <string name="tutorial_page1_title">Користувацькі жести</string>
   <string name="tutorial_page1_subtitle">Налаштуйте власні жести і створіть особисте робоче середовище.</string>

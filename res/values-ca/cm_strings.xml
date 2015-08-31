@@ -68,7 +68,6 @@
   <string name="account_settings_unable_to_edit_field">El teu administrador no permet que aquest camp sigui modificat</string>
   <string name="message_compose_send_availability_menu_title">Envia la disponibilitat</string>
   <string name="message_compose_create_invite_menu_title">Crea una invitació</string>
-  <string name="tutorial_welcome_title">Benvingut al correu electrònic</string>
   <string name="tutorial_welcome_subtitle">Més intel·ligent. Més ràpid. A mida. Correu electrònic.</string>
   <string name="tutorial_page1_title">Lliscaments personalitzats</string>
   <string name="tutorial_page1_subtitle">Personalitza les teves accions al lliscar i construeix la teva pròpia experiència.</string>

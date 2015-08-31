@@ -68,7 +68,6 @@
   <string name="account_settings_unable_to_edit_field">管理者がこの欄の変更を許可していません</string>
   <string name="message_compose_send_availability_menu_title">予定を送信</string>
   <string name="message_compose_create_invite_menu_title">招待状を作成</string>
-  <string name="tutorial_welcome_title">メールへようこそ</string>
   <string name="tutorial_welcome_subtitle">スマート、高速、作り込まれたメールです。</string>
   <string name="tutorial_page1_title">カスタムスワイプ</string>
   <string name="tutorial_page1_subtitle">スワイプ動作をカスタマイズしてあなた専用のユーザーエクスペリエンスを構成してください。</string>

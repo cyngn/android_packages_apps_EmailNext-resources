@@ -50,6 +50,9 @@
   <string name="account_settings_led_color_label">自定义 LED 颜色</string>
   <string name="account_settings_led_color_summary">默认值是帐户的颜色</string>
   <string name="account_settings_tutorial_header_title">查看教程</string>
+  <string name="account_settings_move_label_title">标签/移动信息</string>
+  <string name="account_settings_move_title">移动</string>
+  <string name="account_settings_label_title">标签</string>
   <string name="general_preference_mark_archive_messages_read">归档为已读</string>
   <string name="general_preference_mark_archive_messages_read_description">在归档邮件之前先标记为已读</string>
   <string name="search_hint">搜索\u2026</string>
@@ -68,6 +71,7 @@
   <string name="account_settings_unable_to_edit_field">您的管理员不允许您修改此字段</string>
   <string name="message_compose_send_availability_menu_title">发送可用性</string>
   <string name="message_compose_create_invite_menu_title">创建邀请</string>
+  <string name="preference_compose_toolbar_visibility">显示撰写工具栏</string>
   <string name="tutorial_welcome_title">欢迎来到电子邮件</string>
   <string name="tutorial_welcome_subtitle">比智能更智能，比快更快，为您量身定制的电子邮件。</string>
   <string name="tutorial_page1_title">自定义滑动</string>

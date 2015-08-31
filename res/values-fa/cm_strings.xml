@@ -27,7 +27,7 @@
   <string name="account_setup_start_get_started_button">شروع کنید</string>
   <string name="account_setup_start_login_button">ورود</string>
   <string name="account_setup_start_invalid_email_address">آدرس ایمیل نامعتبر</string>
-  <string name="password_label">رمز عبور</string>
+  <string name="password_label">گذرواژه</string>
   <string name="account_setup_basics_progress_message">کشف خودکار در حال اجراست</string>
   <string name="account_setup_options_title">شخصی‌سازی</string>
   <string name="account_setup_options_mail_check_frequency_label">بررسی صندوق ورودی من</string>
@@ -50,6 +50,9 @@
   <string name="account_settings_led_color_label">رنگ LED شخصی</string>
   <string name="account_settings_led_color_summary">مقدار پیش‌فرض همان رنگ حساب کاربری است</string>
   <string name="account_settings_tutorial_header_title">مشاهده آموزش</string>
+  <string name="account_settings_move_label_title">برچسب گذاری/انتقال پیام‌ها</string>
+  <string name="account_settings_move_title">انتقال</string>
+  <string name="account_settings_label_title">برچسب گذاری</string>
   <string name="general_preference_mark_archive_messages_read">بایگانی به عنوان خوانده‌شده</string>
   <string name="general_preference_mark_archive_messages_read_description">علامت‌گذاری ایمیل‌ها به عنوان خوانده‌شده قبل از بایگانی</string>
   <string name="search_hint">جستجوی ایمیل</string>
@@ -68,6 +71,7 @@
   <string name="account_settings_unable_to_edit_field">کاربر اصلی شما اجازه تغییر این قسمت را نمی‌دهد</string>
   <string name="message_compose_send_availability_menu_title">ارسال در دسترس بودن</string>
   <string name="message_compose_create_invite_menu_title">ایجاد دعوت</string>
+  <string name="preference_compose_toolbar_visibility">نمایش نوارابزار نوشتن</string>
   <string name="tutorial_welcome_title">به ایمیل خوش آمدید</string>
   <string name="tutorial_welcome_subtitle">هوشمندتر. سریع‌تر. مناسب‌تر. ایمیل.</string>
   <string name="tutorial_page1_title">لغزش‌های سفارشی</string>

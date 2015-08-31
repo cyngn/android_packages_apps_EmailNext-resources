@@ -68,7 +68,6 @@
   <string name="account_settings_unable_to_edit_field">관리자가 이 값을 수정하지 못하게 하였습니다</string>
   <string name="message_compose_send_availability_menu_title">전송 가능 여부</string>
   <string name="message_compose_create_invite_menu_title">초대장 만들기</string>
-  <string name="tutorial_welcome_title">이메일에 오신 것을 환영합니다</string>
   <string name="tutorial_welcome_subtitle">더 똑똑하고, 빠르고, 사용자 맞춤형인 이메일.</string>
   <string name="tutorial_page1_title">사용자 지정 스와이프</string>
   <string name="tutorial_page1_subtitle">스와이프 작업을 직접 지정하여 사용자만의 앱을 만드세요.</string>

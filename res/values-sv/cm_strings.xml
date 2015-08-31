@@ -68,7 +68,6 @@
   <string name="account_settings_unable_to_edit_field">Din administratör tillåter inte att detta fält ändras</string>
   <string name="message_compose_send_availability_menu_title">Sänd tillgänglighet</string>
   <string name="message_compose_create_invite_menu_title">Skapa inbjudan</string>
-  <string name="tutorial_welcome_title">Välkommen till e-post</string>
   <string name="tutorial_welcome_subtitle">Smartare. Snabbare. Skräddarsydd. E-post.</string>
   <string name="tutorial_page1_title">Anpassade svep</string>
   <string name="tutorial_page1_subtitle">Anpassa dina svep och bygg din egen upplevelse.</string>

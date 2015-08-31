@@ -50,6 +50,9 @@
   <string name="account_settings_led_color_label">Mukautettu ilmoitusvalon väri</string>
   <string name="account_settings_led_color_summary">Oletusarvo on tilin väri</string>
   <string name="account_settings_tutorial_header_title">Näytä opastus</string>
+  <string name="account_settings_move_label_title">Tunniste/Siirrä viestit</string>
+  <string name="account_settings_move_title">Siirrä</string>
+  <string name="account_settings_label_title">Tunniste</string>
   <string name="general_preference_mark_archive_messages_read">Arkistoi luettuna</string>
   <string name="general_preference_mark_archive_messages_read_description">Merkkaa sähköpostit luetuksi ennen arkistointia</string>
   <string name="search_hint">Hae sähköposteista\u2026</string>
@@ -68,6 +71,7 @@
   <string name="account_settings_unable_to_edit_field">Järjestelmänvalvojasi ei salli tämän kentän muokkaamista</string>
   <string name="message_compose_send_availability_menu_title">Lähetä saatavuus</string>
   <string name="message_compose_create_invite_menu_title">Luo kutsu</string>
+  <string name="preference_compose_toolbar_visibility">Näytä muodostettu työkalurivi</string>
   <string name="tutorial_welcome_title">Tervetuloa sähköpostiin</string>
   <string name="tutorial_welcome_subtitle">Älykkäämpi. Nopeampi. Räätälöity. Sähköposti.</string>
   <string name="tutorial_page1_title">Mukautetut pyyhkäisyt</string>

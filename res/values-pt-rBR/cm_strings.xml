@@ -50,6 +50,9 @@
   <string name="account_settings_led_color_label">Cor personalizada de LED</string>
   <string name="account_settings_led_color_summary">O valor padrão é a cor da conta</string>
   <string name="account_settings_tutorial_header_title">Visualizar tutorial</string>
+  <string name="account_settings_move_label_title">Marcar/Mover mensagens</string>
+  <string name="account_settings_move_title">Mover</string>
+  <string name="account_settings_label_title">Rótulo</string>
   <string name="general_preference_mark_archive_messages_read">Arquivar e marcar como lido</string>
   <string name="general_preference_mark_archive_messages_read_description">Marcar os e-mails como lidos antes arquivá-los</string>
   <string name="search_hint">Pesquisar\u2026</string>
@@ -68,7 +71,8 @@
   <string name="account_settings_unable_to_edit_field">O administrador não permite que este campo seja modificado</string>
   <string name="message_compose_send_availability_menu_title">Enviar disponibilidade</string>
   <string name="message_compose_create_invite_menu_title">Criar convite</string>
-  <string name="tutorial_welcome_title">Bem-vindo ao e-mail</string>
+  <string name="preference_compose_toolbar_visibility">Mostrar barra de ferramentas</string>
+  <string name="tutorial_welcome_title">Bem-vindo ao E-mail</string>
   <string name="tutorial_welcome_subtitle">Mais inteligente, mais rápido, sob medida, e-mail.</string>
   <string name="tutorial_page1_title">Ações de deslizar personalizadas</string>
   <string name="tutorial_page1_subtitle">Personalize suas ações de deslizar e construa a sua própria experiência.</string>

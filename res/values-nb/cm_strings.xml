@@ -68,7 +68,6 @@
   <string name="account_settings_unable_to_edit_field">Systemansvarlig tillater ikke at dette feltet endres</string>
   <string name="message_compose_send_availability_menu_title">Send tilgjengelighet</string>
   <string name="message_compose_create_invite_menu_title">Opprett invitasjon</string>
-  <string name="tutorial_welcome_title">Velkommen til e-post</string>
   <string name="tutorial_welcome_subtitle">Smartere, raskere og skreddersydd e-post.</string>
   <string name="tutorial_page1_title">Tilpassede sveip</string>
   <string name="tutorial_page1_subtitle">Tilpass sveipehandlingene dine og lag din egen opplevelse.</string>
