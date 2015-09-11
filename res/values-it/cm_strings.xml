@@ -50,6 +50,9 @@
   <string name="account_settings_led_color_label">Colore personalizzato per il LED</string>
   <string name="account_settings_led_color_summary">Il valore predefinito è il colore dell\'account</string>
   <string name="account_settings_tutorial_header_title">Visualizza tutorial</string>
+  <string name="account_settings_move_label_title">Etichetta/Sposta messaggi</string>
+  <string name="account_settings_move_title">Muovi</string>
+  <string name="account_settings_label_title">Etichetta</string>
   <string name="general_preference_mark_archive_messages_read">Archivia come letta</string>
   <string name="general_preference_mark_archive_messages_read_description">Segna le email come lette prima di archiviarle</string>
   <string name="search_hint">Cerca email</string>
@@ -68,6 +71,8 @@
   <string name="account_settings_unable_to_edit_field">L\'amministratore non consente di modificare questo campo</string>
   <string name="message_compose_send_availability_menu_title">Invia disponibilità</string>
   <string name="message_compose_create_invite_menu_title">Crea invito</string>
+  <string name="preference_compose_toolbar_visibility">Visualizza toolbar composizione</string>
+  <string name="tutorial_welcome_title">Benvenuto in E-mail</string>
   <string name="tutorial_welcome_subtitle">Più intelligente. Più veloce. Su misura. EMail.</string>
   <string name="tutorial_page1_title">Swype personalizzato</string>
   <string name="tutorial_page1_subtitle">Personalizza le azioni di scorrimenti per personalizzare la tua esperienza.</string>

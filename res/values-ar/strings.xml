@@ -20,7 +20,7 @@
   <string name="permission_access_provider_label">الدخول إلى بيانات موفر البريد الإلكتروني</string>
   <string name="permission_access_provider_desc">للسماح للتطبيق بالدخول إلى قاعدة بيانات بريدك الإلكتروني، بما في ذلك الرسائل المستلمة والرسائل المرسلة وأسماء المستخدمين وكلمات المرور.</string>
   <string name="app_name">بريد</string>
-  <string name="debug_title">تصحيح الأخطاء</string>
+  <string name="debug_title">التنقيح</string>
   <string name="next_action">التالي</string>
   <string name="okay_action">موافق</string>
   <string name="cancel_action">إلغاء</string>

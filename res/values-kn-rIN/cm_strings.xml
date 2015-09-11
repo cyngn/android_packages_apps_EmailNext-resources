@@ -50,6 +50,9 @@
   <string name="account_settings_led_color_label">ಕಸ್ಟಮ್ ಎಲ್ಇಡಿ ಬಣ್ಣ</string>
   <string name="account_settings_led_color_summary">ಡೀಫಾಲ್ಟ್ ಮೌಲ್ಯವು ಖಾತೆ ಬಣ್ಣವಾಗಿದೆ</string>
   <string name="account_settings_tutorial_header_title">ಟ್ಯುಟೋರಿಯಲ್ ವೀಕ್ಷಿಸಿ</string>
+  <string name="account_settings_move_label_title">ಲೇಬಲ್/ಸಂದೇಶಗಳನ್ನು ಸ್ಥಳಾಂತರಿಸಿ</string>
+  <string name="account_settings_move_title">ಸ್ಥಳಾಂತರಿಸಿ</string>
+  <string name="account_settings_label_title">ಲೇಬಲ್</string>
   <string name="general_preference_mark_archive_messages_read">ಓದಲಾಗಿದೆ ಎಂದು ಆರ್ಕೈವ್ ಮಾಡಿ</string>
   <string name="general_preference_mark_archive_messages_read_description">ಇಮೇಲ್‍ಗಳನ್ನು ಆರ್ಕೈವ್ ಮಾಡುವ ಮೊದಲು ಓದಲಾಗಿದೆ ಎಂದು ಗುರುತಿಸಿ</string>
   <string name="search_hint">ಹುಡುಕಿ\u2026</string>
@@ -68,6 +71,8 @@
   <string name="account_settings_unable_to_edit_field">ನಿಮ್ಮ ಆಡಳಿತಗಾರ ಈ ಜಾಗವನ್ನು ಮಾರ್ಪಡಿಸಲು ಅನುಮತಿಸುವುದಿಲ್ಲ</string>
   <string name="message_compose_send_availability_menu_title">ಲಭ್ಯತೆ ಕಳುಹಿಸಿ</string>
   <string name="message_compose_create_invite_menu_title">ಆಹ್ವಾನವನ್ನು ರಚಿಸಿ</string>
+  <string name="preference_compose_toolbar_visibility">ರಚಿಸುವ ಟೂಲ್‍ಬಾರ್ ಪ್ರದರ್ಶಿಸು</string>
+  <string name="tutorial_welcome_title">ಇಮೇಲ್‍ಗೆ ಸ್ವಾಗತ</string>
   <string name="tutorial_welcome_subtitle">ಚುರುಕಾದ. ವೇಗವಾದ. ಅನುಗುಣಾತ್ಮಕ. ಇಮೇಲ್.</string>
   <string name="tutorial_page1_title">ಕಸ್ಟಮ್ ಸ್ವೈಪ್ಸ್</string>
   <string name="tutorial_page1_subtitle">ನಿಮ್ಮ ಸ್ವೈಪ್ ಕ್ರಿಯೆಗಳನ್ನು ಕಸ್ಟಮೈಸ್ ಮಾಡಿ ಹಾಗು ನಿಮ್ಮ ಸ್ವಂತ ಅನುಭವವನ್ನು ನಿರ್ಮಿಸಿ.</string>

@@ -71,6 +71,8 @@
   <string name="account_settings_unable_to_edit_field">Zure administratzaileak ez du baimentzen eremu hau aldatzea</string>
   <string name="message_compose_send_availability_menu_title">Bidali eskuragarritasuna</string>
   <string name="message_compose_create_invite_menu_title">Sortu gonbidapena</string>
+  <string name="preference_compose_toolbar_visibility">Erakutsi konposiziorako tresna-barra</string>
+  <string name="tutorial_welcome_title">Ongi etorri Epostara</string>
   <string name="tutorial_welcome_subtitle">Eposta. Adimentsuagoa. Azkarragoa. Neurrira.</string>
   <string name="tutorial_page1_title">Hatza pasatze pertsonalizatuak</string>
   <string name="tutorial_page1_subtitle">Pertsonalizatu hatza pasatze ekintzak eta eraiki zure esperientzia propioa.</string>

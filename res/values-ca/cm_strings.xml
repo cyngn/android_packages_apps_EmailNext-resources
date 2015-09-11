@@ -50,6 +50,9 @@
   <string name="account_settings_led_color_label">Color personalitzat de LED</string>
   <string name="account_settings_led_color_summary">El valor per defecte és el color del compte</string>
   <string name="account_settings_tutorial_header_title">Mostra el tutorial</string>
+  <string name="account_settings_move_label_title">Etiqueta/Mou missatges</string>
+  <string name="account_settings_move_title">Mou</string>
+  <string name="account_settings_label_title">Etiqueta</string>
   <string name="general_preference_mark_archive_messages_read">Arxiva com a llegit</string>
   <string name="general_preference_mark_archive_messages_read_description">Marca els correus com a llegits abans d\'arxivar-los</string>
   <string name="search_hint">Cerca\u2026</string>
@@ -68,6 +71,8 @@
   <string name="account_settings_unable_to_edit_field">El teu administrador no permet que aquest camp sigui modificat</string>
   <string name="message_compose_send_availability_menu_title">Envia la disponibilitat</string>
   <string name="message_compose_create_invite_menu_title">Crea una invitació</string>
+  <string name="preference_compose_toolbar_visibility">Mostra la barra d\'eines de redacció</string>
+  <string name="tutorial_welcome_title">Benvingut al Correu electrònic</string>
   <string name="tutorial_welcome_subtitle">Més intel·ligent. Més ràpid. A mida. Correu electrònic.</string>
   <string name="tutorial_page1_title">Lliscaments personalitzats</string>
   <string name="tutorial_page1_subtitle">Personalitza les teves accions al lliscar i construeix la teva pròpia experiència.</string>

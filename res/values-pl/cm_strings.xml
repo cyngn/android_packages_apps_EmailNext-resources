@@ -50,6 +50,9 @@
   <string name="account_settings_led_color_label">Niestandardowy kolor diody LED</string>
   <string name="account_settings_led_color_summary">Wartość domyślna jest kolorem konta</string>
   <string name="account_settings_tutorial_header_title">Zobacz poradnik</string>
+  <string name="account_settings_move_label_title">Etykieta/Przenieś wiadomości</string>
+  <string name="account_settings_move_title">Przenieś</string>
+  <string name="account_settings_label_title">Etykieta</string>
   <string name="general_preference_mark_archive_messages_read">Archiwizuj jako przeczytane</string>
   <string name="general_preference_mark_archive_messages_read_description">Oznacz e-maile jako przeczytane przez ich archiwizacją</string>
   <string name="search_hint">Wyszukaj\u2026</string>
@@ -68,6 +71,8 @@
   <string name="account_settings_unable_to_edit_field">Twój administrator nie zezwala na modyfikację tego pola</string>
   <string name="message_compose_send_availability_menu_title">Wyślij dostępność</string>
   <string name="message_compose_create_invite_menu_title">Stwórz zaproszenie</string>
+  <string name="preference_compose_toolbar_visibility">Pokaż pasek kompozycji</string>
+  <string name="tutorial_welcome_title">Witaj w aplikacji E-mail</string>
   <string name="tutorial_welcome_subtitle">Mądrzejszy. Szybszy. Dopasowany. E-mail.</string>
   <string name="tutorial_page1_title">Niestandardowe akcje przesunięcia</string>
   <string name="tutorial_page1_subtitle">Dostosuj swoje akcje przesunięcia i zbuduj własne doświadczenia.</string>

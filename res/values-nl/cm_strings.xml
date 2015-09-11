@@ -71,6 +71,8 @@
   <string name="account_settings_unable_to_edit_field">Uw beheerder staat niet toe dat dit veld gewijzigd wordt</string>
   <string name="message_compose_send_availability_menu_title">Beschikbaarheid invoegen</string>
   <string name="message_compose_create_invite_menu_title">Uitnodiging maken</string>
+  <string name="preference_compose_toolbar_visibility">Knoppenbalk weergeven bij opstellen</string>
+  <string name="tutorial_welcome_title">Welkom bij E-mail</string>
   <string name="tutorial_welcome_subtitle">Slimmer. Sneller. Op maat. E-mail.</string>
   <string name="tutorial_page1_title">Aangepaste veegacties</string>
   <string name="tutorial_page1_subtitle">Uw veegacties aanpassen naar uw eigen smaak.</string>

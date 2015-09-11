@@ -50,11 +50,11 @@
   <string name="message_compose_insert_quick_response_menu_title">Vstavi hiter odgovor</string>
   <string name="message_view_attachment_background_load">Ena ali več prilog v posredovanem sporočilu bo pred pošiljanjem prenesena iz strežnika.</string>
   <string name="attachment_not_found">Priloge ni bilo mogoče prenesti.</string>
-  <string name="message_decode_error">Napaka pri dekodiranju sporočila.</string>
+  <string name="message_decode_error">Napaka pri odkodiranju sporočila.</string>
   <string name="forward_download_failed_ticker">Ene ali več prilog ni bilo mogoče posredovati.</string>
   <string name="forward_download_failed_title">Priloga ni bila posredovana</string>
-  <string name="login_failed_ticker">Prijava v <xliff:g id="ACCOUNT_NAME">%s</xliff:g> ni uspela.</string>
-  <string name="login_failed_title">Prijava ni uspela</string>
+  <string name="login_failed_ticker">Vpis v <xliff:g id="account_name">%s</xliff:g> ni uspel.</string>
+  <string name="login_failed_title">Vpis ni uspel</string>
   <string name="account_setup_basics_title">Nastavitev računa</string>
   <string name="account_setup_basics_headline">E-poštni račun</string>
   <string name="accounts_welcome">Račun lahko ustvarite v nekaj korakih.</string>
@@ -98,7 +98,7 @@
   <string name="account_setup_outgoing_smtp_server_label">Strežnik SMTP</string>
   <string name="account_setup_outgoing_port_label">Vrata</string>
   <string name="account_setup_outgoing_security_label">Vrsta varnosti</string>
-  <string name="account_setup_outgoing_require_login_label">Zahtevaj prijavo</string>
+  <string name="account_setup_outgoing_require_login_label">Zahtevaj vpis</string>
   <string name="account_setup_outgoing_username_label">Uporabniško ime</string>
   <string name="account_setup_outgoing_password_label">Geslo</string>
   <string name="account_setup_exchange_certificate_title">Potrdilo odjemalca</string>
@@ -168,7 +168,7 @@
   <string name="password_expired_dialog_title">Geslo za zaklepanje zaslona je poteklo</string>
   <string name="password_expired_dialog_content_fmt">Podatki za <xliff:g id="ACCOUNT">%s</xliff:g> bodo izbrisani iz naprave. Če jih želite obnoviti, spremenite PIN ali geslo za zaklepanje zaslona. Ali ga želite spremeniti zdaj?</string>
   <string name="account_settings_exit_server_settings">Želite zavreči neshranjene spremembe?</string>
-  <string name="account_settings_login_dialog_title">Prijava ni uspela</string>
+  <string name="account_settings_login_dialog_title">Vpis ni bil mogoč</string>
   <string name="account_settings_login_dialog_content_fmt">Ime ali geslo za <xliff:g id="ACCOUNT">%s</xliff:g> ni pravilno. Ali ga želite posodobiti zdaj?</string>
   <string name="account_settings_login_dialog_reason_fmt">Prijava v račun <xliff:g id="ACCOUNT">%s</xliff:g> ni uspela; strežnik je navedel razlog: <xliff:g id="REASON">%s</xliff:g> Ali želite posodobiti uporabniško ime ali geslo?</string>
   <string name="account_settings_background_attachments_label">Prenesi priloge</string>
@@ -218,7 +218,7 @@
   <string name="mailbox_settings_sync_enabled_summary">Sporočila bodo prenesena, ko bo vzpostavljena povezava</string>
   <string name="mailbox_settings_mailbox_sync_window_label">Sinhronizacija pošte za toliko dni</string>
   <string name="prefDialogTitle_conversationListIcon">Slika pošiljatelja</string>
-  <string name="provider_note_live">Samo nekateri računi »Plus« ponujajo tudi dostop do strežnika POP, da se lahko ta program poveže. Če ste pravilno vnesli svoj e-poštni naslov in geslo, a se ne morete prijaviti, morda nimate plačljivega računa »Plus«. Zaženite brskalnik, če želite dostopati do teh e-poštnih računov.</string>
+  <string name="provider_note_live">Samo nekateri računi »Plus« ponujajo tudi dostop do strežnika POP, da se lahko ta program poveže. Če ste pravilno vnesli svoj e-poštni naslov in geslo, a se ne morete vpisati, morda nimate plačljivega računa »Plus«. Zaženite brskalnik, če želite dostopati do teh e-poštnih računov.</string>
   <string name="system_account_create_failed">Računa ni bilo mogoče ustvariti. Poskusite znova.</string>
   <string name="device_admin_label">E-pošta</string>
   <string name="device_admin_description">Omogoči varnostne pravilnike, ki jih določi strežnik</string>

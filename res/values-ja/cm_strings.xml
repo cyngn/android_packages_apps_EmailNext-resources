@@ -50,6 +50,9 @@
   <string name="account_settings_led_color_label">カスタムのLEDの色</string>
   <string name="account_settings_led_color_summary">デフォルトの値がアカウントの色になっています</string>
   <string name="account_settings_tutorial_header_title">チュートリアルを表示</string>
+  <string name="account_settings_move_label_title">メッセージをラベル/移動</string>
+  <string name="account_settings_move_title">移動</string>
+  <string name="account_settings_label_title">ラベル</string>
   <string name="general_preference_mark_archive_messages_read">既読としてアーカイブ</string>
   <string name="general_preference_mark_archive_messages_read_description">メールをアーカイブする前に既読にする</string>
   <string name="search_hint">検索\u2026</string>
@@ -68,6 +71,8 @@
   <string name="account_settings_unable_to_edit_field">管理者がこの欄の変更を許可していません</string>
   <string name="message_compose_send_availability_menu_title">予定を送信</string>
   <string name="message_compose_create_invite_menu_title">招待状を作成</string>
+  <string name="preference_compose_toolbar_visibility">作成ツールバーを表示</string>
+  <string name="tutorial_welcome_title">メールへようこそ</string>
   <string name="tutorial_welcome_subtitle">スマート、高速、作り込まれたメールです。</string>
   <string name="tutorial_page1_title">カスタムスワイプ</string>
   <string name="tutorial_page1_subtitle">スワイプ動作をカスタマイズしてあなた専用のユーザーエクスペリエンスを構成してください。</string>
