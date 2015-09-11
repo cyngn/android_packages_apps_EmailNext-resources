@@ -50,6 +50,9 @@
   <string name="account_settings_led_color_label">Власний колір світлодіода</string>
   <string name="account_settings_led_color_summary">Типово — колір облікового запису</string>
   <string name="account_settings_tutorial_header_title">Перегляд довідки</string>
+  <string name="account_settings_move_label_title">Мітка/перем. повідомл.</string>
+  <string name="account_settings_move_title">Перемістити</string>
+  <string name="account_settings_label_title">Мітка</string>
   <string name="general_preference_mark_archive_messages_read">Позначити прочитаним при архівації</string>
   <string name="general_preference_mark_archive_messages_read_description">Позначити листи як прочитані перед архівуванням</string>
   <string name="search_hint">Пошук в електронній пошті</string>
@@ -68,6 +71,8 @@
   <string name="account_settings_unable_to_edit_field">Зміна поля заборонена адміністратором</string>
   <string name="message_compose_send_availability_menu_title">Відправити доступність</string>
   <string name="message_compose_create_invite_menu_title">Створити запрошення</string>
+  <string name="preference_compose_toolbar_visibility">Панель форматування</string>
+  <string name="tutorial_welcome_title">Ласкаво просимо до Email</string>
   <string name="tutorial_welcome_subtitle">Розумніше. Швидше. Толковіше. Email.</string>
   <string name="tutorial_page1_title">Користувацькі жести</string>
   <string name="tutorial_page1_subtitle">Налаштуйте власні жести і створіть особисте робоче середовище.</string>
