@@ -66,5 +66,23 @@
   <string name="account_setup_options_mail_window_3months">3 เดือนที่ผ่านมา</string>
   <string name="account_setup_options_mail_window_6months">6 เดือนที่ผ่านมา</string>
   <string name="account_settings_unable_to_edit_field">ผู้ดูแลนะบบของคุณไม่อนุญาตให้แก้ไขข้อมูลในฟิลนี้</string>
+  <string name="message_compose_send_availability_menu_title">ส่งช่วงการใช้งานได้</string>
+  <string name="message_compose_create_invite_menu_title">สร้างคำเชิญ</string>
+  <string name="tutorial_welcome_subtitle">อีเมลที่ฉลาดกว่า รวดเร็วกว่า ที่ได้รับการปรับแต่ง</string>
+  <string name="tutorial_page1_title">การเลื่อนที่กำหนดเอง</string>
+  <string name="tutorial_page1_subtitle">กำหนดการเลื่อนของคุณและสร้างประสบการณ์การใช้งานของตัวเอง</string>
+  <string name="tutorial_page2_title">การดำเนินการจำนวนมาก</string>
+  <string name="tutorial_page2_subtitle">คุณสมบัติการเลือกแบบจำนวนมากของเราเป็นวิธีที่รวดเร็วที่สุดในการจัดการกล่องจดหมายขาเข้าของคุณ</string>
+  <string name="tutorial_page3_title">ตารางการดำเนินการ</string>
+  <string name="tutorial_page3_subtitle">การรวมและฟังก์ชันการทำงานที่มีประสิทธิภาพด้วยการสัมผัสที่ปุ่ม</string>
+  <string name="tutorial_skip_button">ข้าม</string>
   <string name="tutorial_done_button">เสร็จสิ้น</string>
+  <string name="message_send_failed_ticker">ส่งข้อความล้มเหลว</string>
+  <string name="message_send_failed_title">ยังไม่ได้ส่งข้อความ</string>
+  <string name="preferences_clear_search_history_title">ล้างประวัติการค้นหา</string>
+  <string name="preferences_clear_search_history_summary">ลบการค้นหาทั้งหมดที่คุณได้ดำเนินการแล้วออก</string>
+  <string name="search_history_cleared">ล้างประวัติการค้นหาแล้ว</string>
+  <string name="update_available_ticker">มีการปรับปรุงให้ใช้ได้กับอีเมล</string>
+  <string name="update_availalable_title">มีการปรับปรุงให้ใช้ได้</string>
+  <string name="update_available_content">คลิกเพื่อติดตั้งการปรับปรุง</string>
 </resources>

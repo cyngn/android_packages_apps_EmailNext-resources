@@ -31,11 +31,6 @@
   <string name="account_settings_action">Налашт-ня обл. зап.</string>
   <string name="menu_folder_options">Параметри синхронізації</string>
   <string name="status_network_error">Проблема зі з’єднанням.</string>
-  <plurals name="move_messages">
-    <item quantity="one">Переміщення повідомлення</item>
-    <item quantity="few">Переміщення повідомлень</item>
-    <item quantity="other">Переміщення повідомлень</item>
-  </plurals>
   <string name="cannot_move_protocol_not_supported_toast">Переміщення не підтримується в облікових записах POP3.</string>
   <string name="cannot_move_multiple_accounts_toast">Неможливо перемістити, оскільки вибрано декілька облікових записів.</string>
   <string name="cannot_move_special_mailboxes_toast">Повідомлення в папках \"Чернетки\", \"Вихідні\" та \"Надіслані\" перемістити неможливо.</string>
@@ -60,26 +55,6 @@
   <string name="forward_download_failed_title">Вкладений файл не переслано</string>
   <string name="login_failed_ticker">Помилка входу в обліковий запис <xliff:g id="ACCOUNT_NAME">%s</xliff:g>.</string>
   <string name="login_failed_title">Не вдалося ввійти</string>
-  <plurals name="message_view_attachment_bytes">
-    <item quantity="one"><xliff:g id="SIZE_IN_BYTES">%d</xliff:g> Б</item>
-    <item quantity="few"><xliff:g id="SIZE_IN_BYTES">%d</xliff:g> Б</item>
-    <item quantity="other"><xliff:g id="size_in_bytes" example="279">%d</xliff:g> Б</item>
-  </plurals>
-  <plurals name="message_view_attachment_kilobytes">
-    <item quantity="one"><xliff:g id="SIZE_IN_KILOBYTES">%d</xliff:g> Кб</item>
-    <item quantity="few"><xliff:g id="SIZE_IN_KILOBYTES">%d</xliff:g> Кб</item>
-    <item quantity="other"><xliff:g id="size_in_kilobytes" example="279">%d</xliff:g> Кб</item>
-  </plurals>
-  <plurals name="message_view_attachment_megabytes">
-    <item quantity="one"><xliff:g id="SIZE_IN_MEGABYTES">%d</xliff:g> Мб</item>
-    <item quantity="few"><xliff:g id="SIZE_IN_MEGABYTES">%d</xliff:g> Мб</item>
-    <item quantity="other"><xliff:g id="size_in_megabytes" example="279">%d</xliff:g> Мб</item>
-  </plurals>
-  <plurals name="message_view_attachment_gigabytes">
-    <item quantity="one"><xliff:g id="SIZE_IN_GIGABYTES">%d</xliff:g> Гб</item>
-    <item quantity="few"><xliff:g id="SIZE_IN_GIGABYTES">%d</xliff:g> Гб</item>
-    <item quantity="other"><xliff:g id="size_in_gigabytes" example="279">%d</xliff:g> Гб</item>
-  </plurals>
   <string name="account_setup_basics_title">Налаштування облікового запису</string>
   <string name="account_setup_basics_headline">Обліковий запис електронної пошти</string>
   <string name="accounts_welcome">Обліковий запис можна налаштувати за допомогою лише кількох дій.</string>

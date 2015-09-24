@@ -141,8 +141,8 @@
   <string name="account_setup_options_mail_window_auto">Automática</string>
   <string name="account_setup_options_mail_window_1day">Último día</string>
   <string name="account_setup_options_mail_window_3days">Los últimos tres días</string>
-  <string name="account_setup_options_mail_window_1week">La última pasada</string>
-  <string name="account_setup_options_mail_window_2weeks">Las últimas dos semanas</string>
+  <string name="account_setup_options_mail_window_1week">La semana pasada</string>
+  <string name="account_setup_options_mail_window_2weeks">Las pasada dos semanas</string>
   <string name="account_setup_options_mail_window_1month">El mes pasado</string>
   <string name="account_setup_options_mail_window_all">Todo</string>
   <string name="account_setup_options_mail_window_default">Usar valores predeterminados de la cuenta</string>

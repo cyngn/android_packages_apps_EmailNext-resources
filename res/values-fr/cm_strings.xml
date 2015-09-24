@@ -50,6 +50,9 @@
   <string name="account_settings_led_color_label">Couleur de LED personnalisée</string>
   <string name="account_settings_led_color_summary">La valeur par défaut est la couleur du compte</string>
   <string name="account_settings_tutorial_header_title">Voir le tutoriel</string>
+  <string name="account_settings_move_label_title">Étiqueter/déplacer des messages</string>
+  <string name="account_settings_move_title">Déplacer</string>
+  <string name="account_settings_label_title">Étiqueter</string>
   <string name="general_preference_mark_archive_messages_read">Archiver en lisant</string>
   <string name="general_preference_mark_archive_messages_read_description">Marquer les e-mails comme lus avant de les archiver</string>
   <string name="search_hint">Rechercher\u2026</string>
@@ -68,6 +71,8 @@
   <string name="account_settings_unable_to_edit_field">Votre administrateur n\'autorise pas la modification de ce champ</string>
   <string name="message_compose_send_availability_menu_title">Envoyer la disponibilité</string>
   <string name="message_compose_create_invite_menu_title">Créer une invitation</string>
+  <string name="preference_compose_toolbar_visibility">Afficher la personnalisation de barre d\'outils</string>
+  <string name="tutorial_welcome_title">Bienvenue dans Email</string>
   <string name="tutorial_welcome_subtitle">Email. Plus intelligent. Plus rapide. Sur mesure.</string>
   <string name="tutorial_page1_title">Balayages personnalisés</string>
   <string name="tutorial_page1_subtitle">Personnalisez vos actions de balayage et votre utilisation.</string>

@@ -50,6 +50,9 @@
   <string name="account_settings_led_color_label">Color personalizado del LED</string>
   <string name="account_settings_led_color_summary">El valor predeterminado es el color de la cuenta</string>
   <string name="account_settings_tutorial_header_title">Ver tutorial</string>
+  <string name="account_settings_move_label_title">Etiquetar o mover mensajes</string>
+  <string name="account_settings_move_title">Mover</string>
+  <string name="account_settings_label_title">Etiquetar</string>
   <string name="general_preference_mark_archive_messages_read">Archivo como leído</string>
   <string name="general_preference_mark_archive_messages_read_description">Marcar los correos electrónicos como leídos antes de archivarlos</string>
   <string name="search_hint">Buscar\u2026</string>
@@ -68,6 +71,8 @@
   <string name="account_settings_unable_to_edit_field">El administrador no permite que este campo sea modificado</string>
   <string name="message_compose_send_availability_menu_title">Enviar disponibilidad</string>
   <string name="message_compose_create_invite_menu_title">Crear invitación</string>
+  <string name="preference_compose_toolbar_visibility">Mostrar la barra de herramientas de redacción</string>
+  <string name="tutorial_welcome_title">Bienvenido a Email</string>
   <string name="tutorial_welcome_subtitle">Más inteligente. Más rápido. A medida. Correo electrónico.</string>
   <string name="tutorial_page1_title">Gestos personalizados</string>
   <string name="tutorial_page1_subtitle">Personaliza tus acciones asociadas a gestos y construye tu propia experiencia.</string>

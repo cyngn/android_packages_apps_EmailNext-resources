@@ -50,6 +50,9 @@
   <string name="account_settings_led_color_label">Промењена LED боја</string>
   <string name="account_settings_led_color_summary">Основа је боја налога</string>
   <string name="account_settings_tutorial_header_title">Погледај објашњење</string>
+  <string name="account_settings_move_label_title">Ознака/Премештање порука</string>
+  <string name="account_settings_move_title">Премести</string>
+  <string name="account_settings_label_title">Ознака</string>
   <string name="general_preference_mark_archive_messages_read">Архивирај као прочитано</string>
   <string name="general_preference_mark_archive_messages_read_description">Означи Е-пошту као прочитану пре архивирања</string>
   <string name="search_hint">Претражи\u2026</string>
@@ -68,6 +71,8 @@
   <string name="account_settings_unable_to_edit_field">Твој администратор не дозвољава да се ово поље мења</string>
   <string name="message_compose_send_availability_menu_title">Пошаљи расположивост</string>
   <string name="message_compose_create_invite_menu_title">Направи позивницу</string>
+  <string name="preference_compose_toolbar_visibility">Прикажи сређивање траке са алатима</string>
+  <string name="tutorial_welcome_title">Добро дошли у Е-пошту</string>
   <string name="tutorial_welcome_subtitle">Паметнија. Бржа. Скројена. Е-пошта.</string>
   <string name="tutorial_page1_title">Прилагоди превлачење</string>
   <string name="tutorial_page1_subtitle">Прилагоди акцију превлачења и направи сопствено искуство.</string>

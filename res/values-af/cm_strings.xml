@@ -50,6 +50,9 @@
   <string name="account_settings_led_color_label">Persoonlike LED kleur</string>
   <string name="account_settings_led_color_summary">Standaard waarde is die rekening kleur</string>
   <string name="account_settings_tutorial_header_title">Kyk na tutoriaal</string>
+  <string name="account_settings_move_label_title">Etiket/Skuif boodskappe</string>
+  <string name="account_settings_move_title">Skuif</string>
+  <string name="account_settings_label_title">Etiket</string>
   <string name="general_preference_mark_archive_messages_read">Argief as gelees</string>
   <string name="general_preference_mark_archive_messages_read_description">Merk e-pos as gelees voordat argiveer</string>
   <string name="search_hint">Deursoek e-pos</string>
@@ -68,6 +71,8 @@
   <string name="account_settings_unable_to_edit_field">Jou administrateurder laat jou nie toe om die veld te verander nie</string>
   <string name="message_compose_send_availability_menu_title">Stuur beskikbaarheid</string>
   <string name="message_compose_create_invite_menu_title">Skep uitnodiging</string>
+  <string name="preference_compose_toolbar_visibility">Wys komponeer nutsbalk</string>
+  <string name="tutorial_welcome_title">Welkom by epos</string>
   <string name="tutorial_welcome_subtitle">Slimmer. Vinniger. Aangepas. Epos.</string>
   <string name="tutorial_page1_title">Persoonlike sleep</string>
   <string name="tutorial_page1_subtitle">Verpersoonlik jou sleep aksie en bou jou eie ervaring.</string>
