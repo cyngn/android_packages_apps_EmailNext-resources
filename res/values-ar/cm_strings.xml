@@ -18,6 +18,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="email_provider">البريد الالكتروني</string>
   <string name="mailbox_name_display_local_drafts">المسودات المحلية</string>
+  <string name="mailbox_name_display_server_drafts">مسودات الخادم</string>
   <string name="mailbox_name_display_todo">سيتم عمله</string>
   <string name="mailbox_name_display_archive">أرشيف</string>
   <string name="mailbox_name_local_only_display_name"> --محلي</string>
