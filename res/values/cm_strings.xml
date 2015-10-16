@@ -74,9 +74,12 @@
     <string name="account_settings_move_title">Move</string>
     <!-- On Settings screen, shown as an option for label/move preference -->
     <string name="account_settings_label_title">Label</string>
-    <!-- General preference: Labels for the setting to mark emails as read before archiving them-->
+    <!-- General preference: Labels for the setting to mark emails as read before archiving them -->
     <string name="general_preference_mark_archive_messages_read">Archive as read</string>
     <string name="general_preference_mark_archive_messages_read_description">Mark emails as read before archiving them</string>
+    <!-- General preference: Notifications open to the combined inbox-->
+    <string name="general_pref_notifications_use_combined_inbox">Notifications open combined inbox</string>
+    <string name="general_pref_notifications_use_combined_inbox_desc">Tapping a notification opens the combined inbox instead of the account inbox</string>
     <!-- The hint used in the search box when searching all mailboxes [CHAR LIMIT=35] -->
     <string name="search_hint">Search\u2026</string>
     <!-- Title of screen when trying to get oauth authentication -->
@@ -112,7 +115,7 @@
     <!-- Preference for the compose toolbar -->
     <string name="preference_compose_toolbar_visibility">Show compose toolbar</string>
 
-    <string name="tutorial_welcome_title">Welcome to Email</string>
+    <string name="tutorial_welcome_title">Welcome to email</string>
     <string name="tutorial_welcome_subtitle">Smarter. Faster. Tailored. Email.</string>
     <string name="tutorial_page1_title">Custom Swipes</string>
     <string name="tutorial_page1_subtitle">Customize your swipe actions and build your own experience.</string>
@@ -134,4 +137,15 @@
     <string name="update_availalable_title">An update is available</string>
     <string name="update_available_content">Tap to install update</string>
 
+    <!-- Preference for disabling screenshots of app screens. -->
+    <string name="preference_disable_screenshots">Disable screenshots</string>
+    <string name="preference_disable_screenshots_summary">Prevent other apps from capturing screenshots of app screens</string>
+
+    <string name="custom_perms_dialog_title">Duplicate permissions</string>
+    <string name="custom_perms_dialog_msg">Another application may be attempting to collect your personal information.\n\n<xliff:g id="content">%s</xliff:g>\n\nPlease contact Boxer support for help.</string>
+    <plurals name="custom_perms_dialog_app_violation">
+        <item quantity="one"><xliff:g id="app_name">(%s)</xliff:g> redefines permission: <xliff:g id="permissions_list">%s</xliff:g></item>
+        <item quantity="other"><xliff:g id="app_name">(%s)</xliff:g> redefines permissions: <xliff:g id="permissions_list">%s</xliff:g></item>
+    </plurals>
+    <string name="custom_perms_pos_btn">Report</string>
 </resources>
