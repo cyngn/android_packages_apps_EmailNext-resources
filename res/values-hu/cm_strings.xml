@@ -72,7 +72,6 @@
   <string name="message_compose_send_availability_menu_title">Elérhetőség küldése</string>
   <string name="message_compose_create_invite_menu_title">Meghívás létrehozása</string>
   <string name="preference_compose_toolbar_visibility">Létrehozási eszköztár megjelenítése</string>
-  <string name="tutorial_welcome_title">Üdvözöljük az e-mailben</string>
   <string name="tutorial_welcome_subtitle">Okosabb. Gyorsabb. Személyre szabott. E-mail.</string>
   <string name="tutorial_page1_title">Egyéni csúsztatási műveletek</string>
   <string name="tutorial_page1_subtitle">Csúsztatási műveleteinek testreszabása és saját tapasztalat felépítése.</string>

@@ -32,6 +32,7 @@
   <string name="menu_folder_options">Համաժամեցման ընտրանքներ</string>
   <string name="status_network_error">Միացման խնդիր</string>
   <plurals name="move_messages">
+    <item quantity="one">Տեղափոխել հաղորդագրությունները</item>
     <item quantity="other">Տեղափոխել հաղորդագրությունները</item>
   </plurals>
   <string name="cannot_move_protocol_not_supported_toast">Տեղափոխումը չի աջակցվում POP3 հաշիվներում:</string>
@@ -59,15 +60,19 @@
   <string name="login_failed_ticker"><xliff:g id="ACCOUNT_NAME">%s</xliff:g>-ի մուտք գործումը խափանվել է:</string>
   <string name="login_failed_title">Չհաջողվեց մուտք գործել</string>
   <plurals name="message_view_attachment_bytes">
+    <item quantity="one"><xliff:g id="SIZE_IN_BYTES">%d</xliff:g>Բ</item>
     <item quantity="other"><xliff:g id="SIZE_IN_BYTES">%d</xliff:g>Բ</item>
   </plurals>
   <plurals name="message_view_attachment_kilobytes">
+    <item quantity="one"><xliff:g id="SIZE_IN_KILOBYTES">%d</xliff:g>Կբ</item>
     <item quantity="other"><xliff:g id="SIZE_IN_KILOBYTES">%d</xliff:g>Կբ</item>
   </plurals>
   <plurals name="message_view_attachment_megabytes">
+    <item quantity="one"><xliff:g id="SIZE_IN_MEGABYTES">%d</xliff:g>Մբ</item>
     <item quantity="other"><xliff:g id="SIZE_IN_MEGABYTES">%d</xliff:g>Մբ</item>
   </plurals>
   <plurals name="message_view_attachment_gigabytes">
+    <item quantity="one"><xliff:g id="SIZE_IN_GIGABYTES">%d</xliff:g>Գբ</item>
     <item quantity="other"><xliff:g id="SIZE_IN_GIGABYTES">%d</xliff:g>Գբ</item>
   </plurals>
   <string name="account_setup_basics_title">Հաշվի ստեղծում</string>

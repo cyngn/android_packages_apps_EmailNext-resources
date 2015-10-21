@@ -55,6 +55,8 @@
   <string name="account_settings_label_title">Etiket</string>
   <string name="general_preference_mark_archive_messages_read">Okundu olarak arşivle</string>
   <string name="general_preference_mark_archive_messages_read_description">Mesajları arşivlemeden önce okundu olarak işaretle</string>
+  <string name="general_pref_notifications_use_combined_inbox">Bildirimler birleşik gelen kutusunu açsın</string>
+  <string name="general_pref_notifications_use_combined_inbox_desc">Bildirime dokunmak, o hesabın gelen kutusu yerine birleşik gelen kutusunu açar</string>
   <string name="search_hint">E-postada ara</string>
   <string name="oauth_authentication_title">Kimlik doğrulama isteniyor</string>
   <string name="sign_in_title">Oturum aç</string>
@@ -90,4 +92,13 @@
   <string name="update_available_ticker">E-posta için bir güncelleme mevcut</string>
   <string name="update_availalable_title">Bir güncelleme mevcut</string>
   <string name="update_available_content">Yüklemek için dokunun</string>
+  <string name="preference_disable_screenshots">Ekran görüntülerini devre dışı bırakın</string>
+  <string name="preference_disable_screenshots_summary">Diğer uygulamaların uygulama ekranlarından ekran görüntüsü yakalamasını engeller</string>
+  <string name="custom_perms_dialog_title">Yinelenen izinler</string>
+  <string name="custom_perms_dialog_msg">Başka bir uygulama kişisel bilgilerinize erişmek istiyor olabilir.\n\n<xliff:g id="content">%s</xliff:g>\n\nLütfen yardım için Boxer destek birimi ile iletişime geçin.</string>
+  <plurals name="custom_perms_dialog_app_violation">
+    <item quantity="one"><xliff:g id="app_name">(%s)</xliff:g> uygulaması <xliff:g id="permissions_list">%s</xliff:g> iznini değiştirmek istiyor</item>
+    <item quantity="other"><xliff:g id="app_name">(%s)</xliff:g> uygulaması <xliff:g id="permissions_list">%s</xliff:g> izinlerini değiştirmek istiyor</item>
+  </plurals>
+  <string name="custom_perms_pos_btn">Bildir</string>
 </resources>

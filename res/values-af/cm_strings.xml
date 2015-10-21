@@ -55,6 +55,8 @@
   <string name="account_settings_label_title">Etiket</string>
   <string name="general_preference_mark_archive_messages_read">Argief as gelees</string>
   <string name="general_preference_mark_archive_messages_read_description">Merk e-pos as gelees voordat argiveer</string>
+  <string name="general_pref_notifications_use_combined_inbox">Kennisgewings maak gekombineer posbus oop</string>
+  <string name="general_pref_notifications_use_combined_inbox_desc">Raak van kennisgewing sal die gekombineerde posbus oopmaak inplaas van die rekening posbus</string>
   <string name="search_hint">Deursoek e-pos</string>
   <string name="oauth_authentication_title">Versoek magtiging</string>
   <string name="sign_in_title">Teken in</string>
@@ -90,4 +92,13 @@
   <string name="update_available_ticker">Daar is \'n opdatering beskikbaar vir epos</string>
   <string name="update_availalable_title">\'n Opdatering is beskikbaar</string>
   <string name="update_available_content">Raak om opdatering te installeer</string>
+  <string name="preference_disable_screenshots">Deaktiveer skermfoto\'s</string>
+  <string name="preference_disable_screenshots_summary">Stop ander toep\'s om skermfoto\'s te neem van toep skerms</string>
+  <string name="custom_perms_dialog_title">Duplikaat toestemming</string>
+  <string name="custom_perms_dialog_msg">\'n Ander toep het probeer om persoonlike inligting te verkry.\n\n<xliff:g id="content">%s</xliff:g>\n\nKontak asseblief Boxer vir hulp.</string>
+  <plurals name="custom_perms_dialog_app_violation">
+    <item quantity="one"><xliff:g id="app_name">(%s)</xliff:g> herdefinieer toestemming: <xliff:g id="permissions_list">%s</xliff:g></item>
+    <item quantity="other"><xliff:g id="app_name">(%s)</xliff:g> herdefinieer regte: <xliff:g id="permissions_list">%s</xliff:g></item>
+  </plurals>
+  <string name="custom_perms_pos_btn">Gee aan</string>
 </resources>

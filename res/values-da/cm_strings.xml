@@ -72,7 +72,7 @@
   <string name="message_compose_send_availability_menu_title">Send tilgængelighed</string>
   <string name="message_compose_create_invite_menu_title">Opret invitation</string>
   <string name="preference_compose_toolbar_visibility">Vis værktøjslinje</string>
-  <string name="tutorial_welcome_title">Velkommen til E-mail</string>
+  <string name="tutorial_welcome_title">Velkommen til e-mail</string>
   <string name="tutorial_welcome_subtitle">Smartere. Hurtigere. Skræddersyet. E-mail.</string>
   <string name="tutorial_page1_title">Tilpasset Strøg</string>
   <string name="tutorial_page1_subtitle">Tilpas dine stryge-handlinger og byg din egen oplevelse.</string>
@@ -90,4 +90,12 @@
   <string name="update_available_ticker">Der findes en opdatering til e-mail</string>
   <string name="update_availalable_title">En opdatering er tilgængelig</string>
   <string name="update_available_content">Tryk for at installere opdatering</string>
+  <string name="preference_disable_screenshots">Deaktivér screenshots</string>
+  <string name="preference_disable_screenshots_summary">Forhindre andre apps i at optage screenshots af app-skærme</string>
+  <string name="custom_perms_dialog_title">Kopiér tilladelser</string>
+  <plurals name="custom_perms_dialog_app_violation">
+    <item quantity="one"><xliff:g id="app_name">(%s)</xliff:g> omdefinerer tilladelse: <xliff:g id="permissions_list">%s</xliff:g></item>
+    <item quantity="other"><xliff:g id="app_name">(%s)</xliff:g> omdefinerer tilladelser: <xliff:g id="permissions_list">%s</xliff:g></item>
+  </plurals>
+  <string name="custom_perms_pos_btn">Rapportér</string>
 </resources>

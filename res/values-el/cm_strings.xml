@@ -55,6 +55,8 @@
   <string name="account_settings_label_title">Προσθήκη ετικέτας</string>
   <string name="general_preference_mark_archive_messages_read">Αρχειοθέτηση ως αναγνωσμένα</string>
   <string name="general_preference_mark_archive_messages_read_description">Επισήμανση των μηνυμάτων ηλεκτρονικού ταχυδρομείου ως αναγνωσμένα πριν την αρχειοθέτησή τους</string>
+  <string name="general_pref_notifications_use_combined_inbox">Οι ειδοποιήσεις ανοίγουν το σύνθετο φάκελο εισερχομένων</string>
+  <string name="general_pref_notifications_use_combined_inbox_desc">Αγγίζοντας μια ειδοποίηση ανοίγει ο σύνθετος φάκελος εισερχόμενων αντί για τα εισερχόμενα του λογαριασμού</string>
   <string name="search_hint">Αναζήτηση\u2026</string>
   <string name="oauth_authentication_title">Αίτηση άδειας</string>
   <string name="sign_in_title">Είσοδος</string>
@@ -72,7 +74,7 @@
   <string name="message_compose_send_availability_menu_title">Αποστολή διαθεσιμότητας</string>
   <string name="message_compose_create_invite_menu_title">Δημιουργία πρόσκλησης</string>
   <string name="preference_compose_toolbar_visibility">Εμφάνιση εργαλειοθήκης σύνθεσης</string>
-  <string name="tutorial_welcome_title">Καλώς ήλθατε στο Ηλεκτρονικό ταχυδρομείο</string>
+  <string name="tutorial_welcome_title">Καλώς ήλθατε στο ηλεκτρονικό ταχυδρομείο</string>
   <string name="tutorial_welcome_subtitle">Εξυπνότερο. Πιο γρήγορο. Προσαρμόσιμο. Ηλεκτρονικό ταχυδρομείο.</string>
   <string name="tutorial_page1_title">Προσαρμοσμένα συρσίματα</string>
   <string name="tutorial_page1_subtitle">Προσαρμόστε τις ενέργειες συρσίματος και χτίστε τη δική σας εμπειρία.</string>
@@ -90,4 +92,13 @@
   <string name="update_available_ticker">Υπάρχει μια ενημερωμένη έκδοση για το ηλεκτρονικό ταχυδρομείο</string>
   <string name="update_availalable_title">Διατίθεται μια ενημερωμένη έκδοση</string>
   <string name="update_available_content">Πατήστε για εγκατάσταση της ενημερωμένης έκδοσης</string>
+  <string name="preference_disable_screenshots">Απενεργοποίηση στιγμιότυπου οθόνης</string>
+  <string name="preference_disable_screenshots_summary">Αποτρέψει άλλες εφαρμογές από τη σύλληψη στιγμιότυπου οθόνης ενώ βρίσκεστε στην εφαρμογή</string>
+  <string name="custom_perms_dialog_title">Διπλά δικαιώματα</string>
+  <string name="custom_perms_dialog_msg">Μια άλλη εφαρμογή μπορεί να επιχειρεί να συλλέξει προσωπικές πληροφορίες.\n\n<xliff:g id="content">%s</xliff:g>\n\nΠαρακαλώ επικοινωνήστε με την υποστήριξη Boxer για βοήθεια.</string>
+  <plurals name="custom_perms_dialog_app_violation">
+    <item quantity="one">Η εφαρμογή <xliff:g id="app_name">(%s)</xliff:g> επαναπροσδιορίζει το δικαίωμα: <xliff:g id="permissions_list">%s</xliff:g></item>
+    <item quantity="other">Η εφαρμογή <xliff:g id="app_name">(%s)</xliff:g> επαναπροσδιορίζει τα δικαιώματα: <xliff:g id="permissions_list">%s</xliff:g></item>
+  </plurals>
+  <string name="custom_perms_pos_btn">Αναφορά</string>
 </resources>

@@ -55,6 +55,8 @@
   <string name="account_settings_label_title">Метка</string>
   <string name="general_preference_mark_archive_messages_read">Архивировать как прочитанное</string>
   <string name="general_preference_mark_archive_messages_read_description">Пометить письма как прочитанные перед архивированием</string>
+  <string name="general_pref_notifications_use_combined_inbox">Открывать уведомления в окне «Все аккаунты»</string>
+  <string name="general_pref_notifications_use_combined_inbox_desc">При просмотре уведомления будет открываться окно «Все аккаунты», а не «Входящие» учётной записи</string>
   <string name="search_hint">Поиск\u2026</string>
   <string name="oauth_authentication_title">Запрос авторизации</string>
   <string name="sign_in_title">Войти</string>
@@ -90,4 +92,14 @@
   <string name="update_available_ticker">Доступно обновление для Email</string>
   <string name="update_availalable_title">Доступно обновление</string>
   <string name="update_available_content">Нажмите для установки обновления</string>
+  <string name="preference_disable_screenshots">Отключить скриншоты</string>
+  <string name="preference_disable_screenshots_summary">Запретить приложениям делать скриншоты почты</string>
+  <string name="custom_perms_dialog_title">Дублирование разрешений</string>
+  <string name="custom_perms_dialog_msg">Возможно, другое приложение пытается получить доступ к вашим персональным данным.\n\n<xliff:g id="content">%s</xliff:g>\n\nСвяжитесь с поддержкой Boxer для получения дополнительной информации.</string>
+  <plurals name="custom_perms_dialog_app_violation">
+    <item quantity="one"><xliff:g id="app_name">(%s)</xliff:g> переопределяет разрешение: <xliff:g id="permissions_list">%s</xliff:g></item>
+    <item quantity="few"><xliff:g id="app_name">(%s)</xliff:g> переопределяет разрешения: <xliff:g id="permissions_list">%s</xliff:g></item>
+    <item quantity="other"><xliff:g id="app_name">(%s)</xliff:g> переопределяет разрешения: <xliff:g id="permissions_list">%s</xliff:g></item>
+  </plurals>
+  <string name="custom_perms_pos_btn">Отчёт</string>
 </resources>

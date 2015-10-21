@@ -55,6 +55,8 @@
   <string name="account_settings_label_title">Etiketa</string>
   <string name="general_preference_mark_archive_messages_read">Artxibatu irakurrita gisa</string>
   <string name="general_preference_mark_archive_messages_read_description">Markatu mezuak irakurrita gisa artxibatu baino lehen</string>
+  <string name="general_pref_notifications_use_combined_inbox">Jakinarazpenek sarrera ontzi konbinatua irekitzen dute</string>
+  <string name="general_pref_notifications_use_combined_inbox_desc">Jakinarazpen bat ukitzeak sarrera ontzi konbinatua irekitzen du kontuaren sarrera ontziaren ordez</string>
   <string name="search_hint">Bilatu\u2026</string>
   <string name="oauth_authentication_title">Baimena eskatzen</string>
   <string name="sign_in_title">Hasi saioa</string>
@@ -90,4 +92,13 @@
   <string name="update_available_ticker">Epostaren eguneraketa bat dago eskuragarri</string>
   <string name="update_availalable_title">Eguneraketa bat dago eskuragarri</string>
   <string name="update_available_content">Ukitu eguneraketa instalatzeko</string>
+  <string name="preference_disable_screenshots">Desgaitu pantaila-argazkiak</string>
+  <string name="preference_disable_screenshots_summary">Galarazi beste aplikazioei pantaila-argazkiak ateratzera</string>
+  <string name="custom_perms_dialog_title">Bikoiztu baimenak</string>
+  <string name="custom_perms_dialog_msg">Agian beste aplikazioren bat zure datu pertsonalak atzitzen saiatzen ari da.\n\n<xliff:g id="content">%s</xliff:g>\n\nJarri kontaktuan Boxer euskarriarekin laguntza jasotzeko.</string>
+  <plurals name="custom_perms_dialog_app_violation">
+    <item quantity="one"><xliff:g id="app_name">(%s)</xliff:g> baimena birdefinitzen du: <xliff:g id="permissions_list">%s</xliff:g></item>
+    <item quantity="other"><xliff:g id="app_name">(%s)</xliff:g> baimenak birdefinitzen ditu: <xliff:g id="permissions_list">%s</xliff:g></item>
+  </plurals>
+  <string name="custom_perms_pos_btn">Salatu</string>
 </resources>

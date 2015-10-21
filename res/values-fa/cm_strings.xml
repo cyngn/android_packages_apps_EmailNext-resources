@@ -90,4 +90,8 @@
   <string name="update_available_ticker">یک به‌روزرسانی برای ایمیل وجود دارد</string>
   <string name="update_availalable_title">یک به‌روزرسانی وجود دارد</string>
   <string name="update_available_content">برای نصب به‌روزرسانی ضربه بزنید</string>
+  <string name="preference_disable_screenshots">غیرفعال کردن تصاویر صفحه</string>
+  <string name="preference_disable_screenshots_summary">بازداری برنامه‌های دیگر از گرفتن تصویر از صفحات برنامه</string>
+  <string name="custom_perms_dialog_title">تهیه کپی مجوزها</string>
+  <string name="custom_perms_pos_btn">گزارش دادن</string>
 </resources>

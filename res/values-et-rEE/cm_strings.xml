@@ -72,7 +72,6 @@
   <string name="message_compose_send_availability_menu_title">Saada kättesaadavus</string>
   <string name="message_compose_create_invite_menu_title">Loo kutse</string>
   <string name="preference_compose_toolbar_visibility">Näita komponeerimise tööriistariba</string>
-  <string name="tutorial_welcome_title">Tere tulemast Emaili</string>
   <string name="tutorial_welcome_subtitle">Targem. Kiirem. Kohandatud. Email.</string>
   <string name="tutorial_page1_title">Kohandatud Viiped</string>
   <string name="tutorial_page1_subtitle">Kohanda oma viibete tegevusi ja loo omaenda kogemus.</string>

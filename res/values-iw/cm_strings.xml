@@ -55,6 +55,8 @@
   <string name="account_settings_label_title">תווית</string>
   <string name="general_preference_mark_archive_messages_read">העבר לארכיון כנקרא</string>
   <string name="general_preference_mark_archive_messages_read_description">סמן הודעות כנקראו לפני העברתם לארכיון</string>
+  <string name="general_pref_notifications_use_combined_inbox">התראות פותחות את תיבת הדואר הנכנס המשולבת</string>
+  <string name="general_pref_notifications_use_combined_inbox_desc">לחיצה על התראה פותחת את תיבת הדואר הנכנס המשולבת במקום את תיבת הדואר הנכנס של החשבון הספציפי</string>
   <string name="search_hint">חפש\u2026</string>
   <string name="oauth_authentication_title">מבצע אימות</string>
   <string name="sign_in_title">התחבר</string>
@@ -90,4 +92,12 @@
   <string name="update_available_ticker">קיים עדכון זמין ליישום הדוא\"ל</string>
   <string name="update_availalable_title">קיים עדכון זמין</string>
   <string name="update_available_content">הקש להתקנת העדכון</string>
+  <string name="preference_disable_screenshots">השבת צילומי מסך</string>
+  <string name="preference_disable_screenshots_summary">מנע מיישומים אחרים לקחת צילומי מסך ממסכי היישום</string>
+  <string name="custom_perms_dialog_title">שכפל הרשאות</string>
+  <plurals name="custom_perms_dialog_app_violation">
+    <item quantity="one"><xliff:g id="app_name">(%s)</xliff:g> מגדיר מחדש הרשאה: <xliff:g id="permissions_list">%s</xliff:g></item>
+    <item quantity="other"><xliff:g id="app_name">(%s)</xliff:g> מגדיר מחדש הרשאות: <xliff:g id="permissions_list">%s</xliff:g></item>
+  </plurals>
+  <string name="custom_perms_pos_btn">דווח</string>
 </resources>

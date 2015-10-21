@@ -55,6 +55,8 @@
   <string name="account_settings_label_title">Etiqueta</string>
   <string name="general_preference_mark_archive_messages_read">Arxiva com a llegit</string>
   <string name="general_preference_mark_archive_messages_read_description">Marca els correus com a llegits abans d\'arxivar-los</string>
+  <string name="general_pref_notifications_use_combined_inbox">Les notificacions s\'obren en una safata d\'entrada combinada</string>
+  <string name="general_pref_notifications_use_combined_inbox_desc">Picant sobre una notificació s\'obre la safata d\'entrada combinada en lloc de la safata d\'entrada del compte</string>
   <string name="search_hint">Cerca\u2026</string>
   <string name="oauth_authentication_title">S\'està demanant autorització</string>
   <string name="sign_in_title">Inicia la sessió</string>
@@ -72,7 +74,7 @@
   <string name="message_compose_send_availability_menu_title">Envia la disponibilitat</string>
   <string name="message_compose_create_invite_menu_title">Crea una invitació</string>
   <string name="preference_compose_toolbar_visibility">Mostra la barra d\'eines de redacció</string>
-  <string name="tutorial_welcome_title">Benvingut al Correu electrònic</string>
+  <string name="tutorial_welcome_title">Benvingut al correu electrònic</string>
   <string name="tutorial_welcome_subtitle">Més intel·ligent. Més ràpid. A mida. Correu electrònic.</string>
   <string name="tutorial_page1_title">Lliscaments personalitzats</string>
   <string name="tutorial_page1_subtitle">Personalitza les teves accions al lliscar i construeix la teva pròpia experiència.</string>
@@ -90,4 +92,13 @@
   <string name="update_available_ticker">Hi ha una actualització disponible pel Correu electrònic</string>
   <string name="update_availalable_title">Hi ha una actualització disponible</string>
   <string name="update_available_content">Pica per instal·lar l\'actualització</string>
+  <string name="preference_disable_screenshots">Deshabilita les captures de pantalla</string>
+  <string name="preference_disable_screenshots_summary">Impedeix que altres aplicacions facin captures de pantalla de les aplicacions</string>
+  <string name="custom_perms_dialog_title">Duplica els permisos</string>
+  <string name="custom_perms_dialog_msg">Una altra aplicació podria estar intentant recollir la teva informació personal.\n\n<xliff:g id="content">%s</xliff:g> \n\nSi us plau contacta amb el suport tècnic de Boxer per obtenir ajuda.</string>
+  <plurals name="custom_perms_dialog_app_violation">
+    <item quantity="one"><xliff:g id="app_name">(%s)</xliff:g> redefineix el permís: <xliff:g id="permissions_list">%s</xliff:g></item>
+    <item quantity="other"><xliff:g id="app_name">(%s)</xliff:g> redefineix els permisos: <xliff:g id="permissions_list">%s</xliff:g></item>
+  </plurals>
+  <string name="custom_perms_pos_btn">Informa</string>
 </resources>

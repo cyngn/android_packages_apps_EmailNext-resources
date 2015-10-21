@@ -55,6 +55,8 @@
   <string name="account_settings_label_title">Ознака</string>
   <string name="general_preference_mark_archive_messages_read">Архивирај као прочитано</string>
   <string name="general_preference_mark_archive_messages_read_description">Означи Е-пошту као прочитану пре архивирања</string>
+  <string name="general_pref_notifications_use_combined_inbox">Обавештења отварају комбиновани inbox</string>
+  <string name="general_pref_notifications_use_combined_inbox_desc">Додир на обавештење отвара комбиновани inbox уместо inbox-а налога</string>
   <string name="search_hint">Претражи\u2026</string>
   <string name="oauth_authentication_title">Потребна ауторизација</string>
   <string name="sign_in_title">Пријави се</string>
@@ -90,4 +92,14 @@
   <string name="update_available_ticker">Ово је ажурирање доступно за Е-пошту</string>
   <string name="update_availalable_title">Ажурирање је доступно</string>
   <string name="update_available_content">Додирни да инсталираш ажурирање</string>
+  <string name="preference_disable_screenshots">Онемогући снимак екрана</string>
+  <string name="preference_disable_screenshots_summary">Спречи друге апликације да ухвате снимак екрана</string>
+  <string name="custom_perms_dialog_title">Дуплиране дозволе</string>
+  <string name="custom_perms_dialog_msg">Друга апликација можда покушава да прикупи твоје личне информације.\n\n<xliff:g id="content">%s</xliff:g>\n\nМолим контактирајте Boxer подршку за помоћ.</string>
+  <plurals name="custom_perms_dialog_app_violation">
+    <item quantity="one"><xliff:g id="app_name">(%s)</xliff:g> редефинишу дозволу: <xliff:g id="permissions_list">%s</xliff:g></item>
+    <item quantity="few"><xliff:g id="app_name">(%s)</xliff:g> редефинишу дозволе: <xliff:g id="permissions_list">%s</xliff:g></item>
+    <item quantity="other"><xliff:g id="app_name">(%s)</xliff:g> редефинишу дозволе: <xliff:g id="permissions_list">%s</xliff:g></item>
+  </plurals>
+  <string name="custom_perms_pos_btn">Направи извештај</string>
 </resources>

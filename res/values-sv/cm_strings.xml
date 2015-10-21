@@ -50,6 +50,8 @@
   <string name="account_settings_led_color_label">Anpassad LED-färg</string>
   <string name="account_settings_led_color_summary">Standardvärdet är kontofärgen</string>
   <string name="account_settings_tutorial_header_title">Visa genomgång</string>
+  <string name="account_settings_move_title">Flytta</string>
+  <string name="account_settings_label_title">Etikett</string>
   <string name="general_preference_mark_archive_messages_read">Arkivera som läst</string>
   <string name="general_preference_mark_archive_messages_read_description">Markera e-posten som läst innan den arkiveras</string>
   <string name="search_hint">Sök efter e-post</string>

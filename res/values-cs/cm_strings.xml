@@ -72,7 +72,6 @@
   <string name="message_compose_send_availability_menu_title">Odeslat dostupnost</string>
   <string name="message_compose_create_invite_menu_title">Vytvoření pozvání</string>
   <string name="preference_compose_toolbar_visibility">Zobrazit panel nástrojů</string>
-  <string name="tutorial_welcome_title">Vítejte v e-mailu</string>
   <string name="tutorial_welcome_subtitle">Chytřejší. Rychleji. Na míru. E-mail.</string>
   <string name="tutorial_page1_title">Vlastní gesta</string>
   <string name="tutorial_page1_subtitle">Upravit akce gest a vytvořit si vlastní chování.</string>

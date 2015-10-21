@@ -55,6 +55,8 @@
   <string name="account_settings_label_title">Labelen</string>
   <string name="general_preference_mark_archive_messages_read">Archiveren als gelezen</string>
   <string name="general_preference_mark_archive_messages_read_description">Berichten als gelezen markeren bij archiveren</string>
+  <string name="general_pref_notifications_use_combined_inbox">Meldingen openen gecombineerde Postvak IN</string>
+  <string name="general_pref_notifications_use_combined_inbox_desc">Tikken op een melding opent het gecombineerde Postvak In in plaats van de inbox van het account</string>
   <string name="search_hint">Zoeken\u2026</string>
   <string name="oauth_authentication_title">Autorisatie verkrijgen</string>
   <string name="sign_in_title">Aanmelden</string>
@@ -90,4 +92,13 @@
   <string name="update_available_ticker">Er is een update beschikbaar voor E-mail</string>
   <string name="update_availalable_title">Er is een update beschikbaar</string>
   <string name="update_available_content">Tik om update te installeren</string>
+  <string name="preference_disable_screenshots">Screenshots uitschakelen</string>
+  <string name="preference_disable_screenshots_summary">Voorkomen dat andere apps screenshots vastleggen van app-schermen</string>
+  <string name="custom_perms_dialog_title">Dubbele machtigingen</string>
+  <string name="custom_perms_dialog_msg">Een andere app probeert mogelijk uw persoonlijke gegevens te verzamelen.\n\n<xliff:g id="content">%s</xliff:g>\n\nNeem contact op met Boxer ondersteuning voor hulp.</string>
+  <plurals name="custom_perms_dialog_app_violation">
+    <item quantity="one"><xliff:g id="app_name">(%s)</xliff:g> herdefinieert machtiging: <xliff:g id="permissions_list">%s</xliff:g></item>
+    <item quantity="other"><xliff:g id="app_name">(%s)</xliff:g> herdefinieert machtigingen: <xliff:g id="permissions_list">%s</xliff:g></item>
+  </plurals>
+  <string name="custom_perms_pos_btn">Rapporteren</string>
 </resources>

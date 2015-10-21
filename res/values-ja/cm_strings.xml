@@ -55,6 +55,8 @@
   <string name="account_settings_label_title">ラベル</string>
   <string name="general_preference_mark_archive_messages_read">既読としてアーカイブ</string>
   <string name="general_preference_mark_archive_messages_read_description">メールをアーカイブする前に既読にする</string>
+  <string name="general_pref_notifications_use_combined_inbox">通知から統合した受信トレイを開く</string>
+  <string name="general_pref_notifications_use_combined_inbox_desc">通知をタップしてアカウントごとの受信ボックスの代わりに統合した受信ボックスを開く</string>
   <string name="search_hint">検索\u2026</string>
   <string name="oauth_authentication_title">認証をリクエスト中</string>
   <string name="sign_in_title">サインイン</string>
@@ -90,4 +92,12 @@
   <string name="update_available_ticker">メールのアップデートが利用可能です</string>
   <string name="update_availalable_title">アップデートが利用可能です</string>
   <string name="update_available_content">タップしてアップデートをインストール</string>
+  <string name="preference_disable_screenshots">スクリーンショットを無効化</string>
+  <string name="preference_disable_screenshots_summary">アプリ画面のスクリーンショットを他のアプリがキャプチャできないように防止する</string>
+  <string name="custom_perms_dialog_title">権限の重複</string>
+  <string name="custom_perms_dialog_msg">他のアプリケーションがあなたの個人情報の収集を試みている可能性があります。\n\n<xliff:g id="content">%s</xliff:g>\n\n対処方法等についてはBoxerのサポートに連絡してください。</string>
+  <plurals name="custom_perms_dialog_app_violation">
+    <item quantity="other"><xliff:g id="app_name">(%s)</xliff:g>が権限を再定義します: <xliff:g id="permissions_list">%s</xliff:g></item>
+  </plurals>
+  <string name="custom_perms_pos_btn">報告</string>
 </resources>

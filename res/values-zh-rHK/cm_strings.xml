@@ -61,7 +61,6 @@
   <string name="message_compose_send_availability_menu_title">可傳送程度</string>
   <string name="message_compose_create_invite_menu_title">建立邀請</string>
   <string name="preference_compose_toolbar_visibility">顯示撰寫工具列</string>
-  <string name="tutorial_welcome_title">歡迎來到電子郵件</string>
   <string name="tutorial_page1_title">自訂滑動</string>
   <string name="tutorial_page1_subtitle">自訂您的滑動操作，建立您的體驗。</string>
   <string name="tutorial_page2_title">批量操作</string>

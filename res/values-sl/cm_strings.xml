@@ -55,6 +55,8 @@
   <string name="account_settings_label_title">Označi</string>
   <string name="general_preference_mark_archive_messages_read">Arhiviraj kot prebrano</string>
   <string name="general_preference_mark_archive_messages_read_description">Pred arhiviranjem označi e-pošto kot prebrano</string>
+  <string name="general_pref_notifications_use_combined_inbox">Obvestila odprejo poenoteno mapo Prejeto</string>
+  <string name="general_pref_notifications_use_combined_inbox_desc">Tap na obvestilo odpre poenoteno mapo Prejeto namesto mape Prejeto računa</string>
   <string name="search_hint">Iskanje \u2026</string>
   <string name="oauth_authentication_title">Zahtevanje pooblastitve</string>
   <string name="sign_in_title">Vpis</string>
@@ -72,7 +74,7 @@
   <string name="message_compose_send_availability_menu_title">Pošlji razpoložljivost</string>
   <string name="message_compose_create_invite_menu_title">Ustvari povabilo</string>
   <string name="preference_compose_toolbar_visibility">Prikaži orodno vrstico za sestavljanje</string>
-  <string name="tutorial_welcome_title">Dobrodošli v E-pošto</string>
+  <string name="tutorial_welcome_title">Dobrodošli v e-pošto</string>
   <string name="tutorial_welcome_subtitle">Pametnejša. Hitrejša. Prilagojena. E-pošta.</string>
   <string name="tutorial_page1_title">Potegi po meri</string>
   <string name="tutorial_page1_subtitle">Prilagodite dejanja potegov in ustvarite svojo lastno doživetje.</string>
@@ -90,4 +92,15 @@
   <string name="update_available_ticker">Za e-pošto je na voljo posodobitev</string>
   <string name="update_availalable_title">Na voljo je posodobitev</string>
   <string name="update_available_content">Tapnite za namestitev posodobitve</string>
+  <string name="preference_disable_screenshots">Onemogoči zaslonske slike</string>
+  <string name="preference_disable_screenshots_summary">Prepreči drugim programom zajem zaslonskih slik zaslonov programov</string>
+  <string name="custom_perms_dialog_title">Podvojena dovoljenja</string>
+  <string name="custom_perms_dialog_msg">Drug program morda poizkuša zbrati vaše osebne podatke.\n\n<xliff:g id="content">%s</xliff:g>\n\nZa pomoč navežite stik z Boxerjevo podporo.</string>
+  <plurals name="custom_perms_dialog_app_violation">
+    <item quantity="one"><xliff:g id="app_name">(%s)</xliff:g> ponovno določuje dovoljenje: <xliff:g id="permissions_list">%s</xliff:g></item>
+    <item quantity="two"><xliff:g id="app_name">(%s)</xliff:g> ponovno določuje dovoljenji: <xliff:g id="permissions_list">%s</xliff:g></item>
+    <item quantity="few"><xliff:g id="app_name">(%s)</xliff:g> ponovno določuje dovoljenja: <xliff:g id="permissions_list">%s</xliff:g></item>
+    <item quantity="other"><xliff:g id="app_name">(%s)</xliff:g> ponovno določuje dovoljenja: <xliff:g id="permissions_list">%s</xliff:g></item>
+  </plurals>
+  <string name="custom_perms_pos_btn">Prijavi</string>
 </resources>

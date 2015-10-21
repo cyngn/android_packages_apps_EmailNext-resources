@@ -55,6 +55,8 @@
   <string name="account_settings_label_title">Etiquetar</string>
   <string name="general_preference_mark_archive_messages_read">Arquivar como lida</string>
   <string name="general_preference_mark_archive_messages_read_description">Marcar os e-mails como lidos antes de serem arquivados</string>
+  <string name="general_pref_notifications_use_combined_inbox">Notificações abrem a caixa de entrada combinada</string>
+  <string name="general_pref_notifications_use_combined_inbox_desc">Tocar numa notificação abre a caixa de entrada combinada em vez da caixa de entrada da conta</string>
   <string name="search_hint">Pesquisar\u2026</string>
   <string name="oauth_authentication_title">A pedir autorização</string>
   <string name="sign_in_title">Iniciar sessão</string>
@@ -72,7 +74,7 @@
   <string name="message_compose_send_availability_menu_title">Enviar a disponibilidade</string>
   <string name="message_compose_create_invite_menu_title">Criar convite</string>
   <string name="preference_compose_toolbar_visibility">Mostrar barra de ferramentas</string>
-  <string name="tutorial_welcome_title">Bem-vindo ao E-mail</string>
+  <string name="tutorial_welcome_title">Bem-vindo ao e-mail</string>
   <string name="tutorial_welcome_subtitle">Mais inteligente. Mais rápido. Sob medida. E-mail.</string>
   <string name="tutorial_page1_title">Ações de deslizar personalizadas</string>
   <string name="tutorial_page1_subtitle">Personalize as suas ações de deslizar e dê estilo à sua própria experiência.</string>
@@ -90,4 +92,13 @@
   <string name="update_available_ticker">Há uma atualização disponível para E-mail</string>
   <string name="update_availalable_title">Uma atualização está disponível</string>
   <string name="update_available_content">Toque para instalar a atualização</string>
+  <string name="preference_disable_screenshots">Desativar captura de ecrã</string>
+  <string name="preference_disable_screenshots_summary">Impedir que outras aplicações capturem o ecrã da aplicação</string>
+  <string name="custom_perms_dialog_title">Duplicar as permissões</string>
+  <string name="custom_perms_dialog_msg">Outra aplicação pode tentar coletar a sua informação pessoal.\n\n<xliff:g id="content">%s</xliff:g>\n\nPor favor contacte o suporte Boxer para obter ajuda.</string>
+  <plurals name="custom_perms_dialog_app_violation">
+    <item quantity="one"><xliff:g id="app_name">(%s)</xliff:g> redefine permissão: <xliff:g id="permissions_list">%s</xliff:g></item>
+    <item quantity="other"><xliff:g id="app_name">(%s)</xliff:g> redefine permissões: <xliff:g id="permissions_list">%s</xliff:g></item>
+  </plurals>
+  <string name="custom_perms_pos_btn">Comunicar problema</string>
 </resources>

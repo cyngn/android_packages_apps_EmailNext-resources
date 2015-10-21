@@ -55,6 +55,8 @@
   <string name="account_settings_label_title">Štítok</string>
   <string name="general_preference_mark_archive_messages_read">Archivovať ako prečítané</string>
   <string name="general_preference_mark_archive_messages_read_description">Označiť e-maily ako prečítané pred ich archiváciou</string>
+  <string name="general_pref_notifications_use_combined_inbox">Upozornenia otvoria kombinovanú schránku</string>
+  <string name="general_pref_notifications_use_combined_inbox_desc">Kliknutie na upozornenie otvorí kombinovanú schránku namiesto schránky účtu</string>
   <string name="search_hint">Hľadať\u2026</string>
   <string name="oauth_authentication_title">Požadovanie overenia</string>
   <string name="sign_in_title">Prihlásiť sa</string>
@@ -90,4 +92,14 @@
   <string name="update_available_ticker">Aktualizácia pre E-mail je k dispozícii</string>
   <string name="update_availalable_title">Aktualizácia je k dispozícii</string>
   <string name="update_available_content">Dotykom nainštalujte aktualizáciu</string>
+  <string name="preference_disable_screenshots">Zakázať snímky obrazovky</string>
+  <string name="preference_disable_screenshots_summary">Zabrániť iným aplikáciám snímanie obrazoviek tejto aplikácie</string>
+  <string name="custom_perms_dialog_title">Duplicitné povolenia</string>
+  <string name="custom_perms_dialog_msg">Iná aplikácia sa pokúša zhromažďovať vaše osobné informácie.\n\n <xliff:g id="content">%s</xliff:g> \n\nProsím, kontaktujte Boxer podporu pre pomoc.</string>
+  <plurals name="custom_perms_dialog_app_violation">
+    <item quantity="one"><xliff:g id="app_name"> (%s) </xliff:g> redefinuje povolenie: <xliff:g id="permissions_list"> %s </xliff:g></item>
+    <item quantity="few"><xliff:g id="app_name"> (%s) </xliff:g> redefinuje povolenia: <xliff:g id="permissions_list"> %s </xliff:g></item>
+    <item quantity="other"><xliff:g id="app_name"> (%s) </xliff:g> redefinuje povolenia: <xliff:g id="permissions_list"> %s </xliff:g></item>
+  </plurals>
+  <string name="custom_perms_pos_btn">Nahlásiť</string>
 </resources>

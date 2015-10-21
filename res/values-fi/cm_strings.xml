@@ -55,6 +55,8 @@
   <string name="account_settings_label_title">Tunniste</string>
   <string name="general_preference_mark_archive_messages_read">Arkistoi luettuna</string>
   <string name="general_preference_mark_archive_messages_read_description">Merkkaa sähköpostit luetuksi ennen arkistointia</string>
+  <string name="general_pref_notifications_use_combined_inbox">Ilmoitukset avaa yhdistetyn Saapuneet-kansion</string>
+  <string name="general_pref_notifications_use_combined_inbox_desc">Painamalla ilmoitusta avaa yhdistetty Saapuneet-kansio tilikohtaisen sijaan</string>
   <string name="search_hint">Hae sähköposteista\u2026</string>
   <string name="oauth_authentication_title">Pyydetään lupaa</string>
   <string name="sign_in_title">Kirjaudu sisään</string>
@@ -90,4 +92,13 @@
   <string name="update_available_ticker">Sähköpostiin on saatavilla päivitys</string>
   <string name="update_availalable_title">Päivitys on saatavilla</string>
   <string name="update_available_content">Paina tästä asentaaksesi päivityksen</string>
+  <string name="preference_disable_screenshots">Estä kuvakaappaukset</string>
+  <string name="preference_disable_screenshots_summary">Estää muita sovelluksia ottamasta kuvakaappauksia sovelluksen näytöistä</string>
+  <string name="custom_perms_dialog_title">Samoja käyttöoikeuksia</string>
+  <string name="custom_perms_dialog_msg">Toinen sovellus voi yrittää kerätä henkilökohtaisia tietoja.\n\n<xliff:g id="content">%s</xliff:g>\n\nOta yhteyttä Boxerin tukeen.</string>
+  <plurals name="custom_perms_dialog_app_violation">
+    <item quantity="one"><xliff:g id="app_name">(%s)</xliff:g> määrittelee uudelleen oikeudet: <xliff:g id="permissions_list">%s</xliff:g></item>
+    <item quantity="other"><xliff:g id="app_name">(%s)</xliff:g> määrittelee uudelleen oikeudet: <xliff:g id="permissions_list">%s</xliff:g></item>
+  </plurals>
+  <string name="custom_perms_pos_btn">Raportoi ongelmasta</string>
 </resources>
