@@ -115,7 +115,7 @@
     <!-- Preference for the compose toolbar -->
     <string name="preference_compose_toolbar_visibility">Show compose toolbar</string>
 
-    <string name="tutorial_welcome_title">Welcome to email</string>
+    <string name="tutorial_welcome_title">Welcome to Email</string>
     <string name="tutorial_welcome_subtitle">Smarter. Faster. Tailored. Email.</string>
     <string name="tutorial_page1_title">Custom Swipes</string>
     <string name="tutorial_page1_subtitle">Customize your swipe actions and build your own experience.</string>
