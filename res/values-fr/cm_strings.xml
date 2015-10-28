@@ -55,6 +55,8 @@
   <string name="account_settings_label_title">Étiqueter</string>
   <string name="general_preference_mark_archive_messages_read">Archiver en lisant</string>
   <string name="general_preference_mark_archive_messages_read_description">Marquer les e-mails comme lus avant de les archiver</string>
+  <string name="general_pref_notifications_use_combined_inbox">Les notifications s\'ouvrent dans une boite de réception combinée</string>
+  <string name="general_pref_notifications_use_combined_inbox_desc">Appuyer sur une notification ouvre la boite de réception combinée à la place du compte de la boite de réception</string>
   <string name="search_hint">Rechercher\u2026</string>
   <string name="oauth_authentication_title">Demande de permission</string>
   <string name="sign_in_title">Se connecter</string>
@@ -89,4 +91,13 @@
   <string name="update_available_ticker">Une mise à jour d\'Email est disponible</string>
   <string name="update_availalable_title">Une mise à jour est disponible</string>
   <string name="update_available_content">Appuyer pour installer la mise à jour</string>
+  <string name="preference_disable_screenshots">Désactiver les captures d\'écran</string>
+  <string name="preference_disable_screenshots_summary">Empêcher les autres applications d\'effectuer des captures d\'écrans des écrans de l\'application</string>
+  <string name="custom_perms_dialog_title">Dupliquer les permissions</string>
+  <string name="custom_perms_dialog_msg">Une autre application pourrait tenter de collecter vos informations personnelles.\n\n<xliff:g id="content">%s</xliff:g>\n\nMerci de contacter le support Boxer pour obtenir de l\'aide.</string>
+  <plurals name="custom_perms_dialog_app_violation">
+    <item quantity="one"><xliff:g id="app_name">(%s)</xliff:g> redéfinit l\'autorisation : <xliff:g id="permissions_list">%s</xliff:g></item>
+    <item quantity="other"><xliff:g id="app_name">(%s)</xliff:g> redéfinit les autorisations : <xliff:g id="permissions_list">%s</xliff:g></item>
+  </plurals>
+  <string name="custom_perms_pos_btn">Signaler</string>
 </resources>

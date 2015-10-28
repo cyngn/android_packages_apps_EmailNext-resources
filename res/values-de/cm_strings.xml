@@ -55,6 +55,7 @@
   <string name="account_settings_label_title">Kennzeichnen</string>
   <string name="general_preference_mark_archive_messages_read">Als gelesen archivieren</string>
   <string name="general_preference_mark_archive_messages_read_description">E-Mails vor dem Archivieren als gelesen markieren</string>
+  <string name="general_pref_notifications_use_combined_inbox_desc">Das Antippen einer Benachrichtigung öffnet den kombinierten Posteingang anstatt des Konto-Posteingangs</string>
   <string name="search_hint">Suche\u2026</string>
   <string name="oauth_authentication_title">Authorisierung anfordern</string>
   <string name="sign_in_title">Einloggen</string>
@@ -89,4 +90,5 @@
   <string name="update_available_ticker">Es ist ein Update für E-Mail verfügbar</string>
   <string name="update_availalable_title">Ein Update ist verfügbar</string>
   <string name="update_available_content">Tippen, um das Update zu installieren</string>
+  <string name="preference_disable_screenshots">Bildschirmfotos deaktivieren</string>
 </resources>

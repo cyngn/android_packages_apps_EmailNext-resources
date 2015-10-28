@@ -72,7 +72,6 @@
   <string name="message_compose_send_availability_menu_title">ارسال در دسترس بودن</string>
   <string name="message_compose_create_invite_menu_title">ایجاد دعوت</string>
   <string name="preference_compose_toolbar_visibility">نمایش نوارابزار نوشتن</string>
-  <string name="tutorial_welcome_title">به ایمیل خوش آمدید</string>
   <string name="tutorial_welcome_subtitle">هوشمندتر. سریع‌تر. مناسب‌تر. ایمیل.</string>
   <string name="tutorial_page1_title">لغزش‌های سفارشی</string>
   <string name="tutorial_page1_subtitle">عملیات‌های لغزش خود را سفارشی کنید و تجربه خود را به وجود آورید.</string>

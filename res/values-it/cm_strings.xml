@@ -55,6 +55,8 @@
   <string name="account_settings_label_title">Etichetta</string>
   <string name="general_preference_mark_archive_messages_read">Archivia come letta</string>
   <string name="general_preference_mark_archive_messages_read_description">Segna le email come lette prima di archiviarle</string>
+  <string name="general_pref_notifications_use_combined_inbox">Le notifiche aprono la posta in arrivo combinata</string>
+  <string name="general_pref_notifications_use_combined_inbox_desc">Toccando una notifica si apre la posta in arrivo combinata anziché la posta in arrivo del singolo account</string>
   <string name="search_hint">Cerca email</string>
   <string name="oauth_authentication_title">Richiesta di autorizzazione</string>
   <string name="sign_in_title">Accedi</string>
@@ -89,4 +91,13 @@
   <string name="update_available_ticker">Aggiornamento disponibile per Email</string>
   <string name="update_availalable_title">C\'è un aggiornamento disponibile</string>
   <string name="update_available_content">Tocca per installare</string>
+  <string name="preference_disable_screenshots">Disattiva cattura schermata</string>
+  <string name="preference_disable_screenshots_summary">Impedisci alle app l\'acquisizione di schermate di altre app</string>
+  <string name="custom_perms_dialog_title">Duplica autorizzazioni</string>
+  <string name="custom_perms_dialog_msg">Un\'altra app sta tentando di raccogliere le tue informazioni personali.\n\n<xliff:g id="content">%s</xliff:g>\n\nPrego contatta supporto Boxer per aiuto.</string>
+  <plurals name="custom_perms_dialog_app_violation">
+    <item quantity="one"><xliff:g id="app_name">(%s)</xliff:g> ridefinisce autorizzazione: <xliff:g id="permissions_list">%s</xliff:g></item>
+    <item quantity="other"><xliff:g id="app_name">(%s)</xliff:g> ridefinisce autorizzazioni: <xliff:g id="permissions_list">%s</xliff:g></item>
+  </plurals>
+  <string name="custom_perms_pos_btn">Segnala</string>
 </resources>

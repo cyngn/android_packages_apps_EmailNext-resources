@@ -55,6 +55,8 @@
   <string name="account_settings_label_title">Štítek</string>
   <string name="general_preference_mark_archive_messages_read">Archivovat jako přečtené</string>
   <string name="general_preference_mark_archive_messages_read_description">Před archivací označit e-maily jako přečtené</string>
+  <string name="general_pref_notifications_use_combined_inbox">Upozornění otevře složku kombinované doručené pošty</string>
+  <string name="general_pref_notifications_use_combined_inbox_desc">Dotykem na upozornění bude otevřena kombinovaná složka doručené pošty místo složky doručené pošty konkrétního účtu</string>
   <string name="search_hint">Vyhledávat\u2026</string>
   <string name="oauth_authentication_title">Vyžaduje se autorizace</string>
   <string name="sign_in_title">Přihlášení</string>
@@ -89,4 +91,14 @@
   <string name="update_available_ticker">Je k dispozici aktualizace pro E-mail</string>
   <string name="update_availalable_title">Aktualizace je k dispozici</string>
   <string name="update_available_content">Dotykem nainstalovat aktualizaci</string>
+  <string name="preference_disable_screenshots">Zakázat sejmutí obrazovky</string>
+  <string name="preference_disable_screenshots_summary">Zabrání ostatním aplikacím v sejmutí obrazovku aplikace</string>
+  <string name="custom_perms_dialog_title">Duplicitní oprávnění</string>
+  <string name="custom_perms_dialog_msg">Jiná aplikace se může pokusit získat Vaše osobní údaje.\n\n<xliff:g id="content">%s</xliff:g>\n\nProsím kontaktujte podporu aplikace Boxer pro pomoc.</string>
+  <plurals name="custom_perms_dialog_app_violation">
+    <item quantity="one"><xliff:g id="app_name">(%s)</xliff:g> nově upravuje oprávnění: <xliff:g id="permissions_list">%s</xliff:g></item>
+    <item quantity="few"><xliff:g id="app_name">(%s)</xliff:g> nově upravuje oprávnění: <xliff:g id="permissions_list">%s</xliff:g></item>
+    <item quantity="other"><xliff:g id="app_name">(%s)</xliff:g> nově upravuje oprávnění: <xliff:g id="permissions_list">%s</xliff:g></item>
+  </plurals>
+  <string name="custom_perms_pos_btn">Nahlásit</string>
 </resources>

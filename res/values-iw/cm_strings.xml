@@ -95,6 +95,7 @@
   <string name="preference_disable_screenshots">השבת צילומי מסך</string>
   <string name="preference_disable_screenshots_summary">מנע מיישומים אחרים לקחת צילומי מסך ממסכי היישום</string>
   <string name="custom_perms_dialog_title">שכפל הרשאות</string>
+  <string name="custom_perms_dialog_msg">יכול להיות שיישום נוסף מנסה לאסוף את המידע האישי שלך.\n\n<xliff:g id="content">%s</xliff:g>\n\nאנא צור קשר עם התמיכה של Boxer לקבלת עזרה.</string>
   <plurals name="custom_perms_dialog_app_violation">
     <item quantity="one"><xliff:g id="app_name">(%s)</xliff:g> מגדיר מחדש הרשאה: <xliff:g id="permissions_list">%s</xliff:g></item>
     <item quantity="other"><xliff:g id="app_name">(%s)</xliff:g> מגדיר מחדש הרשאות: <xliff:g id="permissions_list">%s</xliff:g></item>

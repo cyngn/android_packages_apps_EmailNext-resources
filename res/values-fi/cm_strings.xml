@@ -74,7 +74,6 @@
   <string name="message_compose_send_availability_menu_title">Lähetä saatavuus</string>
   <string name="message_compose_create_invite_menu_title">Luo kutsu</string>
   <string name="preference_compose_toolbar_visibility">Näytä muodostettu työkalurivi</string>
-  <string name="tutorial_welcome_title">Tervetuloa sähköpostiin</string>
   <string name="tutorial_welcome_subtitle">Älykkäämpi. Nopeampi. Räätälöity. Sähköposti.</string>
   <string name="tutorial_page1_title">Mukautetut pyyhkäisyt</string>
   <string name="tutorial_page1_subtitle">Mukauta pyyhkäistytoimintoja ja rakenna oma kokemus.</string>

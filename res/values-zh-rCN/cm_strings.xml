@@ -55,6 +55,8 @@
   <string name="account_settings_label_title">标签</string>
   <string name="general_preference_mark_archive_messages_read">归档为已读</string>
   <string name="general_preference_mark_archive_messages_read_description">在归档邮件之前先标记为已读</string>
+  <string name="general_pref_notifications_use_combined_inbox">通知打开联合收件箱</string>
+  <string name="general_pref_notifications_use_combined_inbox_desc">点击通知将打开当前帐号的联合收件箱</string>
   <string name="search_hint">搜索\u2026</string>
   <string name="oauth_authentication_title">正在请求授权</string>
   <string name="sign_in_title">登录</string>
@@ -89,4 +91,12 @@
   <string name="update_available_ticker">电子邮件应用有可用更新</string>
   <string name="update_availalable_title">有可用的更新</string>
   <string name="update_available_content">点击以安装更新</string>
+  <string name="preference_disable_screenshots">禁用截图</string>
+  <string name="preference_disable_screenshots_summary">防止其他应用捕获应用截图</string>
+  <string name="custom_perms_dialog_title">重复权限</string>
+  <string name="custom_perms_dialog_msg">另一个应用可能会尝试收集您的个人信息。\n\n<xliff:g id="content">%s</xliff:g>\n\n请联系 Boxer 支持以获取帮助。</string>
+  <plurals name="custom_perms_dialog_app_violation">
+    <item quantity="other"><xliff:g id="app_name">(%s)</xliff:g> 重定义权限： <xliff:g id="permissions_list">%s</xliff:g></item>
+  </plurals>
+  <string name="custom_perms_pos_btn">提交反馈</string>
 </resources>

@@ -55,6 +55,8 @@
   <string name="account_settings_label_title">ಲೇಬಲ್</string>
   <string name="general_preference_mark_archive_messages_read">ಓದಲಾಗಿದೆ ಎಂದು ಆರ್ಕೈವ್ ಮಾಡಿ</string>
   <string name="general_preference_mark_archive_messages_read_description">ಇಮೇಲ್‍ಗಳನ್ನು ಆರ್ಕೈವ್ ಮಾಡುವ ಮೊದಲು ಓದಲಾಗಿದೆ ಎಂದು ಗುರುತಿಸಿ</string>
+  <string name="general_pref_notifications_use_combined_inbox">ಅಧಿಸೂಚನೆಗಳನ್ನು ಸಂಯೋಜಿತ ಇನ್‍ಬಾಕ್ಸ್ನಲ್ಲಿ ತೆರೆ</string>
+  <string name="general_pref_notifications_use_combined_inbox_desc">ಅಧಿಸೂಚನೆಯನ್ನು ಒತ್ತುವುದರಿಂದ ಖಾತೆ ಇನ್‍ಬಾಕ್ಸ್ನ ಬದಲಾಗಿ ಸಂಯೋಜಿತ ಇನ್‍ಬಾಕ್ಸನ್ನು ತೆರೆಯುತ್ತದೆ</string>
   <string name="search_hint">ಹುಡುಕಿ\u2026</string>
   <string name="oauth_authentication_title">ಪ್ರಮಾಣೀಕರಣವನ್ನು ವಿನಂತಿಸಲಾಗುತ್ತಿದೆ</string>
   <string name="sign_in_title">ಸೈನ್ ಇನ್</string>
@@ -89,4 +91,9 @@
   <string name="update_available_ticker">ಇಮೇಲ್‍ಗಾಗಿ ಒಂದು ನವೀಕರಣೆ ಲಭ್ಯವಿದೆ</string>
   <string name="update_availalable_title">ಒಂದು ನವೀಕರಣೆಯು ಲಭ್ಯವಿದೆ</string>
   <string name="update_available_content">ನವೀಕರಣೆ ಸ್ಥಾಪಿಸಲು ಸ್ಪರ್ಶಿಸಿ</string>
+  <string name="preference_disable_screenshots">ಸ್ಕ್ರೀನ್‍ಶಾಟ್‍ಗಳು ನಿಷ್ಕ್ರಿಯ</string>
+  <string name="preference_disable_screenshots_summary">ಇತರೆ ಆಪ್‍ಗಳು ಆಪ್ ಪರದೆಯ ಸ್ಕ್ರೀನ್‍ಶಾಟ್‍ಗಳನ್ನು ಸೆರೆಹಿಡಿಯದಂತೆ ತಡೆಗಟ್ಟಿ</string>
+  <string name="custom_perms_dialog_title">ನಕಲು ಅನುಮತಿಗಳು</string>
+  <string name="custom_perms_dialog_msg">ಇನ್ನೊಂದು ಅಪ್ಲಿಕೇಶನ್ ನಿಮ್ಮ ವಯಕ್ತಿಕ ಮಾಹಿತಿಯನ್ನು ಸಂಗ್ರಹಿಸಲು ಪ್ರಯತ್ನಿಸುತ್ತಿರಬಹುದು.\n\n<xliff:g id="content">%s</xliff:g>\n\nಸಹಾಯಕ್ಕಾಗಿ ದಯವಿಟ್ಟು Boxer supportನ್ನು ಸಂಪರ್ಕಿಸಿ.</string>
+  <string name="custom_perms_pos_btn">ವರದಿಮಾಡಿ</string>
 </resources>

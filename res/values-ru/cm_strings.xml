@@ -74,7 +74,6 @@
   <string name="message_compose_send_availability_menu_title">Отправить информацию о доступности</string>
   <string name="message_compose_create_invite_menu_title">Создать приглашение</string>
   <string name="preference_compose_toolbar_visibility">Панель форматирования</string>
-  <string name="tutorial_welcome_title">Добро пожаловать в Email</string>
   <string name="tutorial_welcome_subtitle">Более совершенная, быстрая, удобная почта.</string>
   <string name="tutorial_page1_title">Пользовательские жесты</string>
   <string name="tutorial_page1_subtitle">Установите свой набор действий для различных жестов.</string>
