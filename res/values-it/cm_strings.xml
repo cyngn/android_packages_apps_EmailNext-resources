@@ -74,6 +74,7 @@
   <string name="message_compose_send_availability_menu_title">Invia disponibilità</string>
   <string name="message_compose_create_invite_menu_title">Crea invito</string>
   <string name="preference_compose_toolbar_visibility">Visualizza toolbar composizione</string>
+  <string name="tutorial_welcome_title">Benvenuto in Email</string>
   <string name="tutorial_welcome_subtitle">Più intelligente. Più veloce. Su misura. Email.</string>
   <string name="tutorial_page1_title">Swype personalizzato</string>
   <string name="tutorial_page1_subtitle">Personalizza le azioni di scorrimenti per personalizzare la tua esperienza.</string>

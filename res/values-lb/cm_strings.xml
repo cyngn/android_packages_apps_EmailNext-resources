@@ -56,4 +56,5 @@
   <string name="account_setup_options_mail_window_3months">Lescht 3 Méint</string>
   <string name="account_setup_options_mail_window_6months">Lescht 6 Méint</string>
   <string name="tutorial_done_button">Fäerdeg</string>
+  <string name="custom_perms_pos_btn">Mellen</string>
 </resources>

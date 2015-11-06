@@ -74,6 +74,7 @@
   <string name="message_compose_send_availability_menu_title">Pošlji razpoložljivost</string>
   <string name="message_compose_create_invite_menu_title">Ustvari povabilo</string>
   <string name="preference_compose_toolbar_visibility">Prikaži orodno vrstico za sestavljanje</string>
+  <string name="tutorial_welcome_title">Dobrodošli v E-pošto</string>
   <string name="tutorial_welcome_subtitle">Pametnejša. Hitrejša. Prilagojena. E-pošta.</string>
   <string name="tutorial_page1_title">Potegi po meri</string>
   <string name="tutorial_page1_subtitle">Prilagodite dejanja potegov in ustvarite svojo lastno doživetje.</string>

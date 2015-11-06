@@ -55,6 +55,8 @@
   <string name="account_settings_label_title">Markér</string>
   <string name="general_preference_mark_archive_messages_read">Arkivér som læst</string>
   <string name="general_preference_mark_archive_messages_read_description">Markér e-mails som læst, inden de arkiveres</string>
+  <string name="general_pref_notifications_use_combined_inbox">Notifikationer åbner den kombinerede indbakke</string>
+  <string name="general_pref_notifications_use_combined_inbox_desc">Ved at trykke på en notifikation åbner den kombinerede indbakke i stedet for konto indbakken</string>
   <string name="search_hint">Søg i e-mail</string>
   <string name="oauth_authentication_title">Anmoder om tilladelse</string>
   <string name="sign_in_title">Log ind</string>
@@ -72,6 +74,7 @@
   <string name="message_compose_send_availability_menu_title">Send tilgængelighed</string>
   <string name="message_compose_create_invite_menu_title">Opret invitation</string>
   <string name="preference_compose_toolbar_visibility">Vis værktøjslinje</string>
+  <string name="tutorial_welcome_title">Velkommen til E-mail</string>
   <string name="tutorial_welcome_subtitle">Smartere. Hurtigere. Skræddersyet. E-mail.</string>
   <string name="tutorial_page1_title">Tilpasset Strøg</string>
   <string name="tutorial_page1_subtitle">Tilpas dine stryge-handlinger og byg din egen oplevelse.</string>
@@ -92,6 +95,7 @@
   <string name="preference_disable_screenshots">Deaktivér screenshots</string>
   <string name="preference_disable_screenshots_summary">Forhindre andre apps i at optage screenshots af app-skærme</string>
   <string name="custom_perms_dialog_title">Kopiér tilladelser</string>
+  <string name="custom_perms_dialog_msg">Et andet program forsøger måske at indsamle dine personlige oplysninger.\n\n<xliff:g id="content">%s</xliff:g>\n\nKontakt venligst Boxer support for hjælp.</string>
   <plurals name="custom_perms_dialog_app_violation">
     <item quantity="one"><xliff:g id="app_name">(%s)</xliff:g> omdefinerer tilladelse: <xliff:g id="permissions_list">%s</xliff:g></item>
     <item quantity="other"><xliff:g id="app_name">(%s)</xliff:g> omdefinerer tilladelser: <xliff:g id="permissions_list">%s</xliff:g></item>

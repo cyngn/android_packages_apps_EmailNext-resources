@@ -74,6 +74,7 @@
   <string name="message_compose_send_availability_menu_title">发送可用性</string>
   <string name="message_compose_create_invite_menu_title">创建邀请</string>
   <string name="preference_compose_toolbar_visibility">显示撰写工具栏</string>
+  <string name="tutorial_welcome_title">欢迎来到电子邮件</string>
   <string name="tutorial_welcome_subtitle">比智能更智能，比快更快，为您量身定制的电子邮件。</string>
   <string name="tutorial_page1_title">自定义滑动</string>
   <string name="tutorial_page1_subtitle">自定义您的滑动操作并创建属于您自己的体验。</string>
