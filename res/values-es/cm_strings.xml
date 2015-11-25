@@ -55,6 +55,8 @@
   <string name="account_settings_label_title">Etiquetar</string>
   <string name="general_preference_mark_archive_messages_read">Archivo como leído</string>
   <string name="general_preference_mark_archive_messages_read_description">Marcar los correos electrónicos como leídos antes de archivarlos</string>
+  <string name="general_pref_notifications_use_combined_inbox">Las notificaciones abren la bandeja de entrada combinada</string>
+  <string name="general_pref_notifications_use_combined_inbox_desc">Pulsando en una notificación se abre la bandeja de entrada combinada en lugar de la bandeja de entrada de la cuenta</string>
   <string name="search_hint">Buscar\u2026</string>
   <string name="oauth_authentication_title">Solicitando autorización</string>
   <string name="sign_in_title">Iniciar sesión</string>
@@ -71,7 +73,8 @@
   <string name="account_settings_unable_to_edit_field">El administrador no permite que este campo sea modificado</string>
   <string name="message_compose_send_availability_menu_title">Enviar disponibilidad</string>
   <string name="message_compose_create_invite_menu_title">Crear invitación</string>
-  <string name="preference_compose_toolbar_visibility">Mostrar la barra de herramientas de redacción</string>
+  <string name="preference_compose_toolbar_visibility">Mostrar herramientas de composicion</string>
+  <string name="tutorial_welcome_title">Bienvenido al correo electrónico</string>
   <string name="tutorial_welcome_subtitle">Más inteligente. Más rápido. A medida. Correo electrónico.</string>
   <string name="tutorial_page1_title">Gestos personalizados</string>
   <string name="tutorial_page1_subtitle">Personaliza tus acciones asociadas a gestos y construye tu propia experiencia.</string>
@@ -89,4 +92,13 @@
   <string name="update_available_ticker">Hay una actualización disponible para la aplicación Correo electrónico</string>
   <string name="update_availalable_title">Hay una actualización disponible</string>
   <string name="update_available_content">Toca para instalar la actualización</string>
+  <string name="preference_disable_screenshots">Deshabilitar capturas de pantalla</string>
+  <string name="preference_disable_screenshots_summary">Evitar que otras aplicaciones puedan realizar capturas de pantalla</string>
+  <string name="custom_perms_dialog_title">Duplicar permisos</string>
+  <string name="custom_perms_dialog_msg">Otra aplicación puede intentar recoger tu información personal.\n\n <xliff:g id="content">%s </xliff:g> \n\nPor favor contacte con Boxer para obtener ayuda adicional.</string>
+  <plurals name="custom_perms_dialog_app_violation">
+    <item quantity="one"><xliff:g id="app_name"> (%s) </xliff:g> redefine el permiso: <xliff:g id="permissions_list"> %s </xliff:g></item>
+    <item quantity="other"><xliff:g id="app_name"> (%s) </xliff:g> redefine permisos: <xliff:g id="permissions_list"> %s </xliff:g></item>
+  </plurals>
+  <string name="custom_perms_pos_btn">Informar</string>
 </resources>
