@@ -48,6 +48,7 @@
   <string name="account_folder_list_summary_starred">Ulduzlu</string>
   <string name="account_folder_list_summary_drafts">Qaralamalar</string>
   <string name="account_folder_list_summary_outbox">Gedənlər</string>
+  <string name="message_compose_fwd_header_fmt">\n\n\"-------- Orijinal Mesaj --------\nMövzu: <xliff:g id="SUBJECT">%1$s</xliff:g>\nGöndərən: <xliff:g id="SENDER">%2$s</xliff:g>\nAlan:<xliff:g id="TO">%3$s</xliff:g>\nCC: <xliff:g id="CC_0">%4$s</xliff:g>\n\n\"</string>
   <string name="message_compose_insert_quick_response_list_title">Cəld cavabı daxil et</string>
   <string name="message_compose_insert_quick_response_menu_title">Cəld cavabı daxil et</string>
   <string name="forward_download_failed_title">Qoşma yönləndirilmədi</string>
@@ -79,4 +80,5 @@
   <string name="account_setup_failed_certificate_inaccessible">Sertifikat etibarsızdır və ya müraciət edilə bilməz.</string>
   <string name="account_settings_ringtone">Zəng səsi seçin</string>
   <string name="provider_note_live">Yalnız bəzi \"Plus\" hesabları bu proqramın əlaqə yaratmasına icazə verən POP müraciəti ehtiva edir. Düzgün e-poçt ünvanı və şifrənizlə giriş edə bilmirsinizsə, ödəniş edilən \"Plus\" hesabına sahib olmaya bilərsiniz. Bu e-poçt ünvanlarına müraciət üçün web səyyahınızı başladın.</string>
+  <string name="device_admin_description">Serverin dəqiqləşdirdiyi təhlükəsizlik siyasətlərini fəallaşdırar</string>
 </resources>

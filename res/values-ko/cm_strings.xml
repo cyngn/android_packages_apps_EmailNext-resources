@@ -50,8 +50,13 @@
   <string name="account_settings_led_color_label">사용자 지정 LED색상</string>
   <string name="account_settings_led_color_summary">계정 기본색상</string>
   <string name="account_settings_tutorial_header_title">튜토리얼 보기</string>
+  <string name="account_settings_move_label_title">메세지 라벨/이동하기</string>
+  <string name="account_settings_move_title">이동</string>
+  <string name="account_settings_label_title">라벨</string>
   <string name="general_preference_mark_archive_messages_read">읽은 상태로 보관</string>
   <string name="general_preference_mark_archive_messages_read_description">이메일을 보관하기 전에 읽은 상태로 표시</string>
+  <string name="general_pref_notifications_use_combined_inbox">알림으로 통합 편지함 열기</string>
+  <string name="general_pref_notifications_use_combined_inbox_desc">알림을 터치하면 통합 편지함 대신 계정 편지함을 엽니다</string>
   <string name="search_hint">검색\u2026</string>
   <string name="oauth_authentication_title">권한 요청</string>
   <string name="sign_in_title">로그인</string>
@@ -68,6 +73,8 @@
   <string name="account_settings_unable_to_edit_field">관리자가 이 값을 수정하지 못하게 하였습니다</string>
   <string name="message_compose_send_availability_menu_title">전송 가능 여부</string>
   <string name="message_compose_create_invite_menu_title">초대장 만들기</string>
+  <string name="preference_compose_toolbar_visibility">구성 도구 모음 표시</string>
+  <string name="tutorial_welcome_title">이메일에 오신 것을 환영합니다</string>
   <string name="tutorial_welcome_subtitle">더 똑똑하고, 빠르고, 사용자 맞춤형인 이메일.</string>
   <string name="tutorial_page1_title">사용자 지정 스와이프</string>
   <string name="tutorial_page1_subtitle">스와이프 작업을 직접 지정하여 사용자만의 앱을 만드세요.</string>
@@ -85,4 +92,12 @@
   <string name="update_available_ticker">이메일의 업데이트가 있습니다</string>
   <string name="update_availalable_title">업데이트가 있음</string>
   <string name="update_available_content">탭하여 업데이트를 설치</string>
+  <string name="preference_disable_screenshots">스크린샷 비활성화</string>
+  <string name="preference_disable_screenshots_summary">다른 앱이 화면을 캡쳐하는 것을 방지합니다</string>
+  <string name="custom_perms_dialog_title">중복된 사용 권한</string>
+  <string name="custom_perms_dialog_msg">다른 애플리케이션이 개인 정보를 수집하려고 할 수 있습니다.\n\n<xliff:g id="content">%s</xliff:g>\n\nBoxer에 지원을 요청하십시오.</string>
+  <plurals name="custom_perms_dialog_app_violation">
+    <item quantity="other"><xliff:g id="app_name">(%s)</xliff:g> 앱이 권한을 다시 요청합니다: <xliff:g id="permissions_list">%s</xliff:g></item>
+  </plurals>
+  <string name="custom_perms_pos_btn">보고</string>
 </resources>

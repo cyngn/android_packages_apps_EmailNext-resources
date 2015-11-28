@@ -55,6 +55,8 @@
   <string name="account_settings_label_title">Nhãn</string>
   <string name="general_preference_mark_archive_messages_read">Lưu trữ là đã đọc</string>
   <string name="general_preference_mark_archive_messages_read_description">Đánh dấu email là đã đọc trước khi lưu trữ chúng</string>
+  <string name="general_pref_notifications_use_combined_inbox">Thông báo mở hộp thư đến được kết hợp</string>
+  <string name="general_pref_notifications_use_combined_inbox_desc">Chạm một thông báo sẽ mở hộp thư đến được kết hợp thay vì hộp thư đến của tài khoản</string>
   <string name="search_hint">Tìm kiếm email</string>
   <string name="oauth_authentication_title">Yêu cầu ủy quyền</string>
   <string name="sign_in_title">Đăng nhập</string>
@@ -72,6 +74,7 @@
   <string name="message_compose_send_availability_menu_title">Gửi tình trạng khả dụng</string>
   <string name="message_compose_create_invite_menu_title">Tạo lời mời</string>
   <string name="preference_compose_toolbar_visibility">Hiển thị thanh công cụ soạn thảo</string>
+  <string name="tutorial_welcome_title">Chào mừng đến với Email</string>
   <string name="tutorial_welcome_subtitle">Thông minh hơn. Nhanh hơn. Phù hợp. Email.</string>
   <string name="tutorial_page1_title">Tùy chỉnh thao tác vuốt</string>
   <string name="tutorial_page1_subtitle">Tùy chỉnh thao tác vuốt của bạn và thiết kế trải nghiệm của chính bạn.</string>
@@ -89,4 +92,12 @@
   <string name="update_available_ticker">Sẵn có một bản cập nhật cho Email</string>
   <string name="update_availalable_title">Sẳn có bản cập nhật</string>
   <string name="update_available_content">Chạm để cài đặt bản cập nhật</string>
+  <string name="preference_disable_screenshots">Vô hiệu chụp ảnh màn hình</string>
+  <string name="preference_disable_screenshots_summary">Ngăn các ứng dụng khác chụp lại ảnh màn hình ứng dụng</string>
+  <string name="custom_perms_dialog_title">Quyền trùng lặp</string>
+  <string name="custom_perms_dialog_msg">Ứng dụng khác có thể cố thu thập thông tin cá nhân của bạn.\n\n<xliff:g id="content">%s</xliff:g>\n\nHãy liên hệ hỗ trợ để được giúp đỡ.</string>
+  <plurals name="custom_perms_dialog_app_violation">
+    <item quantity="other">Đánh giá lại quyền truy nhập của <xliff:g id="app_name">(%s)</xliff:g>: <xliff:g id="permissions_list">%s</xliff:g></item>
+  </plurals>
+  <string name="custom_perms_pos_btn">Báo cáo</string>
 </resources>

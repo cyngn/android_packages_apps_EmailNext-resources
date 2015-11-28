@@ -55,6 +55,7 @@
   <string name="account_settings_label_title">Kennzeichnen</string>
   <string name="general_preference_mark_archive_messages_read">Als gelesen archivieren</string>
   <string name="general_preference_mark_archive_messages_read_description">E-Mails vor dem Archivieren als gelesen markieren</string>
+  <string name="general_pref_notifications_use_combined_inbox">Benachrichtigungen öffnen kombinierten Posteingang</string>
   <string name="general_pref_notifications_use_combined_inbox_desc">Das Antippen einer Benachrichtigung öffnet den kombinierten Posteingang anstatt des Konto-Posteingangs</string>
   <string name="search_hint">Suche\u2026</string>
   <string name="oauth_authentication_title">Authorisierung anfordern</string>
@@ -73,6 +74,7 @@
   <string name="message_compose_send_availability_menu_title">Verfügbarkeit senden</string>
   <string name="message_compose_create_invite_menu_title">Einladung erstellen</string>
   <string name="preference_compose_toolbar_visibility">Funktionsleiste anzeigen</string>
+  <string name="tutorial_welcome_title">Willkommen bei E-Mail</string>
   <string name="tutorial_welcome_subtitle">Intelligenter, schneller, angepasst – E-Mail.</string>
   <string name="tutorial_page1_title">Benutzerdefiniertes Wischen</string>
   <string name="tutorial_page1_subtitle">Passen Sie Ihre Wisch-Aktionen an und basteln Sie sich Ihr eigenes Erlebnis.</string>
@@ -91,6 +93,7 @@
   <string name="update_availalable_title">Ein Update ist verfügbar</string>
   <string name="update_available_content">Tippen, um das Update zu installieren</string>
   <string name="preference_disable_screenshots">Bildschirmfotos deaktivieren</string>
+  <string name="preference_disable_screenshots_summary">Andere Apps daran hindern Bildschirmfotos der App aufzunehmen</string>
   <string name="custom_perms_dialog_msg">Eine andere Anwendung könnte versuchen, Ihre persönlichen Daten zu sammeln.\n\n<xliff:g id="content">%s</xliff:g>\n\nBitte kontaktieren Sie den Boxer-Support, um Hilfe zu erhalten.</string>
   <plurals name="custom_perms_dialog_app_violation">
     <item quantity="one"><xliff:g id="app_name">(%s)</xliff:g> definiert eine Berechtigung neu: <xliff:g id="permissions_list">%s</xliff:g></item>

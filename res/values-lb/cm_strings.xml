@@ -55,6 +55,10 @@
   <string name="about_app_header_title">Iwwer</string>
   <string name="account_setup_options_mail_window_3months">Lescht 3 Méint</string>
   <string name="account_setup_options_mail_window_6months">Lescht 6 Méint</string>
+  <string name="tutorial_skip_button">Iwwersprangen</string>
   <string name="tutorial_done_button">Fäerdeg</string>
+  <string name="message_send_failed_title">Message net geschéckt</string>
+  <string name="preferences_clear_search_history_title">Sichhistorique läschen</string>
+  <string name="preferences_clear_search_history_summary">All d\'Sich-Ufroen déi gemaach goufe läschen</string>
   <string name="custom_perms_pos_btn">Mellen</string>
 </resources>
