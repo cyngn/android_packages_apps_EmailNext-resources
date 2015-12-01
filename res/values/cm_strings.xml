@@ -137,9 +137,14 @@
     <string name="update_availalable_title">An update is available</string>
     <string name="update_available_content">Tap to install update</string>
 
+    <!-- Security settings category -->
+    <string name="preferences_security_title">Security</string>
     <!-- Preference for disabling screenshots of app screens. -->
     <string name="preference_disable_screenshots">Disable screenshots</string>
+    <!-- Preference for disabling screenshots of app screens. -->
     <string name="preference_disable_screenshots_summary">Prevent other apps from capturing screenshots of app screens</string>
+    <string name="preference_allow_insecure_attachments_title">Allow insecure attachments</string>
+    <string name="preference_allow_insecure_attachments_summary">Allow viewing or saving insecure attachments</string>
 
     <string name="custom_perms_dialog_title">Duplicate permissions</string>
     <string name="custom_perms_dialog_msg">Another application may be attempting to collect your personal information.\n\n<xliff:g id="content">%s</xliff:g>\n\nPlease contact Boxer support for help.</string>
