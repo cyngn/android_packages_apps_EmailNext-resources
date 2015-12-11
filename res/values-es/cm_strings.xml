@@ -92,8 +92,11 @@
   <string name="update_available_ticker">Hay una actualización disponible para la aplicación Correo electrónico</string>
   <string name="update_availalable_title">Hay una actualización disponible</string>
   <string name="update_available_content">Toca para instalar la actualización</string>
+  <string name="preferences_security_title">Seguridad</string>
   <string name="preference_disable_screenshots">Deshabilitar capturas de pantalla</string>
   <string name="preference_disable_screenshots_summary">Evitar que otras aplicaciones puedan realizar capturas de pantalla</string>
+  <string name="preference_allow_insecure_attachments_title">Permitir archivos adjuntos inseguros</string>
+  <string name="preference_allow_insecure_attachments_summary">Permite ver o guardar archivos adjuntos inseguros</string>
   <string name="custom_perms_dialog_title">Duplicar permisos</string>
   <string name="custom_perms_dialog_msg">Otra aplicación puede intentar recoger tu información personal.\n\n <xliff:g id="content">%s </xliff:g> \n\nPor favor contacte con Boxer para obtener ayuda adicional.</string>
   <plurals name="custom_perms_dialog_app_violation">
