@@ -90,8 +90,11 @@
   <string name="update_available_ticker">Dla aplikacji E-mail jest dostępna aktualizacja</string>
   <string name="update_availalable_title">Dostępna jest aktualizacja</string>
   <string name="update_available_content">Dotknij, aby zainstalować aktualizację</string>
+  <string name="preferences_security_title">Bezpieczeństwo</string>
   <string name="preference_disable_screenshots">Wyłącz zrzuty ekranu</string>
   <string name="preference_disable_screenshots_summary">Zapobiegaj wykonywaniu zrzutów ekranu przez aplikacje zewnętrznych dostawców</string>
+  <string name="preference_allow_insecure_attachments_title">Pozwól na niebezpieczne załączniki</string>
+  <string name="preference_allow_insecure_attachments_summary">Pozwól na oglądanie i zapisywanie niebezpiecznych załączników</string>
   <string name="custom_perms_dialog_title">Zduplikowane uprawnienia</string>
   <string name="custom_perms_dialog_msg">Inna aplikacja mogła próbować zbierać twoje osobiste informacje.\n\n<xliff:g id="content">%s</xliff:g>\n\nSkontaktuj się ze wsparciem Boxer.</string>
   <plurals name="custom_perms_dialog_app_violation">

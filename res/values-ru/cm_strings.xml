@@ -92,8 +92,11 @@
   <string name="update_available_ticker">Доступно обновление для Email</string>
   <string name="update_availalable_title">Доступно обновление</string>
   <string name="update_available_content">Нажмите для установки обновления</string>
+  <string name="preferences_security_title">Безопасность</string>
   <string name="preference_disable_screenshots">Отключить скриншоты</string>
   <string name="preference_disable_screenshots_summary">Запретить приложениям делать скриншоты почты</string>
+  <string name="preference_allow_insecure_attachments_title">Потенциально опасные вложения</string>
+  <string name="preference_allow_insecure_attachments_summary">Разрешить просмотр и сохранение потенциально опасных вложений</string>
   <string name="custom_perms_dialog_title">Дублирование разрешений</string>
   <string name="custom_perms_dialog_msg">Возможно, другое приложение пытается получить доступ к вашим персональным данным.\n\n<xliff:g id="content">%s</xliff:g>\n\nСвяжитесь с поддержкой Boxer для получения дополнительной информации.</string>
   <plurals name="custom_perms_dialog_app_violation">

@@ -92,8 +92,11 @@
   <string name="update_available_ticker">Υπάρχει μια ενημερωμένη έκδοση για το ηλεκτρονικό ταχυδρομείο</string>
   <string name="update_availalable_title">Διατίθεται μια ενημερωμένη έκδοση</string>
   <string name="update_available_content">Πατήστε για εγκατάσταση της ενημερωμένης έκδοσης</string>
+  <string name="preferences_security_title">Ασφάλεια</string>
   <string name="preference_disable_screenshots">Απενεργοποίηση στιγμιότυπου οθόνης</string>
   <string name="preference_disable_screenshots_summary">Αποτρέψει άλλες εφαρμογές από τη σύλληψη στιγμιότυπου οθόνης ενώ βρίσκεστε στην εφαρμογή</string>
+  <string name="preference_allow_insecure_attachments_title">Να επιτρέπονται μη ασφαλή συνημμένα</string>
+  <string name="preference_allow_insecure_attachments_summary">Επιτρέπει την προβολή ή αποθήκευση μη ασφαλών συνημμένων</string>
   <string name="custom_perms_dialog_title">Διπλά δικαιώματα</string>
   <string name="custom_perms_dialog_msg">Μια άλλη εφαρμογή μπορεί να επιχειρεί να συλλέξει προσωπικές πληροφορίες.\n\n<xliff:g id="content">%s</xliff:g>\n\nΠαρακαλώ επικοινωνήστε με την υποστήριξη Boxer για βοήθεια.</string>
   <plurals name="custom_perms_dialog_app_violation">

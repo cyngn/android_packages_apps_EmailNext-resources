@@ -92,8 +92,11 @@
   <string name="update_available_ticker">メールのアップデートが利用可能です</string>
   <string name="update_availalable_title">アップデートが利用可能です</string>
   <string name="update_available_content">タップしてアップデートをインストール</string>
+  <string name="preferences_security_title">セキュリティ</string>
   <string name="preference_disable_screenshots">スクリーンショットを無効化</string>
   <string name="preference_disable_screenshots_summary">アプリ画面のスクリーンショットを他のアプリがキャプチャできないように防止する</string>
+  <string name="preference_allow_insecure_attachments_title">セキュリティで保護されていない添付ファイルを許可</string>
+  <string name="preference_allow_insecure_attachments_summary">セキュリティで保護されていない添付ファイルの表示または保存を許可する</string>
   <string name="custom_perms_dialog_title">権限の重複</string>
   <string name="custom_perms_dialog_msg">他のアプリケーションがあなたの個人情報の収集を試みている可能性があります。\n\n<xliff:g id="content">%s</xliff:g>\n\n対処方法等についてはBoxerのサポートに連絡してください。</string>
   <plurals name="custom_perms_dialog_app_violation">

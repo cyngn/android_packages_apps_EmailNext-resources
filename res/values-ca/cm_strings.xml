@@ -92,8 +92,11 @@
   <string name="update_available_ticker">Hi ha una actualització disponible pel Correu electrònic</string>
   <string name="update_availalable_title">Hi ha una actualització disponible</string>
   <string name="update_available_content">Pica per instal·lar l\'actualització</string>
+  <string name="preferences_security_title">Seguretat</string>
   <string name="preference_disable_screenshots">Deshabilita les captures de pantalla</string>
   <string name="preference_disable_screenshots_summary">Impedeix que altres aplicacions facin captures de pantalla de les aplicacions</string>
+  <string name="preference_allow_insecure_attachments_title">Permet els adjunts insegurs</string>
+  <string name="preference_allow_insecure_attachments_summary">Permet veure o desar adjunts insegurs</string>
   <string name="custom_perms_dialog_title">Duplica els permisos</string>
   <string name="custom_perms_dialog_msg">Una altra aplicació podria estar intentant recollir la teva informació personal.\n\n<xliff:g id="content">%s</xliff:g> \n\nSi us plau contacta amb el suport tècnic de Boxer per obtenir ajuda.</string>
   <plurals name="custom_perms_dialog_app_violation">

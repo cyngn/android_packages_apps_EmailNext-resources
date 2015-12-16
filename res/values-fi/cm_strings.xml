@@ -92,8 +92,11 @@
   <string name="update_available_ticker">Sähköpostiin on saatavilla päivitys</string>
   <string name="update_availalable_title">Päivitys on saatavilla</string>
   <string name="update_available_content">Paina tästä asentaaksesi päivityksen</string>
+  <string name="preferences_security_title">Turvallisuus</string>
   <string name="preference_disable_screenshots">Estä kuvakaappaukset</string>
   <string name="preference_disable_screenshots_summary">Estää muita sovelluksia ottamasta kuvakaappauksia sovelluksen näytöistä</string>
+  <string name="preference_allow_insecure_attachments_title">Salli epäluotettavat liitetiedostot</string>
+  <string name="preference_allow_insecure_attachments_summary">Salli epäturvallisten liitteiden avaaminen ja tallentaminen</string>
   <string name="custom_perms_dialog_title">Samoja käyttöoikeuksia</string>
   <string name="custom_perms_dialog_msg">Toinen sovellus voi yrittää kerätä henkilökohtaisia tietoja.\n\n<xliff:g id="content">%s</xliff:g>\n\nOta yhteyttä Boxerin tukeen.</string>
   <plurals name="custom_perms_dialog_app_violation">

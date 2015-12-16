@@ -92,8 +92,11 @@
   <string name="update_available_ticker">Er is een update beschikbaar voor E-mail</string>
   <string name="update_availalable_title">Er is een update beschikbaar</string>
   <string name="update_available_content">Tik om update te installeren</string>
+  <string name="preferences_security_title">Beveiliging</string>
   <string name="preference_disable_screenshots">Screenshots uitschakelen</string>
   <string name="preference_disable_screenshots_summary">Voorkomen dat andere apps screenshots vastleggen van app-schermen</string>
+  <string name="preference_allow_insecure_attachments_title">Onveilige bijlagen toestaan</string>
+  <string name="preference_allow_insecure_attachments_summary">Weergeven of opslaan van onveilige bijlagen toestaan</string>
   <string name="custom_perms_dialog_title">Dubbele machtigingen</string>
   <string name="custom_perms_dialog_msg">Een andere app probeert mogelijk uw persoonlijke gegevens te verzamelen.\n\n<xliff:g id="content">%s</xliff:g>\n\nNeem contact op met Boxer ondersteuning voor hulp.</string>
   <plurals name="custom_perms_dialog_app_violation">
