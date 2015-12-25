@@ -45,6 +45,7 @@
   <string name="account_settings_led_color_label">Culoare LED particularizată</string>
   <string name="account_settings_led_color_summary">Valoarea implicită este culoarea de cont</string>
   <string name="account_settings_tutorial_header_title">Vezi tutorial</string>
+  <string name="account_settings_move_title">Mutare</string>
   <string name="account_settings_label_title">Etichetă</string>
   <string name="general_preference_mark_archive_messages_read">Arhivează ca citit</string>
   <string name="search_hint">Căutare\u2026</string>
@@ -71,4 +72,5 @@
   <string name="search_history_cleared">Istoricul căutărilor a fost șters.</string>
   <string name="update_availalable_title">Este disponibilă o actualizare</string>
   <string name="update_available_content">Apăsați pentru a instala actualizarea</string>
+  <string name="preferences_security_title">Securitate</string>
 </resources>

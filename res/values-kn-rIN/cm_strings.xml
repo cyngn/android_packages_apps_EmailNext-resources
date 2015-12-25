@@ -74,6 +74,7 @@
   <string name="message_compose_send_availability_menu_title">ಲಭ್ಯತೆ ಕಳುಹಿಸಿ</string>
   <string name="message_compose_create_invite_menu_title">ಆಹ್ವಾನವನ್ನು ರಚಿಸಿ</string>
   <string name="preference_compose_toolbar_visibility">ರಚಿಸುವ ಟೂಲ್‍ಬಾರ್ ಪ್ರದರ್ಶಿಸು</string>
+  <string name="tutorial_welcome_title">ಇಮೇಲ್‍ಗೆ ಸ್ವಾಗತ</string>
   <string name="tutorial_welcome_subtitle">ಚುರುಕಾದ. ವೇಗವಾದ. ಅನುಗುಣಾತ್ಮಕ. ಇಮೇಲ್.</string>
   <string name="tutorial_page1_title">ಕಸ್ಟಮ್ ಸ್ವೈಪ್ಸ್</string>
   <string name="tutorial_page1_subtitle">ನಿಮ್ಮ ಸ್ವೈಪ್ ಕ್ರಿಯೆಗಳನ್ನು ಕಸ್ಟಮೈಸ್ ಮಾಡಿ ಹಾಗು ನಿಮ್ಮ ಸ್ವಂತ ಅನುಭವವನ್ನು ನಿರ್ಮಿಸಿ.</string>
@@ -91,8 +92,11 @@
   <string name="update_available_ticker">ಇಮೇಲ್‍ಗಾಗಿ ಒಂದು ನವೀಕರಣೆ ಲಭ್ಯವಿದೆ</string>
   <string name="update_availalable_title">ಒಂದು ನವೀಕರಣೆಯು ಲಭ್ಯವಿದೆ</string>
   <string name="update_available_content">ನವೀಕರಣೆ ಸ್ಥಾಪಿಸಲು ಸ್ಪರ್ಶಿಸಿ</string>
+  <string name="preferences_security_title">ಭದ್ರತೆ</string>
   <string name="preference_disable_screenshots">ಸ್ಕ್ರೀನ್‍ಶಾಟ್‍ಗಳು ನಿಷ್ಕ್ರಿಯ</string>
   <string name="preference_disable_screenshots_summary">ಇತರೆ ಆಪ್‍ಗಳು ಆಪ್ ಪರದೆಯ ಸ್ಕ್ರೀನ್‍ಶಾಟ್‍ಗಳನ್ನು ಸೆರೆಹಿಡಿಯದಂತೆ ತಡೆಗಟ್ಟಿ</string>
+  <string name="preference_allow_insecure_attachments_title">ಅಸುರಕ್ಷಿತ ಲಗತ್ತುಗಳನ್ನು ಅನುಮತಿಸು</string>
+  <string name="preference_allow_insecure_attachments_summary">ಅಸುರಕ್ಷಿತ ಲಗತ್ತುಗಳನ್ನು ವೀಕ್ಷಿಸಲು ಅಥವ ಉಳಿಸಲು ಅನುಮತಿಸಿ</string>
   <string name="custom_perms_dialog_title">ನಕಲು ಅನುಮತಿಗಳು</string>
   <string name="custom_perms_dialog_msg">ಇನ್ನೊಂದು ಅಪ್ಲಿಕೇಶನ್ ನಿಮ್ಮ ವಯಕ್ತಿಕ ಮಾಹಿತಿಯನ್ನು ಸಂಗ್ರಹಿಸಲು ಪ್ರಯತ್ನಿಸುತ್ತಿರಬಹುದು.\n\n<xliff:g id="content">%s</xliff:g>\n\nಸಹಾಯಕ್ಕಾಗಿ ದಯವಿಟ್ಟು Boxer supportನ್ನು ಸಂಪರ್ಕಿಸಿ.</string>
   <string name="custom_perms_pos_btn">ವರದಿಮಾಡಿ</string>

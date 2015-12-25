@@ -52,7 +52,7 @@
   <string name="account_settings_tutorial_header_title">Öğreticiyi görüntüle</string>
   <string name="account_settings_move_label_title">Mesajları Etiketle/Taşı</string>
   <string name="account_settings_move_title">Taşı</string>
-  <string name="account_settings_label_title">Etiket</string>
+  <string name="account_settings_label_title">Etiketle</string>
   <string name="general_preference_mark_archive_messages_read">Okundu olarak arşivle</string>
   <string name="general_preference_mark_archive_messages_read_description">Mesajları arşivlemeden önce okundu olarak işaretle</string>
   <string name="general_pref_notifications_use_combined_inbox">Bildirimler birleşik gelen kutusunu açsın</string>

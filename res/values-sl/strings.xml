@@ -16,9 +16,9 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="permission_read_attachment_label">Branje e-poštnih prilog</string>
-  <string name="permission_read_attachment_desc">Omogoča temu programu branje e-poštnih prilog.</string>
+  <string name="permission_read_attachment_desc">Dovoli temu programu branje e-poštnih prilog.</string>
   <string name="permission_access_provider_label">Dostop do podatkov e-poštnega ponudnika</string>
-  <string name="permission_access_provider_desc">Omogoča programu dostop do vaše e-poštne zbirke podatkov, vključno s prejetimi in poslanimi sporočili, uporabniškimi imeni in gesli.</string>
+  <string name="permission_access_provider_desc">Dovoli programu dostop do vaše e-poštne zbirke podatkov, vključno s prejetimi in poslanimi sporočili, uporabniškimi imeni in gesli.</string>
   <string name="app_name">E-pošta</string>
   <string name="debug_title">Odpravljanje napak</string>
   <string name="next_action">Naprej</string>

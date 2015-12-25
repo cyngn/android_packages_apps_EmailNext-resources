@@ -16,6 +16,7 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="email_provider">อีเมล</string>
   <string name="message_compose_send_availability_menu_title">ส่งช่วงการใช้งานได้</string>
   <string name="message_compose_create_invite_menu_title">สร้างคำเชิญ</string>
   <string name="tutorial_welcome_subtitle">อีเมลที่ฉลาดกว่า รวดเร็วกว่า ที่ได้รับการปรับแต่ง</string>

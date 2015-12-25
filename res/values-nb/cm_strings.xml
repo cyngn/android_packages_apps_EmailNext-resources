@@ -50,6 +50,7 @@
   <string name="account_settings_led_color_label">Egendefinert LED farge</string>
   <string name="account_settings_led_color_summary">Standardverdien er konto fargen</string>
   <string name="account_settings_tutorial_header_title">Vis opplæring</string>
+  <string name="account_settings_move_title">Flytt</string>
   <string name="general_preference_mark_archive_messages_read">Arkiver som lest</string>
   <string name="general_preference_mark_archive_messages_read_description">Merk eposter som lest før de blir arkivert</string>
   <string name="search_hint">Søk i e-post</string>

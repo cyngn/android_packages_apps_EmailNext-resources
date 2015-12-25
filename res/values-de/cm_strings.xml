@@ -102,4 +102,5 @@
     <item quantity="one"><xliff:g id="app_name">(%s)</xliff:g> definiert eine Berechtigung neu: <xliff:g id="permissions_list">%s</xliff:g></item>
     <item quantity="other"><xliff:g id="app_name">(%s)</xliff:g> definiert Berechtigungen neu: <xliff:g id="permissions_list">%s</xliff:g></item>
   </plurals>
+  <string name="custom_perms_pos_btn">Melden</string>
 </resources>
