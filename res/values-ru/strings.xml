@@ -60,6 +60,26 @@
   <string name="forward_download_failed_title">Не удалось переслать вложение</string>
   <string name="login_failed_ticker">Ошибка при входе в аккаунт <xliff:g id="ACCOUNT_NAME">%s</xliff:g>.</string>
   <string name="login_failed_title">Вход не выполнен</string>
+  <plurals name="message_view_attachment_bytes">
+    <item quantity="one"><xliff:g id="size_in_bytes" example="1">%d</xliff:g> Б</item>
+    <item quantity="few"><xliff:g id="size_in_bytes" example="1">%d</xliff:g> Б</item>
+    <item quantity="other"><xliff:g id="size_in_bytes" example="1">%d</xliff:g> Б</item>
+  </plurals>
+  <plurals name="message_view_attachment_kilobytes">
+    <item quantity="one"><xliff:g id="size_in_bytes" example="1">%d</xliff:g> КБ</item>
+    <item quantity="few"><xliff:g id="size_in_bytes" example="1">%d</xliff:g> КБ</item>
+    <item quantity="other"><xliff:g id="size_in_bytes" example="1">%d</xliff:g> КБ</item>
+  </plurals>
+  <plurals name="message_view_attachment_megabytes">
+    <item quantity="one"><xliff:g id="size_in_bytes" example="1">%d</xliff:g> МБ</item>
+    <item quantity="few"><xliff:g id="size_in_bytes" example="1">%d</xliff:g> МБ</item>
+    <item quantity="other"><xliff:g id="size_in_bytes" example="1">%d</xliff:g> МБ</item>
+  </plurals>
+  <plurals name="message_view_attachment_gigabytes">
+    <item quantity="one"><xliff:g id="size_in_bytes" example="1">%d</xliff:g> ГБ</item>
+    <item quantity="few"><xliff:g id="size_in_bytes" example="1">%d</xliff:g> ГБ</item>
+    <item quantity="other"><xliff:g id="size_in_bytes" example="1">%d</xliff:g> ГБ</item>
+  </plurals>
   <string name="account_setup_basics_title">Настройка аккаунта</string>
   <string name="account_setup_basics_headline">Ярлык Email</string>
   <string name="accounts_welcome">Укажите ваш эл. адрес и пароль</string>

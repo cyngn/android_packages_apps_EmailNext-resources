@@ -92,8 +92,11 @@
   <string name="update_available_ticker">Je k dispozici aktualizace pro E-mail</string>
   <string name="update_availalable_title">Aktualizace je k dispozici</string>
   <string name="update_available_content">Dotykem nainstalovat aktualizaci</string>
+  <string name="preferences_security_title">Zabezpečení</string>
   <string name="preference_disable_screenshots">Zakázat sejmutí obrazovky</string>
   <string name="preference_disable_screenshots_summary">Zabrání ostatním aplikacím v sejmutí obrazovku aplikace</string>
+  <string name="preference_allow_insecure_attachments_title">Povolit nezabezpečené přílohy</string>
+  <string name="preference_allow_insecure_attachments_summary">Povolit zobrazování nebo ukládání nezabezpečených příloh</string>
   <string name="custom_perms_dialog_title">Duplicitní oprávnění</string>
   <string name="custom_perms_dialog_msg">Jiná aplikace se může pokusit získat Vaše osobní údaje.\n\n<xliff:g id="content">%s</xliff:g>\n\nProsím kontaktujte podporu aplikace Boxer pro pomoc.</string>
   <plurals name="custom_perms_dialog_app_violation">

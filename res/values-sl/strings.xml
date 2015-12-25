@@ -16,9 +16,9 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="permission_read_attachment_label">Branje e-poštnih prilog</string>
-  <string name="permission_read_attachment_desc">Omogoča programu branje e-poštnih priponk.</string>
+  <string name="permission_read_attachment_desc">Dovoli temu programu branje e-poštnih prilog.</string>
   <string name="permission_access_provider_label">Dostop do podatkov e-poštnega ponudnika</string>
-  <string name="permission_access_provider_desc">Programu omogoča dostop do vaše e-poštne zbirke podatkov, vključno s prejetimi in poslanimi sporočili, uporabniškimi imeni in gesli.</string>
+  <string name="permission_access_provider_desc">Dovoli programu dostop do vaše e-poštne zbirke podatkov, vključno s prejetimi in poslanimi sporočili, uporabniškimi imeni in gesli.</string>
   <string name="app_name">E-pošta</string>
   <string name="debug_title">Odpravljanje napak</string>
   <string name="next_action">Naprej</string>
@@ -61,6 +61,30 @@
   <string name="forward_download_failed_title">Priloga ni bila posredovana</string>
   <string name="login_failed_ticker">Vpis v <xliff:g id="account_name">%s</xliff:g> ni uspel.</string>
   <string name="login_failed_title">Vpis ni uspel</string>
+  <plurals name="message_view_attachment_bytes">
+    <item quantity="one"><xliff:g id="size_in_bytes" example="1">%d</xliff:g> B</item>
+    <item quantity="two"><xliff:g id="size_in_bytes" example="279">%d</xliff:g> B</item>
+    <item quantity="few"><xliff:g id="size_in_bytes" example="279">%d</xliff:g> B</item>
+    <item quantity="other"><xliff:g id="size_in_bytes" example="279">%d</xliff:g> B</item>
+  </plurals>
+  <plurals name="message_view_attachment_kilobytes">
+    <item quantity="one"><xliff:g id="size_in_kilobytes" example="1">%d</xliff:g> kB</item>
+    <item quantity="two"><xliff:g id="size_in_kilobytes" example="279">%d</xliff:g> kB</item>
+    <item quantity="few"><xliff:g id="size_in_kilobytes" example="279">%d</xliff:g> kB</item>
+    <item quantity="other"><xliff:g id="size_in_kilobytes" example="279">%d</xliff:g> kB</item>
+  </plurals>
+  <plurals name="message_view_attachment_megabytes">
+    <item quantity="one"><xliff:g id="size_in_megabytes" example="1">%d</xliff:g> MB</item>
+    <item quantity="two"><xliff:g id="size_in_megabytes" example="279">%d</xliff:g> MB</item>
+    <item quantity="few"><xliff:g id="size_in_megabytes" example="279">%d</xliff:g> MB</item>
+    <item quantity="other"><xliff:g id="size_in_megabytes" example="279">%d</xliff:g> MB</item>
+  </plurals>
+  <plurals name="message_view_attachment_gigabytes">
+    <item quantity="one"><xliff:g id="size_in_gigabytes" example="1">%d</xliff:g> GB</item>
+    <item quantity="two"><xliff:g id="size_in_gigabytes" example="279">%d</xliff:g> GB</item>
+    <item quantity="few"><xliff:g id="size_in_gigabytes" example="279">%d</xliff:g> GB</item>
+    <item quantity="other"><xliff:g id="size_in_gigabytes" example="279">%d</xliff:g> GB</item>
+  </plurals>
   <string name="account_setup_basics_title">Nastavitev računa</string>
   <string name="account_setup_basics_headline">E-poštni račun</string>
   <string name="accounts_welcome">Račun lahko ustvarite v nekaj korakih.</string>

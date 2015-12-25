@@ -92,8 +92,11 @@
   <string name="update_available_ticker">Der findes en opdatering til e-mail</string>
   <string name="update_availalable_title">En opdatering er tilgængelig</string>
   <string name="update_available_content">Tryk for at installere opdatering</string>
+  <string name="preferences_security_title">Sikkerhed</string>
   <string name="preference_disable_screenshots">Deaktivér screenshots</string>
   <string name="preference_disable_screenshots_summary">Forhindre andre apps i at optage screenshots af app-skærme</string>
+  <string name="preference_allow_insecure_attachments_title">Tillad usikre vedhæftede filer</string>
+  <string name="preference_allow_insecure_attachments_summary">Tillad at vise eller gemme usikre vedhæftede filer</string>
   <string name="custom_perms_dialog_title">Kopiér tilladelser</string>
   <string name="custom_perms_dialog_msg">Et andet program forsøger måske at indsamle dine personlige oplysninger.\n\n<xliff:g id="content">%s</xliff:g>\n\nKontakt venligst Boxer support for hjælp.</string>
   <plurals name="custom_perms_dialog_app_violation">

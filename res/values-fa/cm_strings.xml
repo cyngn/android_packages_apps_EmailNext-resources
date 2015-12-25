@@ -92,8 +92,11 @@
   <string name="update_available_ticker">یک به‌روزرسانی برای ایمیل وجود دارد</string>
   <string name="update_availalable_title">یک به‌روزرسانی وجود دارد</string>
   <string name="update_available_content">برای نصب به‌روزرسانی ضربه بزنید</string>
+  <string name="preferences_security_title">امنیت</string>
   <string name="preference_disable_screenshots">غیرفعال کردن تصاویر صفحه</string>
   <string name="preference_disable_screenshots_summary">بازداری برنامه‌های دیگر از گرفتن تصویر از صفحات برنامه</string>
+  <string name="preference_allow_insecure_attachments_title">مجاز بودن پیوست‌های ناامن</string>
+  <string name="preference_allow_insecure_attachments_summary">مجاز بودن مشاهده و ذخیره کردن پیوست‌های ناامن</string>
   <string name="custom_perms_dialog_title">تهیه کپی مجوزها</string>
   <string name="custom_perms_dialog_msg">برنامه‌ای دیگر ممکن است در صدد جمع‌آوری اطلاعات شخصی شما برآید.\n\n<xliff:g id="content">%s</xliff:g>\n\nلطفا برای راهنمایی با پشتیبانی Boxer تماس بگیرید.</string>
   <plurals name="custom_perms_dialog_app_violation">

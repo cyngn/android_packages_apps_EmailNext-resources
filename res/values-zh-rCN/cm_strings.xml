@@ -92,8 +92,11 @@
   <string name="update_available_ticker">电子邮件应用有可用更新</string>
   <string name="update_availalable_title">有可用的更新</string>
   <string name="update_available_content">点击以安装更新</string>
+  <string name="preferences_security_title">安全</string>
   <string name="preference_disable_screenshots">禁用截图</string>
   <string name="preference_disable_screenshots_summary">防止其他应用捕获应用截图</string>
+  <string name="preference_allow_insecure_attachments_title">允许不安全附件</string>
+  <string name="preference_allow_insecure_attachments_summary">允许查看或保存不安全附件</string>
   <string name="custom_perms_dialog_title">重复权限</string>
   <string name="custom_perms_dialog_msg">另一个应用可能会尝试收集您的个人信息。\n\n<xliff:g id="content">%s</xliff:g>\n\n请联系 Boxer 支持以获取帮助。</string>
   <plurals name="custom_perms_dialog_app_violation">

@@ -92,8 +92,11 @@
   <string name="update_available_ticker">Une mise à jour d\'Email est disponible</string>
   <string name="update_availalable_title">Une mise à jour est disponible</string>
   <string name="update_available_content">Appuyer pour installer la mise à jour</string>
+  <string name="preferences_security_title">Sécurité</string>
   <string name="preference_disable_screenshots">Désactiver les captures d\'écran</string>
   <string name="preference_disable_screenshots_summary">Empêcher les autres applications d\'effectuer des captures d\'écrans des écrans de l\'application</string>
+  <string name="preference_allow_insecure_attachments_title">Autoriser les pièces jointes non sécurisés</string>
+  <string name="preference_allow_insecure_attachments_summary">Autoriser le visionnage ou l\'enregistrement des pièces jointes non sécurisés</string>
   <string name="custom_perms_dialog_title">Dupliquer les permissions</string>
   <string name="custom_perms_dialog_msg">Une autre application pourrait tenter de collecter vos informations personnelles.\n\n<xliff:g id="content">%s</xliff:g>\n\nMerci de contacter le support Boxer pour obtenir de l\'aide.</string>
   <plurals name="custom_perms_dialog_app_violation">

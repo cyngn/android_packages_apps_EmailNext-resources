@@ -92,8 +92,11 @@
   <string name="update_available_ticker">Ово је ажурирање доступно за Е-пошту</string>
   <string name="update_availalable_title">Ажурирање је доступно</string>
   <string name="update_available_content">Додирни да инсталираш ажурирање</string>
+  <string name="preferences_security_title">Заштита</string>
   <string name="preference_disable_screenshots">Онемогући снимак екрана</string>
   <string name="preference_disable_screenshots_summary">Спречи друге апликације да ухвате снимак екрана</string>
+  <string name="preference_allow_insecure_attachments_title">Дозволи несигурне прилоге</string>
+  <string name="preference_allow_insecure_attachments_summary">Дозволи преглед или чување несигурних прилога</string>
   <string name="custom_perms_dialog_title">Дуплиране дозволе</string>
   <string name="custom_perms_dialog_msg">Друга апликација можда покушава да прикупи твоје личне информације.\n\n<xliff:g id="content">%s</xliff:g>\n\nМолим контактирајте Boxer подршку за помоћ.</string>
   <plurals name="custom_perms_dialog_app_violation">

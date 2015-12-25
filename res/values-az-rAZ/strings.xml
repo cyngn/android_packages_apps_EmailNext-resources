@@ -78,6 +78,11 @@
   <string name="account_setup_autodiscover_dlg_authfail_title">Hesab quraşdırılmasıyla əlaqədar problem</string>
   <string name="account_setup_autodiscover_dlg_authfail_message">İstifadəçi adı, şifrə və hesab tənzimləmələrinin düzgün olduğunu təsdiq edin.</string>
   <string name="account_setup_failed_certificate_inaccessible">Sertifikat etibarsızdır və ya müraciət edilə bilməz.</string>
+  <string name="disable_admin_warning">XƏBƏRDARLIQ: E-poçt tətbiqetməsinin cihazınızdakı idarəçilik səlahiyyətləri ləğv edilərsə, bunu tələb edən bütün e-poçt hesabları. həm də bu hesablara aid şəxslər, təqvim tədbirlər və digər verilənlər silənəcək.</string>
+  <string name="account_security_dialog_title">Təhlükəsizlik yeniləməsi</string>
+  <string name="account_security_dialog_content_fmt"><xliff:g id="account">%s</xliff:g> üçün təhlükəsizlik tənzimləmələrinizin yenilənməsi lazımdır.</string>
+  <string name="security_unsupported_ticker_fmt">\"<xliff:g id="account">%s</xliff:g>\" hesabı təhlükəsizlik tələbatları ilə əlaqədar olaraq sinxron edilə bilməz.</string>
+  <string name="security_needed_ticker_fmt">\"<xliff:g id="account">%s</xliff:g>\" hesabının təhlükəsizlik tənzimləmələrinin yenilənməsi lazımdır.</string>
   <string name="account_settings_ringtone">Zəng səsi seçin</string>
   <string name="provider_note_live">Yalnız bəzi \"Plus\" hesabları bu proqramın əlaqə yaratmasına icazə verən POP müraciəti ehtiva edir. Düzgün e-poçt ünvanı və şifrənizlə giriş edə bilmirsinizsə, ödəniş edilən \"Plus\" hesabına sahib olmaya bilərsiniz. Bu e-poçt ünvanlarına müraciət üçün web səyyahınızı başladın.</string>
   <string name="device_admin_description">Serverin dəqiqləşdirdiyi təhlükəsizlik siyasətlərini fəallaşdırar</string>

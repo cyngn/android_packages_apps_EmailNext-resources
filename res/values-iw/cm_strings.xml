@@ -92,8 +92,11 @@
   <string name="update_available_ticker">קיים עדכון זמין ליישום הדוא\"ל</string>
   <string name="update_availalable_title">קיים עדכון זמין</string>
   <string name="update_available_content">הקש להתקנת העדכון</string>
+  <string name="preferences_security_title">אבטחה</string>
   <string name="preference_disable_screenshots">השבת צילומי מסך</string>
   <string name="preference_disable_screenshots_summary">מנע מיישומים אחרים לקחת צילומי מסך ממסכי היישום</string>
+  <string name="preference_allow_insecure_attachments_title">אפשר קבצים מצורפים לא בטוחים</string>
+  <string name="preference_allow_insecure_attachments_summary">מאפשר להציג או לשמור קבצים מצורפים לא בטוחים</string>
   <string name="custom_perms_dialog_title">שכפל הרשאות</string>
   <string name="custom_perms_dialog_msg">יכול להיות שיישום נוסף מנסה לאסוף את המידע האישי שלך.\n\n<xliff:g id="content">%s</xliff:g>\n\nאנא צור קשר עם התמיכה של Boxer לקבלת עזרה.</string>
   <plurals name="custom_perms_dialog_app_violation">

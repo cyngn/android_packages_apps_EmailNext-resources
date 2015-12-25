@@ -142,7 +142,7 @@
   <string name="account_setup_options_mail_window_all">すべて</string>
   <string name="account_setup_options_mail_window_default">アカウントのデフォルトを使用</string>
   <string name="account_setup_failed_dlg_auth_message">ユーザー名またはパスワードが正しくありません。</string>
-  <string name="account_setup_failed_dlg_auth_message_fmt">ログインに失敗しました。\n（<xliff:g id="ERROR">%s</xliff:g>）</string>
+  <string name="account_setup_failed_dlg_auth_message_fmt">ログインできませんでした。\n（<xliff:g id="error">%s</xliff:g>）</string>
   <string name="account_setup_autodiscover_dlg_authfail_title">アカウントセットアップに関する問題</string>
   <string name="account_setup_autodiscover_dlg_authfail_message">ユーザー名、パスワード、アカウントの設定が正しいか確認してください。</string>
   <string name="account_setup_failed_dlg_certificate_message">サーバーへの安全な接続を確立できません。</string>
@@ -160,7 +160,7 @@
   <string name="account_setup_failed_access_denied">このサーバーと同期する権限がありません。詳しくはサーバーの管理者にお問い合わせください。</string>
   <string name="account_setup_security_required_title">セキュリティのリモート管理</string>
   <string name="account_setup_security_policies_required_fmt">Android搭載携帯のセキュリティ機能の一部に対するリモートコントロールをサーバー<xliff:g id="SERVER">%s</xliff:g>に許可する必要があります。アカウントの設定を終了しますか？</string>
-  <string name="account_setup_failed_security_policies_unsupported">このサーバーには、お使いのAndroid搭載端末でサポートされていない次のセキュリティ機能が必要です: <xliff:g id="ERROR">%s</xliff:g></string>
+  <string name="account_setup_failed_security_policies_unsupported">このサーバーはお使いのAndroid端末ではサポートしていない以下を含むセキュリティ機能を必要とします: <xliff:g id="ERROR">%s</xliff:g></string>
   <string name="account_setup_username_uneditable_error">アカウントのユーザー名を変更することはできません。別のユーザー名を使用するアカウントを追加するには、[アカウントを追加]をタップします。</string>
   <string name="disable_admin_warning">警告: メールアプリの端末管理権限を無効にすると、権限を必要とするすべてのメールアカウントが削除されます。また、そのアカウントのメール、連絡先、カレンダーの予定などのデータも削除されます。</string>
   <string name="account_security_dialog_title">セキュリティの更新</string>

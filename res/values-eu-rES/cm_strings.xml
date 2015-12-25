@@ -92,8 +92,11 @@
   <string name="update_available_ticker">Epostaren eguneraketa bat dago eskuragarri</string>
   <string name="update_availalable_title">Eguneraketa bat dago eskuragarri</string>
   <string name="update_available_content">Ukitu eguneraketa instalatzeko</string>
+  <string name="preferences_security_title">Segurtasuna</string>
   <string name="preference_disable_screenshots">Desgaitu pantaila-argazkiak</string>
   <string name="preference_disable_screenshots_summary">Galarazi beste aplikazioei pantaila-argazkiak ateratzera</string>
+  <string name="preference_allow_insecure_attachments_title">Baimendu eranskin ez seguruak</string>
+  <string name="preference_allow_insecure_attachments_summary">Baimendu eranskin ez seguruak ikusi edo gordetzea</string>
   <string name="custom_perms_dialog_title">Bikoiztu baimenak</string>
   <string name="custom_perms_dialog_msg">Agian beste aplikazioren bat zure datu pertsonalak atzitzen saiatzen ari da.\n\n<xliff:g id="content">%s</xliff:g>\n\nJarri kontaktuan Boxer euskarriarekin laguntza jasotzeko.</string>
   <plurals name="custom_perms_dialog_app_violation">
