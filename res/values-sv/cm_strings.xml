@@ -87,4 +87,6 @@
   <string name="update_available_ticker">Det finns en uppdatering tillgänglig för e-post</string>
   <string name="update_availalable_title">En uppdatering är tillgänglig</string>
   <string name="update_available_content">Tryck för att installera uppdateringen</string>
+  <string name="preferences_security_title">Säkerhet</string>
+  <string name="custom_perms_pos_btn">Rapportera</string>
 </resources>

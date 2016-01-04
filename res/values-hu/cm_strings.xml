@@ -55,6 +55,8 @@
   <string name="account_settings_label_title">Címke</string>
   <string name="general_preference_mark_archive_messages_read">Archív megjelölése olvasottként</string>
   <string name="general_preference_mark_archive_messages_read_description">Email megjelölése olvasottként archiválás előtt</string>
+  <string name="general_pref_notifications_use_combined_inbox">Értesítések az egyesített beérkezett üzeneteket nyitja meg</string>
+  <string name="general_pref_notifications_use_combined_inbox_desc">Értesítés megérintésére az egyesített beérkezett üzeneteket nyitja meg a fiókhoz tartozó beérkezett üzenetek helyett</string>
   <string name="search_hint">E-mail keresése\u2026</string>
   <string name="oauth_authentication_title">Hitelesítés indítása</string>
   <string name="sign_in_title">Bejelentkezés</string>
@@ -72,6 +74,7 @@
   <string name="message_compose_send_availability_menu_title">Elérhetőség küldése</string>
   <string name="message_compose_create_invite_menu_title">Meghívás létrehozása</string>
   <string name="preference_compose_toolbar_visibility">Létrehozási eszköztár megjelenítése</string>
+  <string name="tutorial_welcome_title">Üdvözöljük az E-mailben</string>
   <string name="tutorial_welcome_subtitle">Okosabb. Gyorsabb. Személyre szabott. E-mail.</string>
   <string name="tutorial_page1_title">Egyéni csúsztatási műveletek</string>
   <string name="tutorial_page1_subtitle">Csúsztatási műveleteinek testreszabása és saját tapasztalat felépítése.</string>
@@ -89,4 +92,16 @@
   <string name="update_available_ticker">Frissítés érhető el az E-mail alkalmazáshoz</string>
   <string name="update_availalable_title">Frissítés érhető el</string>
   <string name="update_available_content">Érintse meg a frissítés telepítéséhez</string>
+  <string name="preferences_security_title">Biztonság</string>
+  <string name="preference_disable_screenshots">Képernyőmentések tiltása</string>
+  <string name="preference_disable_screenshots_summary">Megakadályozhatja, hogy más alkalmazások képernyőmentéseket készítsenek az alkalmazás képernyőjéről</string>
+  <string name="preference_allow_insecure_attachments_title">Nem biztonságos mellékletek engedélyezése</string>
+  <string name="preference_allow_insecure_attachments_summary">Lehetővé teszi a nem biztonságos mellékletek mentését vagy megtekintését</string>
+  <string name="custom_perms_dialog_title">Dupla engedélyek</string>
+  <string name="custom_perms_dialog_msg">Egy másik alkalmazás lehet, hogy megpróbálja összegyűjteni a személyes adatait.\n\n<xliff:g id="content">%s</xliff:g>\n\nKérjük, vegye fel a kapcsolatot a Boxer támogatással a további segítségért.</string>
+  <plurals name="custom_perms_dialog_app_violation">
+    <item quantity="one"><xliff:g id="app_name">(%s)</xliff:g> újradefiniálja az engedélyt: <xliff:g id="permissions_list">%s</xliff:g></item>
+    <item quantity="other"><xliff:g id="app_name">(%s)</xliff:g> újradefiniálja az engedélyeket: <xliff:g id="permissions_list">%s</xliff:g></item>
+  </plurals>
+  <string name="custom_perms_pos_btn">Visszajelzés</string>
 </resources>
