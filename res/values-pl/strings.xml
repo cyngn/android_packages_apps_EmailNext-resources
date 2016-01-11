@@ -31,6 +31,11 @@
   <string name="account_settings_action">Ustawienia konta</string>
   <string name="menu_folder_options">Opcje synchronizacji</string>
   <string name="status_network_error">Problem z połączeniem</string>
+  <plurals name="move_messages">
+    <item quantity="one">Przenieś wiadomość</item>
+    <item quantity="few">Przenieś wiadomości</item>
+    <item quantity="other">Przenieś wiadomości</item>
+  </plurals>
   <string name="cannot_move_protocol_not_supported_toast">Przenoszenie nie jest obsługiwane na kontach POP3.</string>
   <string name="cannot_move_multiple_accounts_toast">Nie można przenieść, ponieważ wybrane elementy pochodzą z wielu kont.</string>
   <string name="cannot_move_special_mailboxes_toast">Nie można przenosić wiadomości w Kopiach roboczych, Do wysłania ani Wysłanych.</string>
@@ -55,6 +60,26 @@
   <string name="forward_download_failed_title">Nie przekazano załącznika</string>
   <string name="login_failed_ticker">Nie udało się zalogować na konto <xliff:g id="ACCOUNT_NAME">%s</xliff:g>.</string>
   <string name="login_failed_title">Nie można się zalogować</string>
+  <plurals name="message_view_attachment_bytes">
+    <item quantity="one"><xliff:g id="size_in_bytes" example="1">%d</xliff:g> B</item>
+    <item quantity="few"><xliff:g id="size_in_bytes" example="2">%d</xliff:g> B</item>
+    <item quantity="other"><xliff:g id="size_in_bytes" example="279">%d</xliff:g> B</item>
+  </plurals>
+  <plurals name="message_view_attachment_kilobytes">
+    <item quantity="one"><xliff:g id="size_in_kilobytes" example="1">%d</xliff:g> KB</item>
+    <item quantity="few"><xliff:g id="size_in_kilobytes" example="2">%d</xliff:g> KB</item>
+    <item quantity="other"><xliff:g id="size_in_kilobytes" example="279">%d</xliff:g> KB</item>
+  </plurals>
+  <plurals name="message_view_attachment_megabytes">
+    <item quantity="one"><xliff:g id="size_in_megabytes" example="1">%d</xliff:g> MB</item>
+    <item quantity="few"><xliff:g id="size_in_megabytes" example="2">%d</xliff:g> MB</item>
+    <item quantity="other"><xliff:g id="size_in_megabytes" example="279">%d</xliff:g> MB</item>
+  </plurals>
+  <plurals name="message_view_attachment_gigabytes">
+    <item quantity="one"><xliff:g id="size_in_gigabytes" example="1">%d</xliff:g> GB</item>
+    <item quantity="few"><xliff:g id="size_in_gigabytes" example="2">%d</xliff:g> GB</item>
+    <item quantity="other"><xliff:g id="size_in_gigabytes" example="279">%d</xliff:g> GB</item>
+  </plurals>
   <string name="account_setup_basics_title">Konfiguracja konta</string>
   <string name="account_setup_basics_headline">Konto e-mail</string>
   <string name="accounts_welcome">Skonfiguruj swoje konto w kilku prostych krokach.</string>

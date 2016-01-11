@@ -16,9 +16,11 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="email_provider">Email</string>
   <string name="mailbox_name_display_local_drafts">Bản nháp cục bộ</string>
   <string name="mailbox_name_display_server_drafts">Bản nháp của máy chủ</string>
   <string name="mailbox_name_display_todo">Việc cần làm</string>
+  <string name="mailbox_name_display_archive">Lưu trữ</string>
   <string name="mailbox_name_local_only_display_name"> - Cục bộ</string>
   <string name="account_setup_start_email_address_hint">Nhập địa chỉ email của bạn</string>
   <string name="account_setup_start_password_hint">Mật khẩu</string>
@@ -32,6 +34,10 @@
   <string name="account_setup_options_mail_check_frequency_2hour">Mỗi 2 giờ</string>
   <string name="account_setup_options_mail_check_frequency_4hour">Mỗi 4 giờ</string>
   <string name="account_setup_options_mail_check_frequency_1day">Mỗi ngày</string>
+  <string name="account_setup_options_notify_label"></b>Thông báo</0> cho tôi khi email đến</string>
+  <string name="account_setup_options_sync_contacts_label"><b>Đồng bộ hóa danh bạ<0> từ tài khoản này</string>
+  <string name="account_setup_options_sync_calendar_label"></b>Đồng bộ hóa lịch</0> từ tài khoản này</string>
+  <string name="account_setup_options_sync_email_label"></b>Đồng bộ hóa email</0> từ tài khoản này</string>
   <string name="account_setup_options_disable_convo_threading_label">Tắt luồng trò chuyện</string>
   <string name="account_settings_show_all_images_title">Hình ảnh</string>
   <string name="account_settings_show_all_images_show">Luôn hiện</string>
@@ -39,6 +45,7 @@
   <string name="account_settings_account_color_title">Màu sắc tài khoản</string>
   <string name="account_settings_account_color_summary">Chỉnh sửa màu cho tài khoản này</string>
   <string name="account_settings_account_color_dialog_title">Chọn một màu</string>
+  <string name="account_settings_led_notification_label">Bật đèn LED thông báo</string>
   <string name="account_settings_led_notification_custom_color">Sử dụng màu LED tùy chỉnh</string>
   <string name="account_settings_led_color_label">Màu LED tùy chỉnh</string>
   <string name="account_settings_led_color_summary">Giá trị mặc định là màu sắc tài khoản</string>
@@ -48,8 +55,12 @@
   <string name="account_settings_label_title">Nhãn</string>
   <string name="general_preference_mark_archive_messages_read">Lưu trữ là đã đọc</string>
   <string name="general_preference_mark_archive_messages_read_description">Đánh dấu email là đã đọc trước khi lưu trữ chúng</string>
+  <string name="general_pref_notifications_use_combined_inbox">Thông báo mở hộp thư đến được kết hợp</string>
+  <string name="general_pref_notifications_use_combined_inbox_desc">Chạm một thông báo sẽ mở hộp thư đến được kết hợp thay vì hộp thư đến của tài khoản</string>
+  <string name="search_hint">Tìm kiếm\u2026</string>
   <string name="oauth_authentication_title">Yêu cầu ủy quyền</string>
   <string name="sign_in_title">Đăng nhập</string>
+  <string name="sign_in_button">Xong</string>
   <string name="or_label">HOẶC</string>
   <string name="sign_in_with_google">Đăng nhập bằng Google</string>
   <string name="signed_in_with_service_label">Đã đăng nhập bằng %s</string>
@@ -63,6 +74,7 @@
   <string name="message_compose_send_availability_menu_title">Gửi tình trạng khả dụng</string>
   <string name="message_compose_create_invite_menu_title">Tạo lời mời</string>
   <string name="preference_compose_toolbar_visibility">Hiển thị thanh công cụ soạn thảo</string>
+  <string name="tutorial_welcome_title">Chào mừng đến với Email</string>
   <string name="tutorial_welcome_subtitle">Thông minh hơn. Nhanh hơn. Phù hợp. Email.</string>
   <string name="tutorial_page1_title">Tùy chỉnh thao tác vuốt</string>
   <string name="tutorial_page1_subtitle">Tùy chỉnh thao tác vuốt của bạn và thiết kế trải nghiệm của chính bạn.</string>
@@ -71,6 +83,7 @@
   <string name="tutorial_page3_title">Lưới thao tác</string>
   <string name="tutorial_page3_subtitle">Tích hợp và chức năng mạnh mẽ khi chạm vào nút.</string>
   <string name="tutorial_skip_button">Bỏ qua</string>
+  <string name="tutorial_done_button">Xong</string>
   <string name="message_send_failed_ticker">Việc gửi tin nhắn thất bại</string>
   <string name="message_send_failed_title">Tin nhắn không được gửi</string>
   <string name="preferences_clear_search_history_title">Xóa lịch sử tìm kiếm</string>
@@ -79,4 +92,12 @@
   <string name="update_available_ticker">Sẵn có một bản cập nhật cho Email</string>
   <string name="update_availalable_title">Sẳn có bản cập nhật</string>
   <string name="update_available_content">Chạm để cài đặt bản cập nhật</string>
+  <string name="preferences_security_title">Bảo mật</string>
+  <string name="preference_disable_screenshots">Vô hiệu hóa chụp ảnh màn hình</string>
+  <string name="preference_disable_screenshots_summary">Ngăn các ứng dụng khác chụp ảnh màn hình ứng dụng</string>
+  <string name="preference_allow_insecure_attachments_title">Cho phép các tệp đính kèm không an toàn</string>
+  <string name="preference_allow_insecure_attachments_summary">Cho phép xem hoặc lưu các tệp đính kèm không an toàn</string>
+  <string name="custom_perms_dialog_title">Quyền trùng lặp</string>
+  <string name="custom_perms_dialog_msg">Ứng dụng khác có thể cố thu thập thông tin cá nhân của bạn.\n\n<xliff:g id="content">%s</xliff:g>\n\nHãy liên hệ hỗ trợ Boxer để được giúp đỡ.</string>
+  <string name="custom_perms_pos_btn">Báo cáo</string>
 </resources>

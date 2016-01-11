@@ -40,6 +40,8 @@
   <string name="account_setup_options_sync_email_label"><b>Sync email</b> from this account</string>
   <string name="account_setup_options_disable_convo_threading_label">Turn off conversation threading</string>
   <string name="account_settings_show_all_images_title">Images</string>
+  <string name="account_settings_show_all_images_show">Always show</string>
+  <string name="account_settings_show_all_images_ask">Ask before showing</string>
   <string name="account_settings_account_color_title">Account colour</string>
   <string name="account_settings_account_color_summary">Edit the colour for this account</string>
   <string name="account_settings_account_color_dialog_title">Pick a colour</string>
@@ -48,8 +50,13 @@
   <string name="account_settings_led_color_label">Custom LED colour</string>
   <string name="account_settings_led_color_summary">Default value is the account colour</string>
   <string name="account_settings_tutorial_header_title">View tutorial</string>
+  <string name="account_settings_move_label_title">Label/Move messages</string>
+  <string name="account_settings_move_title">Move</string>
+  <string name="account_settings_label_title">Label</string>
   <string name="general_preference_mark_archive_messages_read">Archive as read</string>
   <string name="general_preference_mark_archive_messages_read_description">Mark emails as read before archiving them</string>
+  <string name="general_pref_notifications_use_combined_inbox">Notifications open combined inbox</string>
+  <string name="general_pref_notifications_use_combined_inbox_desc">Tapping a notification opens the combined inbox instead of the account inbox</string>
   <string name="search_hint">Search\u2026</string>
   <string name="oauth_authentication_title">Requesting authorization</string>
   <string name="sign_in_title">Sign in</string>
@@ -61,5 +68,40 @@
   <string name="add_authentication_label">Add authentication</string>
   <string name="oauth_saving_message">Saving\u2026</string>
   <string name="about_app_header_title">About</string>
+  <string name="account_setup_options_mail_window_3months">Last 3 months</string>
+  <string name="account_setup_options_mail_window_6months">Last 6 months</string>
+  <string name="account_settings_unable_to_edit_field">Your administrator does not allow this field to be modified</string>
+  <string name="message_compose_send_availability_menu_title">Send availability</string>
+  <string name="message_compose_create_invite_menu_title">Create invite</string>
+  <string name="preference_compose_toolbar_visibility">Show compose toolbar</string>
+  <string name="tutorial_welcome_title">Welcome to Email</string>
+  <string name="tutorial_welcome_subtitle">Smarter. Faster. Tailored. Email.</string>
+  <string name="tutorial_page1_title">Custom Swipes</string>
+  <string name="tutorial_page1_subtitle">Customize your swipe actions and build your own experience.</string>
+  <string name="tutorial_page2_title">Bulk Actions</string>
+  <string name="tutorial_page2_subtitle">Our bulk select feature is the fastest way to manage your inbox.</string>
+  <string name="tutorial_page3_title">Action Grid</string>
+  <string name="tutorial_page3_subtitle">Powerful integrations and functionality at the tap of a button.</string>
+  <string name="tutorial_skip_button">Skip</string>
   <string name="tutorial_done_button">Done</string>
+  <string name="message_send_failed_ticker">Message sending failed</string>
+  <string name="message_send_failed_title">Message not sent</string>
+  <string name="preferences_clear_search_history_title">Clear search history</string>
+  <string name="preferences_clear_search_history_summary">Remove all the searches that you\'ve performed</string>
+  <string name="search_history_cleared">Search history cleared.</string>
+  <string name="update_available_ticker">There is an update available for Email</string>
+  <string name="update_availalable_title">An update is available</string>
+  <string name="update_available_content">Tap to install update</string>
+  <string name="preferences_security_title">Security</string>
+  <string name="preference_disable_screenshots">Disable screenshots</string>
+  <string name="preference_disable_screenshots_summary">Prevent other apps from capturing screenshots of app screens</string>
+  <string name="preference_allow_insecure_attachments_title">Allow insecure attachments</string>
+  <string name="preference_allow_insecure_attachments_summary">Allow viewing or saving insecure attachments</string>
+  <string name="custom_perms_dialog_title">Duplicate permissions</string>
+  <string name="custom_perms_dialog_msg">Another application may be attempting to collect your personal information.\n\n<xliff:g id="content">%s</xliff:g>\n\nPlease contact Boxer support for help.</string>
+  <plurals name="custom_perms_dialog_app_violation">
+    <item quantity="one"><xliff:g id="app_name">(%s)</xliff:g> redefines permission: <xliff:g id="permissions_list">%s</xliff:g></item>
+    <item quantity="other"><xliff:g id="app_name">(%s)</xliff:g> redefines permissions: <xliff:g id="permissions_list">%s</xliff:g></item>
+  </plurals>
+  <string name="custom_perms_pos_btn">Report</string>
 </resources>

@@ -103,5 +103,5 @@
     <item quantity="one"><xliff:g id="app_name">(%s)</xliff:g> baimena birdefinitzen du: <xliff:g id="permissions_list">%s</xliff:g></item>
     <item quantity="other"><xliff:g id="app_name">(%s)</xliff:g> baimenak birdefinitzen ditu: <xliff:g id="permissions_list">%s</xliff:g></item>
   </plurals>
-  <string name="custom_perms_pos_btn">Salatu</string>
+  <string name="custom_perms_pos_btn">Jakitera eman</string>
 </resources>

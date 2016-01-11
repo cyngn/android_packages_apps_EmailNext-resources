@@ -57,7 +57,7 @@
   <string name="general_preference_mark_archive_messages_read_description">Mesajları arşivlemeden önce okundu olarak işaretle</string>
   <string name="general_pref_notifications_use_combined_inbox">Bildirimler birleşik gelen kutusunu açsın</string>
   <string name="general_pref_notifications_use_combined_inbox_desc">Bildirime dokunmak, o hesabın gelen kutusu yerine birleşik gelen kutusunu açar</string>
-  <string name="search_hint">E-postada ara</string>
+  <string name="search_hint">Ara\u2026</string>
   <string name="oauth_authentication_title">Kimlik doğrulama isteniyor</string>
   <string name="sign_in_title">Oturum aç</string>
   <string name="sign_in_button">Tamam</string>

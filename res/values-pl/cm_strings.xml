@@ -55,6 +55,8 @@
   <string name="account_settings_label_title">Etykieta</string>
   <string name="general_preference_mark_archive_messages_read">Archiwizuj jako przeczytane</string>
   <string name="general_preference_mark_archive_messages_read_description">Oznacz e-maile jako przeczytane przez ich archiwizacją</string>
+  <string name="general_pref_notifications_use_combined_inbox">Powiadomienia otwierają scaloną skrzynkę odbiorczą</string>
+  <string name="general_pref_notifications_use_combined_inbox_desc">Po dotknięciu powiadomienia zostaje otwarta scalona skrzynka odbiorcza zamiast skrzynki danego konta</string>
   <string name="search_hint">Wyszukaj\u2026</string>
   <string name="oauth_authentication_title">Żądanie autoryzacji</string>
   <string name="sign_in_title">Zaloguj się</string>

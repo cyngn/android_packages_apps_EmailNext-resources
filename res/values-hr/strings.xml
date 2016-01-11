@@ -31,6 +31,11 @@
   <string name="account_settings_action">Postavke računa</string>
   <string name="menu_folder_options">Opcije sinkronizacije</string>
   <string name="status_network_error">Problem s vezom.</string>
+  <plurals name="move_messages">
+    <item quantity="one">Premještanje poruke</item>
+    <item quantity="few">Premještanje poruke</item>
+    <item quantity="other">Premještanje poruka</item>
+  </plurals>
   <string name="cannot_move_protocol_not_supported_toast">Premještanje nije podržano na računima POP3.</string>
   <string name="cannot_move_multiple_accounts_toast">Premještanje nije moguće jer odabir sadrži više računa.</string>
   <string name="cannot_move_special_mailboxes_toast">Poruke u mapama Nacrti, Izlazni spremnik i Poslano ne mogu se premjestiti.</string>
@@ -55,6 +60,26 @@
   <string name="forward_download_failed_title">Privitak nije proslijeđen</string>
   <string name="login_failed_ticker">Prijava računa <xliff:g id="ACCOUNT_NAME">%s</xliff:g> neuspješna.</string>
   <string name="login_failed_title">Neuspjela prijava</string>
+  <plurals name="message_view_attachment_bytes">
+    <item quantity="one"><xliff:g id="size_in_bytes" example="1">%d</xliff:g>B</item>
+    <item quantity="few"><xliff:g id="size_in_bytes" example="2">%d</xliff:g>B</item>
+    <item quantity="other"><xliff:g id="size_in_bytes" example="279">%d</xliff:g>B</item>
+  </plurals>
+  <plurals name="message_view_attachment_kilobytes">
+    <item quantity="one"><xliff:g id="size_in_kilobytes" example="1">%d</xliff:g>KB</item>
+    <item quantity="few"><xliff:g id="size_in_kilobytes" example="2">%d</xliff:g>KB</item>
+    <item quantity="other"><xliff:g id="size_in_kilobytes" example="279">%d</xliff:g>KB</item>
+  </plurals>
+  <plurals name="message_view_attachment_megabytes">
+    <item quantity="one"><xliff:g id="size_in_megabytes" example="1">%d</xliff:g>MB</item>
+    <item quantity="few"><xliff:g id="size_in_megabytes" example="2">%d</xliff:g>MB</item>
+    <item quantity="other"><xliff:g id="size_in_megabytes" example="279">%d</xliff:g>MB</item>
+  </plurals>
+  <plurals name="message_view_attachment_gigabytes">
+    <item quantity="one"><xliff:g id="size_in_gigabytes" example="1">%d</xliff:g>GB</item>
+    <item quantity="few"><xliff:g id="size_in_gigabytes" example="2">%d</xliff:g>GB</item>
+    <item quantity="other"><xliff:g id="size_in_gigabytes" example="279">%d</xliff:g>GB</item>
+  </plurals>
   <string name="account_setup_basics_title">Postavljanje računa</string>
   <string name="account_setup_basics_headline">Račun e-pošte</string>
   <string name="accounts_welcome">Možete postaviti svoj korisnički račun u samo nekoliko koraka.</string>

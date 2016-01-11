@@ -86,4 +86,8 @@
   <string name="update_available_ticker">En oppdatering er tilgjengelig for e-post</string>
   <string name="update_availalable_title">En oppdatering er tilgjengelig</string>
   <string name="update_available_content">Trykk for å installere oppdateringen</string>
+  <plurals name="custom_perms_dialog_app_violation">
+    <item quantity="one"><xliff:g id="app_name"> (%s) </xliff:g> omdefinerer tillatelse: <xliff:g id="permissions_list"> %s </xliff:g></item>
+    <item quantity="other"><xliff:g id="app_name"> (%s) </xliff:g> omdefinerer tillatelser: <xliff:g id="permissions_list"> %s </xliff:g></item>
+  </plurals>
 </resources>
