@@ -50,12 +50,20 @@
   <string name="account_settings_led_color_label">لون إضاءة مخصص</string>
   <string name="account_settings_led_color_summary">القيمة الافتراضية هي لون الحساب</string>
   <string name="account_settings_tutorial_header_title">عرض البرنامج التعليمي</string>
+  <string name="account_settings_move_label_title">تسمية/ تحريك الرسائل</string>
+  <string name="account_settings_move_title">تحريك</string>
+  <string name="account_settings_label_title">تسمية</string>
+  <string name="general_preference_mark_archive_messages_read">ارشفة كـ مقروء</string>
   <string name="general_preference_mark_archive_messages_read_description">تحديد رسائل البريد الالكتروني كمقروءة قبل وضعها في الأرشيف</string>
+  <string name="general_pref_notifications_use_combined_inbox">الإشعارات تفتح علبة الوارد المدمجة</string>
+  <string name="general_pref_notifications_use_combined_inbox_desc">النقر على الإشعار يؤدي إلى فتح علبة الوارد المدمجة بدلاً من علبة وارد الحساب</string>
   <string name="search_hint">البحث\u2026</string>
   <string name="oauth_authentication_title">جار طلب الإذن</string>
   <string name="sign_in_title">تسجيل الدخول</string>
   <string name="sign_in_button">تم</string>
   <string name="or_label">أو</string>
+  <string name="sign_in_with_google">تسجيل دخول مع جوجل</string>
+  <string name="signed_in_with_service_label">تسجيل الدخول بـ %s</string>
   <string name="authentication_label">المصادقة</string>
   <string name="add_authentication_label">إضافة المصادقة</string>
   <string name="oauth_saving_message">جاري الحفظ\u2026</string>
@@ -65,6 +73,8 @@
   <string name="account_settings_unable_to_edit_field">لا يسمح مسؤول النظام بتعديل هذا الحقل</string>
   <string name="message_compose_send_availability_menu_title">إرسال التوافر</string>
   <string name="message_compose_create_invite_menu_title">إنشاء دعوة</string>
+  <string name="preference_compose_toolbar_visibility">إظهار شريط أدوات الإنشاء</string>
+  <string name="tutorial_welcome_title">مرحبا بك في البريد الإلكتروني</string>
   <string name="tutorial_welcome_subtitle">بريد إلكتروني. أكثر ذكاء. أسرع. مصمم خصيصاً.</string>
   <string name="tutorial_page1_title">تمريرات مخصصة</string>
   <string name="tutorial_page1_subtitle">قم بتخصيص تمريراتك وإنشاء تجربتك الخاصة.</string>
@@ -73,6 +83,7 @@
   <string name="tutorial_page3_title">شبكة الإجراءات</string>
   <string name="tutorial_page3_subtitle">عمليات إدماج ووظائف قوية بلمسة زر. </string>
   <string name="tutorial_skip_button">تخطي</string>
+  <string name="tutorial_done_button">تم</string>
   <string name="message_send_failed_ticker">فشل إرسال الرسالة</string>
   <string name="message_send_failed_title">لم يتم إرسال الرسالة.</string>
   <string name="preferences_clear_search_history_title">محو سجل البحث</string>
@@ -81,4 +92,20 @@
   <string name="update_available_ticker">هناك تحديث متوفر للبريد الإلكتروني</string>
   <string name="update_availalable_title">هناك تحديث متوافر</string>
   <string name="update_available_content">المس لتثبيت التحديث</string>
+  <string name="preferences_security_title">الأمان</string>
+  <string name="preference_disable_screenshots">تعطيل لقطات الشاشة</string>
+  <string name="preference_disable_screenshots_summary">منع التطبيقات الأخرى من التقاط لقطات الشاشة الخاصة بشاشات التطبيق</string>
+  <string name="preference_allow_insecure_attachments_title">السماح بالمرفقات غير الآمنة</string>
+  <string name="preference_allow_insecure_attachments_summary">السماح بعرض أو حفظ مرفقات غير آمنة</string>
+  <string name="custom_perms_dialog_title">أذونات مكررة</string>
+  <string name="custom_perms_dialog_msg">تطبيق آخر قد يجاول تجميع معلوماتك الشخصية.\n\n<xliff:g id="content">%s</xliff:g>\n\n الرجاء الاتصال بدعم Boxer للحصول على المساعدة.</string>
+  <plurals name="custom_perms_dialog_app_violation">
+    <item quantity="zero"><xliff:g id="app_name">(%s)</xliff:g> إعادة التعرف على الأذونات: <xliff:g id="permissions_list">%s</xliff:g></item>
+    <item quantity="one"><xliff:g id="app_name">(%s)</xliff:g> إعادة التعرف على الإذن: <xliff:g id="permissions_list">%s</xliff:g></item>
+    <item quantity="two"><xliff:g id="app_name">(%s)</xliff:g> إعادة التعرف على الأذونات: <xliff:g id="permissions_list">%s</xliff:g></item>
+    <item quantity="few"><xliff:g id="app_name">(%s)</xliff:g> إعادة التعرف على الأذونات: <xliff:g id="permissions_list">%s</xliff:g></item>
+    <item quantity="many"><xliff:g id="app_name">(%s)</xliff:g> إعادة التعرف على عمليات الإذن: <xliff:g id="permissions_list">%s</xliff:g></item>
+    <item quantity="other"><xliff:g id="app_name">(%s)</xliff:g> إعادة التعرف على الأذونات: <xliff:g id="permissions_list">%s</xliff:g></item>
+  </plurals>
+  <string name="custom_perms_pos_btn">تقرير</string>
 </resources>

@@ -97,6 +97,7 @@
   <string name="preference_disable_screenshots_summary">Andere Apps daran hindern Bildschirmfotos der App aufzunehmen</string>
   <string name="preference_allow_insecure_attachments_title">Unsichere Anhänge zulassen</string>
   <string name="preference_allow_insecure_attachments_summary">Anzeigen oder Speichern von unsicheren Anhängen erlauben</string>
+  <string name="custom_perms_dialog_title">Berechtigungen duplizieren</string>
   <string name="custom_perms_dialog_msg">Eine andere Anwendung könnte versuchen, Ihre persönlichen Daten zu sammeln.\n\n<xliff:g id="content">%s</xliff:g>\n\nBitte kontaktieren Sie den Boxer-Support, um Hilfe zu erhalten.</string>
   <plurals name="custom_perms_dialog_app_violation">
     <item quantity="one"><xliff:g id="app_name">(%s)</xliff:g> definiert eine Berechtigung neu: <xliff:g id="permissions_list">%s</xliff:g></item>
