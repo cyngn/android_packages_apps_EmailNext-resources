@@ -50,9 +50,13 @@
   <string name="account_settings_led_color_label">Egendefinert LED farge</string>
   <string name="account_settings_led_color_summary">Standardverdien er konto fargen</string>
   <string name="account_settings_tutorial_header_title">Vis opplæring</string>
+  <string name="account_settings_move_label_title">Etikett eller flytte meldinger</string>
   <string name="account_settings_move_title">Flytt</string>
+  <string name="account_settings_label_title">Etikett</string>
   <string name="general_preference_mark_archive_messages_read">Arkiver som lest</string>
   <string name="general_preference_mark_archive_messages_read_description">Merk eposter som lest før de blir arkivert</string>
+  <string name="general_pref_notifications_use_combined_inbox">Varsler åpne kombinert innboks</string>
+  <string name="general_pref_notifications_use_combined_inbox_desc">Trykke et varsel åpnes kombinert innboksen i stedet for kontoens innboksen</string>
   <string name="search_hint">Søk i e-post</string>
   <string name="oauth_authentication_title">Ber om godkjenning</string>
   <string name="sign_in_title">logg inn</string>
@@ -69,6 +73,8 @@
   <string name="account_settings_unable_to_edit_field">Systemansvarlig tillater ikke at dette feltet endres</string>
   <string name="message_compose_send_availability_menu_title">Send tilgjengelighet</string>
   <string name="message_compose_create_invite_menu_title">Opprett invitasjon</string>
+  <string name="preference_compose_toolbar_visibility">Vis komponere verktøylinjen</string>
+  <string name="tutorial_welcome_title">Velkommen til e-post</string>
   <string name="tutorial_welcome_subtitle">Smartere, raskere og skreddersydd e-post.</string>
   <string name="tutorial_page1_title">Tilpassede sveip</string>
   <string name="tutorial_page1_subtitle">Tilpass sveipehandlingene dine og lag din egen opplevelse.</string>
@@ -86,8 +92,16 @@
   <string name="update_available_ticker">En oppdatering er tilgjengelig for e-post</string>
   <string name="update_availalable_title">En oppdatering er tilgjengelig</string>
   <string name="update_available_content">Trykk for å installere oppdateringen</string>
+  <string name="preferences_security_title">Sikkerhet</string>
+  <string name="preference_disable_screenshots">Deaktivere skjermbilder</string>
+  <string name="preference_disable_screenshots_summary">Hindre andre programmer i å fange skjermbilder av app-skjermer</string>
+  <string name="preference_allow_insecure_attachments_title">Tillat usikre vedlegg</string>
+  <string name="preference_allow_insecure_attachments_summary">Tillate visning eller lagre usikre vedlegg</string>
+  <string name="custom_perms_dialog_title">Kopiere tillatelser</string>
+  <string name="custom_perms_dialog_msg">Et annet program prøver kanskje å samle din personlige information.\n\n <xliff:g id="content">%s </xliff:g> \n\nPlease kontakt Boxer støtte for hjelp.</string>
   <plurals name="custom_perms_dialog_app_violation">
     <item quantity="one"><xliff:g id="app_name"> (%s) </xliff:g> omdefinerer tillatelse: <xliff:g id="permissions_list"> %s </xliff:g></item>
     <item quantity="other"><xliff:g id="app_name"> (%s) </xliff:g> omdefinerer tillatelser: <xliff:g id="permissions_list"> %s </xliff:g></item>
   </plurals>
+  <string name="custom_perms_pos_btn">Rapportér</string>
 </resources>

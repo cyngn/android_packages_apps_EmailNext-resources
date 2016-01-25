@@ -16,9 +16,9 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="permission_read_attachment_label">Branje e-poštnih prilog</string>
-  <string name="permission_read_attachment_desc">Dovoli temu programu branje e-poštnih prilog.</string>
+  <string name="permission_read_attachment_desc">Dovoli tej aplikaciji branje e-poštnih prilog.</string>
   <string name="permission_access_provider_label">Dostop do podatkov e-poštnega ponudnika</string>
-  <string name="permission_access_provider_desc">Dovoli programu dostop do vaše e-poštne zbirke podatkov, vključno s prejetimi in poslanimi sporočili, uporabniškimi imeni in gesli.</string>
+  <string name="permission_access_provider_desc">Dovoli aplikaciji dostop do vaše e-poštne zbirke podatkov, vključno s prejetimi in poslanimi sporočili, uporabniškimi imeni in gesli.</string>
   <string name="app_name">E-pošta</string>
   <string name="debug_title">Odpravljanje napak</string>
   <string name="next_action">Naprej</string>
@@ -177,7 +177,7 @@
   <string name="account_setup_security_policies_required_fmt"> Strežniku <xliff:g id="server">%s</xliff:g> morate dovoliti, da na daljavo nadzira nekatere varnostne značilnosti vaše naprave Android. Ali želite dokončati nastavitev tega računa?</string>
   <string name="account_setup_failed_security_policies_unsupported">Za ta strežnik so potrebne varnostne značilnosti, ki jih vaša naprava Android ne podpira: <xliff:g id="error">%s</xliff:g></string>
   <string name="account_setup_username_uneditable_error">Uporabniškega imena za račun ni mogoče spreminjati. Če želite dodati račun z drugim uporabniškim imenom, se dotaknite možnosti »Dodaj račun«.</string>
-  <string name="disable_admin_warning">Opozorilo: Če onemogočite pravico e-poštnega programa za upravljanja naprave, boste izbrisali vse e-poštne račune, ki jo zahtevajo, skupaj z e-pošto, stiki, dogodki koledarja in drugimi podatki.</string>
+  <string name="disable_admin_warning">Opozorilo: Če onemogočite pravico e-poštne aplikacije za upravljanja naprave, boste izbrisali vse e-poštne račune, ki jo zahtevajo, skupaj z e-pošto, stiki, dogodki koledarja in drugimi podatki.</string>
   <string name="account_security_dialog_title">Varnostna posodobitev</string>
   <string name="account_security_dialog_content_fmt">Za račun <xliff:g id="ACCOUNT">%s</xliff:g> morate posodobiti varnostne nastavitve.</string>
   <string name="security_unsupported_ticker_fmt">Računa »<xliff:g id="ACCOUNT">%s</xliff:g>« zaradi varnostnih zahtev ni mogoče sinhronizirati.</string>
@@ -248,7 +248,7 @@
   <string name="mailbox_settings_sync_enabled_summary">Sporočila bodo prenesena, ko bo vzpostavljena povezava</string>
   <string name="mailbox_settings_mailbox_sync_window_label">Sinhronizacija pošte za toliko dni</string>
   <string name="prefDialogTitle_conversationListIcon">Slika pošiljatelja</string>
-  <string name="provider_note_live">Samo nekateri računi »Plus« ponujajo tudi dostop do strežnika POP, da se lahko ta program poveže. Če ste pravilno vnesli svoj e-poštni naslov in geslo, a se ne morete vpisati, morda nimate plačljivega računa »Plus«. Zaženite brskalnik, če želite dostopati do teh e-poštnih računov.</string>
+  <string name="provider_note_live">Samo nekateri računi »Plus« ponujajo tudi dostop do strežnika POP, da se lahko ta aplikacija poveže. Če ste pravilno vnesli svoj e-poštni naslov in geslo, a se ne morete vpisati, morda nimate plačljivega računa »Plus«. Zaženite brskalnik, če želite dostopati do teh e-poštnih računov.</string>
   <string name="system_account_create_failed">Računa ni bilo mogoče ustvariti. Poskusite znova.</string>
   <string name="device_admin_label">E-pošta</string>
   <string name="device_admin_description">Omogoči varnostne pravilnike, ki jih določi strežnik</string>

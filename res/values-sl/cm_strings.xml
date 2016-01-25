@@ -94,11 +94,11 @@
   <string name="update_available_content">Tapnite za namestitev posodobitve</string>
   <string name="preferences_security_title">Varnost</string>
   <string name="preference_disable_screenshots">Onemogoči zaslonske slike</string>
-  <string name="preference_disable_screenshots_summary">Prepreči drugim programom zajem zaslonskih slik zaslonov programov</string>
+  <string name="preference_disable_screenshots_summary">Prepreči drugim aplikacijam zajem zaslonskih slik zaslonov aplikacij</string>
   <string name="preference_allow_insecure_attachments_title">Dovoli nezanesljive priloge</string>
   <string name="preference_allow_insecure_attachments_summary">Dovoli ogled in shranjevanje nezanesljivih prilog</string>
   <string name="custom_perms_dialog_title">Podvojena dovoljenja</string>
-  <string name="custom_perms_dialog_msg">Drug program morda poizkuša zbrati vaše osebne podatke.\n\n<xliff:g id="content">%s</xliff:g>\n\nZa pomoč navežite stik z Boxerjevo podporo.</string>
+  <string name="custom_perms_dialog_msg">Druga aplikacija morda poizkuša zbrati vaše osebne podatke.\n\n<xliff:g id="content">%s</xliff:g>\n\nZa pomoč navežite stik z Boxerjevo podporo.</string>
   <plurals name="custom_perms_dialog_app_violation">
     <item quantity="one"><xliff:g id="app_name">(%s)</xliff:g> ponovno določuje dovoljenje: <xliff:g id="permissions_list">%s</xliff:g></item>
     <item quantity="two"><xliff:g id="app_name">(%s)</xliff:g> ponovno določuje dovoljenji: <xliff:g id="permissions_list">%s</xliff:g></item>

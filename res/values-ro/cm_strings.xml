@@ -73,4 +73,5 @@
   <string name="update_availalable_title">Este disponibilă o actualizare</string>
   <string name="update_available_content">Apăsați pentru a instala actualizarea</string>
   <string name="preferences_security_title">Securitate</string>
+  <string name="custom_perms_pos_btn">Raportați</string>
 </resources>
