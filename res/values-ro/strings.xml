@@ -31,6 +31,11 @@
   <string name="account_settings_action">Setările contului</string>
   <string name="menu_folder_options">Opțiuni de sincronizare</string>
   <string name="status_network_error">Problemă de conexiune.</string>
+  <plurals name="move_messages">
+    <item quantity="one">Mutați mesajul</item>
+    <item quantity="few">Mutați mesajele</item>
+    <item quantity="other">Mutați mesajele</item>
+  </plurals>
   <string name="cannot_move_protocol_not_supported_toast">Mutarea nu este acceptată pentru conturile de tip POP3.</string>
   <string name="cannot_move_multiple_accounts_toast">Nu se poate muta deoarece selecția conține mai multe conturi.</string>
   <string name="cannot_move_special_mailboxes_toast">Mesajele din Mesaje nefinalizate, Mesaje de trimis și Mesaje trimise nu pot fi mutate.</string>
@@ -55,6 +60,26 @@
   <string name="forward_download_failed_title">Ataşamentul nu a fost trimis</string>
   <string name="login_failed_ticker">Conectare eșuată pentru <xliff:g id="account_name">%s</xliff:g>.</string>
   <string name="login_failed_title">Nu s-a putut conecta</string>
+  <plurals name="message_view_attachment_bytes">
+    <item quantity="one"><xliff:g id="size_in_bytes" example="1">%d</xliff:g>B</item>
+    <item quantity="few"><xliff:g id="size_in_bytes" example="279">%d</xliff:g>B</item>
+    <item quantity="other"><xliff:g id="size_in_bytes" example="279">%d</xliff:g>B</item>
+  </plurals>
+  <plurals name="message_view_attachment_kilobytes">
+    <item quantity="one"><xliff:g id="size_in_kilobytes" example="1">%d</xliff:g>KB</item>
+    <item quantity="few"><xliff:g id="size_in_kilobytes" example="279">%d</xliff:g>KB</item>
+    <item quantity="other"><xliff:g id="size_in_kilobytes" example="279">%d</xliff:g>KB</item>
+  </plurals>
+  <plurals name="message_view_attachment_megabytes">
+    <item quantity="one"><xliff:g id="size_in_megabytes" example="1">%d</xliff:g>MB</item>
+    <item quantity="few"><xliff:g id="size_in_megabytes" example="279">%d</xliff:g>MB</item>
+    <item quantity="other"><xliff:g id="size_in_megabytes" example="279">%d</xliff:g>MB</item>
+  </plurals>
+  <plurals name="message_view_attachment_gigabytes">
+    <item quantity="one"><xliff:g id="size_in_gigabytes" example="1">%d</xliff:g>GB</item>
+    <item quantity="few"><xliff:g id="size_in_gigabytes" example="279">%d</xliff:g>GB</item>
+    <item quantity="other"><xliff:g id="size_in_gigabytes" example="279">%d</xliff:g>GB</item>
+  </plurals>
   <string name="account_setup_basics_title">Configurare cont</string>
   <string name="account_setup_basics_headline">Cont de e-mail</string>
   <string name="accounts_welcome">Puteți configura contul dvs. în doar câțiva pași.        </string>
