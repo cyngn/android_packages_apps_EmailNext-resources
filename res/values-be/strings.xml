@@ -31,6 +31,11 @@
   <string name="account_settings_action">Налады ўліковага запісу</string>
   <string name="menu_folder_options">Параметры сінхранізацыі</string>
   <string name="status_network_error">Праблема злучэння.</string>
+  <plurals name="move_messages">
+    <item quantity="one">Перамясціць паведамленне</item>
+    <item quantity="few">Перанесці паведамленні</item>
+    <item quantity="other">Перанесці паведамленні</item>
+  </plurals>
   <string name="cannot_move_protocol_not_supported_toast">Перамяшчэнне не падтрымліваецца ўліковымі запісамі з падтрымкай пратаколу POP3.</string>
   <string name="cannot_move_multiple_accounts_toast">Немагчыма перанесці. Выбрана некалькі ўліковых запісаў.</string>
   <string name="cannot_move_special_mailboxes_toast">Нельга перамяшчаць паведамленні ў тэчках \"Чарнавікі\", \"Зыходныя\" і \"Адпраўленыя\".</string>
@@ -39,6 +44,7 @@
   <string name="mailbox_name_display_trash">Кошык</string>
   <string name="mailbox_name_display_sent">Дасланыя</string>
   <string name="mailbox_name_display_junk">Непажаданыя</string>
+  <string name="mailbox_name_display_starred">Пазначаныя</string>
   <string name="mailbox_name_display_unread">Непрачытана</string>
   <string name="account_folder_list_summary_inbox">Уваходныя</string>
   <string name="account_folder_list_summary_starred">Пазначаныя</string>
@@ -46,6 +52,7 @@
   <string name="account_folder_list_summary_outbox">Выходныя</string>
   <string name="message_compose_fwd_header_fmt">\n\n\" -------- Зыходнае паведамленне -------- \nТэма: <xliff:g id="SUBJECT">%1$s</xliff:g>\n Ад: <xliff:g id="SENDER">%2$s</xliff:g>\n Каму: <xliff:g id="TO">%3$s</xliff:g>\n CC: <xliff:g id="CC_0">%4$s</xliff:g>\n\n\"</string>
   <string name="message_compose_insert_quick_response_list_title">Уставіць хуткі адказ</string>
+  <string name="message_compose_insert_quick_response_menu_title">Уставіць хуткі адказ</string>
   <string name="message_view_attachment_background_load">Адзін або некалькі далучаных файлаў у пераадрасаваным паведамленні будуць перад адпраўкай спампаваны.</string>
   <string name="attachment_not_found">Не атрымалася спампаваць далучаны файл.</string>
   <string name="message_decode_error">Памылка расшыфравання паведамлення.</string>
@@ -53,6 +60,26 @@
   <string name="forward_download_failed_title">Далуч. файлы не перасылаюцца</string>
   <string name="login_failed_ticker">Няўдалы ўваход з уліковага запісу <xliff:g id="ACCOUNT_NAME">%s</xliff:g>.</string>
   <string name="login_failed_title">Не атрымалася ўвайсці</string>
+  <plurals name="message_view_attachment_bytes">
+    <item quantity="one"><xliff:g id="SIZE_IN_BYTES">%d</xliff:g> Б</item>
+    <item quantity="few"><xliff:g id="SIZE_IN_BYTES">%d</xliff:g> байт</item>
+    <item quantity="other"><xliff:g id="size_in_bytes" example="279">%d</xliff:g> байт</item>
+  </plurals>
+  <plurals name="message_view_attachment_kilobytes">
+    <item quantity="one"><xliff:g id="SIZE_IN_KILOBYTES">%d</xliff:g> Кб</item>
+    <item quantity="few"><xliff:g id="SIZE_IN_KILOBYTES">%d</xliff:g> Кб</item>
+    <item quantity="other"><xliff:g id="size_in_kilobytes" example="279">%d</xliff:g>Кб</item>
+  </plurals>
+  <plurals name="message_view_attachment_megabytes">
+    <item quantity="one"><xliff:g id="SIZE_IN_MEGABYTES">%d</xliff:g> Мб</item>
+    <item quantity="few"><xliff:g id="SIZE_IN_MEGABYTES">%d</xliff:g> МБ</item>
+    <item quantity="other"><xliff:g id="size_in_megabytes" example="279">%d</xliff:g>Мб</item>
+  </plurals>
+  <plurals name="message_view_attachment_gigabytes">
+    <item quantity="one"><xliff:g id="SIZE_IN_GIGABYTES">%d</xliff:g> Гб</item>
+    <item quantity="few"><xliff:g id="SIZE_IN_GIGABYTES">%d</xliff:g> Гб</item>
+    <item quantity="other"><xliff:g id="size_in_gigabytes" example="279">%d</xliff:g>Гб</item>
+  </plurals>
   <string name="account_setup_basics_title">Усталяванне ўліковага запісу</string>
   <string name="account_setup_basics_headline">Уліковы запіс электроннай пошты</string>
   <string name="accounts_welcome">Вы можаце зарэгістраваць свой уліковы запіс усяго за некалькі крокаў.</string>
@@ -117,9 +144,17 @@
   <string name="account_setup_failed_dlg_title">Не атрымалася скончыць</string>
   <string name="account_setup_options_mail_window_label">Дні для сінхранізацыі</string>
   <string name="account_setup_options_mail_window_auto">Аўтаматычна</string>
+  <string name="account_setup_options_mail_window_1day">Апошні дзень</string>
+  <string name="account_setup_options_mail_window_3days">Апошнія 3 дні</string>
+  <string name="account_setup_options_mail_window_1week">Апошні тыдзень</string>
+  <string name="account_setup_options_mail_window_2weeks">Апошнія 2 тыдня</string>
+  <string name="account_setup_options_mail_window_1month">Апошні месяц</string>
   <string name="account_setup_options_mail_window_all">Усе</string>
+  <string name="account_setup_options_mail_window_default">Налады па змаўчанні</string>
   <string name="account_setup_failed_dlg_auth_message">Няправiльны пароль цi iмя карыстальнiка.</string>
   <string name="account_setup_failed_dlg_auth_message_fmt">Памылка ўваходу.\n(<xliff:g id="ERROR">%s</xliff:g>)</string>
+  <string name="account_setup_autodiscover_dlg_authfail_title">Памылка</string>
+  <string name="account_setup_autodiscover_dlg_authfail_message">Пераканаецеся, што імя карыстальніка, пароль і параметры акаўнта паказаны правільна.</string>
   <string name="account_setup_failed_dlg_certificate_message">Не атрымлiваецца ўсталяваць бяспечнае злучэнне з серверам.</string>
   <string name="account_setup_failed_dlg_certificate_message_fmt">Не атрымліваецца ўсталяваць бяспечнае злучэнне з серверам.\n(<xliff:g id="ERROR">%s</xliff:g>)</string>
   <string name="account_setup_failed_certificate_required">Патрабуецца сертыфікат кліента. Жадаеце падключыцца да сервера з сертыфікатам кліента?</string>
@@ -166,6 +201,7 @@
   <string name="account_settings_notify_label">Апавяшчэннi па электроннай пошце</string>
   <string name="account_settings_summary">Сінхранізаваць частату, паведамленні і г. д.</string>
   <string name="account_settings_notify_summary">Дасылаць апавяшчэнне пры атрыманні электроннай пошты</string>
+  <string name="account_settings_mail_check_frequency_label">Частасць сінхранізацыі</string>
   <string name="account_settings_incoming_label">Уваходныя налады</string>
   <string name="account_settings_incoming_summary">Імя карыстальніка, пароль і іншыя налады сервера ўвах. паведамл.</string>
   <string name="account_settings_outgoing_label">Выходныя налады</string>
@@ -190,6 +226,7 @@
   <string name="system_folders_sent_title">Адпраўленыя тэчкi</string>
   <string name="system_folders_sent_summary">Выберыце на серверы тэчку з адпраўленымi элементамi</string>
   <string name="system_folders_sent_dlg">Выберыце тэчку з адпраўленымi элементамi</string>
+  <string name="edit_quick_response_dialog">Хуткі адказ</string>
   <string name="save_action">Захаваць</string>
   <string name="account_settings_sync_contacts_enable">Сінхранізаваць кантакты</string>
   <string name="account_settings_sync_contacts_summary">Сінх. кантактаў для гэтага ўл. зап.</string>
@@ -202,6 +239,9 @@
   <string name="account_settings_servers">Налады сервера</string>
   <string name="mailbox_settings_activity_title">Параметры сінхранізацыі</string>
   <string name="mailbox_settings_activity_title_with_mailbox"> Параметры сінхранізацыi( <xliff:g id="MAILBOXX_NAME">%s</xliff:g> )</string>
+  <string name="mailbox_settings_sync_enabled_label">Сінхранізаваць гэту тэчку</string>
+  <string name="mailbox_settings_sync_enabled_summary">Загружаць паведамленні пры падлучэнні да сеціва</string>
+  <string name="mailbox_settings_mailbox_sync_window_label">Перыяд сінхранізацыі</string>
   <string name="prefDialogTitle_conversationListIcon">Выява адпраўнiка</string>
   <string name="provider_note_live">Толькі некаторыя ўліковыя запісы Google Plus маюць доступ да пратаколу POP, які дазваляе падключэнне гэтай праграме. Калі не атрымліваецца ўвайсці ў сістэму з правільным адрасам электроннай пошты і паролем, магчыма, уліковы запіс Plus не аплачаны. Запусціце вэб-браўзэр, каб атрымаць доступ да гэтых уліковых запісаў.</string>
   <string name="system_account_create_failed">Не атрымалася стварыць уліковы запіс. Паспрабуйце яшчэ раз.</string>

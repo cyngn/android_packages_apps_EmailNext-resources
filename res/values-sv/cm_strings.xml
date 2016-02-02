@@ -54,6 +54,7 @@
   <string name="account_settings_label_title">Etikett</string>
   <string name="general_preference_mark_archive_messages_read">Arkivera som läst</string>
   <string name="general_preference_mark_archive_messages_read_description">Markera e-posten som läst innan den arkiveras</string>
+  <string name="general_pref_notifications_use_combined_inbox">Aviseringar öppnar kombinerad inkorg</string>
   <string name="search_hint">Sök efter e-post</string>
   <string name="oauth_authentication_title">Begär tillstånd</string>
   <string name="sign_in_title">Logga in</string>
@@ -70,6 +71,7 @@
   <string name="account_settings_unable_to_edit_field">Din administratör tillåter inte att detta fält ändras</string>
   <string name="message_compose_send_availability_menu_title">Sänd tillgänglighet</string>
   <string name="message_compose_create_invite_menu_title">Skapa inbjudan</string>
+  <string name="tutorial_welcome_title">Välkommen till e-post</string>
   <string name="tutorial_welcome_subtitle">Smartare. Snabbare. Skräddarsydd. E-post.</string>
   <string name="tutorial_page1_title">Anpassade svep</string>
   <string name="tutorial_page1_subtitle">Anpassa dina svep och bygg din egen upplevelse.</string>
@@ -88,5 +90,8 @@
   <string name="update_availalable_title">En uppdatering är tillgänglig</string>
   <string name="update_available_content">Tryck för att installera uppdateringen</string>
   <string name="preferences_security_title">Säkerhet</string>
+  <string name="preference_disable_screenshots">Inaktivera skärmdumpar</string>
+  <string name="preference_allow_insecure_attachments_summary">Tillåt att osäkra bifogade filer visas eller sparas</string>
+  <string name="custom_perms_dialog_title">Duplicera behörigheter</string>
   <string name="custom_perms_pos_btn">Rapportera</string>
 </resources>
