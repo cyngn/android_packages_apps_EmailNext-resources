@@ -77,7 +77,7 @@
   </plurals>
   <string name="account_setup_basics_title">Настройка на профила</string>
   <string name="account_setup_basics_headline">Имейл профил</string>
-  <string name="accounts_welcome">Можете да настроите профила си само с няколко стъпки.</string>
+  <string name="accounts_welcome">Настройте профила си само с няколко стъпки.        </string>
   <string name="account_setup_basics_email_label">Имейл адрес</string>
   <string name="account_setup_basics_manual_setup_action">Ръчна настройка</string>
   <string name="account_setup_username_password_toast">Въведете валиден имейл адрес и парола.</string>
@@ -210,7 +210,7 @@
   <string name="account_settings_description_label">Име на профила</string>
   <string name="account_settings_name_label">Името ви</string>
   <string name="account_settings_edit_quick_responses_label">Бързи отговори</string>
-  <string name="account_settings_edit_quick_responses_summary">Редактиране на текст, който често вмъквате при писане на имейл</string>
+  <string name="account_settings_edit_quick_responses_summary">Използвайте шаблони за стандартни отговори</string>
   <string name="account_settings_notifications">Настройки за известия</string>
   <string name="account_settings_data_usage">Използване на данни</string>
   <string name="account_settings_policies">Правила за сигурност</string>

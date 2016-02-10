@@ -37,7 +37,7 @@
   </plurals>
   <string name="cannot_move_protocol_not_supported_toast">Verschieben wird für POP3-Konten nicht unterstützt.</string>
   <string name="cannot_move_multiple_accounts_toast">Verschieben nicht möglich, weil mehrere Konten ausgewählt wurden.</string>
-  <string name="cannot_move_special_mailboxes_toast">Nachrichten im Postausgang und den Ordnern \"Entwürfe\" und \"Gesendet\" können nicht verschoben werden.</string>
+  <string name="cannot_move_special_mailboxes_toast">Nachrichten im Postausgang und in den Ordnern \"Entwürfe\" und \"Gesendet\" können nicht verschoben werden.</string>
   <string name="mailbox_name_display_inbox">Posteingang</string>
   <string name="mailbox_name_display_outbox">Postausgang</string>
   <string name="mailbox_name_display_trash">Papierkorb</string>
@@ -84,10 +84,10 @@
   <string name="account_duplicate_dlg_title">Identisches Konto</string>
   <string name="account_duplicate_dlg_message_fmt">Sie verwenden diesen Nutzernamen bereits für das Konto \"<xliff:g id="DUPLICATE">%s</xliff:g>\".</string>
   <string name="account_password_spaces_error">Dieses Passwort beginnt oder endet mit einem oder mehreren Leerzeichen. Viele Server unterstützen keine Passwörter mit Leerzeichen.</string>
-  <string name="account_setup_check_settings_retr_info_msg">Kontoinformationen werden abgerufen...</string>
-  <string name="account_setup_check_settings_check_incoming_msg">Servereinstellungen werden überprüft…</string>
-  <string name="account_setup_check_settings_check_outgoing_msg">SMTP-Einstellungen werden überprüft…</string>
-  <string name="account_setup_creating_account_msg">Konto wird erstellt…</string>
+  <string name="account_setup_check_settings_retr_info_msg">Kontoinformationen werden abgerufen\u2016</string>
+  <string name="account_setup_check_settings_check_incoming_msg">Servereinstellungen werden überprüft\u2016</string>
+  <string name="account_setup_check_settings_check_outgoing_msg">SMTP-Einstellungen werden überprüft\u2016</string>
+  <string name="account_setup_creating_account_msg">Konto wird erstellt\u2016</string>
   <string name="account_setup_names_title">Kontoeinrichtung</string>
   <string name="account_setup_names_headline">Das Konto ist jetzt eingerichtet und die E-Mail ist unterwegs.</string>
   <string name="account_setup_names_account_name_label">Konto benennen (optional)</string>
@@ -169,9 +169,9 @@
   <string name="account_setup_username_uneditable_error">Sie können Nutzernamen von Konten nicht ändern. Wählen Sie \"Konto hinzufügen\" aus, um ein Konto mit einem anderen Nutzernamen hinzuzufügen.</string>
   <string name="disable_admin_warning">Warnung: Wenn Sie die Berechtigung der E-Mail-App zur Verwaltung Ihres Geräts deaktivieren, werden alle E-Mail-Konten, die diese Berechtigung benötigen, mit allen zugehörigen E-Mails, Kontakten, Terminen und anderen Daten gelöscht.</string>
   <string name="account_security_dialog_title">Sicherheitsupdate</string>
-  <string name="account_security_dialog_content_fmt"><xliff:g id="ACCOUNT">%s</xliff:g> erfordert, dass Sie Ihre Sicherheitseinstellungen aktualisieren.</string>
+  <string name="account_security_dialog_content_fmt"><xliff:g id="account">%s</xliff:g> erfordert, dass Sie Ihre Sicherheitseinstellungen aktualisieren.</string>
   <string name="security_unsupported_ticker_fmt">Das Konto \"<xliff:g id="ACCOUNT">%s</xliff:g>\" kann aufgrund von Sicherheitsanforderungen nicht synchronisiert werden.</string>
-  <string name="security_needed_ticker_fmt">Für das Konto \"<xliff:g id="ACCOUNT">%s</xliff:g>\" müssen die Sicherheitseinstellungen aktualisiert werden.</string>
+  <string name="security_needed_ticker_fmt">Für das Konto \"<xliff:g id="account">%s</xliff:g>\" müssen die Sicherheitseinstellungen aktualisiert werden.</string>
   <string name="security_changed_ticker_fmt">Die Sicherheitseinstellungen des Kontos \"<xliff:g id="ACCOUNT">%s</xliff:g>\" haben sich geändert. Es sind keine Maßnahmen durch den Nutzer erforderlich.</string>
   <string name="security_notification_content_update_title">Sicherheitsupdate erforderlich</string>
   <string name="security_notification_content_change_title">Richtlinien wurden geändert.</string>
@@ -189,8 +189,8 @@
   <string name="password_expired_dialog_content_fmt">Die Daten für <xliff:g id="ACCOUNT">%s</xliff:g> werden von Ihrem Gerät gelöscht. Sie können die Daten wiederherstellen, indem Sie Ihre PIN für die Display-Sperre oder Ihr Passwort ändern. Möchten Sie die PIN oder das Passwort jetzt ändern?</string>
   <string name="account_settings_exit_server_settings">Nicht gespeicherte Änderungen verwerfen?</string>
   <string name="account_settings_login_dialog_title">Anmeldung nicht möglich</string>
-  <string name="account_settings_login_dialog_content_fmt">Nutzername oder Passwort für <xliff:g id="ACCOUNT">%s</xliff:g> ist falsch. Möchten Sie die Daten jetzt ändern?</string>
-  <string name="account_settings_login_dialog_reason_fmt">Fehler bei Ihrer Anmeldung in <xliff:g id="ACCOUNT">%s</xliff:g>, Servermeldung: <xliff:g id="REASON">%s</xliff:g>. Möchten Sie Ihren Nutzernamen und/oder Ihr Passwort aktualisieren?</string>
+  <string name="account_settings_login_dialog_content_fmt">Nutzername oder Passwort für <xliff:g id="account">%s</xliff:g> ist falsch. Möchten Sie die Daten jetzt ändern?</string>
+  <string name="account_settings_login_dialog_reason_fmt">Fehler bei Ihrer Anmeldung in <xliff:g id="account">%s</xliff:g>, Servermeldung: <xliff:g id="reason">%s</xliff:g>. Möchten Sie Ihren Nutzernamen und/oder Ihr Passwort aktualisieren?</string>
   <string name="account_settings_background_attachments_label">Anhänge herunterladen</string>
   <string name="account_settings_background_attachments_summary">Anhänge neuer Nachrichten automatisch über WLAN herunterladen</string>
   <string name="account_settings_notify_label">E-Mail-Benachrichtigung</string>
@@ -229,7 +229,7 @@
   <string name="account_settings_sync_calendar_summary">Termin für dieses Kontos synchronisieren</string>
   <string name="account_settings_sync_email_enable">E-Mails synchronisieren</string>
   <string name="account_settings_sync_email_summary">E-Mails dieses Kontos synchronisieren</string>
-  <string name="account_settings_vibrate_when_label">Vibration</string>
+  <string name="account_settings_vibrate_when_label">Vibrieren</string>
   <string name="account_settings_ringtone">Klingelton auswählen</string>
   <string name="account_settings_servers">Servereinstellungen</string>
   <string name="mailbox_settings_activity_title">Synchronisierungsoptionen</string>

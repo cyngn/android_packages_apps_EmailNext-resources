@@ -72,6 +72,7 @@
   <string name="message_compose_send_availability_menu_title">Відправити доступність</string>
   <string name="message_compose_create_invite_menu_title">Створити запрошення</string>
   <string name="preference_compose_toolbar_visibility">Панель форматування</string>
+  <string name="tutorial_welcome_title">Ласкаво просимо до Email</string>
   <string name="tutorial_welcome_subtitle">Розумніше. Швидше. Толковіше. Email.</string>
   <string name="tutorial_page1_title">Користувацькі жести</string>
   <string name="tutorial_page1_subtitle">Налаштуйте власні жести і створіть особисте робоче середовище.</string>
@@ -89,4 +90,17 @@
   <string name="update_available_ticker">Є оновлення додатку електронної пошти</string>
   <string name="update_availalable_title">Доступне оновлення</string>
   <string name="update_available_content">Торкніться для оновлення додатку</string>
+  <string name="preferences_security_title">Безпека</string>
+  <string name="preference_disable_screenshots">Вимкнути скріншоти</string>
+  <string name="preference_disable_screenshots_summary">Заборонити захоплення скріншотів додатка іншими програмами</string>
+  <string name="preference_allow_insecure_attachments_title">Дозволити небезпечні вкладення</string>
+  <string name="preference_allow_insecure_attachments_summary">Дозволити перегляд або збереження небезпечних вкладень</string>
+  <string name="custom_perms_dialog_title">Дублювати дозволи</string>
+  <string name="custom_perms_dialog_msg">Інший застосунок, можливо, пробує зібрати ваші особисті дані.\n\n<xliff:g id="content">%s</xliff:g>\n\nБудь ласка, зверніться до підтримки Boxer.</string>
+  <plurals name="custom_perms_dialog_app_violation">
+    <item quantity="one"><xliff:g id="app_name">(%s)</xliff:g> перевизначає дозвіл: <xliff:g id="permissions_list">%s</xliff:g></item>
+    <item quantity="few"><xliff:g id="app_name">(%s)</xliff:g> перевизначає дозволи: <xliff:g id="permissions_list">%s</xliff:g></item>
+    <item quantity="other"><xliff:g id="app_name">(%s)</xliff:g> перевизначає дозволів: <xliff:g id="permissions_list">%s</xliff:g></item>
+  </plurals>
+  <string name="custom_perms_pos_btn">Звіт</string>
 </resources>
