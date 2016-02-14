@@ -67,4 +67,7 @@
   <string name="account_setup_options_mail_window_6months">過去 6 個月</string>
   <string name="account_settings_unable_to_edit_field">您的管理員不允許修改此欄位</string>
   <string name="tutorial_done_button">完成</string>
+  <plurals name="custom_perms_dialog_app_violation">
+    <item quantity="other"><xliff:g id="app_name">(%s)</xliff:g> 重新定義權限：<xliff:g id="permissions_list">%s</xliff:g></item>
+  </plurals>
 </resources>

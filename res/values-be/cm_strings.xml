@@ -99,5 +99,10 @@
   <string name="preference_allow_insecure_attachments_summary">Дазволіць прагляд і захаванне патэнцыйна небяспечных дадаткаў</string>
   <string name="custom_perms_dialog_title">Паўтараць дазволы</string>
   <string name="custom_perms_dialog_msg">Яшчэ адзін дадатак можа спрабаваць сабраць вашу асабістую інфармацыю.\n\n<xliff:g id="content">%s</xliff:g>\n\nКалі ласка, звярніцеся ў службу падтрымкі за дапамогай Boxer.</string>
+  <plurals name="custom_perms_dialog_app_violation">
+    <item quantity="one"><xliff:g id="app_name">(%s)</xliff:g> перавызначае дазвол: <xliff:g id="permissions_list">%s</xliff:g></item>
+    <item quantity="few"><xliff:g id="app_name">(%s)</xliff:g> перавызначае дазвол: <xliff:g id="permissions_list">%s</xliff:g></item>
+    <item quantity="other"><xliff:g id="app_name">(%s)</xliff:g> перавызначае дазвол: <xliff:g id="permissions_list">%s</xliff:g></item>
+  </plurals>
   <string name="custom_perms_pos_btn">Паскардзіцца</string>
 </resources>

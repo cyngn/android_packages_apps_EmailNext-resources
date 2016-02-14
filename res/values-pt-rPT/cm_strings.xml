@@ -38,7 +38,7 @@
   <string name="account_setup_options_sync_contacts_label"><b>Sincronizar contactos</b> a partir desta conta</string>
   <string name="account_setup_options_sync_calendar_label"><b>Sincronizar o calendário</b> a partir desta conta</string>
   <string name="account_setup_options_sync_email_label"><b>Sincronizar e-mail</b> a partir desta conta</string>
-  <string name="account_setup_options_disable_convo_threading_label">Desligar tópicos de conversação</string>
+  <string name="account_setup_options_disable_convo_threading_label">Desligar tópicos de conversa</string>
   <string name="account_settings_show_all_images_title">Imagens</string>
   <string name="account_settings_show_all_images_show">Mostrar sempre</string>
   <string name="account_settings_show_all_images_ask">Perguntar antes de mostrar</string>

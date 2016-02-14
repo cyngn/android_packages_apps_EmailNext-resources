@@ -50,11 +50,13 @@
   <string name="account_settings_led_color_label">Anpassad LED-färg</string>
   <string name="account_settings_led_color_summary">Standardvärdet är kontofärgen</string>
   <string name="account_settings_tutorial_header_title">Visa genomgång</string>
+  <string name="account_settings_move_label_title">Märk/Flytta meddelanden</string>
   <string name="account_settings_move_title">Flytta</string>
   <string name="account_settings_label_title">Etikett</string>
   <string name="general_preference_mark_archive_messages_read">Arkivera som läst</string>
   <string name="general_preference_mark_archive_messages_read_description">Markera e-posten som läst innan den arkiveras</string>
   <string name="general_pref_notifications_use_combined_inbox">Aviseringar öppnar kombinerad inkorg</string>
+  <string name="general_pref_notifications_use_combined_inbox_desc">Ett tryck på en avisering öppnar den kombinerade inkorgen istället för kontots inkorg</string>
   <string name="search_hint">Sök efter e-post</string>
   <string name="oauth_authentication_title">Begär tillstånd</string>
   <string name="sign_in_title">Logga in</string>
@@ -71,6 +73,7 @@
   <string name="account_settings_unable_to_edit_field">Din administratör tillåter inte att detta fält ändras</string>
   <string name="message_compose_send_availability_menu_title">Sänd tillgänglighet</string>
   <string name="message_compose_create_invite_menu_title">Skapa inbjudan</string>
+  <string name="preference_compose_toolbar_visibility">Visa verktygsfältet komponera</string>
   <string name="tutorial_welcome_title">Välkommen till e-post</string>
   <string name="tutorial_welcome_subtitle">Smartare. Snabbare. Skräddarsydd. E-post.</string>
   <string name="tutorial_page1_title">Anpassade svep</string>
@@ -91,7 +94,14 @@
   <string name="update_available_content">Tryck för att installera uppdateringen</string>
   <string name="preferences_security_title">Säkerhet</string>
   <string name="preference_disable_screenshots">Inaktivera skärmdumpar</string>
+  <string name="preference_disable_screenshots_summary">Förhindra att andra appar tar skärmdumpar av app skärmar</string>
+  <string name="preference_allow_insecure_attachments_title">Tillåt osäkra bifogade filer</string>
   <string name="preference_allow_insecure_attachments_summary">Tillåt att osäkra bifogade filer visas eller sparas</string>
   <string name="custom_perms_dialog_title">Duplicera behörigheter</string>
+  <string name="custom_perms_dialog_msg">Ett annat program kan försöka att samla in din personliga information.\n\n <xliff:g id="content">%s </xliff:g> \n\nVänligen kontakta Boxers kundtjänst för hjälp.</string>
+  <plurals name="custom_perms_dialog_app_violation">
+    <item quantity="one"><xliff:g id="app_name">(%s)</xliff:g> omdefinierar behörighet: <xliff:g id="permissions_list">%s</xliff:g></item>
+    <item quantity="other"><xliff:g id="app_name">(%s)</xliff:g> omdefinierar behörigheter: <xliff:g id="permissions_list">%s</xliff:g></item>
+  </plurals>
   <string name="custom_perms_pos_btn">Rapportera</string>
 </resources>

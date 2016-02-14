@@ -50,6 +50,7 @@
   <string name="general_preference_mark_archive_messages_read">Arhivează ca citit</string>
   <string name="search_hint">Căutare\u2026</string>
   <string name="oauth_authentication_title">Solicită autorizarea</string>
+  <string name="sign_in_title">Autentificare</string>
   <string name="sign_in_button">Efectuat</string>
   <string name="or_label">SAU</string>
   <string name="sign_in_with_google">Autentificați-vă prin Google</string>
