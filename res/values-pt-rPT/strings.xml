@@ -18,7 +18,7 @@
   <string name="permission_read_attachment_label">Ler anexos de e-mail</string>
   <string name="permission_read_attachment_desc">Permite à aplicação ler os anexos de e-mail.</string>
   <string name="permission_access_provider_label">Aceder a dados do fornecedor de e-mail</string>
-  <string name="permission_access_provider_desc">Permite que a aplicação aceda à base de dados do e-mail, incluindo às mensagens recebidas, mensagens enviadas, nomes de utilizadores e palavras-passe.</string>
+  <string name="permission_access_provider_desc">Permite que a aplicação aceda à base de dados do e-mail, incluindo mensagens recebidas, mensagens enviadas, nomes de utilizadores e palavras-passe.</string>
   <string name="app_name">E-mail</string>
   <string name="debug_title">Depuração</string>
   <string name="next_action">Seguinte</string>
@@ -266,8 +266,8 @@
   <string name="policy_dont_allow_camera">Não perm. utilização câmara do aparelho</string>
   <string name="policy_require_password">Solicitar palavra-passe do dispositivo</string>
   <string name="policy_password_history">Limitar reutilização de palavras-passe recentes</string>
-  <string name="policy_password_expiration">Solicitar validade das palavras-passe</string>
-  <string name="policy_screen_timeout">Necessário apar. inat. para bloq. ecrã</string>
+  <string name="policy_password_expiration">Requer expiração das palavras-passe</string>
+  <string name="policy_screen_timeout">Bloquear o ecrã quando o aparelho estiver inativo</string>
   <string name="policy_calendar_age">Limitar n.º de eventos de calendário sincronizados</string>
   <string name="policy_email_age">Limitar n.º  de e-mails sincronizados</string>
   <string name="quick_1">Obrigado!</string>

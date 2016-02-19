@@ -168,7 +168,7 @@
   <string name="password_expired_dialog_title">Parola de blocare ecran expirată</string>
   <string name="password_expired_dialog_content_fmt">Datele pentru <xliff:g id="ACCOUNT">%s</xliff:g> sunt şterse de pe dispozitiv, dar le puteţi restabili modificând codul PIN sau parola de blocare a ecranului. Modificaţi acum?</string>
   <string name="account_settings_exit_server_settings">Renunţaţi la modificările nesalvate?</string>
-  <string name="account_settings_login_dialog_title">Nu s-a putut conecta</string>
+  <string name="account_settings_login_dialog_title">Conectarea a eșuat</string>
   <string name="account_settings_login_dialog_content_fmt">Numele de utilizator sau parola pentru <xliff:g id="account">%s</xliff:g> sunt incorecte. Doriți să le actualizați acum?</string>
   <string name="account_settings_login_dialog_reason_fmt">Conectarea dvs. la <xliff:g id="ACCOUNT">%s</xliff:g> a eşuat; motivul invocat de server a fost: <xliff:g id="REASON">%s</xliff:g> Doriţi să actualizaţi numele de utilizator şi/sau parola?</string>
   <string name="account_settings_background_attachments_label">Descărcați atașamentele</string>

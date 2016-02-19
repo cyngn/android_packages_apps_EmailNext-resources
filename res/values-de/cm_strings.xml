@@ -22,7 +22,7 @@
   <string name="mailbox_name_display_todo">To-Do</string>
   <string name="mailbox_name_display_archive">Archiv</string>
   <string name="mailbox_name_local_only_display_name"> – Lokal</string>
-  <string name="account_setup_start_email_address_hint">Geben Sie Ihre E-Mail Adresse eiin</string>
+  <string name="account_setup_start_email_address_hint">Geben Sie Ihre E-Mail Adresse ein.</string>
   <string name="account_setup_start_password_hint">Passwort</string>
   <string name="account_setup_start_get_started_button">Los geht\'s</string>
   <string name="account_setup_start_login_button">Anmelden</string>
@@ -44,7 +44,7 @@
   <string name="account_settings_show_all_images_ask">Vor dem Anzeigen fragen</string>
   <string name="account_settings_account_color_title">Kontofarbe</string>
   <string name="account_settings_account_color_summary">Die Farbe für dieses Konto bearbeiten</string>
-  <string name="account_settings_account_color_dialog_title">Wählen Sie eine Farbe</string>
+  <string name="account_settings_account_color_dialog_title">Farbe auswählen</string>
   <string name="account_settings_led_notification_label">LED-Benachrichtigung aktivieren</string>
   <string name="account_settings_led_notification_custom_color">Benutzerdefinierte LED-Farben verwenden</string>
   <string name="account_settings_led_color_label">Benutzerdefinierte LED-Farbe</string>
@@ -56,32 +56,32 @@
   <string name="general_preference_mark_archive_messages_read">Als gelesen archivieren</string>
   <string name="general_preference_mark_archive_messages_read_description">E-Mails vor dem Archivieren als gelesen markieren</string>
   <string name="general_pref_notifications_use_combined_inbox">Benachrichtigungen öffnen kombinierten Posteingang</string>
-  <string name="general_pref_notifications_use_combined_inbox_desc">Das Antippen einer Benachrichtigung öffnet den kombinierten Posteingang anstatt des Konto-Posteingangs</string>
-  <string name="search_hint">Suche\u2026</string>
-  <string name="oauth_authentication_title">Authorisierung anfordern</string>
-  <string name="sign_in_title">Einloggen</string>
+  <string name="general_pref_notifications_use_combined_inbox_desc">Das Antippen einer Benachrichtigung öffnet den kombinierten Posteingang statt des Konto-Posteingangs.</string>
+  <string name="search_hint">Suchen\u2026</string>
+  <string name="oauth_authentication_title">Authorisierung wird angefordert</string>
+  <string name="sign_in_title">Anmelden</string>
   <string name="sign_in_button">Fertig</string>
-  <string name="or_label">oder</string>
+  <string name="or_label">ODER</string>
   <string name="sign_in_with_google">Mit Google anmelden</string>
-  <string name="signed_in_with_service_label">Eingeloggt mit %s</string>
-  <string name="authentication_label">Authentifikation</string>
+  <string name="signed_in_with_service_label">Angemeldet mit %s</string>
+  <string name="authentication_label">Authentifizierung</string>
   <string name="add_authentication_label">Authentifizierung hinzufügen</string>
   <string name="oauth_saving_message">Wird gespeichert\u2026</string>
   <string name="about_app_header_title">Über</string>
-  <string name="account_setup_options_mail_window_3months">Letzten 3 Monate</string>
-  <string name="account_setup_options_mail_window_6months">Letzten 6 Monate</string>
-  <string name="account_settings_unable_to_edit_field">Ihr Administrator erlaubt nicht dieses Feld zu ändern</string>
+  <string name="account_setup_options_mail_window_3months">Letzte 3 Monate</string>
+  <string name="account_setup_options_mail_window_6months">Letzte 6 Monate</string>
+  <string name="account_settings_unable_to_edit_field">Ihr Administrator lässt eine Änderung dieses Feld nicht zu.</string>
   <string name="message_compose_send_availability_menu_title">Verfügbarkeit senden</string>
   <string name="message_compose_create_invite_menu_title">Einladung erstellen</string>
   <string name="preference_compose_toolbar_visibility">Funktionsleiste anzeigen</string>
   <string name="tutorial_welcome_title">Willkommen bei E-Mail</string>
-  <string name="tutorial_welcome_subtitle">Intelligenter, schneller, angepasst – E-Mail.</string>
+  <string name="tutorial_welcome_subtitle">Intelligenter, schneller, individuell angepasst – E-Mail.</string>
   <string name="tutorial_page1_title">Benutzerdefiniertes Wischen</string>
-  <string name="tutorial_page1_subtitle">Passen Sie Ihre Wisch-Aktionen an und basteln Sie sich Ihr eigenes Erlebnis.</string>
-  <string name="tutorial_page2_title">Massen-Aktionen</string>
-  <string name="tutorial_page2_subtitle">Unsere Massen-Auswahl-Funktion ist der schnellste Weg, um Ihren Posteingang zu verwalten.</string>
+  <string name="tutorial_page1_subtitle">Passen Sie Ihre Wisch-Aktionen an und gestalten Sie Ihr Erlebnis ganz individuell.</string>
+  <string name="tutorial_page2_title">Massenaktionen</string>
+  <string name="tutorial_page2_subtitle">Am schnellsten verwalten Sie Ihren Posteingang mit unserer Massenauswahl-Funktion.</string>
   <string name="tutorial_page3_title">Aktionsraster</string>
-  <string name="tutorial_page3_subtitle">Leistungsstarke Integrationen und Funktionalität beim Drücken einer Taste.</string>
+  <string name="tutorial_page3_subtitle">Leistungsstarke Integrationen und Funktionalität auf Tastendruck.</string>
   <string name="tutorial_skip_button">Überspringen</string>
   <string name="tutorial_done_button">Fertig</string>
   <string name="message_send_failed_ticker">Senden der Nachricht fehlgeschlagen</string>
@@ -89,16 +89,16 @@
   <string name="preferences_clear_search_history_title">Suchverlauf löschen</string>
   <string name="preferences_clear_search_history_summary">Entfernt alle Suchen, die Sie ausgeführt haben</string>
   <string name="search_history_cleared">Suchverlauf gelöscht.</string>
-  <string name="update_available_ticker">Es ist ein Update für E-Mail verfügbar</string>
-  <string name="update_availalable_title">Ein Update ist verfügbar</string>
+  <string name="update_available_ticker">Es ist ein Update für E-Mail verfügbar.</string>
+  <string name="update_availalable_title">Ein Update ist verfügbar.</string>
   <string name="update_available_content">Tippen, um das Update zu installieren</string>
   <string name="preferences_security_title">Sicherheit</string>
   <string name="preference_disable_screenshots">Bildschirmfotos deaktivieren</string>
-  <string name="preference_disable_screenshots_summary">Andere Apps daran hindern Bildschirmfotos der App aufzunehmen</string>
+  <string name="preference_disable_screenshots_summary">Andere Apps daran hindern, Bildschirmfotos von App-Bildschirmen zu erstellen</string>
   <string name="preference_allow_insecure_attachments_title">Unsichere Anhänge zulassen</string>
   <string name="preference_allow_insecure_attachments_summary">Anzeigen oder Speichern von unsicheren Anhängen erlauben</string>
   <string name="custom_perms_dialog_title">Berechtigungen duplizieren</string>
-  <string name="custom_perms_dialog_msg">Eine andere Anwendung könnte versuchen, Ihre persönlichen Daten zu sammeln.\n\n<xliff:g id="content">%s</xliff:g>\n\nBitte kontaktieren Sie den Boxer-Support, um Hilfe zu erhalten.</string>
+  <string name="custom_perms_dialog_msg">Eine andere Anwendung versucht möglicherweise, Ihre persönlichen Daten zu sammeln.\n\n<xliff:g id="content">%s</xliff:g>\n\nBitte kontaktieren Sie den Boxer-Support, um Hilfe zu erhalten.</string>
   <plurals name="custom_perms_dialog_app_violation">
     <item quantity="one"><xliff:g id="app_name">(%s)</xliff:g> definiert eine Berechtigung neu: <xliff:g id="permissions_list">%s</xliff:g></item>
     <item quantity="other"><xliff:g id="app_name">(%s)</xliff:g> definiert Berechtigungen neu: <xliff:g id="permissions_list">%s</xliff:g></item>

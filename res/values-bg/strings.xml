@@ -193,9 +193,9 @@
   <string name="account_settings_login_dialog_reason_fmt">Влизането ви в/ъв <xliff:g id="ACCOUNT">%s</xliff:g> не бе успешно, сървърът отговори със: <xliff:g id="REASON">%s</xliff:g> Искате ли да актуализирате своето потребителско име и/или парола?</string>
   <string name="account_settings_background_attachments_label">Изтегляне на прик. файлове</string>
   <string name="account_settings_background_attachments_summary">Автоизтегляне на прик. файлове към скорошни съобщения през Wi-Fi</string>
-  <string name="account_settings_notify_label">Известия за имейл</string>
+  <string name="account_settings_notify_label">Уведомления за електронна поща</string>
   <string name="account_settings_summary">Честота на синхронизиране, известия и т.н.</string>
-  <string name="account_settings_notify_summary">Изпращане на известие при получаване на имейл</string>
+  <string name="account_settings_notify_summary">Изпраща уведомление, когато получите електронна поща</string>
   <string name="account_settings_mail_check_frequency_label">Честота на синхронизиране</string>
   <string name="account_settings_incoming_label">Входящи настройки</string>
   <string name="account_settings_incoming_summary">Потребителско име, парола и други настройки на входящия сървър</string>

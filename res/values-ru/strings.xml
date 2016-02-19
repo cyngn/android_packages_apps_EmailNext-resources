@@ -27,7 +27,7 @@
   <string name="previous_action">Назад</string>
   <string name="done_action">Готово</string>
   <string name="create_action">Создать</string>
-  <string name="quick_responses_empty_view">Нет шаблонов</string>
+  <string name="quick_responses_empty_view">Нет шаблонов.</string>
   <string name="account_settings_action">Настройки аккаунта</string>
   <string name="menu_folder_options">Параметры синхронизации</string>
   <string name="status_network_error">Ошибка подключения.</string>
@@ -38,7 +38,7 @@
   </plurals>
   <string name="cannot_move_protocol_not_supported_toast">Перемещение не поддерживается в аккаунтах POP3.</string>
   <string name="cannot_move_multiple_accounts_toast">Не удалось переместить сообщения, так как они находятся в разных аккаунтах.</string>
-  <string name="cannot_move_special_mailboxes_toast">Нельзя перемещать сообщения из папок \"Черновики\", \"Исходящие\" и \"Отправленные\".</string>
+  <string name="cannot_move_special_mailboxes_toast">Нельзя перемещать сообщения из папок «Черновики», «Исходящие» и «Отправленные».</string>
   <string name="mailbox_name_display_inbox">Входящие</string>
   <string name="mailbox_name_display_outbox">Исходящие</string>
   <string name="mailbox_name_display_trash">Корзина</string>
@@ -175,7 +175,7 @@
   <string name="account_settings_exit_server_settings">Отменить несохраненные изменения?</string>
   <string name="account_settings_login_dialog_title">Не удалось войти в аккаунт.</string>
   <string name="account_settings_login_dialog_content_fmt">Неверное имя пользователя или пароль для доступа в аккаунт <xliff:g id="ACCOUNT">%s</xliff:g>. Изменить их?</string>
-  <string name="account_settings_login_dialog_reason_fmt">Не удалось войти в аккаунт <xliff:g id="ACCOUNT">%s</xliff:g>. Причина проблемы: <xliff:g id="REASON">%s</xliff:g>. Обновить имя пользователя и/или пароль?</string>
+  <string name="account_settings_login_dialog_reason_fmt">Не удалось войти в аккаунт <xliff:g id="ACCOUNT">%s</xliff:g>. Причина: <xliff:g id="REASON">%s</xliff:g>. Обновить имя пользователя и/или пароль?</string>
   <string name="account_settings_background_attachments_label">Загружать файлы</string>
   <string name="account_settings_background_attachments_summary">Автоматически загружать прикрепленные файлы при наличии Wi-Fi-подключения</string>
   <string name="account_settings_notify_label">Показывать уведомления</string>
