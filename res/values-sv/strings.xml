@@ -135,7 +135,7 @@
   <string name="account_setup_options_mail_check_frequency_15min">Var 15:e minut</string>
   <string name="account_setup_options_mail_check_frequency_30min">Var 30:e minut</string>
   <string name="account_setup_options_mail_check_frequency_1hour">Varje timme</string>
-  <string name="account_setup_options_background_attachments_label">Hämta bilagor automatiskt när enheten är ansluten till Wi-Fi</string>
+  <string name="account_setup_options_background_attachments_label">Hämta bilagor automatiskt när enheten är ansluten till Wi\u2011Fi</string>
   <string name="account_setup_failed_dlg_title">Det gick inte att avsluta</string>
   <string name="account_setup_options_mail_window_label">Dagar för synkronisering</string>
   <string name="account_setup_options_mail_window_auto">Automatisk</string>
@@ -192,7 +192,7 @@
   <string name="account_settings_login_dialog_content_fmt">Användarnamnet eller lösenordet för <xliff:g id="ACCOUNT">%s</xliff:g> är felaktigt. Vill du uppdatera dem nu?</string>
   <string name="account_settings_login_dialog_reason_fmt">Det gick inte att logga in på <xliff:g id="ACCOUNT">%s</xliff:g>. Servern svarade: <xliff:g id="REASON">%s</xliff:g> Vill du uppdatera ditt användarnamn och/eller ditt lösenord?</string>
   <string name="account_settings_background_attachments_label">Hämta bilagor</string>
-  <string name="account_settings_background_attachments_summary">Hämta automatiskt bilagor för de senaste meddelandena via Wi-Fi</string>
+  <string name="account_settings_background_attachments_summary">Hämta automatiskt bilagor för de senaste meddelandena via Wi\u2011Fi</string>
   <string name="account_settings_notify_label">E-postaviseringar</string>
   <string name="account_settings_summary">Synkroniseringsfrekvens, aviseringar osv.</string>
   <string name="account_settings_notify_summary">Skicka meddelande när du får e-post</string>

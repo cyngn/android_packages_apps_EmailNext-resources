@@ -77,7 +77,7 @@
   <string name="account_setup_basics_manual_setup_action">手動セットアップ</string>
   <string name="account_setup_username_password_toast">有効なメールアドレスとパスワードを入力してください。</string>
   <string name="account_duplicate_dlg_title">重複するアカウント</string>
-  <string name="account_duplicate_dlg_message_fmt">このユーザー名はアカウント「<xliff:g id="DUPLICATE">%s</xliff:g>」で既に使用しています。</string>
+  <string name="account_duplicate_dlg_message_fmt">このユーザー名はアカウント[<xliff:g id="DUPLICATE">%s</xliff:g>]で既に使用しています。</string>
   <string name="account_password_spaces_error">このパスワードは先頭または末尾にスペースがあります。多くのサーバーはスペースを含むパスワードに対応していません。</string>
   <string name="account_setup_check_settings_retr_info_msg">アカウント情報を取得中...</string>
   <string name="account_setup_check_settings_check_incoming_msg">サーバー設定を確認しています…</string>
@@ -165,16 +165,16 @@
   <string name="disable_admin_warning">警告: メールアプリの端末管理権限を無効にすると、権限を必要とするすべてのメールアカウントが削除されます。また、そのアカウントのメール、連絡先、カレンダーの予定などのデータも削除されます。</string>
   <string name="account_security_dialog_title">セキュリティの更新</string>
   <string name="account_security_dialog_content_fmt"><xliff:g id="ACCOUNT">%s</xliff:g>のセキュリティ設定を更新する必要があります。</string>
-  <string name="security_unsupported_ticker_fmt">アカウント「<xliff:g id="ACCOUNT">%s</xliff:g>」はセキュリティ要件により同期できません。</string>
-  <string name="security_needed_ticker_fmt">アカウント「<xliff:g id="ACCOUNT">%s</xliff:g>」でセキュリティ設定の更新が必要です。</string>
-  <string name="security_changed_ticker_fmt">アカウント「<xliff:g id="ACCOUNT">%s</xliff:g>」がセキュリティ設定を変更しました。ユーザーの操作は不要です。</string>
+  <string name="security_unsupported_ticker_fmt">アカウント[<xliff:g id="ACCOUNT">%s</xliff:g>]はセキュリティ要件により同期できません。</string>
+  <string name="security_needed_ticker_fmt">アカウント[<xliff:g id="ACCOUNT">%s</xliff:g>]でセキュリティ設定の更新が必要です。</string>
+  <string name="security_changed_ticker_fmt">アカウント[<xliff:g id="ACCOUNT">%s</xliff:g>]がセキュリティ設定を変更しました。ユーザーの操作は不要です。</string>
   <string name="security_notification_content_update_title">セキュリティの更新が必要です</string>
   <string name="security_notification_content_change_title">ポリシーが変更されました</string>
   <string name="security_notification_content_unsupported_title">ポリシーを満たすことができません</string>
   <string name="account_security_title">端末のセキュリティ</string>
   <string name="account_security_policy_explanation_fmt">Android搭載携帯のセキュリティ機能の一部に対するリモートコントロールをサーバー<xliff:g id="SERVER">%s</xliff:g>に許可する必要があります。</string>
   <string name="account_setup_failed_dlg_edit_details_action">設定を編集</string>
-  <string name="password_expire_warning_ticker_fmt">「<xliff:g id="ACCOUNT">%s</xliff:g>」のロック解除PINまたはパスワードの変更が必要です。</string>
+  <string name="password_expire_warning_ticker_fmt">[<xliff:g id="ACCOUNT">%s</xliff:g>]のロック解除PINまたはパスワードの変更が必要です。</string>
   <string name="password_expire_warning_content_title">解除パスワードの期限切れが間近</string>
   <string name="password_expired_ticker">ロック解除PINまたはパスワードの有効期限が切れました。</string>
   <string name="password_expired_content_title">ロック解除パスワードが期限切れ</string>
@@ -185,7 +185,7 @@
   <string name="account_settings_exit_server_settings">保存されていない変更を破棄しますか？</string>
   <string name="account_settings_login_dialog_title">ログインできませんでした</string>
   <string name="account_settings_login_dialog_content_fmt"><xliff:g id="ACCOUNT">%s</xliff:g>のユーザー名またはパスワードが正しくありません。今すぐ更新しますか？</string>
-  <string name="account_settings_login_dialog_reason_fmt"><xliff:g id="ACCOUNT">%s</xliff:g>にログインできませんでした。サーバーからのエラーメッセージは「<xliff:g id="REASON">%s</xliff:g>」です。ユーザー名またはパスワードを更新しますか？</string>
+  <string name="account_settings_login_dialog_reason_fmt"><xliff:g id="ACCOUNT">%s</xliff:g>にログインできませんでした。サーバーからのエラーメッセージは[<xliff:g id="REASON">%s</xliff:g>]です。ユーザー名またはパスワードを更新しますか？</string>
   <string name="account_settings_background_attachments_label">添付ファイルのダウンロード</string>
   <string name="account_settings_background_attachments_summary">Wi-Fi接続時に最近のメールの添付ファイルを自動的にダウンロード</string>
   <string name="account_settings_notify_label">メール着信通知</string>
@@ -233,7 +233,7 @@
   <string name="mailbox_settings_sync_enabled_summary">接続時にメッセージをダウンロード</string>
   <string name="mailbox_settings_mailbox_sync_window_label">同期するメールの日数</string>
   <string name="prefDialogTitle_conversationListIcon">送信者の画像</string>
-  <string name="provider_note_live">このプログラムでPOPアクセスが許可されているのは一部の「Plus」アカウントだけです。有料の「Plus」アカウントがなければ、正しいメールアドレスとパスワードを入力してもログインできません。これらのメールアカウントにはブラウザからアクセスしてください。</string>
+  <string name="provider_note_live">このプログラムでPOPアクセスが許可されているのは一部の[Plus]アカウントだけです。有料の[Plus]アカウントがなければ、正しいメールアドレスとパスワードを入力してもログインできません。これらのメールアカウントにはブラウザからアクセスしてください。</string>
   <string name="system_account_create_failed">アカウントを作成できませんでした。もう一度お試しください。</string>
   <string name="device_admin_label">メール</string>
   <string name="device_admin_description">サーバーが指定したセキュリティポリシーを有効にします</string>

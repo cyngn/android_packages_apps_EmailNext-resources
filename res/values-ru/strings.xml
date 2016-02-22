@@ -15,8 +15,8 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="permission_read_attachment_label">Просмотр пересылаемых файлов</string>
-  <string name="permission_read_attachment_desc">Приложение получит доступ к прикрепленным файлам в сообщениях электронной почты.</string>
+  <string name="permission_read_attachment_label">Просмотр вложений из эл. сообщений</string>
+  <string name="permission_read_attachment_desc">Приложение получит доступ к вложениям из эл. сообщений.</string>
   <string name="permission_access_provider_label">Доступ к данным сервиса эл. почты</string>
   <string name="permission_access_provider_desc">Приложение получит доступ к базе данных электронной почты, которая содержит полученные и отправленные сообщения, имена пользователей и пароли.</string>
   <string name="app_name">Email</string>
@@ -27,7 +27,7 @@
   <string name="previous_action">Назад</string>
   <string name="done_action">Готово</string>
   <string name="create_action">Создать</string>
-  <string name="quick_responses_empty_view">Нет шаблонов</string>
+  <string name="quick_responses_empty_view">Нет шаблонов.</string>
   <string name="account_settings_action">Настройки аккаунта</string>
   <string name="menu_folder_options">Параметры синхронизации</string>
   <string name="status_network_error">Ошибка подключения.</string>
@@ -38,7 +38,7 @@
   </plurals>
   <string name="cannot_move_protocol_not_supported_toast">Перемещение не поддерживается в аккаунтах POP3.</string>
   <string name="cannot_move_multiple_accounts_toast">Не удалось переместить сообщения, так как они находятся в разных аккаунтах.</string>
-  <string name="cannot_move_special_mailboxes_toast">Нельзя перемещать сообщения из папок \"Черновики\", \"Исходящие\" и \"Отправленные\".</string>
+  <string name="cannot_move_special_mailboxes_toast">Нельзя перемещать сообщения из папок «Черновики», «Исходящие» и «Отправленные».</string>
   <string name="mailbox_name_display_inbox">Входящие</string>
   <string name="mailbox_name_display_outbox">Исходящие</string>
   <string name="mailbox_name_display_trash">Корзина</string>
@@ -53,13 +53,13 @@
   <string name="message_compose_fwd_header_fmt">\n\n\"-------- Исходное сообщение --------\nТема: <xliff:g id="SUBJECT">%1$s</xliff:g>\nОт: <xliff:g id="SENDER">%2$s</xliff:g>\nКому: <xliff:g id="TO">%3$s</xliff:g>\nКопия: <xliff:g id="CC_0">%4$s</xliff:g>\n\n\"</string>
   <string name="message_compose_insert_quick_response_list_title">Вставка быстрого ответа</string>
   <string name="message_compose_insert_quick_response_menu_title">Вставить быстрый ответ</string>
-  <string name="message_view_attachment_background_load">Один или несколько прикрепленных файлов в пересылаемом сообщении будут загружены перед отправкой.</string>
+  <string name="message_view_attachment_background_load">Один или несколько вложений в пересылаемом сообщении будут загружены перед отправкой.</string>
   <string name="attachment_not_found">Не удалось загрузить файл.</string>
   <string name="message_decode_error">При расшифровке сообщения произошла ошибка.</string>
-  <string name="forward_download_failed_ticker">Сбой при пересылке прикрепленных файлов.</string>
+  <string name="forward_download_failed_ticker">Сбой при пересылке вложений.</string>
   <string name="forward_download_failed_title">Не удалось переслать вложение</string>
-  <string name="login_failed_ticker">Ошибка при входе в аккаунт <xliff:g id="ACCOUNT_NAME">%s</xliff:g>.</string>
-  <string name="login_failed_title">Вход не выполнен</string>
+  <string name="login_failed_ticker">Ошибка при входе в аккаунт <xliff:g id="account_name">%s</xliff:g>.</string>
+  <string name="login_failed_title">Не удалось войти</string>
   <plurals name="message_view_attachment_bytes">
     <item quantity="one"><xliff:g id="size_in_bytes" example="1">%d</xliff:g> Б</item>
     <item quantity="few"><xliff:g id="size_in_bytes" example="1">%d</xliff:g> Б</item>
@@ -87,7 +87,7 @@
   <string name="account_setup_basics_manual_setup_action">Вручную</string>
   <string name="account_setup_username_password_toast">Введите действительный адрес электронной почты и пароль.</string>
   <string name="account_duplicate_dlg_title">Копировать аккаунт</string>
-  <string name="account_duplicate_dlg_message_fmt">Это имя уже используется в аккаунте \"<xliff:g id="DUPLICATE">%s</xliff:g>\".</string>
+  <string name="account_duplicate_dlg_message_fmt">Это имя уже используется в аккаунте «<xliff:g id="duplicate">%s</xliff:g>».</string>
   <string name="account_password_spaces_error">Пароль начинается или заканчивается пробелом. Некоторые серверы не поддерживают пароли с пробелами.</string>
   <string name="account_setup_check_settings_retr_info_msg">Получение информации аккаунта...</string>
   <string name="account_setup_check_settings_check_incoming_msg">Проверка настроек сервера…</string>
@@ -140,7 +140,7 @@
   <string name="account_setup_options_mail_check_frequency_15min">Каждые 15 минут</string>
   <string name="account_setup_options_mail_check_frequency_30min">Каждые 30 минут</string>
   <string name="account_setup_options_mail_check_frequency_1hour">Каждый час</string>
-  <string name="account_setup_options_background_attachments_label">Загружать прикрепленные файлы при наличии Wi-Fi-подключения</string>
+  <string name="account_setup_options_background_attachments_label">Загружать вложения при наличии Wi-Fi-подключения</string>
   <string name="account_setup_failed_dlg_title">Настройка не закончена</string>
   <string name="account_setup_options_mail_window_label">Период синхронизации</string>
   <string name="account_setup_options_mail_window_auto">Автоматически</string>
@@ -152,16 +152,16 @@
   <string name="account_setup_options_mail_window_all">Все</string>
   <string name="account_setup_options_mail_window_default">Настройки по умолчанию</string>
   <string name="account_setup_failed_dlg_auth_message">Неверное имя пользователя или пароль.</string>
-  <string name="account_setup_failed_dlg_auth_message_fmt">Не удалось войти.\nОшибка: <xliff:g id="ERROR">%s</xliff:g></string>
+  <string name="account_setup_failed_dlg_auth_message_fmt">Не удалось войти.\n(<xliff:g id="error">%s</xliff:g>)</string>
   <string name="account_setup_autodiscover_dlg_authfail_title">Ошибка</string>
   <string name="account_setup_autodiscover_dlg_authfail_message">Убедитесь, что имя пользователя, пароль и параметры аккаунта указаны правильно.</string>
   <string name="account_setup_failed_dlg_certificate_message">Не удалось установить защищенное подключение к серверу.</string>
-  <string name="account_setup_failed_dlg_certificate_message_fmt">Не удалось установить защищенное подключение к серверу.\n<xliff:g id="ERROR">%s</xliff:g></string>
+  <string name="account_setup_failed_dlg_certificate_message_fmt">Не удалось установить защищенное подключение к серверу.\n(<xliff:g id="error">%s</xliff:g>)</string>
   <string name="account_setup_failed_certificate_required">Требуется сертификат клиента. Подключиться к серверу с таким сертификатом?</string>
   <string name="account_setup_failed_certificate_inaccessible">Сертификат недействителен или недоступен.</string>
   <string name="account_setup_failed_check_credentials_message">Ошибка сервера. Проверьте имя пользователя и пароль и повторите попытку.</string>
   <string name="account_setup_failed_dlg_server_message">Не удалось подключиться к серверу.</string>
-  <string name="account_setup_failed_dlg_server_message_fmt">Не удалось подключиться к серверу.\n<xliff:g id="ERROR">%s</xliff:g></string>
+  <string name="account_setup_failed_dlg_server_message_fmt">Не удалось подключиться к серверу.\n(<xliff:g id="error">%s</xliff:g>)</string>
   <string name="account_setup_failed_tls_required">TLS не поддерживается сервером.</string>
   <string name="account_setup_failed_auth_required">Методы аутентификации не поддерживаются сервером.</string>
   <string name="account_setup_failed_security">Не удалось установить подключение к серверу из-за ошибки безопасности.</string>
@@ -169,42 +169,42 @@
   <string name="account_setup_failed_protocol_unsupported">Введен неправильный адрес сервера или сервер запрашивает версию протокола, которая не поддерживается в Email.</string>
   <string name="account_setup_failed_access_denied">У вас нет разрешений на синхронизацию с этим сервером. За дополнительной информацией обратитесь к администратору сервера.</string>
   <string name="account_setup_security_required_title">Удаленное управление безопасностью</string>
-  <string name="account_setup_security_policies_required_fmt">Серверу <xliff:g id="SERVER">%s</xliff:g> требуется разрешение на удаленное управление некоторыми функциями безопасности устройства Android. Завершить настройку этого аккаунта?</string>
-  <string name="account_setup_failed_security_policies_unsupported">Ваше Android-устройство не поддерживает обязательные для сервера функции защиты: <xliff:g id="ERROR">%s</xliff:g></string>
-  <string name="account_setup_username_uneditable_error">Невозможно изменить имя пользователя. Если хотите использовать другое имя, нажмите \"Добавить аккаунт\" и создайте новый аккаунт.</string>
+  <string name="account_setup_security_policies_required_fmt"> Серверу <xliff:g id="server">%s</xliff:g> требуется разрешение на удаленное управление некоторыми функциями безопасности устройства Android. Завершить настройку этого аккаунта?</string>
+  <string name="account_setup_failed_security_policies_unsupported">Ваше устройство Android не поддерживает обязательные для сервера функции защиты: <xliff:g id="error">%s</xliff:g></string>
+  <string name="account_setup_username_uneditable_error">Невозможно изменить имя пользователя. Если хотите использовать другое имя, нажмите «Добавить аккаунт» и создайте новый аккаунт.</string>
   <string name="disable_admin_warning">ВНИМАНИЕ! Отключение прав на администрирование вашего устройства для приложения Email приведет к удалению всех аккаунтов электронной почты, которые используют эти права. Кроме того, будут удалены все письма, контакты, календари и другие данные, связанные с этими аккаунтами.</string>
   <string name="account_security_dialog_title">Обновления безопасности</string>
-  <string name="account_security_dialog_content_fmt">Для аккаунта <xliff:g id="ACCOUNT">%s</xliff:g> требуется обновить настройки безопасности.</string>
-  <string name="security_unsupported_ticker_fmt">Настройки безопасности не позволяют синхронизировать аккаунт <xliff:g id="ACCOUNT">%s</xliff:g>.</string>
-  <string name="security_needed_ticker_fmt">В аккаунте <xliff:g id="ACCOUNT">%s</xliff:g> требуется обновить настройки безопасности.</string>
-  <string name="security_changed_ticker_fmt">В аккаунте <xliff:g id="ACCOUNT">%s</xliff:g> обновлены настройки безопасности. Ничего делать не нужно.</string>
+  <string name="account_security_dialog_content_fmt">Для аккаунта <xliff:g id="account">%s</xliff:g> требуется обновить настройки безопасности.</string>
+  <string name="security_unsupported_ticker_fmt">Настройки безопасности не позволяют синхронизировать аккаунт <xliff:g id="account">%s</xliff:g>.</string>
+  <string name="security_needed_ticker_fmt">В аккаунте <xliff:g id="account">%s</xliff:g> требуется обновить настройки безопасности.</string>
+  <string name="security_changed_ticker_fmt">В аккаунте <xliff:g id="account">%s</xliff:g> обновлены настройки безопасности. Ничего делать не нужно.</string>
   <string name="security_notification_content_update_title">Обновите систему безопасности</string>
   <string name="security_notification_content_change_title">Политики безопасности изменены</string>
   <string name="security_notification_content_unsupported_title">Политики не выполнены</string>
   <string name="account_security_title">Безопасность устройства</string>
   <string name="account_security_policy_explanation_fmt">Серверу <xliff:g id="SERVER">%s</xliff:g> требуется разрешение на удаленное управление некоторыми функциями безопасности устройства Android.</string>
   <string name="account_setup_failed_dlg_edit_details_action">Изменить сведения</string>
-  <string name="password_expire_warning_ticker_fmt">Для аккаунта \"<xliff:g id="ACCOUNT">%s</xliff:g>\" требуется изменить PIN-код или пароль блокировки экрана.</string>
+  <string name="password_expire_warning_ticker_fmt">Для аккаунта <xliff:g id="account">%s</xliff:g> требуется изменить PIN-код или пароль блокировки экрана.</string>
   <string name="password_expire_warning_content_title">Истекает срок действия пароля</string>
   <string name="password_expired_ticker">Срок действия вашего PIN-кода или пароля блокировки экрана истек.</string>
   <string name="password_expired_content_title">Пароль блок. экрана устарел</string>
   <string name="password_expire_warning_dialog_title">Истекает срок действия пароля</string>
-  <string name="password_expire_warning_dialog_content_fmt">Скоро вам потребуется изменить PIN-код или пароль для блокировки экрана, иначе данные аккаунта <xliff:g id="ACCOUNT">%s</xliff:g> будут удалены. Изменить PIN-код или пароль сейчас?</string>
+  <string name="password_expire_warning_dialog_content_fmt">Скоро вам потребуется изменить PIN-код или пароль для блокировки экрана, иначе данные аккаунта <xliff:g id="account">%s</xliff:g> будут удалены. Изменить PIN-код или пароль сейчас?</string>
   <string name="password_expired_dialog_title">Пароль блокировки экрана устарел</string>
-  <string name="password_expired_dialog_content_fmt">Данные аккаунта <xliff:g id="ACCOUNT">%s</xliff:g> удаляются с устройства. Вы можете восстановить их, изменив свой PIN-код или пароль блокировки экрана. Сделать это сейчас?</string>
+  <string name="password_expired_dialog_content_fmt">Данные аккаунта <xliff:g id="account">%s</xliff:g> удаляются с устройства. Вы можете восстановить их, изменив свой PIN-код или пароль блокировки экрана. Сделать это сейчас?</string>
   <string name="account_settings_exit_server_settings">Отменить несохраненные изменения?</string>
   <string name="account_settings_login_dialog_title">Не удалось войти в аккаунт.</string>
-  <string name="account_settings_login_dialog_content_fmt">Неверное имя пользователя или пароль для доступа в аккаунт <xliff:g id="ACCOUNT">%s</xliff:g>. Изменить их?</string>
-  <string name="account_settings_login_dialog_reason_fmt">Не удалось войти в аккаунт <xliff:g id="ACCOUNT">%s</xliff:g>. Причина проблемы: <xliff:g id="REASON">%s</xliff:g>. Обновить имя пользователя и/или пароль?</string>
-  <string name="account_settings_background_attachments_label">Загружать файлы</string>
-  <string name="account_settings_background_attachments_summary">Автоматически загружать прикрепленные файлы при наличии Wi-Fi-подключения</string>
+  <string name="account_settings_login_dialog_content_fmt">Неверное имя пользователя или пароль для доступа в аккаунт <xliff:g id="account">%s</xliff:g>. Изменить их?</string>
+  <string name="account_settings_login_dialog_reason_fmt">Не удалось войти в аккаунт <xliff:g id="account">%s</xliff:g>. Причина: <xliff:g id="reason">%s</xliff:g>. Обновить имя пользователя и/или пароль?</string>
+  <string name="account_settings_background_attachments_label">Загружать вложения</string>
+  <string name="account_settings_background_attachments_summary">Автоматически загружать вложения при наличии Wi-Fi-подключения</string>
   <string name="account_settings_notify_label">Показывать уведомления</string>
   <string name="account_settings_summary">Частота синхронизации, уведомления и другие настройки</string>
   <string name="account_settings_notify_summary">Показывать уведомление при получении новых писем</string>
   <string name="account_settings_mail_check_frequency_label">Частота синхронизации</string>
   <string name="account_settings_incoming_label">Сервер входящей почты</string>
   <string name="account_settings_incoming_summary">Имя пользователя, пароль и др. настройки сервера входящей почты</string>
-  <string name="account_settings_outgoing_label">Настройки исходящих сообщений</string>
+  <string name="account_settings_outgoing_label">Настройки исходящей почты</string>
   <string name="account_settings_outgoing_summary">Имя пользователя, пароль и др. настройки сервера исходящей почты</string>
   <string name="account_settings_enforced_label">Политики применены</string>
   <string name="account_settings_enforced_summary">Нет</string>
@@ -284,7 +284,7 @@
   <string name="imap_name">IMAP</string>
   <string name="pop3_name">POP3</string>
   <string name="folder_picker_title">Выберите папку</string>
-  <string name="trash_folder_selection_title"><xliff:g id="ACCOUNT">%s</xliff:g>: выберите папку на сервере</string>
+  <string name="trash_folder_selection_title"><xliff:g id="account">%s</xliff:g>: выберите папку на сервере</string>
   <string name="sent_folder_selection_title"><xliff:g id="ACCOUNT">%s</xliff:g>: выберите папку на сервере</string>
-  <string name="account_waiting_for_folders_msg">Загрузка&#8230;</string>
+  <string name="account_waiting_for_folders_msg">Загрузка списка папок&#8230;</string>
 </resources>

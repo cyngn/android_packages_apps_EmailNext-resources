@@ -22,11 +22,11 @@
   <string name="mailbox_name_display_todo">Да се направи</string>
   <string name="mailbox_name_display_archive">Архив</string>
   <string name="mailbox_name_local_only_display_name"> — Местни</string>
-  <string name="account_setup_start_email_address_hint">Въведете вашия имейл</string>
+  <string name="account_setup_start_email_address_hint">Въведете вашия имейл адрес</string>
   <string name="account_setup_start_password_hint">Парола</string>
   <string name="account_setup_start_get_started_button">Да започнете</string>
   <string name="account_setup_start_login_button">Влизане</string>
-  <string name="account_setup_start_invalid_email_address">Погрешен имейл сте вписали</string>
+  <string name="account_setup_start_invalid_email_address">Невалиден имейл адрес</string>
   <string name="password_label">Парола</string>
   <string name="account_setup_basics_progress_message">Процес на авто-откритие</string>
   <string name="account_setup_options_title">Персонализиране</string>
@@ -46,7 +46,7 @@
   <string name="account_settings_account_color_summary">Промените цвета за този акаунт</string>
   <string name="account_settings_account_color_dialog_title">Изберете цвят</string>
   <string name="account_settings_led_notification_label">Активиране на LED уведомяване</string>
-  <string name="account_settings_led_notification_custom_color">Използвайте личен LED цвят</string>
+  <string name="account_settings_led_notification_custom_color">Използвайте цвятове по избор</string>
   <string name="account_settings_led_color_label">Личен LED цвят</string>
   <string name="account_settings_led_color_summary">Стойността по подразбиране е цвета на акаунт</string>
   <string name="account_settings_tutorial_header_title">Вижте урока</string>
@@ -74,7 +74,7 @@
   <string name="message_compose_send_availability_menu_title">Изпратете информация относно наличността</string>
   <string name="message_compose_create_invite_menu_title">Създаване на събитие</string>
   <string name="preference_compose_toolbar_visibility">Покажи панел за съставяне</string>
-  <string name="tutorial_welcome_title">Добре дошли в Е-поща</string>
+  <string name="tutorial_welcome_title">Добре дошли в Имейл</string>
   <string name="tutorial_welcome_subtitle">По-умно. По-бързо. Съобразени. Имейл.</string>
   <string name="tutorial_page1_title">Потребителски жестове</string>
   <string name="tutorial_page1_subtitle">Настрой и изграждане на личните жестове.</string>

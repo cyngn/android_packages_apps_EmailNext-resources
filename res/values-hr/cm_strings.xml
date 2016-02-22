@@ -44,19 +44,56 @@
   <string name="account_settings_show_all_images_ask">Pitaj prije prikaza</string>
   <string name="account_settings_account_color_title">Boja računa</string>
   <string name="account_settings_account_color_summary">Promijeni boju za ovaj račun</string>
+  <string name="account_settings_account_color_dialog_title">Odaberite boju</string>
+  <string name="account_settings_led_notification_label">Omogući LED obavijest</string>
+  <string name="account_settings_led_notification_custom_color">Koristi prilagođene LED boje</string>
+  <string name="account_settings_led_color_label">Prilagođene LED boje</string>
+  <string name="account_settings_led_color_summary">Zadana vrijednost je boja računa</string>
   <string name="account_settings_tutorial_header_title">Pogledaj tutorial</string>
+  <string name="account_settings_move_label_title">Poruke oznaka/premještanja</string>
+  <string name="account_settings_move_title">Premjesti</string>
+  <string name="account_settings_label_title">Oznaka</string>
   <string name="general_preference_mark_archive_messages_read">Arhiviraj kao pročitano</string>
   <string name="general_preference_mark_archive_messages_read_description">Označi E-poštu kao pročitanu prije arhiviranja</string>
   <string name="general_pref_notifications_use_combined_inbox">Obavijesti otvaraju kombinirani inbox</string>
   <string name="general_pref_notifications_use_combined_inbox_desc">Dodir na obavijest otvara kombinirani inbox umjesto inbox-a računa</string>
   <string name="search_hint">Pretraži\u2026</string>
+  <string name="oauth_authentication_title">Zahtijevanje autorizacije</string>
   <string name="sign_in_title">Prijavi se</string>
   <string name="sign_in_button">Gotovo</string>
   <string name="or_label">ILI</string>
+  <string name="sign_in_with_google">Prijavite se sa Google</string>
+  <string name="signed_in_with_service_label">Prijavljen preko %s</string>
+  <string name="authentication_label">Autentičnost</string>
+  <string name="add_authentication_label">Dodaj autentičnost</string>
+  <string name="oauth_saving_message">Spremanje\u2026</string>
+  <string name="about_app_header_title">O</string>
+  <string name="account_setup_options_mail_window_3months">Zadnja 3 mjeseca</string>
+  <string name="account_setup_options_mail_window_6months">Zadnjih 6 mjeseci</string>
+  <string name="account_settings_unable_to_edit_field">Vaš administrator ne dozvoljava da se ovo polje mijenja</string>
   <string name="message_compose_send_availability_menu_title">Raspoloživost slanja</string>
   <string name="message_compose_create_invite_menu_title">Stvori poziv</string>
+  <string name="preference_compose_toolbar_visibility">Prikaži uređivanje alatne trake</string>
   <string name="tutorial_welcome_title">Dobrodošli u E-poštu</string>
+  <string name="tutorial_welcome_subtitle">Pametnija. Brža. Prilagođena. E-pošta.</string>
+  <string name="tutorial_page1_title">Prilagođeni Potezi</string>
+  <string name="tutorial_page2_title">Masovne radnje</string>
   <string name="tutorial_page3_title">Akcija mreže</string>
   <string name="tutorial_skip_button">Preskoči</string>
   <string name="tutorial_done_button">Gotovo</string>
+  <string name="message_send_failed_ticker">Slanje poruke nije uspjelo</string>
+  <string name="message_send_failed_title">Poruka nije poslana</string>
+  <string name="preferences_clear_search_history_title">Obriši povijest pretraživanja</string>
+  <string name="preferences_clear_search_history_summary">Uklonite sva poduzeta pretraživanja</string>
+  <string name="search_history_cleared">Povijest pretraživanja je obrisana.</string>
+  <string name="update_availalable_title">Dostupno je ažuriranje</string>
+  <string name="update_available_content">Dodirnite za instaliranje ažuriranja</string>
+  <string name="preferences_security_title">Sigurnost</string>
+  <string name="preference_disable_screenshots">Onemogući snimke zaslona</string>
+  <string name="preference_disable_screenshots_summary">Spriječi druge aplikacije da uhvate snimak zaslona</string>
+  <plurals name="custom_perms_dialog_app_violation">
+    <item quantity="one"><xliff:g id="app_name">(%s)</xliff:g> redefinira dozvolu: <xliff:g id="permissions_list">%s</xliff:g></item>
+    <item quantity="few"><xliff:g id="app_name">(%s)</xliff:g> redefinira dozvolu: <xliff:g id="permissions_list">%s</xliff:g></item>
+    <item quantity="other"><xliff:g id="app_name">(%s)</xliff:g> redefiniraju dozvolu: <xliff:g id="permissions_list">%s</xliff:g></item>
+  </plurals>
 </resources>

@@ -45,6 +45,7 @@
   <string name="account_settings_led_color_label">Culoare LED particularizată</string>
   <string name="account_settings_led_color_summary">Valoarea implicită este culoarea de cont</string>
   <string name="account_settings_tutorial_header_title">Vezi tutorial</string>
+  <string name="account_settings_move_label_title">Etichetă/Mutare mesaje</string>
   <string name="account_settings_move_title">Mutare</string>
   <string name="account_settings_label_title">Etichetă</string>
   <string name="general_preference_mark_archive_messages_read">Arhivează ca citit</string>
@@ -64,6 +65,7 @@
   <string name="account_settings_unable_to_edit_field">Administratorul nu permite ca acest câmp să fie modificat</string>
   <string name="message_compose_send_availability_menu_title">Trimite disponibilitatea</string>
   <string name="message_compose_create_invite_menu_title">Creează invitație</string>
+  <string name="tutorial_welcome_subtitle">Mai inteligent. Mai repede. Adaptate. E-mail.</string>
   <string name="tutorial_page1_title">Glisări personalizate</string>
   <string name="tutorial_page3_title">Grila de acțiune</string>
   <string name="tutorial_skip_button">Omite</string>
@@ -75,5 +77,6 @@
   <string name="update_availalable_title">Este disponibilă o actualizare</string>
   <string name="update_available_content">Apăsați pentru a instala actualizarea</string>
   <string name="preferences_security_title">Securitate</string>
+  <string name="preference_disable_screenshots">Dezactivare capturi de ecran</string>
   <string name="custom_perms_pos_btn">Raportați</string>
 </resources>

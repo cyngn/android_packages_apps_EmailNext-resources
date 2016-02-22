@@ -78,7 +78,7 @@
   <string name="account_setup_basics_title">Настройка на профила</string>
   <string name="account_setup_basics_headline">Имейл профил</string>
   <string name="accounts_welcome">Настройте профила си само с няколко стъпки.        </string>
-  <string name="account_setup_basics_email_label">Имейл адрес</string>
+  <string name="account_setup_basics_email_label">Въведете имейл адрес</string>
   <string name="account_setup_basics_manual_setup_action">Ръчна настройка</string>
   <string name="account_setup_username_password_toast">Въведете валиден имейл адрес и парола.</string>
   <string name="account_duplicate_dlg_title">Дублиращ профил</string>
@@ -130,10 +130,10 @@
   <string name="account_setup_options_headline">Опции за профила</string>
   <string name="account_setup_options_mail_check_frequency_never">Никога</string>
   <string name="account_setup_options_mail_check_frequency_push">Автоматично („Push“)</string>
-  <string name="account_setup_options_mail_check_frequency_5min">На всеки 5 мин</string>
-  <string name="account_setup_options_mail_check_frequency_10min">На всеки 10 мин</string>
-  <string name="account_setup_options_mail_check_frequency_15min">На всеки 15 мин</string>
-  <string name="account_setup_options_mail_check_frequency_30min">На всеки 30 мин</string>
+  <string name="account_setup_options_mail_check_frequency_5min">На всеки 5 минути</string>
+  <string name="account_setup_options_mail_check_frequency_10min">На всеки 10 минути</string>
+  <string name="account_setup_options_mail_check_frequency_15min">На всеки 15 минути</string>
+  <string name="account_setup_options_mail_check_frequency_30min">На всеки 30 минути</string>
   <string name="account_setup_options_mail_check_frequency_1hour">На всеки час</string>
   <string name="account_setup_options_background_attachments_label">Автоматично изтегляне на прикачените файлове при връзка с Wi-Fi</string>
   <string name="account_setup_failed_dlg_title">Не можа да завърши</string>
@@ -193,9 +193,9 @@
   <string name="account_settings_login_dialog_reason_fmt">Влизането ви в/ъв <xliff:g id="ACCOUNT">%s</xliff:g> не бе успешно, сървърът отговори със: <xliff:g id="REASON">%s</xliff:g> Искате ли да актуализирате своето потребителско име и/или парола?</string>
   <string name="account_settings_background_attachments_label">Изтегляне на прик. файлове</string>
   <string name="account_settings_background_attachments_summary">Автоизтегляне на прик. файлове към скорошни съобщения през Wi-Fi</string>
-  <string name="account_settings_notify_label">Известия за имейл</string>
+  <string name="account_settings_notify_label">Уведомления за електронна поща</string>
   <string name="account_settings_summary">Честота на синхронизиране, известия и т.н.</string>
-  <string name="account_settings_notify_summary">Изпращане на известие при получаване на имейл</string>
+  <string name="account_settings_notify_summary">Изпраща уведомление, когато получите електронна поща</string>
   <string name="account_settings_mail_check_frequency_label">Честота на синхронизиране</string>
   <string name="account_settings_incoming_label">Входящи настройки</string>
   <string name="account_settings_incoming_summary">Потребителско име, парола и други настройки на входящия сървър</string>
