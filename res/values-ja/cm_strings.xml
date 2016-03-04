@@ -16,10 +16,14 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- Name of EmailProvider shown in AccountManager -->
   <string name="email_provider">メール</string>
+  <!-- In the UI, the drafts will be displayed with this name -->
   <string name="mailbox_name_display_local_drafts">ローカルの下書き</string>
   <string name="mailbox_name_display_server_drafts">サーバーの下書き</string>
+  <!-- In the UI, the folder to-do will be displayed with this name -->
   <string name="mailbox_name_display_todo">ToDo</string>
+  <!-- In the UI, the archive will be displayed with this name -->
   <string name="mailbox_name_display_archive">アーカイブ</string>
   <string name="mailbox_name_local_only_display_name"> - ローカル</string>
   <string name="account_setup_start_email_address_hint">メールアドレスを入力してください</string>
@@ -27,52 +31,86 @@
   <string name="account_setup_start_get_started_button">開始</string>
   <string name="account_setup_start_login_button">ログイン</string>
   <string name="account_setup_start_invalid_email_address">無効なメールアドレス</string>
+  <!-- hint for account email password text field -->
   <string name="password_label">パスワード</string>
   <string name="account_setup_basics_progress_message">自動検出中</string>
+  <!-- In Account setup options screen, Activity title [CHAR LIMIT=45] -->
   <string name="account_setup_options_title">個人設定</string>
+  <!-- In Account setup options screen, label for email check frequency selector -->
   <string name="account_setup_options_mail_check_frequency_label">受信トレイの確認</string>
+  <!-- In Account setup options & Account Settings screens, email check frequency option -->
   <string name="account_setup_options_mail_check_frequency_2hour">2時間ごと</string>
+  <!-- In Account setup options & Account Settings screens, email check frequency option -->
   <string name="account_setup_options_mail_check_frequency_4hour">4時間ごと</string>
+  <!-- In Account setup options & Account Settings screens, email check frequency option -->
   <string name="account_setup_options_mail_check_frequency_1day">毎日</string>
+  <!-- In Account setup options & Account Settings screens, check box for new-mail notification -->
   <string name="account_setup_options_notify_label">メールを受信した時に<b>通知する</b></string>
+  <!-- In Account setup options screen, optional check box to also sync contacts -->
   <string name="account_setup_options_sync_contacts_label">このアカウントから<b>連絡先を同期する</b></string>
+  <!-- In Account setup options screen, optional check box to also sync calendar -->
   <string name="account_setup_options_sync_calendar_label">このアカウントから<b>カレンダーを同期する</b></string>
+  <!-- In Account setup options screen, check box to sync email -->
   <string name="account_setup_options_sync_email_label">このアカウントから<b>メールを同期する</b></string>
   <string name="account_setup_options_disable_convo_threading_label">会話スレッドをOFF</string>
+  <!-- On Settings screen, setting option for showing all images -->
   <string name="account_settings_show_all_images_title">画像</string>
   <string name="account_settings_show_all_images_show">常に表示する</string>
   <string name="account_settings_show_all_images_ask">表示するかどうか選択する</string>
+  <!-- On Settings Screen, setting option for setting the account color -->
   <string name="account_settings_account_color_title">アカウントの色</string>
   <string name="account_settings_account_color_summary">このアカウントの色を編集する</string>
   <string name="account_settings_account_color_dialog_title">色を選択</string>
+  <!-- On Settings screen, led notification title label -->
   <string name="account_settings_led_notification_label">LED通知を有効化</string>
   <string name="account_settings_led_notification_custom_color">カスタムのLEDの色を使用</string>
+  <!-- On Settings screen, led color title and summary label -->
   <string name="account_settings_led_color_label">カスタムのLEDの色</string>
   <string name="account_settings_led_color_summary">デフォルトの値がアカウントの色になっています</string>
+  <!-- On Settings screen, tutorial header title label -->
   <string name="account_settings_tutorial_header_title">チュートリアルを表示</string>
+  <!-- On Settings screen, title for label/move preference -->
   <string name="account_settings_move_label_title">メッセージをラベル/移動</string>
+  <!-- On Settings screen, shown as an option for label/move preference -->
   <string name="account_settings_move_title">移動</string>
+  <!-- On Settings screen, shown as an option for label/move preference -->
   <string name="account_settings_label_title">ラベル</string>
+  <!-- General preference: Labels for the setting to mark emails as read before archiving them -->
   <string name="general_preference_mark_archive_messages_read">既読としてアーカイブ</string>
   <string name="general_preference_mark_archive_messages_read_description">メールをアーカイブする前に既読にする</string>
+  <!-- General preference: Notifications open to the combined inbox-->
   <string name="general_pref_notifications_use_combined_inbox">通知から統合した受信トレイを開く</string>
   <string name="general_pref_notifications_use_combined_inbox_desc">通知をタップしてアカウントごとの受信ボックスの代わりに統合した受信ボックスを開く</string>
+  <!-- The hint used in the search box when searching all mailboxes [CHAR LIMIT=35] -->
   <string name="search_hint">検索\u2026</string>
+  <!-- Title of screen when trying to get oauth authentication -->
   <string name="oauth_authentication_title">認証をリクエスト中</string>
+  <!-- Title of screen to choose with authentication to use -->
   <string name="sign_in_title">サインイン</string>
+  <!-- Button shown on SignInActivity -->
   <string name="sign_in_button">完了</string>
+  <!-- Label between OAuth and password authentication, indicating the user must do one or the other [CHAR LIMIT=40] -->
   <string name="or_label">または</string>
+  <!-- Label for signing in with Google using OAuth -->
   <string name="sign_in_with_google">Googleでサインイン</string>
+  <!--  On the "Setup up email" screen, label indicating what service we are signed in with [CHAR LIMIT=40] -->
   <string name="signed_in_with_service_label">%sでサインイン</string>
+  <!-- Label for the authentication section [CHAR LIMIT=20] -->
   <string name="authentication_label">認証</string>
+  <!-- Label for the add authentication icon [CHAR LIMIT=40] -->
   <string name="add_authentication_label">認証を追加</string>
   <string name="oauth_saving_message">保存しています\u2026</string>
   <string name="about_app_header_title">情報</string>
+  <!-- A sync window length setting (i.e. load messages this far back) [CHAR LIMIT=25]  -->
   <string name="account_setup_options_mail_window_3months">過去3ヶ月</string>
+  <!-- A sync window length setting (i.e. load messages this far back) [CHAR LIMIT=25]  -->
   <string name="account_setup_options_mail_window_6months">過去6ヶ月</string>
   <string name="account_settings_unable_to_edit_field">管理者がこの欄の変更を許可していません</string>
+  <!-- Menu item for sending availability from compose. [CHAR_LIMIT=30] -->
   <string name="message_compose_send_availability_menu_title">予定を送信</string>
+  <!-- Menu item for including an invite from compose. [CHAR_LIMIT=30] -->
   <string name="message_compose_create_invite_menu_title">招待状を作成</string>
+  <!-- Preference for the compose toolbar -->
   <string name="preference_compose_toolbar_visibility">作成ツールバーを表示</string>
   <string name="tutorial_welcome_title">メールへようこそ</string>
   <string name="tutorial_welcome_subtitle">スマート、高速、作り込まれたメールです。</string>
@@ -92,8 +130,11 @@
   <string name="update_available_ticker">メールのアップデートが利用可能です</string>
   <string name="update_availalable_title">アップデートが利用可能です</string>
   <string name="update_available_content">タップしてアップデートをインストール</string>
+  <!-- Security settings category -->
   <string name="preferences_security_title">セキュリティ</string>
+  <!-- Preference for disabling screenshots of app screens. -->
   <string name="preference_disable_screenshots">スクリーンショットを無効化</string>
+  <!-- Preference for disabling screenshots of app screens. -->
   <string name="preference_disable_screenshots_summary">アプリ画面のスクリーンショットを他のアプリがキャプチャできないように防止する</string>
   <string name="preference_allow_insecure_attachments_title">セキュリティで保護されていない添付ファイルを許可</string>
   <string name="preference_allow_insecure_attachments_summary">セキュリティで保護されていない添付ファイルの表示または保存を許可する</string>

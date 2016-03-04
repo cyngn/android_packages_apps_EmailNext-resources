@@ -15,204 +15,455 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- Names of packages and authorities that are common to all apps
+    and read from resources -->
+  <!-- Permissions label for reading attachments -->
   <string name="permission_read_attachment_label">Четене на прикачени файлове в имейла</string>
+  <!-- Permissions description for reading attachments -->
   <string name="permission_read_attachment_desc">Разрешава на приложението да чете прикачените файлове в имейла ви.</string>
+  <!-- Permissions label for accessing the main provider -->
   <string name="permission_access_provider_label">Достъп до данни на доставчика на имейл</string>
+  <!-- Permissions description for accessing the main provider -->
   <string name="permission_access_provider_desc">Дава на приложението достъп до базата от данни на имейла ви, включително получени и изпратени съобщения, потребителски имена и пароли.</string>
+  <!-- Name of application on Home screen -->
   <string name="app_name">Имейл</string>
+  <!-- Title of debug screen -->
   <string name="debug_title">Отстраняване на грешки</string>
+  <!-- Actions will be used as buttons and in menu items -->
+  <!-- Button name used as part of a multi-step process -->
   <string name="next_action">Напред</string>
-  <string name="okay_action">OK</string>
+  <!-- Button name used to confirm acceptance of dialog boxes, warnings, errors, etc. -->
+  <string name="okay_action">Да</string>
+  <!-- Button name used to cancel out of dialog boxes -->
   <string name="cancel_action">Отказ</string>
+  <!-- Button name used to move to previous step during setup sequence [CHAR_LIMIT=16] -->
   <string name="previous_action">Предишна</string>
+  <!--  Button name used to complete a multi-step process -->
   <string name="done_action">Готово</string>
+  <!--  Menu item used to create a new quick response [CHAR_LIMIT=16] -->
   <string name="create_action">Създаване на нов</string>
+  <!-- Message informing user when a list that would contain quick responses
+            is empty [CHAR_LIMIT=80] -->
   <string name="quick_responses_empty_view">Няма бързи отговори.</string>
+  <!-- Menu item -->
   <string name="account_settings_action">Настройки на профил</string>
+  <!-- Menu item: options for this mailbox. [CHAR LIMIT = 32] -->
   <string name="menu_folder_options">Опции за синхронизиране</string>
+  <!-- Appears in message list view when there's a network error. -->
+  <!-- Also appears in a toast, in the message viewer, when there's a network error. -->
   <string name="status_network_error">Проблем с връзката.</string>
+  <!-- Text shown with dragged messages to indicate how many are being dragged [CHAR LIMIT=40]-->
   <plurals name="move_messages">
     <item quantity="one">Преместване на съобщение</item>
     <item quantity="other">Преместване на съобщения</item>
   </plurals>
+  <!-- Toast shown when a message(s) can't be moved because it's not supported by the POP3
+        protocol. [CHAR LIMIT=none]-->
   <string name="cannot_move_protocol_not_supported_toast">Преместването не се поддържа за профили с POP3.</string>
+  <!-- Toast shown when messages can't be moved because the selection contains multiple accounts'
+        messages. [CHAR LIMIT=none]-->
   <string name="cannot_move_multiple_accounts_toast">Не може да се премести, защото изборът съдържа няколко профила.</string>
+  <!-- Toast shown when messages can't be moved because they're in a special mailbox.  "Drafts",
+        "Outbox" and "Sent". [CHAR LIMIT=none]-->
   <string name="cannot_move_special_mailboxes_toast">Съобщенията в „Чернови“, „Изх. поща“ и „Изпратени“ не могат да се местят.</string>
-  <string name="mailbox_name_display_inbox">Вх. поща</string>
-  <string name="mailbox_name_display_outbox">Изх. поща</string>
+  <!-- The next set of strings are used in local display and may be localized. -->
+  <!-- In the UI, the inbox will be displayed with this name -->
+  <string name="mailbox_name_display_inbox">Входяща поща</string>
+  <!-- In the UI, the outbox will be displayed with this name -->
+  <string name="mailbox_name_display_outbox">Изходяща поща</string>
+  <!-- In the UI, the trash will be displayed with this name -->
   <string name="mailbox_name_display_trash">Кошче</string>
+  <!-- In the UI, the sent will be displayed with this name -->
   <string name="mailbox_name_display_sent">Изпратени</string>
+  <!-- In the UI, the junk will be displayed with this name -->
   <string name="mailbox_name_display_junk">Нежелана поща</string>
+  <!-- In the UI, the starred will be displayed with this name -->
   <string name="mailbox_name_display_starred">Със звезда</string>
+  <!-- In the UI, the unread will be displayed with this name [CHAR LIMIT=15] -->
   <string name="mailbox_name_display_unread">Непрочетено</string>
-  <string name="account_folder_list_summary_inbox">Вх. поща</string>
+  <!-- Do Not Translate.  Checkbox label, shown only on debug screen -->
+  <!-- Do Not Translate.  Checkbox label, shown only on debug screen -->
+  <!-- Do Not Translate.  Checkbox label, shown only on debug screen -->
+  <!-- Do Not Translate.  Button label, shown only on debug screen -->
+  <!-- Do Not Translate.  Checkbox label, shown on debug screen. -->
+  <!-- Do Not Translate.  Checkbox label, shown on debug screen. -->
+  <!-- Do Not Translate.  Checkbox label, shown on debug screen. -->
+  <!-- The summary section entry in the AccountFolder list to display all inboxes -->
+  <string name="account_folder_list_summary_inbox">Входяща поща</string>
+  <!-- The summary section entry in the AccountFolder list to display all starred
+        [CHAR LIMIT=200dip] -->
   <string name="account_folder_list_summary_starred">Със звезда</string>
+  <!-- The summary section entry in the AccountFolder list to display all drafts
+        [CHAR LIMIT=200dip] -->
   <string name="account_folder_list_summary_drafts">Чернови</string>
-  <string name="account_folder_list_summary_outbox">Изх. поща</string>
+  <!-- The summary section entry in the AccountFolder list to display all outboxes
+        [CHAR LIMIT=200dip] -->
+  <string name="account_folder_list_summary_outbox">Изходяща поща</string>
+  <!-- Header for forwarded original messages -->
   <string name="message_compose_fwd_header_fmt">\n\n\"-------- Оригинално съобщение --------\nТема: <xliff:g id="SUBJECT">%1$s</xliff:g>\nОт: <xliff:g id="SENDER">%2$s</xliff:g>\nДо: <xliff:g id="TO">%3$s</xliff:g>\nЯк: <xliff:g id="CC_0">%4$s</xliff:g>\n\n\"</string>
+  <!-- Title for dialog containing list of quick responses that user may insert
+            into message body. [CHAR_LIMIT=30] -->
   <string name="message_compose_insert_quick_response_list_title">Вмъкване на бърз отговор</string>
+  <!-- Menu item for inserting quick responses into email compose activity. [CHAR_LIMIT=30] -->
   <string name="message_compose_insert_quick_response_menu_title">Вмъкване на бърз отговор</string>
+  <!-- Toast upon using "send" when one or more attachments will need to be background loaded
+      [CHAR LIMIT=none]-->
   <string name="message_view_attachment_background_load">Един или повече прикачени файла в препратеното ви съобщение ще бъдат изтеглени преди изпращане.</string>
+  <!-- Error banner when an attachment could not be downloaded due to a problem at the server
+            [CHAR LIMIT=100] -->
   <string name="attachment_not_found">Прикаченият файл не можа да бъде изтеглен.</string>
+  <!-- String used in place of a message that could not be properly decoded (e.g. bad base64
+         data was received.) [CHAR LIMIT=none] -->
   <string name="message_decode_error">При декодирането на съобщението възникна грешка.</string>
+  <!-- Notification ticker when a forwarded attachment couldn't be sent [CHAR LIMIT=none] -->
   <string name="forward_download_failed_ticker">Един или повече прикачени файла не можаха да се препратят.</string>
+  <!-- Notification title when a forwarded attachment couldn't be sent [CHAR LIMIT=30]-->
   <string name="forward_download_failed_title">Прикаченото не бе препратено</string>
+  <!-- Notification ticker when email account authentication fails [CHAR LIMIT=none] -->
   <string name="login_failed_ticker">Не успяхте да влезете в профила си <xliff:g id="ACCOUNT_NAME">%s</xliff:g>.</string>
+  <!-- Notification title when email account authentication fails [CHAR LIMIT=30]-->
   <string name="login_failed_title">Не можах да вляза в профила си</string>
+  <!-- Size unit for bytes for attachments [CHAR LIMIT=10] -->
   <plurals name="message_view_attachment_bytes">
     <item quantity="one"><xliff:g id="SIZE_IN_BYTES">%d</xliff:g> Б</item>
     <item quantity="other"><xliff:g id="SIZE_IN_BYTES">%d</xliff:g> Б</item>
   </plurals>
+  <!-- Size unit for kilo bytes for attachments [CHAR LIMIT=10] -->
   <plurals name="message_view_attachment_kilobytes">
     <item quantity="one"><xliff:g id="SIZE_IN_KILOBYTES">%d</xliff:g> КБ</item>
     <item quantity="other"><xliff:g id="SIZE_IN_KILOBYTES">%d</xliff:g> КБ</item>
   </plurals>
+  <!-- Size unit for mega bytes for attachments [CHAR LIMIT=10] -->
   <plurals name="message_view_attachment_megabytes">
     <item quantity="one"><xliff:g id="SIZE_IN_MEGABYTES">%d</xliff:g> МБ</item>
     <item quantity="other"><xliff:g id="SIZE_IN_MEGABYTES">%d</xliff:g> МБ</item>
   </plurals>
+  <!-- Size unit for giga bytes for attachments [CHAR LIMIT=10] -->
   <plurals name="message_view_attachment_gigabytes">
     <item quantity="one"><xliff:g id="SIZE_IN_GIGABYTES">%d</xliff:g> ГБ</item>
     <item quantity="other"><xliff:g id="SIZE_IN_GIGABYTES">%d</xliff:g> ГБ</item>
   </plurals>
+  <!-- Title of screen when setting up new email account [CHAR LIMIT=45] -->
   <string name="account_setup_basics_title">Настройка на профила</string>
+  <!-- Headline of screen when setting up new email account (large text over divider)
+        [CHAR LIMIT=none] -->
   <string name="account_setup_basics_headline">Имейл профил</string>
-  <string name="accounts_welcome">Настройте профила си само с няколко стъпки.        </string>
+  <!-- On "Set up email" screen, enthusiastic welcome message. -->
+  <string name="accounts_welcome">Можете да настроите профила си само с няколко стъпки.</string>
+  <!-- On "Set up email" screen, hint for account email address text field -->
   <string name="account_setup_basics_email_label">Въведете имейл адрес</string>
+  <!-- Button name on "Set up email" screen [CHAR LIMIT=20] -->
   <string name="account_setup_basics_manual_setup_action">Ръчна настройка</string>
+  <!-- Toast when we can't build a URI from the given email & password -->
+  <!-- Note, the error message in the toast is purposefully vague, because I *don't* know
+        exactly what's wrong. -->
   <string name="account_setup_username_password_toast">Въведете валиден имейл адрес и парола.</string>
+  <!-- Title of dialog shown when a duplicate account is created -->
   <string name="account_duplicate_dlg_title">Дублиращ профил</string>
+  <!-- Message of dialog shown when a duplicate account is created.  The display name of
+         the duplicate account is displayed. -->
   <string name="account_duplicate_dlg_message_fmt">Вече използвате това потребителско име за профила „<xliff:g id="DUPLICATE">%s</xliff:g>“.</string>
+  <!-- String that is displayed as error text for passwords with leading or trailing
+         spaces.  [CHAR LIMIT=none] -->
   <string name="account_password_spaces_error">Тази парола започва или завършва с един или повече знака за интервал. Много сървъри не поддържат пароли с интервали.</string>
+  <!-- On check-settings screen, this is the initially-displayed message. -->
   <string name="account_setup_check_settings_retr_info_msg">Извлича се информация за профила...</string>
+  <!-- Appears on screen while system is checking incoming server settings -->
   <string name="account_setup_check_settings_check_incoming_msg">Настройките на сървъра се потвърждават…</string>
+  <!-- Appears on screen while system is checking outgoing server settings -->
   <string name="account_setup_check_settings_check_outgoing_msg">Настройките за SMTP се потвърждават…</string>
+  <!-- Appears on screen while system is creating the account -->
   <string name="account_setup_creating_account_msg">Профилът се създава…</string>
+  <!-- Title of "Set up email" screen after success [CHAR LIMIT=45] -->
   <string name="account_setup_names_title">Настройка на профила</string>
+  <!-- Text that appears on "Set up email" screen after successfully setting up an account
+        [CHAR LIMIT=none] -->
   <string name="account_setup_names_headline">Профилът ви е настроен и имейлите са на път!</string>
+  <!-- On "Set up email" screen, label of text field -->
   <string name="account_setup_names_account_name_label">Именуване на този профил (незадължително)</string>
+  <!-- On "Set up email" screen, label of text field -->
   <string name="account_setup_names_user_name_label">Името ви (показвано в изходящи съобщения)</string>
+  <!-- On "Set up email" screen, error pop-up when user_name field is empty [CHAR LIMIT=none] -->
   <string name="account_setup_names_user_name_empty_error">Това поле трябва да се попълни.</string>
+  <!-- Activity Title for the account type selector (IMAP or POP3 or EAS) [CHAR LIMIT=45] -->
   <string name="account_setup_account_type_title">Настройка на профила</string>
+  <!-- Headline for the the account type selector (IMAP or POP3 or EAS) [CHAR LIMIT=none] -->
   <string name="account_setup_account_type_headline">Тип профил</string>
+  <!-- "Add new email account" screen, text that appears on screen -->
   <string name="account_setup_account_type_instructions">Какъв вид профил е това?</string>
+  <!-- "Incoming server settings" screen, title [CHAR LIMIT=45] -->
   <string name="account_setup_incoming_title">Настройка на профила</string>
+  <!-- "Incoming server settings" screen, headline (text over divider) [CHAR LIMIT=none] -->
   <string name="account_setup_incoming_headline">Настройки на входящия сървър</string>
+  <!-- "Incoming server settings" screen, label for text field -->
   <string name="account_setup_incoming_username_label">Потребителско име</string>
+  <!-- "Incoming server settings" screen, label for text field -->
   <string name="account_setup_incoming_password_label">Парола</string>
+  <!-- "Incoming server settings" screen, label for text field -->
   <string name="account_setup_incoming_server_label">Сървър</string>
+  <!-- "Incoming server settings" screen, label for text field -->
   <string name="account_setup_incoming_port_label">Порт</string>
+  <!-- "Incoming server settings" screen, label for pop-up menu -->
   <string name="account_setup_incoming_security_label">Вид защита</string>
+  <!-- "Incoming server settings" screen, option for "Security type" pop-up menu indicating
+        the desire for an unencrypted session -->
   <string name="account_setup_incoming_security_none_label">Няма</string>
+  <!-- "Incoming server settings" screen, option for "Security type" pop-up menu indicating
+        the desire for an encrypted session on the selected port, accepting all SSL certificates -->
   <string name="account_setup_incoming_security_ssl_trust_certificates_label">SSL/TLS (Приемане на всички сертификати)</string>
+  <!-- "Incoming server settings" screen, option for "Security type" pop-up menu indicating
+        the desire for an encrypted session on the selected port, including SSL certificate
+        checks -->
   <string name="account_setup_incoming_security_ssl_label">SSL/TLS</string>
+  <!-- "Incoming server settings" screen, option for "Security type" pop-up menu indicating
+        the desire for an encrypted session overlaid on a plain text session using the selected
+        port, accepting all SSL certificates -->
   <string name="account_setup_incoming_security_tls_trust_certificates_label">STARTTLS (Приемане на всички сертификати)</string>
+  <!-- "Incoming server settings" screen, option for "Security type" pop-up menu indicating
+        the desire for an encrypted session overlaid on a plain text session on the selected
+        port, including SSL certificate checks -->
   <string name="account_setup_incoming_security_tls_label">STARTTLS</string>
+  <!-- "Incoming server settings" screen, label for pop-up menu -->
   <string name="account_setup_incoming_delete_policy_label">Изтриване на имейл от сървъра</string>
+  <!-- "Incoming server settings" screen, options in pop-up menu for Delete email from server: -->
+  <!-- "Incoming server settings" screen, options in pop-up menu for Delete email from server: -->
   <string name="account_setup_incoming_delete_policy_never_label">Никога</string>
+  <!-- "Incoming server settings" screen, options in pop-up menu for Delete email from server: -->
   <string name="account_setup_incoming_delete_policy_delete_label">При изтриване от „Вх. поща“</string>
+  <!-- "Incoming server settings" screen, label for setting IMAP path prefix: -->
   <string name="account_setup_incoming_imap_path_prefix_label">префикс на IMAP път</string>
+  <!-- "Incoming server settings" screen, hint for setting IMAP path prefix: -->
   <string name="account_setup_incoming_imap_path_prefix_hint">По избор</string>
+  <!-- "Outgoing server settings" screen, title [CHAR LIMIT=45] -->
   <string name="account_setup_outgoing_title">Настройка на профила</string>
+  <!-- "Outgoing server settings" screen, headline (text over divider) [CHAR LIMIT=none] -->
   <string name="account_setup_outgoing_headline">Настройки на изходящия сървър</string>
+  <!-- On "Outgoing server settings" screen, label for text field -->
   <string name="account_setup_outgoing_smtp_server_label">SMTP сървър</string>
+  <!-- On "Outgoing server settings" screen, label for text field -->
   <string name="account_setup_outgoing_port_label">Порт</string>
+  <!-- On "Outgoing server settings" screen, label for pop-up menu -->
   <string name="account_setup_outgoing_security_label">Вид защита</string>
+  <!-- On "Outgoing server settings" screen, label for check box -->
   <string name="account_setup_outgoing_require_login_label">Изисква влизане в профил</string>
+  <!-- On "Outgoing server settings" screen, label for text field -->
   <string name="account_setup_outgoing_username_label">Потребителско име</string>
+  <!-- On "Outgoing server settings" screen, label for text field -->
   <string name="account_setup_outgoing_password_label">Парола</string>
+  <!-- On "Exchange" setup screen, a heading title for the current client certificate [CHAR LIMIT=50] -->
   <string name="account_setup_exchange_certificate_title">Сертификат за клиентска програма</string>
+  <!-- On "Exchange" setup screen, a button label to include a client certificate [CHAR LIMIT=35] -->
   <string name="account_setup_exchange_select_certificate">Избиране</string>
+  <!-- On "Exchange" setup screen, a button label to include a client certificate [CHAR LIMIT=35] -->
   <string name="account_setup_exchange_use_certificate">Със сертификат за клиентска прогр.</string>
+  <!-- On "Exchange" setup screen, a button label to remove the currently used client certificate [CHAR LIMIT=35] -->
   <string name="account_setup_exchange_remove_certificate">Премахване</string>
+  <!-- On "Exchange" setup screen, placeholder text to indicate no client
+         certificate is used [CHAR LIMIT=50] -->
   <string name="account_setup_exchange_no_certificate">Нито един</string>
+  <!-- On "Exchange" setup screen, the exchange device-id label [CHAR LIMIT=30] -->
   <string name="account_setup_exchange_device_id_label">Идент. № на мобилното у-во</string>
+  <!-- In Account setup options screen, Activity headline [CHAR LIMIT=none] -->
   <string name="account_setup_options_headline">Опции за профила</string>
+  <!-- In Account setup options & Account Settings screens, label for email check frequency option -->
   <string name="account_setup_options_mail_check_frequency_never">Никога</string>
+  <!-- In Account setup options & Account Settings screens, label for email check frequency option -->
   <string name="account_setup_options_mail_check_frequency_push">Автоматично („Push“)</string>
+  <!-- In Account setup options & Account Settings screens, email check frequency option -->
   <string name="account_setup_options_mail_check_frequency_5min">На всеки 5 минути</string>
+  <!-- In Account setup options & Account Settings screens, email check frequency option -->
   <string name="account_setup_options_mail_check_frequency_10min">На всеки 10 минути</string>
+  <!-- In Account setup options & Account Settings screens, email check frequency option -->
   <string name="account_setup_options_mail_check_frequency_15min">На всеки 15 минути</string>
+  <!-- In Account setup options & Account Settings screens, email check frequency option -->
   <string name="account_setup_options_mail_check_frequency_30min">На всеки 30 минути</string>
+  <!-- In Account setup options & Account Settings screens, email check frequency option -->
   <string name="account_setup_options_mail_check_frequency_1hour">На всеки час</string>
+  <!-- In Account setup options screen, check box to auto-download attachments  [CHAR LIMIT=none] -->
   <string name="account_setup_options_background_attachments_label">Автоматично изтегляне на прикачените файлове при връзка с Wi-Fi</string>
+  <!-- Dialog title when "setup" could not finish -->
   <string name="account_setup_failed_dlg_title">Не можа да завърши</string>
+  <!-- In Account setup options screen, label for email lookback selector -->
   <string name="account_setup_options_mail_window_label">Дни за синхронизиране</string>
+  <!-- In account setup options & account settings screens (exchange), sync window length; this
+        implies loading a 'reasonable' number of messages [CHAR LIMIT=25] -->
   <string name="account_setup_options_mail_window_auto">Автоматично</string>
+  <!-- A sync window length setting (i.e. load messages this far back) [CHAR LIMIT=25]  -->
   <string name="account_setup_options_mail_window_1day">Последният ден</string>
+  <!-- A sync window length setting (i.e. load messages this far back) [CHAR LIMIT=25]  -->
   <string name="account_setup_options_mail_window_3days">Последните три дни</string>
+  <!-- A sync window length setting (i.e. load messages this far back) [CHAR LIMIT=25]  -->
   <string name="account_setup_options_mail_window_1week">Последната седмица</string>
+  <!-- A sync window length setting (i.e. load messages this far back) [CHAR LIMIT=25]  -->
   <string name="account_setup_options_mail_window_2weeks">Последните две седмици</string>
+  <!-- A sync window length setting (i.e. load messages this far back) [CHAR LIMIT=25]  -->
   <string name="account_setup_options_mail_window_1month">Последният месец</string>
+  <!-- A sync window length setting (i.e. load messages this far back) [CHAR LIMIT=25]  -->
   <string name="account_setup_options_mail_window_all">Всички</string>
+  <!-- Per-mailbox sync window setting.  This means "use the account's sync window setting" [CHAR LIMIT=40] -->
   <string name="account_setup_options_mail_window_default">Стандартното за профила</string>
+  <!-- "Setup could not finish" dialog text; e.g., Username or password incorrect -->
   <string name="account_setup_failed_dlg_auth_message">Неправилно потребителско име или парола.</string>
+  <!-- "Setup could not finish" dialog text; e.g., Username or password incorrect\n(ERR01 Account does not exist) -->
   <string name="account_setup_failed_dlg_auth_message_fmt">Влизането не бе успешно.\n(<xliff:g id="ERROR">%s</xliff:g>)</string>
+  <!-- Account setup autodiscover auth failure dialog title. This is shown when autodiscover hits
+        an "access denied" server error, which could imply incorrect username/password or that no
+        autodiscover service has been configured for the domain [CHAR LIMIT=40] -->
   <string name="account_setup_autodiscover_dlg_authfail_title">Проблем с настройването на профила</string>
+  <!-- Account setup autodiscover auth failure dialog message. This is shown when autodiscover hits
+        an "access denied" server error, which could imply incorrect username/password or that no
+        autodiscover service has been configured for the domain [CHAR LIMIT=NONE] -->
   <string name="account_setup_autodiscover_dlg_authfail_message">Потвърдете, че потребителското име, паролата и настройките на профила са правилни.</string>
+  <!-- An error message presented to the user when the server's identity
+         cannot be established or trusted [CHAR LIMIT=NONE] -->
   <string name="account_setup_failed_dlg_certificate_message">Не може да се осъществи безопасна връзка със сървъра.</string>
+  <!-- An error message presented to the user when the server's identity
+         cannot be established or trusted [CHAR LIMIT=NONE] -->
   <string name="account_setup_failed_dlg_certificate_message_fmt">Не може да се осъществи безопасна връзка със сървъра.\n(<xliff:g id="ERROR">%s</xliff:g>)</string>
+  <!-- An error message presented to the user when the server requires a
+         client certificate to connect [CHAR LIMIT=NONE] -->
   <string name="account_setup_failed_certificate_required">Изисква се сертификат за клиентска програма. Да се установи ли връзка със сървъра чрез него?</string>
+  <!-- An error message presented to the user when the certificate they
+         specified for connecting to a server is inaccessible [CHAR LIMIT=NONE] -->
   <string name="account_setup_failed_certificate_inaccessible">Сертификатът е невалиден или недостъпен.</string>
+  <!-- Dialog text for ambiguous setup failure; server error/bad credentials [CHAR LIMIT=none] -->
   <string name="account_setup_failed_check_credentials_message">Сървърът отговори с грешка. Проверете потребителското име и паролата си, след което опитайте отново.</string>
+  <!-- "Setup could not finish" dialog text; e.g., Cannot connect to server -->
   <string name="account_setup_failed_dlg_server_message">Не може да се осъществи връзка със сървъра.</string>
+  <!-- "Setup could not finish" dialog text; e.g., Cannot connect to server\n(Connection timed out) -->
   <string name="account_setup_failed_dlg_server_message_fmt">Не може да се осъществи връзка със сървъра.\n(<xliff:g id="ERROR">%s</xliff:g>)</string>
+  <!-- Additional diagnostic text when TLS was required but the server doesn't support it -->
   <string name="account_setup_failed_tls_required">Изисква се TLS, но не се поддържа от сървъра.</string>
+  <!-- Additional diagnostic text when server does not support any of our authentication methods -->
   <string name="account_setup_failed_auth_required">Сървърът не поддържа методи за удостоверяване.</string>
+  <!-- Additional diagnostic text when server connection failed due to security error -->
   <string name="account_setup_failed_security">Не можа да се установи връзка със сървъра поради грешка със сигурността.</string>
+  <!-- Additional diagnostic text when server connection failed due to io error (connection) -->
   <string name="account_setup_failed_ioerror">Не можа да се установи връзка със сървъра.</string>
+  <!-- Additional diagnostic text when server connection failed due to our inability to support a
+         required EAS protocol version [CHAR LIMIT=none] -->
   <string name="account_setup_failed_protocol_unsupported">Въвели сте неправилен адрес на сървъра или сървърът изисква версия на протокола, която приложението Имейл не поддържа.</string>
+  <!-- Additional diagnostic text when server access was denied; the user should contact the
+         administrator of the server for more information [CHAR LIMIT=none] -->
   <string name="account_setup_failed_access_denied">Нямате разрешение за синхронизиране с този сървър. Свържете се с администратора на сървъра си за още информация.</string>
+  <!-- Dialog title when validation requires security provisioning (e.g. support
+         for device lock PIN, or remote wipe.) and we ask the user permission before continuing -->
   <string name="account_setup_security_required_title">Отдалечено администриране на сигурността</string>
+  <!-- Additional diagnostic text when validation requires security provisioning (e.g. support
+         for device lock PIN, or remote wipe.) and we ask the user permission before continuing.
+         [CHAR LIMIT=none] -->
   <string name="account_setup_security_policies_required_fmt">Сървърът <xliff:g id="SERVER">%s</xliff:g> изисква отдалечен контрол над някои от защитните функции на устройството ви с Android. Искате ли да завършите настройването на този профил?</string>
+  <!-- Additional diagnostic text when validation failed due to required provisioning not
+         being supported [CHAR LIMIT=none] -->
   <string name="account_setup_failed_security_policies_unsupported">Този сървър изисква защитни функции, които устройството ви с Android не поддържа, включително: <xliff:g id="ERROR">%s</xliff:g></string>
+  <!-- The user name can only be changed during initial account setup. [CHAR LIMIT=none] -->
   <string name="account_setup_username_uneditable_error">Не можете да промените потребителското име на профил. За да добавите такъв с ново име, докоснете „Добавяне на профил“.</string>
+  <!-- Warning given to users when they request disabling device administration (i.e. that their
+         administered accounts will be deleted) [CHAR LIMIT=none] -->
   <string name="disable_admin_warning">ПРЕДУПРЕЖДЕНИЕ: Деактивирането на възможността приложението Имейл да администрира устройството ви ще изтрие всички имейл адреси, които го изискват, заедно с имейлите, контактите, събитията от календара и други данни в тях.</string>
+  <!-- Dialog shown when the account requires some amount of device security provisioning,
+         just before jumping into system settings such as Device Policy grant, PIN/password,
+         or encryption setup.  [CHAR_LIMIT=40] -->
   <string name="account_security_dialog_title">Атуализация на защитата</string>
+  <!-- Additional diagnostic text when the account requires some amount of device security
+         provisioning, just before jumping into system settings such as Device Policy grant,
+         PIN/password, or encryption setup.  [CHAR LIMIT=none] -->
   <string name="account_security_dialog_content_fmt"><xliff:g id="ACCOUNT">%s</xliff:g> изисква да актуализирате защитните си настройки.</string>
+  <!-- Notification ticker when device security required (note: unused in Holo XL) -->
   <string name="security_unsupported_ticker_fmt">Профилът „<xliff:g id="ACCOUNT">%s</xliff:g>“ не може да бъде синхронизиран поради изискванията за сигурност.</string>
+  <!-- Notification ticker when device security required (note: unused in Holo XL) -->
   <string name="security_needed_ticker_fmt">Профилът „<xliff:g id="ACCOUNT">%s</xliff:g>“ изисква актуализация на настройките за сигурност.</string>
+  <!-- Notification ticker when device security required (note: unused in Holo XL) -->
   <string name="security_changed_ticker_fmt">Настройките за сигурност на профила „<xliff:g id="ACCOUNT">%s</xliff:g>“ са променени. Не е необходимо действие от страна на потребителя.</string>
+  <!-- Notification content title when device security required [CHAR_LIMIT=30] -->
   <string name="security_notification_content_update_title">Актуализирайте за сигурност</string>
+  <!-- Notification content title when device security policies have changed [CHAR_LIMIT=36] -->
   <string name="security_notification_content_change_title">Променени правила за сигурност</string>
+  <!-- Notification content title when device security policies cannot be met [CHAR_LIMIT=30] -->
   <string name="security_notification_content_unsupported_title">Неизпълнени правила за сигурност</string>
+  <!-- Title of the activity that dispatches changes to device security.  Not normally seen. -->
   <string name="account_security_title">Сигурност на устройството</string>
+  <!-- Additional diagnostic text when the email app asserts control of the phone.
+        [CHAR LIMIT=none] -->
   <string name="account_security_policy_explanation_fmt">Сървърът <xliff:g id="SERVER">%s</xliff:g> изисква отдалечен контрол над някои от защитните функции на устройството ви с Android.</string>
+  <!-- "Setup could not finish" dialog action button -->
   <string name="account_setup_failed_dlg_edit_details_action">Редактиране на подробностите</string>
+  <!-- Notification ticker when device password is getting ready to expire [CHAR_LIMIT=80] -->
   <string name="password_expire_warning_ticker_fmt">„<xliff:g id="ACCOUNT">%s</xliff:g>“ изисква да промените ПИН кода или паролата си за заключен екран.</string>
+  <!-- Notification content title when device password is getting ready to expire
+            [CHAR_LIMIT=30] -->
   <string name="password_expire_warning_content_title">Паролата при заключване изтича</string>
+  <!-- Notification ticker when device password has expired [CHAR_LIMIT=80] -->
   <string name="password_expired_ticker">PIN кодът или паролата за заключен екран изтече.</string>
+  <!-- Notification content title when device password has expired [CHAR_LIMIT=28] -->
   <string name="password_expired_content_title">Паролата изтече</string>
+  <!-- Dialog title if device pin/password is going to expire soon. [CHAR_LIMIT=40] -->
   <string name="password_expire_warning_dialog_title">Паролата за заключен екран изтича</string>
+  <!-- Dialog content device pin/password is going to expire soon. [CHAR_LIMIT=none] -->
   <string name="password_expire_warning_dialog_content_fmt">Трябва скоро да промените ПИН кода или паролата си за заключен екран или данните за <xliff:g id="ACCOUNT">%s</xliff:g> ще бъдат изтрити. Искате ли да извършите промяната сега?</string>
+  <!-- Dialog title if device pin/password has already expired. [CHAR_LIMIT=40] -->
   <string name="password_expired_dialog_title">Паролата за заключен екран изтече</string>
+  <!-- Dialog content device pin/password has already expired. [CHAR_LIMIT=none] -->
   <string name="password_expired_dialog_content_fmt">Данните за <xliff:g id="ACCOUNT">%s</xliff:g> се изтриват от устройството ви. Можете да ги възстановите, като промените ПИН кода или паролата си за заключен екран. Искате ли да извършите промяната сега?</string>
+  <!-- On AccountSettingsXL, dialog text if you try to exit in/out/eas fragment (server settings)
+         without checking/saving [CHAR LIMIT=none]-->
   <string name="account_settings_exit_server_settings">Да се отхвърлят ли незапазените промени?</string>
+  <!-- On AccountSettingsXL, dialog title if you were brought here due to a login failure.
+        [CHAR_LIMIT=40] -->
   <string name="account_settings_login_dialog_title">Не можах да вляза в профила си</string>
+  <!-- Dialog content if you were brought here due to a login failure.
+        [CHAR_LIMIT=none] -->
   <string name="account_settings_login_dialog_content_fmt">Неправилно потребителско име или парола за <xliff:g id="ACCOUNT">%s</xliff:g>. Искате ли да ги актуализирате сега?</string>
+  <!-- Dialog content if you were brought here due to a login failure, and the server provided a reason
+        [CHAR_LIMIT=none] -->
   <string name="account_settings_login_dialog_reason_fmt">Влизането ви в/ъв <xliff:g id="ACCOUNT">%s</xliff:g> не бе успешно, сървърът отговори със: <xliff:g id="REASON">%s</xliff:g> Искате ли да актуализирате своето потребителско име и/или парола?</string>
+  <!-- On Settings screen, setting option name -->
+  <!-- Title of account preference for downloading attachments in background [CHAR LIMIT=32] -->
   <string name="account_settings_background_attachments_label">Изтегляне на прик. файлове</string>
+  <!-- Summary of account preference for downloading attachments in background [CHAR LIMIT=64] -->
   <string name="account_settings_background_attachments_summary">Автоизтегляне на прик. файлове към скорошни съобщения през Wi-Fi</string>
   <string name="account_settings_notify_label">Уведомления за електронна поща</string>
+  <!-- On Settings screen, summary line when called via AccountManager for Exchange accounts
+        [CHAR LIMIT=50] -->
   <string name="account_settings_summary">Честота на синхронизиране, известия и т.н.</string>
+  <!-- On Settings screen, setting summary text -->
   <string name="account_settings_notify_summary">Изпраща уведомление, когато получите електронна поща</string>
+  <!-- On Settings screen, setting option name and title of dialog box that opens -->
   <string name="account_settings_mail_check_frequency_label">Честота на синхронизиране</string>
+  <!-- On Settings screen, setting option name -->
   <string name="account_settings_incoming_label">Входящи настройки</string>
+  <!-- On Settings screen, setting option summary [CHAR LIMIT=64] -->
   <string name="account_settings_incoming_summary">Потребителско име, парола и други настройки на входящия сървър</string>
+  <!-- On Settings screen, setting option name -->
   <string name="account_settings_outgoing_label">Изходящи настройки</string>
+  <!-- On Settings screen, setting option summary [CHAR LIMIT=64] -->
   <string name="account_settings_outgoing_summary">Потребителско име, парола и други настройки на изходящия сървър</string>
+  <!-- On Settings screen, setting option name -->
   <string name="account_settings_enforced_label">Наложени правила</string>
+  <!-- On Settings screen, setting option summary [CHAR LIMIT=64] -->
   <string name="account_settings_enforced_summary">Нито едно</string>
+  <!-- On Settings screen, setting option name -->
   <string name="account_settings_unsupported_label">Неподдържани правила</string>
+  <!-- On Settings screen, setting option summary [CHAR LIMIT=64] -->
   <string name="account_settings_unsupported_summary">Нито едно</string>
+  <!-- On Settings screen, label for button that attempts to sync the account -->
   <string name="account_settings_retry_label">Опит за синхронизиране</string>
+  <!-- On Settings screen, summmary for button that attempts to sync an account [CHAR LIMIT=64] -->
   <string name="account_settings_retry_summary">Докоснете тук, за да синхронизирате този профил</string>
+  <!-- On Settings screen, setting option name -->
   <string name="account_settings_description_label">Име на профила</string>
+  <!-- On Settings screen, setting option name -->
   <string name="account_settings_name_label">Името ви</string>
+  <!-- On Settings screen, setting option name. Allows user to modify saved quick responses
+        for insertion in message body. [CHAR_LIMIT=24]-->
   <string name="account_settings_edit_quick_responses_label">Бързи отговори</string>
+  <!-- On Settings screen, setting option summary [CHAR LIMIT=64] -->
   <string name="account_settings_edit_quick_responses_summary">Използвайте шаблони за стандартни отговори</string>
+  <!-- On Settings screen, section heading -->
   <string name="account_settings_notifications">Настройки за известия</string>
+  <!-- On Settings screen, section heading for data usage [CHAR LIMIT=70] -->
   <string name="account_settings_data_usage">Използване на данни</string>
+  <!-- On Settings screen, section heading -->
   <string name="account_settings_policies">Правила за сигурност</string>
   <string name="system_folders_title">Системни папки</string>
   <string name="system_folders_trash_title">Папка „Кошче“</string>
@@ -221,34 +472,76 @@
   <string name="system_folders_sent_title">Папка за изпратените елементи</string>
   <string name="system_folders_sent_summary">Изберете папката за изпратените елементи на сървъра си</string>
   <string name="system_folders_sent_dlg">Изберете папката за изпратените елементи на сървъра си</string>
+  <!-- On settings screen, dialog heading informing user to create or edit a quick response -->
   <string name="edit_quick_response_dialog">Бърз отговор</string>
+  <!-- On settings screen, edit quick response dialog's "save" button -->
   <string name="save_action">Запазване</string>
+  <!-- On settings screen, sync contacts check box label [CHAR LIMIT=20]-->
   <string name="account_settings_sync_contacts_enable">Синхронизиране на контакти</string>
+  <!-- On settings screen, sync contacts summary text [CHAR LIMIT=35] -->
   <string name="account_settings_sync_contacts_summary">Синхр. на контактите за този профил</string>
+  <!-- On settings screen, sync calendar check box label [CHAR LIMIT=20]-->
   <string name="account_settings_sync_calendar_enable">Синхронизиране на календар</string>
+  <!-- On settings screen, sync calendar summary text [CHAR LIMIT=50] -->
   <string name="account_settings_sync_calendar_summary">Синхр. на календарно събитие за профила</string>
+  <!-- On settings screen, sync email check box label [CHAR LIMIT=20]-->
   <string name="account_settings_sync_email_enable">Синхрон на имейлите</string>
+  <!-- On settings screen, sync email summary text [CHAR LIMIT=35] -->
   <string name="account_settings_sync_email_summary">Синхрон на имейлите за този профил</string>
+  <!-- On Settings screen, vibrate pop-up menu label -->
   <string name="account_settings_vibrate_when_label">Вибриране</string>
+  <!-- On Settings screen, setting option name -->
   <string name="account_settings_ringtone">Избор на мелодия</string>
+  <!-- On Settings screen, section heading -->
   <string name="account_settings_servers">Настройки на сървъра</string>
+  <!-- Mailbox settings activity title [CHAR LIMIT=none] -->
   <string name="mailbox_settings_activity_title">Опции за синхронизиране</string>
+  <!-- Mailbox settings activity title, with the target folder name [CHAR LIMIT=none] -->
   <string name="mailbox_settings_activity_title_with_mailbox">Опции за синхронизиране (<xliff:g id="MAILBOXX_NAME">%s</xliff:g>)</string>
+  <!-- On mailbox settings screen: Whether to sync this mailbox when the account syncs. -->
   <string name="mailbox_settings_sync_enabled_label">Синхронизиране на тази папка</string>
+  <!-- On mailbox settings screen: Explanatory text for what it means to "sync this folder". -->
   <string name="mailbox_settings_sync_enabled_summary">Съобщенията ще бъдат изтеглени при наличие на връзка</string>
+  <!-- On mailbox settings screen: Mailbox sync window (the number of days to synchronize email for) setting label [CHAR LIMIT=none] -->
   <string name="mailbox_settings_mailbox_sync_window_label">Дни от пощата за синхронизиране</string>
+  <!-- Dialog title for the choosing whether to show checkboxes or sender image [CHAR LIMIT=200] -->
   <string name="prefDialogTitle_conversationListIcon">Изображение на подателя</string>
+  <!-- Message that appears when adding a Windows Live Hotmail Plus account -->
   <string name="provider_note_live">Само някои „Plus“ профили включват достъп чрез POP, позволявайки на тази програма да се свърже. Ако не можете да влезете с правилния си имейл адрес и парола, може да не сте платили за такъв профил. Моля, стартирайте уеб браузъра, за да получите достъп до тези имейл адреси.</string>
+  <!-- Name of Microsoft Exchange account type; used by AccountManager -->
+  <!-- Name of Microsoft Exchange account type; used by AccountManager -->
+  <!-- Message that appears if the AccountManager cannot create the system Account -->
   <string name="system_account_create_failed">Профилът не можа да бъде създаден. Опитайте отново.</string>
+  <!-- Strings that support the DeviceAdmin / DevicePolicyManager API -->
+  <!-- Name of the DeviceAdmin (seen in settings & in user confirmation screen) -->
   <string name="device_admin_label">Имейл</string>
+  <!-- Long-form description of the DeviceAdmin (2nd line in settings & in user conf. screen) -->
   <string name="device_admin_description">Активира определени от сървъра защитни правила</string>
+  <!-- Settings activity title [CHAR LIMIT=40]-->
   <string name="settings_activity_title">Настройки</string>
+  <!-- General Preferences Screen -->
+  <!-- Label in preferences header to describe general preferences [CHAR LIMIT=32] -->
   <string name="header_label_general_preferences">Общи настройки</string>
+  <!-- General preference: Label of the setting for requiring confirmation before
+         message deletion [CHAR LIMIT=32] -->
   <string name="general_preference_confirm_delete_label">Потвърждаване преди изтр.</string>
+  <!-- General preference: Description of the setting for requiring confirmation before
+         message deletion [CHAR LIMIT=64] -->
+  <!-- TODO: Delete this string, no longer used -->
   <string name="general_preference_confirm_delete_summary">Съобщения</string>
+  <!-- General preference: Label of the setting for requiring confirmation before
+         message sending [CHAR LIMIT=32] -->
   <string name="general_preference_confirm_send_label">Потвърждаване преди изпращане</string>
+  <!-- General preference: Description of the setting for requiring confirmation before
+         message sending [CHAR LIMIT=32] -->
+  <!-- TODO: Delete this string, no longer used -->
   <string name="general_preference_confirm_send_summary">Съобщения</string>
+  <!-- General preference: Label of the setting for the text zoom.  [CHAR LIMIT=32] -->
   <string name="general_preference_text_zoom_label">Размер на текста на съобщенията</string>
+  <!-- General preference: Description of each setting for text zoom.  The entries here must
+         correspond to the strings general_preference_text_zoom_tiny,
+         general_preference_text_zoom_small, general_preference_text_zoom_normal, etc.
+         [CHAR LIMIT=64] -->
   <string-array name="general_preference_text_zoom_summary_array">
     <item>Миниатюрен шрифт на текста</item>
     <item>Малък шрифт на текста</item>
@@ -256,30 +549,63 @@
     <item>Голям шрифт на текста</item>
     <item>Огромен текст</item>
   </string-array>
+  <!-- The message text size values -->
+  <!-- General preference: Title of the dialog box with options for text zoom. [CHAR LIMIT=32] -->
   <string name="general_preference_text_zoom_dialog_title">Размер на текста на съобщенията</string>
+  <!-- General preference:  Text zoom.  Value is "tiny" (-2) [CHAR LIMIT=32] -->
   <string name="general_preference_text_zoom_tiny">Миниатюрен</string>
+  <!-- General preference:  Text zoom.  Value is "small" (-1) [CHAR LIMIT=32] -->
   <string name="general_preference_text_zoom_small">Малък</string>
+  <!-- General preference:  Text zoom.  Value is "normal" (0) [CHAR LIMIT=32] -->
   <string name="general_preference_text_zoom_normal">Нормален</string>
+  <!-- General preference:  Text zoom.  Value is "large" (+1) [CHAR LIMIT=32] -->
   <string name="general_preference_text_zoom_large">Голям</string>
+  <!-- General preference:  Text zoom.  Value is "huge" (+2) [CHAR LIMIT=32] -->
   <string name="general_preference_text_zoom_huge">Огромен</string>
+  <!-- Generic string shown instead of regular numbers, when a number is larger than 999.
+         This should not be altered if the original string ("999+") makes sense in the
+         target language. Typical alternatives include "+999" and ">999".  [CHAR_LIMIT=4] -->
   <string name="more_than_999">999+</string>
+  <!-- A policy disallowing the user of the device's camera [CHAR LIMIT=50] -->
   <string name="policy_dont_allow_camera">Забраняване на използването на камерата</string>
+  <!-- A policy requiring a device lock screen password [CHAR LIMIT=50] -->
   <string name="policy_require_password">Изискване на парола за устройството</string>
+  <!-- A policy disallowing the reuse of recent passwords [CHAR LIMIT=50] -->
   <string name="policy_password_history">Без повторно ползване на скорошни пароли</string>
+  <!-- A policy that forces a password to expire after a set period of time [CHAR LIMIT=50] -->
   <string name="policy_password_expiration">Изискване паролите да изтичат</string>
+  <!-- A policy requiring a maximum amount of time the device can sit idle before the lock screen
+        is activated [CHAR LIMIT=50] -->
   <string name="policy_screen_timeout">Неактивно у-во за заключ. на екрана</string>
+  <!-- A policy limiting the number of old calendar events synced [CHAR LIMIT=50] -->
   <string name="policy_calendar_age">Ограничаване на броя синхрон. събития в календара</string>
+  <!-- A policy limiting the number of emails synced [CHAR LIMIT=50] -->
   <string name="policy_email_age">Ограничаване на броя синхронизирани имейли</string>
+  <!-- The four strings below represent "quick responses" which the user can insert into a
+        message being composed with just a couple of taps.  These four responses MUST be defined,
+        but need not include a string (i.e. they are optional).  Further, the responses can be
+        customized as necessary by the translator, in case one or more of these is inappropriate in
+        a particular locale or if there are better options available. -->
+  <!-- A "quick response", i.e. a quick reply to a received mail [CHAR LIMIT=NONE] -->
   <string name="quick_1">Благодаря!</string>
+  <!-- A "quick response", i.e. a quick reply to a received mail [CHAR LIMIT=NONE] -->
   <string name="quick_2">Звучи добре!</string>
+  <!-- A "quick response", i.e. a quick reply to a received mail [CHAR LIMIT=NONE] -->
   <string name="quick_3">Ще прочета това по-късно и ще се свържа с Вас.</string>
+  <!-- A "quick response", i.e. a quick reply to a received mail [CHAR LIMIT=NONE] -->
   <string name="quick_4">Нека да насрочим среща, за да обсъдим това.</string>
+  <!-- This is the message warning the user that they must sync manually when roaming. [CHAR LIMIT=none]-->
   <string name="require_manual_sync_message">Синхронизирането на заден план за този профил е деактивирано при роуминг.</string>
+  <!-- This is shown when a user responds to a meeting invitation [CHAR LIMIT=none]-->
   <string name="confirm_response">Отговорът се изпраща&#8230;</string>
+  <!-- Used by AccountManager -->
   <string name="imap_name">IMAP</string>
   <string name="pop3_name">POP3</string>
   <string name="folder_picker_title">Инструмент за избор на папки</string>
+  <!-- Displayed when the user must pick his server's trash folder from a list [CHAR LIMIT 30]-->
   <string name="trash_folder_selection_title">Изберете папка „Кошче“ на сървъра за <xliff:g id="ACCOUNT">%s</xliff:g></string>
+  <!-- Displayed when the user must pick his server's sent items folder from a list [CHAR LIMIT 30]-->
   <string name="sent_folder_selection_title">Изберете папка за изпр. елементи на сървъра за <xliff:g id="ACCOUNT">%s</xliff:g></string>
   <string name="account_waiting_for_folders_msg">Списъкът с папки се зарежда&#8230;</string>
+  <!-- Feedback uri to be used when feedback is enabled -->
 </resources>

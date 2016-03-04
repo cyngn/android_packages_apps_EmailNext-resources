@@ -16,10 +16,14 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- Name of EmailProvider shown in AccountManager -->
   <string name="email_provider">电子邮件</string>
+  <!-- In the UI, the drafts will be displayed with this name -->
   <string name="mailbox_name_display_local_drafts">本地草稿箱</string>
   <string name="mailbox_name_display_server_drafts">服务器草稿箱</string>
+  <!-- In the UI, the folder to-do will be displayed with this name -->
   <string name="mailbox_name_display_todo">待办事项</string>
+  <!-- In the UI, the archive will be displayed with this name -->
   <string name="mailbox_name_display_archive">归档</string>
   <string name="mailbox_name_local_only_display_name"> -本地</string>
   <string name="account_setup_start_email_address_hint">请输入您的电子邮件地址</string>
@@ -27,52 +31,86 @@
   <string name="account_setup_start_get_started_button">开始使用</string>
   <string name="account_setup_start_login_button">登录</string>
   <string name="account_setup_start_invalid_email_address">无效的电子邮件地址</string>
+  <!-- hint for account email password text field -->
   <string name="password_label">密码</string>
   <string name="account_setup_basics_progress_message">正在自动发现</string>
+  <!-- In Account setup options screen, Activity title [CHAR LIMIT=45] -->
   <string name="account_setup_options_title">个性化</string>
+  <!-- In Account setup options screen, label for email check frequency selector -->
   <string name="account_setup_options_mail_check_frequency_label">检查我的收件箱</string>
+  <!-- In Account setup options & Account Settings screens, email check frequency option -->
   <string name="account_setup_options_mail_check_frequency_2hour">每 2 个小时</string>
+  <!-- In Account setup options & Account Settings screens, email check frequency option -->
   <string name="account_setup_options_mail_check_frequency_4hour">每 4 个小时</string>
+  <!-- In Account setup options & Account Settings screens, email check frequency option -->
   <string name="account_setup_options_mail_check_frequency_1day">每天</string>
+  <!-- In Account setup options & Account Settings screens, check box for new-mail notification -->
   <string name="account_setup_options_notify_label">收到电子邮件时<b>通知我</b></string>
+  <!-- In Account setup options screen, optional check box to also sync contacts -->
   <string name="account_setup_options_sync_contacts_label">同步此帐户中的<b>联系人</b></string>
+  <!-- In Account setup options screen, optional check box to also sync calendar -->
   <string name="account_setup_options_sync_calendar_label">同步此帐户中的<b>日历</b></string>
+  <!-- In Account setup options screen, check box to sync email -->
   <string name="account_setup_options_sync_email_label">同步此帐户中的<b>电子邮件</b></string>
   <string name="account_setup_options_disable_convo_threading_label">关闭会话线程</string>
+  <!-- On Settings screen, setting option for showing all images -->
   <string name="account_settings_show_all_images_title">图片</string>
   <string name="account_settings_show_all_images_show">总是显示</string>
   <string name="account_settings_show_all_images_ask">在显示之前询问</string>
+  <!-- On Settings Screen, setting option for setting the account color -->
   <string name="account_settings_account_color_title">帐户颜色</string>
   <string name="account_settings_account_color_summary">编辑此帐户的颜色</string>
   <string name="account_settings_account_color_dialog_title">选取一种颜色</string>
+  <!-- On Settings screen, led notification title label -->
   <string name="account_settings_led_notification_label">启用 LED 通知</string>
   <string name="account_settings_led_notification_custom_color">使用自定义的 LED 颜色</string>
+  <!-- On Settings screen, led color title and summary label -->
   <string name="account_settings_led_color_label">自定义 LED 颜色</string>
   <string name="account_settings_led_color_summary">默认值是帐户的颜色</string>
+  <!-- On Settings screen, tutorial header title label -->
   <string name="account_settings_tutorial_header_title">查看教程</string>
+  <!-- On Settings screen, title for label/move preference -->
   <string name="account_settings_move_label_title">标签/移动信息</string>
+  <!-- On Settings screen, shown as an option for label/move preference -->
   <string name="account_settings_move_title">移动</string>
+  <!-- On Settings screen, shown as an option for label/move preference -->
   <string name="account_settings_label_title">标签</string>
+  <!-- General preference: Labels for the setting to mark emails as read before archiving them -->
   <string name="general_preference_mark_archive_messages_read">归档为已读</string>
   <string name="general_preference_mark_archive_messages_read_description">在归档邮件之前先标记为已读</string>
+  <!-- General preference: Notifications open to the combined inbox-->
   <string name="general_pref_notifications_use_combined_inbox">通知打开联合收件箱</string>
   <string name="general_pref_notifications_use_combined_inbox_desc">点击通知将打开当前帐号的联合收件箱</string>
+  <!-- The hint used in the search box when searching all mailboxes [CHAR LIMIT=35] -->
   <string name="search_hint">搜索\u2026</string>
+  <!-- Title of screen when trying to get oauth authentication -->
   <string name="oauth_authentication_title">正在请求授权</string>
+  <!-- Title of screen to choose with authentication to use -->
   <string name="sign_in_title">登录</string>
+  <!-- Button shown on SignInActivity -->
   <string name="sign_in_button">完成</string>
+  <!-- Label between OAuth and password authentication, indicating the user must do one or the other [CHAR LIMIT=40] -->
   <string name="or_label">或</string>
+  <!-- Label for signing in with Google using OAuth -->
   <string name="sign_in_with_google">使用 Google 登录</string>
+  <!--  On the "Setup up email" screen, label indicating what service we are signed in with [CHAR LIMIT=40] -->
   <string name="signed_in_with_service_label">已使用 %s 登录</string>
+  <!-- Label for the authentication section [CHAR LIMIT=20] -->
   <string name="authentication_label">身份验证</string>
+  <!-- Label for the add authentication icon [CHAR LIMIT=40] -->
   <string name="add_authentication_label">添加身份验证</string>
   <string name="oauth_saving_message">正在保存\u2026</string>
   <string name="about_app_header_title">关于</string>
+  <!-- A sync window length setting (i.e. load messages this far back) [CHAR LIMIT=25]  -->
   <string name="account_setup_options_mail_window_3months">过去 3 个月</string>
+  <!-- A sync window length setting (i.e. load messages this far back) [CHAR LIMIT=25]  -->
   <string name="account_setup_options_mail_window_6months">过去 6 个月</string>
   <string name="account_settings_unable_to_edit_field">您的管理员不允许您修改此字段</string>
+  <!-- Menu item for sending availability from compose. [CHAR_LIMIT=30] -->
   <string name="message_compose_send_availability_menu_title">发送可用性</string>
+  <!-- Menu item for including an invite from compose. [CHAR_LIMIT=30] -->
   <string name="message_compose_create_invite_menu_title">创建邀请</string>
+  <!-- Preference for the compose toolbar -->
   <string name="preference_compose_toolbar_visibility">显示撰写工具栏</string>
   <string name="tutorial_welcome_title">欢迎来到电子邮件</string>
   <string name="tutorial_welcome_subtitle">比智能更智能，比快更快，为您量身定制的电子邮件。</string>
@@ -92,8 +130,11 @@
   <string name="update_available_ticker">电子邮件应用有可用更新</string>
   <string name="update_availalable_title">有可用的更新</string>
   <string name="update_available_content">点击以安装更新</string>
+  <!-- Security settings category -->
   <string name="preferences_security_title">安全</string>
+  <!-- Preference for disabling screenshots of app screens. -->
   <string name="preference_disable_screenshots">禁用截图</string>
+  <!-- Preference for disabling screenshots of app screens. -->
   <string name="preference_disable_screenshots_summary">防止其他应用捕获应用截图</string>
   <string name="preference_allow_insecure_attachments_title">允许不安全附件</string>
   <string name="preference_allow_insecure_attachments_summary">允许查看或保存不安全附件</string>

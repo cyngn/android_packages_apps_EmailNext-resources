@@ -16,10 +16,14 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- Name of EmailProvider shown in AccountManager -->
   <string name="email_provider">E-Mail</string>
+  <!-- In the UI, the drafts will be displayed with this name -->
   <string name="mailbox_name_display_local_drafts">Lokal Brouillonen</string>
   <string name="mailbox_name_display_server_drafts">Server-Brouillonen</string>
+  <!-- In the UI, the folder to-do will be displayed with this name -->
   <string name="mailbox_name_display_todo">To-Do</string>
+  <!-- In the UI, the archive will be displayed with this name -->
   <string name="mailbox_name_display_archive">Archiv</string>
   <string name="mailbox_name_local_only_display_name"> – Lokal</string>
   <string name="account_setup_start_email_address_hint">Gëff deng E-Mail-Adress an</string>
@@ -27,38 +31,75 @@
   <string name="account_setup_start_get_started_button">Lassleeën</string>
   <string name="account_setup_start_login_button">Aloggen</string>
   <string name="account_setup_start_invalid_email_address">Ongëlteg E-Mail-Adress</string>
+  <!-- hint for account email password text field -->
   <string name="password_label">Passwuert</string>
   <string name="account_setup_basics_progress_message">Automatesch Erkennung leeft</string>
+  <!-- In Account setup options screen, Activity title [CHAR LIMIT=45] -->
   <string name="account_setup_options_title">Personaliséieren</string>
+  <!-- In Account setup options screen, label for email check frequency selector -->
   <string name="account_setup_options_mail_check_frequency_label">Iwwerpréif mäi Postagank</string>
+  <!-- In Account setup options & Account Settings screens, email check frequency option -->
   <string name="account_setup_options_mail_check_frequency_2hour">All 2 Stonnen</string>
+  <!-- In Account setup options & Account Settings screens, email check frequency option -->
   <string name="account_setup_options_mail_check_frequency_4hour">All 4 Stonnen</string>
+  <!-- In Account setup options & Account Settings screens, email check frequency option -->
   <string name="account_setup_options_mail_check_frequency_1day">All Dag</string>
+  <!-- In Account setup options & Account Settings screens, check box for new-mail notification -->
+  <!-- In Account setup options screen, optional check box to also sync contacts -->
+  <!-- In Account setup options screen, optional check box to also sync calendar -->
+  <!-- In Account setup options screen, check box to sync email -->
+  <!-- On Settings screen, setting option for showing all images -->
   <string name="account_settings_show_all_images_title">Biller</string>
   <string name="account_settings_show_all_images_show">Ëmmer uweisen</string>
+  <!-- On Settings Screen, setting option for setting the account color -->
   <string name="account_settings_account_color_title">Kontefaarf</string>
   <string name="account_settings_account_color_summary">Änner d\'Faarf vun dësem Kont</string>
   <string name="account_settings_account_color_dialog_title">Faarf auswielen</string>
+  <!-- On Settings screen, led notification title label -->
   <string name="account_settings_led_notification_label">LED-Notifikatioun aktivéieren</string>
   <string name="account_settings_led_notification_custom_color">Eegen LED-Faarf benotzen</string>
+  <!-- On Settings screen, led color title and summary label -->
   <string name="account_settings_led_color_label">Eegen LED-Faarf</string>
+  <!-- On Settings screen, tutorial header title label -->
   <string name="account_settings_tutorial_header_title">Aleedung uweisen</string>
+  <!-- On Settings screen, title for label/move preference -->
+  <!-- On Settings screen, shown as an option for label/move preference -->
+  <!-- On Settings screen, shown as an option for label/move preference -->
+  <!-- General preference: Labels for the setting to mark emails as read before archiving them -->
+  <!-- General preference: Notifications open to the combined inbox-->
+  <!-- The hint used in the search box when searching all mailboxes [CHAR LIMIT=35] -->
   <string name="search_hint">Sichen\u2026</string>
+  <!-- Title of screen when trying to get oauth authentication -->
   <string name="oauth_authentication_title">Autoriséierung gëtt ugefrot</string>
+  <!-- Title of screen to choose with authentication to use -->
   <string name="sign_in_title">Aloggen</string>
+  <!-- Button shown on SignInActivity -->
   <string name="sign_in_button">Fäerdeg</string>
+  <!-- Label between OAuth and password authentication, indicating the user must do one or the other [CHAR LIMIT=40] -->
   <string name="or_label">ODER</string>
+  <!-- Label for signing in with Google using OAuth -->
   <string name="sign_in_with_google">Mat Google aloggen</string>
+  <!--  On the "Setup up email" screen, label indicating what service we are signed in with [CHAR LIMIT=40] -->
   <string name="signed_in_with_service_label">Ageloggt mat %s</string>
+  <!-- Label for the authentication section [CHAR LIMIT=20] -->
   <string name="authentication_label">Authentifizéierung</string>
+  <!-- Label for the add authentication icon [CHAR LIMIT=40] -->
   <string name="oauth_saving_message">Gëtt gespäichert\u2026</string>
   <string name="about_app_header_title">Iwwer</string>
+  <!-- A sync window length setting (i.e. load messages this far back) [CHAR LIMIT=25]  -->
   <string name="account_setup_options_mail_window_3months">Lescht 3 Méint</string>
+  <!-- A sync window length setting (i.e. load messages this far back) [CHAR LIMIT=25]  -->
   <string name="account_setup_options_mail_window_6months">Lescht 6 Méint</string>
+  <!-- Menu item for sending availability from compose. [CHAR_LIMIT=30] -->
+  <!-- Menu item for including an invite from compose. [CHAR_LIMIT=30] -->
+  <!-- Preference for the compose toolbar -->
   <string name="tutorial_skip_button">Iwwersprangen</string>
   <string name="tutorial_done_button">Fäerdeg</string>
   <string name="message_send_failed_title">Message net geschéckt</string>
   <string name="preferences_clear_search_history_title">Sichhistorique läschen</string>
   <string name="preferences_clear_search_history_summary">All d\'Sich-Ufroen déi gemaach goufe läschen</string>
+  <!-- Security settings category -->
+  <!-- Preference for disabling screenshots of app screens. -->
+  <!-- Preference for disabling screenshots of app screens. -->
   <string name="custom_perms_pos_btn">Mellen</string>
 </resources>

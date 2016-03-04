@@ -16,10 +16,14 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- Name of EmailProvider shown in AccountManager -->
   <string name="email_provider">Е-пошта</string>
+  <!-- In the UI, the drafts will be displayed with this name -->
   <string name="mailbox_name_display_local_drafts">Локални нацрти</string>
   <string name="mailbox_name_display_server_drafts">Нацрти на серверу</string>
+  <!-- In the UI, the folder to-do will be displayed with this name -->
   <string name="mailbox_name_display_todo">За урадити</string>
+  <!-- In the UI, the archive will be displayed with this name -->
   <string name="mailbox_name_display_archive">Архива</string>
   <string name="mailbox_name_local_only_display_name"> - Локално</string>
   <string name="account_setup_start_email_address_hint">Унеси своју адресу Е-поште</string>
@@ -27,52 +31,86 @@
   <string name="account_setup_start_get_started_button">Почните</string>
   <string name="account_setup_start_login_button">Пријави се</string>
   <string name="account_setup_start_invalid_email_address">Неправилна адреса Е-поште</string>
+  <!-- hint for account email password text field -->
   <string name="password_label">Лозинка</string>
   <string name="account_setup_basics_progress_message">Ауто-откривање у току</string>
+  <!-- In Account setup options screen, Activity title [CHAR LIMIT=45] -->
   <string name="account_setup_options_title">Персонализуј</string>
+  <!-- In Account setup options screen, label for email check frequency selector -->
   <string name="account_setup_options_mail_check_frequency_label">Провери мој inbox</string>
+  <!-- In Account setup options & Account Settings screens, email check frequency option -->
   <string name="account_setup_options_mail_check_frequency_2hour">Свака 2 сата</string>
+  <!-- In Account setup options & Account Settings screens, email check frequency option -->
   <string name="account_setup_options_mail_check_frequency_4hour">Свака 4 сата</string>
+  <!-- In Account setup options & Account Settings screens, email check frequency option -->
   <string name="account_setup_options_mail_check_frequency_1day">Сваки дан</string>
+  <!-- In Account setup options & Account Settings screens, check box for new-mail notification -->
   <string name="account_setup_options_notify_label"><b>Обавести ме</b> о пријему е-поште</string>
+  <!-- In Account setup options screen, optional check box to also sync contacts -->
   <string name="account_setup_options_sync_contacts_label"><b>Синхронизуј контакте</b> са овог налога</string>
+  <!-- In Account setup options screen, optional check box to also sync calendar -->
   <string name="account_setup_options_sync_calendar_label"><b>Синхронизуј календар</b> са овог налога</string>
+  <!-- In Account setup options screen, check box to sync email -->
   <string name="account_setup_options_sync_email_label"><b>Синхронизуј е-пошту</b> са овог налога</string>
   <string name="account_setup_options_disable_convo_threading_label">Искључи низање преписки</string>
+  <!-- On Settings screen, setting option for showing all images -->
   <string name="account_settings_show_all_images_title">Слике</string>
   <string name="account_settings_show_all_images_show">Увек прикажи</string>
   <string name="account_settings_show_all_images_ask">Питај пре показивања</string>
+  <!-- On Settings Screen, setting option for setting the account color -->
   <string name="account_settings_account_color_title">Боја налога</string>
   <string name="account_settings_account_color_summary">Промени боју за овај налог</string>
   <string name="account_settings_account_color_dialog_title">Изабери боју</string>
+  <!-- On Settings screen, led notification title label -->
   <string name="account_settings_led_notification_label">Омогући LED обевештење</string>
   <string name="account_settings_led_notification_custom_color">Користи промењену LED боју</string>
+  <!-- On Settings screen, led color title and summary label -->
   <string name="account_settings_led_color_label">Промењена LED боја</string>
   <string name="account_settings_led_color_summary">Основа је боја налога</string>
+  <!-- On Settings screen, tutorial header title label -->
   <string name="account_settings_tutorial_header_title">Погледај објашњење</string>
+  <!-- On Settings screen, title for label/move preference -->
   <string name="account_settings_move_label_title">Ознака/Премештање порука</string>
+  <!-- On Settings screen, shown as an option for label/move preference -->
   <string name="account_settings_move_title">Премести</string>
+  <!-- On Settings screen, shown as an option for label/move preference -->
   <string name="account_settings_label_title">Ознака</string>
+  <!-- General preference: Labels for the setting to mark emails as read before archiving them -->
   <string name="general_preference_mark_archive_messages_read">Архивирај као прочитано</string>
   <string name="general_preference_mark_archive_messages_read_description">Означи Е-пошту као прочитану пре архивирања</string>
+  <!-- General preference: Notifications open to the combined inbox-->
   <string name="general_pref_notifications_use_combined_inbox">Обавештења отварају комбиновани inbox</string>
   <string name="general_pref_notifications_use_combined_inbox_desc">Додир на обавештење отвара комбиновани inbox уместо inbox-а налога</string>
+  <!-- The hint used in the search box when searching all mailboxes [CHAR LIMIT=35] -->
   <string name="search_hint">Претражи\u2026</string>
+  <!-- Title of screen when trying to get oauth authentication -->
   <string name="oauth_authentication_title">Потребна ауторизација</string>
+  <!-- Title of screen to choose with authentication to use -->
   <string name="sign_in_title">Пријави се</string>
+  <!-- Button shown on SignInActivity -->
   <string name="sign_in_button">Готово</string>
+  <!-- Label between OAuth and password authentication, indicating the user must do one or the other [CHAR LIMIT=40] -->
   <string name="or_label">ИЛИ</string>
+  <!-- Label for signing in with Google using OAuth -->
   <string name="sign_in_with_google">Прјавите се на Google</string>
+  <!--  On the "Setup up email" screen, label indicating what service we are signed in with [CHAR LIMIT=40] -->
   <string name="signed_in_with_service_label">Пријављен са %s</string>
+  <!-- Label for the authentication section [CHAR LIMIT=20] -->
   <string name="authentication_label">Провера</string>
+  <!-- Label for the add authentication icon [CHAR LIMIT=40] -->
   <string name="add_authentication_label">Додај проверу</string>
   <string name="oauth_saving_message">Чување\u2026</string>
   <string name="about_app_header_title">О програму</string>
+  <!-- A sync window length setting (i.e. load messages this far back) [CHAR LIMIT=25]  -->
   <string name="account_setup_options_mail_window_3months">Задња 3 месеца</string>
+  <!-- A sync window length setting (i.e. load messages this far back) [CHAR LIMIT=25]  -->
   <string name="account_setup_options_mail_window_6months">Задњих 6 месеци</string>
   <string name="account_settings_unable_to_edit_field">Твој администратор не дозвољава да се ово поље мења</string>
+  <!-- Menu item for sending availability from compose. [CHAR_LIMIT=30] -->
   <string name="message_compose_send_availability_menu_title">Пошаљи расположивост</string>
+  <!-- Menu item for including an invite from compose. [CHAR_LIMIT=30] -->
   <string name="message_compose_create_invite_menu_title">Направи позивницу</string>
+  <!-- Preference for the compose toolbar -->
   <string name="preference_compose_toolbar_visibility">Прикажи сређивање траке са алатима</string>
   <string name="tutorial_welcome_title">Добро дошли у Е-пошту</string>
   <string name="tutorial_welcome_subtitle">Паметнија. Бржа. Скројена. Е-пошта.</string>
@@ -92,8 +130,11 @@
   <string name="update_available_ticker">Ово је ажурирање доступно за Е-пошту</string>
   <string name="update_availalable_title">Ажурирање је доступно</string>
   <string name="update_available_content">Додирни да инсталираш ажурирање</string>
+  <!-- Security settings category -->
   <string name="preferences_security_title">Заштита</string>
+  <!-- Preference for disabling screenshots of app screens. -->
   <string name="preference_disable_screenshots">Онемогући снимак екрана</string>
+  <!-- Preference for disabling screenshots of app screens. -->
   <string name="preference_disable_screenshots_summary">Спречи друге апликације да ухвате снимак екрана</string>
   <string name="preference_allow_insecure_attachments_title">Дозволи несигурне прилоге</string>
   <string name="preference_allow_insecure_attachments_summary">Дозволи преглед или чување несигурних прилога</string>

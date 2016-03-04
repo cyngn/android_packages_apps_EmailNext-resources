@@ -15,199 +15,450 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- Names of packages and authorities that are common to all apps
+    and read from resources -->
+  <!-- Permissions label for reading attachments -->
   <string name="permission_read_attachment_label">អាន​ឯកសារ​ភ្ជាប់​អ៊ីមែល</string>
+  <!-- Permissions description for reading attachments -->
   <string name="permission_read_attachment_desc">ឲ្យ​កម្មវិធី​អាន​ឯកសារ​ភ្ជាប់​អ៊ីមែល​របស់​អ្នក។</string>
+  <!-- Permissions label for accessing the main provider -->
   <string name="permission_access_provider_label">ចូល​ដំណើរ​ការ​ទិន្នន័យ​​កម្មវិធី​ផ្ដល់​​អ៊ីមែល</string>
+  <!-- Permissions description for accessing the main provider -->
   <string name="permission_access_provider_desc">អនុញ្ញាត​​ឲ្យ​​កម្មវិធី​ដើម្បី​ចូល​ដំណើរការ​មូលដ្ឋាន​ទិន្នន័យ​អ៊ីមែល​របស់​អ្នក,​ រួម​ទាំង​សារ​ដែល​បាន​ទទួល, ​សារ​ដែល​បាន​ផ្ញើ, ​ឈ្មោះ​អ្នក​ប្រើ ​និង​ពាក្យ​សម្ងាត់​។</string>
+  <!-- Name of application on Home screen -->
   <string name="app_name">អ៊ីមែល</string>
+  <!-- Title of debug screen -->
   <string name="debug_title">កែ​កំហុស</string>
+  <!-- Actions will be used as buttons and in menu items -->
+  <!-- Button name used as part of a multi-step process -->
   <string name="next_action">បន្ទាប់</string>
+  <!-- Button name used to confirm acceptance of dialog boxes, warnings, errors, etc. -->
   <string name="okay_action">យល់​ព្រម</string>
+  <!-- Button name used to cancel out of dialog boxes -->
   <string name="cancel_action">បោះ​បង់</string>
+  <!-- Button name used to move to previous step during setup sequence [CHAR_LIMIT=16] -->
   <string name="previous_action">មុន</string>
+  <!--  Button name used to complete a multi-step process -->
   <string name="done_action">ធ្វើ​រួច</string>
+  <!--  Menu item used to create a new quick response [CHAR_LIMIT=16] -->
   <string name="create_action">បង្កើត​ថ្មី</string>
+  <!-- Message informing user when a list that would contain quick responses
+            is empty [CHAR_LIMIT=80] -->
   <string name="quick_responses_empty_view">គ្មាន​ការ​ឆ្លើយតប​រហ័ស​។</string>
+  <!-- Menu item -->
   <string name="account_settings_action">ការ​កំណត់​គណនី</string>
+  <!-- Menu item: options for this mailbox. [CHAR LIMIT = 32] -->
   <string name="menu_folder_options">ជម្រើស​សម​កាល​កម្ម</string>
+  <!-- Appears in message list view when there's a network error. -->
+  <!-- Also appears in a toast, in the message viewer, when there's a network error. -->
   <string name="status_network_error">បញ្ហា​​ក្នុង​ការ​តភ្ជាប់​។</string>
+  <!-- Text shown with dragged messages to indicate how many are being dragged [CHAR LIMIT=40]-->
   <plurals name="move_messages">
     <item quantity="other">ផ្លាស់ទី​សារ</item>
   </plurals>
+  <!-- Toast shown when a message(s) can't be moved because it's not supported by the POP3
+        protocol. [CHAR LIMIT=none]-->
   <string name="cannot_move_protocol_not_supported_toast">មិន​គាំទ្រ​ការ​ផ្លាស់ទី​​នៅ​លើ​គណនី​ POP3 ។</string>
+  <!-- Toast shown when messages can't be moved because the selection contains multiple accounts'
+        messages. [CHAR LIMIT=none]-->
   <string name="cannot_move_multiple_accounts_toast">មិន​អាច​ផ្លាស់ទី​ដោយ​សារ​តែ​ការ​ជ្រើស​រើស​មាន​គណនី​ច្រើន​។</string>
+  <!-- Toast shown when messages can't be moved because they're in a special mailbox.  "Drafts",
+        "Outbox" and "Sent". [CHAR LIMIT=none]-->
   <string name="cannot_move_special_mailboxes_toast">សារ​នៅ​ក្នុង​សេចក្ដី​ព្រាង​, ប្រអប់​ចេញ​, បាន​ផ្ញើ ហើយ​​​មិន​អាច​ត្រូវ​បាន​ផ្លាស់ទី​។</string>
+  <!-- The next set of strings are used in local display and may be localized. -->
+  <!-- In the UI, the inbox will be displayed with this name -->
   <string name="mailbox_name_display_inbox">ប្រអប់​ទទួល</string>
+  <!-- In the UI, the outbox will be displayed with this name -->
   <string name="mailbox_name_display_outbox">ប្រអប់​ចេញ</string>
+  <!-- In the UI, the trash will be displayed with this name -->
   <string name="mailbox_name_display_trash">ធុង​សំរាម</string>
+  <!-- In the UI, the sent will be displayed with this name -->
   <string name="mailbox_name_display_sent">បាន​ផ្ញើ</string>
+  <!-- In the UI, the junk will be displayed with this name -->
   <string name="mailbox_name_display_junk">ឥត​បាន​ការ</string>
+  <!-- In the UI, the starred will be displayed with this name -->
   <string name="mailbox_name_display_starred">បាន​ដាក់​ផ្កាយ</string>
+  <!-- In the UI, the unread will be displayed with this name [CHAR LIMIT=15] -->
   <string name="mailbox_name_display_unread">មិន​ទាន់​អាន</string>
+  <!-- Do Not Translate.  Checkbox label, shown only on debug screen -->
+  <!-- Do Not Translate.  Checkbox label, shown only on debug screen -->
+  <!-- Do Not Translate.  Checkbox label, shown only on debug screen -->
+  <!-- Do Not Translate.  Button label, shown only on debug screen -->
+  <!-- Do Not Translate.  Checkbox label, shown on debug screen. -->
+  <!-- Do Not Translate.  Checkbox label, shown on debug screen. -->
+  <!-- Do Not Translate.  Checkbox label, shown on debug screen. -->
+  <!-- The summary section entry in the AccountFolder list to display all inboxes -->
   <string name="account_folder_list_summary_inbox">ប្រអប់​ទទួល</string>
+  <!-- The summary section entry in the AccountFolder list to display all starred
+        [CHAR LIMIT=200dip] -->
   <string name="account_folder_list_summary_starred">បាន​ដាក់​ផ្កាយ</string>
+  <!-- The summary section entry in the AccountFolder list to display all drafts
+        [CHAR LIMIT=200dip] -->
   <string name="account_folder_list_summary_drafts">សេចក្ដី​ព្រាង</string>
+  <!-- The summary section entry in the AccountFolder list to display all outboxes
+        [CHAR LIMIT=200dip] -->
   <string name="account_folder_list_summary_outbox">ប្រអប់​ចេញ</string>
+  <!-- Header for forwarded original messages -->
   <string name="message_compose_fwd_header_fmt">\n\n\"-------- សារ​ដើម --------\n ប្រធានបទ៖ <xliff:g id="SUBJECT">%1$s</xliff:g>\n ពី៖ <xliff:g id="SENDER">%2$s</xliff:g>\n ជូន​ចំពោះ៖ <xliff:g id="TO">%3$s</xliff:g>\n ចម្លង​ជូន៖ <xliff:g id="CC_0">%4$s</xliff:g>\n\n\"</string>
+  <!-- Title for dialog containing list of quick responses that user may insert
+            into message body. [CHAR_LIMIT=30] -->
   <string name="message_compose_insert_quick_response_list_title">បញ្ចូល​ចម្លើយ​តប​​រហ័ស</string>
+  <!-- Menu item for inserting quick responses into email compose activity. [CHAR_LIMIT=30] -->
   <string name="message_compose_insert_quick_response_menu_title">បញ្ចូល​​ការ​ឆ្លើយតប​​​រហ័ស</string>
+  <!-- Toast upon using "send" when one or more attachments will need to be background loaded
+      [CHAR LIMIT=none]-->
   <string name="message_view_attachment_background_load">ឯកសារ​ភ្ជាប់​​មួយ ​ឬ​ច្រើន​នៅ​ក្នុង​សារ​​ដែល​បាន​​បញ្ជូន​បន្ត​របស់​អ្នក​នឹង​​ត្រូវ​បាន​ទាញ​យក​មុន​ពេល​ផ្ញើ​។</string>
+  <!-- Error banner when an attachment could not be downloaded due to a problem at the server
+            [CHAR LIMIT=100] -->
   <string name="attachment_not_found">មិន​អាច​ទាញ​យក​ឯកសារ​ភ្ជាប់​​។</string>
+  <!-- String used in place of a message that could not be properly decoded (e.g. bad base64
+         data was received.) [CHAR LIMIT=none] -->
   <string name="message_decode_error">មាន​កំហុស​ខណៈ​ពេល​ឌិកូដ​សារ។</string>
+  <!-- Notification ticker when a forwarded attachment couldn't be sent [CHAR LIMIT=none] -->
   <string name="forward_download_failed_ticker">មិន​អាច​បញ្ជូន​ឯកសារ​ភ្ជាប់​មួយ​ ឬ​ច្រើន​។</string>
+  <!-- Notification title when a forwarded attachment couldn't be sent [CHAR LIMIT=30]-->
   <string name="forward_download_failed_title">មិន​បាន​បញ្ជូន​បន្ត​ឯកសារ​ភ្ជាប់</string>
+  <!-- Notification ticker when email account authentication fails [CHAR LIMIT=none] -->
   <string name="login_failed_ticker">ចូល <xliff:g id="ACCOUNT_NAME">%s</xliff:g> ជោគជ័យ។</string>
+  <!-- Notification title when email account authentication fails [CHAR LIMIT=30]-->
   <string name="login_failed_title">មិន​អាច​ចូល</string>
+  <!-- Size unit for bytes for attachments [CHAR LIMIT=10] -->
   <plurals name="message_view_attachment_bytes">
     <item quantity="other"><xliff:g id="SIZE_IN_BYTES">%d</xliff:g> បៃ</item>
   </plurals>
+  <!-- Size unit for kilo bytes for attachments [CHAR LIMIT=10] -->
   <plurals name="message_view_attachment_kilobytes">
     <item quantity="other"><xliff:g id="SIZE_IN_KILOBYTES">%d</xliff:g> គីឡូបៃ</item>
   </plurals>
+  <!-- Size unit for mega bytes for attachments [CHAR LIMIT=10] -->
   <plurals name="message_view_attachment_megabytes">
     <item quantity="other"><xliff:g id="SIZE_IN_MEGABYTES">%d</xliff:g> មេកាបៃ</item>
   </plurals>
+  <!-- Size unit for giga bytes for attachments [CHAR LIMIT=10] -->
   <plurals name="message_view_attachment_gigabytes">
     <item quantity="other"><xliff:g id="SIZE_IN_GIGABYTES">%d</xliff:g> ជីកាបៃ</item>
   </plurals>
+  <!-- Title of screen when setting up new email account [CHAR LIMIT=45] -->
   <string name="account_setup_basics_title">រៀបចំ​គណនី</string>
+  <!-- Headline of screen when setting up new email account (large text over divider)
+        [CHAR LIMIT=none] -->
   <string name="account_setup_basics_headline">គណនី​អ៊ីមែល</string>
+  <!-- On "Set up email" screen, enthusiastic welcome message. -->
   <string name="accounts_welcome">អ្នក​អាច​កំណត់​រចនា​សម្ព័ន្ធ​​​​អ៊ីមែល​សម្រាប់​គណនី​​ភាគច្រើន​​​​​ដោយ​ពីរ ឬ​បី​ជំហានទៀត​ប៉ុណ្ណោះ។</string>
+  <!-- On "Set up email" screen, hint for account email address text field -->
   <string name="account_setup_basics_email_label">អាសយដ្ឋាន​អ៊ីមែល</string>
+  <!-- Button name on "Set up email" screen [CHAR LIMIT=20] -->
   <string name="account_setup_basics_manual_setup_action">រៀបចំ​ដោយ​ដៃ</string>
+  <!-- Toast when we can't build a URI from the given email & password -->
+  <!-- Note, the error message in the toast is purposefully vague, because I *don't* know
+        exactly what's wrong. -->
   <string name="account_setup_username_password_toast">​បញ្ចូល​​ពាក្យ​សម្ងាត់ ​និង​​អាសយដ្ឋាន​អ៊ីមែល​​ដែល​ត្រឹមត្រូវ​។</string>
+  <!-- Title of dialog shown when a duplicate account is created -->
   <string name="account_duplicate_dlg_title">ស្ទួន​គណនី</string>
+  <!-- Message of dialog shown when a duplicate account is created.  The display name of
+         the duplicate account is displayed. -->
   <string name="account_duplicate_dlg_message_fmt">អ្នក​កំពុង​តែ​ប្រើ​ឈ្មោះ​អ្នក​ប្រើ​សម្រាប់​គណនី​នេះ \" <xliff:g id="DUPLICATE">%s</xliff:g> \"។</string>
+  <!-- String that is displayed as error text for passwords with leading or trailing
+         spaces.  [CHAR LIMIT=none] -->
   <string name="account_password_spaces_error">បញ្ចប់ ឬ​ចាប់ផ្ដើម​ពាក្យ​សម្ងាត់​នេះ​​​ជាមួយ​​​​ចន្លោះ​តួអក្សរ​ច្រើន​។ ម៉ាស៊ីន​មេ​​ជា​ច្រើន​មិន​គាំទ្រ​ពាក្យ​សម្ងាត់​​ដោយ​ប្រើ​ដំណ​​ឃ្លា​ទេ​។</string>
+  <!-- On check-settings screen, this is the initially-displayed message. -->
   <string name="account_setup_check_settings_retr_info_msg">កំពុង​ទៅ​យក​ព័ត៌មាន​គណនី ...</string>
+  <!-- Appears on screen while system is checking incoming server settings -->
   <string name="account_setup_check_settings_check_incoming_msg">សុពលភាព​ការ​កំណត់​ម៉ាស៊ីន​មេ...</string>
+  <!-- Appears on screen while system is checking outgoing server settings -->
   <string name="account_setup_check_settings_check_outgoing_msg">ការ​កំណត់​សុពលភាព smtp ...</string>
+  <!-- Appears on screen while system is creating the account -->
   <string name="account_setup_creating_account_msg">កំពុង​បង្កើត​គណនី…</string>
+  <!-- Title of "Set up email" screen after success [CHAR LIMIT=45] -->
   <string name="account_setup_names_title">រៀបចំ​គណនី</string>
+  <!-- Text that appears on "Set up email" screen after successfully setting up an account
+        [CHAR LIMIT=none] -->
   <string name="account_setup_names_headline">បាន​រៀបចំ​គណនី​របស់​អ្នក ​ហើយ​​អ៊ីមែល​​កំពុង​ដំណើរការ!</string>
+  <!-- On "Set up email" screen, label of text field -->
   <string name="account_setup_names_account_name_label">ផ្ដល់​ឈ្មោះ​គណនី​នេះ (ជា​ជម្រើស​)</string>
+  <!-- On "Set up email" screen, label of text field -->
   <string name="account_setup_names_user_name_label">ឈ្មោះ​របស់​អ្នក (បាន​បង្ហាញ​នៅ​លើ​សារ​ចេញ​)</string>
+  <!-- On "Set up email" screen, error pop-up when user_name field is empty [CHAR LIMIT=none] -->
   <string name="account_setup_names_user_name_empty_error">វាល​នេះ​មិន​អាច​ទទេ​។</string>
+  <!-- Activity Title for the account type selector (IMAP or POP3 or EAS) [CHAR LIMIT=45] -->
   <string name="account_setup_account_type_title">រៀបចំ​គណនី</string>
+  <!-- Headline for the the account type selector (IMAP or POP3 or EAS) [CHAR LIMIT=none] -->
   <string name="account_setup_account_type_headline">ប្រភេទ​គណនី</string>
+  <!-- "Add new email account" screen, text that appears on screen -->
   <string name="account_setup_account_type_instructions">តើ​​គណនី​នេះ​ជា​ប្រភេទ​អ្វី?</string>
+  <!-- "Incoming server settings" screen, title [CHAR LIMIT=45] -->
   <string name="account_setup_incoming_title">រៀបចំ​គណនី</string>
+  <!-- "Incoming server settings" screen, headline (text over divider) [CHAR LIMIT=none] -->
   <string name="account_setup_incoming_headline">ការ​កំណត់​ម៉ាស៊ីន​មេ​​ចូល</string>
+  <!-- "Incoming server settings" screen, label for text field -->
   <string name="account_setup_incoming_username_label">ឈ្មោះ​អ្នក​ប្រើ</string>
+  <!-- "Incoming server settings" screen, label for text field -->
   <string name="account_setup_incoming_password_label">ពាក្យសម្ងាត់</string>
+  <!-- "Incoming server settings" screen, label for text field -->
   <string name="account_setup_incoming_server_label">ម៉ាស៊ីន​មេ</string>
+  <!-- "Incoming server settings" screen, label for text field -->
   <string name="account_setup_incoming_port_label">ច្រក</string>
+  <!-- "Incoming server settings" screen, label for pop-up menu -->
   <string name="account_setup_incoming_security_label">ប្រភេទ​សុវត្ថិភាព</string>
+  <!-- "Incoming server settings" screen, option for "Security type" pop-up menu indicating
+        the desire for an unencrypted session -->
   <string name="account_setup_incoming_security_none_label">គ្មាន</string>
+  <!-- "Incoming server settings" screen, option for "Security type" pop-up menu indicating
+        the desire for an encrypted session on the selected port, accepting all SSL certificates -->
   <string name="account_setup_incoming_security_ssl_trust_certificates_label">SSL/TLS (ទទួល​យក​វិញ្ញាបនបត្រ​ទាំងអស់)</string>
+  <!-- "Incoming server settings" screen, option for "Security type" pop-up menu indicating
+        the desire for an encrypted session on the selected port, including SSL certificate
+        checks -->
   <string name="account_setup_incoming_security_ssl_label">SSL/TLS</string>
+  <!-- "Incoming server settings" screen, option for "Security type" pop-up menu indicating
+        the desire for an encrypted session overlaid on a plain text session using the selected
+        port, accepting all SSL certificates -->
   <string name="account_setup_incoming_security_tls_trust_certificates_label">STARTTLS (ទទួល​យក​វិញ្ញាបនបត្រ​ទាំងអស់)</string>
+  <!-- "Incoming server settings" screen, option for "Security type" pop-up menu indicating
+        the desire for an encrypted session overlaid on a plain text session on the selected
+        port, including SSL certificate checks -->
   <string name="account_setup_incoming_security_tls_label">STARTTLS</string>
+  <!-- "Incoming server settings" screen, label for pop-up menu -->
   <string name="account_setup_incoming_delete_policy_label">លុប​អ៊ីមែល​ពី​ម៉ាស៊ីន​មេ</string>
+  <!-- "Incoming server settings" screen, options in pop-up menu for Delete email from server: -->
+  <!-- "Incoming server settings" screen, options in pop-up menu for Delete email from server: -->
   <string name="account_setup_incoming_delete_policy_never_label">មិន</string>
+  <!-- "Incoming server settings" screen, options in pop-up menu for Delete email from server: -->
   <string name="account_setup_incoming_delete_policy_delete_label">នៅ​ពេល​ដែល​ខ្ញុំ​បាន​លុប​ពី​ប្រអប់​ទទួល</string>
+  <!-- "Incoming server settings" screen, label for setting IMAP path prefix: -->
   <string name="account_setup_incoming_imap_path_prefix_label">បុព្វបទ​ផ្លូវ IMAP</string>
+  <!-- "Incoming server settings" screen, hint for setting IMAP path prefix: -->
   <string name="account_setup_incoming_imap_path_prefix_hint">ជា​ជម្រើស</string>
+  <!-- "Outgoing server settings" screen, title [CHAR LIMIT=45] -->
   <string name="account_setup_outgoing_title">រៀបចំ​គណនី</string>
+  <!-- "Outgoing server settings" screen, headline (text over divider) [CHAR LIMIT=none] -->
   <string name="account_setup_outgoing_headline">ការ​កំណត់​ម៉ាស៊ីន​​​មេ​ចេញ</string>
+  <!-- On "Outgoing server settings" screen, label for text field -->
   <string name="account_setup_outgoing_smtp_server_label">ម៉ាស៊ីន​មេ SMTP</string>
+  <!-- On "Outgoing server settings" screen, label for text field -->
   <string name="account_setup_outgoing_port_label">ច្រក</string>
+  <!-- On "Outgoing server settings" screen, label for pop-up menu -->
   <string name="account_setup_outgoing_security_label">ប្រភេទ​​សុវត្ថិភាព</string>
+  <!-- On "Outgoing server settings" screen, label for check box -->
   <string name="account_setup_outgoing_require_login_label">ទាមទារ​ឲ្យ​​ចូល</string>
+  <!-- On "Outgoing server settings" screen, label for text field -->
   <string name="account_setup_outgoing_username_label">ឈ្មោះ​អ្នក​ប្រើ</string>
+  <!-- On "Outgoing server settings" screen, label for text field -->
   <string name="account_setup_outgoing_password_label">ពាក្យសម្ងាត់</string>
+  <!-- On "Exchange" setup screen, a heading title for the current client certificate [CHAR LIMIT=50] -->
   <string name="account_setup_exchange_certificate_title">វិញ្ញាបនបត្រ​ម៉ាស៊ីន​ភ្ញៀវ</string>
+  <!-- On "Exchange" setup screen, a button label to include a client certificate [CHAR LIMIT=35] -->
   <string name="account_setup_exchange_select_certificate">ជ្រើស</string>
+  <!-- On "Exchange" setup screen, a button label to include a client certificate [CHAR LIMIT=35] -->
   <string name="account_setup_exchange_use_certificate">ប្រើ​វិញ្ញាបនបត្រ​ម៉ាស៊ីន​ភ្ញៀវ</string>
+  <!-- On "Exchange" setup screen, a button label to remove the currently used client certificate [CHAR LIMIT=35] -->
   <string name="account_setup_exchange_remove_certificate">លុប​ចេញ</string>
+  <!-- On "Exchange" setup screen, placeholder text to indicate no client
+         certificate is used [CHAR LIMIT=50] -->
   <string name="account_setup_exchange_no_certificate">គ្មាន</string>
+  <!-- On "Exchange" setup screen, the exchange device-id label [CHAR LIMIT=30] -->
   <string name="account_setup_exchange_device_id_label">លេខ​សម្គាល់​ឧបករណ៍​ចល័ត</string>
+  <!-- In Account setup options screen, Activity headline [CHAR LIMIT=none] -->
   <string name="account_setup_options_headline">ជម្រើស​គណនី</string>
+  <!-- In Account setup options & Account Settings screens, label for email check frequency option -->
   <string name="account_setup_options_mail_check_frequency_never">កុំ</string>
+  <!-- In Account setup options & Account Settings screens, label for email check frequency option -->
   <string name="account_setup_options_mail_check_frequency_push">ស្វ័យ​ប្រវត្តិ (រុញ​)</string>
+  <!-- In Account setup options & Account Settings screens, email check frequency option -->
   <string name="account_setup_options_mail_check_frequency_5min">រៀង​រាល់ ៥ នាទី</string>
+  <!-- In Account setup options & Account Settings screens, email check frequency option -->
   <string name="account_setup_options_mail_check_frequency_10min">រៀង​រាល់ ១០ នាទី</string>
+  <!-- In Account setup options & Account Settings screens, email check frequency option -->
   <string name="account_setup_options_mail_check_frequency_15min">រៀង​រាល់ ១៥ នាទី</string>
+  <!-- In Account setup options & Account Settings screens, email check frequency option -->
   <string name="account_setup_options_mail_check_frequency_30min">រៀង​រាល់ ៣០ នាទី</string>
+  <!-- In Account setup options & Account Settings screens, email check frequency option -->
   <string name="account_setup_options_mail_check_frequency_1hour">រៀង​រាល់​ម៉ោង</string>
+  <!-- In Account setup options screen, check box to auto-download attachments  [CHAR LIMIT=none] -->
   <string name="account_setup_options_background_attachments_label">ទាញ​យក​ឯកសារ​ភ្ជាប់​​​ស្វ័យប្រវត្តិ​នៅ​ពេល​​ភ្ជាប់​វ៉ាយហ្វាយ</string>
+  <!-- Dialog title when "setup" could not finish -->
   <string name="account_setup_failed_dlg_title">មិន​អាច​បញ្ចប់</string>
+  <!-- In Account setup options screen, label for email lookback selector -->
   <string name="account_setup_options_mail_window_label">ថ្ងៃ​​ត្រូវ​ធ្វើ​សម​កាល​កម្ម</string>
+  <!-- In account setup options & account settings screens (exchange), sync window length; this
+        implies loading a 'reasonable' number of messages [CHAR LIMIT=25] -->
   <string name="account_setup_options_mail_window_auto">ស្វ័យប្រវត្តិ</string>
+  <!-- A sync window length setting (i.e. load messages this far back) [CHAR LIMIT=25]  -->
   <string name="account_setup_options_mail_window_1day">ថ្ងៃ​ចុង​ក្រោយ</string>
+  <!-- A sync window length setting (i.e. load messages this far back) [CHAR LIMIT=25]  -->
   <string name="account_setup_options_mail_window_3days">បី​ថ្ងៃ​ចុង​ក្រោយ</string>
+  <!-- A sync window length setting (i.e. load messages this far back) [CHAR LIMIT=25]  -->
   <string name="account_setup_options_mail_window_1week">សប្ដាហ៍​​ចុង​ក្រោយ</string>
+  <!-- A sync window length setting (i.e. load messages this far back) [CHAR LIMIT=25]  -->
   <string name="account_setup_options_mail_window_2weeks">ពីរ​​សប្ដាហ៍​​ចុង​ក្រោយ</string>
+  <!-- A sync window length setting (i.e. load messages this far back) [CHAR LIMIT=25]  -->
   <string name="account_setup_options_mail_window_1month">ខែ​មុន</string>
+  <!-- A sync window length setting (i.e. load messages this far back) [CHAR LIMIT=25]  -->
   <string name="account_setup_options_mail_window_all">ទាំងអស់</string>
+  <!-- Per-mailbox sync window setting.  This means "use the account's sync window setting" [CHAR LIMIT=40] -->
   <string name="account_setup_options_mail_window_default">លំនាំ​ដើម​ប្រើ​គណនី</string>
+  <!-- "Setup could not finish" dialog text; e.g., Username or password incorrect -->
   <string name="account_setup_failed_dlg_auth_message">ឈ្មោះ​អ្នក​ប្រើ ​ឬ​ពាក្យ​សម្ងាត់​​មិន​ត្រឹមត្រូវ​។</string>
+  <!-- "Setup could not finish" dialog text; e.g., Username or password incorrect\n(ERR01 Account does not exist) -->
   <string name="account_setup_failed_dlg_auth_message_fmt">ការ​ចូល​បាន​បរាជ័យ​។ \n ( <xliff:g id="ERROR">%s</xliff:g> )</string>
+  <!-- Account setup autodiscover auth failure dialog title. This is shown when autodiscover hits
+        an "access denied" server error, which could imply incorrect username/password or that no
+        autodiscover service has been configured for the domain [CHAR LIMIT=40] -->
   <string name="account_setup_autodiscover_dlg_authfail_title">មាន​បញ្ហា​ជាមួយ​​​ការ​រៀបចំ​គណនី</string>
+  <!-- Account setup autodiscover auth failure dialog message. This is shown when autodiscover hits
+        an "access denied" server error, which could imply incorrect username/password or that no
+        autodiscover service has been configured for the domain [CHAR LIMIT=NONE] -->
   <string name="account_setup_autodiscover_dlg_authfail_message">បញ្ជាក់​ឈ្មោះ​អ្នកប្រើ, ពាក្យ​សម្ងាត់ និង​ការកំណត់​គណនី​ថា​ត្រឹមត្រូវ។</string>
+  <!-- An error message presented to the user when the server's identity
+         cannot be established or trusted [CHAR LIMIT=NONE] -->
   <string name="account_setup_failed_dlg_certificate_message">មិន​អាច​​ភ្ជាប់​ទៅ​ម៉ាស៊ីន​មេ​ដោយ​សុវត្ថិភាព​។</string>
+  <!-- An error message presented to the user when the server's identity
+         cannot be established or trusted [CHAR LIMIT=NONE] -->
   <string name="account_setup_failed_dlg_certificate_message_fmt">មិន​អាច​​ភ្ជាប់​​ម៉ាស៊ីន​មេ​​ដោយ​សុវត្ថិភាព​។ \n ( <xliff:g id="ERROR">%s</xliff:g> )</string>
+  <!-- An error message presented to the user when the server requires a
+         client certificate to connect [CHAR LIMIT=NONE] -->
   <string name="account_setup_failed_certificate_required">បាន​ទាមទារ​វិញ្ញាបនបត្រ​ម៉ាស៊ីន​ភ្ញៀវ​។ តើ​អ្នក​ចង់​​ភ្ជាប់​​ម៉ាស៊ីន​មេ​ដោយ​ប្រើ​​វិញ្ញាបនបត្រ​ម៉ាស៊ីន​ភ្ញៀវ​ឬ?</string>
+  <!-- An error message presented to the user when the certificate they
+         specified for connecting to a server is inaccessible [CHAR LIMIT=NONE] -->
   <string name="account_setup_failed_certificate_inaccessible">វិញ្ញាបនបត្រ​គឺ​មិន​ត្រឹមត្រូវ ​ឬ​មិន​អាច​ចូល​ដំណើរការ​។</string>
+  <!-- Dialog text for ambiguous setup failure; server error/bad credentials [CHAR LIMIT=none] -->
   <string name="account_setup_failed_check_credentials_message">ម៉ាស៊ីន​​មេ​​បាន​ឆ្លើយ​តប​ដោយ​មាន​កំហុស​​។ ​ពិនិត្យ​មើល​ឈ្មោះ​អ្នក​ប្រើ​ និង​ពាក្យ​សម្ងាត់​របស់​អ្នក​ បន្ទាប់​មក​​ព្យាយាម​​ម្ដងទៀត។</string>
+  <!-- "Setup could not finish" dialog text; e.g., Cannot connect to server -->
   <string name="account_setup_failed_dlg_server_message">មិន​អាច​ភ្ជាប់​​ម៉ាស៊ីន​​មេ។</string>
+  <!-- "Setup could not finish" dialog text; e.g., Cannot connect to server\n(Connection timed out) -->
   <string name="account_setup_failed_dlg_server_message_fmt">មិន​អាច​ភ្ជាប់​ម៉ាស៊ីន​មេ។ \n(<xliff:g id="ERROR">%s</xliff:g>)</string>
+  <!-- Additional diagnostic text when TLS was required but the server doesn't support it -->
   <string name="account_setup_failed_tls_required">TLS បាន​ទាមទារ ​ប៉ុន្តែ​មិន​ត្រូវ​បាន​គាំទ្រ​ដោយ​ម៉ាស៊ីន​មេ​។</string>
+  <!-- Additional diagnostic text when server does not support any of our authentication methods -->
   <string name="account_setup_failed_auth_required">វិធីសាស្ត្រ​ផ្ទៀងផ្ទាត់​​មិន​ត្រូវ​បាន​គាំទ្រ​ដោយ​ម៉ាស៊ីន​មេ​។</string>
+  <!-- Additional diagnostic text when server connection failed due to security error -->
   <string name="account_setup_failed_security">មិន​អាច​បើក​ការ​​ភ្ជាប់​​ម៉ាស៊ីន​មេ​​ដោយ​សារ​តែ​កំហុស​សុវត្ថិភាព​។</string>
+  <!-- Additional diagnostic text when server connection failed due to io error (connection) -->
   <string name="account_setup_failed_ioerror">មិន​អាច​បើក​ការ​ភ្ជាប់​ម៉ាស៊ីន​មេ។</string>
+  <!-- Additional diagnostic text when server connection failed due to our inability to support a
+         required EAS protocol version [CHAR LIMIT=none] -->
   <string name="account_setup_failed_protocol_unsupported">អ្នក​បាន​បញ្ចូល​​អាសយដ្ឋាន​​ម៉ាស៊ីន​មេ​​មិន​ត្រឹមត្រូវ​ ឬ​ម៉ាស៊ីន​មេ​​ទាមទារ​កំណែ​ពិធីការ​ដែល​​អ៊ីមែល​មិន​គាំទ្រ​​។</string>
+  <!-- Additional diagnostic text when server access was denied; the user should contact the
+         administrator of the server for more information [CHAR LIMIT=none] -->
   <string name="account_setup_failed_access_denied">អ្នក​មិន​មាន​សិទ្ធិ​ដើម្បី​ធ្វើ​​សម​កាល​កម្ម​ជាមួយ​ម៉ាស៊ីន​មេ​​នេះ​​ទេ។ ទាក់ទង​អ្នក​គ្រប់គ្រង​ម៉ាស៊ីន​មេ​​របស់​អ្នក​សម្រាប់​ព័ត៌មាន​បន្ថែម​។</string>
+  <!-- Dialog title when validation requires security provisioning (e.g. support
+         for device lock PIN, or remote wipe.) and we ask the user permission before continuing -->
   <string name="account_setup_security_required_title">ការ​គ្រប់គ្រង​សុវត្ថិភាព​ពី​ចម្ងាយ</string>
+  <!-- Additional diagnostic text when validation requires security provisioning (e.g. support
+         for device lock PIN, or remote wipe.) and we ask the user permission before continuing.
+         [CHAR LIMIT=none] -->
   <string name="account_setup_security_policies_required_fmt">ម៉ាស៊ីន​​មេ <xliff:g id="SERVER">%s</xliff:g> តម្រូវ​ឲ្យ​​​អ្នក​អនុញ្ញាត​​​វា​​ដើម្បី​​ត្រួត​ពិនិត្យ​ពី​ចម្ងាយ​លក្ខណៈ​​​​​សុវត្ថិភាព​មួយ​ចំនួន​​នៃ​ឧបករណ៍ Android របស់​អ្នក​។ តើ​អ្នក​ចង់​បញ្ចប់​ការ​​រៀបចំ​គណនី​នេះ​​ឬ​?</string>
+  <!-- Additional diagnostic text when validation failed due to required provisioning not
+         being supported [CHAR LIMIT=none] -->
   <string name="account_setup_failed_security_policies_unsupported">ម៉ាស៊ីន​​មេ​​នេះ​តម្រូវ​ឲ្យ​​មាន​លក្ខណៈ​​ដែល​​​​​ឧបករណ៍ Android របស់​អ្នក​មិន​គាំទ្រ រួម​មាន៖ <xliff:g id="ERROR">%s</xliff:g></string>
+  <!-- The user name can only be changed during initial account setup. [CHAR LIMIT=none] -->
   <string name="account_setup_username_uneditable_error">អ្នក​មិន​អាច​​ប្ដូរ​ឈ្មោះ​អ្នក​ប្រើ​គណនី​​។ ដើម្បី​បន្ថែម​គណនី​​​ដោយ​ប្រើ​​​ឈ្មោះ​អ្នក​ប្រើ​ផ្សេង​គ្នា​, ប៉ះ​ ដើម្បី​បន្ថែម​គណនី​។</string>
+  <!-- Warning given to users when they request disabling device administration (i.e. that their
+         administered accounts will be deleted) [CHAR LIMIT=none] -->
   <string name="disable_admin_warning">ព្រមាន៖ ធ្វើ​ឲ្យ​អសកម្ម​ប្រភព​​​កម្មវិធី​អ៊ីមែល ​ដើម្បី​គ្រប់គ្រង​ឧបករណ៍​របស់​​អ្នក​​ នឹង​លុប​គណនី​អ៊ីមែល​ទាំង​អស់​ដែល​​ទាមទារ​វា, ​រួម​ជាមួយ​អ៊ីមែល​​, ​ទំនាក់​ទំនង,​ព្រឹត្តិការណ៍​ប្រតិទិន ​និង​ទិន្នន័យ​ផ្សេង​ទៀត​។</string>
+  <!-- Dialog shown when the account requires some amount of device security provisioning,
+         just before jumping into system settings such as Device Policy grant, PIN/password,
+         or encryption setup.  [CHAR_LIMIT=40] -->
   <string name="account_security_dialog_title">បច្ចុប្បន្នភាព​សុវត្ថិភាព</string>
+  <!-- Additional diagnostic text when the account requires some amount of device security
+         provisioning, just before jumping into system settings such as Device Policy grant,
+         PIN/password, or encryption setup.  [CHAR LIMIT=none] -->
   <string name="account_security_dialog_content_fmt"><xliff:g id="ACCOUNT">%s</xliff:g> តម្រូវ​​ឲ្យ​​អ្នក​​អ្នក​ធ្វើ​បច្ចុប្បន្នភាព​ការ​កំណត់​​​សុវត្ថិភាព​របស់​អ្នក​។</string>
+  <!-- Notification ticker when device security required (note: unused in Holo XL) -->
   <string name="security_unsupported_ticker_fmt">មិន​អាច​ធ្វើ​សមកាលកម្ម​គណនី \" <xliff:g id="ACCOUNT">%s</xliff:g> \" ដោយ​សារ​តែ​តម្រូវ​​ឲ្យ​​មាន​សុវត្ថិភាព​។</string>
+  <!-- Notification ticker when device security required (note: unused in Holo XL) -->
   <string name="security_needed_ticker_fmt">គណនី \" <xliff:g id="ACCOUNT">%s</xliff:g> \" ទាមទារ​បច្ចុប្បន្នភាព​ការ​កំណត់​សុវត្ថិភាព។</string>
+  <!-- Notification ticker when device security required (note: unused in Holo XL) -->
   <string name="security_changed_ticker_fmt">គណនី \" <xliff:g id="ACCOUNT">%s</xliff:g> \" បាន​ប្ដូរ​ការ​កំណត់​សុវត្ថិភាព​របស់​វា  ​គ្មាន​សកម្មភាព​​អ្នក​ប្រើ​​ត្រូវ​បាន​ទាមទារ​។</string>
+  <!-- Notification content title when device security required [CHAR_LIMIT=30] -->
   <string name="security_notification_content_update_title">បាន​ទាមទារ​បច្ចុប្បន្នភាព​សុវត្ថិភាព</string>
+  <!-- Notification content title when device security policies have changed [CHAR_LIMIT=36] -->
   <string name="security_notification_content_change_title">បាន​ប្ដូរ​គោល​ន​យោ​បាយ​​សុវត្ថិភាព</string>
+  <!-- Notification content title when device security policies cannot be met [CHAR_LIMIT=30] -->
   <string name="security_notification_content_unsupported_title">មិន​អាច​មាន​គោលនយោបាយ​សុវត្ថិភាព</string>
+  <!-- Title of the activity that dispatches changes to device security.  Not normally seen. -->
   <string name="account_security_title">​សុវត្ថិភាព​ឧបករណ៍</string>
+  <!-- Additional diagnostic text when the email app asserts control of the phone.
+        [CHAR LIMIT=none] -->
   <string name="account_security_policy_explanation_fmt">ម៉ាស៊ីន​​មេ <xliff:g id="SERVER">%s</xliff:g> ទាមទារ​ឲ្យ​អ្នក​​អនុញ្ញាត​ឲ្យ​​វា​​​ត្រួត​ពិនិត្យ​ពី​ចម្ងាយ​លក្ខណៈ​​សុវត្ថិភាព​មួយ​ចំនួន​ឧបករណ៍ Android របស់​អ្នក​។</string>
+  <!-- "Setup could not finish" dialog action button -->
   <string name="account_setup_failed_dlg_edit_details_action">កែ​សេចក្ដី​​លម្អិត</string>
+  <!-- Notification ticker when device password is getting ready to expire [CHAR_LIMIT=80] -->
   <string name="password_expire_warning_ticker_fmt">\" <xliff:g id="ACCOUNT">%s</xliff:g> \"តម្រូវ​ឲ្យ​អ្នក​ប្ដូរ​ពាក្យ​សម្ងាត់ ឬ​កូដ PIN អេក្រង់​ចាក់សោ​របស់​អ្នក។</string>
+  <!-- Notification content title when device password is getting ready to expire
+            [CHAR_LIMIT=30] -->
   <string name="password_expire_warning_content_title">ពាក្យ​សម្ងាត់​ចាក់​សោ​អេក្រង់​ផុត​កំណត់</string>
+  <!-- Notification ticker when device password has expired [CHAR_LIMIT=80] -->
   <string name="password_expired_ticker">ពាក្យ​សម្ងាត់ ឬ​កូដ PIN ចាក់​សោ​អេក្រង់​​របស់​អ្នក​បាន​ផុត​កំណត់​។</string>
+  <!-- Notification content title when device password has expired [CHAR_LIMIT=28] -->
   <string name="password_expired_content_title">ពាក្យ​សម្ងាត់​អេក្រង់​ចាក់​សោ​ផុត​កំណត់</string>
+  <!-- Dialog title if device pin/password is going to expire soon. [CHAR_LIMIT=40] -->
   <string name="password_expire_warning_dialog_title">ពាក្យ​សម្ងាត់​ចាក់​សោ​អេក្រង់​ផុត​កំណត់</string>
+  <!-- Dialog content device pin/password is going to expire soon. [CHAR_LIMIT=none] -->
   <string name="password_expire_warning_dialog_content_fmt">អ្នក​ចាំបាច់​ត្រូវ​ប្ដូរ​ពាក្យសម្ងាត់ ឬ​កូដ PIN អេក្រង់​ចាក់សោ​របស់​អ្នក ឬ​នឹង​លុប​ទិន្នន័យ​សម្រាប់ <xliff:g id="ACCOUNT">%s</xliff:g> ។ តើ​អ្នក​ចង់​ប្ដូរ​វា​ឥឡូវនេះ​ឬ?</string>
+  <!-- Dialog title if device pin/password has already expired. [CHAR_LIMIT=40] -->
   <string name="password_expired_dialog_title">ពាក្យ​សម្ងាត់​អេក្រង់​ចាក់​សោ​ផុត​កំណត់</string>
+  <!-- Dialog content device pin/password has already expired. [CHAR_LIMIT=none] -->
   <string name="password_expired_dialog_content_fmt">ទិន្នន័យ​សម្រាប់ <xliff:g id="ACCOUNT">%s</xliff:g> នឹង​​ត្រូវ​បាន​លុប​ចេញ​ពី​ឧបករណ៍​របស់​អ្នក​។ អ្នក​អាច​ស្ដារ​វា​ដោយ​ប្ដូរ​​ពាក្យ​សម្ងាត់ ឬ​កូដ PIN អេក្រង់​ចាក់សោ​របស់​អ្នក។ តើ​អ្នក​ចង់​ប្ដូរ​​វា​ឥឡូវ​ឬ​?</string>
+  <!-- On AccountSettingsXL, dialog text if you try to exit in/out/eas fragment (server settings)
+         without checking/saving [CHAR LIMIT=none]-->
   <string name="account_settings_exit_server_settings">បោះបង់​ការ​ផ្លាស់ប្ដូរ​​ដែល​មិន​បាន​រក្សាទុក?</string>
+  <!-- On AccountSettingsXL, dialog title if you were brought here due to a login failure.
+        [CHAR_LIMIT=40] -->
   <string name="account_settings_login_dialog_title">មិន​អាច​​ចូល</string>
+  <!-- Dialog content if you were brought here due to a login failure.
+        [CHAR_LIMIT=none] -->
   <string name="account_settings_login_dialog_content_fmt">ឈ្មោះ​អ្នក​ប្រើ ​ឬ​ពាក្យ​សម្ងាត់​សម្រាប់ <xliff:g id="ACCOUNT">%s</xliff:g> គឺ​មិន​ត្រឹមត្រូវ​។ តើ​អ្នក​ចង់​ធ្វើ​បច្ចុប្បន្នភាព​វា​ឥឡូវ​នេះ​ឬ?</string>
+  <!-- Dialog content if you were brought here due to a login failure, and the server provided a reason
+        [CHAR_LIMIT=none] -->
   <string name="account_settings_login_dialog_reason_fmt">បាន​បរាជ័យ​ក្នុង​ការ​ចូល​​​ <xliff:g id="ACCOUNT">%s</xliff:g> របស់​អ្នក ម៉ាស៊ីន​មេ​បង្ហាញ​ថា៖ <xliff:g id="REASON">%s</xliff:g> តើ​អ្នក​ចង់​ធ្វើ​បច្ចុប្បន្នភាព​ឈ្មោះ​អ្នក​ប្រើ និង/​ឬ ពាក្យ​សម្ងាត់​របស់​អ្នក​ឬ?</string>
+  <!-- On Settings screen, setting option name -->
+  <!-- Title of account preference for downloading attachments in background [CHAR LIMIT=32] -->
   <string name="account_settings_background_attachments_label">ទាញ​យក​ឯកសារ​ភ្ជាប់</string>
+  <!-- Summary of account preference for downloading attachments in background [CHAR LIMIT=64] -->
   <string name="account_settings_background_attachments_summary">​ទាញ​យក​ឯកសារ​ភ្ជាប់​​ស្វ័យ​ប្រវត្តិ​ចំពោះ​​​សារ​ថ្មី​តាម​រយៈ​វ៉ាយហ្វាយ</string>
   <string name="account_settings_notify_label">ការ​ជូន​ដំណឹង​អ៊ីមែល</string>
+  <!-- On Settings screen, summary line when called via AccountManager for Exchange accounts
+        [CHAR LIMIT=50] -->
   <string name="account_settings_summary">ធ្វើ​សម​កាល​កម្ម​ញឹកញាប់​, ការ​ជូន​ដំណឹង ។​ល។</string>
+  <!-- On Settings screen, setting summary text -->
   <string name="account_settings_notify_summary">ផ្ញើ​ការ​ជូន​ដំណឹង​នៅ​ពេល​​​អ៊ីមែល​​​មកដល់</string>
+  <!-- On Settings screen, setting option name and title of dialog box that opens -->
   <string name="account_settings_mail_check_frequency_label">ប្រេកង់​សម​កាល​កម្ម</string>
+  <!-- On Settings screen, setting option name -->
   <string name="account_settings_incoming_label">ការ​កំណត់​ចូល</string>
+  <!-- On Settings screen, setting option summary [CHAR LIMIT=64] -->
   <string name="account_settings_incoming_summary">ឈ្មោះ​អ្នក​ប្រើ​, ពាក្យ​សម្ងាត់ ​និង​ការ​កំណត់​ម៉ាស៊ីន​មេ​ចូល​​ផ្សេង​ទៀត</string>
+  <!-- On Settings screen, setting option name -->
   <string name="account_settings_outgoing_label">​កំណត់​ការ​ចេញ</string>
+  <!-- On Settings screen, setting option summary [CHAR LIMIT=64] -->
   <string name="account_settings_outgoing_summary">ឈ្មោះ​អ្នក​ប្រើ​, ពាក្យ​សម្ងាត់ ​និង​ការ​កំណត់​ម៉ាស៊ីន​មេ​​ផ្សេង​ទៀត</string>
+  <!-- On Settings screen, setting option name -->
   <string name="account_settings_enforced_label">បាន​អនុវត្ត​គោល​ន​យោ​បាយ</string>
+  <!-- On Settings screen, setting option summary [CHAR LIMIT=64] -->
   <string name="account_settings_enforced_summary">គ្មាន</string>
+  <!-- On Settings screen, setting option name -->
   <string name="account_settings_unsupported_label">គោល​ន​យោ​បាយ​ដែល​មិន​បាន​គាំទ្រ</string>
+  <!-- On Settings screen, setting option summary [CHAR LIMIT=64] -->
   <string name="account_settings_unsupported_summary">គ្មាន</string>
+  <!-- On Settings screen, label for button that attempts to sync the account -->
   <string name="account_settings_retry_label">ប៉ុនប៉ង​ធ្វើ​សម​កាល​កម្ម</string>
+  <!-- On Settings screen, summmary for button that attempts to sync an account [CHAR LIMIT=64] -->
   <string name="account_settings_retry_summary">ប៉ះ​នៅ​ទីនេះ​ដើម្បី​​ធ្វើ​សម​កាល​កម្ម​គណនី​នេះ</string>
+  <!-- On Settings screen, setting option name -->
   <string name="account_settings_description_label">ឈ្មោះ​គណនី</string>
+  <!-- On Settings screen, setting option name -->
   <string name="account_settings_name_label">ឈ្មោះ​របស់​អ្នក</string>
+  <!-- On Settings screen, setting option name. Allows user to modify saved quick responses
+        for insertion in message body. [CHAR_LIMIT=24]-->
   <string name="account_settings_edit_quick_responses_label">ឆ្លើយតប​រហ័ស</string>
+  <!-- On Settings screen, setting option summary [CHAR LIMIT=64] -->
   <string name="account_settings_edit_quick_responses_summary">កែ​​អត្ថបទ​ដែល​អ្នក​បញ្ចូល​ជា​ញឹកញាប់​នៅ​ពេល​ដែល​តែង​អ៊ីមែល</string>
+  <!-- On Settings screen, section heading -->
   <string name="account_settings_notifications">ការ​កំណត់​ការ​ជូន​ដំណឹង</string>
+  <!-- On Settings screen, section heading for data usage [CHAR LIMIT=70] -->
   <string name="account_settings_data_usage">ការ​ប្រើ​ទិន្នន័យ</string>
+  <!-- On Settings screen, section heading -->
   <string name="account_settings_policies">គោល​ន​យោ​បាយ​​​សុវត្ថិភាព</string>
   <string name="system_folders_title">ថត​ប្រព័ន្ធ</string>
   <string name="system_folders_trash_title">ថត​ធុង​សំរាម</string>
@@ -216,34 +467,76 @@
   <string name="system_folders_sent_title">ថត​ធាតុ​ដែល​បាន​ផ្ញើ</string>
   <string name="system_folders_sent_summary">ជ្រើស​ថត​ធាតុ​ដែល​បាន​ផ្ញើ​​​​នៃ​ម៉ាស៊ីន​មេ​របស់​អ្នក</string>
   <string name="system_folders_sent_dlg">ជ្រើស​ថត​ធាតុ​ម៉ាស៊ីន​​មេ​របស់​អ្នក​ត្រូវ​បាន​ផ្ញើ</string>
+  <!-- On settings screen, dialog heading informing user to create or edit a quick response -->
   <string name="edit_quick_response_dialog">ឆ្លើយតប​រហ័ស</string>
+  <!-- On settings screen, edit quick response dialog's "save" button -->
   <string name="save_action">រក្សាទុក</string>
+  <!-- On settings screen, sync contacts check box label [CHAR LIMIT=20]-->
   <string name="account_settings_sync_contacts_enable">ទំនាក់ទំនង​​សម​កាល​កម្ម</string>
+  <!-- On settings screen, sync contacts summary text [CHAR LIMIT=35] -->
   <string name="account_settings_sync_contacts_summary">ទំនាក់ទំនង​សមកាលកម្ម​សម្រាប់​គណនី​នេះ</string>
+  <!-- On settings screen, sync calendar check box label [CHAR LIMIT=20]-->
   <string name="account_settings_sync_calendar_enable">ធ្វើ​សមកាលកម្ម​ប្រតិទិន</string>
+  <!-- On settings screen, sync calendar summary text [CHAR LIMIT=50] -->
   <string name="account_settings_sync_calendar_summary">ធ្វើ​សមកាលកម្ម​ព្រឹត្តិការណ៍​ប្រតិទិន​សម្រាប់​​គណនី​នេះ</string>
+  <!-- On settings screen, sync email check box label [CHAR LIMIT=20]-->
   <string name="account_settings_sync_email_enable">ធ្វើ​សម​កាល​កម្ម​អ៊ី​មែល</string>
+  <!-- On settings screen, sync email summary text [CHAR LIMIT=35] -->
   <string name="account_settings_sync_email_summary">ធ្វើ​សម​កាល​កម្ម​អ៊ីមែល​សម្រាប់​គណនី​នេះ</string>
+  <!-- On Settings screen, vibrate pop-up menu label -->
   <string name="account_settings_vibrate_when_label">ញ័រ</string>
+  <!-- On Settings screen, setting option name -->
   <string name="account_settings_ringtone">ជ្រើស​សំឡេង​រោទ៍</string>
+  <!-- On Settings screen, section heading -->
   <string name="account_settings_servers">ការ​កំណត់​ម៉ាស៊ីន​​មេ</string>
+  <!-- Mailbox settings activity title [CHAR LIMIT=none] -->
   <string name="mailbox_settings_activity_title">ជម្រើស​សម​កាល​កម្ម</string>
+  <!-- Mailbox settings activity title, with the target folder name [CHAR LIMIT=none] -->
   <string name="mailbox_settings_activity_title_with_mailbox">ជម្រើស​សម​កាល​កម្ម ( <xliff:g id="MAILBOXX_NAME">%s</xliff:g> )</string>
+  <!-- On mailbox settings screen: Whether to sync this mailbox when the account syncs. -->
   <string name="mailbox_settings_sync_enabled_label">ធ្វើ​សម​កាល​កម្ម​ថត​នេះ</string>
+  <!-- On mailbox settings screen: Explanatory text for what it means to "sync this folder". -->
   <string name="mailbox_settings_sync_enabled_summary">សារ​ទាំងអស់​នឹង​ត្រូវ​បាន​ទាញ​យក ក្រោយ​ពេល​​តភ្ជាប់</string>
+  <!-- On mailbox settings screen: Mailbox sync window (the number of days to synchronize email for) setting label [CHAR LIMIT=none] -->
   <string name="mailbox_settings_mailbox_sync_window_label">ចំនួន​ថ្ងៃ​ដែល​សំបុត្រ​​ត្រូវ​ធ្វើ​សម​កាល​កម្ម</string>
+  <!-- Dialog title for the choosing whether to show checkboxes or sender image [CHAR LIMIT=200] -->
   <string name="prefDialogTitle_conversationListIcon">រូបភាព​អ្នក​ផ្ញើ</string>
+  <!-- Message that appears when adding a Windows Live Hotmail Plus account -->
   <string name="provider_note_live">មាន​​​គណនី \"Plus\" តែ​មួយ​ចំនួន រួម​បញ្ចូល​នូវ​ការ​ចូល​ដំណើរ​ការ POP អនុញ្ញាត​​ឲ្យ​​កម្មវិធី​នេះ​ត្រូវ​​តភ្ជាប់​។ ​បើ​អ្នក​មិន​អាច​ចុះ​ហត្ថលេខា​​ដោយ​ប្រើ​​អាសយដ្ឋាន​អ៊ីមែល​ត្រឹមត្រូវ​និង​ពាក្យ​សម្ងាត់​របស់​អ្នក,​ អ្នក​ប្រហែល​ជា​មិន​​ចាំបាច់​បង់​ប្រាក់​​គណនី \"Plus\" ។ បើក​ដំណើរការ​កម្មវិធី​អ៊ីនធឺណិត​បណ្ដាញ​ដើម្បី​ទទួល​បាន​នូវ​ការ​ចូល​ដំណើរ​ការ​ទៅ​កាន់​គណនី​អ៊ីមែល​ទាំងនេះ​។</string>
+  <!-- Name of Microsoft Exchange account type; used by AccountManager -->
+  <!-- Name of Microsoft Exchange account type; used by AccountManager -->
+  <!-- Message that appears if the AccountManager cannot create the system Account -->
   <string name="system_account_create_failed">មិន​អាច​បង្កើត​គណនី​។ សូម​ព្យាយាម​ម្ដងទៀត។</string>
+  <!-- Strings that support the DeviceAdmin / DevicePolicyManager API -->
+  <!-- Name of the DeviceAdmin (seen in settings & in user confirmation screen) -->
   <string name="device_admin_label">អ៊ីមែល</string>
+  <!-- Long-form description of the DeviceAdmin (2nd line in settings & in user conf. screen) -->
   <string name="device_admin_description">បើក​​គោល​ន​យោ​បាយ​សុវត្ថិភាព​ម៉ាស៊ីន​មេ​​ដែល​បាន​បញ្ជាក់</string>
+  <!-- Settings activity title [CHAR LIMIT=40]-->
   <string name="settings_activity_title">ការ​កំណត់</string>
+  <!-- General Preferences Screen -->
+  <!-- Label in preferences header to describe general preferences [CHAR LIMIT=32] -->
   <string name="header_label_general_preferences">ការ​កំណត់​ទូទៅ</string>
+  <!-- General preference: Label of the setting for requiring confirmation before
+         message deletion [CHAR LIMIT=32] -->
   <string name="general_preference_confirm_delete_label">បញ្ជាក់​មុន​ពេល​លុប</string>
+  <!-- General preference: Description of the setting for requiring confirmation before
+         message deletion [CHAR LIMIT=64] -->
+  <!-- TODO: Delete this string, no longer used -->
   <string name="general_preference_confirm_delete_summary">សារ</string>
+  <!-- General preference: Label of the setting for requiring confirmation before
+         message sending [CHAR LIMIT=32] -->
   <string name="general_preference_confirm_send_label">បញ្ជាក់​មុន​ពេល​ផ្ញើ</string>
+  <!-- General preference: Description of the setting for requiring confirmation before
+         message sending [CHAR LIMIT=32] -->
+  <!-- TODO: Delete this string, no longer used -->
   <string name="general_preference_confirm_send_summary">សារ</string>
+  <!-- General preference: Label of the setting for the text zoom.  [CHAR LIMIT=32] -->
   <string name="general_preference_text_zoom_label">ទំហំ​អត្ថបទ​សារ</string>
+  <!-- General preference: Description of each setting for text zoom.  The entries here must
+         correspond to the strings general_preference_text_zoom_tiny,
+         general_preference_text_zoom_small, general_preference_text_zoom_normal, etc.
+         [CHAR LIMIT=64] -->
   <string-array name="general_preference_text_zoom_summary_array">
     <item>អត្ថបទ​តូច</item>
     <item>អត្ថបទ​​តូច</item>
@@ -251,30 +544,63 @@
     <item>អត្ថបទ​ធំ</item>
     <item>អត្ថបទ​​ធំ​សម្បើម</item>
   </string-array>
+  <!-- The message text size values -->
+  <!-- General preference: Title of the dialog box with options for text zoom. [CHAR LIMIT=32] -->
   <string name="general_preference_text_zoom_dialog_title">ទំហំ​អត្ថបទ​សារ</string>
+  <!-- General preference:  Text zoom.  Value is "tiny" (-2) [CHAR LIMIT=32] -->
   <string name="general_preference_text_zoom_tiny">តូច​ល្អិត</string>
+  <!-- General preference:  Text zoom.  Value is "small" (-1) [CHAR LIMIT=32] -->
   <string name="general_preference_text_zoom_small">តូច</string>
+  <!-- General preference:  Text zoom.  Value is "normal" (0) [CHAR LIMIT=32] -->
   <string name="general_preference_text_zoom_normal">ធម្មតា</string>
+  <!-- General preference:  Text zoom.  Value is "large" (+1) [CHAR LIMIT=32] -->
   <string name="general_preference_text_zoom_large">ធំ</string>
+  <!-- General preference:  Text zoom.  Value is "huge" (+2) [CHAR LIMIT=32] -->
   <string name="general_preference_text_zoom_huge">ធំ​សម្បើម</string>
+  <!-- Generic string shown instead of regular numbers, when a number is larger than 999.
+         This should not be altered if the original string ("999+") makes sense in the
+         target language. Typical alternatives include "+999" and ">999".  [CHAR_LIMIT=4] -->
   <string name="more_than_999">999+</string>
+  <!-- A policy disallowing the user of the device's camera [CHAR LIMIT=50] -->
   <string name="policy_dont_allow_camera">មិន​អនុញ្ញាត​ប្រើ​ម៉ាស៊ីន​ថត​របស់​ឧបករណ៍</string>
+  <!-- A policy requiring a device lock screen password [CHAR LIMIT=50] -->
   <string name="policy_require_password">ទាមទារ​ការ​ពាក្យ​សម្ងាត់​ឧបករណ៍</string>
+  <!-- A policy disallowing the reuse of recent passwords [CHAR LIMIT=50] -->
   <string name="policy_password_history">ដាក់កម្រិត​​ប្រើ​​ពាក្យ​សម្ងាត់​ថ្មី​ឡើងវិញ</string>
+  <!-- A policy that forces a password to expire after a set period of time [CHAR LIMIT=50] -->
   <string name="policy_password_expiration">ទាមទារ​​​ពាក្យ​សម្ងាត់​ដើម្បី​កំណត់​ពេល​ផុត​កំណត់</string>
+  <!-- A policy requiring a maximum amount of time the device can sit idle before the lock screen
+        is activated [CHAR LIMIT=50] -->
   <string name="policy_screen_timeout">ទាមទារ​ឲ្យ​​​មាន​ឧបករណ៍​​​ទំនេរ​ ដើម្បី​ចាក់សោ​អេក្រង់</string>
+  <!-- A policy limiting the number of old calendar events synced [CHAR LIMIT=50] -->
   <string name="policy_calendar_age">កំណត់​​លេខ​ព្រឹត្តិការណ៍​ប្រតិទិន​ដែល​បាន​ធ្វើ​សម​កាល​កម្ម</string>
+  <!-- A policy limiting the number of emails synced [CHAR LIMIT=50] -->
   <string name="policy_email_age">កំណត់​ចំនួន​​អ៊ីមែល​ដែល​​​បាន​ធ្វើ​សម​កាល​កម្ម</string>
+  <!-- The four strings below represent "quick responses" which the user can insert into a
+        message being composed with just a couple of taps.  These four responses MUST be defined,
+        but need not include a string (i.e. they are optional).  Further, the responses can be
+        customized as necessary by the translator, in case one or more of these is inappropriate in
+        a particular locale or if there are better options available. -->
+  <!-- A "quick response", i.e. a quick reply to a received mail [CHAR LIMIT=NONE] -->
   <string name="quick_1">​អរគុណ​!</string>
+  <!-- A "quick response", i.e. a quick reply to a received mail [CHAR LIMIT=NONE] -->
   <string name="quick_2">ល្អ​ចំពោះ​ខ្ញុំ​!</string>
+  <!-- A "quick response", i.e. a quick reply to a received mail [CHAR LIMIT=NONE] -->
   <string name="quick_3">ខ្ញុំ​នឹង​​អាន​នៅ​ពេល​ក្រោយ និង​ឆ្លើយតប​​អ្នក​វិញ។</string>
+  <!-- A "quick response", i.e. a quick reply to a received mail [CHAR LIMIT=NONE] -->
   <string name="quick_4">​រៀបចំ​កិច្ច​ប្រជុំ​​​​​ ដើម្បី​ពិភាក្សា​រឿង​នេះ​។</string>
+  <!-- This is the message warning the user that they must sync manually when roaming. [CHAR LIMIT=none]-->
   <string name="require_manual_sync_message">បាន​បិទ​ការ​ធ្វើ​សម​កាល​កម្ម​ផ្ទៃ​ខាង​ក្រោយ​សម្រាប់​គណនី​នេះ​​​ខណៈ​ពេល​រ៉ូ​មីង​។</string>
+  <!-- This is shown when a user responds to a meeting invitation [CHAR LIMIT=none]-->
   <string name="confirm_response">កំពុង​ផ្ញើ​​ការ​ឆ្លើយ​តប...</string>
+  <!-- Used by AccountManager -->
   <string name="imap_name">IMAP</string>
   <string name="pop3_name">POP3</string>
   <string name="folder_picker_title">កម្មវិធី​ជ្រើស​ថត</string>
+  <!-- Displayed when the user must pick his server's trash folder from a list [CHAR LIMIT 30]-->
   <string name="trash_folder_selection_title">ជ្រើស​ថត​ធុង​សំរាម​ម៉ាស៊ីន​​មេ​​សម្រាប់ <xliff:g id="ACCOUNT">%s</xliff:g></string>
+  <!-- Displayed when the user must pick his server's sent items folder from a list [CHAR LIMIT 30]-->
   <string name="sent_folder_selection_title">ជ្រើស​​ថត​ធាតុ​បាន​ផ្ញើ​ដោយ​ម៉ាស៊ីន​​មេ​សម្រាប់ <xliff:g id="ACCOUNT">%s</xliff:g></string>
   <string name="account_waiting_for_folders_msg">កំពុង​ផ្ទុក​បញ្ជី​ថត ...</string>
+  <!-- Feedback uri to be used when feedback is enabled -->
 </resources>

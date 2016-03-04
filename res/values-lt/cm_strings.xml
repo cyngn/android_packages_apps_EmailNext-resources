@@ -16,10 +16,14 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- Name of EmailProvider shown in AccountManager -->
   <string name="email_provider">El. paštas</string>
+  <!-- In the UI, the drafts will be displayed with this name -->
   <string name="mailbox_name_display_local_drafts">Vietiniai juodraščiai</string>
   <string name="mailbox_name_display_server_drafts">Serverio juodraščiai</string>
+  <!-- In the UI, the folder to-do will be displayed with this name -->
   <string name="mailbox_name_display_todo">Reikia padaryti</string>
+  <!-- In the UI, the archive will be displayed with this name -->
   <string name="mailbox_name_display_archive">Archyvas</string>
   <string name="mailbox_name_local_only_display_name"> - Vietinis</string>
   <string name="account_setup_start_email_address_hint">Įveskite savo el. pašto adresą</string>
@@ -27,44 +31,81 @@
   <string name="account_setup_start_get_started_button">Pradėti</string>
   <string name="account_setup_start_login_button">Prisijungti</string>
   <string name="account_setup_start_invalid_email_address">Neteisingas el.pašto adresas</string>
+  <!-- hint for account email password text field -->
   <string name="password_label">Slaptažodis</string>
   <string name="account_setup_basics_progress_message">Automatinis aptikimas vykdomas</string>
+  <!-- In Account setup options screen, Activity title [CHAR LIMIT=45] -->
   <string name="account_setup_options_title">Personalizuoti</string>
+  <!-- In Account setup options screen, label for email check frequency selector -->
   <string name="account_setup_options_mail_check_frequency_label">Patikrinti mano pašto dėžutę</string>
+  <!-- In Account setup options & Account Settings screens, email check frequency option -->
   <string name="account_setup_options_mail_check_frequency_2hour">Kas 2 valandas</string>
+  <!-- In Account setup options & Account Settings screens, email check frequency option -->
   <string name="account_setup_options_mail_check_frequency_4hour">Kas 4 valandas</string>
+  <!-- In Account setup options & Account Settings screens, email check frequency option -->
   <string name="account_setup_options_mail_check_frequency_1day">Kas dieną</string>
+  <!-- In Account setup options & Account Settings screens, check box for new-mail notification -->
   <string name="account_setup_options_notify_label"><b>Pranešti</b> , kai gausiu el. laišką</string>
+  <!-- In Account setup options screen, optional check box to also sync contacts -->
   <string name="account_setup_options_sync_contacts_label"><b>Sinchronizuoti kontaktus</b> iš šios paskyros</string>
+  <!-- In Account setup options screen, optional check box to also sync calendar -->
   <string name="account_setup_options_sync_calendar_label"><b>Sinchronizuoti kalendorių</b> iš šios paskyros</string>
+  <!-- In Account setup options screen, check box to sync email -->
   <string name="account_setup_options_sync_email_label"><b>Sinchronizuoti el. paštą</b> iš šios paskyros</string>
   <string name="account_setup_options_disable_convo_threading_label">Išjungti pokalbio gijų kūrimą</string>
+  <!-- On Settings screen, setting option for showing all images -->
   <string name="account_settings_show_all_images_title">Vaizdai</string>
   <string name="account_settings_show_all_images_show">Visada rodyti</string>
   <string name="account_settings_show_all_images_ask">Paklausti prieš rodant</string>
+  <!-- On Settings Screen, setting option for setting the account color -->
   <string name="account_settings_account_color_title">Paskyros spalva</string>
   <string name="account_settings_account_color_summary">Redaguoti paskyros spalvą</string>
   <string name="account_settings_account_color_dialog_title">Pasirinkti spalvą</string>
+  <!-- On Settings screen, led notification title label -->
   <string name="account_settings_led_notification_label">Įgalinti LED pranešimą</string>
   <string name="account_settings_led_notification_custom_color">Naudoti tinkintą LED spalvą</string>
+  <!-- On Settings screen, led color title and summary label -->
   <string name="account_settings_led_color_label">Tinkinta LED spalva</string>
   <string name="account_settings_led_color_summary">Numatytoji vertė yra paskyros spalva</string>
+  <!-- On Settings screen, tutorial header title label -->
   <string name="account_settings_tutorial_header_title">Žiūrėti pamoką</string>
+  <!-- On Settings screen, title for label/move preference -->
+  <!-- On Settings screen, shown as an option for label/move preference -->
+  <!-- On Settings screen, shown as an option for label/move preference -->
+  <!-- General preference: Labels for the setting to mark emails as read before archiving them -->
   <string name="general_preference_mark_archive_messages_read">Archyvuoti kaip perskaitytą</string>
   <string name="general_preference_mark_archive_messages_read_description">Pažymėti laiškus kaip perskaitytus prieš juos archyvuojant</string>
+  <!-- General preference: Notifications open to the combined inbox-->
+  <!-- The hint used in the search box when searching all mailboxes [CHAR LIMIT=35] -->
   <string name="search_hint">Paieška\u2026</string>
+  <!-- Title of screen when trying to get oauth authentication -->
   <string name="oauth_authentication_title">Prašoma leidimo</string>
+  <!-- Title of screen to choose with authentication to use -->
   <string name="sign_in_title">Prisijungti</string>
+  <!-- Button shown on SignInActivity -->
   <string name="sign_in_button">Atlikta</string>
+  <!-- Label between OAuth and password authentication, indicating the user must do one or the other [CHAR LIMIT=40] -->
   <string name="or_label">ARBA</string>
+  <!-- Label for signing in with Google using OAuth -->
   <string name="sign_in_with_google">Prisijungti naudojant „Google“</string>
+  <!--  On the "Setup up email" screen, label indicating what service we are signed in with [CHAR LIMIT=40] -->
   <string name="signed_in_with_service_label">Prisijungta naudojant %s</string>
+  <!-- Label for the authentication section [CHAR LIMIT=20] -->
   <string name="authentication_label">Atpažinimas</string>
+  <!-- Label for the add authentication icon [CHAR LIMIT=40] -->
   <string name="add_authentication_label">Pridėti autentifikavimą</string>
   <string name="oauth_saving_message">Išsaugoma\u2026</string>
   <string name="about_app_header_title">Apie</string>
+  <!-- A sync window length setting (i.e. load messages this far back) [CHAR LIMIT=25]  -->
   <string name="account_setup_options_mail_window_3months">Paskutinius 3 mėnesius</string>
+  <!-- A sync window length setting (i.e. load messages this far back) [CHAR LIMIT=25]  -->
   <string name="account_setup_options_mail_window_6months">Paskutinius 6 mėnesius</string>
   <string name="account_settings_unable_to_edit_field">Administratorius neleidžia keisti šio lauko</string>
+  <!-- Menu item for sending availability from compose. [CHAR_LIMIT=30] -->
+  <!-- Menu item for including an invite from compose. [CHAR_LIMIT=30] -->
+  <!-- Preference for the compose toolbar -->
   <string name="tutorial_done_button">Atlikta</string>
+  <!-- Security settings category -->
+  <!-- Preference for disabling screenshots of app screens. -->
+  <!-- Preference for disabling screenshots of app screens. -->
 </resources>

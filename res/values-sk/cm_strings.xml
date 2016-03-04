@@ -16,10 +16,14 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- Name of EmailProvider shown in AccountManager -->
   <string name="email_provider">E-mail</string>
+  <!-- In the UI, the drafts will be displayed with this name -->
   <string name="mailbox_name_display_local_drafts">Miestne koncepty</string>
   <string name="mailbox_name_display_server_drafts">Serverové koncepty</string>
+  <!-- In the UI, the folder to-do will be displayed with this name -->
   <string name="mailbox_name_display_todo">Úlohy</string>
+  <!-- In the UI, the archive will be displayed with this name -->
   <string name="mailbox_name_display_archive">Archív</string>
   <string name="mailbox_name_local_only_display_name"> - Miestne</string>
   <string name="account_setup_start_email_address_hint">Zadajte vašu emailovú adresu</string>
@@ -27,52 +31,86 @@
   <string name="account_setup_start_get_started_button">Začať</string>
   <string name="account_setup_start_login_button">Prihlásiť</string>
   <string name="account_setup_start_invalid_email_address">Neplatná e-mailová adresa</string>
+  <!-- hint for account email password text field -->
   <string name="password_label">Heslo</string>
   <string name="account_setup_basics_progress_message">Prebieha automatické nastavovanie</string>
+  <!-- In Account setup options screen, Activity title [CHAR LIMIT=45] -->
   <string name="account_setup_options_title">Prispôsobiť</string>
+  <!-- In Account setup options screen, label for email check frequency selector -->
   <string name="account_setup_options_mail_check_frequency_label">Kontrola doručenej pošty</string>
+  <!-- In Account setup options & Account Settings screens, email check frequency option -->
   <string name="account_setup_options_mail_check_frequency_2hour">Každé 2 hodiny</string>
+  <!-- In Account setup options & Account Settings screens, email check frequency option -->
   <string name="account_setup_options_mail_check_frequency_4hour">Každé 4 hodiny</string>
+  <!-- In Account setup options & Account Settings screens, email check frequency option -->
   <string name="account_setup_options_mail_check_frequency_1day">Každý deň</string>
+  <!-- In Account setup options & Account Settings screens, check box for new-mail notification -->
   <string name="account_setup_options_notify_label"><b>Upozorniť ma</b> na príchod e-mailu</string>
+  <!-- In Account setup options screen, optional check box to also sync contacts -->
   <string name="account_setup_options_sync_contacts_label"><b>Synchronizovať kontakty</b> z tohto účtu</string>
+  <!-- In Account setup options screen, optional check box to also sync calendar -->
   <string name="account_setup_options_sync_calendar_label"><b>Synchronizovať kalendár</b> z tohto účtu</string>
+  <!-- In Account setup options screen, check box to sync email -->
   <string name="account_setup_options_sync_email_label"><b>Synchronizovať e-mail</b> z tohto účtu</string>
   <string name="account_setup_options_disable_convo_threading_label">Vypnúť konverzácie vo vláknach</string>
+  <!-- On Settings screen, setting option for showing all images -->
   <string name="account_settings_show_all_images_title">Obrázky</string>
   <string name="account_settings_show_all_images_show">Vždy zobrazovať</string>
   <string name="account_settings_show_all_images_ask">Opýtať sa pred zobrazením</string>
+  <!-- On Settings Screen, setting option for setting the account color -->
   <string name="account_settings_account_color_title">Farba účtu</string>
   <string name="account_settings_account_color_summary">Upraviť farbu pre tento účet</string>
   <string name="account_settings_account_color_dialog_title">Vyberte farbu</string>
+  <!-- On Settings screen, led notification title label -->
   <string name="account_settings_led_notification_label">Zapnúť LED upozornenia</string>
   <string name="account_settings_led_notification_custom_color">Použiť vlastnú farbu LED</string>
+  <!-- On Settings screen, led color title and summary label -->
   <string name="account_settings_led_color_label">Vlastná farba LED</string>
   <string name="account_settings_led_color_summary">Predvolená hodnota je farba účtu</string>
+  <!-- On Settings screen, tutorial header title label -->
   <string name="account_settings_tutorial_header_title">Zobraziť sprievodcu</string>
+  <!-- On Settings screen, title for label/move preference -->
   <string name="account_settings_move_label_title">Označiť/presunúť správy</string>
+  <!-- On Settings screen, shown as an option for label/move preference -->
   <string name="account_settings_move_title">Presunúť</string>
+  <!-- On Settings screen, shown as an option for label/move preference -->
   <string name="account_settings_label_title">Štítok</string>
+  <!-- General preference: Labels for the setting to mark emails as read before archiving them -->
   <string name="general_preference_mark_archive_messages_read">Archivovať ako prečítané</string>
   <string name="general_preference_mark_archive_messages_read_description">Označiť e-maily ako prečítané pred ich archiváciou</string>
+  <!-- General preference: Notifications open to the combined inbox-->
   <string name="general_pref_notifications_use_combined_inbox">Upozornenia otvoria kombinovanú schránku</string>
   <string name="general_pref_notifications_use_combined_inbox_desc">Kliknutie na upozornenie otvorí kombinovanú schránku namiesto schránky účtu</string>
+  <!-- The hint used in the search box when searching all mailboxes [CHAR LIMIT=35] -->
   <string name="search_hint">Hľadať\u2026</string>
+  <!-- Title of screen when trying to get oauth authentication -->
   <string name="oauth_authentication_title">Požadovanie overenia</string>
+  <!-- Title of screen to choose with authentication to use -->
   <string name="sign_in_title">Prihlásiť sa</string>
+  <!-- Button shown on SignInActivity -->
   <string name="sign_in_button">Hotovo</string>
+  <!-- Label between OAuth and password authentication, indicating the user must do one or the other [CHAR LIMIT=40] -->
   <string name="or_label">ALEBO</string>
+  <!-- Label for signing in with Google using OAuth -->
   <string name="sign_in_with_google">Prihlásiť sa cez Google</string>
+  <!--  On the "Setup up email" screen, label indicating what service we are signed in with [CHAR LIMIT=40] -->
   <string name="signed_in_with_service_label">Prihlásiť sa cez %s</string>
+  <!-- Label for the authentication section [CHAR LIMIT=20] -->
   <string name="authentication_label">Overenie</string>
+  <!-- Label for the add authentication icon [CHAR LIMIT=40] -->
   <string name="add_authentication_label">Pridať overenie</string>
   <string name="oauth_saving_message">Ukladanie\u2026</string>
   <string name="about_app_header_title">O aplikácii</string>
+  <!-- A sync window length setting (i.e. load messages this far back) [CHAR LIMIT=25]  -->
   <string name="account_setup_options_mail_window_3months">Posledné 3 mesiace</string>
+  <!-- A sync window length setting (i.e. load messages this far back) [CHAR LIMIT=25]  -->
   <string name="account_setup_options_mail_window_6months">Posledných 6 mesiacov</string>
   <string name="account_settings_unable_to_edit_field">Správca nepovolil úpravu tohto poľa</string>
+  <!-- Menu item for sending availability from compose. [CHAR_LIMIT=30] -->
   <string name="message_compose_send_availability_menu_title">Odoslať dostupnosť</string>
+  <!-- Menu item for including an invite from compose. [CHAR_LIMIT=30] -->
   <string name="message_compose_create_invite_menu_title">Vytvoriť pozvánku</string>
+  <!-- Preference for the compose toolbar -->
   <string name="preference_compose_toolbar_visibility">Zobraziť panel návrhu</string>
   <string name="tutorial_welcome_title">Vitajte v E-maili</string>
   <string name="tutorial_welcome_subtitle">Múdrejší. Rýchlejší. Na mieru. E-mail.</string>
@@ -92,7 +130,10 @@
   <string name="update_available_ticker">Aktualizácia pre E-mail je k dispozícii</string>
   <string name="update_availalable_title">Aktualizácia je k dispozícii</string>
   <string name="update_available_content">Dotykom nainštalujte aktualizáciu</string>
+  <!-- Security settings category -->
+  <!-- Preference for disabling screenshots of app screens. -->
   <string name="preference_disable_screenshots">Zakázať snímky obrazovky</string>
+  <!-- Preference for disabling screenshots of app screens. -->
   <string name="preference_disable_screenshots_summary">Zabrániť iným aplikáciám snímanie obrazoviek tejto aplikácie</string>
   <string name="custom_perms_dialog_title">Duplicitné povolenia</string>
   <string name="custom_perms_dialog_msg">Iná aplikácia sa pokúša zhromažďovať vaše osobné informácie.\n\n <xliff:g id="content">%s</xliff:g> \n\nProsím, kontaktujte Boxer podporu pre pomoc.</string>

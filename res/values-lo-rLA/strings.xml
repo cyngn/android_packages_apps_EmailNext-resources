@@ -15,199 +15,450 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- Names of packages and authorities that are common to all apps
+    and read from resources -->
+  <!-- Permissions label for reading attachments -->
   <string name="permission_read_attachment_label">ອ່ານໄຟລ໌ແນບໃນອີເມວ</string>
+  <!-- Permissions description for reading attachments -->
   <string name="permission_read_attachment_desc">ອະນຸຍາດໃຫ້ແອັບຯອ່ານໄຟລ໌ແນບໃນອີເມວຂອງທ່ານໄດ້.</string>
+  <!-- Permissions label for accessing the main provider -->
   <string name="permission_access_provider_label">ເຂົ້າເຖິງຂໍ້ມູນຜູ່ໃຫ້ບໍລິການອີເມວ</string>
+  <!-- Permissions description for accessing the main provider -->
   <string name="permission_access_provider_desc">ອະນຸຍາດໃຫ້ແອັບຯດັ່ງກ່າວເຂົ້າເຖິງຖານຂໍ້ມູນອີເມວ, ຮວມເຖິງຂໍ້ຄວາມທີ່ໄດ້ຮັບ, ຂໍ້ຄວາມທີ່ສົ່ງ, ຊື່ຜູ່ໃຊ້ ແລະ ລະຫັດຜ່ານ.</string>
+  <!-- Name of application on Home screen -->
   <string name="app_name">ອີເມວ</string>
+  <!-- Title of debug screen -->
   <string name="debug_title">ດີບັ໊ກ</string>
+  <!-- Actions will be used as buttons and in menu items -->
+  <!-- Button name used as part of a multi-step process -->
   <string name="next_action">ຕໍ່ໄປ</string>
+  <!-- Button name used to confirm acceptance of dialog boxes, warnings, errors, etc. -->
   <string name="okay_action">ຕົກລົງ</string>
+  <!-- Button name used to cancel out of dialog boxes -->
   <string name="cancel_action">ຍົກເລີກ</string>
+  <!-- Button name used to move to previous step during setup sequence [CHAR_LIMIT=16] -->
   <string name="previous_action">ກ່ອນໜ້າ</string>
+  <!--  Button name used to complete a multi-step process -->
   <string name="done_action">ແລ້ວໆ</string>
+  <!--  Menu item used to create a new quick response [CHAR_LIMIT=16] -->
   <string name="create_action">ສ້າງໃຫມ່</string>
+  <!-- Message informing user when a list that would contain quick responses
+            is empty [CHAR_LIMIT=80] -->
   <string name="quick_responses_empty_view">ບໍ່ມີຄໍາຕອບແບບວ່ອງໄວ.</string>
+  <!-- Menu item -->
   <string name="account_settings_action">ການຕັ້ງຄ່າບັນຊີ</string>
+  <!-- Menu item: options for this mailbox. [CHAR LIMIT = 32] -->
   <string name="menu_folder_options">ໂຕເລືອກການຊິ້ງຂໍ້ມູນ</string>
+  <!-- Appears in message list view when there's a network error. -->
+  <!-- Also appears in a toast, in the message viewer, when there's a network error. -->
   <string name="status_network_error">ບັນຫາໃນການເຊື່ອມຕໍ່.</string>
+  <!-- Text shown with dragged messages to indicate how many are being dragged [CHAR LIMIT=40]-->
   <plurals name="move_messages">
     <item quantity="other">ຍ້າຍຂໍ້ຄວາມ</item>
   </plurals>
+  <!-- Toast shown when a message(s) can't be moved because it's not supported by the POP3
+        protocol. [CHAR LIMIT=none]-->
   <string name="cannot_move_protocol_not_supported_toast">ບໍ່ຮອງຮັບການຍ້າຍໃນບັນຊີແບບ POP3.</string>
+  <!-- Toast shown when messages can't be moved because the selection contains multiple accounts'
+        messages. [CHAR LIMIT=none]-->
   <string name="cannot_move_multiple_accounts_toast">ບໍ່ສາມາດຍ້າຍໄດ້ ເນື່ອງຈາກຂໍ້ຄວາມທີ່ເລືອກແມ່ນມາຈາກຫຼາຍບັນຊີ.</string>
+  <!-- Toast shown when messages can't be moved because they're in a special mailbox.  "Drafts",
+        "Outbox" and "Sent". [CHAR LIMIT=none]-->
   <string name="cannot_move_special_mailboxes_toast">ຂໍ້ຄວາມໃນແບບຮ່າງ, ກ່ອງສົ່ງອີເມວ ແລະ ອີເມວທີ່ສົ່ງແລ້ວ ແມ່ນບໍ່ສາມາດຍ້າຍໄດ້.</string>
+  <!-- The next set of strings are used in local display and may be localized. -->
+  <!-- In the UI, the inbox will be displayed with this name -->
   <string name="mailbox_name_display_inbox">ກ່ອງຮັບອີເມວ</string>
+  <!-- In the UI, the outbox will be displayed with this name -->
   <string name="mailbox_name_display_outbox">ກ່ອງອີເມວອອກ</string>
+  <!-- In the UI, the trash will be displayed with this name -->
   <string name="mailbox_name_display_trash">ຖັງຂີ້ເຫຍື້ອ</string>
+  <!-- In the UI, the sent will be displayed with this name -->
   <string name="mailbox_name_display_sent">ສົ່ງແລ້ວ</string>
+  <!-- In the UI, the junk will be displayed with this name -->
   <string name="mailbox_name_display_junk">ຂີ້ເຫຍື້ອ</string>
+  <!-- In the UI, the starred will be displayed with this name -->
   <string name="mailbox_name_display_starred">ຕິດດາວແລ້ວ</string>
+  <!-- In the UI, the unread will be displayed with this name [CHAR LIMIT=15] -->
   <string name="mailbox_name_display_unread">ຍັງບໍ່ໄດ້ອ່ານ</string>
+  <!-- Do Not Translate.  Checkbox label, shown only on debug screen -->
+  <!-- Do Not Translate.  Checkbox label, shown only on debug screen -->
+  <!-- Do Not Translate.  Checkbox label, shown only on debug screen -->
+  <!-- Do Not Translate.  Button label, shown only on debug screen -->
+  <!-- Do Not Translate.  Checkbox label, shown on debug screen. -->
+  <!-- Do Not Translate.  Checkbox label, shown on debug screen. -->
+  <!-- Do Not Translate.  Checkbox label, shown on debug screen. -->
+  <!-- The summary section entry in the AccountFolder list to display all inboxes -->
   <string name="account_folder_list_summary_inbox">ກ່ອງຮັບອີເມວ</string>
+  <!-- The summary section entry in the AccountFolder list to display all starred
+        [CHAR LIMIT=200dip] -->
   <string name="account_folder_list_summary_starred">ໝາຍດາວແລ້ວ</string>
+  <!-- The summary section entry in the AccountFolder list to display all drafts
+        [CHAR LIMIT=200dip] -->
   <string name="account_folder_list_summary_drafts">ສະບັບຮ່າງ</string>
+  <!-- The summary section entry in the AccountFolder list to display all outboxes
+        [CHAR LIMIT=200dip] -->
   <string name="account_folder_list_summary_outbox">ກ່ອງອີເມວຂາອອກ</string>
+  <!-- Header for forwarded original messages -->
   <string name="message_compose_fwd_header_fmt">\n\n\"-------- ຂໍ້ຄວາມຕົ້ນສະບັບ --------\nເລື່ອງ: <xliff:g id="SUBJECT">%1$s</xliff:g>\nຈາກ: <xliff:g id="SENDER">%2$s</xliff:g>\nເຖິງ: <xliff:g id="TO">%3$s</xliff:g>\nCC: <xliff:g id="CC_0">%4$s</xliff:g>\n\n\"</string>
+  <!-- Title for dialog containing list of quick responses that user may insert
+            into message body. [CHAR_LIMIT=30] -->
   <string name="message_compose_insert_quick_response_list_title">ໃສ່ການຕອບແບບວ່ອງໄວ</string>
+  <!-- Menu item for inserting quick responses into email compose activity. [CHAR_LIMIT=30] -->
   <string name="message_compose_insert_quick_response_menu_title">ໃສ່ການຕອບແບບໄວ</string>
+  <!-- Toast upon using "send" when one or more attachments will need to be background loaded
+      [CHAR LIMIT=none]-->
   <string name="message_view_attachment_background_load">ນຶ່ງຫຼື່ຫຼາຍກວ່ານຶ່ງໄຟລ໌ແນບ ໃນຂໍ້ຄວາມທີ່ທ່ານສົ່ງຕໍ່ ຈະຖືກດາວໂຫລດກ່ອນໜ້າທຳການສົ່ງຕໍ່.</string>
+  <!-- Error banner when an attachment could not be downloaded due to a problem at the server
+            [CHAR LIMIT=100] -->
   <string name="attachment_not_found">ບໍ່ສາມາດດາວໂຫລດໄຟລ໌ແນບໄດ້.</string>
+  <!-- String used in place of a message that could not be properly decoded (e.g. bad base64
+         data was received.) [CHAR LIMIT=none] -->
   <string name="message_decode_error">ມີຂໍ້ຜິດພາດໃນລະຫວ່າງຖອດລະຫັດຂໍ້ຄວາມດັ່ງກ່າວ.</string>
+  <!-- Notification ticker when a forwarded attachment couldn't be sent [CHAR LIMIT=none] -->
   <string name="forward_download_failed_ticker">ບໍ່ສາມາດສົ່ງຕໍ່ນຶ່ງ ຫຼື ຫຼາຍກວ່ານຶ່ງໄຟລ໌ແນບ.</string>
+  <!-- Notification title when a forwarded attachment couldn't be sent [CHAR LIMIT=30]-->
   <string name="forward_download_failed_title">ໄຟລ໌ແນບບໍ່ສາມາດສົ່ງຕໍ່ໄດ້</string>
+  <!-- Notification ticker when email account authentication fails [CHAR LIMIT=none] -->
   <string name="login_failed_ticker"><xliff:g id="ACCOUNT_NAME">%s</xliff:g> ເຂົ້າສູ່ລະບົບບໍ່ສຳເລັດ.</string>
+  <!-- Notification title when email account authentication fails [CHAR LIMIT=30]-->
   <string name="login_failed_title">ບໍ່ສາມາດເຂົ້າສູ່ລະບົບໄດ້</string>
+  <!-- Size unit for bytes for attachments [CHAR LIMIT=10] -->
   <plurals name="message_view_attachment_bytes">
     <item quantity="other"><xliff:g id="SIZE_IN_BYTES">%d</xliff:g>B</item>
   </plurals>
+  <!-- Size unit for kilo bytes for attachments [CHAR LIMIT=10] -->
   <plurals name="message_view_attachment_kilobytes">
     <item quantity="other"><xliff:g id="SIZE_IN_KILOBYTES">%d</xliff:g>KB</item>
   </plurals>
+  <!-- Size unit for mega bytes for attachments [CHAR LIMIT=10] -->
   <plurals name="message_view_attachment_megabytes">
     <item quantity="other"><xliff:g id="SIZE_IN_MEGABYTES">%d</xliff:g>MB</item>
   </plurals>
+  <!-- Size unit for giga bytes for attachments [CHAR LIMIT=10] -->
   <plurals name="message_view_attachment_gigabytes">
     <item quantity="other"><xliff:g id="SIZE_IN_GIGABYTES">%d</xliff:g>GB</item>
   </plurals>
+  <!-- Title of screen when setting up new email account [CHAR LIMIT=45] -->
   <string name="account_setup_basics_title">ຕັ້ງບັນຊີ</string>
+  <!-- Headline of screen when setting up new email account (large text over divider)
+        [CHAR LIMIT=none] -->
   <string name="account_setup_basics_headline">ບັນຊີອີເມວ</string>
+  <!-- On "Set up email" screen, enthusiastic welcome message. -->
   <string name="accounts_welcome">ທ່ານສາມາດຕິດຕັ້ງບັນຊີໄດ້ໃນພຽງບໍ່ພໍເທົ່າໃດຂັ້ນຕອນ.</string>
+  <!-- On "Set up email" screen, hint for account email address text field -->
   <string name="account_setup_basics_email_label">ທີ່ຢູ່ອີເມວ</string>
+  <!-- Button name on "Set up email" screen [CHAR LIMIT=20] -->
   <string name="account_setup_basics_manual_setup_action">ຕັ້ງດ້ວຍຕົນເອງ</string>
+  <!-- Toast when we can't build a URI from the given email & password -->
+  <!-- Note, the error message in the toast is purposefully vague, because I *don't* know
+        exactly what's wrong. -->
   <string name="account_setup_username_password_toast">ພິມທີ່ຢູ່ອີເມວ ແລະ ລະຫັດຜ່ານທີ່ຖືກຕ້ອງ.</string>
+  <!-- Title of dialog shown when a duplicate account is created -->
   <string name="account_duplicate_dlg_title">ບັນຊີຊ້ຳກັນ</string>
+  <!-- Message of dialog shown when a duplicate account is created.  The display name of
+         the duplicate account is displayed. -->
   <string name="account_duplicate_dlg_message_fmt">ທ່ານໄດ້ໃຊ້ຊື່ຜູ່ໃຊ້ນີ້ສຳລັບບັນຊີ \"<xliff:g id="DUPLICATE">%s</xliff:g>\" ຢູ່ແລ້ວ.</string>
+  <!-- String that is displayed as error text for passwords with leading or trailing
+         spaces.  [CHAR LIMIT=none] -->
   <string name="account_password_spaces_error">ລະຫັດຜ່ານນີ້ເລີ່ມຕົ້ນ ຫຼື ລົງທ້າຍດ້ວຍຍະຫວ່າງນຶ່ງເທື່ອ ຫຼືຫຼາຍກວ່າ. ເຊີບເວີສ່ວນໃຫຍ່ບໍ່ຮອງຮັບລະຫັດຜ່ານທີ່ມີຍະຫວ່າງຢູ່ນຳ.</string>
+  <!-- On check-settings screen, this is the initially-displayed message. -->
   <string name="account_setup_check_settings_retr_info_msg">ກຳລັງຮັບຂໍ້ມູນບັນຊີ...</string>
+  <!-- Appears on screen while system is checking incoming server settings -->
   <string name="account_setup_check_settings_check_incoming_msg">ກຳລັງຢືນຢັນການຕັ້ງຄ່າຂອງເຊີບເວີ...</string>
+  <!-- Appears on screen while system is checking outgoing server settings -->
   <string name="account_setup_check_settings_check_outgoing_msg">ກຳລັງຢືນຢັນການຕັ້ງຄ່າ smtp…</string>
+  <!-- Appears on screen while system is creating the account -->
   <string name="account_setup_creating_account_msg">ກຳລັງສ້າງບັນຊີ...</string>
+  <!-- Title of "Set up email" screen after success [CHAR LIMIT=45] -->
   <string name="account_setup_names_title">ຕິດຕັ້ງບັນຊີ</string>
+  <!-- Text that appears on "Set up email" screen after successfully setting up an account
+        [CHAR LIMIT=none] -->
   <string name="account_setup_names_headline">ບັນຊີຂອງທ່ານແມ່ນຕິດຕັ້ງຮຽບຮ້ອຍແລ້ວ ແລະ ອີເມວກຳລັງຈະມາໄວໆນີ້!</string>
+  <!-- On "Set up email" screen, label of text field -->
   <string name="account_setup_names_account_name_label">ໃສ່ຊື່ໃຫ້ບັນຊີນີ້ (ທາງເລືອກ)</string>
+  <!-- On "Set up email" screen, label of text field -->
   <string name="account_setup_names_user_name_label">ຊື່ຂອງທ່ານ (ສະແດງໃນຂໍ້ຄວາມຂາອອກ)</string>
+  <!-- On "Set up email" screen, error pop-up when user_name field is empty [CHAR LIMIT=none] -->
   <string name="account_setup_names_user_name_empty_error">ຊ່ອງນີ້ບໍ່ສາມາດປ່ອຍໃຫ້ຫວ່າງໄດ້.</string>
+  <!-- Activity Title for the account type selector (IMAP or POP3 or EAS) [CHAR LIMIT=45] -->
   <string name="account_setup_account_type_title">ຕັ້ງບັນຊີ</string>
+  <!-- Headline for the the account type selector (IMAP or POP3 or EAS) [CHAR LIMIT=none] -->
   <string name="account_setup_account_type_headline">ປະເພດບັນຊີ</string>
+  <!-- "Add new email account" screen, text that appears on screen -->
   <string name="account_setup_account_type_instructions">ປະເພດບັນຊີຂອງທ່ານນີ້ແມ່ນປະເພດໃດ?</string>
+  <!-- "Incoming server settings" screen, title [CHAR LIMIT=45] -->
   <string name="account_setup_incoming_title">ຕິດຕັ້ງບັນຊີ</string>
+  <!-- "Incoming server settings" screen, headline (text over divider) [CHAR LIMIT=none] -->
   <string name="account_setup_incoming_headline">ການຕັ້ງຄ່າທີ່ກຳລັງສົ່ງມາຈາກເຊີບເວີ</string>
+  <!-- "Incoming server settings" screen, label for text field -->
   <string name="account_setup_incoming_username_label">ຊື່ຜູ່ໃຊ້</string>
+  <!-- "Incoming server settings" screen, label for text field -->
   <string name="account_setup_incoming_password_label">ລະຫັດຜ່ານ</string>
+  <!-- "Incoming server settings" screen, label for text field -->
   <string name="account_setup_incoming_server_label">ເຊີບເວີ</string>
+  <!-- "Incoming server settings" screen, label for text field -->
   <string name="account_setup_incoming_port_label">ພອດ</string>
+  <!-- "Incoming server settings" screen, label for pop-up menu -->
   <string name="account_setup_incoming_security_label">ປະເພດຄວາມປອດໄພ</string>
+  <!-- "Incoming server settings" screen, option for "Security type" pop-up menu indicating
+        the desire for an unencrypted session -->
   <string name="account_setup_incoming_security_none_label">ບໍ່ມີ</string>
+  <!-- "Incoming server settings" screen, option for "Security type" pop-up menu indicating
+        the desire for an encrypted session on the selected port, accepting all SSL certificates -->
   <string name="account_setup_incoming_security_ssl_trust_certificates_label">SSL/TLS (ຮັບໃບຮັບຮອງທັງຫມົດ)</string>
+  <!-- "Incoming server settings" screen, option for "Security type" pop-up menu indicating
+        the desire for an encrypted session on the selected port, including SSL certificate
+        checks -->
   <string name="account_setup_incoming_security_ssl_label">SSL/TLS</string>
+  <!-- "Incoming server settings" screen, option for "Security type" pop-up menu indicating
+        the desire for an encrypted session overlaid on a plain text session using the selected
+        port, accepting all SSL certificates -->
   <string name="account_setup_incoming_security_tls_trust_certificates_label">STARTTLS (ຍອມຮັບໃບຮັບຮອງທັງຫມົດ)</string>
+  <!-- "Incoming server settings" screen, option for "Security type" pop-up menu indicating
+        the desire for an encrypted session overlaid on a plain text session on the selected
+        port, including SSL certificate checks -->
   <string name="account_setup_incoming_security_tls_label">STARTTLS</string>
+  <!-- "Incoming server settings" screen, label for pop-up menu -->
   <string name="account_setup_incoming_delete_policy_label">ລຶບອີເມວອອກຈາກເຊີບເວີ</string>
+  <!-- "Incoming server settings" screen, options in pop-up menu for Delete email from server: -->
+  <!-- "Incoming server settings" screen, options in pop-up menu for Delete email from server: -->
   <string name="account_setup_incoming_delete_policy_never_label">ບໍ່ໃຊ້</string>
+  <!-- "Incoming server settings" screen, options in pop-up menu for Delete email from server: -->
   <string name="account_setup_incoming_delete_policy_delete_label">ໃນເວລາຂ້ອຍລຶບອອກຈາກກ່ອງຮັບອີເມວ</string>
+  <!-- "Incoming server settings" screen, label for setting IMAP path prefix: -->
   <string name="account_setup_incoming_imap_path_prefix_label">path ນຳໜ້າ IMAP</string>
+  <!-- "Incoming server settings" screen, hint for setting IMAP path prefix: -->
   <string name="account_setup_incoming_imap_path_prefix_hint">ໂຕເລືອກ</string>
+  <!-- "Outgoing server settings" screen, title [CHAR LIMIT=45] -->
   <string name="account_setup_outgoing_title">ຕັ້ງບັນຊີ</string>
+  <!-- "Outgoing server settings" screen, headline (text over divider) [CHAR LIMIT=none] -->
   <string name="account_setup_outgoing_headline">ການຕັ້ງຄ່າທີ່ກຳລັງສົ່ງອອກຈາກເຊີບເວີ</string>
+  <!-- On "Outgoing server settings" screen, label for text field -->
   <string name="account_setup_outgoing_smtp_server_label">ເຊີບເວີ SMTP</string>
+  <!-- On "Outgoing server settings" screen, label for text field -->
   <string name="account_setup_outgoing_port_label">ພອດ</string>
+  <!-- On "Outgoing server settings" screen, label for pop-up menu -->
   <string name="account_setup_outgoing_security_label">ປະເພດຄວາມປອດໄພ</string>
+  <!-- On "Outgoing server settings" screen, label for check box -->
   <string name="account_setup_outgoing_require_login_label">ຕ້ອງເຂົ້າສູ່ລະບົບ</string>
+  <!-- On "Outgoing server settings" screen, label for text field -->
   <string name="account_setup_outgoing_username_label">ຊື່ຜູ່ໃຊ້</string>
+  <!-- On "Outgoing server settings" screen, label for text field -->
   <string name="account_setup_outgoing_password_label">ລະຫັດຜ່ານ</string>
+  <!-- On "Exchange" setup screen, a heading title for the current client certificate [CHAR LIMIT=50] -->
   <string name="account_setup_exchange_certificate_title">ໃບຮັບຮອງໄຄຼເອນ</string>
+  <!-- On "Exchange" setup screen, a button label to include a client certificate [CHAR LIMIT=35] -->
   <string name="account_setup_exchange_select_certificate">ເລືອກ</string>
+  <!-- On "Exchange" setup screen, a button label to include a client certificate [CHAR LIMIT=35] -->
   <string name="account_setup_exchange_use_certificate">ນໍາໃຊ້ໃບຮັບຮອງຂອງໄຄຼເອນ</string>
+  <!-- On "Exchange" setup screen, a button label to remove the currently used client certificate [CHAR LIMIT=35] -->
   <string name="account_setup_exchange_remove_certificate">ລຶບ</string>
+  <!-- On "Exchange" setup screen, placeholder text to indicate no client
+         certificate is used [CHAR LIMIT=50] -->
   <string name="account_setup_exchange_no_certificate">ບໍ່ມີ</string>
+  <!-- On "Exchange" setup screen, the exchange device-id label [CHAR LIMIT=30] -->
   <string name="account_setup_exchange_device_id_label">ໄອດີອຸປະກອນມືຖື</string>
+  <!-- In Account setup options screen, Activity headline [CHAR LIMIT=none] -->
   <string name="account_setup_options_headline">ຕົວເລືອກບັນຊີ</string>
+  <!-- In Account setup options & Account Settings screens, label for email check frequency option -->
   <string name="account_setup_options_mail_check_frequency_never">ບໍ່ຕ້ອງກວດ</string>
+  <!-- In Account setup options & Account Settings screens, label for email check frequency option -->
   <string name="account_setup_options_mail_check_frequency_push">ອັດຕະໂນມັດ (ຕ້ອງກົດ)</string>
+  <!-- In Account setup options & Account Settings screens, email check frequency option -->
   <string name="account_setup_options_mail_check_frequency_5min">ທຸກໆ 5 ນາທີ</string>
+  <!-- In Account setup options & Account Settings screens, email check frequency option -->
   <string name="account_setup_options_mail_check_frequency_10min">ທຸກໆ 10 ນາທີ</string>
+  <!-- In Account setup options & Account Settings screens, email check frequency option -->
   <string name="account_setup_options_mail_check_frequency_15min">ທຸກໆ 15 ນາທີ</string>
+  <!-- In Account setup options & Account Settings screens, email check frequency option -->
   <string name="account_setup_options_mail_check_frequency_30min">ທຸກໆ 30 ນາທີ</string>
+  <!-- In Account setup options & Account Settings screens, email check frequency option -->
   <string name="account_setup_options_mail_check_frequency_1hour">ທຸກໆຊົ່ວໂມງ</string>
+  <!-- In Account setup options screen, check box to auto-download attachments  [CHAR LIMIT=none] -->
   <string name="account_setup_options_background_attachments_label">ດາວໂຫຼດໄຟລ໌ແນບອັດຕະໂນມັດໃນເວລາເຊື່ອມຕໍ່ Wi-Fi</string>
+  <!-- Dialog title when "setup" could not finish -->
   <string name="account_setup_failed_dlg_title">ບໍ່ສາມາດເຮັດສໍາເລັດໄດ້</string>
+  <!-- In Account setup options screen, label for email lookback selector -->
   <string name="account_setup_options_mail_window_label">ມື້ທີ່ຈະຊິ້ງຂໍ້ມູນ</string>
+  <!-- In account setup options & account settings screens (exchange), sync window length; this
+        implies loading a 'reasonable' number of messages [CHAR LIMIT=25] -->
   <string name="account_setup_options_mail_window_auto">ອັດຕະໂນມັດ</string>
+  <!-- A sync window length setting (i.e. load messages this far back) [CHAR LIMIT=25]  -->
   <string name="account_setup_options_mail_window_1day">ມື້ສຸດທ້າຍ</string>
+  <!-- A sync window length setting (i.e. load messages this far back) [CHAR LIMIT=25]  -->
   <string name="account_setup_options_mail_window_3days">ສາມມື້ກ່ອນ</string>
+  <!-- A sync window length setting (i.e. load messages this far back) [CHAR LIMIT=25]  -->
   <string name="account_setup_options_mail_window_1week">ອາທິດແລ້ວ</string>
+  <!-- A sync window length setting (i.e. load messages this far back) [CHAR LIMIT=25]  -->
   <string name="account_setup_options_mail_window_2weeks">ສອງອາທິດກ່ອນ</string>
+  <!-- A sync window length setting (i.e. load messages this far back) [CHAR LIMIT=25]  -->
   <string name="account_setup_options_mail_window_1month">ເດືອນແລ້ວ</string>
+  <!-- A sync window length setting (i.e. load messages this far back) [CHAR LIMIT=25]  -->
   <string name="account_setup_options_mail_window_all">ທັງໝົດ</string>
+  <!-- Per-mailbox sync window setting.  This means "use the account's sync window setting" [CHAR LIMIT=40] -->
   <string name="account_setup_options_mail_window_default">ໃຊ້ຄ່າເລີ່ມຕົ້ນບັນຊີ</string>
+  <!-- "Setup could not finish" dialog text; e.g., Username or password incorrect -->
   <string name="account_setup_failed_dlg_auth_message">ຊື່ຜູ່ໃຊ້ ຫລື ລະຫັດຜ່ານບໍ່ຖືກຕ້ອງ.</string>
+  <!-- "Setup could not finish" dialog text; e.g., Username or password incorrect\n(ERR01 Account does not exist) -->
   <string name="account_setup_failed_dlg_auth_message_fmt">ການເຂົ້າສູ່ລະບົບລົ້ມເຫຼວ.\n(<xliff:g id="ERROR">%s</xliff:g>)</string>
+  <!-- Account setup autodiscover auth failure dialog title. This is shown when autodiscover hits
+        an "access denied" server error, which could imply incorrect username/password or that no
+        autodiscover service has been configured for the domain [CHAR LIMIT=40] -->
   <string name="account_setup_autodiscover_dlg_authfail_title">ມີບັນຫາກັບການຕິດຕັ້ງບັນຊີ</string>
+  <!-- Account setup autodiscover auth failure dialog message. This is shown when autodiscover hits
+        an "access denied" server error, which could imply incorrect username/password or that no
+        autodiscover service has been configured for the domain [CHAR LIMIT=NONE] -->
   <string name="account_setup_autodiscover_dlg_authfail_message">ຢືນຢັນວ່າຊື່ຜູ່ໃຊ້, ລະຫັດຜ່ານ ແລະການຕັ້ງຄ່າບັນຊີນັ້ນຖືກຕ້ອງ.</string>
+  <!-- An error message presented to the user when the server's identity
+         cannot be established or trusted [CHAR LIMIT=NONE] -->
   <string name="account_setup_failed_dlg_certificate_message">ບໍ່ສາມາດເຊື່ອມຕໍ່ກັບເຊີບເວີຢ່າງປອດໄພໄດ້.</string>
+  <!-- An error message presented to the user when the server's identity
+         cannot be established or trusted [CHAR LIMIT=NONE] -->
   <string name="account_setup_failed_dlg_certificate_message_fmt">ບໍ່ສາມາດເຊື່ອມຕໍ່ກັບເຊີບເວີຢ່າງປອດໄພໄດ້.\n(<xliff:g id="ERROR">%s</xliff:g>)</string>
+  <!-- An error message presented to the user when the server requires a
+         client certificate to connect [CHAR LIMIT=NONE] -->
   <string name="account_setup_failed_certificate_required">ຕ້ອງໃຊ້ໃບຮັບຮອງໄຄຼເອນ. ທ່ານຕ້ອງການເຊື່ອມຕໍ່ກັບເຊີບເວີດ້ວຍໃບຮັບຮອງໄຄຼເອນຫຼືບໍ່?</string>
+  <!-- An error message presented to the user when the certificate they
+         specified for connecting to a server is inaccessible [CHAR LIMIT=NONE] -->
   <string name="account_setup_failed_certificate_inaccessible">ໃບຮັບຮອງນີ້ບໍ່ຖືກຕ້ອງ ຫຼື ບໍ່ສາມາດເຂົ້າເຖິງໄດ້.</string>
+  <!-- Dialog text for ambiguous setup failure; server error/bad credentials [CHAR LIMIT=none] -->
   <string name="account_setup_failed_check_credentials_message">ເຊີບເວີຕອບສະຫນອງກັບດ້ວຍຂໍ້ຜິດພາດ. ໃຫ້ກວດເບິ່ງຊື່ຜູ່ໃຊ້ ແລະ ລະຫັດຜ່ານ ແລ້ວລອງໃໝ່ອີກຄັ້ງ.</string>
+  <!-- "Setup could not finish" dialog text; e.g., Cannot connect to server -->
   <string name="account_setup_failed_dlg_server_message">ບໍ່ສາມາດເຊື່ອມຕໍ່ຫາເຊີບເວີໄດ້.</string>
+  <!-- "Setup could not finish" dialog text; e.g., Cannot connect to server\n(Connection timed out) -->
   <string name="account_setup_failed_dlg_server_message_fmt">ບໍ່ສາມາດເຊື່ອມຕໍ່ກັບເຊີບເວີໄດ້.\n(<xliff:g id="ERROR">%s</xliff:g>)</string>
+  <!-- Additional diagnostic text when TLS was required but the server doesn't support it -->
   <string name="account_setup_failed_tls_required">ຕ້ອງໃຊ້ TLS ແຕ່ມັນບໍ່ຮອງຮັບໂດຍເຊີບເວີ.</string>
+  <!-- Additional diagnostic text when server does not support any of our authentication methods -->
   <string name="account_setup_failed_auth_required">ເຊີບເວີບໍ່ຮອງຮັບວິທີການຢືນຢັນນີ້.</string>
+  <!-- Additional diagnostic text when server connection failed due to security error -->
   <string name="account_setup_failed_security">ບໍ່ສາມາດເປີດການເຊື່ອມຕໍ່ຫາເຊີບເວີໄດ້ ເນື່ອງຈາກຂໍ້ຜິດພາດທາງຄວາມປອດໄພ.</string>
+  <!-- Additional diagnostic text when server connection failed due to io error (connection) -->
   <string name="account_setup_failed_ioerror">ບໍ່ສາມາດເປີດການເຊື່ອມຕໍ່ກັບເຊີບເວີໄດ້.</string>
+  <!-- Additional diagnostic text when server connection failed due to our inability to support a
+         required EAS protocol version [CHAR LIMIT=none] -->
   <string name="account_setup_failed_protocol_unsupported">ທ່ານໃສ່ທີ່ຢູ່ເຊີບເວີບໍ່ຖືກຕ້ອງ ຫຼື ເຊີບເວີຕ້ອງໃຊ້ໂປຣໂຕຄອນເວີຊັນທີ່ອີເມວບໍ່ຮອງຮັບ.</string>
+  <!-- Additional diagnostic text when server access was denied; the user should contact the
+         administrator of the server for more information [CHAR LIMIT=none] -->
   <string name="account_setup_failed_access_denied">ທ່ານບໍ່ມີສິດໃນການຊິ້ງຂໍ້ມູນກັບເຊີບເວີນີ້. ຕິດຕໍ່ຫາຜູ່ເບິ່ງແຍງລະບົບເຊີບເວີຂອງທ່ານ ເພື່ອສອບຖາມຂໍ້ມູນເພີ່ມເຕີມ.</string>
+  <!-- Dialog title when validation requires security provisioning (e.g. support
+         for device lock PIN, or remote wipe.) and we ask the user permission before continuing -->
   <string name="account_setup_security_required_title">ການຈັດການດ້ານຄວາມປອດໄພຈາກໄລຍະໄກ</string>
+  <!-- Additional diagnostic text when validation requires security provisioning (e.g. support
+         for device lock PIN, or remote wipe.) and we ask the user permission before continuing.
+         [CHAR LIMIT=none] -->
   <string name="account_setup_security_policies_required_fmt">ເຊີບເວີ <xliff:g id="SERVER">%s</xliff:g> ຮຽກຮ້ອງໃຫ້ທ່ານອະນຸຍາດ ໃຫ້ມັນສາມາດຄວບຄຸມ ຄວາມສາມາດທາງດ້ານຄວາມປອດໄພບາງອັນໃນອຸປະກອນ Android ຂອງທ່ານໄດ້ຈາກໄລຍະໄກ. ທ່ານຕ້ອງການຕັ້ງຄ່າບັນຊີນີ້ໃຫ້ແລ້ວບໍ່?</string>
+  <!-- Additional diagnostic text when validation failed due to required provisioning not
+         being supported [CHAR LIMIT=none] -->
   <string name="account_setup_failed_security_policies_unsupported">ເຊີບເວີນີ້ຕ້ອງການໃຊ້ຄວາມສາມາດດ້ານຄວາມປອດໄພ ທີ່ອຸປະກອນ Android ຂອງທ່ານບໍ່ຮອງຮັບ, ຮວມມີ: <xliff:g id="ERROR">%s</xliff:g></string>
+  <!-- The user name can only be changed during initial account setup. [CHAR LIMIT=none] -->
   <string name="account_setup_username_uneditable_error">ທ່ານບໍ່ສາມາດປ່ຽນຊື່ຜູ່ໃຊ້ຂອງບັນຊີໄດ້. ເພື່ອເພີ່ມບັນຊີທີ່ມີຊື່ຜູ່ໃຊ້ຕ່າງກັນ ໃຫ້ແຕະປຸ່ມເພີ່ມບັນຊີ.</string>
+  <!-- Warning given to users when they request disabling device administration (i.e. that their
+         administered accounts will be deleted) [CHAR LIMIT=none] -->
   <string name="disable_admin_warning">ຄໍາເຕືອນ: ການປິດອຳນາດໃນການຈັດການຂອງແອັບຯ ອີເມວໃນອຸປະກອນຂອງທ່ານ ຈະເປັນການລຶບບັນຊີອີເມວ ພ້ອມກັບອີເມວຂອງບັນຊີທີ່ກ່ຽວຂ້ອງ, ລາຍຊື່, ນັດໝາຍໃນປະຕິທິນ ແລະ ຂໍ້ມູນອື່ນໆ.</string>
+  <!-- Dialog shown when the account requires some amount of device security provisioning,
+         just before jumping into system settings such as Device Policy grant, PIN/password,
+         or encryption setup.  [CHAR_LIMIT=40] -->
   <string name="account_security_dialog_title">ອັບເດດຄວາມປອດໄພ</string>
+  <!-- Additional diagnostic text when the account requires some amount of device security
+         provisioning, just before jumping into system settings such as Device Policy grant,
+         PIN/password, or encryption setup.  [CHAR LIMIT=none] -->
   <string name="account_security_dialog_content_fmt"><xliff:g id="ACCOUNT">%s</xliff:g> ຮຽກຮ້ອງໃຫ້ທ່ານອັບເດດການຕັ້ງຄ່າຄວາມປອດໄພຂອງທ່ານ.</string>
+  <!-- Notification ticker when device security required (note: unused in Holo XL) -->
   <string name="security_unsupported_ticker_fmt">ບັນຊີ \"<xliff:g id="ACCOUNT">%s</xliff:g>\" ບໍ່ສາມາດຊິ້ງຂໍ້ມູນໄດ້ ເນື່ອງຈາກຄວາມຕ້ອງການດ້ານຄວາມປອດໄພບໍ່ພຽງພໍ.</string>
+  <!-- Notification ticker when device security required (note: unused in Holo XL) -->
   <string name="security_needed_ticker_fmt">ບັນຊີ \"<xliff:g id="ACCOUNT">%s</xliff:g>\" ຈຳເປັນຕ້ອງອັບເດດການຕັ້ງຄ່າຄວາມປອດໄພ.</string>
+  <!-- Notification ticker when device security required (note: unused in Holo XL) -->
   <string name="security_changed_ticker_fmt">ປ່ຽນການຕັ້ງຄ່າຄວາມປອດໄພຂອງບັນຊີ \"<xliff:g id="ACCOUNT">%s</xliff:g>\" ແລ້ວ; ຜູ່ໃຊ້ບໍ່ຈຳເປັນຕ້ອງເຮັດຫຍັງ.</string>
+  <!-- Notification content title when device security required [CHAR_LIMIT=30] -->
   <string name="security_notification_content_update_title">ຈຳເປັນຕ້ອງອັບເດດຄວາມປອດໄພ</string>
+  <!-- Notification content title when device security policies have changed [CHAR_LIMIT=36] -->
   <string name="security_notification_content_change_title">ນະໂຍບາຍຄວາມປອດໄພມີການປ່ຽນແປງ</string>
+  <!-- Notification content title when device security policies cannot be met [CHAR_LIMIT=30] -->
   <string name="security_notification_content_unsupported_title">ບໍ່ສອດຄ່ອງກັບຂໍ້ກຳນົດຄວາມປອດໄພ</string>
+  <!-- Title of the activity that dispatches changes to device security.  Not normally seen. -->
   <string name="account_security_title">ຄວາມປອດໄພຂອງອຸປະກອນ</string>
+  <!-- Additional diagnostic text when the email app asserts control of the phone.
+        [CHAR LIMIT=none] -->
   <string name="account_security_policy_explanation_fmt">ເຊີບເວີ <xliff:g id="SERVER">%s</xliff:g> ຮຽກຮ້ອງໃຫ້ທ່ານອະນຸຍາດໃຫ້ມັນສາມາດຄວບຄຸມ ບາງຄວາມສາມາດທາງດ້ານຄວາມປອດໄພ ໃນອຸປະກອນ Android ຂອງທ່ານຈາກໄລຍະໄກ.</string>
+  <!-- "Setup could not finish" dialog action button -->
   <string name="account_setup_failed_dlg_edit_details_action">ແກ້ໄຂລາຍລະອຽດ</string>
+  <!-- Notification ticker when device password is getting ready to expire [CHAR_LIMIT=80] -->
   <string name="password_expire_warning_ticker_fmt">\"<xliff:g id="ACCOUNT">%s</xliff:g>\" ຮຽກຮ້ອງໃຫ້ທ່ານປ່ຽນລະຫັດ ຫຼື PIN ລັອກໜ້າຈໍ.</string>
+  <!-- Notification content title when device password is getting ready to expire
+            [CHAR_LIMIT=30] -->
   <string name="password_expire_warning_content_title">ລະຫັດລັອກໜ້າຈໍໃກ້ຈະໝົດອາຍຸ</string>
+  <!-- Notification ticker when device password has expired [CHAR_LIMIT=80] -->
   <string name="password_expired_ticker">ລະຫັດ PIN ລັອກໜ້າຈໍ ຫຼື ລະຫັດຜ່ານຂອງທ່ານໄດ້ໝົດອາຍຸລົງແລ້ວ.</string>
+  <!-- Notification content title when device password has expired [CHAR_LIMIT=28] -->
   <string name="password_expired_content_title">ລະຫັດລັອກໜ້າຈໍໝົດອາຍຸແລ້ວ</string>
+  <!-- Dialog title if device pin/password is going to expire soon. [CHAR_LIMIT=40] -->
   <string name="password_expire_warning_dialog_title">ລະຫັດລັອກໜ້າຈໍໃກ້ຈະໝົດອາຍຸ</string>
+  <!-- Dialog content device pin/password is going to expire soon. [CHAR_LIMIT=none] -->
   <string name="password_expire_warning_dialog_content_fmt">ທ່ານຕ້ອງປ່ຽນລະຫັດ ຫຼື PIN ລັອກໜ້າຈໍໄວໆນີ້, ບໍ່ດັ່ງນັ້ນຂໍ້ມູນສຳລັບ <xliff:g id="ACCOUNT">%s</xliff:g> ຈະຖືກລຶບ. ທ່ານຕ້ອງການປ່ຽນມັນດຽວນີ້ບໍ່?</string>
+  <!-- Dialog title if device pin/password has already expired. [CHAR_LIMIT=40] -->
   <string name="password_expired_dialog_title">ລະຫັດລັອກໜ້າຈໍໝົດອາຍຸແລ້ວ</string>
+  <!-- Dialog content device pin/password has already expired. [CHAR_LIMIT=none] -->
   <string name="password_expired_dialog_content_fmt">ຂໍ້ມູນສຳລັບ <xliff:g id="ACCOUNT">%s</xliff:g> ກຳລັງຖືກລຶບອອກຈາກອຸປະກອນຂອງທ່ານ. ທ່ານສາມາດກູ້ມັນຄືນໄດ້ ໂດຍການປ່ຽນລະຫັດ ຫຼື PIN ລັອກໜ້າຈໍຂອງທ່ານ. ທ່ານຕ້ອງການປ່ຽນມັນດຽວນີ້ບໍ່?</string>
+  <!-- On AccountSettingsXL, dialog text if you try to exit in/out/eas fragment (server settings)
+         without checking/saving [CHAR LIMIT=none]-->
   <string name="account_settings_exit_server_settings">ຍົກເລີກການປ່ຽນແປງທີ່ຍັງບໍ່ໄດ້ບັນທຶກບໍ່?</string>
+  <!-- On AccountSettingsXL, dialog title if you were brought here due to a login failure.
+        [CHAR_LIMIT=40] -->
   <string name="account_settings_login_dialog_title">ບໍ່ສາມາດເຂົ້າສູ່ລະບົບໄດ້</string>
+  <!-- Dialog content if you were brought here due to a login failure.
+        [CHAR_LIMIT=none] -->
   <string name="account_settings_login_dialog_content_fmt">ຊື່ຜູ່ໃຊ້ ຫຼື ລະຫັດຜ່ານສໍາລັບ <xliff:g id="ACCOUNT">%s</xliff:g> ບໍ່ຖືກຕ້ອງ. ທ່ານຕ້ອງການອັບເດດມັນດຽວນີ້ບໍ່?</string>
+  <!-- Dialog content if you were brought here due to a login failure, and the server provided a reason
+        [CHAR_LIMIT=none] -->
   <string name="account_settings_login_dialog_reason_fmt">ການເຂົ້າສູ່ລະບົບຂອງທ່ານຫາ <xliff:g id="ACCOUNT">%s</xliff:g> ລົ້ມເຫຼວ; ເຊີບເວີບອກວ່າ: <xliff:g id="REASON">%s</xliff:g> ທ່ານຕ້ອງການອັບເດດຊື່ຜູ່ໃຊ້ ແລະ/ຫຼື ລະຫັດຜ່ານຂອງທ່ານບໍ່?</string>
+  <!-- On Settings screen, setting option name -->
+  <!-- Title of account preference for downloading attachments in background [CHAR LIMIT=32] -->
   <string name="account_settings_background_attachments_label">ດາວໂຫຼດໄຟລ໌ແນບ</string>
+  <!-- Summary of account preference for downloading attachments in background [CHAR LIMIT=64] -->
   <string name="account_settings_background_attachments_summary">ດາວໂຫລດໄຟລ໌ແນບຈາກຂໍ້ຄວາມຫຼ້າສຸດ ໂດຍອັດຕະໂນມັດຜ່ານທາງ Wi-Fi</string>
   <string name="account_settings_notify_label">ການແຈ້ງເຕືອນອີເມວ</string>
+  <!-- On Settings screen, summary line when called via AccountManager for Exchange accounts
+        [CHAR LIMIT=50] -->
   <string name="account_settings_summary">ຄວາມຖີ່ໃນການຊິ້ງຂໍ້ມູນ, ການແຈ້ງເຕືອນ, ຯລຯ.</string>
+  <!-- On Settings screen, setting summary text -->
   <string name="account_settings_notify_summary">ສົ່ງການແຈ້ງເຕືອນເມື່ອອີເມວເຂົ້າ</string>
+  <!-- On Settings screen, setting option name and title of dialog box that opens -->
   <string name="account_settings_mail_check_frequency_label">ຄວາມ​ຖີ່​ຂອງ​ການຊິ້ງຂໍ້ມູນ</string>
+  <!-- On Settings screen, setting option name -->
   <string name="account_settings_incoming_label">ການຕັ້ງຄ່າຂາເຂົ້າ</string>
+  <!-- On Settings screen, setting option summary [CHAR LIMIT=64] -->
   <string name="account_settings_incoming_summary">ຊື່ຜູ່ໃຊ້, ລະຫັດຜ່ານ ແລະ ການຕັ້ງຄ່າຂາເຂົ້າອື່ນໆຈາກເຊີບເວີ</string>
+  <!-- On Settings screen, setting option name -->
   <string name="account_settings_outgoing_label">ຕັ້ງຄ່າຂາອອກ</string>
+  <!-- On Settings screen, setting option summary [CHAR LIMIT=64] -->
   <string name="account_settings_outgoing_summary">ຊື່ຜູ່ໃຊ້, ລະຫັດຜ່ານ ແລະການຕັ້ງຄ່າຂາອອກອື່ນໆຈາກເຊີບເວີ</string>
+  <!-- On Settings screen, setting option name -->
   <string name="account_settings_enforced_label">ນະໂຍບາຍບັງຄັບໃຊ້</string>
+  <!-- On Settings screen, setting option summary [CHAR LIMIT=64] -->
   <string name="account_settings_enforced_summary">ບໍ່ມີ</string>
+  <!-- On Settings screen, setting option name -->
   <string name="account_settings_unsupported_label">ນະໂຍບາຍບໍ່ຮອງຮັບ</string>
+  <!-- On Settings screen, setting option summary [CHAR LIMIT=64] -->
   <string name="account_settings_unsupported_summary">ບໍ່ມີ</string>
+  <!-- On Settings screen, label for button that attempts to sync the account -->
   <string name="account_settings_retry_label">ພະຍາຍາມຊິ້ງຂໍ້ມູນ</string>
+  <!-- On Settings screen, summmary for button that attempts to sync an account [CHAR LIMIT=64] -->
   <string name="account_settings_retry_summary">ແຕະບ່ອນນີ້ເພື່ອຊິ້ງຂໍ້ມູນບັນຊີນີ້</string>
+  <!-- On Settings screen, setting option name -->
   <string name="account_settings_description_label">ຊື່ບັນຊີ</string>
+  <!-- On Settings screen, setting option name -->
   <string name="account_settings_name_label">ຊື່ຂອງທ່ານ</string>
+  <!-- On Settings screen, setting option name. Allows user to modify saved quick responses
+        for insertion in message body. [CHAR_LIMIT=24]-->
   <string name="account_settings_edit_quick_responses_label">ການຕອບແບບວ່ອງໄວ</string>
+  <!-- On Settings screen, setting option summary [CHAR LIMIT=64] -->
   <string name="account_settings_edit_quick_responses_summary">ແກ້ໄຂຂໍ້ຄວາມທີ່ທ່ານໃສ່ເລື້ອຍໆໃນເວລາຂຽນອີເມວ</string>
+  <!-- On Settings screen, section heading -->
   <string name="account_settings_notifications">ການຕັ້ງຄ່າແຈ້ງເຕືອນ</string>
+  <!-- On Settings screen, section heading for data usage [CHAR LIMIT=70] -->
   <string name="account_settings_data_usage">ຂໍ້ມູນການນຳໃຊ້</string>
+  <!-- On Settings screen, section heading -->
   <string name="account_settings_policies">ນະໂຍບາຍຄວາມປອດໄພ</string>
   <string name="system_folders_title">ໂຟນເດີລະບົບ</string>
   <string name="system_folders_trash_title">ໂຟນເດີຂີ້ເຫຍື້ອ</string>
@@ -216,34 +467,76 @@
   <string name="system_folders_sent_title">ໂຟນເດີລາຍການສົ່ງ</string>
   <string name="system_folders_sent_summary">ເລືອກໂຟນເດີສົ່ງລາຍການຂອງເຊີບເວີຂອງທ່ານ</string>
   <string name="system_folders_sent_dlg">ເລືອກໂຟນເດີລາຍການສົ່ງສຳລັບເຊີບເວີ</string>
+  <!-- On settings screen, dialog heading informing user to create or edit a quick response -->
   <string name="edit_quick_response_dialog">ການຕອບດ່ວນ</string>
+  <!-- On settings screen, edit quick response dialog's "save" button -->
   <string name="save_action">ບັນທຶກ</string>
+  <!-- On settings screen, sync contacts check box label [CHAR LIMIT=20]-->
   <string name="account_settings_sync_contacts_enable">ຊິ້ງຂໍ້ມູນລາຍຊື່</string>
+  <!-- On settings screen, sync contacts summary text [CHAR LIMIT=35] -->
   <string name="account_settings_sync_contacts_summary">ຊິ້ງຂໍ້ມູນລາຍຊື່ຈາກບັນຊີນີ້</string>
+  <!-- On settings screen, sync calendar check box label [CHAR LIMIT=20]-->
   <string name="account_settings_sync_calendar_enable">ຊິ້ງຂໍ້ມູນປະຕິທິນ</string>
+  <!-- On settings screen, sync calendar summary text [CHAR LIMIT=50] -->
   <string name="account_settings_sync_calendar_summary">ຊິ້ງຂໍ້ມູນນັດໝາຍຂອງປະຕິທິນສຳລັບບັນຊີນີ້</string>
+  <!-- On settings screen, sync email check box label [CHAR LIMIT=20]-->
   <string name="account_settings_sync_email_enable">ຊິ້ງຂໍ້ມູນອີເມວ</string>
+  <!-- On settings screen, sync email summary text [CHAR LIMIT=35] -->
   <string name="account_settings_sync_email_summary">ຊິ້ງຂໍ້ມູນອີເມວຈາກບັນຊີນີ້</string>
+  <!-- On Settings screen, vibrate pop-up menu label -->
   <string name="account_settings_vibrate_when_label">ສັ່ນເຕືອນ</string>
+  <!-- On Settings screen, setting option name -->
   <string name="account_settings_ringtone">ເລືອກສຽງຣິງໂທນ</string>
+  <!-- On Settings screen, section heading -->
   <string name="account_settings_servers">ຕັ້ງຄ່າເຊີບເວີ</string>
+  <!-- Mailbox settings activity title [CHAR LIMIT=none] -->
   <string name="mailbox_settings_activity_title">ທາງເລືອກການຊິ້ງຂໍ້ມູນ</string>
+  <!-- Mailbox settings activity title, with the target folder name [CHAR LIMIT=none] -->
   <string name="mailbox_settings_activity_title_with_mailbox">ຕົວເລືອກການຊິ້ງຂໍ້ມູນ (<xliff:g id="MAILBOXX_NAME">%s</xliff:g>)</string>
+  <!-- On mailbox settings screen: Whether to sync this mailbox when the account syncs. -->
   <string name="mailbox_settings_sync_enabled_label">ຊິ້ງຂໍ້ມູນໂຟນເດີນີ້</string>
+  <!-- On mailbox settings screen: Explanatory text for what it means to "sync this folder". -->
   <string name="mailbox_settings_sync_enabled_summary">ຂໍ້ຄວາມທັງໝົດ​ຈະຖືກດາວໂຫລດ​ເມື່ອມີການເຊື່ອມຕໍ່​ອິນເຕີເນັດ</string>
+  <!-- On mailbox settings screen: Mailbox sync window (the number of days to synchronize email for) setting label [CHAR LIMIT=none] -->
   <string name="mailbox_settings_mailbox_sync_window_label">ມື້ຂອງອີເມວທີ່ຈະຊິ້ງຂໍ້ມູນ</string>
+  <!-- Dialog title for the choosing whether to show checkboxes or sender image [CHAR LIMIT=200] -->
   <string name="prefDialogTitle_conversationListIcon">ຮູບຜູ່ສົ່ງ</string>
+  <!-- Message that appears when adding a Windows Live Hotmail Plus account -->
   <string name="provider_note_live">ມີແຕ່ບາງບັນຊີ \"Plus\" ທີ່ມີການເຂົ້າເຖິງ POP ເພື່ອອະນຸຍາດໃຫ້ໂປຣແກຣມນີ້ເຊື່ອມຕໍ່. ຫາກທ່ານບໍ່ສາມາດເຂົ້າສູ່ລະບົບດ້ວຍທີ່ຢູ່ອີເມວ ແລະ ລະຫັດຜ່ານທີ່ຖືກຕ້ອງ, ທ່ານອາດບໍ່ມີບັນຊີ \"Plus\" ທີ່ບໍ່ທຳການຊຳລະ. ເປີດໂປຣແກຣມທ່ອງເວັບເພື່ອເຂົ້າເຖິງບັນຊີອີເມວເຫຼົ່ານີ້.</string>
+  <!-- Name of Microsoft Exchange account type; used by AccountManager -->
+  <!-- Name of Microsoft Exchange account type; used by AccountManager -->
+  <!-- Message that appears if the AccountManager cannot create the system Account -->
   <string name="system_account_create_failed">ບໍ່ສາມາດສ້າງບັນຊີໄດ້. ລອງໃໝ່ອີກຄັ້ງ.</string>
+  <!-- Strings that support the DeviceAdmin / DevicePolicyManager API -->
+  <!-- Name of the DeviceAdmin (seen in settings & in user confirmation screen) -->
   <string name="device_admin_label">ອີເມວ</string>
+  <!-- Long-form description of the DeviceAdmin (2nd line in settings & in user conf. screen) -->
   <string name="device_admin_description">ເປີດນຳໃຊ້ຂໍ້ກຳນົດຄວາມປອດໄພສະເພາະເຊີບເວີ</string>
+  <!-- Settings activity title [CHAR LIMIT=40]-->
   <string name="settings_activity_title">ຕັ້ງຄ່າ</string>
+  <!-- General Preferences Screen -->
+  <!-- Label in preferences header to describe general preferences [CHAR LIMIT=32] -->
   <string name="header_label_general_preferences">ການຕັ້ງຄ່າທົ່ວໄປ</string>
+  <!-- General preference: Label of the setting for requiring confirmation before
+         message deletion [CHAR LIMIT=32] -->
   <string name="general_preference_confirm_delete_label">ຢືນຢັນກ່ອນການລຶບ</string>
+  <!-- General preference: Description of the setting for requiring confirmation before
+         message deletion [CHAR LIMIT=64] -->
+  <!-- TODO: Delete this string, no longer used -->
   <string name="general_preference_confirm_delete_summary">ຂໍ້ຄວາມ</string>
+  <!-- General preference: Label of the setting for requiring confirmation before
+         message sending [CHAR LIMIT=32] -->
   <string name="general_preference_confirm_send_label">ຢືນຢັນກ່ອນທີ່ຈະສົ່ງ</string>
+  <!-- General preference: Description of the setting for requiring confirmation before
+         message sending [CHAR LIMIT=32] -->
+  <!-- TODO: Delete this string, no longer used -->
   <string name="general_preference_confirm_send_summary">ຂໍ້ຄວາມ</string>
+  <!-- General preference: Label of the setting for the text zoom.  [CHAR LIMIT=32] -->
   <string name="general_preference_text_zoom_label">ຂະໜາດຫນັງສືຂໍ້ຄວາມ</string>
+  <!-- General preference: Description of each setting for text zoom.  The entries here must
+         correspond to the strings general_preference_text_zoom_tiny,
+         general_preference_text_zoom_small, general_preference_text_zoom_normal, etc.
+         [CHAR LIMIT=64] -->
   <string-array name="general_preference_text_zoom_summary_array">
     <item>ໜັງສືຂະໜາດນ້ອຍຫຼາຍ</item>
     <item>ໜັງສືຂະໜາດນ້ອຍ</item>
@@ -251,30 +544,63 @@
     <item>ໜັງສືຂະໜາດໃຫຍ່</item>
     <item>ໜັງສືໃຫຍ່ຫຼາຍ</item>
   </string-array>
+  <!-- The message text size values -->
+  <!-- General preference: Title of the dialog box with options for text zoom. [CHAR LIMIT=32] -->
   <string name="general_preference_text_zoom_dialog_title">ຂະໜາດຫນັງສືຂໍ້ຄວາມ</string>
+  <!-- General preference:  Text zoom.  Value is "tiny" (-2) [CHAR LIMIT=32] -->
   <string name="general_preference_text_zoom_tiny">ນ້ອຍຫຼາຍ</string>
+  <!-- General preference:  Text zoom.  Value is "small" (-1) [CHAR LIMIT=32] -->
   <string name="general_preference_text_zoom_small">ຂະໜາດນ້ອຍ</string>
+  <!-- General preference:  Text zoom.  Value is "normal" (0) [CHAR LIMIT=32] -->
   <string name="general_preference_text_zoom_normal">ປົກກະຕິ</string>
+  <!-- General preference:  Text zoom.  Value is "large" (+1) [CHAR LIMIT=32] -->
   <string name="general_preference_text_zoom_large">ຂະໜາດໃຫຍ່</string>
+  <!-- General preference:  Text zoom.  Value is "huge" (+2) [CHAR LIMIT=32] -->
   <string name="general_preference_text_zoom_huge">ຂະໜາດໃຫຍ່ໂຕ</string>
+  <!-- Generic string shown instead of regular numbers, when a number is larger than 999.
+         This should not be altered if the original string ("999+") makes sense in the
+         target language. Typical alternatives include "+999" and ">999".  [CHAR_LIMIT=4] -->
   <string name="more_than_999">999+</string>
+  <!-- A policy disallowing the user of the device's camera [CHAR LIMIT=50] -->
   <string name="policy_dont_allow_camera">ບໍ່ອະນຸຍາດໃຫ້ໃຊ້ກ້ອງຂອງອຸປະກອນ</string>
+  <!-- A policy requiring a device lock screen password [CHAR LIMIT=50] -->
   <string name="policy_require_password">ຕ້ອງໃຊ້ລະຫັດຜ່ານຂອງອຸປະກອນ</string>
+  <!-- A policy disallowing the reuse of recent passwords [CHAR LIMIT=50] -->
   <string name="policy_password_history">ຈຳກັດການໃຊ້ລະຫັດຜ່ານຫຼ້າສຸດຊ້ຳຄືນ</string>
+  <!-- A policy that forces a password to expire after a set period of time [CHAR LIMIT=50] -->
   <string name="policy_password_expiration">ລະຫັດຜ່ານໝົດອາຍຸຈຳເປັນຕ້ອງໝົດອາຍຸ</string>
+  <!-- A policy requiring a maximum amount of time the device can sit idle before the lock screen
+        is activated [CHAR LIMIT=50] -->
   <string name="policy_screen_timeout">ຈຳເປັນຕ້ອງໃຫ້ອຸປະກອນຫວ່າງວຽກເພື່ອລັອກໜ້າຈໍຂອງມັນ</string>
+  <!-- A policy limiting the number of old calendar events synced [CHAR LIMIT=50] -->
   <string name="policy_calendar_age">ຈຳກັດຈຳນວນຂໍ້ມູນກິດຈະກຳໃນປະຕິທິນເພື່ອຈະຊິ້ງຂໍ້ມູນ</string>
+  <!-- A policy limiting the number of emails synced [CHAR LIMIT=50] -->
   <string name="policy_email_age">ຈຳກັດຈຳນວນຂໍ້ມູນອີເມວທີ່ຈະຊິ້ງຂໍ້ມູນ</string>
+  <!-- The four strings below represent "quick responses" which the user can insert into a
+        message being composed with just a couple of taps.  These four responses MUST be defined,
+        but need not include a string (i.e. they are optional).  Further, the responses can be
+        customized as necessary by the translator, in case one or more of these is inappropriate in
+        a particular locale or if there are better options available. -->
+  <!-- A "quick response", i.e. a quick reply to a received mail [CHAR LIMIT=NONE] -->
   <string name="quick_1">ຂໍຂອບໃຈ!</string>
+  <!-- A "quick response", i.e. a quick reply to a received mail [CHAR LIMIT=NONE] -->
   <string name="quick_2">ຟັງແລ້ວຊົງຄັກດີ!</string>
+  <!-- A "quick response", i.e. a quick reply to a received mail [CHAR LIMIT=NONE] -->
   <string name="quick_3">ຂ້ອຍຈະອ່ານໃນພາຍຫຼັງ ແລະຈະຕິດຕໍ່ກັບໄປ.</string>
+  <!-- A "quick response", i.e. a quick reply to a received mail [CHAR LIMIT=NONE] -->
   <string name="quick_4">ພວກເຮົາມາຈັດກອງປະຊຸມເພື່ອປຶກສາກັນເລື່ອງນີ້ດີກວ່າ.</string>
+  <!-- This is the message warning the user that they must sync manually when roaming. [CHAR LIMIT=none]-->
   <string name="require_manual_sync_message">ການຊິ້ງຂໍ້ມູນຢູ່ເບື້ອງຫຼັງສຳລັບບັນຊີນີ້ ໄດ້ຖືກປິດນຳໃຊ້ໃນລະຫວ່າງການໂຣມມິງ.</string>
+  <!-- This is shown when a user responds to a meeting invitation [CHAR LIMIT=none]-->
   <string name="confirm_response">ກຳລັງສົ່ງຄໍາຕອບ...</string>
+  <!-- Used by AccountManager -->
   <string name="imap_name">IMAP</string>
   <string name="pop3_name">POP3</string>
   <string name="folder_picker_title">ໂຕເລືອກໂຟນເດີ</string>
+  <!-- Displayed when the user must pick his server's trash folder from a list [CHAR LIMIT 30]-->
   <string name="trash_folder_selection_title">ເລືອກໂຟນເດີຖັງຂີ້ເຫຍື້ອຂອງເຊີບເວີສຳລັບ <xliff:g id="ACCOUNT">%s</xliff:g></string>
+  <!-- Displayed when the user must pick his server's sent items folder from a list [CHAR LIMIT 30]-->
   <string name="sent_folder_selection_title">ເລືອກໂຟນເດີສົ່ງລາຍການຂອງເຊີບເວີສຳລັບ <xliff:g id="ACCOUNT">%s</xliff:g></string>
   <string name="account_waiting_for_folders_msg">ກໍາລັງໂຫລດລາຍຊື່ໂຟນເດີ...</string>
+  <!-- Feedback uri to be used when feedback is enabled -->
 </resources>
