@@ -140,5 +140,8 @@
   <string name="preference_allow_insecure_attachments_summary">Cho phép xem hoặc lưu các tệp đính kèm không an toàn</string>
   <string name="custom_perms_dialog_title">Quyền trùng lặp</string>
   <string name="custom_perms_dialog_msg">Ứng dụng khác có thể cố thu thập thông tin cá nhân của bạn.\n\n<xliff:g id="content">%s</xliff:g>\n\nHãy liên hệ hỗ trợ Boxer để được giúp đỡ.</string>
+  <plurals name="custom_perms_dialog_app_violation">
+    <item quantity="other"><xliff:g id="app_name">(%s)</xliff:g> xác định lại quyền truy cập: <xliff:g id="permissions_list">%s</xliff:g></item>
+  </plurals>
   <string name="custom_perms_pos_btn">Báo cáo</string>
 </resources>

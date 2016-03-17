@@ -105,6 +105,7 @@
   <!-- Preference for the compose toolbar -->
   <string name="tutorial_welcome_subtitle">Mai inteligent. Mai repede. Adaptate. E-mail.</string>
   <string name="tutorial_page1_title">Glisări personalizate</string>
+  <string name="tutorial_page2_title">Acțiuni grupate</string>
   <string name="tutorial_page3_title">Grila de acțiune</string>
   <string name="tutorial_skip_button">Omite</string>
   <string name="tutorial_done_button">Gata</string>

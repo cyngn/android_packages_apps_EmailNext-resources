@@ -17,44 +17,132 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Name of EmailProvider shown in AccountManager -->
+  <string name="email_provider">மின்னஞ்சல்</string>
   <!-- In the UI, the drafts will be displayed with this name -->
+  <string name="mailbox_name_display_local_drafts">உள்ளிட வரைவுகள்</string>
+  <string name="mailbox_name_display_server_drafts">சேவையக வரைவுகள்</string>
   <!-- In the UI, the folder to-do will be displayed with this name -->
+  <string name="mailbox_name_display_todo">செய்யவேண்டியது</string>
   <!-- In the UI, the archive will be displayed with this name -->
+  <string name="mailbox_name_display_archive">காப்பிடு</string>
+  <string name="mailbox_name_local_only_display_name"> -உள்ளிடம்</string>
+  <string name="account_setup_start_email_address_hint">உங்கள் மின்னஞ்சல் முகவரியை உள்ளிடவும்</string>
+  <string name="account_setup_start_password_hint">கடவுச்சொல்</string>
+  <string name="account_setup_start_get_started_button">தொடங்கவும்</string>
+  <string name="account_setup_start_login_button">உள்நுழை</string>
+  <string name="account_setup_start_invalid_email_address">செல்லுபடியாகாத மின்னஞ்சல் முகவரி</string>
   <!-- hint for account email password text field -->
+  <string name="password_label">கடவுச்சொல்</string>
+  <string name="account_setup_basics_progress_message">தானியக்க-கண்டுபிடித்தல் நடைபெறுகிறது</string>
   <!-- In Account setup options screen, Activity title [CHAR LIMIT=45] -->
+  <string name="account_setup_options_title">தனிப்படுத்து</string>
   <!-- In Account setup options screen, label for email check frequency selector -->
+  <string name="account_setup_options_mail_check_frequency_label">என் இன்பாக்ஸை சரிபார்</string>
   <!-- In Account setup options & Account Settings screens, email check frequency option -->
+  <string name="account_setup_options_mail_check_frequency_2hour">ஒவ்வொரு 2 மணிநேரமும்</string>
   <!-- In Account setup options & Account Settings screens, email check frequency option -->
+  <string name="account_setup_options_mail_check_frequency_4hour">ஒவ்வொரு 4 மணிநேரமும்</string>
   <!-- In Account setup options & Account Settings screens, email check frequency option -->
+  <string name="account_setup_options_mail_check_frequency_1day">தினமும்</string>
   <!-- In Account setup options & Account Settings screens, check box for new-mail notification -->
+  <string name="account_setup_options_notify_label">மின்னஞ்சல் வரும்போது <b>எனக்கு அறிவிப்பு செய்</b></string>
   <!-- In Account setup options screen, optional check box to also sync contacts -->
+  <string name="account_setup_options_sync_contacts_label">இந்த கணக்கிலிருந்து <b>தொடர்புகளை ஒத்திசை</b></string>
   <!-- In Account setup options screen, optional check box to also sync calendar -->
+  <string name="account_setup_options_sync_calendar_label">இந்த கணக்கிலிருந்து <b>நாள்காட்டியை ஒத்திசை</b></string>
   <!-- In Account setup options screen, check box to sync email -->
+  <string name="account_setup_options_sync_email_label">இந்த கணக்கிலிருந்து <b>மின்னஞ்சலை ஒத்திசை</b></string>
+  <string name="account_setup_options_disable_convo_threading_label">உரையாடல் தொடரை ஆஃப் செய்</string>
   <!-- On Settings screen, setting option for showing all images -->
+  <string name="account_settings_show_all_images_title">படங்கள்</string>
+  <string name="account_settings_show_all_images_show">எப்போதும் காட்டு</string>
+  <string name="account_settings_show_all_images_ask">காட்டுவதற்கு முன்பு கேள்</string>
   <!-- On Settings Screen, setting option for setting the account color -->
+  <string name="account_settings_account_color_title">கணக்கு வண்ணம்</string>
+  <string name="account_settings_account_color_summary">இந்த கணக்கிற்கான வண்னத்தை திருத்து</string>
+  <string name="account_settings_account_color_dialog_title">ஒரு வண்னத்தை எடு</string>
   <!-- On Settings screen, led notification title label -->
+  <string name="account_settings_led_notification_label">LED அறிவிப்பை செயல்படுத்து</string>
+  <string name="account_settings_led_notification_custom_color">தனிப்பயனாக்கப்பட்ட LED வண்ணத்தைப் பயன்படுத்து</string>
   <!-- On Settings screen, led color title and summary label -->
+  <string name="account_settings_led_color_label">தனிப்பயனாக்கப்பட்ட LED வண்ணம்</string>
+  <string name="account_settings_led_color_summary">கணக்கு வண்ணம் ஒரு இயல்புநிலை மதிப்பு</string>
   <!-- On Settings screen, tutorial header title label -->
+  <string name="account_settings_tutorial_header_title">டுடோரியலை காண்</string>
   <!-- On Settings screen, title for label/move preference -->
+  <string name="account_settings_move_label_title">செய்திகளை சிட்டை/நகர்த்து</string>
   <!-- On Settings screen, shown as an option for label/move preference -->
+  <string name="account_settings_move_title">நகர்த்து</string>
   <!-- On Settings screen, shown as an option for label/move preference -->
+  <string name="account_settings_label_title">சிட்டை</string>
   <!-- General preference: Labels for the setting to mark emails as read before archiving them -->
+  <string name="general_preference_mark_archive_messages_read">படித்ததாக காப்பகப்படுத்து</string>
+  <string name="general_preference_mark_archive_messages_read_description">மின்னஞ்சல்கள் காப்பகப்படுத்தப்படுவதற்கு முன்பாக படித்ததாக குறி</string>
   <!-- General preference: Notifications open to the combined inbox-->
+  <string name="general_pref_notifications_use_combined_inbox">அறிவிப்புகள் ஒருங்கிணைந்த இன்பாக்சை திறக்கின்றன</string>
+  <string name="general_pref_notifications_use_combined_inbox_desc">ஒரு அறிவிப்பை தட்டுதல் கணக்கு இன்பாக்சை திறப்பதற்கு பதிலாக ஒருங்கிணைந்த இன்பாக்சை திறக்கிறது</string>
   <!-- The hint used in the search box when searching all mailboxes [CHAR LIMIT=35] -->
+  <string name="search_hint">தேடல்\u2026</string>
   <!-- Title of screen when trying to get oauth authentication -->
+  <string name="oauth_authentication_title">அங்கீகரிப்பை கோருகிறது</string>
   <!-- Title of screen to choose with authentication to use -->
+  <string name="sign_in_title">உள்நுழைக</string>
   <!-- Button shown on SignInActivity -->
+  <string name="sign_in_button">முடிந்தது</string>
   <!-- Label between OAuth and password authentication, indicating the user must do one or the other [CHAR LIMIT=40] -->
+  <string name="or_label">OR</string>
   <!-- Label for signing in with Google using OAuth -->
+  <string name="sign_in_with_google">Google உடன் உள்நுழை</string>
   <!--  On the "Setup up email" screen, label indicating what service we are signed in with [CHAR LIMIT=40] -->
+  <string name="signed_in_with_service_label">%s உடன் உள்நுழைந்தது</string>
   <!-- Label for the authentication section [CHAR LIMIT=20] -->
+  <string name="authentication_label">அங்கீகரிப்பு</string>
   <!-- Label for the add authentication icon [CHAR LIMIT=40] -->
+  <string name="add_authentication_label">அங்கீகரிப்பை சேர்</string>
+  <string name="oauth_saving_message">சேமிக்கிறது\u2026</string>
+  <string name="about_app_header_title">இதுபற்றி</string>
   <!-- A sync window length setting (i.e. load messages this far back) [CHAR LIMIT=25]  -->
+  <string name="account_setup_options_mail_window_3months">கடந்த 3 மாதங்கள்</string>
   <!-- A sync window length setting (i.e. load messages this far back) [CHAR LIMIT=25]  -->
+  <string name="account_setup_options_mail_window_6months">கடந்த 6 மாதங்கள்</string>
+  <string name="account_settings_unable_to_edit_field">உங்கள் நிர்வாகி இந்த புலத்தை மாற்றியமைக்க அனுமதிப்பதில்லை</string>
   <!-- Menu item for sending availability from compose. [CHAR_LIMIT=30] -->
+  <string name="message_compose_send_availability_menu_title">கிடைக்கப்பெறுதலை அனுப்பு</string>
   <!-- Menu item for including an invite from compose. [CHAR_LIMIT=30] -->
+  <string name="message_compose_create_invite_menu_title">அழைப்பை உருவாக்கு</string>
   <!-- Preference for the compose toolbar -->
+  <string name="preference_compose_toolbar_visibility">உருவாக்கு கருவிப்பெட்டியை காண்பி</string>
+  <string name="tutorial_welcome_title">மின்னஞ்சலுக்கு வரவேற்கிறோம்</string>
+  <string name="tutorial_welcome_subtitle">புத்திசாலித்தனமான. வேகமான. தனிப்பயனாக்கப்பட்ட. மின்னஞ்சல்.</string>
+  <string name="tutorial_page1_title">தனிப்பயன் தேய்த்தல்கள்</string>
+  <string name="tutorial_page1_subtitle">உங்கள் தேய்த்தல் செயல்பாடுகளை தனிப்பயனாக்கி உங்கள் சொந்த அனுபவங்களை வளர்க்கவும்.</string>
+  <string name="tutorial_page2_title">மொத்த செயல்பாடுகிஅள்</string>
+  <string name="tutorial_page2_subtitle">எனங்கள் மொத்த தேர்வுசெய்தல் அம்சம் உங்கள் இன்பாக்சை நிர்வகிப்பதற்கான வேகமான வழி</string>
+  <string name="tutorial_page3_title">செயல்பாட்டு கட்டம்</string>
+  <string name="tutorial_page3_subtitle">சக்திவாய்ந்த ஒன்றிணைப்பு மற்றும் இயக்கம் ஒரு பொத்தானை தட்டுவதில்</string>
+  <string name="tutorial_skip_button">தவிர்</string>
+  <string name="tutorial_done_button">முடிந்தது</string>
+  <string name="message_send_failed_ticker">செய்தி அனுப்புதல் தோல்வியுற்றது</string>
+  <string name="message_send_failed_title">செய்தி அனுப்பப்படவில்லை</string>
+  <string name="preferences_clear_search_history_title">தேடல் வரலாற்றை அழி</string>
+  <string name="preferences_clear_search_history_summary">நீங்கள் செய்த அனைத்து தேடல்களையும் அகற்றவும்</string>
+  <string name="search_history_cleared">தேடல் வரலாறு அழிக்கப்பட்டது.</string>
+  <string name="update_available_ticker">மின்னஞ்சலுக்கு ஒரு புதுப்பித்தல் கிடைக்கிறது</string>
+  <string name="update_availalable_title">ஒரு புதுப்பித்தல் கிடைக்கிறது</string>
+  <string name="update_available_content">புதுப்பித்தலை நிறுவ தட்டுக</string>
   <!-- Security settings category -->
+  <string name="preferences_security_title">பாதுகாப்பு</string>
   <!-- Preference for disabling screenshots of app screens. -->
+  <string name="preference_disable_screenshots">ஸ்க்ரீன்ஷாட்டுகளை முடக்கு</string>
   <!-- Preference for disabling screenshots of app screens. -->
+  <string name="preference_disable_screenshots_summary">பயன்பாட்டு திரைகளின் ஸ்க்ரீன்ஷாட்டுகளை பிற பயன்பாடுகள் பிடிப்பதை தடு</string>
+  <string name="preference_allow_insecure_attachments_title">பாதுகாப்பில்லா இணைப்புகளை அனுமதி</string>
+  <string name="preference_allow_insecure_attachments_summary">பாதுகாப்பில்லா இணைப்புகளை காண அல்லது சேமிக்க அனுமதி.</string>
+  <string name="custom_perms_dialog_title">ஒரேமாதிரியான அனுமதிகள்</string>
+  <string name="custom_perms_dialog_msg">வேறொரு பயன்பாடு உங்கள் தனிப்பட்ட தகவல்களை சேகரிக்க முயற்சிக்கலாம். \n\n<xliff:g id="content">%s\</xliff:g>n\n தயவுசெய்து Boxer ஆதரவை உதவிக்கு தொடர்புகொள்ளவும்.</string>
+  <plurals name="custom_perms_dialog_app_violation">
+    <item quantity="one"><xliff:g id="app_name">(%s)</xliff:g> அனுமதிக்கு மறுவிளக்கமளிக்கிறது: <xliff:g id="permissions_list">%s</xliff:g></item>
+    <item quantity="other"><xliff:g id="app_name">(%s)</xliff:g> அனுமதிக்கு மறுவிளக்கமளிக்கிறது: <xliff:g id="permissions_list">%s</xliff:g></item>
+  </plurals>
+  <string name="custom_perms_pos_btn">புகாரளி</string>
 </resources>

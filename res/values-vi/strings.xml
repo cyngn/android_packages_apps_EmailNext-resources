@@ -53,6 +53,9 @@
   <!-- Also appears in a toast, in the message viewer, when there's a network error. -->
   <string name="status_network_error">Sự cố kết nối.</string>
   <!-- Text shown with dragged messages to indicate how many are being dragged [CHAR LIMIT=40]-->
+  <plurals name="move_messages">
+    <item quantity="other">Chuyển tin nhắn</item>
+  </plurals>
   <!-- Toast shown when a message(s) can't be moved because it's not supported by the POP3
         protocol. [CHAR LIMIT=none]-->
   <string name="cannot_move_protocol_not_supported_toast">Di chuyển không được hỗ trợ trên các tài khoản POP3.</string>
@@ -120,9 +123,21 @@
   <!-- Notification title when email account authentication fails [CHAR LIMIT=30]-->
   <string name="login_failed_title">Không thể đăng nhập</string>
   <!-- Size unit for bytes for attachments [CHAR LIMIT=10] -->
+  <plurals name="message_view_attachment_bytes">
+    <item quantity="other"><xliff:g id="size_in_bytes" example="279">%d</xliff:g>B</item>
+  </plurals>
   <!-- Size unit for kilo bytes for attachments [CHAR LIMIT=10] -->
+  <plurals name="message_view_attachment_kilobytes">
+    <item quantity="other"><xliff:g id="size_in_kilobytes" example="279">%d</xliff:g>KB</item>
+  </plurals>
   <!-- Size unit for mega bytes for attachments [CHAR LIMIT=10] -->
+  <plurals name="message_view_attachment_megabytes">
+    <item quantity="other"><xliff:g id="size_in_megabytes" example="279">%d</xliff:g>MB</item>
+  </plurals>
   <!-- Size unit for giga bytes for attachments [CHAR LIMIT=10] -->
+  <plurals name="message_view_attachment_gigabytes">
+    <item quantity="other"><xliff:g id="size_in_gigabytes" example="279">%d</xliff:g>GB</item>
+  </plurals>
   <!-- Title of screen when setting up new email account [CHAR LIMIT=45] -->
   <string name="account_setup_basics_title">Thiết lập tài khoản</string>
   <!-- Headline of screen when setting up new email account (large text over divider)

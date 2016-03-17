@@ -70,12 +70,16 @@
   <!-- On Settings screen, tutorial header title label -->
   <string name="account_settings_tutorial_header_title">Ver tutorial</string>
   <!-- On Settings screen, title for label/move preference -->
+  <string name="account_settings_move_label_title">Etiquetar o mover mensajes</string>
   <!-- On Settings screen, shown as an option for label/move preference -->
+  <string name="account_settings_move_title">Mover</string>
   <!-- On Settings screen, shown as an option for label/move preference -->
+  <string name="account_settings_label_title">Etiquetar</string>
   <!-- General preference: Labels for the setting to mark emails as read before archiving them -->
   <string name="general_preference_mark_archive_messages_read">Archivar como leído</string>
   <string name="general_preference_mark_archive_messages_read_description">Marcar los correos electrónicos como leídos antes de archivarlos</string>
   <!-- General preference: Notifications open to the combined inbox-->
+  <string name="general_pref_notifications_use_combined_inbox">Las notificaciones abren la bandeja de entrada combinada</string>
   <string name="general_pref_notifications_use_combined_inbox_desc">Al pulsar en una notificación se abre la bandeja de entrada combinada en lugar de la bandeja de entrada de la cuenta</string>
   <!-- The hint used in the search box when searching all mailboxes [CHAR LIMIT=35] -->
   <string name="search_hint">Buscar\u2026</string>
@@ -103,15 +107,42 @@
   <string name="account_setup_options_mail_window_6months">Últimos 6 meses</string>
   <string name="account_settings_unable_to_edit_field">Tu administrador no permite que este campo sea modificado</string>
   <!-- Menu item for sending availability from compose. [CHAR_LIMIT=30] -->
+  <string name="message_compose_send_availability_menu_title">Enviar disponibilidad</string>
   <!-- Menu item for including an invite from compose. [CHAR_LIMIT=30] -->
+  <string name="message_compose_create_invite_menu_title">Crear invitación</string>
   <!-- Preference for the compose toolbar -->
   <string name="preference_compose_toolbar_visibility">Mostrar herramientas de composición</string>
+  <string name="tutorial_welcome_title">Bienvenido al correo electrónico</string>
+  <string name="tutorial_welcome_subtitle">Más inteligente. Más rápido. A medida. Correo electrónico.</string>
+  <string name="tutorial_page1_title">Gestos personalizados</string>
+  <string name="tutorial_page1_subtitle">Personaliza tus acciones asociadas a gestos y construye tu propia experiencia.</string>
+  <string name="tutorial_page2_title">Acciones masivas</string>
+  <string name="tutorial_page2_subtitle">Nuestra funcionalidad de acciones masivas es la manera más rápida de administrar tu bandeja de entrada.</string>
+  <string name="tutorial_page3_title">Panel de acción</string>
   <string name="tutorial_page3_subtitle">Integraciones importantes y funcionalidad al pulsar un botón.</string>
+  <string name="tutorial_skip_button">Omitir</string>
   <string name="tutorial_done_button">Listo</string>
   <string name="message_send_failed_ticker">Error al enviar el mensaje</string>
+  <string name="message_send_failed_title">Mensaje no enviado</string>
+  <string name="preferences_clear_search_history_title">Eliminar historial de búsqueda</string>
+  <string name="preferences_clear_search_history_summary">Elimina todas las búsquedas que realizaste</string>
+  <string name="search_history_cleared">Se eliminó el historial de búsqueda.</string>
+  <string name="update_available_ticker">Hay una actualización disponible para la aplicación Correo electrónico</string>
+  <string name="update_availalable_title">Hay una actualización disponible</string>
   <string name="update_available_content">Pulsa para instalar la actualización</string>
   <!-- Security settings category -->
+  <string name="preferences_security_title">Seguridad</string>
   <!-- Preference for disabling screenshots of app screens. -->
+  <string name="preference_disable_screenshots">Desactivar capturas de pantalla</string>
   <!-- Preference for disabling screenshots of app screens. -->
+  <string name="preference_disable_screenshots_summary">Evita que otras aplicaciones puedan realizar capturas de pantalla</string>
+  <string name="preference_allow_insecure_attachments_title">Permitir archivos adjuntos no seguros</string>
+  <string name="preference_allow_insecure_attachments_summary">Permitir ver o guardar archivos adjuntos no seguros</string>
+  <string name="custom_perms_dialog_title">Duplicar permisos</string>
   <string name="custom_perms_dialog_msg">Otra aplicación puede intentar recolectar tu información personal.\n\n <xliff:g id="content">%s </xliff:g> \n\nContacta a Boxer para obtener ayuda.</string>
+  <plurals name="custom_perms_dialog_app_violation">
+    <item quantity="one"><xliff:g id="app_name"> (%s) </xliff:g> redefine el permiso: <xliff:g id="permissions_list"> %s </xliff:g></item>
+    <item quantity="other"><xliff:g id="app_name"> (%s) </xliff:g> redefine permisos: <xliff:g id="permissions_list"> %s </xliff:g></item>
+  </plurals>
+  <string name="custom_perms_pos_btn">Informar</string>
 </resources>

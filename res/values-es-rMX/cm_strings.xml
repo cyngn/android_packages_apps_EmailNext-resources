@@ -57,4 +57,8 @@
   <!-- Security settings category -->
   <!-- Preference for disabling screenshots of app screens. -->
   <!-- Preference for disabling screenshots of app screens. -->
+  <plurals name="custom_perms_dialog_app_violation">
+    <item quantity="one"><xliff:g id="app_name">(%s)</xliff:g> redefine el permiso: <xliff:g id="permissions_list">%s</xliff:g></item>
+    <item quantity="other"><xliff:g id="app_name">(%s)</xliff:g> redefine los permisos: <xliff:g id="permissions_list">%s</xliff:g></item>
+  </plurals>
 </resources>

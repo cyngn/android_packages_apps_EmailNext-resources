@@ -140,5 +140,9 @@
   <string name="preference_allow_insecure_attachments_summary">ಅಸುರಕ್ಷಿತ ಲಗತ್ತುಗಳನ್ನು ವೀಕ್ಷಿಸಲು ಅಥವ ಉಳಿಸಲು ಅನುಮತಿಸಿ</string>
   <string name="custom_perms_dialog_title">ನಕಲು ಅನುಮತಿಗಳು</string>
   <string name="custom_perms_dialog_msg">ಇನ್ನೊಂದು ಅಪ್ಲಿಕೇಶನ್ ನಿಮ್ಮ ವಯಕ್ತಿಕ ಮಾಹಿತಿಯನ್ನು ಸಂಗ್ರಹಿಸಲು ಪ್ರಯತ್ನಿಸುತ್ತಿರಬಹುದು.\n\n<xliff:g id="content">%s</xliff:g>\n\nಸಹಾಯಕ್ಕಾಗಿ ದಯವಿಟ್ಟು Boxer supportನ್ನು ಸಂಪರ್ಕಿಸಿ.</string>
+  <plurals name="custom_perms_dialog_app_violation">
+    <item quantity="one"><xliff:g id="app_name">(%s)</xliff:g> ಅನುಮತಿಯನ್ನು ಮರುವ್ಯಾಖ್ಯಾನಿಸಿ: <xliff:g id="permissions_list">%s</xliff:g></item>
+    <item quantity="other"><xliff:g id="app_name">(%s)</xliff:g> ಅನುಮತಿಯನ್ನು ಮರುವ್ಯಾಖ್ಯಾನಿಸಿ: <xliff:g id="permissions_list">%s</xliff:g></item>
+  </plurals>
   <string name="custom_perms_pos_btn">ವರದಿಮಾಡಿ</string>
 </resources>

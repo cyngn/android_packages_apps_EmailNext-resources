@@ -182,7 +182,7 @@
   <!-- On "Set up email" screen, label of text field -->
   <string name="account_setup_names_account_name_label">Именуване на този профил (незадължително)</string>
   <!-- On "Set up email" screen, label of text field -->
-  <string name="account_setup_names_user_name_label">Името ви (показвано в изходящи съобщения)</string>
+  <string name="account_setup_names_user_name_label">Вашето име (показвано в изходящи съобщения)</string>
   <!-- On "Set up email" screen, error pop-up when user_name field is empty [CHAR LIMIT=none] -->
   <string name="account_setup_names_user_name_empty_error">Това поле трябва да се попълни.</string>
   <!-- Activity Title for the account type selector (IMAP or POP3 or EAS) [CHAR LIMIT=45] -->
@@ -453,7 +453,7 @@
   <!-- On Settings screen, setting option name -->
   <string name="account_settings_description_label">Име на профила</string>
   <!-- On Settings screen, setting option name -->
-  <string name="account_settings_name_label">Името ви</string>
+  <string name="account_settings_name_label">Вашето име</string>
   <!-- On Settings screen, setting option name. Allows user to modify saved quick responses
         for insertion in message body. [CHAR_LIMIT=24]-->
   <string name="account_settings_edit_quick_responses_label">Бързи отговори</string>

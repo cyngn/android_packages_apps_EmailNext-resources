@@ -62,7 +62,7 @@
   <string name="account_settings_account_color_summary">Промените цвета за този акаунт</string>
   <string name="account_settings_account_color_dialog_title">Изберете цвят</string>
   <!-- On Settings screen, led notification title label -->
-  <string name="account_settings_led_notification_label">Активиране на LED уведомяване</string>
+  <string name="account_settings_led_notification_label">Активиране на светлинни индикации</string>
   <string name="account_settings_led_notification_custom_color">Използвайте цвятове по избор</string>
   <!-- On Settings screen, led color title and summary label -->
   <string name="account_settings_led_color_label">Личен LED цвят</string>

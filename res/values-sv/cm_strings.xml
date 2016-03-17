@@ -49,7 +49,7 @@
   <!-- In Account setup options screen, optional check box to also sync contacts -->
   <string name="account_setup_options_sync_contacts_label"><b>Synkronisera kontakter</b> från det här kontot</string>
   <!-- In Account setup options screen, optional check box to also sync calendar -->
-  <string name="account_setup_options_sync_calendar_label">Synkronisera kalendern från det här kontot</string>
+  <string name="account_setup_options_sync_calendar_label"><b>Synkronisera kalendern</b> från det här kontot</string>
   <!-- In Account setup options screen, check box to sync email -->
   <string name="account_setup_options_sync_email_label"><b>Synkronisera e-post</b> från det här kontot</string>
   <string name="account_setup_options_disable_convo_threading_label">Stäng av samtalstrådar</string>

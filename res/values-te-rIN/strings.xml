@@ -18,39 +18,69 @@
   <!-- Names of packages and authorities that are common to all apps
     and read from resources -->
   <!-- Permissions label for reading attachments -->
+  <string name="permission_read_attachment_label">ఈమెయిల్ జోడింపులను చదవండి</string>
   <!-- Permissions description for reading attachments -->
+  <string name="permission_read_attachment_desc">మీ ఈమెయిల్ జోడింపులను చదవడానికి అప్లికేషన్స్‌ని అనుమతిస్తుంది</string>
   <!-- Permissions label for accessing the main provider -->
+  <string name="permission_access_provider_label">ఈమెయిల్ ప్రొవైడర్ డేటా ప్రాప్యత</string>
   <!-- Permissions description for accessing the main provider -->
+  <string name="permission_access_provider_desc">స్వీకరించిన సందేశాలు, పంపిన సందేశాలు, యూజర్ పేర్లు మరియు పాస్ వర్డ్‌లతో సహా మీ ఈమెయిల్ డేటాబేస్‌కు అప్లికేషన్ను అనుమతిస్తుంది.</string>
   <!-- Name of application on Home screen -->
+  <string name="app_name">ఈమెయిల్‌</string>
   <!-- Title of debug screen -->
+  <string name="debug_title">డీబగ్</string>
   <!-- Actions will be used as buttons and in menu items -->
   <!-- Button name used as part of a multi-step process -->
+  <string name="next_action">తదుపరి</string>
   <!-- Button name used to confirm acceptance of dialog boxes, warnings, errors, etc. -->
+  <string name="okay_action">సరే</string>
   <!-- Button name used to cancel out of dialog boxes -->
+  <string name="cancel_action">రద్దు చేయి</string>
   <!-- Button name used to move to previous step during setup sequence [CHAR_LIMIT=16] -->
+  <string name="previous_action">మునుపటి</string>
   <!--  Button name used to complete a multi-step process -->
+  <string name="done_action">పూర్తయింది</string>
   <!--  Menu item used to create a new quick response [CHAR_LIMIT=16] -->
+  <string name="create_action">కొత్తవాటిని రూపొందించు</string>
   <!-- Message informing user when a list that would contain quick responses
             is empty [CHAR_LIMIT=80] -->
+  <string name="quick_responses_empty_view">సత్వర స్పందనలు లేవు.</string>
   <!-- Menu item -->
+  <string name="account_settings_action">ఖాతా సెట్టింగ్‌లు</string>
   <!-- Menu item: options for this mailbox. [CHAR LIMIT = 32] -->
+  <string name="menu_folder_options">ఐచ్చికాలను సమకాలీకరించు</string>
   <!-- Appears in message list view when there's a network error. -->
   <!-- Also appears in a toast, in the message viewer, when there's a network error. -->
+  <string name="status_network_error">అనుసంధాన సమస్య.</string>
   <!-- Text shown with dragged messages to indicate how many are being dragged [CHAR LIMIT=40]-->
+  <plurals name="move_messages">
+    <item quantity="one">సందేశాన్ని తరలించు</item>
+    <item quantity="other">సందేశాలను తరలించు</item>
+  </plurals>
   <!-- Toast shown when a message(s) can't be moved because it's not supported by the POP3
         protocol. [CHAR LIMIT=none]-->
+  <string name="cannot_move_protocol_not_supported_toast">POP3 ఖాతాలకు తరలింపు మద్దతివ్వదు.</string>
   <!-- Toast shown when messages can't be moved because the selection contains multiple accounts'
         messages. [CHAR LIMIT=none]-->
+  <string name="cannot_move_multiple_accounts_toast">ఎంపిక బహుళ ఖాతాలను కలిగి ఉన్నందున తరలించలేదు.</string>
   <!-- Toast shown when messages can't be moved because they're in a special mailbox.  "Drafts",
         "Outbox" and "Sent". [CHAR LIMIT=none]-->
+  <string name="cannot_move_special_mailboxes_toast">డ్రాఫ్ట్స్,  అవుట్ బాక్స్ మరియు సెంట్ లోని సందేశాలు తరలించబడవు.</string>
   <!-- The next set of strings are used in local display and may be localized. -->
   <!-- In the UI, the inbox will be displayed with this name -->
+  <string name="mailbox_name_display_inbox">ఇన్‌బాక్స్</string>
   <!-- In the UI, the outbox will be displayed with this name -->
+  <string name="mailbox_name_display_outbox">అవుట్ బాక్స్</string>
   <!-- In the UI, the trash will be displayed with this name -->
+  <string name="mailbox_name_display_trash">ట్రాష్</string>
   <!-- In the UI, the sent will be displayed with this name -->
+  <string name="mailbox_name_display_sent">సెంట్</string>
   <!-- In the UI, the junk will be displayed with this name -->
+  <string name="mailbox_name_display_junk">జంక్</string>
   <!-- In the UI, the starred will be displayed with this name -->
+  <string name="mailbox_name_display_starred">స్టార్ చేసినవి</string>
   <!-- In the UI, the unread will be displayed with this name [CHAR LIMIT=15] -->
+  <string name="mailbox_name_display_unread">చదవనివి</string>
   <!-- Do Not Translate.  Checkbox label, shown only on debug screen -->
   <!-- Do Not Translate.  Checkbox label, shown only on debug screen -->
   <!-- Do Not Translate.  Checkbox label, shown only on debug screen -->
@@ -59,286 +89,523 @@
   <!-- Do Not Translate.  Checkbox label, shown on debug screen. -->
   <!-- Do Not Translate.  Checkbox label, shown on debug screen. -->
   <!-- The summary section entry in the AccountFolder list to display all inboxes -->
+  <string name="account_folder_list_summary_inbox">ఇన్‌బాక్స్</string>
   <!-- The summary section entry in the AccountFolder list to display all starred
         [CHAR LIMIT=200dip] -->
+  <string name="account_folder_list_summary_starred">స్టార్ చేసినవి</string>
   <!-- The summary section entry in the AccountFolder list to display all drafts
         [CHAR LIMIT=200dip] -->
+  <string name="account_folder_list_summary_drafts">డ్రాఫ్ట్‌లు</string>
   <!-- The summary section entry in the AccountFolder list to display all outboxes
         [CHAR LIMIT=200dip] -->
+  <string name="account_folder_list_summary_outbox">అవుట్ బాక్స్</string>
   <!-- Header for forwarded original messages -->
+  <string name="message_compose_fwd_header_fmt">\n\n-------- ఒరిజినల్ సందేశం --------\nవిషయం: <xliff:g id="subject">%1$s</xliff:g>\nనుండి: <xliff:g id="sender">%2$s</xliff:g>\nకు: <xliff:g id="to">%3$s</xliff:g>\nసిసి: <xliff:g id="cc">%4$s</xliff:g>\n\n</string>
   <!-- Title for dialog containing list of quick responses that user may insert
             into message body. [CHAR_LIMIT=30] -->
+  <string name="message_compose_insert_quick_response_list_title">సత్వర స్పందనలను చొప్పించు</string>
   <!-- Menu item for inserting quick responses into email compose activity. [CHAR_LIMIT=30] -->
+  <string name="message_compose_insert_quick_response_menu_title">సత్వర స్పందనలను చొప్పించు</string>
   <!-- Toast upon using "send" when one or more attachments will need to be background loaded
       [CHAR LIMIT=none]-->
+  <string name="message_view_attachment_background_load">మీ ఫార్వర్డ్ సందేశంలోని ఒకటి లేదా ఎక్కువ జోడింపులు పంపించడానికి ముందు డౌన్‌లోడ్ చేయబడతాయి.</string>
   <!-- Error banner when an attachment could not be downloaded due to a problem at the server
             [CHAR LIMIT=100] -->
+  <string name="attachment_not_found">జోడింపును డౌన్‌లోడ్ చేయలేకపోయింది.</string>
   <!-- String used in place of a message that could not be properly decoded (e.g. bad base64
          data was received.) [CHAR LIMIT=none] -->
+  <string name="message_decode_error">సందేశాన్ని డీకోడ్ చేస్తున్నప్పుడు లోపం జరిగింది.</string>
   <!-- Notification ticker when a forwarded attachment couldn't be sent [CHAR LIMIT=none] -->
+  <string name="forward_download_failed_ticker">ఒకటి లేదా ఎక్కువ జోడింపులను ముందుకు పంపలేకపోయింది.</string>
   <!-- Notification title when a forwarded attachment couldn't be sent [CHAR LIMIT=30]-->
+  <string name="forward_download_failed_title">జోడింపు ముందుకు పంపలేదు.</string>
   <!-- Notification ticker when email account authentication fails [CHAR LIMIT=none] -->
+  <string name="login_failed_ticker"><xliff:g id="account_name">%s</xliff:g> sసైన్ ఇన్ విఫలమయింది.</string>
   <!-- Notification title when email account authentication fails [CHAR LIMIT=30]-->
+  <string name="login_failed_title">సైన్ ఇన్ చేయలేకపోయింది</string>
   <!-- Size unit for bytes for attachments [CHAR LIMIT=10] -->
+  <plurals name="message_view_attachment_bytes">
+    <item quantity="one"><xliff:g id="size_in_bytes" example="1">%d</xliff:g>B</item>
+    <item quantity="other"><xliff:g id="size_in_bytes" example="279">%d</xliff:g>B</item>
+  </plurals>
   <!-- Size unit for kilo bytes for attachments [CHAR LIMIT=10] -->
+  <plurals name="message_view_attachment_kilobytes">
+    <item quantity="one"><xliff:g id="size_in_kilobytes" example="1">%d</xliff:g>KB</item>
+    <item quantity="other"><xliff:g id="size_in_kilobytes" example="279">%d</xliff:g>KB</item>
+  </plurals>
   <!-- Size unit for mega bytes for attachments [CHAR LIMIT=10] -->
+  <plurals name="message_view_attachment_megabytes">
+    <item quantity="one"><xliff:g id="size_in_megabytes" example="1">%d</xliff:g>MB</item>
+    <item quantity="other"><xliff:g id="size_in_megabytes" example="279">%d</xliff:g>MB</item>
+  </plurals>
   <!-- Size unit for giga bytes for attachments [CHAR LIMIT=10] -->
+  <plurals name="message_view_attachment_gigabytes">
+    <item quantity="one"><xliff:g id="size_in_gigabytes" example="1">%d</xliff:g>GB</item>
+    <item quantity="other"><xliff:g id="size_in_gigabytes" example="279">%d</xliff:g>GB</item>
+  </plurals>
   <!-- Title of screen when setting up new email account [CHAR LIMIT=45] -->
+  <string name="account_setup_basics_title">ఖాతా అమర్పు</string>
   <!-- Headline of screen when setting up new email account (large text over divider)
         [CHAR LIMIT=none] -->
+  <string name="account_setup_basics_headline">ఈమెయిల్ ఖాతా</string>
   <!-- On "Set up email" screen, enthusiastic welcome message. -->
+  <string name="accounts_welcome">కేవలం కొన్ని దశలలో మీరు ఖాతాను అమర్చగలరు</string>
   <!-- On "Set up email" screen, hint for account email address text field -->
+  <string name="account_setup_basics_email_label">ఈమెయిల్ చిరునామా</string>
   <!-- Button name on "Set up email" screen [CHAR LIMIT=20] -->
+  <string name="account_setup_basics_manual_setup_action">మాన్యువల్ అమర్పు</string>
   <!-- Toast when we can't build a URI from the given email & password -->
   <!-- Note, the error message in the toast is purposefully vague, because I *don't* know
         exactly what's wrong. -->
+  <string name="account_setup_username_password_toast">ప్రామాణిక ఈమెయిల్ చిరునామా మరియు పాస్‌వర్డ్ను టైప్ చేయండి.</string>
   <!-- Title of dialog shown when a duplicate account is created -->
+  <string name="account_duplicate_dlg_title">నకిలీ ఖాతా</string>
   <!-- Message of dialog shown when a duplicate account is created.  The display name of
          the duplicate account is displayed. -->
+  <string name="account_duplicate_dlg_message_fmt">మీరు ఇప్పటికే ఈ యూజర్ పేరును \&quot;<xliff:g id="duplicate">%s</xliff:g>\” కు ఉపయోగిస్తున్నారు.</string>
   <!-- String that is displayed as error text for passwords with leading or trailing
          spaces.  [CHAR LIMIT=none] -->
+  <string name="account_password_spaces_error">ఈ పాస్వర్డ్ ఒకటి లేదా అంతకంటే ఎక్కువ ఖాళీలతో ప్రారంభమవుతుంది లేదా ముగుస్తుంది. చాలా సర్వర్లు ఖాళీలతో ఉన్న పాస్వర్డులకు మద్దతునివ్వవు.</string>
   <!-- On check-settings screen, this is the initially-displayed message. -->
+  <string name="account_setup_check_settings_retr_info_msg">ఖాతా సమాచారాన్ని తిరిగిపొందుతోంది\u2026</string>
   <!-- Appears on screen while system is checking incoming server settings -->
+  <string name="account_setup_check_settings_check_incoming_msg">సర్వర్ సెట్టింగులు నిర్ధారిస్తోంది\u2026</string>
   <!-- Appears on screen while system is checking outgoing server settings -->
+  <string name="account_setup_check_settings_check_outgoing_msg">smtp సెట్టింగులను నిర్ధారిస్తోంది\u2026</string>
   <!-- Appears on screen while system is creating the account -->
+  <string name="account_setup_creating_account_msg">ఖాతాను రూపొందిస్తోంది\u2026</string>
   <!-- Title of "Set up email" screen after success [CHAR LIMIT=45] -->
+  <string name="account_setup_names_title">ఖాతా అమర్పు</string>
   <!-- Text that appears on "Set up email" screen after successfully setting up an account
         [CHAR LIMIT=none] -->
+  <string name="account_setup_names_headline">మీ ఖాతా అమర్చబడుతోంది మరియు ఈమెయిల్ తన మార్గంలో ఉంది!</string>
   <!-- On "Set up email" screen, label of text field -->
+  <string name="account_setup_names_account_name_label">ఈ ఖాతాకు ఒక పేరు ఇవ్వండి (ఐచ్ఛికం)</string>
   <!-- On "Set up email" screen, label of text field -->
+  <string name="account_setup_names_user_name_label">మీ పేరు (పంపబడుతున్న సందేశాల్లో ప్రదర్శించబడుతుంది)</string>
   <!-- On "Set up email" screen, error pop-up when user_name field is empty [CHAR LIMIT=none] -->
+  <string name="account_setup_names_user_name_empty_error">ఈ ఫీల్డ్ ఖాళీగా ఉండదు.</string>
   <!-- Activity Title for the account type selector (IMAP or POP3 or EAS) [CHAR LIMIT=45] -->
+  <string name="account_setup_account_type_title">ఖాతా అమర్పు</string>
   <!-- Headline for the the account type selector (IMAP or POP3 or EAS) [CHAR LIMIT=none] -->
+  <string name="account_setup_account_type_headline">ఖాతా రకం</string>
   <!-- "Add new email account" screen, text that appears on screen -->
+  <string name="account_setup_account_type_instructions">ఈ ఖాతా ఎలాంటి రకం?</string>
   <!-- "Incoming server settings" screen, title [CHAR LIMIT=45] -->
+  <string name="account_setup_incoming_title">ఖాతా అమర్పు</string>
   <!-- "Incoming server settings" screen, headline (text over divider) [CHAR LIMIT=none] -->
+  <string name="account_setup_incoming_headline">వస్తున్న సర్వర్ అమర్పులు</string>
   <!-- "Incoming server settings" screen, label for text field -->
+  <string name="account_setup_incoming_username_label">వినియోగదారు పేరు</string>
   <!-- "Incoming server settings" screen, label for text field -->
+  <string name="account_setup_incoming_password_label">పాస్‌వర్డ్</string>
   <!-- "Incoming server settings" screen, label for text field -->
+  <string name="account_setup_incoming_server_label">సర్వర్</string>
   <!-- "Incoming server settings" screen, label for text field -->
+  <string name="account_setup_incoming_port_label">పోర్ట్</string>
   <!-- "Incoming server settings" screen, label for pop-up menu -->
+  <string name="account_setup_incoming_security_label">భద్రత రకం</string>
   <!-- "Incoming server settings" screen, option for "Security type" pop-up menu indicating
         the desire for an unencrypted session -->
+  <string name="account_setup_incoming_security_none_label">ఏదీ లేదు</string>
   <!-- "Incoming server settings" screen, option for "Security type" pop-up menu indicating
         the desire for an encrypted session on the selected port, accepting all SSL certificates -->
+  <string name="account_setup_incoming_security_ssl_trust_certificates_label">SSL/TLS (అన్ని ధ్రువపత్రాలను అంగీకరిస్తుంది)</string>
   <!-- "Incoming server settings" screen, option for "Security type" pop-up menu indicating
         the desire for an encrypted session on the selected port, including SSL certificate
         checks -->
+  <string name="account_setup_incoming_security_ssl_label">SSL/TLS</string>
   <!-- "Incoming server settings" screen, option for "Security type" pop-up menu indicating
         the desire for an encrypted session overlaid on a plain text session using the selected
         port, accepting all SSL certificates -->
+  <string name="account_setup_incoming_security_tls_trust_certificates_label">STARTTLS (అన్ని ధ్రువపత్రాలను అంగీకరిస్తుంది)</string>
   <!-- "Incoming server settings" screen, option for "Security type" pop-up menu indicating
         the desire for an encrypted session overlaid on a plain text session on the selected
         port, including SSL certificate checks -->
+  <string name="account_setup_incoming_security_tls_label">STARTTLS</string>
   <!-- "Incoming server settings" screen, label for pop-up menu -->
+  <string name="account_setup_incoming_delete_policy_label">సర్వర్ నుంచి ఈమెయిల్‌ను తొలగించు</string>
   <!-- "Incoming server settings" screen, options in pop-up menu for Delete email from server: -->
   <!-- "Incoming server settings" screen, options in pop-up menu for Delete email from server: -->
+  <string name="account_setup_incoming_delete_policy_never_label">ఎప్పటికీ వద్దు</string>
   <!-- "Incoming server settings" screen, options in pop-up menu for Delete email from server: -->
+  <string name="account_setup_incoming_delete_policy_delete_label">నేను ఇన్‌బాక్స్ నుంచి తొలగిస్తున్నప్పుడు</string>
   <!-- "Incoming server settings" screen, label for setting IMAP path prefix: -->
+  <string name="account_setup_incoming_imap_path_prefix_label">IMAP పథం ప్రిఫిక్స్ అయింది</string>
   <!-- "Incoming server settings" screen, hint for setting IMAP path prefix: -->
+  <string name="account_setup_incoming_imap_path_prefix_hint">ఐచ్ఛికం</string>
   <!-- "Outgoing server settings" screen, title [CHAR LIMIT=45] -->
+  <string name="account_setup_outgoing_title">ఖాతా అమర్పు</string>
   <!-- "Outgoing server settings" screen, headline (text over divider) [CHAR LIMIT=none] -->
+  <string name="account_setup_outgoing_headline">వెళుతున్న సర్వర్ సెట్టింగులు</string>
   <!-- On "Outgoing server settings" screen, label for text field -->
+  <string name="account_setup_outgoing_smtp_server_label">SMTP సర్వర్</string>
   <!-- On "Outgoing server settings" screen, label for text field -->
+  <string name="account_setup_outgoing_port_label">పోర్ట్</string>
   <!-- On "Outgoing server settings" screen, label for pop-up menu -->
+  <string name="account_setup_outgoing_security_label">భద్రత రకం</string>
   <!-- On "Outgoing server settings" screen, label for check box -->
+  <string name="account_setup_outgoing_require_login_label">అవసరమైన సైన్ ఇన్</string>
   <!-- On "Outgoing server settings" screen, label for text field -->
+  <string name="account_setup_outgoing_username_label">వినియోగదారు పేరు</string>
   <!-- On "Outgoing server settings" screen, label for text field -->
+  <string name="account_setup_outgoing_password_label">పాస్‌వర్డ్</string>
   <!-- On "Exchange" setup screen, a heading title for the current client certificate [CHAR LIMIT=50] -->
+  <string name="account_setup_exchange_certificate_title">క్లయింట్ ధ్రువపత్రం</string>
   <!-- On "Exchange" setup screen, a button label to include a client certificate [CHAR LIMIT=35] -->
+  <string name="account_setup_exchange_select_certificate">ఎంచుకొను</string>
   <!-- On "Exchange" setup screen, a button label to include a client certificate [CHAR LIMIT=35] -->
+  <string name="account_setup_exchange_use_certificate">క్లయింట్ ధ్రువపత్రాన్ని ఉపయోగించు</string>
   <!-- On "Exchange" setup screen, a button label to remove the currently used client certificate [CHAR LIMIT=35] -->
+  <string name="account_setup_exchange_remove_certificate">తీసివేయి</string>
   <!-- On "Exchange" setup screen, placeholder text to indicate no client
          certificate is used [CHAR LIMIT=50] -->
+  <string name="account_setup_exchange_no_certificate">ఏదీ లేదు</string>
   <!-- On "Exchange" setup screen, the exchange device-id label [CHAR LIMIT=30] -->
+  <string name="account_setup_exchange_device_id_label">మొబైల్ పరికరం ID</string>
   <!-- In Account setup options screen, Activity headline [CHAR LIMIT=none] -->
+  <string name="account_setup_options_headline">ఖాతా ఐచ్ఛికాలు</string>
   <!-- In Account setup options & Account Settings screens, label for email check frequency option -->
+  <string name="account_setup_options_mail_check_frequency_never">ఎప్పటికీ వద్దు</string>
   <!-- In Account setup options & Account Settings screens, label for email check frequency option -->
+  <string name="account_setup_options_mail_check_frequency_push">ఆటోమేటిక్ (పుష్)</string>
   <!-- In Account setup options & Account Settings screens, email check frequency option -->
+  <string name="account_setup_options_mail_check_frequency_5min">ప్రతి 5 నిమిషాలు</string>
   <!-- In Account setup options & Account Settings screens, email check frequency option -->
+  <string name="account_setup_options_mail_check_frequency_10min">ప్రతి 10 నిమిషాలు</string>
   <!-- In Account setup options & Account Settings screens, email check frequency option -->
+  <string name="account_setup_options_mail_check_frequency_15min">ప్రతి 15 నిమిషాలు</string>
   <!-- In Account setup options & Account Settings screens, email check frequency option -->
+  <string name="account_setup_options_mail_check_frequency_30min">ప్రతి 30 నిమిషాలు</string>
   <!-- In Account setup options & Account Settings screens, email check frequency option -->
+  <string name="account_setup_options_mail_check_frequency_1hour">ప్రతి గంట</string>
   <!-- In Account setup options screen, check box to auto-download attachments  [CHAR LIMIT=none] -->
+  <string name="account_setup_options_background_attachments_label">Wi-Fiకి అనుసంధానించబడుతున్నపుడు అటోమేటిక్‌గా జోడింపులు డౌన్‌లోడ్ అవుతాయి.</string>
   <!-- Dialog title when "setup" could not finish -->
+  <string name="account_setup_failed_dlg_title">పూర్తి చేయలేకపోయింది</string>
   <!-- In Account setup options screen, label for email lookback selector -->
+  <string name="account_setup_options_mail_window_label">అనుకూలీకరణకు రోజులు</string>
   <!-- In account setup options & account settings screens (exchange), sync window length; this
         implies loading a 'reasonable' number of messages [CHAR LIMIT=25] -->
+  <string name="account_setup_options_mail_window_auto">స్వయంచాలకం</string>
   <!-- A sync window length setting (i.e. load messages this far back) [CHAR LIMIT=25]  -->
+  <string name="account_setup_options_mail_window_1day">చివరి రోజు</string>
   <!-- A sync window length setting (i.e. load messages this far back) [CHAR LIMIT=25]  -->
+  <string name="account_setup_options_mail_window_3days">చివరి మూడు రోజులు</string>
   <!-- A sync window length setting (i.e. load messages this far back) [CHAR LIMIT=25]  -->
+  <string name="account_setup_options_mail_window_1week">చివరి వారం</string>
   <!-- A sync window length setting (i.e. load messages this far back) [CHAR LIMIT=25]  -->
+  <string name="account_setup_options_mail_window_2weeks">చివరి రెండు వారాలు</string>
   <!-- A sync window length setting (i.e. load messages this far back) [CHAR LIMIT=25]  -->
+  <string name="account_setup_options_mail_window_1month">గత నెల</string>
   <!-- A sync window length setting (i.e. load messages this far back) [CHAR LIMIT=25]  -->
+  <string name="account_setup_options_mail_window_all">అన్నీ</string>
   <!-- Per-mailbox sync window setting.  This means "use the account's sync window setting" [CHAR LIMIT=40] -->
+  <string name="account_setup_options_mail_window_default">వినియోగదారు ఖాతా డిఫాల్ట్</string>
   <!-- "Setup could not finish" dialog text; e.g., Username or password incorrect -->
+  <string name="account_setup_failed_dlg_auth_message">వినియోగదారు పేరు లేదా పాస్‌వర్డ్ సరైంది కాదు</string>
   <!-- "Setup could not finish" dialog text; e.g., Username or password incorrect\n(ERR01 Account does not exist) -->
+  <string name="account_setup_failed_dlg_auth_message_fmt">లాగిన్ విఫలమయింది.\n(<xliff:g id="error">%s</xliff:g>)</string>
   <!-- Account setup autodiscover auth failure dialog title. This is shown when autodiscover hits
         an "access denied" server error, which could imply incorrect username/password or that no
         autodiscover service has been configured for the domain [CHAR LIMIT=40] -->
+  <string name="account_setup_autodiscover_dlg_authfail_title">ఖాతా సెటపులో సమస్య</string>
   <!-- Account setup autodiscover auth failure dialog message. This is shown when autodiscover hits
         an "access denied" server error, which could imply incorrect username/password or that no
         autodiscover service has been configured for the domain [CHAR LIMIT=NONE] -->
+  <string name="account_setup_autodiscover_dlg_authfail_message">యూజర్ పేరు, పాస్వర్డ్, మరియు ఖాతా సెట్టింగులు సరిగా ఉన్నాయని నిర్ధారించండి.</string>
   <!-- An error message presented to the user when the server's identity
          cannot be established or trusted [CHAR LIMIT=NONE] -->
+  <string name="account_setup_failed_dlg_certificate_message">సర్వర్‌కు సురక్షితంగా అనుసంధానం కాలేదు.</string>
   <!-- An error message presented to the user when the server's identity
          cannot be established or trusted [CHAR LIMIT=NONE] -->
+  <string name="account_setup_failed_dlg_certificate_message_fmt">సురక్షితంగా సర్వరుకు అనుసంధానం చేయడం సాధ్యపడలేదు.\n(<xliff:g id="error">%s</xliff:g>)</string>
   <!-- An error message presented to the user when the server requires a
          client certificate to connect [CHAR LIMIT=NONE] -->
+  <string name="account_setup_failed_certificate_required">ఒక క్లయింట్ ధృవ పత్రం అవసరం. మీరు క్లయింట్ ధృవ పత్రంతో సర్వరుకు అనుసంధానం కావాలని అనుకుంటున్నారా?</string>
   <!-- An error message presented to the user when the certificate they
          specified for connecting to a server is inaccessible [CHAR LIMIT=NONE] -->
+  <string name="account_setup_failed_certificate_inaccessible">ధ్రువపత్రం చెల్లదు లేదా ప్రాప్యత లేదు.</string>
   <!-- Dialog text for ambiguous setup failure; server error/bad credentials [CHAR LIMIT=none] -->
+  <string name="account_setup_failed_check_credentials_message">సర్వర్ ఒక దోషంతో ప్రతిస్పందించింది. మీ యొక్క యూజర్ పేరు మరియు పాస్వర్డులను ఇంకొకసారి పరిశీలించుకోండి, మరియు తిరిగి ప్రయత్నించండి.</string>
   <!-- "Setup could not finish" dialog text; e.g., Cannot connect to server -->
+  <string name="account_setup_failed_dlg_server_message">సర్వర్‌కు కనెక్ట్ కాలేదు.</string>
   <!-- "Setup could not finish" dialog text; e.g., Cannot connect to server\n(Connection timed out) -->
+  <string name="account_setup_failed_dlg_server_message_fmt">సర్వరుకు అనుసంధానం అవడం సాధ్యపడలేదు.\n(<xliff:g id="error">%s</xliff:g>)</string>
   <!-- Additional diagnostic text when TLS was required but the server doesn't support it -->
+  <string name="account_setup_failed_tls_required">TLS అవసరం కానీ సర్వర్ మద్దతు లేదు.</string>
   <!-- Additional diagnostic text when server does not support any of our authentication methods -->
+  <string name="account_setup_failed_auth_required">నిర్ధారణ పద్దతులు సర్వర్‌ చేత మద్దతు పొందలేదు.</string>
   <!-- Additional diagnostic text when server connection failed due to security error -->
+  <string name="account_setup_failed_security">భద్రతా లోపం వల్ల సర్వర్‌కు కనెక్షన్‌ను తెరువలేదు.</string>
   <!-- Additional diagnostic text when server connection failed due to io error (connection) -->
+  <string name="account_setup_failed_ioerror">సర్వర్‌కు కనెక్షన్‌ను తెరువలేదు.</string>
   <!-- Additional diagnostic text when server connection failed due to our inability to support a
          required EAS protocol version [CHAR LIMIT=none] -->
+  <string name="account_setup_failed_protocol_unsupported">మీరు సరైనది కాని సర్వర్ చిరునామాను టైప్ చేశారు లేదా ఈమెయిల్ మద్ధతివ్వని ప్రోటోకాల్ వెర్షన్‌ను సర్వర్ కోరుకుంటోంది.</string>
   <!-- Additional diagnostic text when server access was denied; the user should contact the
          administrator of the server for more information [CHAR LIMIT=none] -->
+  <string name="account_setup_failed_access_denied">సర్వరుతో సింక్ అయ్యేందుకు మీకు అనుమతి లేదు. మరింత సమాచారం కొరకు మీ సర్వరు యొక్క అడ్మినిస్ట్రేటరును సంప్రదించండి.</string>
   <!-- Dialog title when validation requires security provisioning (e.g. support
          for device lock PIN, or remote wipe.) and we ask the user permission before continuing -->
+  <string name="account_setup_security_required_title">రిమోట్ సెక్యూరిటీ అడ్మినిస్ట్రేషన్</string>
   <!-- Additional diagnostic text when validation requires security provisioning (e.g. support
          for device lock PIN, or remote wipe.) and we ask the user permission before continuing.
          [CHAR LIMIT=none] -->
+  <string name="account_setup_security_policies_required_fmt"> సర్వర్  <xliff:g id="server">%s</xliff:g> కు అవసరమయినది ఏమిటంటే మీ అండ్రాయిడ్ సేవ యొక్క కొన్ని భద్రతా లక్షణాలతో అది రిమోట్‌గా అనుసంధానం అయి ఉండడం. మీరు ఈ ఖాతాను అమర్చడం పూర్తి చేయాలని అనుకుంటున్నారా?</string>
   <!-- Additional diagnostic text when validation failed due to required provisioning not
          being supported [CHAR LIMIT=none] -->
+  <string name="account_setup_failed_security_policies_unsupported">ఈ సర్వరుకు మీ అండ్రాయిడ్ సేవ అనుమతించని కొన్ని భద్రతా లక్షణాలు అవసరమవుతాయి, అవి ఏమిటంటే: <xliff:g id="error">%s</xliff:g></string>
   <!-- The user name can only be changed during initial account setup. [CHAR LIMIT=none] -->
+  <string name="account_setup_username_uneditable_error">మీరు ఒక ఖాతా యొక్క యూజర్ పేరును మార్చలేరు. భిన్నమైన యూజర్ పేరుతో ఒక ఖాతాను జోడించేందుకు, యాడ్ అకౌంట్ పైన తాకండి.</string>
   <!-- Warning given to users when they request disabling device administration (i.e. that their
          administered accounts will be deleted) [CHAR LIMIT=none] -->
+  <string name="disable_admin_warning">హెచ్చ్జరిక: ఇమెయిల్ అనువర్తనం యొక్క మీ పరికరాన్ని నిర్వహించే అధికారాన్ని నిష్క్రియపరచడం వలన అది అవసరమయ్యే అన్ని ఇమెయిల్ అకౌంట్లను, వాటి యొక్క ఇమెయిలుతో సహా, పరిచయాలు, ఈవెంట్లు, మరియు ఇతర డేటాను తొలిగించివేస్తుంది.</string>
   <!-- Dialog shown when the account requires some amount of device security provisioning,
          just before jumping into system settings such as Device Policy grant, PIN/password,
          or encryption setup.  [CHAR_LIMIT=40] -->
+  <string name="account_security_dialog_title">భద్రతా నవీకరణ</string>
   <!-- Additional diagnostic text when the account requires some amount of device security
          provisioning, just before jumping into system settings such as Device Policy grant,
          PIN/password, or encryption setup.  [CHAR LIMIT=none] -->
+  <string name="account_security_dialog_content_fmt"><xliff:g id="account">%s</xliff:g> కు మీ ఇమెయిల్ యొక్క భద్రతా సెట్టింగులను నవీకరించడం అవసరం.</string>
   <!-- Notification ticker when device security required (note: unused in Holo XL) -->
+  <string name="security_unsupported_ticker_fmt">ఖాతా \&quot;<xliff:g id="account">%s</xliff:g>\&quot; భద్రతా అవసరాల వల్ల సమకాలీకరించబడదు.</string>
   <!-- Notification ticker when device security required (note: unused in Holo XL) -->
+  <string name="security_needed_ticker_fmt">ఖాతా \&quot;<xliff:g id="account">%s</xliff:g>\&quot; కు భద్రతా సెట్టుంగుల నవీకరణ అవసరం.</string>
   <!-- Notification ticker when device security required (note: unused in Holo XL) -->
+  <string name="security_changed_ticker_fmt">ఖాతా \&quot;<xliff:g id="account">%s</xliff:g>\” దాని యొక్క భద్రతా సెట్టుంగులను మార్చింది; ఎటువంటి వినియోగదారు చర్య అవసరం లేదు.</string>
   <!-- Notification content title when device security required [CHAR_LIMIT=30] -->
+  <string name="security_notification_content_update_title">భద్రతా నవీకరణ అవసరం</string>
   <!-- Notification content title when device security policies have changed [CHAR_LIMIT=36] -->
+  <string name="security_notification_content_change_title">భద్రతా విధానాలు మారాయి</string>
   <!-- Notification content title when device security policies cannot be met [CHAR_LIMIT=30] -->
+  <string name="security_notification_content_unsupported_title">భద్రతా విధానాలు పూరించలేదు</string>
   <!-- Title of the activity that dispatches changes to device security.  Not normally seen. -->
+  <string name="account_security_title">పరికర భద్రత</string>
   <!-- Additional diagnostic text when the email app asserts control of the phone.
         [CHAR LIMIT=none] -->
+  <string name="account_security_policy_explanation_fmt">సర్వర్  <xliff:g id="server">%s</xliff:g> కు అవసరమయినది ఏమిటంటే మీ అండ్రాయిడ్ సేవ యొక్క కొన్ని భద్రతా లక్షణాలతో అది రిమోట్‌గా అనుసంధానం అయి ఉండడం.</string>
   <!-- "Setup could not finish" dialog action button -->
+  <string name="account_setup_failed_dlg_edit_details_action">వివరాల సంకలనం</string>
   <!-- Notification ticker when device password is getting ready to expire [CHAR_LIMIT=80] -->
+  <string name="password_expire_warning_ticker_fmt">\&quot;<xliff:g id="account">%s</xliff:g>\&quot;కు మీ లాక్ స్క్రీన్ యొక్క PIN లేదా పాస్వర్డును మార్చడం అవసరం.</string>
   <!-- Notification content title when device password is getting ready to expire
             [CHAR_LIMIT=30] -->
+  <string name="password_expire_warning_content_title">లాక్ స్క్రీన్ పాస్‌వర్డ్ గడువు ముగియబోతుంది</string>
   <!-- Notification ticker when device password has expired [CHAR_LIMIT=80] -->
+  <string name="password_expired_ticker">మీ లాక్ స్క్రీన్ పిన్ లేదా పాస్‌వర్డ్ గడువు ముగిసింది.</string>
   <!-- Notification content title when device password has expired [CHAR_LIMIT=28] -->
+  <string name="password_expired_content_title">లాక్ స్క్రీన్ పాస్‌వర్డ్ గడువు ముగిసింది</string>
   <!-- Dialog title if device pin/password is going to expire soon. [CHAR_LIMIT=40] -->
+  <string name="password_expire_warning_dialog_title">లాక్ స్క్రీన్ పాస్‌వర్డ్ గడువు ముగియబోతుంది</string>
   <!-- Dialog content device pin/password is going to expire soon. [CHAR_LIMIT=none] -->
+  <string name="password_expire_warning_dialog_content_fmt">త్వరలో మీరు మీ లాక్ స్క్రీన్ యొక్క PIN లేదా పాస్వర్డ్ లేదా డేటాను మార్చవలసిన అవసరం ఉంటుంది, ఎందుకంటే <xliff:g id="account">%s</xliff:g> చేరిపివేయబడుతుంది. మీరు ఇప్పుడు దానిని మార్చాలని అనుకుంటున్నారా?</string>
   <!-- Dialog title if device pin/password has already expired. [CHAR_LIMIT=40] -->
+  <string name="password_expired_dialog_title">లాక్ స్క్రీన్ పాస్‌వర్డ్ గడువు ముగిసింది</string>
   <!-- Dialog content device pin/password has already expired. [CHAR_LIMIT=none] -->
+  <string name="password_expired_dialog_content_fmt">మీ పరికరం నుండి <xliff:g id="account">%s</xliff:g> కొరకు డేటా చేరిపివేయబడుతుంది. మీ లాక్ స్క్రీన్ యొక్క PIN లేదా పాస్వర్డును మార్చడం ద్వారా మీరు దానిని పునరుద్దరించవచ్చు. మీరు ఇప్పుడు దానిని మార్చాలని అనుకుంటున్నారా?</string>
   <!-- On AccountSettingsXL, dialog text if you try to exit in/out/eas fragment (server settings)
          without checking/saving [CHAR LIMIT=none]-->
+  <string name="account_settings_exit_server_settings">భద్రపరచని మార్పులు విస్మరించాలా?</string>
   <!-- On AccountSettingsXL, dialog title if you were brought here due to a login failure.
         [CHAR_LIMIT=40] -->
+  <string name="account_settings_login_dialog_title">సైన్ ఇన్ చేయలేకపోయింది</string>
   <!-- Dialog content if you were brought here due to a login failure.
         [CHAR_LIMIT=none] -->
+  <string name="account_settings_login_dialog_content_fmt"><xliff:g id="account">%s</xliff:g> కొరకు యూజర్ పేరు మరియు పాస్వర్డ్ తప్పుగా ఉన్నాయి. మీరు ఇప్పుడు వాటిని నవీకరించాలని అనుకుంటున్నారా?</string>
   <!-- Dialog content if you were brought here due to a login failure, and the server provided a reason
         [CHAR_LIMIT=none] -->
+  <string name="account_settings_login_dialog_reason_fmt"><xliff:g id="account">%s</xliff:g>కు మీ లాగిన్ విఫలమయింది; సర్వర్ చెప్పింది: <xliff:g id="reason">%s</xliff:g>మీరు మీ యూజర్ పేరు మరియు/లేదా పాస్వర్డును నవీకరించాలని అనుకుంటున్నారా?</string>
   <!-- On Settings screen, setting option name -->
   <!-- Title of account preference for downloading attachments in background [CHAR LIMIT=32] -->
+  <string name="account_settings_background_attachments_label">డౌన్ లోడ్ జోడింపులు</string>
   <!-- Summary of account preference for downloading attachments in background [CHAR LIMIT=64] -->
+  <string name="account_settings_background_attachments_summary">Wi-Fi ద్వారా ఇటీవలి సందేశాలకు జోడింపులను డౌన్ లోడ్ చేయి</string>
+  <string name="account_settings_notify_label">ఈమెయిల్ ప్రకటనలు</string>
   <!-- On Settings screen, summary line when called via AccountManager for Exchange accounts
         [CHAR LIMIT=50] -->
+  <string name="account_settings_summary">సమకాలీకరణ తరచుదనం, ప్రకటనలు, వగైరా</string>
   <!-- On Settings screen, setting summary text -->
+  <string name="account_settings_notify_summary">ఈమెయిల్ వస్తున్నప్పుడు ప్రకటన పంపించు</string>
   <!-- On Settings screen, setting option name and title of dialog box that opens -->
+  <string name="account_settings_mail_check_frequency_label">సమకాలీకరణ తరచుదనం</string>
   <!-- On Settings screen, setting option name -->
+  <string name="account_settings_incoming_label">ఇన్‌కమింగ్ సెట్టింగులు</string>
   <!-- On Settings screen, setting option summary [CHAR LIMIT=64] -->
+  <string name="account_settings_incoming_summary">వినియోగదారు పేరు, పాస్‌వర్డ్ మరియు ఇతర వస్తున్న సర్వర్ అమర్పులు</string>
   <!-- On Settings screen, setting option name -->
+  <string name="account_settings_outgoing_label">అవుట్‌గోయింగ్ సెట్టింగులు</string>
   <!-- On Settings screen, setting option summary [CHAR LIMIT=64] -->
+  <string name="account_settings_outgoing_summary">వినియోగదారు పేరు, పాస్‌వర్డ్ మరియు ఇతర అవుట్‌గోయింగ్ సర్వర్ అమర్పులు</string>
   <!-- On Settings screen, setting option name -->
+  <string name="account_settings_enforced_label">విధానాలు అమలు చేయబడ్డాయి</string>
   <!-- On Settings screen, setting option summary [CHAR LIMIT=64] -->
+  <string name="account_settings_enforced_summary">ఏదీ లేదు</string>
   <!-- On Settings screen, setting option name -->
+  <string name="account_settings_unsupported_label">మద్దతు లేని విధానాలు</string>
   <!-- On Settings screen, setting option summary [CHAR LIMIT=64] -->
+  <string name="account_settings_unsupported_summary">ఏదీ లేదు</string>
   <!-- On Settings screen, label for button that attempts to sync the account -->
+  <string name="account_settings_retry_label">ప్రయత్నం సమకాలీకరణ</string>
   <!-- On Settings screen, summmary for button that attempts to sync an account [CHAR LIMIT=64] -->
+  <string name="account_settings_retry_summary">ఈ ఖాతాను సమకాలీకరించడానికి ఇక్కడ టచ్ చేయి</string>
   <!-- On Settings screen, setting option name -->
+  <string name="account_settings_description_label">ఖాతా పేరు</string>
   <!-- On Settings screen, setting option name -->
+  <string name="account_settings_name_label">మీ పేరు</string>
   <!-- On Settings screen, setting option name. Allows user to modify saved quick responses
         for insertion in message body. [CHAR_LIMIT=24]-->
+  <string name="account_settings_edit_quick_responses_label">సత్వర స్పందనలు</string>
   <!-- On Settings screen, setting option summary [CHAR LIMIT=64] -->
+  <string name="account_settings_edit_quick_responses_summary">మెయిల్ కంపోజ్ చేస్తున్నప్పుడు మీరు తరచుగా చొప్పించేలా పాఠాన్ని సంకలించండి</string>
   <!-- On Settings screen, section heading -->
+  <string name="account_settings_notifications">నోటిఫికేషన్ సెట్టింగ్‌లు</string>
   <!-- On Settings screen, section heading for data usage [CHAR LIMIT=70] -->
+  <string name="account_settings_data_usage">డేటా వినియోగం</string>
   <!-- On Settings screen, section heading -->
+  <string name="account_settings_policies">భద్రతా విధానాలు</string>
+  <string name="system_folders_title">సిస్టమ్ ఫోల్డర్లు</string>
+  <string name="system_folders_trash_title">ట్రాష్ ఫోల్డర్</string>
+  <string name="system_folders_trash_summary">మీ సర్వర్ యొక్క ట్రాష్ ఫోల్డర్‌ను ఎంచుకోండి</string>
+  <string name="system_folders_trash_dlg">మీ సర్వర్ యొక్క ట్రాష్ ఫోల్డర్‌ను ఎంచుకోండి</string>
+  <string name="system_folders_sent_title">ఐటమ్స్ ఫోల్డరును పంపించండి</string>
+  <string name="system_folders_sent_summary">మీ సర్వర్ యొక్క ఐటమ్స్ ఫోల్డర్‌ను ఎంచుకోండి</string>
+  <string name="system_folders_sent_dlg">మీ సర్వర్ యొక్క ఐటమ్స్ ఫోల్డర్‌ను ఎంచుకోండి</string>
   <!-- On settings screen, dialog heading informing user to create or edit a quick response -->
+  <string name="edit_quick_response_dialog">సత్వర స్పందన</string>
   <!-- On settings screen, edit quick response dialog's "save" button -->
+  <string name="save_action">సేవ్ చేయి</string>
   <!-- On settings screen, sync contacts check box label [CHAR LIMIT=20]-->
+  <string name="account_settings_sync_contacts_enable">సంప్రదింపులను సమకాలీకరించండి</string>
   <!-- On settings screen, sync contacts summary text [CHAR LIMIT=35] -->
+  <string name="account_settings_sync_contacts_summary">ఈ ఖాతాకోసం సంప్రదింపులను సమకాలీకరించండి</string>
   <!-- On settings screen, sync calendar check box label [CHAR LIMIT=20]-->
+  <string name="account_settings_sync_calendar_enable">క్యాలెండర్ సింక్ చేయి</string>
   <!-- On settings screen, sync calendar summary text [CHAR LIMIT=50] -->
+  <string name="account_settings_sync_calendar_summary">ఈ ఖాతా కోసం క్యాలెండర్ ఈవెంట్లను సమకాలీకరించండి</string>
   <!-- On settings screen, sync email check box label [CHAR LIMIT=20]-->
+  <string name="account_settings_sync_email_enable">ఈమెయిల్ సమకాలీకరణ</string>
   <!-- On settings screen, sync email summary text [CHAR LIMIT=35] -->
+  <string name="account_settings_sync_email_summary">ఈ ఖాతాకు ఈమెయిల్‌ను సమకాలీకరించండి</string>
   <!-- On Settings screen, vibrate pop-up menu label -->
+  <string name="account_settings_vibrate_when_label">వైబ్రేట్</string>
   <!-- On Settings screen, setting option name -->
+  <string name="account_settings_ringtone">రింగ్‌టోన్ ఎంచుకో</string>
   <!-- On Settings screen, section heading -->
+  <string name="account_settings_servers">సర్వర్ అమర్పులు</string>
   <!-- Mailbox settings activity title [CHAR LIMIT=none] -->
+  <string name="mailbox_settings_activity_title">ఐచ్చికాలను సమకాలీకరించు</string>
   <!-- Mailbox settings activity title, with the target folder name [CHAR LIMIT=none] -->
+  <string name="mailbox_settings_activity_title_with_mailbox">సింక్ ఐచ్చికాలు (<xliff:g id="mailboxx_name" example="Family">%s</xliff:g>)</string>
   <!-- On mailbox settings screen: Whether to sync this mailbox when the account syncs. -->
+  <string name="mailbox_settings_sync_enabled_label">ఈ ఫోల్డర్‌ను సమకాలీకరించండి</string>
   <!-- On mailbox settings screen: Explanatory text for what it means to "sync this folder". -->
+  <string name="mailbox_settings_sync_enabled_summary">అనుసంధానించినప్పుడు సందేశాలు డౌన్ లోడ్ అవుతాయి</string>
   <!-- On mailbox settings screen: Mailbox sync window (the number of days to synchronize email for) setting label [CHAR LIMIT=none] -->
+  <string name="mailbox_settings_mailbox_sync_window_label">మెయిల్ సమకాలీకరణకు రోజులు</string>
   <!-- Dialog title for the choosing whether to show checkboxes or sender image [CHAR LIMIT=200] -->
+  <string name="prefDialogTitle_conversationListIcon">లేఖరి చిత్రం</string>
   <!-- Message that appears when adding a Windows Live Hotmail Plus account -->
+  <string name="provider_note_live">కొన్ని \&quot;ప్లస్\&quot; ఖాతాలు మాత్రమే ఈ ప్రోగ్రామ్ అనుసంధానం అయ్యేందుకు అనుమతినిస్తూ POPను కలిగి ఉంటాయి. ఒకవేళ మీరు మీ యొక్క సరైన ఇమెయిల్ చిరునామా మరియు పాస్వర్డుతో సైన్ ఇన్ కాలేకపోతే, మీకు చెల్లించబడిన \&quot;ప్లస్\&quot; ఖాతా ఉండి ఉండకపోవచ్చు. ఈ ఇమెయిల్ ఖాతాలకు ప్రాప్యతను పొందలేకపోతే వెబ్ బ్రౌజరును ప్రారంభించండి.</string>
   <!-- Name of Microsoft Exchange account type; used by AccountManager -->
   <!-- Name of Microsoft Exchange account type; used by AccountManager -->
   <!-- Message that appears if the AccountManager cannot create the system Account -->
+  <string name="system_account_create_failed">ఖాతాను సృష్టించడం సాధ్యపడలేదు. మళ్లీ ప్రయత్నించండి.</string>
   <!-- Strings that support the DeviceAdmin / DevicePolicyManager API -->
   <!-- Name of the DeviceAdmin (seen in settings & in user confirmation screen) -->
+  <string name="device_admin_label">ఈమెయిల్‌</string>
   <!-- Long-form description of the DeviceAdmin (2nd line in settings & in user conf. screen) -->
+  <string name="device_admin_description">సర్వర్ పేర్కొన్న భద్రతా విధానాలను ప్రారంభిస్తుంది</string>
   <!-- Settings activity title [CHAR LIMIT=40]-->
+  <string name="settings_activity_title">సెట్టింగ్‌లు</string>
   <!-- General Preferences Screen -->
   <!-- Label in preferences header to describe general preferences [CHAR LIMIT=32] -->
+  <string name="header_label_general_preferences">సాధారణ సెట్టింగ్‌లు</string>
   <!-- General preference: Label of the setting for requiring confirmation before
          message deletion [CHAR LIMIT=32] -->
+  <string name="general_preference_confirm_delete_label">తొలగించడానికి ముందు నిర్ధారించండి</string>
   <!-- General preference: Description of the setting for requiring confirmation before
          message deletion [CHAR LIMIT=64] -->
   <!-- TODO: Delete this string, no longer used -->
+  <string name="general_preference_confirm_delete_summary">సందేశాలు</string>
   <!-- General preference: Label of the setting for requiring confirmation before
          message sending [CHAR LIMIT=32] -->
+  <string name="general_preference_confirm_send_label">పంపించడానికి ముందు నిర్ధారించండి</string>
   <!-- General preference: Description of the setting for requiring confirmation before
          message sending [CHAR LIMIT=32] -->
   <!-- TODO: Delete this string, no longer used -->
+  <string name="general_preference_confirm_send_summary">సందేశాలు</string>
   <!-- General preference: Label of the setting for the text zoom.  [CHAR LIMIT=32] -->
+  <string name="general_preference_text_zoom_label">సందేస పాఠం పరిమాణం</string>
   <!-- General preference: Description of each setting for text zoom.  The entries here must
          correspond to the strings general_preference_text_zoom_tiny,
          general_preference_text_zoom_small, general_preference_text_zoom_normal, etc.
          [CHAR LIMIT=64] -->
+  <string-array name="general_preference_text_zoom_summary_array">
+    <item>అతి చిన్న పాఠం</item>
+    <item>చిన్న పాఠం</item>
+    <item>సాధారణ పరిమాణంలోని పాఠం</item>
+    <item>పెద్ద వచనం</item>
+    <item>అతిపెద్ద పాఠం</item>
+  </string-array>
   <!-- The message text size values -->
   <!-- General preference: Title of the dialog box with options for text zoom. [CHAR LIMIT=32] -->
+  <string name="general_preference_text_zoom_dialog_title">సందేస పాఠం పరిమాణం</string>
   <!-- General preference:  Text zoom.  Value is "tiny" (-2) [CHAR LIMIT=32] -->
+  <string name="general_preference_text_zoom_tiny">అతి చిన్న</string>
   <!-- General preference:  Text zoom.  Value is "small" (-1) [CHAR LIMIT=32] -->
+  <string name="general_preference_text_zoom_small">చిన్నది</string>
   <!-- General preference:  Text zoom.  Value is "normal" (0) [CHAR LIMIT=32] -->
+  <string name="general_preference_text_zoom_normal">సాధారణం</string>
   <!-- General preference:  Text zoom.  Value is "large" (+1) [CHAR LIMIT=32] -->
+  <string name="general_preference_text_zoom_large">పెద్దది</string>
   <!-- General preference:  Text zoom.  Value is "huge" (+2) [CHAR LIMIT=32] -->
+  <string name="general_preference_text_zoom_huge">అతి పెద్ద</string>
   <!-- Generic string shown instead of regular numbers, when a number is larger than 999.
          This should not be altered if the original string ("999+") makes sense in the
          target language. Typical alternatives include "+999" and ">999".  [CHAR_LIMIT=4] -->
+  <string name="more_than_999">999+</string>
   <!-- A policy disallowing the user of the device's camera [CHAR LIMIT=50] -->
+  <string name="policy_dont_allow_camera">పరికరం యొక్క కెమెరా ఉపయోగాన్ని తీసివేయండి</string>
   <!-- A policy requiring a device lock screen password [CHAR LIMIT=50] -->
+  <string name="policy_require_password">పరికరం పాస్‌వర్డ్ అవసరం</string>
   <!-- A policy disallowing the reuse of recent passwords [CHAR LIMIT=50] -->
+  <string name="policy_password_history">ఇటీవలి పాస్‌వర్డ్లను మళ్లీ ఉపయోగించడాన్ని నిరోధించండి</string>
   <!-- A policy that forces a password to expire after a set period of time [CHAR LIMIT=50] -->
+  <string name="policy_password_expiration">పాస్‌వర్డ్ గడువు ముగియడం అవసరం</string>
   <!-- A policy requiring a maximum amount of time the device can sit idle before the lock screen
         is activated [CHAR LIMIT=50] -->
+  <string name="policy_screen_timeout">స్తబ్దంగా ఉండే పరకరం తన స్క్రీన్‌ను లాక్ చేయవలసిన అవసరముంది</string>
   <!-- A policy limiting the number of old calendar events synced [CHAR LIMIT=50] -->
+  <string name="policy_calendar_age">క్యాలెండర్ ఈవెంట్ల సంఖ్యను సమకాలీకరించాల్సిన అవసరముంది</string>
   <!-- A policy limiting the number of emails synced [CHAR LIMIT=50] -->
+  <string name="policy_email_age">సమకాలీకరించిన ఈమెయిల్స్ సంఖ్యను పరిమితం చేయండి</string>
   <!-- The four strings below represent "quick responses" which the user can insert into a
         message being composed with just a couple of taps.  These four responses MUST be defined,
         but need not include a string (i.e. they are optional).  Further, the responses can be
         customized as necessary by the translator, in case one or more of these is inappropriate in
         a particular locale or if there are better options available. -->
   <!-- A "quick response", i.e. a quick reply to a received mail [CHAR LIMIT=NONE] -->
+  <string name="quick_1">అభినందనలు!</string>
   <!-- A "quick response", i.e. a quick reply to a received mail [CHAR LIMIT=NONE] -->
+  <string name="quick_2">నాకు మంచిదనిపిస్తోంది!</string>
   <!-- A "quick response", i.e. a quick reply to a received mail [CHAR LIMIT=NONE] -->
+  <string name="quick_3">నేను దీన్ని తర్వాత చదివి మీకు చెబుతాను</string>
   <!-- A "quick response", i.e. a quick reply to a received mail [CHAR LIMIT=NONE] -->
+  <string name="quick_4">దీన్ని చర్చించడానికి సమావేశాన్ని ఏర్పాటు చేద్దాం.</string>
   <!-- This is the message warning the user that they must sync manually when roaming. [CHAR LIMIT=none]-->
+  <string name="require_manual_sync_message">ఈ ఖాతాకు నేపథ్య సమకాలీకరణ రోమింగులో ఉన్నప్పుడు తీసివేయబడింది.</string>
   <!-- This is shown when a user responds to a meeting invitation [CHAR LIMIT=none]-->
+  <string name="confirm_response">ప్రతిస్పందన పంపించబడుతోంది...</string>
   <!-- Used by AccountManager -->
+  <string name="imap_name">IMAP</string>
+  <string name="pop3_name">POP3</string>
+  <string name="folder_picker_title">ఫోల్డర్ ఫికర్</string>
   <!-- Displayed when the user must pick his server's trash folder from a list [CHAR LIMIT 30]-->
+  <string name="trash_folder_selection_title"><xliff:g id="account">%s</xliff:g> కొరకు సర్వర్ ట్రాష్ సంచికను ఎంచుకొనుము</string>
   <!-- Displayed when the user must pick his server's sent items folder from a list [CHAR LIMIT 30]-->
+  <string name="sent_folder_selection_title"><xliff:g id="account">%s</xliff:g> కొరకు సర్వర్ యొక్క పంపబడిన సంచికను ఎంచుకోండి</string>
+  <string name="account_waiting_for_folders_msg">సంచిక జాబితా లోడ్ చేయబడుతుంది...</string>
   <!-- Feedback uri to be used when feedback is enabled -->
 </resources>

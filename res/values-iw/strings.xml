@@ -39,7 +39,7 @@
   <!-- Button name used to move to previous step during setup sequence [CHAR_LIMIT=16] -->
   <string name="previous_action">הקודם</string>
   <!--  Button name used to complete a multi-step process -->
-  <string name="done_action">סיום</string>
+  <string name="done_action">בוצע</string>
   <!--  Menu item used to create a new quick response [CHAR_LIMIT=16] -->
   <string name="create_action">צור חדש</string>
   <!-- Message informing user when a list that would contain quick responses
@@ -100,7 +100,9 @@
         [CHAR LIMIT=200dip] -->
   <string name="account_folder_list_summary_outbox">דואר יוצא</string>
   <!-- Header for forwarded original messages -->
-  <string name="message_compose_fwd_header_fmt">\n\n\"-------- הודעה מקורית --------\nנושא: <xliff:g id="SUBJECT">%1$s</xliff:g>\nמאת: <xliff:g id="SENDER">%2$s</xliff:g>\nאל: <xliff:g id="TO">%3$s</xliff:g>\nעותק: <xliff:g id="CC_0">%4$s</xliff:g>\n\n\"</string>
+  <string name="message_compose_fwd_header_fmt">\n\n-------- הודעה מקורית --------\nנושא:
+<xliff:g id="subject">%1$s</xliff:g>\nמאת: <xliff:g id="sender">%2$s</xliff:g>\nאל:
+<xliff:g id="to">%3$s</xliff:g>\nעותק: <xliff:g id="cc">%4$s</xliff:g>\n\n</string>
   <!-- Title for dialog containing list of quick responses that user may insert
             into message body. [CHAR_LIMIT=30] -->
   <string name="message_compose_insert_quick_response_list_title">הוסף תגובה מהירה</string>
@@ -120,7 +122,7 @@
   <!-- Notification title when a forwarded attachment couldn't be sent [CHAR LIMIT=30]-->
   <string name="forward_download_failed_title">הקובץ המצורף לא הועבר</string>
   <!-- Notification ticker when email account authentication fails [CHAR LIMIT=none] -->
-  <string name="login_failed_ticker">הכניסה ל-<xliff:g id="ACCOUNT_NAME">%s</xliff:g> נכשלה.</string>
+  <string name="login_failed_ticker">הכניסה אל <xliff:g id="account_name">%s</xliff:g> נכשלה.</string>
   <!-- Notification title when email account authentication fails [CHAR LIMIT=30]-->
   <string name="login_failed_title">לא ניתן היה להיכנס</string>
   <!-- Size unit for bytes for attachments [CHAR LIMIT=10] -->
@@ -157,15 +159,15 @@
   <!-- Toast when we can't build a URI from the given email & password -->
   <!-- Note, the error message in the toast is purposefully vague, because I *don't* know
         exactly what's wrong. -->
-  <string name="account_setup_username_password_toast">הקלד כתובת דוא\"ל וסיסמה חוקיות.</string>
+  <string name="account_setup_username_password_toast">הקלד כתובת דוא\"ל וססמה חוקיות.</string>
   <!-- Title of dialog shown when a duplicate account is created -->
   <string name="account_duplicate_dlg_title">חשבון כפול</string>
   <!-- Message of dialog shown when a duplicate account is created.  The display name of
          the duplicate account is displayed. -->
-  <string name="account_duplicate_dlg_message_fmt">אתה כבר משתמש בשם משתמש זה עבור החשבון \"<xliff:g id="DUPLICATE">%s</xliff:g>\".</string>
+  <string name="account_duplicate_dlg_message_fmt">אתה כבר משתמש בשם משתמש זה עבור החשבון \"<xliff:g id="duplicate">%s</xliff:g>\".</string>
   <!-- String that is displayed as error text for passwords with leading or trailing
          spaces.  [CHAR LIMIT=none] -->
-  <string name="account_password_spaces_error">סיסמה זו מתחילה או מסתיימת בתו רווח אחד או יותר. שרתים רבים אינם תומכים בסיסמאות המכילות רווחים.</string>
+  <string name="account_password_spaces_error">סיסמה זו מתחילה או מסתיימת ברווח אחד או יותר. שרתים רבים אינם תומכים בססמאות המכילות רווחים.</string>
   <!-- On check-settings screen, this is the initially-displayed message. -->
   <string name="account_setup_check_settings_retr_info_msg">מאחזר פרטי חשבון\u2026</string>
   <!-- Appears on screen while system is checking incoming server settings -->
@@ -184,13 +186,13 @@
   <!-- On "Set up email" screen, label of text field -->
   <string name="account_setup_names_user_name_label">שמך (מוצג בהודעות יוצאות)</string>
   <!-- On "Set up email" screen, error pop-up when user_name field is empty [CHAR LIMIT=none] -->
-  <string name="account_setup_names_user_name_empty_error">שדה זה לא יכול להיות ריק.</string>
+  <string name="account_setup_names_user_name_empty_error">שדה זה אינו יכול להיות ריק.</string>
   <!-- Activity Title for the account type selector (IMAP or POP3 or EAS) [CHAR LIMIT=45] -->
   <string name="account_setup_account_type_title">הגדרת חשבון</string>
   <!-- Headline for the the account type selector (IMAP or POP3 or EAS) [CHAR LIMIT=none] -->
   <string name="account_setup_account_type_headline">סוג חשבון</string>
   <!-- "Add new email account" screen, text that appears on screen -->
-  <string name="account_setup_account_type_instructions">איזה סוג חשבון זה?</string>
+  <string name="account_setup_account_type_instructions">באיזה סוג חשבון מדובר?</string>
   <!-- "Incoming server settings" screen, title [CHAR LIMIT=45] -->
   <string name="account_setup_incoming_title">הגדרת חשבון</string>
   <!-- "Incoming server settings" screen, headline (text over divider) [CHAR LIMIT=none] -->
@@ -237,7 +239,7 @@
   <!-- "Outgoing server settings" screen, title [CHAR LIMIT=45] -->
   <string name="account_setup_outgoing_title">הגדרת חשבון</string>
   <!-- "Outgoing server settings" screen, headline (text over divider) [CHAR LIMIT=none] -->
-  <string name="account_setup_outgoing_headline">הגדרות של שרת דואר יוצא</string>
+  <string name="account_setup_outgoing_headline">הגדרות שרת דואר יוצא</string>
   <!-- On "Outgoing server settings" screen, label for text field -->
   <string name="account_setup_outgoing_smtp_server_label">‏שרת SMTP</string>
   <!-- On "Outgoing server settings" screen, label for text field -->
@@ -284,7 +286,7 @@
   <!-- Dialog title when "setup" could not finish -->
   <string name="account_setup_failed_dlg_title">לא ניתן להשלים את הפעולה</string>
   <!-- In Account setup options screen, label for email lookback selector -->
-  <string name="account_setup_options_mail_window_label">ימים לסינכרון</string>
+  <string name="account_setup_options_mail_window_label">ימים לסנכרון</string>
   <!-- In account setup options & account settings screens (exchange), sync window length; this
         implies loading a 'reasonable' number of messages [CHAR LIMIT=25] -->
   <string name="account_setup_options_mail_window_auto">אוטומטי</string>
@@ -299,13 +301,13 @@
   <!-- A sync window length setting (i.e. load messages this far back) [CHAR LIMIT=25]  -->
   <string name="account_setup_options_mail_window_1month">החודש האחרון</string>
   <!-- A sync window length setting (i.e. load messages this far back) [CHAR LIMIT=25]  -->
-  <string name="account_setup_options_mail_window_all">הכל</string>
+  <string name="account_setup_options_mail_window_all">הכול</string>
   <!-- Per-mailbox sync window setting.  This means "use the account's sync window setting" [CHAR LIMIT=40] -->
   <string name="account_setup_options_mail_window_default">השתמש בברירת המחדל של החשבון</string>
   <!-- "Setup could not finish" dialog text; e.g., Username or password incorrect -->
   <string name="account_setup_failed_dlg_auth_message">שם המשתמש או הסיסמה שגויים.</string>
   <!-- "Setup could not finish" dialog text; e.g., Username or password incorrect\n(ERR01 Account does not exist) -->
-  <string name="account_setup_failed_dlg_auth_message_fmt">התחברות נכשלה.\n(<xliff:g id="ERROR">%s</xliff:g>)</string>
+  <string name="account_setup_failed_dlg_auth_message_fmt">התחברות נכשלה.\n(<xliff:g id="error">%s</xliff:g>)</string>
   <!-- Account setup autodiscover auth failure dialog title. This is shown when autodiscover hits
         an "access denied" server error, which could imply incorrect username/password or that no
         autodiscover service has been configured for the domain [CHAR LIMIT=40] -->
@@ -319,10 +321,10 @@
   <string name="account_setup_failed_dlg_certificate_message">לא ניתן להתחבר לשרת באופן בטוח.</string>
   <!-- An error message presented to the user when the server's identity
          cannot be established or trusted [CHAR LIMIT=NONE] -->
-  <string name="account_setup_failed_dlg_certificate_message_fmt">לא ניתן להתחבר לשרת באופן בטוח.\n(<xliff:g id="ERROR">%s</xliff:g>)</string>
+  <string name="account_setup_failed_dlg_certificate_message_fmt">לא ניתן להתחבר לשרת באופן בטוח.\n(<xliff:g id="error">%s</xliff:g>)</string>
   <!-- An error message presented to the user when the server requires a
          client certificate to connect [CHAR LIMIT=NONE] -->
-  <string name="account_setup_failed_certificate_required">דרוש אישרו לקוח. האם אתה רוצה להתחבר לשרת עם אישור לקוח?</string>
+  <string name="account_setup_failed_certificate_required">דרוש אישור לקוח. האם ברצונך להתחבר לשרת עם אישור לקוח?</string>
   <!-- An error message presented to the user when the certificate they
          specified for connecting to a server is inaccessible [CHAR LIMIT=NONE] -->
   <string name="account_setup_failed_certificate_inaccessible">האישור אינו חוקי או שלא ניתן לגשת אליו.</string>
@@ -331,7 +333,7 @@
   <!-- "Setup could not finish" dialog text; e.g., Cannot connect to server -->
   <string name="account_setup_failed_dlg_server_message">לא ניתן להתחבר לשרת.</string>
   <!-- "Setup could not finish" dialog text; e.g., Cannot connect to server\n(Connection timed out) -->
-  <string name="account_setup_failed_dlg_server_message_fmt">לא ניתן להתחבר לשרת.\n(<xliff:g id="ERROR">%s</xliff:g>)</string>
+  <string name="account_setup_failed_dlg_server_message_fmt">לא ניתן להתחבר לשרת.\n(<xliff:g id="error">%s</xliff:g>)</string>
   <!-- Additional diagnostic text when TLS was required but the server doesn't support it -->
   <string name="account_setup_failed_tls_required">‏TLS נדרש אך אינו נתמך בשרת.</string>
   <!-- Additional diagnostic text when server does not support any of our authentication methods -->
@@ -342,7 +344,7 @@
   <string name="account_setup_failed_ioerror">לא ניתן לפתוח חיבור לשרת.</string>
   <!-- Additional diagnostic text when server connection failed due to our inability to support a
          required EAS protocol version [CHAR LIMIT=none] -->
-  <string name="account_setup_failed_protocol_unsupported">הקלדת כתובת שרת שגויה, או שהשרת דורש גירסת פרוטוקול שאינה נתמכת על ידי הדוא\"ל.</string>
+  <string name="account_setup_failed_protocol_unsupported">הקלדת כתובת שרת שגויה, או שהשרת דורש גרסת פרוטוקול שאינה נתמכת על ידי הדוא\"ל.</string>
   <!-- Additional diagnostic text when server access was denied; the user should contact the
          administrator of the server for more information [CHAR LIMIT=none] -->
   <string name="account_setup_failed_access_denied">אין לך אישור לסנכרן באמצעות שרת זה. צור קשר עם מנהל המערכת של השרת לקבלת מידע נוסף.</string>
@@ -352,15 +354,15 @@
   <!-- Additional diagnostic text when validation requires security provisioning (e.g. support
          for device lock PIN, or remote wipe.) and we ask the user permission before continuing.
          [CHAR LIMIT=none] -->
-  <string name="account_setup_security_policies_required_fmt">‏השרת <xliff:g id="SERVER">%s</xliff:g> דורש שתאפשר לו שליטה מרחוק על תכונות אבטחה מסוימות במכשיר Android שלך. האם ברצונך לסיים הגדרת חשבון זה?</string>
+  <string name="account_setup_security_policies_required_fmt"> ‏השרת <xliff:g id="server">%s</xliff:g> דורש שתאפשר לו שליטה מרחוק על תכונות אבטחה מסוימות במכשיר האנדרואיד שלך. האם ברצונך לסיים הגדרת חשבון זה?</string>
   <!-- Additional diagnostic text when validation failed due to required provisioning not
          being supported [CHAR LIMIT=none] -->
-  <string name="account_setup_failed_security_policies_unsupported">‏שרת זה מחייב תכונות אבטחה שמכשיר ה-Android שלך אינו תומך בהן, כולל: <xliff:g id="ERROR">%s</xliff:g></string>
+  <string name="account_setup_failed_security_policies_unsupported">‏שרת זה מחייב תכונות אבטחה שמכשיר האנדרואיד שלך אינו תומך בהן, כולל: <xliff:g id="error">%s</xliff:g></string>
   <!-- The user name can only be changed during initial account setup. [CHAR LIMIT=none] -->
-  <string name="account_setup_username_uneditable_error">לא ניתן לשנות את שם המשתמש של חשבון. כדי להוסיף חשבון עם שם משתמש אחר, גע באפשרות \'הוסף חשבון\'.</string>
+  <string name="account_setup_username_uneditable_error">לא ניתן לשנות שם משתמש של חשבון. כדי להוסיף חשבון עם שם משתמש אחר, גע באפשרות \'הוסף חשבון\'.</string>
   <!-- Warning given to users when they request disabling device administration (i.e. that their
          administered accounts will be deleted) [CHAR LIMIT=none] -->
-  <string name="disable_admin_warning">אזהרה: השבתת ההרשאה של יישום הדוא\"ל לטפל במכשיר תגרום למחיקת כל חשבונות הדוא\"ל שמחייבים הרשאה זו, כולל הודעות הדוא\"ל, אנשי הקשר, האירועים בלוח השנה ונתונים אחרים.</string>
+  <string name="disable_admin_warning">אזהרה: השבתת ההרשאה של יישום הדוא\"ל לטיפול במכשיר תגרום למחיקת כל חשבונות הדוא\"ל שמחייבים הרשאה זו, כולל את הודעות הדוא\"ל, אנשי הקשר, האירועים בלוח השנה ונתונים אחרים.</string>
   <!-- Dialog shown when the account requires some amount of device security provisioning,
          just before jumping into system settings such as Device Policy grant, PIN/password,
          or encryption setup.  [CHAR_LIMIT=40] -->
@@ -368,13 +370,13 @@
   <!-- Additional diagnostic text when the account requires some amount of device security
          provisioning, just before jumping into system settings such as Device Policy grant,
          PIN/password, or encryption setup.  [CHAR LIMIT=none] -->
-  <string name="account_security_dialog_content_fmt"><xliff:g id="ACCOUNT">%s</xliff:g> מחייב עדכון של הגדרות האבטחה שלך.</string>
+  <string name="account_security_dialog_content_fmt"><xliff:g id="account">%s</xliff:g> מחייב עדכון של הגדרות האבטחה שלך.</string>
   <!-- Notification ticker when device security required (note: unused in Holo XL) -->
-  <string name="security_unsupported_ticker_fmt">לא ניתן לסנכרן את החשבון \"<xliff:g id="ACCOUNT">%s</xliff:g>\" עקב דרישות אבטחה.</string>
+  <string name="security_unsupported_ticker_fmt">לא ניתן לסנכרן את החשבון \"<xliff:g id="account">%s</xliff:g>\" עקב דרישות אבטחה.</string>
   <!-- Notification ticker when device security required (note: unused in Holo XL) -->
-  <string name="security_needed_ticker_fmt">החשבון \"<xliff:g id="ACCOUNT">%s</xliff:g>\" דורש עדכון של הגדרות אבטחה.</string>
+  <string name="security_needed_ticker_fmt">החשבון \"<xliff:g id="account">%s</xliff:g>\" דורש עדכון הגדרות אבטחה.</string>
   <!-- Notification ticker when device security required (note: unused in Holo XL) -->
-  <string name="security_changed_ticker_fmt">חשבון \"<xliff:g id="ACCOUNT">%s</xliff:g>\" שינה את הגדרות האבטחה שלו; לא נדרשת כל פעולה מצד המשתמש.</string>
+  <string name="security_changed_ticker_fmt">החשבון \"<xliff:g id="account">%s</xliff:g>\" שינה את הגדרות האבטחה שלו; לא נדרשת כל פעולה מצד המשתמש.</string>
   <!-- Notification content title when device security required [CHAR_LIMIT=30] -->
   <string name="security_notification_content_update_title">נדרש עדכון אבטחה</string>
   <!-- Notification content title when device security policies have changed [CHAR_LIMIT=36] -->
@@ -385,14 +387,14 @@
   <string name="account_security_title">אבטחת המכשיר</string>
   <!-- Additional diagnostic text when the email app asserts control of the phone.
         [CHAR LIMIT=none] -->
-  <string name="account_security_policy_explanation_fmt">‏השרת <xliff:g id="SERVER">%s</xliff:g> דורש שתאפשר לו שליטה מרחוק על תכונות אבטחה מסוימות במכשיר ה-Android שלך.</string>
+  <string name="account_security_policy_explanation_fmt">‏השרת <xliff:g id="server">%s</xliff:g> דורש שתאפשר לו שליטה מרחוק על תכונות אבטחה מסוימות במכשיר האנדרואיד שלך.</string>
   <!-- "Setup could not finish" dialog action button -->
   <string name="account_setup_failed_dlg_edit_details_action">ערוך פרטים</string>
   <!-- Notification ticker when device password is getting ready to expire [CHAR_LIMIT=80] -->
-  <string name="password_expire_warning_ticker_fmt">‏\"<xliff:g id="ACCOUNT">%s</xliff:g>\" מחייב שתשנה את קוד ה-PIN או הסיסמה שלך לנעילת המסך.</string>
+  <string name="password_expire_warning_ticker_fmt">\"<xliff:g id="account">%s</xliff:g>\" דורש שתשנה את קוד ה-PIN או הסיסמה שלך לנעילת המסך.</string>
   <!-- Notification content title when device password is getting ready to expire
             [CHAR_LIMIT=30] -->
-  <string name="password_expire_warning_content_title">תוקף הסיסמה של נעילת המסך עומד לפוג</string>
+  <string name="password_expire_warning_content_title">תוקף ססמה לנעילת-מסך עומד לפוג</string>
   <!-- Notification ticker when device password has expired [CHAR_LIMIT=80] -->
   <string name="password_expired_ticker">‏פג תוקף ה-PIN או הסיסמה של נעילת המסך שלך.</string>
   <!-- Notification content title when device password has expired [CHAR_LIMIT=28] -->
@@ -400,23 +402,23 @@
   <!-- Dialog title if device pin/password is going to expire soon. [CHAR_LIMIT=40] -->
   <string name="password_expire_warning_dialog_title">תוקף הסיסמה של נעילת המסך עומד לפוג</string>
   <!-- Dialog content device pin/password is going to expire soon. [CHAR_LIMIT=none] -->
-  <string name="password_expire_warning_dialog_content_fmt">‏עליך לשנות את ה-PIN או הסיסמה המשמשים לנעילת מסך, אחרת הנתונים של <xliff:g id="ACCOUNT">%s</xliff:g> יימחקו. האם ברצונך לשנותם כעת?</string>
+  <string name="password_expire_warning_dialog_content_fmt">‏עליך לשנות את ה-PIN או הסיסמה המשמשים לנעילת מסך, אחרת הנתונים של <xliff:g id="account">%s</xliff:g> יימחקו. האם ברצונך לשנותם כעת?</string>
   <!-- Dialog title if device pin/password has already expired. [CHAR_LIMIT=40] -->
   <string name="password_expired_dialog_title">פג תוקף הסיסמה של נעילת המסך</string>
   <!-- Dialog content device pin/password has already expired. [CHAR_LIMIT=none] -->
-  <string name="password_expired_dialog_content_fmt">‏הנתונים עבור <xliff:g id="ACCOUNT">%s</xliff:g> נמחקים מהמכשיר שלך. תוכל לשחזר אותם על ידי שינוי ה-PIN או הסיסמה של נעילת המסך. האם ברצונך לשנות כעת?</string>
+  <string name="password_expired_dialog_content_fmt">‏הנתונים עבור <xliff:g id="account">%s</xliff:g> נמחקים מהמכשיר שלך. תוכל לשחזר אותם על ידי שינוי ה-PIN או הסיסמה של נעילת המסך. האם ברצונך לשנות כעת?</string>
   <!-- On AccountSettingsXL, dialog text if you try to exit in/out/eas fragment (server settings)
          without checking/saving [CHAR LIMIT=none]-->
-  <string name="account_settings_exit_server_settings">למחוק שינויים שלא נשמרו?</string>
+  <string name="account_settings_exit_server_settings">לבטל שינויים שלא נשמרו?</string>
   <!-- On AccountSettingsXL, dialog title if you were brought here due to a login failure.
         [CHAR_LIMIT=40] -->
   <string name="account_settings_login_dialog_title">לא ניתן להיכנס</string>
   <!-- Dialog content if you were brought here due to a login failure.
         [CHAR_LIMIT=none] -->
-  <string name="account_settings_login_dialog_content_fmt">שם המשתמש או הסיסמה עבור <xliff:g id="ACCOUNT">%s</xliff:g> שגוי. האם ברצונך לעדכן כעת?</string>
+  <string name="account_settings_login_dialog_content_fmt">שם המשתמש או הססמה עבור <xliff:g id="account">%s</xliff:g> שגויים. האם ברצונך לעדכן כעת?</string>
   <!-- Dialog content if you were brought here due to a login failure, and the server provided a reason
         [CHAR_LIMIT=none] -->
-  <string name="account_settings_login_dialog_reason_fmt">הכניסה שלך אל <xliff:g id="ACCOUNT">%s</xliff:g> נכשלה. השרת החזיר את הסיבה: <xliff:g id="REASON">%s</xliff:g> האם אתה רוצה לעדכן את שם המשתמש ו/או הסיסמה שלך?</string>
+  <string name="account_settings_login_dialog_reason_fmt">הכניסה שלך אל <xliff:g id="account">%s</xliff:g> נכשלה. השרת החזיר את הסיבה: <xliff:g id="reason">%s</xliff:g>. האם ברצונך לעדכן את שם המשתמש ו/או הסיסמה שלך?</string>
   <!-- On Settings screen, setting option name -->
   <!-- Title of account preference for downloading attachments in background [CHAR LIMIT=32] -->
   <string name="account_settings_background_attachments_label">הורד קבצים מצורפים</string>
@@ -433,7 +435,7 @@
   <!-- On Settings screen, setting option name -->
   <string name="account_settings_incoming_label">הגדרות דואר נכנס</string>
   <!-- On Settings screen, setting option summary [CHAR LIMIT=64] -->
-  <string name="account_settings_incoming_summary">שם משתמש, סיסמה והגדרות אחרות של שרת דואר נכנס</string>
+  <string name="account_settings_incoming_summary">שם משתמש, ססמה והגדרות אחרות של שרת דואר נכנס</string>
   <!-- On Settings screen, setting option name -->
   <string name="account_settings_outgoing_label">הגדרות דואר יוצא</string>
   <!-- On Settings screen, setting option summary [CHAR LIMIT=64] -->
@@ -458,7 +460,7 @@
         for insertion in message body. [CHAR_LIMIT=24]-->
   <string name="account_settings_edit_quick_responses_label">תגובות מהירות</string>
   <!-- On Settings screen, setting option summary [CHAR LIMIT=64] -->
-  <string name="account_settings_edit_quick_responses_summary">ערוך טקסט שאתה מוסיף לעתים קרובות בזמן כתיבת דוא\"ל</string>
+  <string name="account_settings_edit_quick_responses_summary">ערוך טקסט שאתה מוסיף לעתים קרובות בעת כתיבת דוא\"ל</string>
   <!-- On Settings screen, section heading -->
   <string name="account_settings_notifications">הגדרות התראה</string>
   <!-- On Settings screen, section heading for data usage [CHAR LIMIT=70] -->

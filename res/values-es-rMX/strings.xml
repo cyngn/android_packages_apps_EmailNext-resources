@@ -37,6 +37,10 @@
   <!-- Appears in message list view when there's a network error. -->
   <!-- Also appears in a toast, in the message viewer, when there's a network error. -->
   <!-- Text shown with dragged messages to indicate how many are being dragged [CHAR LIMIT=40]-->
+  <plurals name="move_messages">
+    <item quantity="one">Mover el mensaje</item>
+    <item quantity="other">Mover los mensajes</item>
+  </plurals>
   <!-- Toast shown when a message(s) can't be moved because it's not supported by the POP3
         protocol. [CHAR LIMIT=none]-->
   <!-- Toast shown when messages can't be moved because the selection contains multiple accounts'
@@ -80,9 +84,25 @@
   <!-- Notification ticker when email account authentication fails [CHAR LIMIT=none] -->
   <!-- Notification title when email account authentication fails [CHAR LIMIT=30]-->
   <!-- Size unit for bytes for attachments [CHAR LIMIT=10] -->
+  <plurals name="message_view_attachment_bytes">
+    <item quantity="one"><xliff:g id="size_in_bytes" example="1">%d</xliff:g>B</item>
+    <item quantity="other"><xliff:g id="size_in_bytes" example="279">%d</xliff:g>B</item>
+  </plurals>
   <!-- Size unit for kilo bytes for attachments [CHAR LIMIT=10] -->
+  <plurals name="message_view_attachment_kilobytes">
+    <item quantity="one"><xliff:g id="size_in_kilobytes" example="1">%d</xliff:g>KB</item>
+    <item quantity="other"><xliff:g id="size_in_kilobytes" example="279">%d</xliff:g>KB</item>
+  </plurals>
   <!-- Size unit for mega bytes for attachments [CHAR LIMIT=10] -->
+  <plurals name="message_view_attachment_megabytes">
+    <item quantity="one"><xliff:g id="size_in_megabytes" example="1">%d</xliff:g>MB</item>
+    <item quantity="other"><xliff:g id="size_in_megabytes" example="279">%d</xliff:g>MB</item>
+  </plurals>
   <!-- Size unit for giga bytes for attachments [CHAR LIMIT=10] -->
+  <plurals name="message_view_attachment_gigabytes">
+    <item quantity="one"><xliff:g id="size_in_gigabytes" example="1">%d</xliff:g>GB</item>
+    <item quantity="other"><xliff:g id="size_in_gigabytes" example="279">%d</xliff:g>GB</item>
+  </plurals>
   <!-- Title of screen when setting up new email account [CHAR LIMIT=45] -->
   <!-- Headline of screen when setting up new email account (large text over divider)
         [CHAR LIMIT=none] -->

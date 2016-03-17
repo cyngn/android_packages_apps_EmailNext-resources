@@ -33,7 +33,7 @@
   <string name="account_setup_start_invalid_email_address">כתובת דוא\"ל לא חוקית</string>
   <!-- hint for account email password text field -->
   <string name="password_label">סיסמה</string>
-  <string name="account_setup_basics_progress_message">גילוי אוטומטי בתהליך</string>
+  <string name="account_setup_basics_progress_message">גילוי אוטומטי בהתקדמות</string>
   <!-- In Account setup options screen, Activity title [CHAR LIMIT=45] -->
   <string name="account_setup_options_title">התאם אישית</string>
   <!-- In Account setup options screen, label for email check frequency selector -->
@@ -52,7 +52,7 @@
   <string name="account_setup_options_sync_calendar_label"><b>סנכרן את לוח השנה</b> מחשבון זה</string>
   <!-- In Account setup options screen, check box to sync email -->
   <string name="account_setup_options_sync_email_label"><b>סנכרן דוא"ל</b> מחשבון זה</string>
-  <string name="account_setup_options_disable_convo_threading_label">בטל את החלוקה לשיחות (רצף תגובות)</string>
+  <string name="account_setup_options_disable_convo_threading_label">כבה את החלוקה לשיחות (רצף תגובות)</string>
   <!-- On Settings screen, setting option for showing all images -->
   <string name="account_settings_show_all_images_title">תמונות</string>
   <string name="account_settings_show_all_images_show">הצג תמיד</string>
@@ -70,14 +70,14 @@
   <!-- On Settings screen, tutorial header title label -->
   <string name="account_settings_tutorial_header_title">הצג הדרכה</string>
   <!-- On Settings screen, title for label/move preference -->
-  <string name="account_settings_move_label_title">תוויות/העברת הודעות</string>
+  <string name="account_settings_move_label_title">הודעות תוויות/העברה</string>
   <!-- On Settings screen, shown as an option for label/move preference -->
   <string name="account_settings_move_title">העבר</string>
   <!-- On Settings screen, shown as an option for label/move preference -->
   <string name="account_settings_label_title">תווית</string>
   <!-- General preference: Labels for the setting to mark emails as read before archiving them -->
   <string name="general_preference_mark_archive_messages_read">העבר לארכיון כנקרא</string>
-  <string name="general_preference_mark_archive_messages_read_description">סמן הודעות כנקראו לפני העברתם לארכיון</string>
+  <string name="general_preference_mark_archive_messages_read_description">סמן הודעות שנקראו לפני העברתן לארכיון</string>
   <!-- General preference: Notifications open to the combined inbox-->
   <string name="general_pref_notifications_use_combined_inbox">התראות פותחות את תיבת הדואר הנכנס המשולבת</string>
   <string name="general_pref_notifications_use_combined_inbox_desc">לחיצה על התראה פותחת את תיבת הדואר הנכנס המשולבת במקום את תיבת הדואר הנכנס של החשבון הספציפי</string>
@@ -88,13 +88,13 @@
   <!-- Title of screen to choose with authentication to use -->
   <string name="sign_in_title">התחבר</string>
   <!-- Button shown on SignInActivity -->
-  <string name="sign_in_button">סיום</string>
+  <string name="sign_in_button">בוצע</string>
   <!-- Label between OAuth and password authentication, indicating the user must do one or the other [CHAR LIMIT=40] -->
   <string name="or_label">או</string>
   <!-- Label for signing in with Google using OAuth -->
   <string name="sign_in_with_google">התחבר עם חשבון Google</string>
   <!--  On the "Setup up email" screen, label indicating what service we are signed in with [CHAR LIMIT=40] -->
-  <string name="signed_in_with_service_label">מחובר עם %s</string>
+  <string name="signed_in_with_service_label">נכנס עם %s</string>
   <!-- Label for the authentication section [CHAR LIMIT=20] -->
   <string name="authentication_label">אימות</string>
   <!-- Label for the add authentication icon [CHAR LIMIT=40] -->
@@ -105,27 +105,27 @@
   <string name="account_setup_options_mail_window_3months">3 חודשים אחרונים</string>
   <!-- A sync window length setting (i.e. load messages this far back) [CHAR LIMIT=25]  -->
   <string name="account_setup_options_mail_window_6months">6 חודשים אחרונים</string>
-  <string name="account_settings_unable_to_edit_field">מנהל המערכת שלך לא מאפשר לשנות שדה זה</string>
+  <string name="account_settings_unable_to_edit_field">מנהל המערכת שלך לא מאפשר את שינוי שדה זה</string>
   <!-- Menu item for sending availability from compose. [CHAR_LIMIT=30] -->
   <string name="message_compose_send_availability_menu_title">שלח זמינות</string>
   <!-- Menu item for including an invite from compose. [CHAR_LIMIT=30] -->
   <string name="message_compose_create_invite_menu_title">צור הזמנה</string>
   <!-- Preference for the compose toolbar -->
-  <string name="preference_compose_toolbar_visibility">הצג סרגל הכתיבה</string>
+  <string name="preference_compose_toolbar_visibility">הצג סרגל כתיבה</string>
   <string name="tutorial_welcome_title">ברוכים הבאים לדוא\"ל</string>
   <string name="tutorial_welcome_subtitle">חכם יותר. מהיר יותר. מותאם יותר. אלקטרוני יותר.</string>
-  <string name="tutorial_page1_title">פעולות הזזה מותאמות אישית</string>
-  <string name="tutorial_page1_subtitle">התאימו אישית את פעולות ההזזה שלכם, ובנו את החוויה שלכם בעצמכם.</string>
+  <string name="tutorial_page1_title">פעולות החלקה מותאמות אישית</string>
+  <string name="tutorial_page1_subtitle">התאם אישית את פעולות ההחלקה שלך ובנה את החוויה שלך בעצמך.</string>
   <string name="tutorial_page2_title">פעולות על פריטים מרובים</string>
   <string name="tutorial_page2_subtitle">אפשרות הבחירה המרובה שלנו היא הדרך המהירה ביותר לניהול הדואר הנכנס שלכם.</string>
   <string name="tutorial_page3_title">מרכז פעולות</string>
-  <string name="tutorial_page3_subtitle">מגוון אפשרויות ושילובים עוצמתיים בלחיצת כפתור.</string>
+  <string name="tutorial_page3_subtitle">מגוון אפשרויות ושילובים עצמתיים בלחיצת כפתור.</string>
   <string name="tutorial_skip_button">דלג</string>
-  <string name="tutorial_done_button">סיום</string>
+  <string name="tutorial_done_button">בוצע</string>
   <string name="message_send_failed_ticker">שליחת ההודעה נכשלה</string>
   <string name="message_send_failed_title">הודעה לא נשלחה</string>
   <string name="preferences_clear_search_history_title">נקה היסטוריית חיפוש</string>
-  <string name="preferences_clear_search_history_summary">מוחק את כל החיפושים שביצעת</string>
+  <string name="preferences_clear_search_history_summary">הסר את כל החיפושים שביצעת</string>
   <string name="search_history_cleared">היסטוריית החיפוש נוקתה.</string>
   <string name="update_available_ticker">קיים עדכון זמין ליישום הדוא\"ל</string>
   <string name="update_availalable_title">קיים עדכון זמין</string>
@@ -133,9 +133,9 @@
   <!-- Security settings category -->
   <string name="preferences_security_title">אבטחה</string>
   <!-- Preference for disabling screenshots of app screens. -->
-  <string name="preference_disable_screenshots">השבת צילומי מסך</string>
+  <string name="preference_disable_screenshots">בטל צילומי מסך</string>
   <!-- Preference for disabling screenshots of app screens. -->
-  <string name="preference_disable_screenshots_summary">מנע מיישומים אחרים לקחת צילומי מסך ממסכי היישום</string>
+  <string name="preference_disable_screenshots_summary">מנע מיישומים אחרים לצלם צילומי מסך ממסכי היישום</string>
   <string name="preference_allow_insecure_attachments_title">אפשר קבצים מצורפים לא בטוחים</string>
   <string name="preference_allow_insecure_attachments_summary">מאפשר להציג או לשמור קבצים מצורפים לא בטוחים</string>
   <string name="custom_perms_dialog_title">שכפל הרשאות</string>
@@ -144,5 +144,5 @@
     <item quantity="one"><xliff:g id="app_name">(%s)</xliff:g> מגדיר מחדש הרשאה: <xliff:g id="permissions_list">%s</xliff:g></item>
     <item quantity="other"><xliff:g id="app_name">(%s)</xliff:g> מגדיר מחדש הרשאות: <xliff:g id="permissions_list">%s</xliff:g></item>
   </plurals>
-  <string name="custom_perms_pos_btn">דווח</string>
+  <string name="custom_perms_pos_btn">דיווח</string>
 </resources>
