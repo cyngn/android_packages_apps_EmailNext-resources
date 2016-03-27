@@ -24,7 +24,7 @@
   <!-- In the UI, the folder to-do will be displayed with this name -->
   <string name="mailbox_name_display_todo">Pendents</string>
   <!-- In the UI, the archive will be displayed with this name -->
-  <string name="mailbox_name_display_archive">Arxiu</string>
+  <string name="mailbox_name_display_archive">Arxiva</string>
   <string name="mailbox_name_local_only_display_name"> - Local</string>
   <string name="account_setup_start_email_address_hint">Introdueix la teva adreça de correu electrònic</string>
   <string name="account_setup_start_password_hint">Contrasenya</string>

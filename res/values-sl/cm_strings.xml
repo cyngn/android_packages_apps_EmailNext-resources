@@ -28,7 +28,7 @@
   <string name="mailbox_name_local_only_display_name"> - lokalni</string>
   <string name="account_setup_start_email_address_hint">Vnesite svoj e-poštni naslov</string>
   <string name="account_setup_start_password_hint">Geslo</string>
-  <string name="account_setup_start_get_started_button">Začnite</string>
+  <string name="account_setup_start_get_started_button">Začni</string>
   <string name="account_setup_start_login_button">Prijava</string>
   <string name="account_setup_start_invalid_email_address">Neveljaven e-poštni naslov</string>
   <!-- hint for account email password text field -->

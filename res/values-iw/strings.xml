@@ -472,8 +472,8 @@
   <string name="system_folders_trash_summary">בחר את תיקיית האשפה של השרת שלך</string>
   <string name="system_folders_trash_dlg">בחר את תיקיית האשפה של השרת שלך</string>
   <string name="system_folders_sent_title">תיקיית פריטים שנשלחו</string>
-  <string name="system_folders_sent_summary">בחר את תיקיית הפריטים שנשלחו של השרת שלך</string>
-  <string name="system_folders_sent_dlg">בחר את תיקיית הפריטים שנשלחו של השרת שלך</string>
+  <string name="system_folders_sent_summary">בחר את תיקיית \"פריטים שנשלחו\" של השרת שלך</string>
+  <string name="system_folders_sent_dlg">בחר את תיקיית \"פריטים שנשלחו\" של השרת שלך</string>
   <!-- On settings screen, dialog heading informing user to create or edit a quick response -->
   <string name="edit_quick_response_dialog">תגובה מהירה</string>
   <!-- On settings screen, edit quick response dialog's "save" button -->
@@ -485,7 +485,7 @@
   <!-- On settings screen, sync calendar check box label [CHAR LIMIT=20]-->
   <string name="account_settings_sync_calendar_enable">סנכרן יומן</string>
   <!-- On settings screen, sync calendar summary text [CHAR LIMIT=50] -->
-  <string name="account_settings_sync_calendar_summary">סינכרון אירוע לוח שנה עבור חשבון זה</string>
+  <string name="account_settings_sync_calendar_summary">סנכרן אירוע לוח שנה עבור חשבון זה</string>
   <!-- On settings screen, sync email check box label [CHAR LIMIT=20]-->
   <string name="account_settings_sync_email_enable">סנכרן דוא\"ל</string>
   <!-- On settings screen, sync email summary text [CHAR LIMIT=35] -->
@@ -501,7 +501,7 @@
   <!-- Mailbox settings activity title, with the target folder name [CHAR LIMIT=none] -->
   <string name="mailbox_settings_activity_title_with_mailbox">אפשרויות סנכרון (<xliff:g id="mailboxx_name" example="Family">%s</xliff:g>)</string>
   <!-- On mailbox settings screen: Whether to sync this mailbox when the account syncs. -->
-  <string name="mailbox_settings_sync_enabled_label">סנכרן תיקייה זו</string>
+  <string name="mailbox_settings_sync_enabled_label">סנכרן תיקיה זו</string>
   <!-- On mailbox settings screen: Explanatory text for what it means to "sync this folder". -->
   <string name="mailbox_settings_sync_enabled_summary">לאחר שתחחבר תתבצע הורדה של ההודעות</string>
   <!-- On mailbox settings screen: Mailbox sync window (the number of days to synchronize email for) setting label [CHAR LIMIT=none] -->
@@ -509,7 +509,7 @@
   <!-- Dialog title for the choosing whether to show checkboxes or sender image [CHAR LIMIT=200] -->
   <string name="prefDialogTitle_conversationListIcon">תמונת השולח</string>
   <!-- Message that appears when adding a Windows Live Hotmail Plus account -->
-  <string name="provider_note_live">‏רק חשבונות \"Plus\" מסוימים כוללים גישה ל-POP, שמאפשרת לתוכנית זו להתחבר. אם אינך מצליח להיכנס עם כתובת הדוא\"ל והסיסמה הנכונות שלך, ייתכן שאין לך חשבון \"Plus\" בתשלום. הפעל את דפדפן האינטרנט כדי לקבל גישה לחשבונות דוא\"ל אלה.</string>
+  <string name="provider_note_live">‏רק חשבונות \"Plus\" מסוימים כוללים גישה ל-POP, שמאפשרת לתכנית זו להתחבר. אם אינך מצליח להיכנס עם כתובת הדוא\"ל והסיסמה הנכונות שלך, ייתכן שאין לך חשבון \"Plus\" בתשלום. הפעל את דפדפן האינטרנט כדי לקבל גישה לחשבונות דוא\"ל אלה.</string>
   <!-- Name of Microsoft Exchange account type; used by AccountManager -->
   <!-- Name of Microsoft Exchange account type; used by AccountManager -->
   <!-- Message that appears if the AccountManager cannot create the system Account -->
@@ -555,7 +555,7 @@
   <!-- General preference: Title of the dialog box with options for text zoom. [CHAR LIMIT=32] -->
   <string name="general_preference_text_zoom_dialog_title">גודל טקסט בהודעה</string>
   <!-- General preference:  Text zoom.  Value is "tiny" (-2) [CHAR LIMIT=32] -->
-  <string name="general_preference_text_zoom_tiny">פיצפון</string>
+  <string name="general_preference_text_zoom_tiny">קטנטן</string>
   <!-- General preference:  Text zoom.  Value is "small" (-1) [CHAR LIMIT=32] -->
   <string name="general_preference_text_zoom_small">קטן</string>
   <!-- General preference:  Text zoom.  Value is "normal" (0) [CHAR LIMIT=32] -->
@@ -575,7 +575,7 @@
   <!-- A policy disallowing the reuse of recent passwords [CHAR LIMIT=50] -->
   <string name="policy_password_history">הגבל את השימוש החוזר בסיסמאות אחרונות</string>
   <!-- A policy that forces a password to expire after a set period of time [CHAR LIMIT=50] -->
-  <string name="policy_password_expiration">נדרשת תפוגת סיסמאות</string>
+  <string name="policy_password_expiration">על תוקף הססמה לפוג</string>
   <!-- A policy requiring a maximum amount of time the device can sit idle before the lock screen
         is activated [CHAR LIMIT=50] -->
   <string name="policy_screen_timeout">כפה נעילת מסך של מכשיר לא פעיל</string>
@@ -595,9 +595,9 @@
   <!-- A "quick response", i.e. a quick reply to a received mail [CHAR LIMIT=NONE] -->
   <string name="quick_3">אקרא את זה מאוחר יותר ואחזור אליך.</string>
   <!-- A "quick response", i.e. a quick reply to a received mail [CHAR LIMIT=NONE] -->
-  <string name="quick_4">בוא נקבע פגישה כדי לדון בנושא זה.</string>
+  <string name="quick_4">בוא נקבע פגישה כדי לדון בנושא.</string>
   <!-- This is the message warning the user that they must sync manually when roaming. [CHAR LIMIT=none]-->
-  <string name="require_manual_sync_message">סינכרון ברקע של חשבון זה מושבת בזמן נדידה.</string>
+  <string name="require_manual_sync_message">סנכרון ברקע של חשבון זה מושבת בזמן נדידה.</string>
   <!-- This is shown when a user responds to a meeting invitation [CHAR LIMIT=none]-->
   <string name="confirm_response">שולח תגובה&#8230;</string>
   <!-- Used by AccountManager -->
@@ -605,9 +605,9 @@
   <string name="pop3_name">POP3</string>
   <string name="folder_picker_title">בוחר תיקיות</string>
   <!-- Displayed when the user must pick his server's trash folder from a list [CHAR LIMIT 30]-->
-  <string name="trash_folder_selection_title">בחר את תיקיית האשפה של השרת עבור <xliff:g id="ACCOUNT">%s</xliff:g></string>
+  <string name="trash_folder_selection_title">בחר תיקיית אשפה עבור <xliff:g id="account">%s</xliff:g></string>
   <!-- Displayed when the user must pick his server's sent items folder from a list [CHAR LIMIT 30]-->
-  <string name="sent_folder_selection_title">בחר את תיקיית הפריטים שנשלחו של השרת עבור <xliff:g id="ACCOUNT">%s</xliff:g></string>
+  <string name="sent_folder_selection_title">בחר תיקיית פריטים שנשלחו עבור <xliff:g id="account">%s</xliff:g></string>
   <string name="account_waiting_for_folders_msg">טוען רשימת תיקיות&#8230;</string>
   <!-- Feedback uri to be used when feedback is enabled -->
 </resources>
