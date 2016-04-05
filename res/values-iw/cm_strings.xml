@@ -62,7 +62,7 @@
   <string name="account_settings_account_color_summary">שנה את הצבע עבור חשבון זה</string>
   <string name="account_settings_account_color_dialog_title">בחר צבע</string>
   <!-- On Settings screen, led notification title label -->
-  <string name="account_settings_led_notification_label">אפשר התראת LED</string>
+  <string name="account_settings_led_notification_label">הפעל התראת LED</string>
   <string name="account_settings_led_notification_custom_color">השתמש בצבע LED מותאם אישית</string>
   <!-- On Settings screen, led color title and summary label -->
   <string name="account_settings_led_color_label">צבע LED מותאם אישית</string>
@@ -80,7 +80,7 @@
   <string name="general_preference_mark_archive_messages_read_description">סמן הודעות שנקראו לפני העברתן לארכיון</string>
   <!-- General preference: Notifications open to the combined inbox-->
   <string name="general_pref_notifications_use_combined_inbox">התראות פותחות את תיבת הדואר הנכנס המשולבת</string>
-  <string name="general_pref_notifications_use_combined_inbox_desc">לחיצה על התראה פותחת את תיבת הדואר הנכנס המשולבת במקום את תיבת הדואר הנכנס של החשבון הספציפי</string>
+  <string name="general_pref_notifications_use_combined_inbox_desc">הקשה על התראה פותחת את תיבת הדואר הנכנס המשולבת במקום את תיבת הדואר הנכנס של החשבון הספציפי</string>
   <!-- The hint used in the search box when searching all mailboxes [CHAR LIMIT=35] -->
   <string name="search_hint">חפש\u2026</string>
   <!-- Title of screen when trying to get oauth authentication -->
@@ -119,7 +119,7 @@
   <string name="tutorial_page2_title">פעולות על פריטים מרובים</string>
   <string name="tutorial_page2_subtitle">אפשרות הבחירה המרובה שלנו היא הדרך המהירה ביותר לניהול הדואר הנכנס שלכם.</string>
   <string name="tutorial_page3_title">מרכז פעולות</string>
-  <string name="tutorial_page3_subtitle">מגוון אפשרויות ושילובים עצמתיים בלחיצת כפתור.</string>
+  <string name="tutorial_page3_subtitle">מגוון אפשרויות ושילובים רבי עצמה בהקשה על לחצן.</string>
   <string name="tutorial_skip_button">דלג</string>
   <string name="tutorial_done_button">בוצע</string>
   <string name="message_send_failed_ticker">שליחת ההודעה נכשלה</string>
@@ -133,13 +133,13 @@
   <!-- Security settings category -->
   <string name="preferences_security_title">אבטחה</string>
   <!-- Preference for disabling screenshots of app screens. -->
-  <string name="preference_disable_screenshots">בטל צילומי מסך</string>
+  <string name="preference_disable_screenshots">השבתת צילומי מסך</string>
   <!-- Preference for disabling screenshots of app screens. -->
   <string name="preference_disable_screenshots_summary">מנע מיישומים אחרים לצלם צילומי מסך ממסכי היישום</string>
   <string name="preference_allow_insecure_attachments_title">אפשר קבצים מצורפים לא בטוחים</string>
   <string name="preference_allow_insecure_attachments_summary">מאפשר להציג או לשמור קבצים מצורפים לא בטוחים</string>
   <string name="custom_perms_dialog_title">שכפל הרשאות</string>
-  <string name="custom_perms_dialog_msg">יכול להיות שיישום נוסף מנסה לאסוף את המידע האישי שלך.\n\n<xliff:g id="content">%s</xliff:g>\n\nאנא צור קשר עם התמיכה של Boxer לקבלת עזרה.</string>
+  <string name="custom_perms_dialog_msg">יכול להיות שיישום נוסף מנסה לאסוף את המידע האישי שלך.\n\n<xliff:g id="content">%s</xliff:g>\n\nצור קשר עם צוות התמיכה של Boxer לקבלת עזרה.</string>
   <plurals name="custom_perms_dialog_app_violation">
     <item quantity="one"><xliff:g id="app_name">(%s)</xliff:g> מגדיר מחדש הרשאה: <xliff:g id="permissions_list">%s</xliff:g></item>
     <item quantity="other"><xliff:g id="app_name">(%s)</xliff:g> מגדיר מחדש הרשאות: <xliff:g id="permissions_list">%s</xliff:g></item>
