@@ -159,7 +159,7 @@
   <!-- Toast when we can't build a URI from the given email & password -->
   <!-- Note, the error message in the toast is purposefully vague, because I *don't* know
         exactly what's wrong. -->
-  <string name="account_setup_username_password_toast">הקלד כתובת דוא\"ל וססמה חוקיות.</string>
+  <string name="account_setup_username_password_toast">הקלד כתובת דוא\"ל וסיסמה חוקיות.</string>
   <!-- Title of dialog shown when a duplicate account is created -->
   <string name="account_duplicate_dlg_title">חשבון כפול</string>
   <!-- Message of dialog shown when a duplicate account is created.  The display name of
@@ -204,7 +204,7 @@
   <!-- "Incoming server settings" screen, label for text field -->
   <string name="account_setup_incoming_server_label">שרת</string>
   <!-- "Incoming server settings" screen, label for text field -->
-  <string name="account_setup_incoming_port_label">יציאה</string>
+  <string name="account_setup_incoming_port_label">פורט</string>
   <!-- "Incoming server settings" screen, label for pop-up menu -->
   <string name="account_setup_incoming_security_label">סוג אבטחה</string>
   <!-- "Incoming server settings" screen, option for "Security type" pop-up menu indicating
@@ -394,7 +394,7 @@
   <string name="password_expire_warning_ticker_fmt">\"<xliff:g id="account">%s</xliff:g>\" דורש שתשנה את קוד ה-PIN או הסיסמה שלך לנעילת המסך.</string>
   <!-- Notification content title when device password is getting ready to expire
             [CHAR_LIMIT=30] -->
-  <string name="password_expire_warning_content_title">תוקף ססמה לנעילת-מסך עומד לפוג</string>
+  <string name="password_expire_warning_content_title">תוקף הסיסמה לנעילת-מסך עומד לפוג</string>
   <!-- Notification ticker when device password has expired [CHAR_LIMIT=80] -->
   <string name="password_expired_ticker">‏פג תוקף ה-PIN או הסיסמה של נעילת המסך שלך.</string>
   <!-- Notification content title when device password has expired [CHAR_LIMIT=28] -->
@@ -415,7 +415,7 @@
   <string name="account_settings_login_dialog_title">לא ניתן להיכנס</string>
   <!-- Dialog content if you were brought here due to a login failure.
         [CHAR_LIMIT=none] -->
-  <string name="account_settings_login_dialog_content_fmt">שם המשתמש או הססמה עבור <xliff:g id="account">%s</xliff:g> שגויים. האם ברצונך לעדכן כעת?</string>
+  <string name="account_settings_login_dialog_content_fmt">שם המשתמש או הסיסמה עבור <xliff:g id="account">%s</xliff:g> שגויים. האם ברצונך לעדכן כעת?</string>
   <!-- Dialog content if you were brought here due to a login failure, and the server provided a reason
         [CHAR_LIMIT=none] -->
   <string name="account_settings_login_dialog_reason_fmt">הכניסה שלך אל <xliff:g id="account">%s</xliff:g> נכשלה. השרת החזיר את הסיבה: <xliff:g id="reason">%s</xliff:g>. האם ברצונך לעדכן את שם המשתמש ו/או הסיסמה שלך?</string>
@@ -435,7 +435,7 @@
   <!-- On Settings screen, setting option name -->
   <string name="account_settings_incoming_label">הגדרות דואר נכנס</string>
   <!-- On Settings screen, setting option summary [CHAR LIMIT=64] -->
-  <string name="account_settings_incoming_summary">שם משתמש, ססמה והגדרות אחרות של שרת דואר נכנס</string>
+  <string name="account_settings_incoming_summary">שם משתמש, סיסמה והגדרות אחרות של שרת דואר נכנס</string>
   <!-- On Settings screen, setting option name -->
   <string name="account_settings_outgoing_label">הגדרות דואר יוצא</string>
   <!-- On Settings screen, setting option summary [CHAR LIMIT=64] -->
@@ -518,7 +518,7 @@
   <!-- Name of the DeviceAdmin (seen in settings & in user confirmation screen) -->
   <string name="device_admin_label">דוא\"ל</string>
   <!-- Long-form description of the DeviceAdmin (2nd line in settings & in user conf. screen) -->
-  <string name="device_admin_description">מאפשר מדיניות אבטחה המצוינת בשרת</string>
+  <string name="device_admin_description">מפעיל מדיניות אבטחה המצוינת בשרת</string>
   <!-- Settings activity title [CHAR LIMIT=40]-->
   <string name="settings_activity_title">הגדרות</string>
   <!-- General Preferences Screen -->
@@ -575,7 +575,7 @@
   <!-- A policy disallowing the reuse of recent passwords [CHAR LIMIT=50] -->
   <string name="policy_password_history">הגבל את השימוש החוזר בסיסמאות אחרונות</string>
   <!-- A policy that forces a password to expire after a set period of time [CHAR LIMIT=50] -->
-  <string name="policy_password_expiration">על תוקף הססמה לפוג</string>
+  <string name="policy_password_expiration">על תוקף הסיסמה לפוג</string>
   <!-- A policy requiring a maximum amount of time the device can sit idle before the lock screen
         is activated [CHAR LIMIT=50] -->
   <string name="policy_screen_timeout">כפה נעילת מסך של מכשיר לא פעיל</string>

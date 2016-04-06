@@ -135,11 +135,11 @@
   <!-- Preference for disabling screenshots of app screens. -->
   <string name="preference_disable_screenshots">Desativar capturas de tela</string>
   <!-- Preference for disabling screenshots of app screens. -->
-  <string name="preference_disable_screenshots_summary">Impedir que outros apps capturem telas de app</string>
+  <string name="preference_disable_screenshots_summary">Impede que outros aplicativos capturem telas de aplicativos</string>
   <string name="preference_allow_insecure_attachments_title">Permitir anexos inseguros</string>
   <string name="preference_allow_insecure_attachments_summary">Permitir visualizar ou gravar anexos inseguros</string>
   <string name="custom_perms_dialog_title">Duplicar as permissões</string>
-  <string name="custom_perms_dialog_msg">Outro app pode estar tentando obter suas informações pessoais.\n\n<xliff:g id="content">%s</xliff:g>\n\nPor favor, contate o suporte do Boxer para lhe ajudar.</string>
+  <string name="custom_perms_dialog_msg">Outro aplicativo pode estar tentando obter suas informações pessoais.\n\n<xliff:g id="content">%s</xliff:g>\n\nPor favor, contate o suporte do Boxer para obter ajuda.</string>
   <plurals name="custom_perms_dialog_app_violation">
     <item quantity="one"><xliff:g id="app_name">(%s)</xliff:g> redefine permissão: <xliff:g id="permissions_list">%s</xliff:g></item>
     <item quantity="other"><xliff:g id="app_name">(%s)</xliff:g> redefine permissões: <xliff:g id="permissions_list">%s</xliff:g></item>

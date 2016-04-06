@@ -355,7 +355,7 @@
   <string name="account_setup_failed_protocol_unsupported">Vnesli ste napačen naslov strežnika ali pa je za strežnik zahtevana različica protokola, ki je program za e-pošto ne podpira.</string>
   <!-- Additional diagnostic text when server access was denied; the user should contact the
          administrator of the server for more information [CHAR LIMIT=none] -->
-  <string name="account_setup_failed_access_denied">Nimate dovoljenja za sinhronizacijo s tem strežnikom. Za več informacij se obrnite na skrbnika strežnika.</string>
+  <string name="account_setup_failed_access_denied">Nimate dovoljenja za sinhronizacijo s tem strežnikom. Za več podatkov se obrnite na skrbnika strežnika.</string>
   <!-- Dialog title when validation requires security provisioning (e.g. support
          for device lock PIN, or remote wipe.) and we ask the user permission before continuing -->
   <string name="account_setup_security_required_title">Varnostno skrbništvo na daljavo</string>
@@ -501,7 +501,7 @@
   <!-- On Settings screen, vibrate pop-up menu label -->
   <string name="account_settings_vibrate_when_label">Vibriranje</string>
   <!-- On Settings screen, setting option name -->
-  <string name="account_settings_ringtone">Izberite melodijo zvonjenja</string>
+  <string name="account_settings_ringtone">Izberi melodijo zvonjenja</string>
   <!-- On Settings screen, section heading -->
   <string name="account_settings_servers">Nastavitve strežnika</string>
   <!-- Mailbox settings activity title [CHAR LIMIT=none] -->
