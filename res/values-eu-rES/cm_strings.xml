@@ -86,7 +86,7 @@
   <!-- Title of screen when trying to get oauth authentication -->
   <string name="oauth_authentication_title">Baimena eskatzen</string>
   <!-- Title of screen to choose with authentication to use -->
-  <string name="sign_in_title">Hasi saioa</string>
+  <string name="sign_in_title">Eman izena</string>
   <!-- Button shown on SignInActivity -->
   <string name="sign_in_button">Eginda</string>
   <!-- Label between OAuth and password authentication, indicating the user must do one or the other [CHAR LIMIT=40] -->

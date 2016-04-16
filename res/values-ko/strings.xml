@@ -36,8 +36,6 @@
   <string name="okay_action">확인</string>
   <!-- Button name used to cancel out of dialog boxes -->
   <string name="cancel_action">취소</string>
-  <!-- Button name used to move to previous step during setup sequence [CHAR_LIMIT=16] -->
-  <string name="previous_action">이전</string>
   <!--  Button name used to complete a multi-step process -->
   <string name="done_action">완료</string>
   <!--  Menu item used to create a new quick response [CHAR_LIMIT=16] -->

@@ -24,7 +24,7 @@
   <!-- In the UI, the folder to-do will be displayed with this name -->
   <string name="mailbox_name_display_todo">Pendente</string>
   <!-- In the UI, the archive will be displayed with this name -->
-  <string name="mailbox_name_display_archive">Arquivar</string>
+  <string name="mailbox_name_display_archive">Arquivo</string>
   <string name="mailbox_name_local_only_display_name"> - Local</string>
   <string name="account_setup_start_email_address_hint">Digite seu endereço de e-mail</string>
   <string name="account_setup_start_password_hint">Senha</string>
@@ -121,7 +121,7 @@
   <string name="tutorial_page3_title">Grade de ações</string>
   <string name="tutorial_page3_subtitle">Integrações poderosas e funcionalidade ao toque de um botão.</string>
   <string name="tutorial_skip_button">Pular</string>
-  <string name="tutorial_done_button">Feito</string>
+  <string name="tutorial_done_button">Concluído</string>
   <string name="message_send_failed_ticker">Falha ao enviar mensagem</string>
   <string name="message_send_failed_title">Mensagem não enviada</string>
   <string name="preferences_clear_search_history_title">Limpar histórico de pesquisa</string>
@@ -144,5 +144,5 @@
     <item quantity="one"><xliff:g id="app_name">(%s)</xliff:g> redefine permissão: <xliff:g id="permissions_list">%s</xliff:g></item>
     <item quantity="other"><xliff:g id="app_name">(%s)</xliff:g> redefine permissões: <xliff:g id="permissions_list">%s</xliff:g></item>
   </plurals>
-  <string name="custom_perms_pos_btn">Reportar</string>
+  <string name="custom_perms_pos_btn">Denunciar</string>
 </resources>

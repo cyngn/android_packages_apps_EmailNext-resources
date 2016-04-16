@@ -36,8 +36,6 @@
   <string name="okay_action">ಆಯ್ತು</string>
   <!-- Button name used to cancel out of dialog boxes -->
   <string name="cancel_action">ರದ್ದು</string>
-  <!-- Button name used to move to previous step during setup sequence [CHAR_LIMIT=16] -->
-  <string name="previous_action">ಹಿಂದೆ</string>
   <!--  Button name used to complete a multi-step process -->
   <string name="done_action">ಆಯ್ತು</string>
   <!--  Menu item used to create a new quick response [CHAR_LIMIT=16] -->

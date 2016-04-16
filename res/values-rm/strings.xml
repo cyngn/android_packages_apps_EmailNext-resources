@@ -32,7 +32,6 @@
   <string name="okay_action">OK</string>
   <!-- Button name used to cancel out of dialog boxes -->
   <string name="cancel_action">Interrumper</string>
-  <!-- Button name used to move to previous step during setup sequence [CHAR_LIMIT=16] -->
   <!--  Button name used to complete a multi-step process -->
   <string name="done_action">Terminà</string>
   <!--  Menu item used to create a new quick response [CHAR_LIMIT=16] -->

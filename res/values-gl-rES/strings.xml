@@ -32,7 +32,6 @@
   <!-- Button name used as part of a multi-step process -->
   <!-- Button name used to confirm acceptance of dialog boxes, warnings, errors, etc. -->
   <!-- Button name used to cancel out of dialog boxes -->
-  <!-- Button name used to move to previous step during setup sequence [CHAR_LIMIT=16] -->
   <!--  Button name used to complete a multi-step process -->
   <!--  Menu item used to create a new quick response [CHAR_LIMIT=16] -->
   <!-- Message informing user when a list that would contain quick responses

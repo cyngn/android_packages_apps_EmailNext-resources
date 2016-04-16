@@ -36,8 +36,6 @@
   <string name="okay_action">OK</string>
   <!-- Button name used to cancel out of dialog boxes -->
   <string name="cancel_action">Cancelar</string>
-  <!-- Button name used to move to previous step during setup sequence [CHAR_LIMIT=16] -->
-  <string name="previous_action">Anterior</string>
   <!--  Button name used to complete a multi-step process -->
   <string name="done_action">Concluído</string>
   <!--  Menu item used to create a new quick response [CHAR_LIMIT=16] -->
@@ -76,7 +74,7 @@
   <!-- In the UI, the sent will be displayed with this name -->
   <string name="mailbox_name_display_sent">E-mails enviados</string>
   <!-- In the UI, the junk will be displayed with this name -->
-  <string name="mailbox_name_display_junk">Lixo</string>
+  <string name="mailbox_name_display_junk">Spam</string>
   <!-- In the UI, the starred will be displayed with this name -->
   <string name="mailbox_name_display_starred">Com estrela</string>
   <!-- In the UI, the unread will be displayed with this name [CHAR LIMIT=15] -->
@@ -167,13 +165,13 @@
          spaces.  [CHAR LIMIT=none] -->
   <string name="account_password_spaces_error">Essa senha inicia ou termina com um ou mais caracteres de espaço. Muitos servidores não suportam senhas com espaços.</string>
   <!-- On check-settings screen, this is the initially-displayed message. -->
-  <string name="account_setup_check_settings_retr_info_msg">Recuperando informações sobre a conta</string>
+  <string name="account_setup_check_settings_retr_info_msg">Recuperando informações sobre a conta\u2026</string>
   <!-- Appears on screen while system is checking incoming server settings -->
-  <string name="account_setup_check_settings_check_incoming_msg">Validando as configurações do servidor...</string>
+  <string name="account_setup_check_settings_check_incoming_msg">Validando as configurações do servidor\u2026</string>
   <!-- Appears on screen while system is checking outgoing server settings -->
   <string name="account_setup_check_settings_check_outgoing_msg">Validando as configurações de SMTP...</string>
   <!-- Appears on screen while system is creating the account -->
-  <string name="account_setup_creating_account_msg">Criando conta...</string>
+  <string name="account_setup_creating_account_msg">Criando conta\u2026</string>
   <!-- Title of "Set up email" screen after success [CHAR LIMIT=45] -->
   <string name="account_setup_names_title">Configuração da conta</string>
   <!-- Text that appears on "Set up email" screen after successfully setting up an account
@@ -467,8 +465,8 @@
   <string name="account_settings_policies">Políticas de segurança</string>
   <string name="system_folders_title">Pastas do sistema</string>
   <string name="system_folders_trash_title">Pasta Lixeira</string>
-  <string name="system_folders_trash_summary">Selecione a pasta de itens enviados do servidor</string>
-  <string name="system_folders_trash_dlg">Selecione a pasta de itens enviados do servidor</string>
+  <string name="system_folders_trash_summary">Selecionar a pasta de lixo do seu servidor</string>
+  <string name="system_folders_trash_dlg">Selecionar a pasta de lixo do seu servidor</string>
   <string name="system_folders_sent_title">Pasta de itens enviados</string>
   <string name="system_folders_sent_summary">Selecione a pasta de itens enviados do servidor</string>
   <string name="system_folders_sent_dlg">Selecione a pasta de itens enviados do servidor</string>
@@ -565,7 +563,7 @@
   <!-- Generic string shown instead of regular numbers, when a number is larger than 999.
          This should not be altered if the original string ("999+") makes sense in the
          target language. Typical alternatives include "+999" and ">999".  [CHAR_LIMIT=4] -->
-  <string name="more_than_999">999+</string>
+  <string name="more_than_999">>999</string>
   <!-- A policy disallowing the user of the device's camera [CHAR LIMIT=50] -->
   <string name="policy_dont_allow_camera">Desativar o uso da câmera do dispositivo</string>
   <!-- A policy requiring a device lock screen password [CHAR LIMIT=50] -->
