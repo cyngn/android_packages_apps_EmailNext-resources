@@ -16,10 +16,14 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- Name of EmailProvider shown in AccountManager -->
   <string name="email_provider">E-mail</string>
+  <!-- In the UI, the drafts will be displayed with this name -->
   <string name="mailbox_name_display_local_drafts">Lokale kladder</string>
   <string name="mailbox_name_display_server_drafts">Kladder på server</string>
+  <!-- In the UI, the folder to-do will be displayed with this name -->
   <string name="mailbox_name_display_todo">Opgaver</string>
+  <!-- In the UI, the archive will be displayed with this name -->
   <string name="mailbox_name_display_archive">Arkiv</string>
   <string name="mailbox_name_local_only_display_name"> - Lokal</string>
   <string name="account_setup_start_email_address_hint">Indtast din e-mail adresse</string>
@@ -27,52 +31,86 @@
   <string name="account_setup_start_get_started_button">Kom i gang</string>
   <string name="account_setup_start_login_button">Login</string>
   <string name="account_setup_start_invalid_email_address">Ugyldig e-mail adresse</string>
+  <!-- hint for account email password text field -->
   <string name="password_label">Adgangskode</string>
   <string name="account_setup_basics_progress_message">Automatisk opsætning er i gang</string>
+  <!-- In Account setup options screen, Activity title [CHAR LIMIT=45] -->
   <string name="account_setup_options_title">Tilpas</string>
+  <!-- In Account setup options screen, label for email check frequency selector -->
   <string name="account_setup_options_mail_check_frequency_label">Tjek min indbakke</string>
+  <!-- In Account setup options & Account Settings screens, email check frequency option -->
   <string name="account_setup_options_mail_check_frequency_2hour">Hver 2. time</string>
+  <!-- In Account setup options & Account Settings screens, email check frequency option -->
   <string name="account_setup_options_mail_check_frequency_4hour">Hver 4. time</string>
+  <!-- In Account setup options & Account Settings screens, email check frequency option -->
   <string name="account_setup_options_mail_check_frequency_1day">Hver dag</string>
+  <!-- In Account setup options & Account Settings screens, check box for new-mail notification -->
   <string name="account_setup_options_notify_label">Giv mig besked ved nye e-mails</string>
+  <!-- In Account setup options screen, optional check box to also sync contacts -->
   <string name="account_setup_options_sync_contacts_label">Synkroniser kontaktpersoner fra denne konto</string>
+  <!-- In Account setup options screen, optional check box to also sync calendar -->
   <string name="account_setup_options_sync_calendar_label">Synkroniser kalender fra denne konto</string>
+  <!-- In Account setup options screen, check box to sync email -->
   <string name="account_setup_options_sync_email_label">Synkroniser e-mails fra denne konto</string>
   <string name="account_setup_options_disable_convo_threading_label">Slå samtalevisning fra</string>
+  <!-- On Settings screen, setting option for showing all images -->
   <string name="account_settings_show_all_images_title">Billeder</string>
   <string name="account_settings_show_all_images_show">Vis altid</string>
   <string name="account_settings_show_all_images_ask">Spørg før visning</string>
+  <!-- On Settings Screen, setting option for setting the account color -->
   <string name="account_settings_account_color_title">Konto farve</string>
   <string name="account_settings_account_color_summary">Redigér farven på denne konto</string>
   <string name="account_settings_account_color_dialog_title">Vælg en farve</string>
+  <!-- On Settings screen, led notification title label -->
   <string name="account_settings_led_notification_label">Aktivér LED-notifikationer</string>
   <string name="account_settings_led_notification_custom_color">Brug brugerdefineret LED-farve</string>
+  <!-- On Settings screen, led color title and summary label -->
   <string name="account_settings_led_color_label">Brugerdefineret LED-farve</string>
   <string name="account_settings_led_color_summary">Standardværdien er kontofarven</string>
+  <!-- On Settings screen, tutorial header title label -->
   <string name="account_settings_tutorial_header_title">Se vejledning</string>
+  <!-- On Settings screen, title for label/move preference -->
   <string name="account_settings_move_label_title">Markér/Flyt meddelelser</string>
+  <!-- On Settings screen, shown as an option for label/move preference -->
   <string name="account_settings_move_title">Flyt</string>
+  <!-- On Settings screen, shown as an option for label/move preference -->
   <string name="account_settings_label_title">Markér</string>
+  <!-- General preference: Labels for the setting to mark emails as read before archiving them -->
   <string name="general_preference_mark_archive_messages_read">Arkivér som læst</string>
   <string name="general_preference_mark_archive_messages_read_description">Markér e-mails som læst, inden de arkiveres</string>
+  <!-- General preference: Notifications open to the combined inbox-->
   <string name="general_pref_notifications_use_combined_inbox">Notifikationer åbner den kombinerede indbakke</string>
   <string name="general_pref_notifications_use_combined_inbox_desc">Ved at trykke på en notifikation åbner den kombinerede indbakke i stedet for konto indbakken</string>
+  <!-- The hint used in the search box when searching all mailboxes [CHAR LIMIT=35] -->
   <string name="search_hint">Søg i e-mail</string>
+  <!-- Title of screen when trying to get oauth authentication -->
   <string name="oauth_authentication_title">Anmoder om tilladelse</string>
+  <!-- Title of screen to choose with authentication to use -->
   <string name="sign_in_title">Log ind</string>
+  <!-- Button shown on SignInActivity -->
   <string name="sign_in_button">Udført</string>
+  <!-- Label between OAuth and password authentication, indicating the user must do one or the other [CHAR LIMIT=40] -->
   <string name="or_label">ELLER</string>
+  <!-- Label for signing in with Google using OAuth -->
   <string name="sign_in_with_google">Log ind med Google</string>
+  <!--  On the "Setup up email" screen, label indicating what service we are signed in with [CHAR LIMIT=40] -->
   <string name="signed_in_with_service_label">Logget på med %s</string>
+  <!-- Label for the authentication section [CHAR LIMIT=20] -->
   <string name="authentication_label">Godkendelse</string>
+  <!-- Label for the add authentication icon [CHAR LIMIT=40] -->
   <string name="add_authentication_label">Tilføj godkendelse</string>
   <string name="oauth_saving_message">Gemmer\u2026</string>
   <string name="about_app_header_title">Om</string>
+  <!-- A sync window length setting (i.e. load messages this far back) [CHAR LIMIT=25]  -->
   <string name="account_setup_options_mail_window_3months">Seneste 3 måneder</string>
+  <!-- A sync window length setting (i.e. load messages this far back) [CHAR LIMIT=25]  -->
   <string name="account_setup_options_mail_window_6months">Seneste 6 måneder</string>
   <string name="account_settings_unable_to_edit_field">Administratoren tillader ikke at dette felt ændres</string>
+  <!-- Menu item for sending availability from compose. [CHAR_LIMIT=30] -->
   <string name="message_compose_send_availability_menu_title">Send tilgængelighed</string>
+  <!-- Menu item for including an invite from compose. [CHAR_LIMIT=30] -->
   <string name="message_compose_create_invite_menu_title">Opret invitation</string>
+  <!-- Preference for the compose toolbar -->
   <string name="preference_compose_toolbar_visibility">Vis værktøjslinje</string>
   <string name="tutorial_welcome_title">Velkommen til E-mail</string>
   <string name="tutorial_welcome_subtitle">Smartere. Hurtigere. Skræddersyet. E-mail.</string>
@@ -92,8 +130,11 @@
   <string name="update_available_ticker">Der findes en opdatering til e-mail</string>
   <string name="update_availalable_title">En opdatering er tilgængelig</string>
   <string name="update_available_content">Tryk for at installere opdatering</string>
+  <!-- Security settings category -->
   <string name="preferences_security_title">Sikkerhed</string>
+  <!-- Preference for disabling screenshots of app screens. -->
   <string name="preference_disable_screenshots">Deaktivér screenshots</string>
+  <!-- Preference for disabling screenshots of app screens. -->
   <string name="preference_disable_screenshots_summary">Forhindre andre apps i at optage screenshots af app-skærme</string>
   <string name="preference_allow_insecure_attachments_title">Tillad usikre vedhæftede filer</string>
   <string name="preference_allow_insecure_attachments_summary">Tillad at vise eller gemme usikre vedhæftede filer</string>

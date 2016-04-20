@@ -15,204 +15,455 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- Names of packages and authorities that are common to all apps
+    and read from resources -->
+  <!-- Permissions label for reading attachments -->
   <string name="permission_read_attachment_label">Loe meili manuseid</string>
+  <!-- Permissions description for reading attachments -->
   <string name="permission_read_attachment_desc">Võimaldab rakendusel lugeda teie meilisõnumite manuseid.</string>
+  <!-- Permissions label for accessing the main provider -->
   <string name="permission_access_provider_label">Juurdepääs e-posti teenusepakkuja andmetele</string>
+  <!-- Permissions description for accessing the main provider -->
   <string name="permission_access_provider_desc">Võimaldab rakendusel pääseda teie meiliandmebaasi, sealhulgas vastuvõetud ja saadetud sõnumite, kasutajanimede ning paroolide juurde.</string>
+  <!-- Name of application on Home screen -->
   <string name="app_name">E-post</string>
+  <!-- Title of debug screen -->
   <string name="debug_title">Silumine</string>
+  <!-- Actions will be used as buttons and in menu items -->
+  <!-- Button name used as part of a multi-step process -->
   <string name="next_action">Järgmine</string>
+  <!-- Button name used to confirm acceptance of dialog boxes, warnings, errors, etc. -->
   <string name="okay_action">OK</string>
+  <!-- Button name used to cancel out of dialog boxes -->
   <string name="cancel_action">Tühista</string>
+  <!-- Button name used to move to previous step during setup sequence [CHAR_LIMIT=16] -->
   <string name="previous_action">Eelmine</string>
+  <!--  Button name used to complete a multi-step process -->
   <string name="done_action">Valmis</string>
+  <!--  Menu item used to create a new quick response [CHAR_LIMIT=16] -->
   <string name="create_action">Loo uus</string>
+  <!-- Message informing user when a list that would contain quick responses
+            is empty [CHAR_LIMIT=80] -->
   <string name="quick_responses_empty_view">Kiirvastuseid pole.</string>
+  <!-- Menu item -->
   <string name="account_settings_action">Konto seaded</string>
+  <!-- Menu item: options for this mailbox. [CHAR LIMIT = 32] -->
   <string name="menu_folder_options">Sünkroonimisvalikud</string>
+  <!-- Appears in message list view when there's a network error. -->
+  <!-- Also appears in a toast, in the message viewer, when there's a network error. -->
   <string name="status_network_error">Ühendusprobleem.</string>
+  <!-- Text shown with dragged messages to indicate how many are being dragged [CHAR LIMIT=40]-->
   <plurals name="move_messages">
     <item quantity="one">Teisaldatud sõnum</item>
     <item quantity="other">Teisaldatud sõnumid</item>
   </plurals>
+  <!-- Toast shown when a message(s) can't be moved because it's not supported by the POP3
+        protocol. [CHAR LIMIT=none]-->
   <string name="cannot_move_protocol_not_supported_toast">POP3-kontodel teisaldamist ei toetata.</string>
+  <!-- Toast shown when messages can't be moved because the selection contains multiple accounts'
+        messages. [CHAR LIMIT=none]-->
   <string name="cannot_move_multiple_accounts_toast">Ei saa teisaldada, kuna valik sisaldab mitut kontot.</string>
+  <!-- Toast shown when messages can't be moved because they're in a special mailbox.  "Drafts",
+        "Outbox" and "Sent". [CHAR LIMIT=none]-->
   <string name="cannot_move_special_mailboxes_toast">Kaustades Mustandid, Väljundkast ja Saadetud olevaid sõnumeid ei saa teisaldada.</string>
+  <!-- The next set of strings are used in local display and may be localized. -->
+  <!-- In the UI, the inbox will be displayed with this name -->
   <string name="mailbox_name_display_inbox">Postkast</string>
+  <!-- In the UI, the outbox will be displayed with this name -->
   <string name="mailbox_name_display_outbox">Väljundkast</string>
+  <!-- In the UI, the trash will be displayed with this name -->
   <string name="mailbox_name_display_trash">Prügikast</string>
+  <!-- In the UI, the sent will be displayed with this name -->
   <string name="mailbox_name_display_sent">Saadetud</string>
+  <!-- In the UI, the junk will be displayed with this name -->
   <string name="mailbox_name_display_junk">Rämpspost</string>
+  <!-- In the UI, the starred will be displayed with this name -->
   <string name="mailbox_name_display_starred">Tärniga</string>
+  <!-- In the UI, the unread will be displayed with this name [CHAR LIMIT=15] -->
   <string name="mailbox_name_display_unread">Lugemata</string>
+  <!-- Do Not Translate.  Checkbox label, shown only on debug screen -->
+  <!-- Do Not Translate.  Checkbox label, shown only on debug screen -->
+  <!-- Do Not Translate.  Checkbox label, shown only on debug screen -->
+  <!-- Do Not Translate.  Button label, shown only on debug screen -->
+  <!-- Do Not Translate.  Checkbox label, shown on debug screen. -->
+  <!-- Do Not Translate.  Checkbox label, shown on debug screen. -->
+  <!-- Do Not Translate.  Checkbox label, shown on debug screen. -->
+  <!-- The summary section entry in the AccountFolder list to display all inboxes -->
   <string name="account_folder_list_summary_inbox">Postkast</string>
+  <!-- The summary section entry in the AccountFolder list to display all starred
+        [CHAR LIMIT=200dip] -->
   <string name="account_folder_list_summary_starred">Tärniga</string>
+  <!-- The summary section entry in the AccountFolder list to display all drafts
+        [CHAR LIMIT=200dip] -->
   <string name="account_folder_list_summary_drafts">Mustandid</string>
+  <!-- The summary section entry in the AccountFolder list to display all outboxes
+        [CHAR LIMIT=200dip] -->
   <string name="account_folder_list_summary_outbox">Väljundkast</string>
+  <!-- Header for forwarded original messages -->
   <string name="message_compose_fwd_header_fmt">\n\n\"-------- Originaalsõnum --------\nTeema: <xliff:g id="SUBJECT">%1$s</xliff:g>\nSaatja: <xliff:g id="SENDER">%2$s</xliff:g>\nSaaja: <xliff:g id="TO">%3$s</xliff:g>\nKoopia: <xliff:g id="CC_0">%4$s</xliff:g>\n\n\"</string>
+  <!-- Title for dialog containing list of quick responses that user may insert
+            into message body. [CHAR_LIMIT=30] -->
   <string name="message_compose_insert_quick_response_list_title">Kiirvastuse sisestamine</string>
+  <!-- Menu item for inserting quick responses into email compose activity. [CHAR_LIMIT=30] -->
   <string name="message_compose_insert_quick_response_menu_title">Sisesta kiirvastus</string>
+  <!-- Toast upon using "send" when one or more attachments will need to be background loaded
+      [CHAR LIMIT=none]-->
   <string name="message_view_attachment_background_load">Vähemalt üks edastatava sõnumi manus laaditakse enne saatmist alla.</string>
+  <!-- Error banner when an attachment could not be downloaded due to a problem at the server
+            [CHAR LIMIT=100] -->
   <string name="attachment_not_found">Manuse allalaadimine ebaõnnestus.</string>
+  <!-- String used in place of a message that could not be properly decoded (e.g. bad base64
+         data was received.) [CHAR LIMIT=none] -->
   <string name="message_decode_error">Sõnumi dekodeerimisel ilmnes viga.</string>
+  <!-- Notification ticker when a forwarded attachment couldn't be sent [CHAR LIMIT=none] -->
   <string name="forward_download_failed_ticker">Ühe või mitme manuse edastamine ebaõnnestus.</string>
+  <!-- Notification title when a forwarded attachment couldn't be sent [CHAR LIMIT=30]-->
   <string name="forward_download_failed_title">Manust ei edastatud</string>
+  <!-- Notification ticker when email account authentication fails [CHAR LIMIT=none] -->
   <string name="login_failed_ticker">Kontole <xliff:g id="ACCOUNT_NAME">%s</xliff:g> sisselogimine ebaõnnestus.</string>
+  <!-- Notification title when email account authentication fails [CHAR LIMIT=30]-->
   <string name="login_failed_title">Sisselogimine ebaõnnestus</string>
+  <!-- Size unit for bytes for attachments [CHAR LIMIT=10] -->
   <plurals name="message_view_attachment_bytes">
     <item quantity="one"><xliff:g id="SIZE_IN_BYTES">%d</xliff:g> B</item>
     <item quantity="other"><xliff:g id="SIZE_IN_BYTES">%d</xliff:g> B</item>
   </plurals>
+  <!-- Size unit for kilo bytes for attachments [CHAR LIMIT=10] -->
   <plurals name="message_view_attachment_kilobytes">
     <item quantity="one"><xliff:g id="SIZE_IN_KILOBYTES">%d</xliff:g> kB</item>
     <item quantity="other"><xliff:g id="SIZE_IN_KILOBYTES">%d</xliff:g> kB</item>
   </plurals>
+  <!-- Size unit for mega bytes for attachments [CHAR LIMIT=10] -->
   <plurals name="message_view_attachment_megabytes">
     <item quantity="one"><xliff:g id="SIZE_IN_MEGABYTES">%d</xliff:g> MB</item>
     <item quantity="other"><xliff:g id="SIZE_IN_MEGABYTES">%d</xliff:g> MB</item>
   </plurals>
+  <!-- Size unit for giga bytes for attachments [CHAR LIMIT=10] -->
   <plurals name="message_view_attachment_gigabytes">
     <item quantity="one"><xliff:g id="SIZE_IN_GIGABYTES">%d</xliff:g> GB</item>
     <item quantity="other"><xliff:g id="SIZE_IN_GIGABYTES">%d</xliff:g> GB</item>
   </plurals>
+  <!-- Title of screen when setting up new email account [CHAR LIMIT=45] -->
   <string name="account_setup_basics_title">Konto seadistamine</string>
+  <!-- Headline of screen when setting up new email account (large text over divider)
+        [CHAR LIMIT=none] -->
   <string name="account_setup_basics_headline">Meilikonto</string>
+  <!-- On "Set up email" screen, enthusiastic welcome message. -->
   <string name="accounts_welcome">Seadistage oma konto vaid mõne sammuga.</string>
+  <!-- On "Set up email" screen, hint for account email address text field -->
   <string name="account_setup_basics_email_label">E-posti aadress</string>
+  <!-- Button name on "Set up email" screen [CHAR LIMIT=20] -->
   <string name="account_setup_basics_manual_setup_action">Seadista käsitsi</string>
+  <!-- Toast when we can't build a URI from the given email & password -->
+  <!-- Note, the error message in the toast is purposefully vague, because I *don't* know
+        exactly what's wrong. -->
   <string name="account_setup_username_password_toast">Sisestage kehtiv e-posti aadress ja parool.</string>
+  <!-- Title of dialog shown when a duplicate account is created -->
   <string name="account_duplicate_dlg_title">Duplikaatkonto</string>
+  <!-- Message of dialog shown when a duplicate account is created.  The display name of
+         the duplicate account is displayed. -->
   <string name="account_duplicate_dlg_message_fmt">Kasutate juba konto „<xliff:g id="DUPLICATE">%s</xliff:g>” puhul seda kasutajanime.</string>
+  <!-- String that is displayed as error text for passwords with leading or trailing
+         spaces.  [CHAR LIMIT=none] -->
   <string name="account_password_spaces_error">See parool algab või lõpeb ühe või mitme tühikuga. Paljud serverid ei toeta tühikutega paroole.</string>
+  <!-- On check-settings screen, this is the initially-displayed message. -->
   <string name="account_setup_check_settings_retr_info_msg">Kontoteabe saamine ...</string>
+  <!-- Appears on screen while system is checking incoming server settings -->
   <string name="account_setup_check_settings_check_incoming_msg">Serveri seadete kontrollimine ...</string>
+  <!-- Appears on screen while system is checking outgoing server settings -->
   <string name="account_setup_check_settings_check_outgoing_msg">SMTP seadete kontrollimine …</string>
+  <!-- Appears on screen while system is creating the account -->
   <string name="account_setup_creating_account_msg">Konto loomine ...</string>
+  <!-- Title of "Set up email" screen after success [CHAR LIMIT=45] -->
   <string name="account_setup_names_title">Konto seadistamine</string>
+  <!-- Text that appears on "Set up email" screen after successfully setting up an account
+        [CHAR LIMIT=none] -->
   <string name="account_setup_names_headline">Teie konto on seadistatud ja meilid on tulekul.</string>
+  <!-- On "Set up email" screen, label of text field -->
   <string name="account_setup_names_account_name_label">Anna sellele kontole nimi (valikuline)</string>
+  <!-- On "Set up email" screen, label of text field -->
   <string name="account_setup_names_user_name_label">Teie nimi (kuvatakse väljuvates sõnumites)</string>
+  <!-- On "Set up email" screen, error pop-up when user_name field is empty [CHAR LIMIT=none] -->
   <string name="account_setup_names_user_name_empty_error">See väli ei tohi tühi olla.</string>
+  <!-- Activity Title for the account type selector (IMAP or POP3 or EAS) [CHAR LIMIT=45] -->
   <string name="account_setup_account_type_title">Konto seadistamine</string>
+  <!-- Headline for the the account type selector (IMAP or POP3 or EAS) [CHAR LIMIT=none] -->
   <string name="account_setup_account_type_headline">Konto tüüp</string>
+  <!-- "Add new email account" screen, text that appears on screen -->
   <string name="account_setup_account_type_instructions">Mis tüüpi see konto on?</string>
+  <!-- "Incoming server settings" screen, title [CHAR LIMIT=45] -->
   <string name="account_setup_incoming_title">Konto seadistamine</string>
+  <!-- "Incoming server settings" screen, headline (text over divider) [CHAR LIMIT=none] -->
   <string name="account_setup_incoming_headline">Sissetuleva serveri seaded</string>
+  <!-- "Incoming server settings" screen, label for text field -->
   <string name="account_setup_incoming_username_label">Kasutajanimi</string>
+  <!-- "Incoming server settings" screen, label for text field -->
   <string name="account_setup_incoming_password_label">Parool</string>
+  <!-- "Incoming server settings" screen, label for text field -->
   <string name="account_setup_incoming_server_label">Server</string>
+  <!-- "Incoming server settings" screen, label for text field -->
   <string name="account_setup_incoming_port_label">Port</string>
+  <!-- "Incoming server settings" screen, label for pop-up menu -->
   <string name="account_setup_incoming_security_label">Turvalisuse tüüp</string>
+  <!-- "Incoming server settings" screen, option for "Security type" pop-up menu indicating
+        the desire for an unencrypted session -->
   <string name="account_setup_incoming_security_none_label">Puudub</string>
+  <!-- "Incoming server settings" screen, option for "Security type" pop-up menu indicating
+        the desire for an encrypted session on the selected port, accepting all SSL certificates -->
   <string name="account_setup_incoming_security_ssl_trust_certificates_label">SSL/TLS (Nõustuge kõigi sertifikaatidega)</string>
+  <!-- "Incoming server settings" screen, option for "Security type" pop-up menu indicating
+        the desire for an encrypted session on the selected port, including SSL certificate
+        checks -->
   <string name="account_setup_incoming_security_ssl_label">SSL/TLS</string>
+  <!-- "Incoming server settings" screen, option for "Security type" pop-up menu indicating
+        the desire for an encrypted session overlaid on a plain text session using the selected
+        port, accepting all SSL certificates -->
   <string name="account_setup_incoming_security_tls_trust_certificates_label">STARTTLS (nõustu kõigi sertifikaatidega)</string>
+  <!-- "Incoming server settings" screen, option for "Security type" pop-up menu indicating
+        the desire for an encrypted session overlaid on a plain text session on the selected
+        port, including SSL certificate checks -->
   <string name="account_setup_incoming_security_tls_label">STARTTLS</string>
+  <!-- "Incoming server settings" screen, label for pop-up menu -->
   <string name="account_setup_incoming_delete_policy_label">Kustuta meil serverist</string>
+  <!-- "Incoming server settings" screen, options in pop-up menu for Delete email from server: -->
+  <!-- "Incoming server settings" screen, options in pop-up menu for Delete email from server: -->
   <string name="account_setup_incoming_delete_policy_never_label">Mitte kunagi</string>
+  <!-- "Incoming server settings" screen, options in pop-up menu for Delete email from server: -->
   <string name="account_setup_incoming_delete_policy_delete_label">Kui kustutan postkastist</string>
+  <!-- "Incoming server settings" screen, label for setting IMAP path prefix: -->
   <string name="account_setup_incoming_imap_path_prefix_label">IMAP-i tee prefiks</string>
+  <!-- "Incoming server settings" screen, hint for setting IMAP path prefix: -->
   <string name="account_setup_incoming_imap_path_prefix_hint">Valikuline</string>
+  <!-- "Outgoing server settings" screen, title [CHAR LIMIT=45] -->
   <string name="account_setup_outgoing_title">Konto seadistamine</string>
+  <!-- "Outgoing server settings" screen, headline (text over divider) [CHAR LIMIT=none] -->
   <string name="account_setup_outgoing_headline">Väljuva serveri seaded</string>
+  <!-- On "Outgoing server settings" screen, label for text field -->
   <string name="account_setup_outgoing_smtp_server_label">SMTP-server</string>
+  <!-- On "Outgoing server settings" screen, label for text field -->
   <string name="account_setup_outgoing_port_label">Port</string>
+  <!-- On "Outgoing server settings" screen, label for pop-up menu -->
   <string name="account_setup_outgoing_security_label">Turvalisuse tüüp</string>
+  <!-- On "Outgoing server settings" screen, label for check box -->
   <string name="account_setup_outgoing_require_login_label">Sisselogimine on nõutav</string>
+  <!-- On "Outgoing server settings" screen, label for text field -->
   <string name="account_setup_outgoing_username_label">Kasutajanimi</string>
+  <!-- On "Outgoing server settings" screen, label for text field -->
   <string name="account_setup_outgoing_password_label">Parool</string>
+  <!-- On "Exchange" setup screen, a heading title for the current client certificate [CHAR LIMIT=50] -->
   <string name="account_setup_exchange_certificate_title">Kliendisertifikaat</string>
+  <!-- On "Exchange" setup screen, a button label to include a client certificate [CHAR LIMIT=35] -->
   <string name="account_setup_exchange_select_certificate">Vali</string>
+  <!-- On "Exchange" setup screen, a button label to include a client certificate [CHAR LIMIT=35] -->
   <string name="account_setup_exchange_use_certificate">Kasuta kliendisertifikaati</string>
+  <!-- On "Exchange" setup screen, a button label to remove the currently used client certificate [CHAR LIMIT=35] -->
   <string name="account_setup_exchange_remove_certificate">Eemalda</string>
+  <!-- On "Exchange" setup screen, placeholder text to indicate no client
+         certificate is used [CHAR LIMIT=50] -->
   <string name="account_setup_exchange_no_certificate">Puudub</string>
+  <!-- On "Exchange" setup screen, the exchange device-id label [CHAR LIMIT=30] -->
   <string name="account_setup_exchange_device_id_label">Mobiilseadme ID</string>
+  <!-- In Account setup options screen, Activity headline [CHAR LIMIT=none] -->
   <string name="account_setup_options_headline">Konto valikud</string>
+  <!-- In Account setup options & Account Settings screens, label for email check frequency option -->
   <string name="account_setup_options_mail_check_frequency_never">Mitte kunagi</string>
+  <!-- In Account setup options & Account Settings screens, label for email check frequency option -->
   <string name="account_setup_options_mail_check_frequency_push">Automaatne (sundvalik)</string>
+  <!-- In Account setup options & Account Settings screens, email check frequency option -->
   <string name="account_setup_options_mail_check_frequency_5min">Iga 5 minuti järel</string>
+  <!-- In Account setup options & Account Settings screens, email check frequency option -->
   <string name="account_setup_options_mail_check_frequency_10min">Iga 10 minuti järel</string>
+  <!-- In Account setup options & Account Settings screens, email check frequency option -->
   <string name="account_setup_options_mail_check_frequency_15min">Iga 15 minuti järel</string>
+  <!-- In Account setup options & Account Settings screens, email check frequency option -->
   <string name="account_setup_options_mail_check_frequency_30min">Iga 30 minuti järel</string>
+  <!-- In Account setup options & Account Settings screens, email check frequency option -->
   <string name="account_setup_options_mail_check_frequency_1hour">Kord tunnis</string>
+  <!-- In Account setup options screen, check box to auto-download attachments  [CHAR LIMIT=none] -->
   <string name="account_setup_options_background_attachments_label">Manuste automaatne allalaadimine WiFi-ühenduse olemasolul</string>
+  <!-- Dialog title when "setup" could not finish -->
   <string name="account_setup_failed_dlg_title">Ei saanud lõpetada</string>
+  <!-- In Account setup options screen, label for email lookback selector -->
   <string name="account_setup_options_mail_window_label">Päevi sünkroonimiseks</string>
+  <!-- In account setup options & account settings screens (exchange), sync window length; this
+        implies loading a 'reasonable' number of messages [CHAR LIMIT=25] -->
   <string name="account_setup_options_mail_window_auto">Automaatne</string>
+  <!-- A sync window length setting (i.e. load messages this far back) [CHAR LIMIT=25]  -->
   <string name="account_setup_options_mail_window_1day">Viimane päev</string>
+  <!-- A sync window length setting (i.e. load messages this far back) [CHAR LIMIT=25]  -->
   <string name="account_setup_options_mail_window_3days">Viimased kolm päeva</string>
+  <!-- A sync window length setting (i.e. load messages this far back) [CHAR LIMIT=25]  -->
   <string name="account_setup_options_mail_window_1week">Eelmine nädal</string>
+  <!-- A sync window length setting (i.e. load messages this far back) [CHAR LIMIT=25]  -->
   <string name="account_setup_options_mail_window_2weeks">Viimased kaks nädalat</string>
+  <!-- A sync window length setting (i.e. load messages this far back) [CHAR LIMIT=25]  -->
   <string name="account_setup_options_mail_window_1month">Eelmine kuu</string>
+  <!-- A sync window length setting (i.e. load messages this far back) [CHAR LIMIT=25]  -->
   <string name="account_setup_options_mail_window_all">Kõik</string>
+  <!-- Per-mailbox sync window setting.  This means "use the account's sync window setting" [CHAR LIMIT=40] -->
   <string name="account_setup_options_mail_window_default">Kasuta konto vaikeseadet</string>
+  <!-- "Setup could not finish" dialog text; e.g., Username or password incorrect -->
   <string name="account_setup_failed_dlg_auth_message">Kasutajanimi või parool on vale.</string>
+  <!-- "Setup could not finish" dialog text; e.g., Username or password incorrect\n(ERR01 Account does not exist) -->
   <string name="account_setup_failed_dlg_auth_message_fmt">Sisselogimine ebaõnnestus.\n(<xliff:g id="ERROR">%s</xliff:g>)</string>
+  <!-- Account setup autodiscover auth failure dialog title. This is shown when autodiscover hits
+        an "access denied" server error, which could imply incorrect username/password or that no
+        autodiscover service has been configured for the domain [CHAR LIMIT=40] -->
   <string name="account_setup_autodiscover_dlg_authfail_title">Probleem konto seadistusega</string>
+  <!-- Account setup autodiscover auth failure dialog message. This is shown when autodiscover hits
+        an "access denied" server error, which could imply incorrect username/password or that no
+        autodiscover service has been configured for the domain [CHAR LIMIT=NONE] -->
   <string name="account_setup_autodiscover_dlg_authfail_message">Veenduge, et kasutajanimi, parool ja kontoseaded on õiged.</string>
+  <!-- An error message presented to the user when the server's identity
+         cannot be established or trusted [CHAR LIMIT=NONE] -->
   <string name="account_setup_failed_dlg_certificate_message">Serveriga ei saa turvaliselt ühendust.</string>
+  <!-- An error message presented to the user when the server's identity
+         cannot be established or trusted [CHAR LIMIT=NONE] -->
   <string name="account_setup_failed_dlg_certificate_message_fmt">Serveriga ei saa turvaliselt ühendust.\n(<xliff:g id="ERROR">%s</xliff:g>)</string>
+  <!-- An error message presented to the user when the server requires a
+         client certificate to connect [CHAR LIMIT=NONE] -->
   <string name="account_setup_failed_certificate_required">Kliendi sertifikaat on nõutav. Kas soovite luua ühenduse serveriga kliendi sertifikaadi abil?</string>
+  <!-- An error message presented to the user when the certificate they
+         specified for connecting to a server is inaccessible [CHAR LIMIT=NONE] -->
   <string name="account_setup_failed_certificate_inaccessible">Sertifikaat on kehtetu või juurdepääsmatu.</string>
+  <!-- Dialog text for ambiguous setup failure; server error/bad credentials [CHAR LIMIT=none] -->
   <string name="account_setup_failed_check_credentials_message">Server saatis veateate. Kontrollige kasutajanime ja parooli ning proovige uuesti.</string>
+  <!-- "Setup could not finish" dialog text; e.g., Cannot connect to server -->
   <string name="account_setup_failed_dlg_server_message">Serveriga ei saa ühendust.</string>
+  <!-- "Setup could not finish" dialog text; e.g., Cannot connect to server\n(Connection timed out) -->
   <string name="account_setup_failed_dlg_server_message_fmt">Serveriga ei saa ühendust.\n(<xliff:g id="ERROR">%s</xliff:g>)</string>
+  <!-- Additional diagnostic text when TLS was required but the server doesn't support it -->
   <string name="account_setup_failed_tls_required">TLS on vajalik, kuid server ei toeta seda.</string>
+  <!-- Additional diagnostic text when server does not support any of our authentication methods -->
   <string name="account_setup_failed_auth_required">Server ei toeta autentimismeetodeid.</string>
+  <!-- Additional diagnostic text when server connection failed due to security error -->
   <string name="account_setup_failed_security">Turvavea tõttu ei saanud serveriga ühendust luua.</string>
+  <!-- Additional diagnostic text when server connection failed due to io error (connection) -->
   <string name="account_setup_failed_ioerror">Serveriga ei saanud luua ühendust.</string>
+  <!-- Additional diagnostic text when server connection failed due to our inability to support a
+         required EAS protocol version [CHAR LIMIT=none] -->
   <string name="account_setup_failed_protocol_unsupported">Sisestasite vale serveri aadressi või nõuab server protokolli versiooni, mida e-post ei toeta.</string>
+  <!-- Additional diagnostic text when server access was denied; the user should contact the
+         administrator of the server for more information [CHAR LIMIT=none] -->
   <string name="account_setup_failed_access_denied">Teil puudub luba selle serveriga sünkroonimiseks. Lisateabe saamiseks võtke ühendust oma serveri administraatoriga.</string>
+  <!-- Dialog title when validation requires security provisioning (e.g. support
+         for device lock PIN, or remote wipe.) and we ask the user permission before continuing -->
   <string name="account_setup_security_required_title">Kaugturvalisuse haldamine</string>
+  <!-- Additional diagnostic text when validation requires security provisioning (e.g. support
+         for device lock PIN, or remote wipe.) and we ask the user permission before continuing.
+         [CHAR LIMIT=none] -->
   <string name="account_setup_security_policies_required_fmt">Server <xliff:g id="SERVER">%s</xliff:g> nõuab mõnede teie Android-seadme turvafunktsioonide kaugjuhtimise lubamist. Kas soovite lõpetada konto seadistamise?</string>
+  <!-- Additional diagnostic text when validation failed due to required provisioning not
+         being supported [CHAR LIMIT=none] -->
   <string name="account_setup_failed_security_policies_unsupported">See server nõuab turvafunktsioone, mida teie Android-seade ei toeta, sh: <xliff:g id="ERROR">%s</xliff:g></string>
+  <!-- The user name can only be changed during initial account setup. [CHAR LIMIT=none] -->
   <string name="account_setup_username_uneditable_error">Te ei saa muuta konto kasutajanime. Mõne muu kasutajanimega konto lisamiseks puudutage valikut Lisa konto.</string>
+  <!-- Warning given to users when they request disabling device administration (i.e. that their
+         administered accounts will be deleted) [CHAR LIMIT=none] -->
   <string name="disable_admin_warning">HOIATUS: meilirakenduse volituse inaktiveerimine seadme haldamiseks kustutab kõik meilikontod, mis seda nõuavad, sh nende meilid, kontaktid, kalendrisündmused ja muud andmed.</string>
+  <!-- Dialog shown when the account requires some amount of device security provisioning,
+         just before jumping into system settings such as Device Policy grant, PIN/password,
+         or encryption setup.  [CHAR_LIMIT=40] -->
   <string name="account_security_dialog_title">Turvavärskendus</string>
+  <!-- Additional diagnostic text when the account requires some amount of device security
+         provisioning, just before jumping into system settings such as Device Policy grant,
+         PIN/password, or encryption setup.  [CHAR LIMIT=none] -->
   <string name="account_security_dialog_content_fmt"><xliff:g id="ACCOUNT">%s</xliff:g> nõuab, et värskendaksite oma turvaseadeid.</string>
+  <!-- Notification ticker when device security required (note: unused in Holo XL) -->
   <string name="security_unsupported_ticker_fmt">Kontot „<xliff:g id="ACCOUNT">%s</xliff:g>” ei saa turvanõuete tõttu sünkroonida.</string>
+  <!-- Notification ticker when device security required (note: unused in Holo XL) -->
   <string name="security_needed_ticker_fmt">Konto „<xliff:g id="ACCOUNT">%s</xliff:g>” vajab turvaseadete värskendamist.</string>
+  <!-- Notification ticker when device security required (note: unused in Holo XL) -->
   <string name="security_changed_ticker_fmt">Konto „<xliff:g id="ACCOUNT">%s</xliff:g>” muutis turvaseadeid. Kasutaja ei pea midagi tegema.</string>
+  <!-- Notification content title when device security required [CHAR_LIMIT=30] -->
   <string name="security_notification_content_update_title">Nõutav turvavärskendus</string>
+  <!-- Notification content title when device security policies have changed [CHAR_LIMIT=36] -->
   <string name="security_notification_content_change_title">Turvaeeskirjad on muutunud</string>
+  <!-- Notification content title when device security policies cannot be met [CHAR_LIMIT=30] -->
   <string name="security_notification_content_unsupported_title">Turbe-eeskirju ei saa täita</string>
+  <!-- Title of the activity that dispatches changes to device security.  Not normally seen. -->
   <string name="account_security_title">Seadme turvalisus</string>
+  <!-- Additional diagnostic text when the email app asserts control of the phone.
+        [CHAR LIMIT=none] -->
   <string name="account_security_policy_explanation_fmt">Server <xliff:g id="SERVER">%s</xliff:g> nõuab mõnede teie Android-seadme turvafunktsioonide kaugjuhtimise lubamist.</string>
+  <!-- "Setup could not finish" dialog action button -->
   <string name="account_setup_failed_dlg_edit_details_action">Muuda üksikasju</string>
+  <!-- Notification ticker when device password is getting ready to expire [CHAR_LIMIT=80] -->
   <string name="password_expire_warning_ticker_fmt">„<xliff:g id="ACCOUNT">%s</xliff:g>” nõuab ekraaniluku PIN-koodi või parooli muutmist.</string>
+  <!-- Notification content title when device password is getting ready to expire
+            [CHAR_LIMIT=30] -->
   <string name="password_expire_warning_content_title">Ekraaniluku parool on aegumas</string>
+  <!-- Notification ticker when device password has expired [CHAR_LIMIT=80] -->
   <string name="password_expired_ticker">Teie ekraaniluku PIN-kood või parool on aegunud.</string>
+  <!-- Notification content title when device password has expired [CHAR_LIMIT=28] -->
   <string name="password_expired_content_title">Ekraaniluku parool on aegunud</string>
+  <!-- Dialog title if device pin/password is going to expire soon. [CHAR_LIMIT=40] -->
   <string name="password_expire_warning_dialog_title">Ekraaniluku parool on aegumas</string>
+  <!-- Dialog content device pin/password is going to expire soon. [CHAR_LIMIT=none] -->
   <string name="password_expire_warning_dialog_content_fmt">Teil tuleb varsti lukustuskuva PIN-koodi või parooli muuta, vastasel korral kustutatakse konto <xliff:g id="ACCOUNT">%s</xliff:g> andmed. Kas soovite kohe muuta?</string>
+  <!-- Dialog title if device pin/password has already expired. [CHAR_LIMIT=40] -->
   <string name="password_expired_dialog_title">Ekraaniluku parool on aegunud</string>
+  <!-- Dialog content device pin/password has already expired. [CHAR_LIMIT=none] -->
   <string name="password_expired_dialog_content_fmt">Konto <xliff:g id="ACCOUNT">%s</xliff:g> andmed kustutatakse teie seadmest. Taastamiseks muutke oma lukustuskuva PIN-koodi või parooli. Kas soovite kohe muuta?</string>
+  <!-- On AccountSettingsXL, dialog text if you try to exit in/out/eas fragment (server settings)
+         without checking/saving [CHAR LIMIT=none]-->
   <string name="account_settings_exit_server_settings">Kas loobute salvestamata muudatustest?</string>
+  <!-- On AccountSettingsXL, dialog title if you were brought here due to a login failure.
+        [CHAR_LIMIT=40] -->
   <string name="account_settings_login_dialog_title">Sisselogimine ebaõnnestus</string>
+  <!-- Dialog content if you were brought here due to a login failure.
+        [CHAR_LIMIT=none] -->
   <string name="account_settings_login_dialog_content_fmt">Konto <xliff:g id="ACCOUNT">%s</xliff:g> kasutajanimi või parool on vale. Kas soovite neid kohe värskendada?</string>
+  <!-- Dialog content if you were brought here due to a login failure, and the server provided a reason
+        [CHAR_LIMIT=none] -->
   <string name="account_settings_login_dialog_reason_fmt">Sisselogimine kontole <xliff:g id="ACCOUNT">%s</xliff:g> ebaõnnestus; server vastas: <xliff:g id="REASON">%s</xliff:g> Kas soovite oma kasutajanime ja/või salasõna värskendada?</string>
+  <!-- On Settings screen, setting option name -->
+  <!-- Title of account preference for downloading attachments in background [CHAR LIMIT=32] -->
   <string name="account_settings_background_attachments_label">Manuste allalaadimine</string>
+  <!-- Summary of account preference for downloading attachments in background [CHAR LIMIT=64] -->
   <string name="account_settings_background_attachments_summary">Hiljutiste sõnumite manuste automaatne allalaadimine WiFi kaudu</string>
   <string name="account_settings_notify_label">Meiliteatised</string>
+  <!-- On Settings screen, summary line when called via AccountManager for Exchange accounts
+        [CHAR LIMIT=50] -->
   <string name="account_settings_summary">Sünkroonimise sagedus, teatised jne.</string>
+  <!-- On Settings screen, setting summary text -->
   <string name="account_settings_notify_summary">Saada teatis meili saabumisel</string>
+  <!-- On Settings screen, setting option name and title of dialog box that opens -->
   <string name="account_settings_mail_check_frequency_label">Sünkroonimissagedus</string>
+  <!-- On Settings screen, setting option name -->
   <string name="account_settings_incoming_label">Sissetulevate seaded</string>
+  <!-- On Settings screen, setting option summary [CHAR LIMIT=64] -->
   <string name="account_settings_incoming_summary">Kasutajanimi, parool ja muud sissetuleva posti serveri seaded</string>
+  <!-- On Settings screen, setting option name -->
   <string name="account_settings_outgoing_label">Väljuvad seaded</string>
+  <!-- On Settings screen, setting option summary [CHAR LIMIT=64] -->
   <string name="account_settings_outgoing_summary">Kasutajanimi, parool ja muud väljamineva posti serveri seaded</string>
+  <!-- On Settings screen, setting option name -->
   <string name="account_settings_enforced_label">Eeskirjad on jõustatud</string>
+  <!-- On Settings screen, setting option summary [CHAR LIMIT=64] -->
   <string name="account_settings_enforced_summary">Puudub</string>
+  <!-- On Settings screen, setting option name -->
   <string name="account_settings_unsupported_label">Toeta eeskirjad</string>
+  <!-- On Settings screen, setting option summary [CHAR LIMIT=64] -->
   <string name="account_settings_unsupported_summary">Puudub</string>
+  <!-- On Settings screen, label for button that attempts to sync the account -->
   <string name="account_settings_retry_label">Proovi sünkroonida</string>
+  <!-- On Settings screen, summmary for button that attempts to sync an account [CHAR LIMIT=64] -->
   <string name="account_settings_retry_summary">Konto sünkroonimiseks puudutage siin</string>
+  <!-- On Settings screen, setting option name -->
   <string name="account_settings_description_label">Konto nimi</string>
+  <!-- On Settings screen, setting option name -->
   <string name="account_settings_name_label">Teie nimi</string>
+  <!-- On Settings screen, setting option name. Allows user to modify saved quick responses
+        for insertion in message body. [CHAR_LIMIT=24]-->
   <string name="account_settings_edit_quick_responses_label">Kiirvastused</string>
+  <!-- On Settings screen, setting option summary [CHAR LIMIT=64] -->
   <string name="account_settings_edit_quick_responses_summary">Muutke teksti, mida meilide koostamisel sageli sisestate</string>
+  <!-- On Settings screen, section heading -->
   <string name="account_settings_notifications">Teadistusseaded</string>
+  <!-- On Settings screen, section heading for data usage [CHAR LIMIT=70] -->
   <string name="account_settings_data_usage">Andmete kasutamine</string>
+  <!-- On Settings screen, section heading -->
   <string name="account_settings_policies">Turvaeeskirjad</string>
   <string name="system_folders_title">Süsteemikaustad</string>
   <string name="system_folders_trash_title">Kaust Prügikast</string>
@@ -221,34 +472,76 @@
   <string name="system_folders_sent_title">Saadetud üksuste kaust</string>
   <string name="system_folders_sent_summary">Serverist saadetud üksuste kausta valimine</string>
   <string name="system_folders_sent_dlg">Serverist saadetud üksuste kausta valimine</string>
+  <!-- On settings screen, dialog heading informing user to create or edit a quick response -->
   <string name="edit_quick_response_dialog">Kiirvastus</string>
+  <!-- On settings screen, edit quick response dialog's "save" button -->
   <string name="save_action">Salvesta</string>
+  <!-- On settings screen, sync contacts check box label [CHAR LIMIT=20]-->
   <string name="account_settings_sync_contacts_enable">Sünkrooni kontaktid</string>
+  <!-- On settings screen, sync contacts summary text [CHAR LIMIT=35] -->
   <string name="account_settings_sync_contacts_summary">Konto kontaktide sünkroonimine</string>
+  <!-- On settings screen, sync calendar check box label [CHAR LIMIT=20]-->
   <string name="account_settings_sync_calendar_enable">Sünkrooni kalender</string>
+  <!-- On settings screen, sync calendar summary text [CHAR LIMIT=50] -->
   <string name="account_settings_sync_calendar_summary">Sünkrooni konto kalendri sündmused</string>
+  <!-- On settings screen, sync email check box label [CHAR LIMIT=20]-->
   <string name="account_settings_sync_email_enable">Sünkrooni meil</string>
+  <!-- On settings screen, sync email summary text [CHAR LIMIT=35] -->
   <string name="account_settings_sync_email_summary">Konto meili sünkroonimine</string>
+  <!-- On Settings screen, vibrate pop-up menu label -->
   <string name="account_settings_vibrate_when_label">Vibreering</string>
+  <!-- On Settings screen, setting option name -->
   <string name="account_settings_ringtone">Vali helin</string>
+  <!-- On Settings screen, section heading -->
   <string name="account_settings_servers">Serveri seaded</string>
+  <!-- Mailbox settings activity title [CHAR LIMIT=none] -->
   <string name="mailbox_settings_activity_title">Sünkroonimisvalikud</string>
+  <!-- Mailbox settings activity title, with the target folder name [CHAR LIMIT=none] -->
   <string name="mailbox_settings_activity_title_with_mailbox">Sünkroonimisvalikud (<xliff:g id="MAILBOXX_NAME">%s</xliff:g>)</string>
+  <!-- On mailbox settings screen: Whether to sync this mailbox when the account syncs. -->
   <string name="mailbox_settings_sync_enabled_label">Sünkrooni see kaust</string>
+  <!-- On mailbox settings screen: Explanatory text for what it means to "sync this folder". -->
   <string name="mailbox_settings_sync_enabled_summary">Sõnumid laaditakse alla ühenduse loomisel</string>
+  <!-- On mailbox settings screen: Mailbox sync window (the number of days to synchronize email for) setting label [CHAR LIMIT=none] -->
   <string name="mailbox_settings_mailbox_sync_window_label">Sünkroonitava e-posti päevade arv</string>
+  <!-- Dialog title for the choosing whether to show checkboxes or sender image [CHAR LIMIT=200] -->
   <string name="prefDialogTitle_conversationListIcon">Saatja pilt</string>
+  <!-- Message that appears when adding a Windows Live Hotmail Plus account -->
   <string name="provider_note_live">Ainult mõnel kontol „Plus” on POP-juurdepääs, mis lubab programmiga ühendust võtta. Kui te ei saa oma õige e-posti aadressi ja parooliga sisse logida, pole teil võib-olla tasulist kontot „Plus”. Neile meilikontodele juurdepääsuks käivitage veebibrauser.</string>
+  <!-- Name of Microsoft Exchange account type; used by AccountManager -->
+  <!-- Name of Microsoft Exchange account type; used by AccountManager -->
+  <!-- Message that appears if the AccountManager cannot create the system Account -->
   <string name="system_account_create_failed">Konto loomine ebaõnnestus. Proovige uuesti.</string>
+  <!-- Strings that support the DeviceAdmin / DevicePolicyManager API -->
+  <!-- Name of the DeviceAdmin (seen in settings & in user confirmation screen) -->
   <string name="device_admin_label">E-post</string>
+  <!-- Long-form description of the DeviceAdmin (2nd line in settings & in user conf. screen) -->
   <string name="device_admin_description">Võimaldab serveripõhiseid turvaeeskirju</string>
+  <!-- Settings activity title [CHAR LIMIT=40]-->
   <string name="settings_activity_title">Seaded</string>
+  <!-- General Preferences Screen -->
+  <!-- Label in preferences header to describe general preferences [CHAR LIMIT=32] -->
   <string name="header_label_general_preferences">Üldseaded</string>
+  <!-- General preference: Label of the setting for requiring confirmation before
+         message deletion [CHAR LIMIT=32] -->
   <string name="general_preference_confirm_delete_label">Kinnitamine enne kustutamist</string>
+  <!-- General preference: Description of the setting for requiring confirmation before
+         message deletion [CHAR LIMIT=64] -->
+  <!-- TODO: Delete this string, no longer used -->
   <string name="general_preference_confirm_delete_summary">Sõnumid</string>
+  <!-- General preference: Label of the setting for requiring confirmation before
+         message sending [CHAR LIMIT=32] -->
   <string name="general_preference_confirm_send_label">Kinnitamine enne saatmist</string>
+  <!-- General preference: Description of the setting for requiring confirmation before
+         message sending [CHAR LIMIT=32] -->
+  <!-- TODO: Delete this string, no longer used -->
   <string name="general_preference_confirm_send_summary">Sõnumid</string>
+  <!-- General preference: Label of the setting for the text zoom.  [CHAR LIMIT=32] -->
   <string name="general_preference_text_zoom_label">Sõnumi teksti suurus</string>
+  <!-- General preference: Description of each setting for text zoom.  The entries here must
+         correspond to the strings general_preference_text_zoom_tiny,
+         general_preference_text_zoom_small, general_preference_text_zoom_normal, etc.
+         [CHAR LIMIT=64] -->
   <string-array name="general_preference_text_zoom_summary_array">
     <item>Väga väike tekst</item>
     <item>Väike tekst</item>
@@ -256,30 +549,63 @@
     <item>Suur tekst</item>
     <item>Hiiglaslik tekst</item>
   </string-array>
+  <!-- The message text size values -->
+  <!-- General preference: Title of the dialog box with options for text zoom. [CHAR LIMIT=32] -->
   <string name="general_preference_text_zoom_dialog_title">Sõnumi teksti suurus</string>
+  <!-- General preference:  Text zoom.  Value is "tiny" (-2) [CHAR LIMIT=32] -->
   <string name="general_preference_text_zoom_tiny">Pisike</string>
+  <!-- General preference:  Text zoom.  Value is "small" (-1) [CHAR LIMIT=32] -->
   <string name="general_preference_text_zoom_small">Väike</string>
+  <!-- General preference:  Text zoom.  Value is "normal" (0) [CHAR LIMIT=32] -->
   <string name="general_preference_text_zoom_normal">Tavaline</string>
+  <!-- General preference:  Text zoom.  Value is "large" (+1) [CHAR LIMIT=32] -->
   <string name="general_preference_text_zoom_large">Suur</string>
+  <!-- General preference:  Text zoom.  Value is "huge" (+2) [CHAR LIMIT=32] -->
   <string name="general_preference_text_zoom_huge">Väga suur</string>
+  <!-- Generic string shown instead of regular numbers, when a number is larger than 999.
+         This should not be altered if the original string ("999+") makes sense in the
+         target language. Typical alternatives include "+999" and ">999".  [CHAR_LIMIT=4] -->
   <string name="more_than_999">999+</string>
+  <!-- A policy disallowing the user of the device's camera [CHAR LIMIT=50] -->
   <string name="policy_dont_allow_camera">Keela seadme kaamera kasutamine</string>
+  <!-- A policy requiring a device lock screen password [CHAR LIMIT=50] -->
   <string name="policy_require_password">Nõua seadme parooli</string>
+  <!-- A policy disallowing the reuse of recent passwords [CHAR LIMIT=50] -->
   <string name="policy_password_history">Piira hiljutiste paroolide taaskasutamist</string>
+  <!-- A policy that forces a password to expire after a set period of time [CHAR LIMIT=50] -->
   <string name="policy_password_expiration">Paroolide aegumise nõue</string>
+  <!-- A policy requiring a maximum amount of time the device can sit idle before the lock screen
+        is activated [CHAR LIMIT=50] -->
   <string name="policy_screen_timeout">Nõua jõudeolekus seadme ekraanilukustust</string>
+  <!-- A policy limiting the number of old calendar events synced [CHAR LIMIT=50] -->
   <string name="policy_calendar_age">Piirab sünkroonitavate kalendrisündmuste arvu</string>
+  <!-- A policy limiting the number of emails synced [CHAR LIMIT=50] -->
   <string name="policy_email_age">Piirab sünkroonitavate meilide arvu</string>
+  <!-- The four strings below represent "quick responses" which the user can insert into a
+        message being composed with just a couple of taps.  These four responses MUST be defined,
+        but need not include a string (i.e. they are optional).  Further, the responses can be
+        customized as necessary by the translator, in case one or more of these is inappropriate in
+        a particular locale or if there are better options available. -->
+  <!-- A "quick response", i.e. a quick reply to a received mail [CHAR LIMIT=NONE] -->
   <string name="quick_1">Aitäh!</string>
+  <!-- A "quick response", i.e. a quick reply to a received mail [CHAR LIMIT=NONE] -->
   <string name="quick_2">Mulle sobib!</string>
+  <!-- A "quick response", i.e. a quick reply to a received mail [CHAR LIMIT=NONE] -->
   <string name="quick_3">Loen seda hiljem ja võtan siis ühendust.</string>
+  <!-- A "quick response", i.e. a quick reply to a received mail [CHAR LIMIT=NONE] -->
   <string name="quick_4">Lepime kokku kohtumise, et seda arutada.</string>
+  <!-- This is the message warning the user that they must sync manually when roaming. [CHAR LIMIT=none]-->
   <string name="require_manual_sync_message">Taustsünkroonimine on sellel kontol rändluse ajal keelatud.</string>
+  <!-- This is shown when a user responds to a meeting invitation [CHAR LIMIT=none]-->
   <string name="confirm_response">Vastuse saatmine ...</string>
+  <!-- Used by AccountManager -->
   <string name="imap_name">IMAP</string>
   <string name="pop3_name">POP3</string>
   <string name="folder_picker_title">Kausta valija</string>
+  <!-- Displayed when the user must pick his server's trash folder from a list [CHAR LIMIT 30]-->
   <string name="trash_folder_selection_title">Valige <xliff:g id="ACCOUNT">%s</xliff:g> jaoks serveri prügikast</string>
+  <!-- Displayed when the user must pick his server's sent items folder from a list [CHAR LIMIT 30]-->
   <string name="sent_folder_selection_title">Valige <xliff:g id="ACCOUNT">%s</xliff:g> jaoks serverikaust</string>
   <string name="account_waiting_for_folders_msg">Kaustaloendi laadimine ...</string>
+  <!-- Feedback uri to be used when feedback is enabled -->
 </resources>

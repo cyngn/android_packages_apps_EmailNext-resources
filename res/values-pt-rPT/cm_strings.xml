@@ -16,10 +16,14 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- Name of EmailProvider shown in AccountManager -->
   <string name="email_provider">E-mail</string>
+  <!-- In the UI, the drafts will be displayed with this name -->
   <string name="mailbox_name_display_local_drafts">Rascunhos locais</string>
   <string name="mailbox_name_display_server_drafts">Rascunhos do servidor</string>
+  <!-- In the UI, the folder to-do will be displayed with this name -->
   <string name="mailbox_name_display_todo">Tarefas pendentes</string>
+  <!-- In the UI, the archive will be displayed with this name -->
   <string name="mailbox_name_display_archive">Arquivo</string>
   <string name="mailbox_name_local_only_display_name"> - Local</string>
   <string name="account_setup_start_email_address_hint">Digite o seu endereço de e-mail</string>
@@ -27,52 +31,86 @@
   <string name="account_setup_start_get_started_button">Iniciar</string>
   <string name="account_setup_start_login_button">Entrar</string>
   <string name="account_setup_start_invalid_email_address">Endereço de e-mail inválido</string>
+  <!-- hint for account email password text field -->
   <string name="password_label">Palavra-passe</string>
   <string name="account_setup_basics_progress_message">Descoberta automática em curso</string>
+  <!-- In Account setup options screen, Activity title [CHAR LIMIT=45] -->
   <string name="account_setup_options_title">Personalizar</string>
+  <!-- In Account setup options screen, label for email check frequency selector -->
   <string name="account_setup_options_mail_check_frequency_label">Verificar a minha caixa de entrada</string>
+  <!-- In Account setup options & Account Settings screens, email check frequency option -->
   <string name="account_setup_options_mail_check_frequency_2hour">A cada 2 horas</string>
+  <!-- In Account setup options & Account Settings screens, email check frequency option -->
   <string name="account_setup_options_mail_check_frequency_4hour">A cada 4 horas</string>
+  <!-- In Account setup options & Account Settings screens, email check frequency option -->
   <string name="account_setup_options_mail_check_frequency_1day">Todos os dias</string>
+  <!-- In Account setup options & Account Settings screens, check box for new-mail notification -->
   <string name="account_setup_options_notify_label"><b>Receber notificação</b> de e-mails novos</string>
+  <!-- In Account setup options screen, optional check box to also sync contacts -->
   <string name="account_setup_options_sync_contacts_label"><b>Sincronizar contactos</b> a partir desta conta</string>
+  <!-- In Account setup options screen, optional check box to also sync calendar -->
   <string name="account_setup_options_sync_calendar_label"><b>Sincronizar o calendário</b> a partir desta conta</string>
+  <!-- In Account setup options screen, check box to sync email -->
   <string name="account_setup_options_sync_email_label"><b>Sincronizar e-mail</b> a partir desta conta</string>
   <string name="account_setup_options_disable_convo_threading_label">Desligar tópicos de conversa</string>
+  <!-- On Settings screen, setting option for showing all images -->
   <string name="account_settings_show_all_images_title">Imagens</string>
   <string name="account_settings_show_all_images_show">Mostrar sempre</string>
   <string name="account_settings_show_all_images_ask">Perguntar antes de mostrar</string>
+  <!-- On Settings Screen, setting option for setting the account color -->
   <string name="account_settings_account_color_title">Cor da conta</string>
   <string name="account_settings_account_color_summary">Editar a cor para esta conta</string>
   <string name="account_settings_account_color_dialog_title">Escolher uma cor</string>
+  <!-- On Settings screen, led notification title label -->
   <string name="account_settings_led_notification_label">Ativar notificações LED</string>
   <string name="account_settings_led_notification_custom_color">Usar cor do LED personalizada</string>
+  <!-- On Settings screen, led color title and summary label -->
   <string name="account_settings_led_color_label">Cor do LED personalizada</string>
   <string name="account_settings_led_color_summary">O valor padrão é a cor da conta</string>
+  <!-- On Settings screen, tutorial header title label -->
   <string name="account_settings_tutorial_header_title">Ver tutorial</string>
+  <!-- On Settings screen, title for label/move preference -->
   <string name="account_settings_move_label_title">Etiquetar/Mover mensagens</string>
+  <!-- On Settings screen, shown as an option for label/move preference -->
   <string name="account_settings_move_title">Mover</string>
+  <!-- On Settings screen, shown as an option for label/move preference -->
   <string name="account_settings_label_title">Etiquetar</string>
+  <!-- General preference: Labels for the setting to mark emails as read before archiving them -->
   <string name="general_preference_mark_archive_messages_read">Arquivar como lida</string>
   <string name="general_preference_mark_archive_messages_read_description">Marcar os e-mails como lidos antes de serem arquivados</string>
+  <!-- General preference: Notifications open to the combined inbox-->
   <string name="general_pref_notifications_use_combined_inbox">Notificações abrem a caixa de entrada combinada</string>
   <string name="general_pref_notifications_use_combined_inbox_desc">Tocar numa notificação abre a caixa de entrada combinada em vez da caixa de entrada da conta</string>
+  <!-- The hint used in the search box when searching all mailboxes [CHAR LIMIT=35] -->
   <string name="search_hint">Pesquisar\u2026</string>
+  <!-- Title of screen when trying to get oauth authentication -->
   <string name="oauth_authentication_title">A pedir autorização</string>
+  <!-- Title of screen to choose with authentication to use -->
   <string name="sign_in_title">Iniciar sessão</string>
+  <!-- Button shown on SignInActivity -->
   <string name="sign_in_button">Concluído</string>
+  <!-- Label between OAuth and password authentication, indicating the user must do one or the other [CHAR LIMIT=40] -->
   <string name="or_label">OU</string>
+  <!-- Label for signing in with Google using OAuth -->
   <string name="sign_in_with_google">Inicie a sessão com o Google</string>
+  <!--  On the "Setup up email" screen, label indicating what service we are signed in with [CHAR LIMIT=40] -->
   <string name="signed_in_with_service_label">Sessão iniciada com %s</string>
+  <!-- Label for the authentication section [CHAR LIMIT=20] -->
   <string name="authentication_label">Autenticação</string>
+  <!-- Label for the add authentication icon [CHAR LIMIT=40] -->
   <string name="add_authentication_label">Adicionar autenticação</string>
   <string name="oauth_saving_message">A gravar\u2026</string>
   <string name="about_app_header_title">Sobre</string>
+  <!-- A sync window length setting (i.e. load messages this far back) [CHAR LIMIT=25]  -->
   <string name="account_setup_options_mail_window_3months">Últimos 3 meses</string>
+  <!-- A sync window length setting (i.e. load messages this far back) [CHAR LIMIT=25]  -->
   <string name="account_setup_options_mail_window_6months">Últimos 6 meses</string>
   <string name="account_settings_unable_to_edit_field">O administrador não permite que este campo seja modificado</string>
+  <!-- Menu item for sending availability from compose. [CHAR_LIMIT=30] -->
   <string name="message_compose_send_availability_menu_title">Enviar a disponibilidade</string>
+  <!-- Menu item for including an invite from compose. [CHAR_LIMIT=30] -->
   <string name="message_compose_create_invite_menu_title">Criar convite</string>
+  <!-- Preference for the compose toolbar -->
   <string name="preference_compose_toolbar_visibility">Mostrar barra de ferramentas</string>
   <string name="tutorial_welcome_title">Bem-vindo ao E-mail</string>
   <string name="tutorial_welcome_subtitle">Mais inteligente. Mais rápido. Sob medida. E-mail.</string>
@@ -92,8 +130,11 @@
   <string name="update_available_ticker">Há uma atualização disponível para E-mail</string>
   <string name="update_availalable_title">Uma atualização está disponível</string>
   <string name="update_available_content">Toque para instalar a atualização</string>
+  <!-- Security settings category -->
   <string name="preferences_security_title">Segurança</string>
+  <!-- Preference for disabling screenshots of app screens. -->
   <string name="preference_disable_screenshots">Desativar captura de ecrã</string>
+  <!-- Preference for disabling screenshots of app screens. -->
   <string name="preference_disable_screenshots_summary">Impedir que outras aplicações capturem o ecrã da aplicação</string>
   <string name="preference_allow_insecure_attachments_title">Permitir anexos inseguros</string>
   <string name="preference_allow_insecure_attachments_summary">Permitir a visualização ou gravação de anexos inseguros</string>

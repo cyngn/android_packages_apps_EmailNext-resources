@@ -16,10 +16,14 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- Name of EmailProvider shown in AccountManager -->
   <string name="email_provider">Epos</string>
+  <!-- In the UI, the drafts will be displayed with this name -->
   <string name="mailbox_name_display_local_drafts">Plaaslike konsepte</string>
   <string name="mailbox_name_display_server_drafts">Bediener konsepte</string>
+  <!-- In the UI, the folder to-do will be displayed with this name -->
   <string name="mailbox_name_display_todo">Om-te-doen</string>
+  <!-- In the UI, the archive will be displayed with this name -->
   <string name="mailbox_name_display_archive">Argiveer</string>
   <string name="mailbox_name_local_only_display_name"> - Plaaslik</string>
   <string name="account_setup_start_email_address_hint">Tik jou epos adres</string>
@@ -27,52 +31,86 @@
   <string name="account_setup_start_get_started_button">Kom ons begin</string>
   <string name="account_setup_start_login_button">Teken in</string>
   <string name="account_setup_start_invalid_email_address">Ongeldige e-pos adres</string>
+  <!-- hint for account email password text field -->
   <string name="password_label">Wagwoord</string>
   <string name="account_setup_basics_progress_message">Outo-ontdekking aan die gang</string>
+  <!-- In Account setup options screen, Activity title [CHAR LIMIT=45] -->
   <string name="account_setup_options_title">Personaliseer</string>
+  <!-- In Account setup options screen, label for email check frequency selector -->
   <string name="account_setup_options_mail_check_frequency_label">Kyk na my inkassie</string>
+  <!-- In Account setup options & Account Settings screens, email check frequency option -->
   <string name="account_setup_options_mail_check_frequency_2hour">Elke 2 ure</string>
+  <!-- In Account setup options & Account Settings screens, email check frequency option -->
   <string name="account_setup_options_mail_check_frequency_4hour">Elke 4 ure</string>
+  <!-- In Account setup options & Account Settings screens, email check frequency option -->
   <string name="account_setup_options_mail_check_frequency_1day">Elke dag</string>
+  <!-- In Account setup options & Account Settings screens, check box for new-mail notification -->
   <string name="account_setup_options_notify_label">Laat my weet wanneer e-pos aankom</string>
+  <!-- In Account setup options screen, optional check box to also sync contacts -->
   <string name="account_setup_options_sync_contacts_label">Sinkroniseer kontakte uit hierdie rekening</string>
+  <!-- In Account setup options screen, optional check box to also sync calendar -->
   <string name="account_setup_options_sync_calendar_label">Sinkroniseer kalender uit hierdie rekening</string>
+  <!-- In Account setup options screen, check box to sync email -->
   <string name="account_setup_options_sync_email_label">Sinkroniseer e-pos uit hierdie rekening</string>
   <string name="account_setup_options_disable_convo_threading_label">Skakel gesprek drade af</string>
+  <!-- On Settings screen, setting option for showing all images -->
   <string name="account_settings_show_all_images_title">Fotos</string>
   <string name="account_settings_show_all_images_show">Wys altyd</string>
   <string name="account_settings_show_all_images_ask">Vrae voor wys</string>
+  <!-- On Settings Screen, setting option for setting the account color -->
   <string name="account_settings_account_color_title">Rekening kleur</string>
   <string name="account_settings_account_color_summary">Verander die kleur van hierdie rekening</string>
   <string name="account_settings_account_color_dialog_title">Kies \'n kleur</string>
+  <!-- On Settings screen, led notification title label -->
   <string name="account_settings_led_notification_label">Aktiveer LED kennisgewing</string>
   <string name="account_settings_led_notification_custom_color">Gebruik persoonlike LED kleur</string>
+  <!-- On Settings screen, led color title and summary label -->
   <string name="account_settings_led_color_label">Persoonlike LED kleur</string>
   <string name="account_settings_led_color_summary">Standaard waarde is die rekening kleur</string>
+  <!-- On Settings screen, tutorial header title label -->
   <string name="account_settings_tutorial_header_title">Kyk na tutoriaal</string>
+  <!-- On Settings screen, title for label/move preference -->
   <string name="account_settings_move_label_title">Etiket/Skuif boodskappe</string>
+  <!-- On Settings screen, shown as an option for label/move preference -->
   <string name="account_settings_move_title">Skuif</string>
+  <!-- On Settings screen, shown as an option for label/move preference -->
   <string name="account_settings_label_title">Etiket</string>
+  <!-- General preference: Labels for the setting to mark emails as read before archiving them -->
   <string name="general_preference_mark_archive_messages_read">Argief as gelees</string>
   <string name="general_preference_mark_archive_messages_read_description">Merk e-pos as gelees voordat argiveer</string>
+  <!-- General preference: Notifications open to the combined inbox-->
   <string name="general_pref_notifications_use_combined_inbox">Kennisgewings maak gekombineer posbus oop</string>
   <string name="general_pref_notifications_use_combined_inbox_desc">Raak van kennisgewing sal die gekombineerde posbus oopmaak inplaas van die rekening posbus</string>
+  <!-- The hint used in the search box when searching all mailboxes [CHAR LIMIT=35] -->
   <string name="search_hint">Deursoek e-pos</string>
+  <!-- Title of screen when trying to get oauth authentication -->
   <string name="oauth_authentication_title">Versoek magtiging</string>
+  <!-- Title of screen to choose with authentication to use -->
   <string name="sign_in_title">Teken in</string>
+  <!-- Button shown on SignInActivity -->
   <string name="sign_in_button">Gedoen</string>
+  <!-- Label between OAuth and password authentication, indicating the user must do one or the other [CHAR LIMIT=40] -->
   <string name="or_label">OF</string>
+  <!-- Label for signing in with Google using OAuth -->
   <string name="sign_in_with_google">Teken in met Google</string>
+  <!--  On the "Setup up email" screen, label indicating what service we are signed in with [CHAR LIMIT=40] -->
   <string name="signed_in_with_service_label">Teken in met %s</string>
+  <!-- Label for the authentication section [CHAR LIMIT=20] -->
   <string name="authentication_label">Verifikasie</string>
+  <!-- Label for the add authentication icon [CHAR LIMIT=40] -->
   <string name="add_authentication_label">Voeg verifikasie by</string>
   <string name="oauth_saving_message">Stoor\u2026</string>
   <string name="about_app_header_title">Aangaande</string>
+  <!-- A sync window length setting (i.e. load messages this far back) [CHAR LIMIT=25]  -->
   <string name="account_setup_options_mail_window_3months">Laaste 3 maande</string>
+  <!-- A sync window length setting (i.e. load messages this far back) [CHAR LIMIT=25]  -->
   <string name="account_setup_options_mail_window_6months">Laaste 6 maande</string>
   <string name="account_settings_unable_to_edit_field">Jou administrateurder laat jou nie toe om die veld te verander nie</string>
+  <!-- Menu item for sending availability from compose. [CHAR_LIMIT=30] -->
   <string name="message_compose_send_availability_menu_title">Stuur beskikbaarheid</string>
+  <!-- Menu item for including an invite from compose. [CHAR_LIMIT=30] -->
   <string name="message_compose_create_invite_menu_title">Skep uitnodiging</string>
+  <!-- Preference for the compose toolbar -->
   <string name="preference_compose_toolbar_visibility">Wys komponeer nutsbalk</string>
   <string name="tutorial_welcome_title">Welkom by epos</string>
   <string name="tutorial_welcome_subtitle">Slimmer. Vinniger. Aangepas. Epos.</string>
@@ -92,8 +130,11 @@
   <string name="update_available_ticker">Daar is \'n opdatering beskikbaar vir epos</string>
   <string name="update_availalable_title">\'n Opdatering is beskikbaar</string>
   <string name="update_available_content">Raak om opdatering te installeer</string>
+  <!-- Security settings category -->
   <string name="preferences_security_title">Sekeriteit</string>
+  <!-- Preference for disabling screenshots of app screens. -->
   <string name="preference_disable_screenshots">Deaktiveer skermfoto\'s</string>
+  <!-- Preference for disabling screenshots of app screens. -->
   <string name="preference_disable_screenshots_summary">Stop ander toep\'s om skermfoto\'s te neem van toep skerms</string>
   <string name="preference_allow_insecure_attachments_title">Laat onveilige aanhangsels toe</string>
   <string name="preference_allow_insecure_attachments_summary">Laat toe die besigtiging van of stoor van onveilige aanhangsels</string>

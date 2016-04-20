@@ -16,5 +16,46 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- Name of EmailProvider shown in AccountManager -->
   <string name="email_provider">E-mail</string>
+  <!-- In the UI, the drafts will be displayed with this name -->
+  <!-- In the UI, the folder to-do will be displayed with this name -->
+  <!-- In the UI, the archive will be displayed with this name -->
+  <!-- hint for account email password text field -->
+  <!-- In Account setup options screen, Activity title [CHAR LIMIT=45] -->
+  <!-- In Account setup options screen, label for email check frequency selector -->
+  <!-- In Account setup options & Account Settings screens, email check frequency option -->
+  <!-- In Account setup options & Account Settings screens, email check frequency option -->
+  <!-- In Account setup options & Account Settings screens, email check frequency option -->
+  <!-- In Account setup options & Account Settings screens, check box for new-mail notification -->
+  <!-- In Account setup options screen, optional check box to also sync contacts -->
+  <!-- In Account setup options screen, optional check box to also sync calendar -->
+  <!-- In Account setup options screen, check box to sync email -->
+  <!-- On Settings screen, setting option for showing all images -->
+  <!-- On Settings Screen, setting option for setting the account color -->
+  <!-- On Settings screen, led notification title label -->
+  <!-- On Settings screen, led color title and summary label -->
+  <!-- On Settings screen, tutorial header title label -->
+  <!-- On Settings screen, title for label/move preference -->
+  <!-- On Settings screen, shown as an option for label/move preference -->
+  <!-- On Settings screen, shown as an option for label/move preference -->
+  <!-- General preference: Labels for the setting to mark emails as read before archiving them -->
+  <!-- General preference: Notifications open to the combined inbox-->
+  <!-- The hint used in the search box when searching all mailboxes [CHAR LIMIT=35] -->
+  <!-- Title of screen when trying to get oauth authentication -->
+  <!-- Title of screen to choose with authentication to use -->
+  <!-- Button shown on SignInActivity -->
+  <!-- Label between OAuth and password authentication, indicating the user must do one or the other [CHAR LIMIT=40] -->
+  <!-- Label for signing in with Google using OAuth -->
+  <!--  On the "Setup up email" screen, label indicating what service we are signed in with [CHAR LIMIT=40] -->
+  <!-- Label for the authentication section [CHAR LIMIT=20] -->
+  <!-- Label for the add authentication icon [CHAR LIMIT=40] -->
+  <!-- A sync window length setting (i.e. load messages this far back) [CHAR LIMIT=25]  -->
+  <!-- A sync window length setting (i.e. load messages this far back) [CHAR LIMIT=25]  -->
+  <!-- Menu item for sending availability from compose. [CHAR_LIMIT=30] -->
+  <!-- Menu item for including an invite from compose. [CHAR_LIMIT=30] -->
+  <!-- Preference for the compose toolbar -->
+  <!-- Security settings category -->
+  <!-- Preference for disabling screenshots of app screens. -->
+  <!-- Preference for disabling screenshots of app screens. -->
 </resources>

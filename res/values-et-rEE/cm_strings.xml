@@ -16,10 +16,14 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- Name of EmailProvider shown in AccountManager -->
   <string name="email_provider">E-mail</string>
+  <!-- In the UI, the drafts will be displayed with this name -->
   <string name="mailbox_name_display_local_drafts">Kohalikud mustandid</string>
   <string name="mailbox_name_display_server_drafts">Mustandid serveris</string>
+  <!-- In the UI, the folder to-do will be displayed with this name -->
   <string name="mailbox_name_display_todo">Ülesanded</string>
+  <!-- In the UI, the archive will be displayed with this name -->
   <string name="mailbox_name_display_archive">Arhiiv</string>
   <string name="mailbox_name_local_only_display_name"> - Kohalik</string>
   <string name="account_setup_start_email_address_hint">Sisesta oma e-posti aadress</string>
@@ -27,50 +31,84 @@
   <string name="account_setup_start_get_started_button">Alustamine</string>
   <string name="account_setup_start_login_button">Logi sisse</string>
   <string name="account_setup_start_invalid_email_address">Vale email aadress</string>
+  <!-- hint for account email password text field -->
   <string name="password_label">Parool</string>
   <string name="account_setup_basics_progress_message">Auto-avastamine pooleli</string>
+  <!-- In Account setup options screen, Activity title [CHAR LIMIT=45] -->
   <string name="account_setup_options_title">Isikupärasta</string>
+  <!-- In Account setup options screen, label for email check frequency selector -->
   <string name="account_setup_options_mail_check_frequency_label">Kontrolli oma postkasti</string>
+  <!-- In Account setup options & Account Settings screens, email check frequency option -->
   <string name="account_setup_options_mail_check_frequency_2hour">Iga 2 tunni tagant</string>
+  <!-- In Account setup options & Account Settings screens, email check frequency option -->
   <string name="account_setup_options_mail_check_frequency_4hour">Iga 4 tunni tagant</string>
+  <!-- In Account setup options & Account Settings screens, email check frequency option -->
   <string name="account_setup_options_mail_check_frequency_1day">Iga päev</string>
+  <!-- In Account setup options & Account Settings screens, check box for new-mail notification -->
   <string name="account_setup_options_notify_label">Teavita mind meili saabumisest</string>
+  <!-- In Account setup options screen, optional check box to also sync contacts -->
   <string name="account_setup_options_sync_contacts_label">Sünkrooni selle konto kontaktid</string>
+  <!-- In Account setup options screen, optional check box to also sync calendar -->
   <string name="account_setup_options_sync_calendar_label">Sünkrooni selle konto kalender</string>
+  <!-- In Account setup options screen, check box to sync email -->
   <string name="account_setup_options_sync_email_label">Sünkrooni selle konto meilid</string>
   <string name="account_setup_options_disable_convo_threading_label">Lülita välja vestluste lõimimine</string>
+  <!-- On Settings screen, setting option for showing all images -->
   <string name="account_settings_show_all_images_title">Pildid</string>
   <string name="account_settings_show_all_images_show">Kuva alati</string>
   <string name="account_settings_show_all_images_ask">Küsi enne näitamist</string>
+  <!-- On Settings Screen, setting option for setting the account color -->
   <string name="account_settings_account_color_title">Konto värv</string>
   <string name="account_settings_account_color_summary">Redigeeri selle konto värvi</string>
   <string name="account_settings_account_color_dialog_title">Vali värv</string>
+  <!-- On Settings screen, led notification title label -->
   <string name="account_settings_led_notification_label">Luba LED teavitused</string>
   <string name="account_settings_led_notification_custom_color">Kasuta kohandatud LED värvi</string>
+  <!-- On Settings screen, led color title and summary label -->
   <string name="account_settings_led_color_label">Kohandatud LED värv</string>
   <string name="account_settings_led_color_summary">Vaikeväärtus on konto värv</string>
+  <!-- On Settings screen, tutorial header title label -->
   <string name="account_settings_tutorial_header_title">Vaata õpetust</string>
+  <!-- On Settings screen, title for label/move preference -->
   <string name="account_settings_move_label_title">Sildista/Teisalda sõnumid</string>
+  <!-- On Settings screen, shown as an option for label/move preference -->
   <string name="account_settings_move_title">Teisalda</string>
+  <!-- On Settings screen, shown as an option for label/move preference -->
   <string name="account_settings_label_title">Sildista</string>
+  <!-- General preference: Labels for the setting to mark emails as read before archiving them -->
   <string name="general_preference_mark_archive_messages_read">Arhiiv loetuks</string>
   <string name="general_preference_mark_archive_messages_read_description">Tähista emailid loetuna enne nende arhiveerimist</string>
+  <!-- General preference: Notifications open to the combined inbox-->
+  <!-- The hint used in the search box when searching all mailboxes [CHAR LIMIT=35] -->
   <string name="search_hint">Otsi meili</string>
+  <!-- Title of screen when trying to get oauth authentication -->
   <string name="oauth_authentication_title">Taotlen luba</string>
+  <!-- Title of screen to choose with authentication to use -->
   <string name="sign_in_title">Logi sisse</string>
+  <!-- Button shown on SignInActivity -->
   <string name="sign_in_button">Valmis</string>
+  <!-- Label between OAuth and password authentication, indicating the user must do one or the other [CHAR LIMIT=40] -->
   <string name="or_label">VÕI</string>
+  <!-- Label for signing in with Google using OAuth -->
   <string name="sign_in_with_google">Logige sisse Google\'iga</string>
+  <!--  On the "Setup up email" screen, label indicating what service we are signed in with [CHAR LIMIT=40] -->
   <string name="signed_in_with_service_label">Sisse logitud teenusega %s</string>
+  <!-- Label for the authentication section [CHAR LIMIT=20] -->
   <string name="authentication_label">Autentimine</string>
+  <!-- Label for the add authentication icon [CHAR LIMIT=40] -->
   <string name="add_authentication_label">Lisa autentimine</string>
   <string name="oauth_saving_message">Salvestan\u2026</string>
   <string name="about_app_header_title">Üldist</string>
+  <!-- A sync window length setting (i.e. load messages this far back) [CHAR LIMIT=25]  -->
   <string name="account_setup_options_mail_window_3months">Viimased 3 kuud</string>
+  <!-- A sync window length setting (i.e. load messages this far back) [CHAR LIMIT=25]  -->
   <string name="account_setup_options_mail_window_6months">Viimased 6 kuud</string>
   <string name="account_settings_unable_to_edit_field">Teie administraator ei luba seda välja muuta</string>
+  <!-- Menu item for sending availability from compose. [CHAR_LIMIT=30] -->
   <string name="message_compose_send_availability_menu_title">Saada kättesaadavus</string>
+  <!-- Menu item for including an invite from compose. [CHAR_LIMIT=30] -->
   <string name="message_compose_create_invite_menu_title">Loo kutse</string>
+  <!-- Preference for the compose toolbar -->
   <string name="preference_compose_toolbar_visibility">Näita komponeerimise tööriistariba</string>
   <string name="tutorial_welcome_subtitle">Targem. Kiirem. Kohandatud. Email.</string>
   <string name="tutorial_page1_title">Kohandatud Viiped</string>
@@ -89,4 +127,7 @@
   <string name="update_available_ticker">Uuendus on saadaval Emailile</string>
   <string name="update_availalable_title">Saadaval on uuendus</string>
   <string name="update_available_content">Puuduta uuenduse installeerimiseks</string>
+  <!-- Security settings category -->
+  <!-- Preference for disabling screenshots of app screens. -->
+  <!-- Preference for disabling screenshots of app screens. -->
 </resources>

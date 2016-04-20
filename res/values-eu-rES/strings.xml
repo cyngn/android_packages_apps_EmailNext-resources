@@ -15,205 +15,456 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- Names of packages and authorities that are common to all apps
+    and read from resources -->
+  <!-- Permissions label for reading attachments -->
   <string name="permission_read_attachment_label">Irakurri mezuei erantsitako fitxategiak</string>
+  <!-- Permissions description for reading attachments -->
   <string name="permission_read_attachment_desc">Eposta mezuetara erantsitako fitxategiak irakurtzea ahalbidetzen dio aplikazioari.</string>
+  <!-- Permissions label for accessing the main provider -->
   <string name="permission_access_provider_label">Atzitu eposta hornitzailearen datuak</string>
+  <!-- Permissions description for accessing the main provider -->
   <string name="permission_access_provider_desc">Zure eposta datu-basera sartzea ahalbidetzen dio aplikazioari, jasotako mezuak, bidalitako mezuak, erabiltzaile izen eta pasahitzak barne.</string>
+  <!-- Name of application on Home screen -->
   <string name="app_name">Eposta</string>
+  <!-- Title of debug screen -->
   <string name="debug_title">Araztu</string>
+  <!-- Actions will be used as buttons and in menu items -->
+  <!-- Button name used as part of a multi-step process -->
   <string name="next_action">Hurrengoa</string>
+  <!-- Button name used to confirm acceptance of dialog boxes, warnings, errors, etc. -->
   <string name="okay_action">Ados</string>
+  <!-- Button name used to cancel out of dialog boxes -->
   <string name="cancel_action">Utzi</string>
+  <!-- Button name used to move to previous step during setup sequence [CHAR_LIMIT=16] -->
   <string name="previous_action">Aurrekoa</string>
+  <!--  Button name used to complete a multi-step process -->
   <string name="done_action">Eginda</string>
+  <!--  Menu item used to create a new quick response [CHAR_LIMIT=16] -->
   <string name="create_action">Sortu berria</string>
+  <!-- Message informing user when a list that would contain quick responses
+            is empty [CHAR_LIMIT=80] -->
   <string name="quick_responses_empty_view">Ez dago erantzun azkarrik.</string>
+  <!-- Menu item -->
   <string name="account_settings_action">Kontuaren ezarpenak</string>
+  <!-- Menu item: options for this mailbox. [CHAR LIMIT = 32] -->
   <string name="menu_folder_options">Sinkronizazio aukerak</string>
+  <!-- Appears in message list view when there's a network error. -->
+  <!-- Also appears in a toast, in the message viewer, when there's a network error. -->
   <string name="status_network_error">Konexio arazoa.</string>
+  <!-- Text shown with dragged messages to indicate how many are being dragged [CHAR LIMIT=40]-->
   <plurals name="move_messages">
     <item quantity="one">Mugitu mezua</item>
     <item quantity="other">Mugitu mezuak</item>
   </plurals>
+  <!-- Toast shown when a message(s) can't be moved because it's not supported by the POP3
+        protocol. [CHAR LIMIT=none]-->
   <string name="cannot_move_protocol_not_supported_toast">Mugitzea ez da onartzen POP3 kontuetan.</string>
+  <!-- Toast shown when messages can't be moved because the selection contains multiple accounts'
+        messages. [CHAR LIMIT=none]-->
   <string name="cannot_move_multiple_accounts_toast">Ezin da mugitu hautapenak hainbat kontu dituelako.</string>
+  <!-- Toast shown when messages can't be moved because they're in a special mailbox.  "Drafts",
+        "Outbox" and "Sent". [CHAR LIMIT=none]-->
   <string name="cannot_move_special_mailboxes_toast">Zirriborroetan, Irteera ontzian eta Bidalitako mezuen karpetan dauden mezuak ezin dira mugitu.</string>
+  <!-- The next set of strings are used in local display and may be localized. -->
+  <!-- In the UI, the inbox will be displayed with this name -->
   <string name="mailbox_name_display_inbox">Sarrera ontzia</string>
+  <!-- In the UI, the outbox will be displayed with this name -->
   <string name="mailbox_name_display_outbox">Irteera ontzia</string>
+  <!-- In the UI, the trash will be displayed with this name -->
   <string name="mailbox_name_display_trash">Paperontzia</string>
+  <!-- In the UI, the sent will be displayed with this name -->
   <string name="mailbox_name_display_sent">Bidaliak</string>
+  <!-- In the UI, the junk will be displayed with this name -->
   <string name="mailbox_name_display_junk">Zarama</string>
+  <!-- In the UI, the starred will be displayed with this name -->
   <string name="mailbox_name_display_starred">Izardunak</string>
+  <!-- In the UI, the unread will be displayed with this name [CHAR LIMIT=15] -->
   <string name="mailbox_name_display_unread">Irakurri gabea</string>
+  <!-- Do Not Translate.  Checkbox label, shown only on debug screen -->
+  <!-- Do Not Translate.  Checkbox label, shown only on debug screen -->
+  <!-- Do Not Translate.  Checkbox label, shown only on debug screen -->
+  <!-- Do Not Translate.  Button label, shown only on debug screen -->
+  <!-- Do Not Translate.  Checkbox label, shown on debug screen. -->
+  <!-- Do Not Translate.  Checkbox label, shown on debug screen. -->
+  <!-- Do Not Translate.  Checkbox label, shown on debug screen. -->
+  <!-- The summary section entry in the AccountFolder list to display all inboxes -->
   <string name="account_folder_list_summary_inbox">Sarrera ontzia</string>
+  <!-- The summary section entry in the AccountFolder list to display all starred
+        [CHAR LIMIT=200dip] -->
   <string name="account_folder_list_summary_starred">Izardunak</string>
+  <!-- The summary section entry in the AccountFolder list to display all drafts
+        [CHAR LIMIT=200dip] -->
   <string name="account_folder_list_summary_drafts">Zirriborroak</string>
+  <!-- The summary section entry in the AccountFolder list to display all outboxes
+        [CHAR LIMIT=200dip] -->
   <string name="account_folder_list_summary_outbox">Irteera ontzia</string>
+  <!-- Header for forwarded original messages -->
   <string name="message_compose_fwd_header_fmt">\"\n\n-------- Jatorrizko mezua --------\nGaia: \"<xliff:g id="subject">%1$s</xliff:g>"\nIgorlea: "<xliff:g id="sender">%2$s</xliff:g>"\nNori: "<xliff:g id="to">%3$s</xliff:g>"\nCC: "<xliff:g id="cc">%4$s</xliff:g>\n\n</string>
+  <!-- Title for dialog containing list of quick responses that user may insert
+            into message body. [CHAR_LIMIT=30] -->
   <string name="message_compose_insert_quick_response_list_title">Txertatu erantzun azkarra</string>
+  <!-- Menu item for inserting quick responses into email compose activity. [CHAR_LIMIT=30] -->
   <string name="message_compose_insert_quick_response_menu_title">Txertatu erantzun azkarra</string>
+  <!-- Toast upon using "send" when one or more attachments will need to be background loaded
+      [CHAR LIMIT=none]-->
   <string name="message_view_attachment_background_load">Birbidalitako mezuaren eranskin bat edo batzuk deskargatu egingo dira bidali baino lehen.</string>
+  <!-- Error banner when an attachment could not be downloaded due to a problem at the server
+            [CHAR LIMIT=100] -->
   <string name="attachment_not_found">Ezin izan da deskargatu eranskina.</string>
+  <!-- String used in place of a message that could not be properly decoded (e.g. bad base64
+         data was received.) [CHAR LIMIT=none] -->
   <string name="message_decode_error">Errorea gertatu da mezua deskodetzean.</string>
+  <!-- Notification ticker when a forwarded attachment couldn't be sent [CHAR LIMIT=none] -->
   <string name="forward_download_failed_ticker">Ezin izan da eranskinen bat birbidali.</string>
+  <!-- Notification title when a forwarded attachment couldn't be sent [CHAR LIMIT=30]-->
   <string name="forward_download_failed_title">Ez da eranskina birbidali</string>
+  <!-- Notification ticker when email account authentication fails [CHAR LIMIT=none] -->
   <string name="login_failed_ticker"><xliff:g id="account_name">%s</xliff:g> saio hasierak huts egin du.</string>
+  <!-- Notification title when email account authentication fails [CHAR LIMIT=30]-->
   <string name="login_failed_title">Ezin izan da saioa hasi</string>
+  <!-- Size unit for bytes for attachments [CHAR LIMIT=10] -->
   <plurals name="message_view_attachment_bytes">
     <item quantity="one"><xliff:g id="size_in_bytes" example="1">%d</xliff:g>B</item>
     <item quantity="other"><xliff:g id="size_in_bytes" example="279">%d</xliff:g>B</item>
   </plurals>
+  <!-- Size unit for kilo bytes for attachments [CHAR LIMIT=10] -->
   <plurals name="message_view_attachment_kilobytes">
     <item quantity="one"><xliff:g id="size_in_kilobytes" example="1">%d</xliff:g>KB</item>
     <item quantity="other"><xliff:g id="size_in_kilobytes" example="279">%d</xliff:g>KB</item>
   </plurals>
+  <!-- Size unit for mega bytes for attachments [CHAR LIMIT=10] -->
   <plurals name="message_view_attachment_megabytes">
     <item quantity="one"><xliff:g id="size_in_megabytes" example="1">%d</xliff:g>MB</item>
     <item quantity="other"><xliff:g id="size_in_megabytes" example="279">%d</xliff:g>MB</item>
   </plurals>
+  <!-- Size unit for giga bytes for attachments [CHAR LIMIT=10] -->
   <plurals name="message_view_attachment_gigabytes">
     <item quantity="one"><xliff:g id="size_in_gigabytes" example="1">%d</xliff:g>GB</item>
     <item quantity="other"><xliff:g id="size_in_gigabytes" example="279">%d</xliff:g>GB</item>
   </plurals>
+  <!-- Title of screen when setting up new email account [CHAR LIMIT=45] -->
   <string name="account_setup_basics_title">Kontuaren ezarpena</string>
+  <!-- Headline of screen when setting up new email account (large text over divider)
+        [CHAR LIMIT=none] -->
   <string name="account_setup_basics_headline">Eposta kontua</string>
+  <!-- On "Set up email" screen, enthusiastic welcome message. -->
   <string name="accounts_welcome">Zure kontua urrats gutxi batzuekin ezarri dezakezu.
         </string>
+  <!-- On "Set up email" screen, hint for account email address text field -->
   <string name="account_setup_basics_email_label">Eposta helbidea</string>
+  <!-- Button name on "Set up email" screen [CHAR LIMIT=20] -->
   <string name="account_setup_basics_manual_setup_action">Eskuzko konfigurazioa</string>
+  <!-- Toast when we can't build a URI from the given email & password -->
+  <!-- Note, the error message in the toast is purposefully vague, because I *don't* know
+        exactly what's wrong. -->
   <string name="account_setup_username_password_toast">Idatzi eposta helbide eta pasahitza egokiak.</string>
+  <!-- Title of dialog shown when a duplicate account is created -->
   <string name="account_duplicate_dlg_title">Bikoiztu kontua</string>
+  <!-- Message of dialog shown when a duplicate account is created.  The display name of
+         the duplicate account is displayed. -->
   <string name="account_duplicate_dlg_message_fmt">Erabiltzaile izen hau jada \"<xliff:g id="duplicate">%s</xliff:g>\" kontuarentzat erabiltzen duzu.</string>
+  <!-- String that is displayed as error text for passwords with leading or trailing
+         spaces.  [CHAR LIMIT=none] -->
   <string name="account_password_spaces_error">Zure pasahitzak espazioren bat du hasieran edo amaieran. Zerbitzari askok ez dituzte onartzen espazioak pasahitzetan.</string>
+  <!-- On check-settings screen, this is the initially-displayed message. -->
   <string name="account_setup_check_settings_retr_info_msg">Kontu informazioa berreskuratzen\u2026</string>
+  <!-- Appears on screen while system is checking incoming server settings -->
   <string name="account_setup_check_settings_check_incoming_msg">Zerbitzariaren ezarpenak balidatzen\u2026</string>
+  <!-- Appears on screen while system is checking outgoing server settings -->
   <string name="account_setup_check_settings_check_outgoing_msg">SMTP ezarpenak balidatzen\u2026</string>
+  <!-- Appears on screen while system is creating the account -->
   <string name="account_setup_creating_account_msg">Kontua sortzen\u2026</string>
+  <!-- Title of "Set up email" screen after success [CHAR LIMIT=45] -->
   <string name="account_setup_names_title">Kontuaren ezarpena</string>
+  <!-- Text that appears on "Set up email" screen after successfully setting up an account
+        [CHAR LIMIT=none] -->
   <string name="account_setup_names_headline">Zure kontua ezarri da eta mezua bidean dago!</string>
+  <!-- On "Set up email" screen, label of text field -->
   <string name="account_setup_names_account_name_label">Izendatu kontu hau (aukerazkoa)</string>
+  <!-- On "Set up email" screen, label of text field -->
   <string name="account_setup_names_user_name_label">Zure izena (bidalitako mezuetan agertuko da)</string>
+  <!-- On "Set up email" screen, error pop-up when user_name field is empty [CHAR LIMIT=none] -->
   <string name="account_setup_names_user_name_empty_error">Eremu hau ezin da hutsik egon.</string>
+  <!-- Activity Title for the account type selector (IMAP or POP3 or EAS) [CHAR LIMIT=45] -->
   <string name="account_setup_account_type_title">Kontuaren ezarpena</string>
+  <!-- Headline for the the account type selector (IMAP or POP3 or EAS) [CHAR LIMIT=none] -->
   <string name="account_setup_account_type_headline">Kontu mota</string>
+  <!-- "Add new email account" screen, text that appears on screen -->
   <string name="account_setup_account_type_instructions">Nolako kontu mota da hau?</string>
+  <!-- "Incoming server settings" screen, title [CHAR LIMIT=45] -->
   <string name="account_setup_incoming_title">Kontuaren ezarpena</string>
+  <!-- "Incoming server settings" screen, headline (text over divider) [CHAR LIMIT=none] -->
   <string name="account_setup_incoming_headline">Sarrerako zerbitzariaren ezarpenak</string>
+  <!-- "Incoming server settings" screen, label for text field -->
   <string name="account_setup_incoming_username_label">Erabiltzaile izena</string>
+  <!-- "Incoming server settings" screen, label for text field -->
   <string name="account_setup_incoming_password_label">Pasahitza</string>
+  <!-- "Incoming server settings" screen, label for text field -->
   <string name="account_setup_incoming_server_label">Zerbitzaria</string>
+  <!-- "Incoming server settings" screen, label for text field -->
   <string name="account_setup_incoming_port_label">Ataka</string>
+  <!-- "Incoming server settings" screen, label for pop-up menu -->
   <string name="account_setup_incoming_security_label">Segurtasun mota</string>
+  <!-- "Incoming server settings" screen, option for "Security type" pop-up menu indicating
+        the desire for an unencrypted session -->
   <string name="account_setup_incoming_security_none_label">Bat ere ez</string>
+  <!-- "Incoming server settings" screen, option for "Security type" pop-up menu indicating
+        the desire for an encrypted session on the selected port, accepting all SSL certificates -->
   <string name="account_setup_incoming_security_ssl_trust_certificates_label">SSL/TLS (onartu ziurtagiri guztiak)</string>
+  <!-- "Incoming server settings" screen, option for "Security type" pop-up menu indicating
+        the desire for an encrypted session on the selected port, including SSL certificate
+        checks -->
   <string name="account_setup_incoming_security_ssl_label">SSL/TLS</string>
+  <!-- "Incoming server settings" screen, option for "Security type" pop-up menu indicating
+        the desire for an encrypted session overlaid on a plain text session using the selected
+        port, accepting all SSL certificates -->
   <string name="account_setup_incoming_security_tls_trust_certificates_label">STARTTLS (onartu ziurtagiri guztiak)</string>
+  <!-- "Incoming server settings" screen, option for "Security type" pop-up menu indicating
+        the desire for an encrypted session overlaid on a plain text session on the selected
+        port, including SSL certificate checks -->
   <string name="account_setup_incoming_security_tls_label">STARTTLS</string>
+  <!-- "Incoming server settings" screen, label for pop-up menu -->
   <string name="account_setup_incoming_delete_policy_label">Ezabatu eposta zerbitzaritik</string>
+  <!-- "Incoming server settings" screen, options in pop-up menu for Delete email from server: -->
+  <!-- "Incoming server settings" screen, options in pop-up menu for Delete email from server: -->
   <string name="account_setup_incoming_delete_policy_never_label">Inoiz ez</string>
+  <!-- "Incoming server settings" screen, options in pop-up menu for Delete email from server: -->
   <string name="account_setup_incoming_delete_policy_delete_label">Sarrera ontzitik ezabatzen dudanean</string>
+  <!-- "Incoming server settings" screen, label for setting IMAP path prefix: -->
   <string name="account_setup_incoming_imap_path_prefix_label">IMAP bidearen aurrizkia</string>
+  <!-- "Incoming server settings" screen, hint for setting IMAP path prefix: -->
   <string name="account_setup_incoming_imap_path_prefix_hint">Aukerakoa</string>
+  <!-- "Outgoing server settings" screen, title [CHAR LIMIT=45] -->
   <string name="account_setup_outgoing_title">Kontuaren ezarpena</string>
+  <!-- "Outgoing server settings" screen, headline (text over divider) [CHAR LIMIT=none] -->
   <string name="account_setup_outgoing_headline">Irteerako zerbitzariaren ezarpenak</string>
+  <!-- On "Outgoing server settings" screen, label for text field -->
   <string name="account_setup_outgoing_smtp_server_label">SMTP zerbitzaria</string>
+  <!-- On "Outgoing server settings" screen, label for text field -->
   <string name="account_setup_outgoing_port_label">Ataka</string>
+  <!-- On "Outgoing server settings" screen, label for pop-up menu -->
   <string name="account_setup_outgoing_security_label">Segurtasun mota</string>
+  <!-- On "Outgoing server settings" screen, label for check box -->
   <string name="account_setup_outgoing_require_login_label">Eskatu saio hasiera</string>
+  <!-- On "Outgoing server settings" screen, label for text field -->
   <string name="account_setup_outgoing_username_label">Erabiltzaile izena</string>
+  <!-- On "Outgoing server settings" screen, label for text field -->
   <string name="account_setup_outgoing_password_label">Pasahitza</string>
+  <!-- On "Exchange" setup screen, a heading title for the current client certificate [CHAR LIMIT=50] -->
   <string name="account_setup_exchange_certificate_title">Bezero ziurtagiria</string>
+  <!-- On "Exchange" setup screen, a button label to include a client certificate [CHAR LIMIT=35] -->
   <string name="account_setup_exchange_select_certificate">Hautatu</string>
+  <!-- On "Exchange" setup screen, a button label to include a client certificate [CHAR LIMIT=35] -->
   <string name="account_setup_exchange_use_certificate">Erabili bezero ziurtagiria</string>
+  <!-- On "Exchange" setup screen, a button label to remove the currently used client certificate [CHAR LIMIT=35] -->
   <string name="account_setup_exchange_remove_certificate">Ezabatu</string>
+  <!-- On "Exchange" setup screen, placeholder text to indicate no client
+         certificate is used [CHAR LIMIT=50] -->
   <string name="account_setup_exchange_no_certificate">Bat ere ez</string>
+  <!-- On "Exchange" setup screen, the exchange device-id label [CHAR LIMIT=30] -->
   <string name="account_setup_exchange_device_id_label">Gailu mugikorraren IDa</string>
+  <!-- In Account setup options screen, Activity headline [CHAR LIMIT=none] -->
   <string name="account_setup_options_headline">Kontu aukerak</string>
+  <!-- In Account setup options & Account Settings screens, label for email check frequency option -->
   <string name="account_setup_options_mail_check_frequency_never">Inoiz ez</string>
+  <!-- In Account setup options & Account Settings screens, label for email check frequency option -->
   <string name="account_setup_options_mail_check_frequency_push">Automatikoa (Push)</string>
+  <!-- In Account setup options & Account Settings screens, email check frequency option -->
   <string name="account_setup_options_mail_check_frequency_5min">5 minuturik behin</string>
+  <!-- In Account setup options & Account Settings screens, email check frequency option -->
   <string name="account_setup_options_mail_check_frequency_10min">10 minuturik behin</string>
+  <!-- In Account setup options & Account Settings screens, email check frequency option -->
   <string name="account_setup_options_mail_check_frequency_15min">15 minuturik behin</string>
+  <!-- In Account setup options & Account Settings screens, email check frequency option -->
   <string name="account_setup_options_mail_check_frequency_30min">30 minuturik behin</string>
+  <!-- In Account setup options & Account Settings screens, email check frequency option -->
   <string name="account_setup_options_mail_check_frequency_1hour">Orduro</string>
+  <!-- In Account setup options screen, check box to auto-download attachments  [CHAR LIMIT=none] -->
   <string name="account_setup_options_background_attachments_label">Automatikoki deskargatu eranskinak Wi-Fi sarera konektatuta badago</string>
+  <!-- Dialog title when "setup" could not finish -->
   <string name="account_setup_failed_dlg_title">Ezin izan da bukatu</string>
+  <!-- In Account setup options screen, label for email lookback selector -->
   <string name="account_setup_options_mail_window_label">Sinkronizatzeko egunak</string>
+  <!-- In account setup options & account settings screens (exchange), sync window length; this
+        implies loading a 'reasonable' number of messages [CHAR LIMIT=25] -->
   <string name="account_setup_options_mail_window_auto">Automatikoa</string>
+  <!-- A sync window length setting (i.e. load messages this far back) [CHAR LIMIT=25]  -->
   <string name="account_setup_options_mail_window_1day">Azken eguna</string>
+  <!-- A sync window length setting (i.e. load messages this far back) [CHAR LIMIT=25]  -->
   <string name="account_setup_options_mail_window_3days">Azken hiru egunak</string>
+  <!-- A sync window length setting (i.e. load messages this far back) [CHAR LIMIT=25]  -->
   <string name="account_setup_options_mail_window_1week">Azken astea</string>
+  <!-- A sync window length setting (i.e. load messages this far back) [CHAR LIMIT=25]  -->
   <string name="account_setup_options_mail_window_2weeks">Azken bi asteak</string>
+  <!-- A sync window length setting (i.e. load messages this far back) [CHAR LIMIT=25]  -->
   <string name="account_setup_options_mail_window_1month">Azken hilabetea</string>
+  <!-- A sync window length setting (i.e. load messages this far back) [CHAR LIMIT=25]  -->
   <string name="account_setup_options_mail_window_all">Dena</string>
+  <!-- Per-mailbox sync window setting.  This means "use the account's sync window setting" [CHAR LIMIT=40] -->
   <string name="account_setup_options_mail_window_default">Erabili kontuko konfigurazio lehenetsia</string>
+  <!-- "Setup could not finish" dialog text; e.g., Username or password incorrect -->
   <string name="account_setup_failed_dlg_auth_message">Erabiltzaile edo pasahitz okerra.</string>
+  <!-- "Setup could not finish" dialog text; e.g., Username or password incorrect\n(ERR01 Account does not exist) -->
   <string name="account_setup_failed_dlg_auth_message_fmt">Saio hasierak huts egin du.\n(<xliff:g id="error">%s</xliff:g>)</string>
+  <!-- Account setup autodiscover auth failure dialog title. This is shown when autodiscover hits
+        an "access denied" server error, which could imply incorrect username/password or that no
+        autodiscover service has been configured for the domain [CHAR LIMIT=40] -->
   <string name="account_setup_autodiscover_dlg_authfail_title">Arazoa kontua ezartzean</string>
+  <!-- Account setup autodiscover auth failure dialog message. This is shown when autodiscover hits
+        an "access denied" server error, which could imply incorrect username/password or that no
+        autodiscover service has been configured for the domain [CHAR LIMIT=NONE] -->
   <string name="account_setup_autodiscover_dlg_authfail_message">Berretsi erabiltzaile izena, pasahitza eta kontu ezarpenak zuzenak direla.</string>
+  <!-- An error message presented to the user when the server's identity
+         cannot be established or trusted [CHAR LIMIT=NONE] -->
   <string name="account_setup_failed_dlg_certificate_message">Ezin da zerbitzariarekin konexio segurua ezarri.</string>
+  <!-- An error message presented to the user when the server's identity
+         cannot be established or trusted [CHAR LIMIT=NONE] -->
   <string name="account_setup_failed_dlg_certificate_message_fmt">Ezin da zerbitzariarekin konexio segurua ezarri.\n(<xliff:g id="error">%s</xliff:g>)</string>
+  <!-- An error message presented to the user when the server requires a
+         client certificate to connect [CHAR LIMIT=NONE] -->
   <string name="account_setup_failed_certificate_required">Bezero ziurtagiri bat behar da. zerbitzarira bezero ziurtagiri batekin konektatu nahi duzu?</string>
+  <!-- An error message presented to the user when the certificate they
+         specified for connecting to a server is inaccessible [CHAR LIMIT=NONE] -->
   <string name="account_setup_failed_certificate_inaccessible">Ziurtagiria baliogabea da edo ezin da atzitu.</string>
+  <!-- Dialog text for ambiguous setup failure; server error/bad credentials [CHAR LIMIT=none] -->
   <string name="account_setup_failed_check_credentials_message">Zerbitzariak errore batekin erantzun du. Egiaztatu zure erabiltzaile izena eta pasahitza eta berriro saiatu.</string>
+  <!-- "Setup could not finish" dialog text; e.g., Cannot connect to server -->
   <string name="account_setup_failed_dlg_server_message">Ezin da zerbitzariarekin konektatu.</string>
+  <!-- "Setup could not finish" dialog text; e.g., Cannot connect to server\n(Connection timed out) -->
   <string name="account_setup_failed_dlg_server_message_fmt">Ezin da konexiorik ezarri zerbitzariarekin.\n(<xliff:g id="error">%s</xliff:g>)</string>
+  <!-- Additional diagnostic text when TLS was required but the server doesn't support it -->
   <string name="account_setup_failed_tls_required">TLS protokoloa ezinbestekoa da, baina zerbitzariak ez du onartzen.</string>
+  <!-- Additional diagnostic text when server does not support any of our authentication methods -->
   <string name="account_setup_failed_auth_required">Zerbitzariak ez ditu onartzen autentifikazio metodoak.</string>
+  <!-- Additional diagnostic text when server connection failed due to security error -->
   <string name="account_setup_failed_security">Ezin izan da zerbitzariarekin konexioa ezarri segurtasun errore bat dela eta.</string>
+  <!-- Additional diagnostic text when server connection failed due to io error (connection) -->
   <string name="account_setup_failed_ioerror">Ezin izan da zerbitzariarekin konexioa ezarri.</string>
+  <!-- Additional diagnostic text when server connection failed due to our inability to support a
+         required EAS protocol version [CHAR LIMIT=none] -->
   <string name="account_setup_failed_protocol_unsupported">Zerbitzari helbide oker bat idatzi duzu edo zerbitzariak Epostak onartzen ez duen protokolo bat erabiltzen du.</string>
+  <!-- Additional diagnostic text when server access was denied; the user should contact the
+         administrator of the server for more information [CHAR LIMIT=none] -->
   <string name="account_setup_failed_access_denied">Ez duzu zerbitzari honekin sinkronizatzeko baimenik. Jarri kontaktuan zerbitzariaren administratzailearekin gehiago jakiteko.</string>
+  <!-- Dialog title when validation requires security provisioning (e.g. support
+         for device lock PIN, or remote wipe.) and we ask the user permission before continuing -->
   <string name="account_setup_security_required_title">Urruneko segurtasunaren administrazioa</string>
+  <!-- Additional diagnostic text when validation requires security provisioning (e.g. support
+         for device lock PIN, or remote wipe.) and we ask the user permission before continuing.
+         [CHAR LIMIT=none] -->
   <string name="account_setup_security_policies_required_fmt"> <xliff:g id="server">%s</xliff:g> zerbitzariak zure Android gailuko segurtasun ezaugarri batzuk urrunetik kontrolatzea baimendu diezaiozula eskatzen dizu. Kontu hau ezartzen bukatu nahi duzu?</string>
+  <!-- Additional diagnostic text when validation failed due to required provisioning not
+         being supported [CHAR LIMIT=none] -->
   <string name="account_setup_failed_security_policies_unsupported">Zerbitzari honek zure Android gailuan euskarririk ez duten segurtasun ezaugarriak behar ditu, besteak beste: <xliff:g id="error">%s</xliff:g></string>
+  <!-- The user name can only be changed during initial account setup. [CHAR LIMIT=none] -->
   <string name="account_setup_username_uneditable_error">Ezin da kontu baten erabiltzaile izena aldatu. Beste erabiltzaile izen bat duen kontua gehitzeko, ukitu Gehitu kontua.</string>
+  <!-- Warning given to users when they request disabling device administration (i.e. that their
+         administered accounts will be deleted) [CHAR LIMIT=none] -->
   <string name="disable_admin_warning">ABISUA: zure gailua administratzeko Eposta aplikazioaren baimena desaktibatzen baduzu, aplikazio honetan hori behar duten kontu guztiak ezabatuko dira, baita eposta helbideak, kontaktuak, egutegiko gertakariak eta bestelako datuak ere.</string>
+  <!-- Dialog shown when the account requires some amount of device security provisioning,
+         just before jumping into system settings such as Device Policy grant, PIN/password,
+         or encryption setup.  [CHAR_LIMIT=40] -->
   <string name="account_security_dialog_title">Segurtasunezko eguneraketa</string>
+  <!-- Additional diagnostic text when the account requires some amount of device security
+         provisioning, just before jumping into system settings such as Device Policy grant,
+         PIN/password, or encryption setup.  [CHAR LIMIT=none] -->
   <string name="account_security_dialog_content_fmt"><xliff:g id="account">%s</xliff:g> kontuak zuk segurtasun ezarpenak eguneratzea behar du.</string>
+  <!-- Notification ticker when device security required (note: unused in Holo XL) -->
   <string name="security_unsupported_ticker_fmt">\"<xliff:g id="account">%s</xliff:g>\" kontua ezin da sinkronizatu segurtasun baldintzak direla eta.</string>
+  <!-- Notification ticker when device security required (note: unused in Holo XL) -->
   <string name="security_needed_ticker_fmt">\"<xliff:g id="account">%s</xliff:g>\" kontuak segurtasun ezarpenak eguneratzea behar du.</string>
+  <!-- Notification ticker when device security required (note: unused in Holo XL) -->
   <string name="security_changed_ticker_fmt">\"<xliff:g id="account">%s</xliff:g>\" kontuak segurtasun ezarpenak eguneratu ditu; ez duzu ezer egin behar.</string>
+  <!-- Notification content title when device security required [CHAR_LIMIT=30] -->
   <string name="security_notification_content_update_title">Segurtasun eguneraketa ezinbestekoa</string>
+  <!-- Notification content title when device security policies have changed [CHAR_LIMIT=36] -->
   <string name="security_notification_content_change_title">Segurtasun politikak aldatu dira</string>
+  <!-- Notification content title when device security policies cannot be met [CHAR_LIMIT=30] -->
   <string name="security_notification_content_unsupported_title">Ezin dira bete segurtasun politikak</string>
+  <!-- Title of the activity that dispatches changes to device security.  Not normally seen. -->
   <string name="account_security_title">Gailuaren segurtasuna</string>
+  <!-- Additional diagnostic text when the email app asserts control of the phone.
+        [CHAR LIMIT=none] -->
   <string name="account_security_policy_explanation_fmt"><xliff:g id="server">%s</xliff:g> zerbitzariak zure Android gailuko segurtasun ezaugarri batzuk urrunetik kontrolatzea baimendu diezaiozula eskatzen dizu.</string>
+  <!-- "Setup could not finish" dialog action button -->
   <string name="account_setup_failed_dlg_edit_details_action">Editatu xehetasunak</string>
+  <!-- Notification ticker when device password is getting ready to expire [CHAR_LIMIT=80] -->
   <string name="password_expire_warning_ticker_fmt">\"<xliff:g id="account">%s</xliff:g>\" kontuak zuk blokeo-pantailako PIN zenbakia edo pasahitza aldatzea behar du.</string>
+  <!-- Notification content title when device password is getting ready to expire
+            [CHAR_LIMIT=30] -->
   <string name="password_expire_warning_content_title">Blokeo-pantailako pasahitza iraungi egingo da</string>
+  <!-- Notification ticker when device password has expired [CHAR_LIMIT=80] -->
   <string name="password_expired_ticker">Blokeo-pantailako PINa edo pasahitza iraungi egin du.</string>
+  <!-- Notification content title when device password has expired [CHAR_LIMIT=28] -->
   <string name="password_expired_content_title">Blokeo-pantailaren pasahitza iraungita</string>
+  <!-- Dialog title if device pin/password is going to expire soon. [CHAR_LIMIT=40] -->
   <string name="password_expire_warning_dialog_title">Blokeo-pantailako pasahitza iraungi egingo da</string>
+  <!-- Dialog content device pin/password is going to expire soon. [CHAR_LIMIT=none] -->
   <string name="password_expire_warning_dialog_content_fmt">Laster blokeo-pantailako PIN zenbakia edo pasahitza aldatu behar duzu, bestela <xliff:g id="account">%s</xliff:g> kontuko datuak ezabatuko dira. Orain aldatu nahi duzu?</string>
+  <!-- Dialog title if device pin/password has already expired. [CHAR_LIMIT=40] -->
   <string name="password_expired_dialog_title">Blokeo-pantailaren pasahitza iraungita</string>
+  <!-- Dialog content device pin/password has already expired. [CHAR_LIMIT=none] -->
   <string name="password_expired_dialog_content_fmt"><xliff:g id="account">%s</xliff:g> kontuko datuak gailutik ezabatzen ari dira. Berrezartzeko, aldatu blokeo-pantailaren PIN zenbakia edo pasahitza.  Orain aldatu nahi dituzu?</string>
+  <!-- On AccountSettingsXL, dialog text if you try to exit in/out/eas fragment (server settings)
+         without checking/saving [CHAR LIMIT=none]-->
   <string name="account_settings_exit_server_settings">Baztertu gorde gabeko aldaketak?</string>
+  <!-- On AccountSettingsXL, dialog title if you were brought here due to a login failure.
+        [CHAR_LIMIT=40] -->
   <string name="account_settings_login_dialog_title">Ezin izan da saioa hasi</string>
+  <!-- Dialog content if you were brought here due to a login failure.
+        [CHAR_LIMIT=none] -->
   <string name="account_settings_login_dialog_content_fmt"><xliff:g id="account">%s</xliff:g> kontuko erabiltzailea edo pasahitza oker dago. Orain eguneratu nahi dituzu?</string>
+  <!-- Dialog content if you were brought here due to a login failure, and the server provided a reason
+        [CHAR_LIMIT=none] -->
   <string name="account_settings_login_dialog_reason_fmt">Huts egin du <xliff:g id="account">%s</xliff:g> kontuarekin saioa hastea; zerbitzariak dio: <xliff:g id="reason">%s</xliff:g>. Erabiltzailea edo eta pasahitza eguneratu nahi duzu?</string>
+  <!-- On Settings screen, setting option name -->
+  <!-- Title of account preference for downloading attachments in background [CHAR LIMIT=32] -->
   <string name="account_settings_background_attachments_label">Deskargatu eranskinak</string>
+  <!-- Summary of account preference for downloading attachments in background [CHAR LIMIT=64] -->
   <string name="account_settings_background_attachments_summary">Automatikoki deskargatu berriki jasotako mezuen eranskinak Wi-Fi bidez</string>
   <string name="account_settings_notify_label">Eposta jakinarazpenak</string>
+  <!-- On Settings screen, summary line when called via AccountManager for Exchange accounts
+        [CHAR LIMIT=50] -->
   <string name="account_settings_summary">Sinkronizazio maiztasuna, jakinarazpenak, etab.</string>
+  <!-- On Settings screen, setting summary text -->
   <string name="account_settings_notify_summary">Jakinarazi eposta berria iristean</string>
+  <!-- On Settings screen, setting option name and title of dialog box that opens -->
   <string name="account_settings_mail_check_frequency_label">Sinkronizazio maiztasuna</string>
+  <!-- On Settings screen, setting option name -->
   <string name="account_settings_incoming_label">Sarrerako ezarpenak</string>
+  <!-- On Settings screen, setting option summary [CHAR LIMIT=64] -->
   <string name="account_settings_incoming_summary">Erabiltzailea, pasahitza eta sarrera zerbitzariaren beste ezarpenak</string>
+  <!-- On Settings screen, setting option name -->
   <string name="account_settings_outgoing_label">Irteera ezarpenak</string>
+  <!-- On Settings screen, setting option summary [CHAR LIMIT=64] -->
   <string name="account_settings_outgoing_summary">Erabiltzailea, pasahitza eta irteera zerbitzariaren beste ezarpenak</string>
+  <!-- On Settings screen, setting option name -->
   <string name="account_settings_enforced_label">Politikak betearazi dira</string>
+  <!-- On Settings screen, setting option summary [CHAR LIMIT=64] -->
   <string name="account_settings_enforced_summary">Bat ere ez</string>
+  <!-- On Settings screen, setting option name -->
   <string name="account_settings_unsupported_label">Euskarririk gabeko politikak</string>
+  <!-- On Settings screen, setting option summary [CHAR LIMIT=64] -->
   <string name="account_settings_unsupported_summary">Bat ere ez</string>
+  <!-- On Settings screen, label for button that attempts to sync the account -->
   <string name="account_settings_retry_label">Saiatu sinkronizatzen</string>
+  <!-- On Settings screen, summmary for button that attempts to sync an account [CHAR LIMIT=64] -->
   <string name="account_settings_retry_summary">Sakatu hemen kontu hau sinkronizatzeko</string>
+  <!-- On Settings screen, setting option name -->
   <string name="account_settings_description_label">Kontuaren izena</string>
+  <!-- On Settings screen, setting option name -->
   <string name="account_settings_name_label">Zure izena</string>
+  <!-- On Settings screen, setting option name. Allows user to modify saved quick responses
+        for insertion in message body. [CHAR_LIMIT=24]-->
   <string name="account_settings_edit_quick_responses_label">Erantzun azkarrak</string>
+  <!-- On Settings screen, setting option summary [CHAR LIMIT=64] -->
   <string name="account_settings_edit_quick_responses_summary">Editatu eposta idaztean maiz erabiltzen duzun testua</string>
+  <!-- On Settings screen, section heading -->
   <string name="account_settings_notifications">Jakinarazpenen ezarpenak</string>
+  <!-- On Settings screen, section heading for data usage [CHAR LIMIT=70] -->
   <string name="account_settings_data_usage">Datuen erabilera</string>
+  <!-- On Settings screen, section heading -->
   <string name="account_settings_policies">Segurtasun politikak</string>
   <string name="system_folders_title">Sistemaren karpetak</string>
   <string name="system_folders_trash_title">Paperontzia</string>
@@ -222,34 +473,76 @@
   <string name="system_folders_sent_title">Bidalitakoak karpeta</string>
   <string name="system_folders_sent_summary">Hautatu zure zerbitzariko bidalitakoak karpeta</string>
   <string name="system_folders_sent_dlg">Hautatu zure zerbitzariko bidalitakoak karpeta</string>
+  <!-- On settings screen, dialog heading informing user to create or edit a quick response -->
   <string name="edit_quick_response_dialog">Erantzun azkarra</string>
+  <!-- On settings screen, edit quick response dialog's "save" button -->
   <string name="save_action">Gorde</string>
+  <!-- On settings screen, sync contacts check box label [CHAR LIMIT=20]-->
   <string name="account_settings_sync_contacts_enable">Sinkronizatu kontaktuak</string>
+  <!-- On settings screen, sync contacts summary text [CHAR LIMIT=35] -->
   <string name="account_settings_sync_contacts_summary">Sinkronizatu kontu honetako kontaktuak</string>
+  <!-- On settings screen, sync calendar check box label [CHAR LIMIT=20]-->
   <string name="account_settings_sync_calendar_enable">Sinkronizatu egutegia</string>
+  <!-- On settings screen, sync calendar summary text [CHAR LIMIT=50] -->
   <string name="account_settings_sync_calendar_summary">Sinkronizatu kontu honetako egutegia</string>
+  <!-- On settings screen, sync email check box label [CHAR LIMIT=20]-->
   <string name="account_settings_sync_email_enable">Sinkronizatu eposta</string>
+  <!-- On settings screen, sync email summary text [CHAR LIMIT=35] -->
   <string name="account_settings_sync_email_summary">Sinkronizatu kontu honetako eposta</string>
+  <!-- On Settings screen, vibrate pop-up menu label -->
   <string name="account_settings_vibrate_when_label">Bibratu</string>
+  <!-- On Settings screen, setting option name -->
   <string name="account_settings_ringtone">Hautatu dei doinua</string>
+  <!-- On Settings screen, section heading -->
   <string name="account_settings_servers">Zerbitzariaren ezarpenak</string>
+  <!-- Mailbox settings activity title [CHAR LIMIT=none] -->
   <string name="mailbox_settings_activity_title">Sinkronizazio aukerak</string>
+  <!-- Mailbox settings activity title, with the target folder name [CHAR LIMIT=none] -->
   <string name="mailbox_settings_activity_title_with_mailbox">Sinkronizazio aukerak (<xliff:g id="mailboxx_name" example="Family">%s</xliff:g>)</string>
+  <!-- On mailbox settings screen: Whether to sync this mailbox when the account syncs. -->
   <string name="mailbox_settings_sync_enabled_label">Sinkronizatu karpeta hau</string>
+  <!-- On mailbox settings screen: Explanatory text for what it means to "sync this folder". -->
   <string name="mailbox_settings_sync_enabled_summary">Mezuak konektatzerakoan deskargatuko dira</string>
+  <!-- On mailbox settings screen: Mailbox sync window (the number of days to synchronize email for) setting label [CHAR LIMIT=none] -->
   <string name="mailbox_settings_mailbox_sync_window_label">Zenbat egunetako posta sinkronizatu</string>
+  <!-- Dialog title for the choosing whether to show checkboxes or sender image [CHAR LIMIT=200] -->
   <string name="prefDialogTitle_conversationListIcon">Igorlearen irudia</string>
+  <!-- Message that appears when adding a Windows Live Hotmail Plus account -->
   <string name="provider_note_live">Soilik \"Plus\" kontu batzuk dute aplikazio honi sartzea ahalbidetzen dion POP sarbidea. Ezin baduzu saioa hasi zure helbide elektroniko eta pasahitzarekin, agian ez duzu ordaindu \"Plus\" kontu bat. Abiarazi nabigatzailea eposta helbide hauetara sartzeko.</string>
+  <!-- Name of Microsoft Exchange account type; used by AccountManager -->
+  <!-- Name of Microsoft Exchange account type; used by AccountManager -->
+  <!-- Message that appears if the AccountManager cannot create the system Account -->
   <string name="system_account_create_failed">Ezin izan da kontua sortu. Saiatu berriro.</string>
+  <!-- Strings that support the DeviceAdmin / DevicePolicyManager API -->
+  <!-- Name of the DeviceAdmin (seen in settings & in user confirmation screen) -->
   <string name="device_admin_label">Eposta</string>
+  <!-- Long-form description of the DeviceAdmin (2nd line in settings & in user conf. screen) -->
   <string name="device_admin_description">Zerbitzariak zehaztutako segurtasun politikak gaitzen ditu</string>
+  <!-- Settings activity title [CHAR LIMIT=40]-->
   <string name="settings_activity_title">Ezarpenak</string>
+  <!-- General Preferences Screen -->
+  <!-- Label in preferences header to describe general preferences [CHAR LIMIT=32] -->
   <string name="header_label_general_preferences">Ezarpen orokorrak</string>
+  <!-- General preference: Label of the setting for requiring confirmation before
+         message deletion [CHAR LIMIT=32] -->
   <string name="general_preference_confirm_delete_label">Berretsi ezabatu aurretik</string>
+  <!-- General preference: Description of the setting for requiring confirmation before
+         message deletion [CHAR LIMIT=64] -->
+  <!-- TODO: Delete this string, no longer used -->
   <string name="general_preference_confirm_delete_summary">Mezuak</string>
+  <!-- General preference: Label of the setting for requiring confirmation before
+         message sending [CHAR LIMIT=32] -->
   <string name="general_preference_confirm_send_label">Berretsi bidali aurretik</string>
+  <!-- General preference: Description of the setting for requiring confirmation before
+         message sending [CHAR LIMIT=32] -->
+  <!-- TODO: Delete this string, no longer used -->
   <string name="general_preference_confirm_send_summary">Mezuak</string>
+  <!-- General preference: Label of the setting for the text zoom.  [CHAR LIMIT=32] -->
   <string name="general_preference_text_zoom_label">Mezu testuaren tamaina</string>
+  <!-- General preference: Description of each setting for text zoom.  The entries here must
+         correspond to the strings general_preference_text_zoom_tiny,
+         general_preference_text_zoom_small, general_preference_text_zoom_normal, etc.
+         [CHAR LIMIT=64] -->
   <string-array name="general_preference_text_zoom_summary_array">
     <item>Testu oso txikia</item>
     <item>Testu txikia</item>
@@ -257,30 +550,63 @@
     <item>Testu handia</item>
     <item>Testu oso handia</item>
   </string-array>
+  <!-- The message text size values -->
+  <!-- General preference: Title of the dialog box with options for text zoom. [CHAR LIMIT=32] -->
   <string name="general_preference_text_zoom_dialog_title">Mezu testuaren tamaina</string>
+  <!-- General preference:  Text zoom.  Value is "tiny" (-2) [CHAR LIMIT=32] -->
   <string name="general_preference_text_zoom_tiny">Oso txikia</string>
+  <!-- General preference:  Text zoom.  Value is "small" (-1) [CHAR LIMIT=32] -->
   <string name="general_preference_text_zoom_small">Txikia</string>
+  <!-- General preference:  Text zoom.  Value is "normal" (0) [CHAR LIMIT=32] -->
   <string name="general_preference_text_zoom_normal">Arrunta</string>
+  <!-- General preference:  Text zoom.  Value is "large" (+1) [CHAR LIMIT=32] -->
   <string name="general_preference_text_zoom_large">Handia</string>
+  <!-- General preference:  Text zoom.  Value is "huge" (+2) [CHAR LIMIT=32] -->
   <string name="general_preference_text_zoom_huge">Oso handia</string>
+  <!-- Generic string shown instead of regular numbers, when a number is larger than 999.
+         This should not be altered if the original string ("999+") makes sense in the
+         target language. Typical alternatives include "+999" and ">999".  [CHAR_LIMIT=4] -->
   <string name="more_than_999">999+</string>
+  <!-- A policy disallowing the user of the device's camera [CHAR LIMIT=50] -->
   <string name="policy_dont_allow_camera">Debekatu gailuaren kamera erabiltzea</string>
+  <!-- A policy requiring a device lock screen password [CHAR LIMIT=50] -->
   <string name="policy_require_password">Eskatu gailuaren pasahitza</string>
+  <!-- A policy disallowing the reuse of recent passwords [CHAR LIMIT=50] -->
   <string name="policy_password_history">Debekatu berriki erabilitako pasahitzak berrerabiltzea</string>
+  <!-- A policy that forces a password to expire after a set period of time [CHAR LIMIT=50] -->
   <string name="policy_password_expiration">Behartu pasahitzak iraungitzea</string>
+  <!-- A policy requiring a maximum amount of time the device can sit idle before the lock screen
+        is activated [CHAR LIMIT=50] -->
   <string name="policy_screen_timeout">Behartu langabe dagoen gailua pantaila blokeatzera</string>
+  <!-- A policy limiting the number of old calendar events synced [CHAR LIMIT=50] -->
   <string name="policy_calendar_age">Mugatu sinkronizatuko den egutegiko gertaera kopurua</string>
+  <!-- A policy limiting the number of emails synced [CHAR LIMIT=50] -->
   <string name="policy_email_age">Murriztu sinkronizatuko den eposta kopurua</string>
+  <!-- The four strings below represent "quick responses" which the user can insert into a
+        message being composed with just a couple of taps.  These four responses MUST be defined,
+        but need not include a string (i.e. they are optional).  Further, the responses can be
+        customized as necessary by the translator, in case one or more of these is inappropriate in
+        a particular locale or if there are better options available. -->
+  <!-- A "quick response", i.e. a quick reply to a received mail [CHAR LIMIT=NONE] -->
   <string name="quick_1">Eskerrik asko!</string>
+  <!-- A "quick response", i.e. a quick reply to a received mail [CHAR LIMIT=NONE] -->
   <string name="quick_2">Ondo deritzot!</string>
+  <!-- A "quick response", i.e. a quick reply to a received mail [CHAR LIMIT=NONE] -->
   <string name="quick_3">Geroago irakurriko dut eta esango dizut ezer.</string>
+  <!-- A "quick response", i.e. a quick reply to a received mail [CHAR LIMIT=NONE] -->
   <string name="quick_4">Batzartu gaitezen honi buruz hitz egiteko.</string>
+  <!-- This is the message warning the user that they must sync manually when roaming. [CHAR LIMIT=none]-->
   <string name="require_manual_sync_message">Atzeko planoko sinkronizazioa ezgaituta dago kontu honentzat ibiltaritzan.</string>
+  <!-- This is shown when a user responds to a meeting invitation [CHAR LIMIT=none]-->
   <string name="confirm_response">Erantzuna bidaltzen&#8230;</string>
+  <!-- Used by AccountManager -->
   <string name="imap_name">IMAP</string>
   <string name="pop3_name">POP3</string>
   <string name="folder_picker_title">Karpeta hautatzailea</string>
+  <!-- Displayed when the user must pick his server's trash folder from a list [CHAR LIMIT 30]-->
   <string name="trash_folder_selection_title">Hautatu <xliff:g id="account">%s</xliff:g> kontuaren zerbitzariko paperontzia</string>
+  <!-- Displayed when the user must pick his server's sent items folder from a list [CHAR LIMIT 30]-->
   <string name="sent_folder_selection_title">Hautatu <xliff:g id="account">%s</xliff:g> kontuaren zerbitzariko bidalitakoak karpeta</string>
   <string name="account_waiting_for_folders_msg">Karpeta zerrenda kargatzen&#8230;</string>
+  <!-- Feedback uri to be used when feedback is enabled -->
 </resources>

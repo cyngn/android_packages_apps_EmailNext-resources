@@ -16,10 +16,14 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- Name of EmailProvider shown in AccountManager -->
   <string name="email_provider">E-pošta</string>
+  <!-- In the UI, the drafts will be displayed with this name -->
   <string name="mailbox_name_display_local_drafts">Lokalne skice</string>
   <string name="mailbox_name_display_server_drafts">Poslužiteljske skice</string>
+  <!-- In the UI, the folder to-do will be displayed with this name -->
   <string name="mailbox_name_display_todo">Zaduženja</string>
+  <!-- In the UI, the archive will be displayed with this name -->
   <string name="mailbox_name_display_archive">Arhiva</string>
   <string name="mailbox_name_local_only_display_name"> - Lokalni</string>
   <string name="account_setup_start_email_address_hint">Unesite adresu e-pošte</string>
@@ -27,36 +31,114 @@
   <string name="account_setup_start_get_started_button">Počnite</string>
   <string name="account_setup_start_login_button">Prijavi se</string>
   <string name="account_setup_start_invalid_email_address">Nepravilna adresa E-pošte</string>
+  <!-- hint for account email password text field -->
   <string name="password_label">Lozinka</string>
   <string name="account_setup_basics_progress_message">Auto-otkrivanje u tijeku</string>
+  <!-- In Account setup options screen, Activity title [CHAR LIMIT=45] -->
   <string name="account_setup_options_title">Osobne postavke</string>
+  <!-- In Account setup options screen, label for email check frequency selector -->
   <string name="account_setup_options_mail_check_frequency_label">Provjeri moj inbox</string>
+  <!-- In Account setup options & Account Settings screens, email check frequency option -->
   <string name="account_setup_options_mail_check_frequency_2hour">Svaka 2 sata</string>
+  <!-- In Account setup options & Account Settings screens, email check frequency option -->
   <string name="account_setup_options_mail_check_frequency_4hour">Svaka 4 sata</string>
+  <!-- In Account setup options & Account Settings screens, email check frequency option -->
   <string name="account_setup_options_mail_check_frequency_1day">Svaki dan</string>
+  <!-- In Account setup options & Account Settings screens, check box for new-mail notification -->
   <string name="account_setup_options_notify_label"><b>Obavijesti me</b> kad stigne e-pošta</string>
+  <!-- In Account setup options screen, optional check box to also sync contacts -->
   <string name="account_setup_options_sync_contacts_label"><b>Sinkroniziraj kontakte</b> ovog računa</string>
+  <!-- In Account setup options screen, optional check box to also sync calendar -->
   <string name="account_setup_options_sync_calendar_label"><b>Sinkroniziraj kalendar</b> ovog računa</string>
+  <!-- In Account setup options screen, check box to sync email -->
   <string name="account_setup_options_sync_email_label"><b>Sinkroniziraj e-poštu</b> ovog računa</string>
   <string name="account_setup_options_disable_convo_threading_label">Isključi nizanje prepiski</string>
+  <!-- On Settings screen, setting option for showing all images -->
   <string name="account_settings_show_all_images_title">Slike</string>
   <string name="account_settings_show_all_images_show">Uvijek pokaži</string>
   <string name="account_settings_show_all_images_ask">Pitaj prije prikaza</string>
+  <!-- On Settings Screen, setting option for setting the account color -->
   <string name="account_settings_account_color_title">Boja računa</string>
   <string name="account_settings_account_color_summary">Promijeni boju za ovaj račun</string>
+  <string name="account_settings_account_color_dialog_title">Odaberite boju</string>
+  <!-- On Settings screen, led notification title label -->
+  <string name="account_settings_led_notification_label">Omogući LED obavijest</string>
+  <string name="account_settings_led_notification_custom_color">Koristi prilagođene LED boje</string>
+  <!-- On Settings screen, led color title and summary label -->
+  <string name="account_settings_led_color_label">Prilagođene LED boje</string>
+  <string name="account_settings_led_color_summary">Zadana vrijednost je boja računa</string>
+  <!-- On Settings screen, tutorial header title label -->
   <string name="account_settings_tutorial_header_title">Pogledaj tutorial</string>
+  <!-- On Settings screen, title for label/move preference -->
+  <string name="account_settings_move_label_title">Poruke oznaka/premještanja</string>
+  <!-- On Settings screen, shown as an option for label/move preference -->
+  <string name="account_settings_move_title">Premjesti</string>
+  <!-- On Settings screen, shown as an option for label/move preference -->
+  <string name="account_settings_label_title">Oznaka</string>
+  <!-- General preference: Labels for the setting to mark emails as read before archiving them -->
   <string name="general_preference_mark_archive_messages_read">Arhiviraj kao pročitano</string>
   <string name="general_preference_mark_archive_messages_read_description">Označi E-poštu kao pročitanu prije arhiviranja</string>
+  <!-- General preference: Notifications open to the combined inbox-->
   <string name="general_pref_notifications_use_combined_inbox">Obavijesti otvaraju kombinirani inbox</string>
   <string name="general_pref_notifications_use_combined_inbox_desc">Dodir na obavijest otvara kombinirani inbox umjesto inbox-a računa</string>
+  <!-- The hint used in the search box when searching all mailboxes [CHAR LIMIT=35] -->
   <string name="search_hint">Pretraži\u2026</string>
+  <!-- Title of screen when trying to get oauth authentication -->
+  <string name="oauth_authentication_title">Zahtijevanje autorizacije</string>
+  <!-- Title of screen to choose with authentication to use -->
   <string name="sign_in_title">Prijavi se</string>
+  <!-- Button shown on SignInActivity -->
   <string name="sign_in_button">Gotovo</string>
+  <!-- Label between OAuth and password authentication, indicating the user must do one or the other [CHAR LIMIT=40] -->
   <string name="or_label">ILI</string>
+  <!-- Label for signing in with Google using OAuth -->
+  <string name="sign_in_with_google">Prijavite se sa Google</string>
+  <!--  On the "Setup up email" screen, label indicating what service we are signed in with [CHAR LIMIT=40] -->
+  <string name="signed_in_with_service_label">Prijavljen preko %s</string>
+  <!-- Label for the authentication section [CHAR LIMIT=20] -->
+  <string name="authentication_label">Autentičnost</string>
+  <!-- Label for the add authentication icon [CHAR LIMIT=40] -->
+  <string name="add_authentication_label">Dodaj autentičnost</string>
+  <string name="oauth_saving_message">Spremanje\u2026</string>
+  <string name="about_app_header_title">O</string>
+  <!-- A sync window length setting (i.e. load messages this far back) [CHAR LIMIT=25]  -->
+  <string name="account_setup_options_mail_window_3months">Zadnja 3 mjeseca</string>
+  <!-- A sync window length setting (i.e. load messages this far back) [CHAR LIMIT=25]  -->
+  <string name="account_setup_options_mail_window_6months">Zadnjih 6 mjeseci</string>
+  <string name="account_settings_unable_to_edit_field">Vaš administrator ne dozvoljava da se ovo polje mijenja</string>
+  <!-- Menu item for sending availability from compose. [CHAR_LIMIT=30] -->
   <string name="message_compose_send_availability_menu_title">Raspoloživost slanja</string>
+  <!-- Menu item for including an invite from compose. [CHAR_LIMIT=30] -->
   <string name="message_compose_create_invite_menu_title">Stvori poziv</string>
+  <!-- Preference for the compose toolbar -->
+  <string name="preference_compose_toolbar_visibility">Prikaži uređivanje alatne trake</string>
   <string name="tutorial_welcome_title">Dobrodošli u E-poštu</string>
+  <string name="tutorial_welcome_subtitle">Pametnija. Brža. Prilagođena. E-pošta.</string>
+  <string name="tutorial_page1_title">Prilagođeni Potezi</string>
+  <string name="tutorial_page1_subtitle">Prilagodite akcije poteza i napravite vlastito iskustvo.</string>
+  <string name="tutorial_page2_title">Masovne radnje</string>
+  <string name="tutorial_page2_subtitle">Naše izabrane mogućnosti su najbrži način za upravljanje vašimim inbox-om.</string>
   <string name="tutorial_page3_title">Akcija mreže</string>
+  <string name="tutorial_page3_subtitle">Moćne integracije i funkcionalnosti na dodir gumba.</string>
   <string name="tutorial_skip_button">Preskoči</string>
   <string name="tutorial_done_button">Gotovo</string>
+  <string name="message_send_failed_ticker">Slanje poruke nije uspjelo</string>
+  <string name="message_send_failed_title">Poruka nije poslana</string>
+  <string name="preferences_clear_search_history_title">Obriši povijest pretraživanja</string>
+  <string name="preferences_clear_search_history_summary">Uklonite sva poduzeta pretraživanja</string>
+  <string name="search_history_cleared">Povijest pretraživanja je obrisana.</string>
+  <string name="update_available_ticker">Dostupno je ažuriranje za E-Poštu</string>
+  <string name="update_availalable_title">Dostupno je ažuriranje</string>
+  <string name="update_available_content">Dodirnite za instaliranje ažuriranja</string>
+  <!-- Security settings category -->
+  <string name="preferences_security_title">Sigurnost</string>
+  <!-- Preference for disabling screenshots of app screens. -->
+  <string name="preference_disable_screenshots">Onemogući snimke zaslona</string>
+  <!-- Preference for disabling screenshots of app screens. -->
+  <string name="preference_disable_screenshots_summary">Spriječi druge aplikacije da uhvate snimak zaslona</string>
+  <string name="preference_allow_insecure_attachments_title">Dopusti nesigurne priloge</string>
+  <string name="preference_allow_insecure_attachments_summary">Omogući pregled i spremanje nesigurnih priloga</string>
+  <string name="custom_perms_dialog_title">Duplirane dozvole</string>
+  <string name="custom_perms_dialog_msg">Druga aplikacija možda pokušava prikupiti vaše osobne informacije.\n\n<xliff:g id="content">%s</xliff:g>\n\nMolimo kontaktirajte Boxer podršku za pomoć.</string>
+  <string name="custom_perms_pos_btn">Prijavi</string>
 </resources>
