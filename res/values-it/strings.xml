@@ -37,7 +37,7 @@
   <!-- Button name used to cancel out of dialog boxes -->
   <string name="cancel_action">Annulla</string>
   <!--  Button name used to complete a multi-step process -->
-  <string name="done_action">Fine</string>
+  <string name="done_action">Fatto</string>
   <!--  Menu item used to create a new quick response [CHAR_LIMIT=16] -->
   <string name="create_action">Crea nuova</string>
   <!-- Message informing user when a list that would contain quick responses
