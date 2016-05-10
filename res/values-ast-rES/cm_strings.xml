@@ -22,6 +22,7 @@
   <string name="mailbox_name_display_local_drafts">Borradores llocales</string>
   <string name="mailbox_name_display_server_drafts">Borradores del sirvidor</string>
   <!-- In the UI, the folder to-do will be displayed with this name -->
+  <string name="mailbox_name_display_todo">Pendientes</string>
   <!-- In the UI, the archive will be displayed with this name -->
   <string name="mailbox_name_display_archive">Archivu</string>
   <string name="mailbox_name_local_only_display_name"> - Llocal</string>
@@ -32,9 +33,11 @@
   <string name="account_setup_start_invalid_email_address">Direición de corréu non válida</string>
   <!-- hint for account email password text field -->
   <string name="password_label">Contraseña</string>
+  <string name="account_setup_basics_progress_message">Descubrimientu automáticu en cursu</string>
   <!-- In Account setup options screen, Activity title [CHAR LIMIT=45] -->
   <string name="account_setup_options_title">Personalizar</string>
   <!-- In Account setup options screen, label for email check frequency selector -->
+  <string name="account_setup_options_mail_check_frequency_label">Comprobar la mio bandexa d\'entrada</string>
   <!-- In Account setup options & Account Settings screens, email check frequency option -->
   <string name="account_setup_options_mail_check_frequency_2hour">Cada 2 hores</string>
   <!-- In Account setup options & Account Settings screens, email check frequency option -->
@@ -49,6 +52,7 @@
   <string name="account_setup_options_sync_calendar_label"><b>Sincronizar calendariu</b> d\'esta cuenta</string>
   <!-- In Account setup options screen, check box to sync email -->
   <string name="account_setup_options_sync_email_label"><b>Sincronizar corréu</b> d\'esta cuenta</string>
+  <string name="account_setup_options_disable_convo_threading_label">Desactivar los filos nes charres</string>
   <!-- On Settings screen, setting option for showing all images -->
   <string name="account_settings_show_all_images_title">Imáxenes</string>
   <string name="account_settings_show_all_images_show">Amosar siempres</string>
@@ -75,6 +79,8 @@
   <string name="general_preference_mark_archive_messages_read">Archivar como lleíu</string>
   <string name="general_preference_mark_archive_messages_read_description">Marcar los correos como lleíos enantes d\'archivalos</string>
   <!-- General preference: Notifications open to the combined inbox-->
+  <string name="general_pref_notifications_use_combined_inbox">Les notificaciones ábrense na bandexa d\'entrada combinada</string>
+  <string name="general_pref_notifications_use_combined_inbox_desc">Primiendo nuna notificación ábrese la bandexa d\'entrada combinada en cuenta de la bandexa d\'entrada de la cuenta</string>
   <!-- The hint used in the search box when searching all mailboxes [CHAR LIMIT=35] -->
   <string name="search_hint">Guetar\u2026</string>
   <!-- Title of screen when trying to get oauth authentication -->
@@ -103,7 +109,15 @@
   <!-- Menu item for sending availability from compose. [CHAR_LIMIT=30] -->
   <string name="message_compose_send_availability_menu_title">Unviar disponiblidá</string>
   <!-- Menu item for including an invite from compose. [CHAR_LIMIT=30] -->
+  <string name="message_compose_create_invite_menu_title">Crear invitación</string>
   <!-- Preference for the compose toolbar -->
+  <string name="preference_compose_toolbar_visibility">Amosar ferramientes de composicion</string>
+  <string name="tutorial_welcome_title">Bienllegáu al corréu-e</string>
+  <string name="tutorial_welcome_subtitle">Más intelixente. Más rápidu. A midida. Corréu-e.</string>
+  <string name="tutorial_page1_title">Xestos personalizaos</string>
+  <string name="tutorial_page1_subtitle">Personaliza les tos aiciones asociaes a xestos y constrúi la to propia esperiencia.</string>
+  <string name="tutorial_page2_title">Aiciones masives</string>
+  <string name="tutorial_page2_subtitle">La nuesa carauterística d\'esbilla masiva ye\'l mou más rápidu de xestionar la to bandexa d\'entrada.</string>
   <string name="tutorial_page3_title">Rexáu d\'aiciones</string>
   <string name="tutorial_page3_subtitle">Integración y funcionalidá poderoses col tocar d\'un botón.</string>
   <string name="tutorial_skip_button">Saltar</string>
@@ -117,6 +131,18 @@
   <string name="update_availalable_title">Ta disponible un anovamientu</string>
   <string name="update_available_content">Calca p\'instalar l\'anovamientu</string>
   <!-- Security settings category -->
+  <string name="preferences_security_title">Seguranza</string>
   <!-- Preference for disabling screenshots of app screens. -->
+  <string name="preference_disable_screenshots">Deshabilitar captures de pantalla</string>
   <!-- Preference for disabling screenshots of app screens. -->
+  <string name="preference_disable_screenshots_summary">Evita qu\'otres aplicaciones puedan facer captures de pantalla</string>
+  <string name="preference_allow_insecure_attachments_title">Permitir los axuntos non seguros</string>
+  <string name="preference_allow_insecure_attachments_summary">Permite ver o guardar axuntos non seguros</string>
+  <string name="custom_perms_dialog_title">Duplicar permisos</string>
+  <string name="custom_perms_dialog_msg">Otra aplicación quiciabes tea intentando coleicionar la to información personal.\n\n<xliff:g id="content">%s</xliff:g>\n\nContauta col sofitu de Boxer pa\'yuda, por favor.</string>
+  <plurals name="custom_perms_dialog_app_violation">
+    <item quantity="one"><xliff:g id="app_name">(%s)</xliff:g> redefine\'l permisu: <xliff:g id="permissions_list">%s</xliff:g></item>
+    <item quantity="other"><xliff:g id="app_name">(%s)</xliff:g> redefine los permisos: <xliff:g id="permissions_list">%s</xliff:g></item>
+  </plurals>
+  <string name="custom_perms_pos_btn">Informar</string>
 </resources>
