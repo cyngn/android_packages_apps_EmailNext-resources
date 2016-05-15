@@ -63,6 +63,7 @@
   <!--  On the "Setup up email" screen, label indicating what service we are signed in with [CHAR LIMIT=40] -->
   <!-- Label for the authentication section [CHAR LIMIT=20] -->
   <!-- Label for the add authentication icon [CHAR LIMIT=40] -->
+  <string name="oauth_saving_message">پاشەکەوتی\u2026</string>
   <!-- A sync window length setting (i.e. load messages this far back) [CHAR LIMIT=25]  -->
   <!-- A sync window length setting (i.e. load messages this far back) [CHAR LIMIT=25]  -->
   <!-- Menu item for sending availability from compose. [CHAR_LIMIT=30] -->
