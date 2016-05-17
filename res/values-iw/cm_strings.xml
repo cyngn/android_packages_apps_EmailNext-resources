@@ -99,7 +99,6 @@
   <string name="authentication_label">אימות</string>
   <!-- Label for the add authentication icon [CHAR LIMIT=40] -->
   <string name="add_authentication_label">הוסף אימות</string>
-  <string name="oauth_saving_message">שומר\u2026</string>
   <string name="about_app_header_title">אודות</string>
   <!-- A sync window length setting (i.e. load messages this far back) [CHAR LIMIT=25]  -->
   <string name="account_setup_options_mail_window_3months">3 חודשים אחרונים</string>
