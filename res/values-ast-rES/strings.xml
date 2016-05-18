@@ -565,6 +565,7 @@
   <!-- Generic string shown instead of regular numbers, when a number is larger than 999.
          This should not be altered if the original string ("999+") makes sense in the
          target language. Typical alternatives include "+999" and ">999".  [CHAR_LIMIT=4] -->
+  <string name="more_than_999">999+</string>
   <!-- A policy disallowing the user of the device's camera [CHAR LIMIT=50] -->
   <string name="policy_dont_allow_camera">Nun permitir usar cámara del preséu</string>
   <!-- A policy requiring a device lock screen password [CHAR LIMIT=50] -->
