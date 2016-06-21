@@ -141,6 +141,7 @@
   <string name="custom_perms_dialog_title">تهیه کپی مجوزها</string>
   <string name="custom_perms_dialog_msg">برنامه‌ای دیگر ممکن است در صدد جمع‌آوری اطلاعات شخصی شما برآید.\n\n<xliff:g id="content">%s</xliff:g>\n\nلطفا برای راهنمایی با پشتیبانی Boxer تماس بگیرید.</string>
   <plurals name="custom_perms_dialog_app_violation">
+    <item quantity="one"><xliff:g id="app_name">(%s)</xliff:g> این اجازه(ها) را بازتعریف می‌کند: <xliff:g id="permissions_list">%s</xliff:g></item>
     <item quantity="other"><xliff:g id="app_name">(%s)</xliff:g> این اجازه(ها) را بازتعریف می‌کند: <xliff:g id="permissions_list">%s</xliff:g></item>
   </plurals>
   <string name="custom_perms_pos_btn">گزارش دادن</string>

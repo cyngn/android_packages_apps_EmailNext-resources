@@ -142,6 +142,8 @@
   <string name="custom_perms_dialog_msg">יכול להיות שיישום נוסף מנסה לאסוף את המידע האישי שלך.\n\n<xliff:g id="content">%s</xliff:g>\n\nצור קשר עם צוות התמיכה של Boxer לקבלת עזרה.</string>
   <plurals name="custom_perms_dialog_app_violation">
     <item quantity="one"><xliff:g id="app_name">(%s)</xliff:g> מגדיר מחדש הרשאה: <xliff:g id="permissions_list">%s</xliff:g></item>
+    <item quantity="two"><xliff:g id="app_name">(%s)</xliff:g> מגדיר מחדש הרשאות: <xliff:g id="permissions_list">%s</xliff:g></item>
+    <item quantity="many"><xliff:g id="app_name">(%s)</xliff:g> מגדיר מחדש הרשאות: <xliff:g id="permissions_list">%s</xliff:g></item>
     <item quantity="other"><xliff:g id="app_name">(%s)</xliff:g> מגדיר מחדש הרשאות: <xliff:g id="permissions_list">%s</xliff:g></item>
   </plurals>
   <string name="custom_perms_pos_btn">דיווח</string>

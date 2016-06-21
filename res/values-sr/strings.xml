@@ -53,6 +53,11 @@
   <!-- Also appears in a toast, in the message viewer, when there's a network error. -->
   <string name="status_network_error">Проблем са везом.</string>
   <!-- Text shown with dragged messages to indicate how many are being dragged [CHAR LIMIT=40]-->
+  <plurals name="move_messages">
+    <item quantity="one">Премештање поруке</item>
+    <item quantity="few">Премештање порука</item>
+    <item quantity="other">Премештање порука</item>
+  </plurals>
   <!-- Toast shown when a message(s) can't be moved because it's not supported by the POP3
         protocol. [CHAR LIMIT=none]-->
   <string name="cannot_move_protocol_not_supported_toast">Премештање није подржано на POP3 налозима.</string>

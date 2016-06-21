@@ -56,7 +56,7 @@
   <!-- On Settings screen, setting option for showing all images -->
   <string name="account_settings_show_all_images_title">画像</string>
   <string name="account_settings_show_all_images_show">常に表示する</string>
-  <string name="account_settings_show_all_images_ask">表示するかどうか選択する</string>
+  <string name="account_settings_show_all_images_ask">表示する前に確認する</string>
   <!-- On Settings Screen, setting option for setting the account color -->
   <string name="account_settings_account_color_title">アカウントの色</string>
   <string name="account_settings_account_color_summary">このアカウントの色を編集する</string>

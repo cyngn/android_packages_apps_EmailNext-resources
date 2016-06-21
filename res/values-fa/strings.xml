@@ -54,6 +54,7 @@
   <string name="status_network_error">مشکل اتصال.</string>
   <!-- Text shown with dragged messages to indicate how many are being dragged [CHAR LIMIT=40]-->
   <plurals name="move_messages">
+    <item quantity="one">انتقال پیام‌ها</item>
     <item quantity="other">انتقال پیام‌ها</item>
   </plurals>
   <!-- Toast shown when a message(s) can't be moved because it's not supported by the POP3
@@ -124,18 +125,22 @@
   <string name="login_failed_title">ورود به سیستم ممکن نیست</string>
   <!-- Size unit for bytes for attachments [CHAR LIMIT=10] -->
   <plurals name="message_view_attachment_bytes">
+    <item quantity="one"><xliff:g id="SIZE_IN_BYTES">%d</xliff:g> بایت</item>
     <item quantity="other"><xliff:g id="SIZE_IN_BYTES">%d</xliff:g> بایت</item>
   </plurals>
   <!-- Size unit for kilo bytes for attachments [CHAR LIMIT=10] -->
   <plurals name="message_view_attachment_kilobytes">
+    <item quantity="one"><xliff:g id="SIZE_IN_KILOBYTES">%d</xliff:g> کیلوبایت</item>
     <item quantity="other"><xliff:g id="SIZE_IN_KILOBYTES">%d</xliff:g> کیلوبایت</item>
   </plurals>
   <!-- Size unit for mega bytes for attachments [CHAR LIMIT=10] -->
   <plurals name="message_view_attachment_megabytes">
+    <item quantity="one"><xliff:g id="SIZE_IN_MEGABYTES">%d</xliff:g> مگابایت</item>
     <item quantity="other"><xliff:g id="SIZE_IN_MEGABYTES">%d</xliff:g> مگابایت</item>
   </plurals>
   <!-- Size unit for giga bytes for attachments [CHAR LIMIT=10] -->
   <plurals name="message_view_attachment_gigabytes">
+    <item quantity="one"><xliff:g id="SIZE_IN_GIGABYTES">%d</xliff:g> گیگابایت</item>
     <item quantity="other"><xliff:g id="SIZE_IN_GIGABYTES">%d</xliff:g> گیگابایت</item>
   </plurals>
   <!-- Title of screen when setting up new email account [CHAR LIMIT=45] -->
