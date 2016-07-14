@@ -26,33 +26,24 @@
   <!-- In the UI, the archive will be displayed with this name -->
   <string name="mailbox_name_display_archive">Archív</string>
   <string name="mailbox_name_local_only_display_name"> - Helyi</string>
-  <string name="account_setup_start_email_address_hint">Adja meg e-mail címét</string>
-  <string name="account_setup_start_password_hint">Jelszó</string>
-  <string name="account_setup_start_get_started_button">Kezdjünk bele</string>
-  <string name="account_setup_start_login_button">Belépés</string>
-  <string name="account_setup_start_invalid_email_address">Érvénytelen e-mail cím</string>
+  <string name="account_setup_email_address_hint">Adja meg e-mail címét</string>
+  <string name="account_setup_security_heading">Biztonság</string>
+  <string name="account_setup_authentication_heading">Hitelesítés</string>
+  <!-- Error message shown in dialog body when authenticating an account during setup fails -->
+  <!-- Dialog title when "setup" could not finish -->
   <!-- hint for account email password text field -->
-  <string name="password_label">Jelszó</string>
   <string name="account_setup_basics_progress_message">Automatikus beállítás folyamatban</string>
   <!-- In Account setup options screen, Activity title [CHAR LIMIT=45] -->
-  <string name="account_setup_options_title">Személyre szabás</string>
   <!-- In Account setup options screen, label for email check frequency selector -->
-  <string name="account_setup_options_mail_check_frequency_label">Bejövő üzenetek ellenőrzése</string>
   <!-- In Account setup options & Account Settings screens, email check frequency option -->
   <string name="account_setup_options_mail_check_frequency_2hour">2 óránként</string>
   <!-- In Account setup options & Account Settings screens, email check frequency option -->
   <string name="account_setup_options_mail_check_frequency_4hour">4 óránként</string>
   <!-- In Account setup options & Account Settings screens, email check frequency option -->
   <string name="account_setup_options_mail_check_frequency_1day">Naponta</string>
-  <!-- In Account setup options & Account Settings screens, check box for new-mail notification -->
-  <string name="account_setup_options_notify_label"><b>Értesítsen</b> e-mail érkezésekor</string>
   <!-- In Account setup options screen, optional check box to also sync contacts -->
-  <string name="account_setup_options_sync_contacts_label"><b>Névjegyek szinkronizálása</b> ebből a fiókból</string>
   <!-- In Account setup options screen, optional check box to also sync calendar -->
-  <string name="account_setup_options_sync_calendar_label"><b>Naptár szinkronizálása</b> ebből a fiókból</string>
   <!-- In Account setup options screen, check box to sync email -->
-  <string name="account_setup_options_sync_email_label"><b>E-mailek szinkronizálása</b> ebből a fiókból</string>
-  <string name="account_setup_options_disable_convo_threading_label">Üzenetek összefűzésének kikapcsolása</string>
   <!-- On Settings screen, setting option for showing all images -->
   <string name="account_settings_show_all_images_title">Képek</string>
   <string name="account_settings_show_all_images_show">Mindig mutassa</string>
@@ -68,25 +59,25 @@
   <string name="account_settings_led_color_label">Egyedi LED szín</string>
   <string name="account_settings_led_color_summary">Alapértelmezett értéke a Fiók színe</string>
   <!-- On Settings screen, tutorial header title label -->
-  <string name="account_settings_tutorial_header_title">Útmutató megtekintése</string>
   <!-- On Settings screen, title for label/move preference -->
   <string name="account_settings_move_label_title">Üzenetek áthelyezése/címkézése</string>
   <!-- On Settings screen, shown as an option for label/move preference -->
   <string name="account_settings_move_title">Áthelyez</string>
   <!-- On Settings screen, shown as an option for label/move preference -->
   <string name="account_settings_label_title">Címke</string>
+  <!-- The domain can only be changed during initial account setup. [CHAR LIMIT=none] -->
+  <!-- The email can only be changed during initial account setup. [CHAR LIMIT=none] -->
   <!-- General preference: Labels for the setting to mark emails as read before archiving them -->
   <string name="general_preference_mark_archive_messages_read">Archív megjelölése olvasottként</string>
   <string name="general_preference_mark_archive_messages_read_description">Email megjelölése olvasottként archiválás előtt</string>
   <!-- General preference: Notifications open to the combined inbox-->
   <string name="general_pref_notifications_use_combined_inbox">Értesítések az egyesített beérkezett üzeneteket nyitja meg</string>
   <string name="general_pref_notifications_use_combined_inbox_desc">Értesítés megérintésére az egyesített beérkezett üzeneteket nyitja meg a fiókhoz tartozó beérkezett üzenetek helyett</string>
-  <!-- The hint used in the search box when searching all mailboxes [CHAR LIMIT=35] -->
+  <!-- The hint used in the search box [CHAR LIMIT=35] -->
   <string name="search_hint">E-mail keresése\u2026</string>
   <!-- Title of screen when trying to get oauth authentication -->
   <string name="oauth_authentication_title">Hitelesítés indítása</string>
   <!-- Title of screen to choose with authentication to use -->
-  <string name="sign_in_title">Bejelentkezés</string>
   <!-- Button shown on SignInActivity -->
   <string name="sign_in_button">Kész</string>
   <!-- Label between OAuth and password authentication, indicating the user must do one or the other [CHAR LIMIT=40] -->
@@ -94,17 +85,12 @@
   <!-- Label for signing in with Google using OAuth -->
   <string name="sign_in_with_google">Bejelentkezés Google profillal</string>
   <!--  On the "Setup up email" screen, label indicating what service we are signed in with [CHAR LIMIT=40] -->
-  <string name="signed_in_with_service_label">Bejelentkezés %s -el</string>
   <!-- Label for the authentication section [CHAR LIMIT=20] -->
   <string name="authentication_label">Hitelesítés</string>
   <!-- Label for the add authentication icon [CHAR LIMIT=40] -->
-  <string name="add_authentication_label">Hitelesítés használata</string>
   <string name="oauth_saving_message">Mentés...</string>
-  <string name="about_app_header_title">Névjegy</string>
   <!-- A sync window length setting (i.e. load messages this far back) [CHAR LIMIT=25]  -->
-  <string name="account_setup_options_mail_window_3months">Elmúlt 3 hónap</string>
   <!-- A sync window length setting (i.e. load messages this far back) [CHAR LIMIT=25]  -->
-  <string name="account_setup_options_mail_window_6months">Elmúlt 6 hónap</string>
   <string name="account_settings_unable_to_edit_field">A rendszergazda nem tette lehetővé a mező módosítását</string>
   <!-- Menu item for sending availability from compose. [CHAR_LIMIT=30] -->
   <string name="message_compose_send_availability_menu_title">Elérhetőség küldése</string>
@@ -112,16 +98,7 @@
   <string name="message_compose_create_invite_menu_title">Meghívás létrehozása</string>
   <!-- Preference for the compose toolbar -->
   <string name="preference_compose_toolbar_visibility">Létrehozási eszköztár megjelenítése</string>
-  <string name="tutorial_welcome_title">Üdvözöljük az E-mailben</string>
-  <string name="tutorial_welcome_subtitle">Okosabb. Gyorsabb. Személyre szabott. E-mail.</string>
-  <string name="tutorial_page1_title">Egyéni csúsztatási műveletek</string>
-  <string name="tutorial_page1_subtitle">Csúsztatási műveleteinek testreszabása és saját tapasztalat felépítése.</string>
-  <string name="tutorial_page2_title">Tömeges műveletek</string>
-  <string name="tutorial_page2_subtitle">A tömeges kiválasztási funkció a leggyorsabb módja a postaládája kezelésének.</string>
-  <string name="tutorial_page3_title">Rács nézet</string>
-  <string name="tutorial_page3_subtitle">Erőteljes integráció és funkcionalitás gombnyomásra.</string>
-  <string name="tutorial_skip_button">Kihagyás</string>
-  <string name="tutorial_done_button">Kész</string>
+  <!-- Preference for conversation threading -->
   <string name="message_send_failed_ticker">Üzenet küldése nem sikerült</string>
   <string name="message_send_failed_title">Üzenet nincs elküldve</string>
   <string name="preferences_clear_search_history_title">Keresési előzmények törlése</string>
@@ -139,10 +116,89 @@
   <string name="preference_allow_insecure_attachments_title">Nem biztonságos mellékletek engedélyezése</string>
   <string name="preference_allow_insecure_attachments_summary">Lehetővé teszi a nem biztonságos mellékletek mentését vagy megtekintését</string>
   <string name="custom_perms_dialog_title">Dupla engedélyek</string>
-  <string name="custom_perms_dialog_msg">Egy másik alkalmazás lehet, hogy megpróbálja összegyűjteni a személyes adatait.\n\n<xliff:g id="content">%s</xliff:g>\n\nKérjük, vegye fel a kapcsolatot a Boxer támogatással a további segítségért.</string>
-  <plurals name="custom_perms_dialog_app_violation">
-    <item quantity="one"><xliff:g id="app_name">(%s)</xliff:g> újradefiniálja az engedélyt: <xliff:g id="permissions_list">%s</xliff:g></item>
-    <item quantity="other"><xliff:g id="app_name">(%s)</xliff:g> újradefiniálja az engedélyeket: <xliff:g id="permissions_list">%s</xliff:g></item>
-  </plurals>
   <string name="custom_perms_pos_btn">Visszajelzés</string>
+  <!-- Label shown in the account selector to select "Combined", which contains
+         Combined Inbox, Combined Outbox, etc. [CHAR LIMIT=30] -->
+  <!-- Menu item: Select all conversations -->
+  <!-- Main screen and setting, menu item [CHAR LIMIT=30]-->
+  <!-- Main screen and setting, menu item [CHAR LIMIT=30]-->
+  <!-- Delete account -->
+  <!-- Read email screen, button name. Open an attachment. [CHAR LIMIT=10] -->
+  <!-- Read email screen, button name. Install an attachment. [CHAR LIMIT=10] -->
+  <!-- Photo view screen, button name. Print photo. [CHAR LIMIT=20] -->
+  <!-- Menu item to view an image  [CHAR LIMIT=50]-->
+  <!-- Formatting for the collapsed To header in the MessageHeaderView -->
+  <!-- Displayed in undo LeaveBehindItem after reporting a message as spam -->
+  <!-- New Message notification text that appears over conversation view on incoming message. [CHAR LIMIT=40] -->
+  <!-- New Message notification text that appears over conversation view on incoming messages. Will only be used if there is more than one new message. [CHAR LIMIT=40] -->
+  <!-- Button name, displayed in dialogs [CHAR LIMIT=10] -->
+  <!-- Hint for searching/filtering folders in the folder selection dialog [CHAR LIMIT=30] -->
+  <!-- The section headers for the move to folder dialog [CHAR LIMIT=15] -->
+  <!-- The section headers for the change folders dialog [CHAR LIMIT=15] -->
+  <!-- String used in the FolderListFragment to mark the start of "boxes" -->
+  <!-- String used in the FolderListFragment to mark the start of user-defined folders -->
+  <!-- String used in the FolderListFragment to mark the start of accounts -->
+  <!-- Default email signature on vendor builds -->
+  <!-- Notification action for deleting a message. [CHAR LIMIT=20] -->
+  <!-- Notification action for replying to a message. [CHAR LIMIT=20] -->
+  <!-- Notification action for deleting a message. [CHAR LIMIT=20] -->
+  <!-- Notification message to the user upon new messages for a conversation. [CHAR LIMIT=120] -->
+  <!--  Settings screen, Swipe actions preference title -->
+  <!--  Settings screen, Swipe actions preference summary -->
+  <!--  Settings screen, Swipe actions, Left short preference title -->
+  <!--  Settings screen, Swipe actions, Left long preference title -->
+  <!--  Settings screen, Swipe actions, Right short preference title -->
+  <!--  Settings screen, Swipe actions, Right long preference title -->
+  <!-- Menu item text to that when clicked will allow a user to print an email conversation. [CHAR LIMIT=25] -->
+  <!-- Number of messages in a conversation [CHAR LIMIT=30]-->
+  <!-- Shown to display the date of the message [CHAR LIMIT=50] -->
+  <!-- Shown to display the to recipient(s) of the message if the message is a draft [CHAR LIMIT=20] -->
+  <!-- Shown to display in the message header if the message is a draft and there are no "to" addresses in the draft [CHAR LIMIT=10] -->
+  <!-- Shown to inform the user that the quoted text for this message has been hidden. [CHAR LIMIT=50] -->
+  <!-- Number of attachments in a message [CHAR LIMIT=30]-->
+  <!-- Title to display when an email has no subject. [CHAR LIMIT=50]-->
+  <!-- Prompt used if you are trying to delete a message -->
+  <!-- These strings below represent the default Actions that are available for the ActionGrid -->
+  <string name="action_todo">Feladatok</string>
+  <string name="action_move">Áthelyez</string>
+  <string name="action_label">Címke</string>
+  <string name="action_archive">Archív</string>
+  <!-- These strings are shown in Toast messages when an Action above is selected -->
+  <!-- Title for confirm delete box dialog -->
+  <!-- Ratings Viral Prompt -->
+  <!-- Account Setup -->
+  <!-- Like Feature -->
+  <!-- Displayed on a button whose action is to create something new. -->
+  <!-- Text hint when creating a new folder from the move/label dialog. -->
+  <!-- Progress text when creating a new folder from the move/label dialog. -->
+  <!-- Error title used when the user tries to add a folder that matches an existing folder. -->
+  <!-- Error message used when the user tries to add a folder that matches an existing folder. -->
+  <!-- Title used for generic error alerts. -->
+  <!-- Error message displayed when a folder fails to be created on the server. -->
+  <!-- Menu item: report an email was not readable or poorly rendered -->
+  <string name="report_rendering_problem">Visszajelzés</string>
+  <!-- Toast message for above action -->
+  <!-- Conversation list shared between the Activity and Widget -->
+  <!-- Displayed in the middle of the screen when conversations are being loaded [CHAR LIMIT 100]-->
+  <!-- Calendar invite hero card -->
+  <!-- Link for opening an invite's event in the calendar app. -->
+  <!-- Response action buttons. -->
+  <!-- Attendee text when user is the only attendee. -->
+  <!-- Attendee text when there are additional attendees. -->
+  <!-- Accompanies the date/time for all day events. -->
+  <!-- Status for canceled events. -->
+  <!-- Send availability strings -->
+  <!-- String shown in the TO field when it is blank -->
+  <!-- Title for enter passcode screen -->
+  <!-- Start of combined settings strings -->
+  <!-- In Account Setup options screen, label for email lookback selector -->
+  <!-- In Account Settings screen, label for email lookback selector -->
+  <!-- The menu item to send logs -->
+  <!-- The menu item to open the about section -->
+  <string name="menu_about">Névjegy</string>
+  <!-- Name of the DeviceAdmin (seen in settings & in user confirmation screen) -->
+  <!-- Settings passcode strings -->
+  <!-- String array for require passcode in passcode settings -->
+  <!-- Permission related string -->
+  <!-- String shown as a toast when sending a quick response fails due to some unknown error-->
 </resources>

@@ -21,13 +21,14 @@
   <!-- In the UI, the drafts will be displayed with this name -->
   <!-- In the UI, the folder to-do will be displayed with this name -->
   <!-- In the UI, the archive will be displayed with this name -->
+  <!-- Error message shown in dialog body when authenticating an account during setup fails -->
+  <!-- Dialog title when "setup" could not finish -->
   <!-- hint for account email password text field -->
   <!-- In Account setup options screen, Activity title [CHAR LIMIT=45] -->
   <!-- In Account setup options screen, label for email check frequency selector -->
   <!-- In Account setup options & Account Settings screens, email check frequency option -->
   <!-- In Account setup options & Account Settings screens, email check frequency option -->
   <!-- In Account setup options & Account Settings screens, email check frequency option -->
-  <!-- In Account setup options & Account Settings screens, check box for new-mail notification -->
   <!-- In Account setup options screen, optional check box to also sync contacts -->
   <!-- In Account setup options screen, optional check box to also sync calendar -->
   <!-- In Account setup options screen, check box to sync email -->
@@ -39,9 +40,11 @@
   <!-- On Settings screen, title for label/move preference -->
   <!-- On Settings screen, shown as an option for label/move preference -->
   <!-- On Settings screen, shown as an option for label/move preference -->
+  <!-- The domain can only be changed during initial account setup. [CHAR LIMIT=none] -->
+  <!-- The email can only be changed during initial account setup. [CHAR LIMIT=none] -->
   <!-- General preference: Labels for the setting to mark emails as read before archiving them -->
   <!-- General preference: Notifications open to the combined inbox-->
-  <!-- The hint used in the search box when searching all mailboxes [CHAR LIMIT=35] -->
+  <!-- The hint used in the search box [CHAR LIMIT=35] -->
   <!-- Title of screen when trying to get oauth authentication -->
   <!-- Title of screen to choose with authentication to use -->
   <!-- Button shown on SignInActivity -->
@@ -55,7 +58,86 @@
   <!-- Menu item for sending availability from compose. [CHAR_LIMIT=30] -->
   <!-- Menu item for including an invite from compose. [CHAR_LIMIT=30] -->
   <!-- Preference for the compose toolbar -->
+  <!-- Preference for conversation threading -->
   <!-- Security settings category -->
   <!-- Preference for disabling screenshots of app screens. -->
   <!-- Preference for disabling screenshots of app screens. -->
+  <!-- Label shown in the account selector to select "Combined", which contains
+         Combined Inbox, Combined Outbox, etc. [CHAR LIMIT=30] -->
+  <!-- Menu item: Select all conversations -->
+  <!-- Main screen and setting, menu item [CHAR LIMIT=30]-->
+  <!-- Main screen and setting, menu item [CHAR LIMIT=30]-->
+  <!-- Delete account -->
+  <!-- Read email screen, button name. Open an attachment. [CHAR LIMIT=10] -->
+  <!-- Read email screen, button name. Install an attachment. [CHAR LIMIT=10] -->
+  <!-- Photo view screen, button name. Print photo. [CHAR LIMIT=20] -->
+  <!-- Menu item to view an image  [CHAR LIMIT=50]-->
+  <!-- Formatting for the collapsed To header in the MessageHeaderView -->
+  <!-- Displayed in undo LeaveBehindItem after reporting a message as spam -->
+  <!-- New Message notification text that appears over conversation view on incoming message. [CHAR LIMIT=40] -->
+  <!-- New Message notification text that appears over conversation view on incoming messages. Will only be used if there is more than one new message. [CHAR LIMIT=40] -->
+  <!-- Button name, displayed in dialogs [CHAR LIMIT=10] -->
+  <!-- Hint for searching/filtering folders in the folder selection dialog [CHAR LIMIT=30] -->
+  <!-- The section headers for the move to folder dialog [CHAR LIMIT=15] -->
+  <!-- The section headers for the change folders dialog [CHAR LIMIT=15] -->
+  <!-- String used in the FolderListFragment to mark the start of "boxes" -->
+  <!-- String used in the FolderListFragment to mark the start of user-defined folders -->
+  <!-- String used in the FolderListFragment to mark the start of accounts -->
+  <!-- Default email signature on vendor builds -->
+  <!-- Notification action for deleting a message. [CHAR LIMIT=20] -->
+  <!-- Notification action for replying to a message. [CHAR LIMIT=20] -->
+  <!-- Notification action for deleting a message. [CHAR LIMIT=20] -->
+  <!-- Notification message to the user upon new messages for a conversation. [CHAR LIMIT=120] -->
+  <!--  Settings screen, Swipe actions preference title -->
+  <!--  Settings screen, Swipe actions preference summary -->
+  <!--  Settings screen, Swipe actions, Left short preference title -->
+  <!--  Settings screen, Swipe actions, Left long preference title -->
+  <!--  Settings screen, Swipe actions, Right short preference title -->
+  <!--  Settings screen, Swipe actions, Right long preference title -->
+  <!-- Menu item text to that when clicked will allow a user to print an email conversation. [CHAR LIMIT=25] -->
+  <!-- Number of messages in a conversation [CHAR LIMIT=30]-->
+  <!-- Shown to display the date of the message [CHAR LIMIT=50] -->
+  <!-- Shown to display the to recipient(s) of the message if the message is a draft [CHAR LIMIT=20] -->
+  <!-- Shown to display in the message header if the message is a draft and there are no "to" addresses in the draft [CHAR LIMIT=10] -->
+  <!-- Shown to inform the user that the quoted text for this message has been hidden. [CHAR LIMIT=50] -->
+  <!-- Number of attachments in a message [CHAR LIMIT=30]-->
+  <!-- Title to display when an email has no subject. [CHAR LIMIT=50]-->
+  <!-- Prompt used if you are trying to delete a message -->
+  <!-- These strings below represent the default Actions that are available for the ActionGrid -->
+  <!-- These strings are shown in Toast messages when an Action above is selected -->
+  <!-- Title for confirm delete box dialog -->
+  <!-- Ratings Viral Prompt -->
+  <!-- Account Setup -->
+  <!-- Like Feature -->
+  <!-- Displayed on a button whose action is to create something new. -->
+  <!-- Text hint when creating a new folder from the move/label dialog. -->
+  <!-- Progress text when creating a new folder from the move/label dialog. -->
+  <!-- Error title used when the user tries to add a folder that matches an existing folder. -->
+  <!-- Error message used when the user tries to add a folder that matches an existing folder. -->
+  <!-- Title used for generic error alerts. -->
+  <!-- Error message displayed when a folder fails to be created on the server. -->
+  <!-- Menu item: report an email was not readable or poorly rendered -->
+  <!-- Toast message for above action -->
+  <!-- Conversation list shared between the Activity and Widget -->
+  <!-- Displayed in the middle of the screen when conversations are being loaded [CHAR LIMIT 100]-->
+  <!-- Calendar invite hero card -->
+  <!-- Link for opening an invite's event in the calendar app. -->
+  <!-- Response action buttons. -->
+  <!-- Attendee text when user is the only attendee. -->
+  <!-- Attendee text when there are additional attendees. -->
+  <!-- Accompanies the date/time for all day events. -->
+  <!-- Status for canceled events. -->
+  <!-- Send availability strings -->
+  <!-- String shown in the TO field when it is blank -->
+  <!-- Title for enter passcode screen -->
+  <!-- Start of combined settings strings -->
+  <!-- In Account Setup options screen, label for email lookback selector -->
+  <!-- In Account Settings screen, label for email lookback selector -->
+  <!-- The menu item to send logs -->
+  <!-- The menu item to open the about section -->
+  <!-- Name of the DeviceAdmin (seen in settings & in user confirmation screen) -->
+  <!-- Settings passcode strings -->
+  <!-- String array for require passcode in passcode settings -->
+  <!-- Permission related string -->
+  <!-- String shown as a toast when sending a quick response fails due to some unknown error-->
 </resources>

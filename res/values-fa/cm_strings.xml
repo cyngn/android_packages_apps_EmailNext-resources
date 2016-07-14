@@ -26,33 +26,24 @@
   <!-- In the UI, the archive will be displayed with this name -->
   <string name="mailbox_name_display_archive">بایگانی</string>
   <string name="mailbox_name_local_only_display_name"> - محلی</string>
-  <string name="account_setup_start_email_address_hint">آدرس ایمیل خود را وارد کنید</string>
-  <string name="account_setup_start_password_hint">گذرواژه</string>
-  <string name="account_setup_start_get_started_button">شروع کنید</string>
-  <string name="account_setup_start_login_button">ورود</string>
-  <string name="account_setup_start_invalid_email_address">آدرس ایمیل نامعتبر</string>
+  <string name="account_setup_email_address_hint">آدرس ایمیل خود را وارد کنید</string>
+  <string name="account_setup_security_heading">امنیت</string>
+  <string name="account_setup_authentication_heading">در حال تأیید اعتبار</string>
+  <!-- Error message shown in dialog body when authenticating an account during setup fails -->
+  <!-- Dialog title when "setup" could not finish -->
   <!-- hint for account email password text field -->
-  <string name="password_label">گذرواژه</string>
   <string name="account_setup_basics_progress_message">کشف خودکار در حال اجراست</string>
   <!-- In Account setup options screen, Activity title [CHAR LIMIT=45] -->
-  <string name="account_setup_options_title">شخصی‌سازی</string>
   <!-- In Account setup options screen, label for email check frequency selector -->
-  <string name="account_setup_options_mail_check_frequency_label">بررسی صندوق ورودی من</string>
   <!-- In Account setup options & Account Settings screens, email check frequency option -->
   <string name="account_setup_options_mail_check_frequency_2hour">هر ۲ ساعت</string>
   <!-- In Account setup options & Account Settings screens, email check frequency option -->
   <string name="account_setup_options_mail_check_frequency_4hour">هر ۴ ساعت</string>
   <!-- In Account setup options & Account Settings screens, email check frequency option -->
   <string name="account_setup_options_mail_check_frequency_1day">هرروز</string>
-  <!-- In Account setup options & Account Settings screens, check box for new-mail notification -->
-  <string name="account_setup_options_notify_label">ورود ایمیل به من اعلان شود</string>
   <!-- In Account setup options screen, optional check box to also sync contacts -->
-  <string name="account_setup_options_sync_contacts_label">همگام‌سازی مخاطبین از این حساب</string>
   <!-- In Account setup options screen, optional check box to also sync calendar -->
-  <string name="account_setup_options_sync_calendar_label">همگام‌سازی تقویم از این حساب</string>
   <!-- In Account setup options screen, check box to sync email -->
-  <string name="account_setup_options_sync_email_label">همگام‌سازی ایمیل از این حساب</string>
-  <string name="account_setup_options_disable_convo_threading_label">خاموش‌کردن ریسه‌بندی مکالمه</string>
   <!-- On Settings screen, setting option for showing all images -->
   <string name="account_settings_show_all_images_title">تصاویر</string>
   <string name="account_settings_show_all_images_show">همیشه نمایش داده شود</string>
@@ -68,25 +59,25 @@
   <string name="account_settings_led_color_label">رنگ LED شخصی</string>
   <string name="account_settings_led_color_summary">مقدار پیش‌فرض همان رنگ حساب کاربری است</string>
   <!-- On Settings screen, tutorial header title label -->
-  <string name="account_settings_tutorial_header_title">مشاهده آموزش</string>
   <!-- On Settings screen, title for label/move preference -->
   <string name="account_settings_move_label_title">برچسب گذاری/انتقال پیام‌ها</string>
   <!-- On Settings screen, shown as an option for label/move preference -->
   <string name="account_settings_move_title">انتقال</string>
   <!-- On Settings screen, shown as an option for label/move preference -->
   <string name="account_settings_label_title">برچسب گذاری</string>
+  <!-- The domain can only be changed during initial account setup. [CHAR LIMIT=none] -->
+  <!-- The email can only be changed during initial account setup. [CHAR LIMIT=none] -->
   <!-- General preference: Labels for the setting to mark emails as read before archiving them -->
   <string name="general_preference_mark_archive_messages_read">بایگانی به عنوان خوانده‌شده</string>
   <string name="general_preference_mark_archive_messages_read_description">علامت‌گذاری ایمیل‌ها به عنوان خوانده‌شده قبل از بایگانی</string>
   <!-- General preference: Notifications open to the combined inbox-->
   <string name="general_pref_notifications_use_combined_inbox">اعلان‌ها صندوق ورودی ترکیبی را باز می‌کنند</string>
   <string name="general_pref_notifications_use_combined_inbox_desc">با زدن بر روی یک اعلان، صندوق ورودی ترکیبی به جای صندوق ورودی حساب باز می‌شود</string>
-  <!-- The hint used in the search box when searching all mailboxes [CHAR LIMIT=35] -->
+  <!-- The hint used in the search box [CHAR LIMIT=35] -->
   <string name="search_hint">جستجوی ایمیل</string>
   <!-- Title of screen when trying to get oauth authentication -->
   <string name="oauth_authentication_title">در حال درخواست مجوز</string>
   <!-- Title of screen to choose with authentication to use -->
-  <string name="sign_in_title">ورود</string>
   <!-- Button shown on SignInActivity -->
   <string name="sign_in_button">انجام شد</string>
   <!-- Label between OAuth and password authentication, indicating the user must do one or the other [CHAR LIMIT=40] -->
@@ -94,17 +85,12 @@
   <!-- Label for signing in with Google using OAuth -->
   <string name="sign_in_with_google">ورود از طریق گوگل</string>
   <!--  On the "Setup up email" screen, label indicating what service we are signed in with [CHAR LIMIT=40] -->
-  <string name="signed_in_with_service_label">ورود از طریق %s</string>
   <!-- Label for the authentication section [CHAR LIMIT=20] -->
   <string name="authentication_label">در حال تأیید اعتبار</string>
   <!-- Label for the add authentication icon [CHAR LIMIT=40] -->
-  <string name="add_authentication_label">افزودن اعتبار</string>
   <string name="oauth_saving_message">در حال ذخیره\u2026</string>
-  <string name="about_app_header_title">درباره</string>
   <!-- A sync window length setting (i.e. load messages this far back) [CHAR LIMIT=25]  -->
-  <string name="account_setup_options_mail_window_3months">۳ ماه گذشته</string>
   <!-- A sync window length setting (i.e. load messages this far back) [CHAR LIMIT=25]  -->
-  <string name="account_setup_options_mail_window_6months">۶ ماه گذشته</string>
   <string name="account_settings_unable_to_edit_field">کاربر اصلی شما اجازه تغییر این قسمت را نمی‌دهد</string>
   <!-- Menu item for sending availability from compose. [CHAR_LIMIT=30] -->
   <string name="message_compose_send_availability_menu_title">ارسال در دسترس بودن</string>
@@ -112,16 +98,7 @@
   <string name="message_compose_create_invite_menu_title">ایجاد دعوت</string>
   <!-- Preference for the compose toolbar -->
   <string name="preference_compose_toolbar_visibility">نمایش نوارابزار نوشتن</string>
-  <string name="tutorial_welcome_title">به ایمیل خوش آمدید</string>
-  <string name="tutorial_welcome_subtitle">هوشمندتر. سریع‌تر. مناسب‌تر. ایمیل.</string>
-  <string name="tutorial_page1_title">لغزش‌های سفارشی</string>
-  <string name="tutorial_page1_subtitle">عملیات‌های لغزش خود را سفارشی کنید و تجربه خود را به وجود آورید.</string>
-  <string name="tutorial_page2_title">عملیات‌های عظیم</string>
-  <string name="tutorial_page2_subtitle">قابلیت انتخاب عظیم ما سریع‌ترین راه مدیریت صندوق ورودی شماست.</string>
-  <string name="tutorial_page3_title">شبکه عملیات</string>
-  <string name="tutorial_page3_subtitle">یکپارچه‌سازی و عملکرد قدرتمند با فشار دادن یک کلید.</string>
-  <string name="tutorial_skip_button">رد شدن</string>
-  <string name="tutorial_done_button">انجام شد</string>
+  <!-- Preference for conversation threading -->
   <string name="message_send_failed_ticker">پیام ارسال نشد</string>
   <string name="message_send_failed_title">پیام ارسال نشد</string>
   <string name="preferences_clear_search_history_title">پاک‌کردن تاریخچه جستجو</string>
@@ -139,10 +116,89 @@
   <string name="preference_allow_insecure_attachments_title">مجاز بودن پیوست‌های ناامن</string>
   <string name="preference_allow_insecure_attachments_summary">مجاز بودن مشاهده و ذخیره کردن پیوست‌های ناامن</string>
   <string name="custom_perms_dialog_title">تهیه کپی مجوزها</string>
-  <string name="custom_perms_dialog_msg">برنامه‌ای دیگر ممکن است در صدد جمع‌آوری اطلاعات شخصی شما برآید.\n\n<xliff:g id="content">%s</xliff:g>\n\nلطفا برای راهنمایی با پشتیبانی Boxer تماس بگیرید.</string>
-  <plurals name="custom_perms_dialog_app_violation">
-    <item quantity="one"><xliff:g id="app_name">(%s)</xliff:g> این اجازه(ها) را بازتعریف می‌کند: <xliff:g id="permissions_list">%s</xliff:g></item>
-    <item quantity="other"><xliff:g id="app_name">(%s)</xliff:g> این اجازه(ها) را بازتعریف می‌کند: <xliff:g id="permissions_list">%s</xliff:g></item>
-  </plurals>
   <string name="custom_perms_pos_btn">گزارش دادن</string>
+  <!-- Label shown in the account selector to select "Combined", which contains
+         Combined Inbox, Combined Outbox, etc. [CHAR LIMIT=30] -->
+  <!-- Menu item: Select all conversations -->
+  <!-- Main screen and setting, menu item [CHAR LIMIT=30]-->
+  <!-- Main screen and setting, menu item [CHAR LIMIT=30]-->
+  <!-- Delete account -->
+  <!-- Read email screen, button name. Open an attachment. [CHAR LIMIT=10] -->
+  <!-- Read email screen, button name. Install an attachment. [CHAR LIMIT=10] -->
+  <!-- Photo view screen, button name. Print photo. [CHAR LIMIT=20] -->
+  <!-- Menu item to view an image  [CHAR LIMIT=50]-->
+  <!-- Formatting for the collapsed To header in the MessageHeaderView -->
+  <!-- Displayed in undo LeaveBehindItem after reporting a message as spam -->
+  <!-- New Message notification text that appears over conversation view on incoming message. [CHAR LIMIT=40] -->
+  <!-- New Message notification text that appears over conversation view on incoming messages. Will only be used if there is more than one new message. [CHAR LIMIT=40] -->
+  <!-- Button name, displayed in dialogs [CHAR LIMIT=10] -->
+  <!-- Hint for searching/filtering folders in the folder selection dialog [CHAR LIMIT=30] -->
+  <!-- The section headers for the move to folder dialog [CHAR LIMIT=15] -->
+  <!-- The section headers for the change folders dialog [CHAR LIMIT=15] -->
+  <!-- String used in the FolderListFragment to mark the start of "boxes" -->
+  <!-- String used in the FolderListFragment to mark the start of user-defined folders -->
+  <!-- String used in the FolderListFragment to mark the start of accounts -->
+  <!-- Default email signature on vendor builds -->
+  <!-- Notification action for deleting a message. [CHAR LIMIT=20] -->
+  <!-- Notification action for replying to a message. [CHAR LIMIT=20] -->
+  <!-- Notification action for deleting a message. [CHAR LIMIT=20] -->
+  <!-- Notification message to the user upon new messages for a conversation. [CHAR LIMIT=120] -->
+  <!--  Settings screen, Swipe actions preference title -->
+  <!--  Settings screen, Swipe actions preference summary -->
+  <!--  Settings screen, Swipe actions, Left short preference title -->
+  <!--  Settings screen, Swipe actions, Left long preference title -->
+  <!--  Settings screen, Swipe actions, Right short preference title -->
+  <!--  Settings screen, Swipe actions, Right long preference title -->
+  <!-- Menu item text to that when clicked will allow a user to print an email conversation. [CHAR LIMIT=25] -->
+  <!-- Number of messages in a conversation [CHAR LIMIT=30]-->
+  <!-- Shown to display the date of the message [CHAR LIMIT=50] -->
+  <!-- Shown to display the to recipient(s) of the message if the message is a draft [CHAR LIMIT=20] -->
+  <!-- Shown to display in the message header if the message is a draft and there are no "to" addresses in the draft [CHAR LIMIT=10] -->
+  <!-- Shown to inform the user that the quoted text for this message has been hidden. [CHAR LIMIT=50] -->
+  <!-- Number of attachments in a message [CHAR LIMIT=30]-->
+  <!-- Title to display when an email has no subject. [CHAR LIMIT=50]-->
+  <!-- Prompt used if you are trying to delete a message -->
+  <!-- These strings below represent the default Actions that are available for the ActionGrid -->
+  <string name="action_todo">برای انجام</string>
+  <string name="action_move">انتقال</string>
+  <string name="action_label">برچسب گذاری</string>
+  <string name="action_archive">بایگانی</string>
+  <!-- These strings are shown in Toast messages when an Action above is selected -->
+  <!-- Title for confirm delete box dialog -->
+  <!-- Ratings Viral Prompt -->
+  <!-- Account Setup -->
+  <!-- Like Feature -->
+  <!-- Displayed on a button whose action is to create something new. -->
+  <!-- Text hint when creating a new folder from the move/label dialog. -->
+  <!-- Progress text when creating a new folder from the move/label dialog. -->
+  <!-- Error title used when the user tries to add a folder that matches an existing folder. -->
+  <!-- Error message used when the user tries to add a folder that matches an existing folder. -->
+  <!-- Title used for generic error alerts. -->
+  <!-- Error message displayed when a folder fails to be created on the server. -->
+  <!-- Menu item: report an email was not readable or poorly rendered -->
+  <string name="report_rendering_problem">گزارش دادن</string>
+  <!-- Toast message for above action -->
+  <!-- Conversation list shared between the Activity and Widget -->
+  <!-- Displayed in the middle of the screen when conversations are being loaded [CHAR LIMIT 100]-->
+  <!-- Calendar invite hero card -->
+  <!-- Link for opening an invite's event in the calendar app. -->
+  <!-- Response action buttons. -->
+  <!-- Attendee text when user is the only attendee. -->
+  <!-- Attendee text when there are additional attendees. -->
+  <!-- Accompanies the date/time for all day events. -->
+  <!-- Status for canceled events. -->
+  <!-- Send availability strings -->
+  <!-- String shown in the TO field when it is blank -->
+  <!-- Title for enter passcode screen -->
+  <!-- Start of combined settings strings -->
+  <!-- In Account Setup options screen, label for email lookback selector -->
+  <!-- In Account Settings screen, label for email lookback selector -->
+  <!-- The menu item to send logs -->
+  <!-- The menu item to open the about section -->
+  <string name="menu_about">درباره</string>
+  <!-- Name of the DeviceAdmin (seen in settings & in user confirmation screen) -->
+  <!-- Settings passcode strings -->
+  <!-- String array for require passcode in passcode settings -->
+  <!-- Permission related string -->
+  <!-- String shown as a toast when sending a quick response fails due to some unknown error-->
 </resources>

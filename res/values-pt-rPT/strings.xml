@@ -18,26 +18,20 @@
   <!-- Names of packages and authorities that are common to all apps
     and read from resources -->
   <!-- Permissions label for reading attachments -->
-  <string name="permission_read_attachment_label">Ler anexos de e-mail</string>
   <!-- Permissions description for reading attachments -->
-  <string name="permission_read_attachment_desc">Permite à aplicação ler os anexos de e-mail.</string>
   <!-- Permissions label for accessing the main provider -->
-  <string name="permission_access_provider_label">Aceder a dados do fornecedor de e-mail</string>
+  <!-- Permissions label for accessing the contacts provider -->
   <!-- Permissions description for accessing the main provider -->
-  <string name="permission_access_provider_desc">Permite que a aplicação aceda à base de dados do e-mail, incluindo mensagens recebidas, mensagens enviadas, nomes de utilizadores e palavras-passe.</string>
-  <!-- Name of application on Home screen -->
-  <string name="app_name">E-mail</string>
-  <!-- Title of debug screen -->
-  <string name="debug_title">Depuração</string>
-  <!-- Actions will be used as buttons and in menu items -->
+  <!-- Permissions description for accessing the contacts provider -->
+  <!-- Name of email application -->
   <!-- Button name used as part of a multi-step process -->
   <string name="next_action">Seguinte</string>
   <!-- Button name used to confirm acceptance of dialog boxes, warnings, errors, etc. -->
   <string name="okay_action">OK</string>
   <!-- Button name used to cancel out of dialog boxes -->
   <string name="cancel_action">Cancelar</string>
+  <!-- Button name used to move to previous step during setup sequence [CHAR_LIMIT=16] -->
   <!--  Button name used to complete a multi-step process -->
-  <string name="done_action">Concluído</string>
   <!--  Menu item used to create a new quick response [CHAR_LIMIT=16] -->
   <string name="create_action">Criar nova</string>
   <!-- Message informing user when a list that would contain quick responses
@@ -51,19 +45,12 @@
   <!-- Also appears in a toast, in the message viewer, when there's a network error. -->
   <string name="status_network_error">Problema de ligação.</string>
   <!-- Text shown with dragged messages to indicate how many are being dragged [CHAR LIMIT=40]-->
-  <plurals name="move_messages">
-    <item quantity="one">Mover mensagem</item>
-    <item quantity="other">Mover mensagens</item>
-  </plurals>
   <!-- Toast shown when a message(s) can't be moved because it's not supported by the POP3
         protocol. [CHAR LIMIT=none]-->
-  <string name="cannot_move_protocol_not_supported_toast">Não é possível mover em contas POP3.</string>
   <!-- Toast shown when messages can't be moved because the selection contains multiple accounts'
         messages. [CHAR LIMIT=none]-->
-  <string name="cannot_move_multiple_accounts_toast">Não é possível mover porque a seleção contém várias contas.</string>
   <!-- Toast shown when messages can't be moved because they're in a special mailbox.  "Drafts",
         "Outbox" and "Sent". [CHAR LIMIT=none]-->
-  <string name="cannot_move_special_mailboxes_toast">Não é possível mover as mensagens em Rascunhos, Caixa de saída e Enviadas.</string>
   <!-- The next set of strings are used in local display and may be localized. -->
   <!-- In the UI, the inbox will be displayed with this name -->
   <string name="mailbox_name_display_inbox">Caixa de entrada</string>
@@ -79,24 +66,17 @@
   <string name="mailbox_name_display_starred">Com estrela</string>
   <!-- In the UI, the unread will be displayed with this name [CHAR LIMIT=15] -->
   <string name="mailbox_name_display_unread">Não lidas</string>
-  <!-- Do Not Translate.  Checkbox label, shown only on debug screen -->
-  <!-- Do Not Translate.  Checkbox label, shown only on debug screen -->
-  <!-- Do Not Translate.  Checkbox label, shown only on debug screen -->
-  <!-- Do Not Translate.  Button label, shown only on debug screen -->
-  <!-- Do Not Translate.  Checkbox label, shown on debug screen. -->
-  <!-- Do Not Translate.  Checkbox label, shown on debug screen. -->
-  <!-- Do Not Translate.  Checkbox label, shown on debug screen. -->
+  <!-- Do Not Translate. Button label, shown only on debug screen -->
+  <!-- Do Not Translate. Checkbox label, shown on debug screen. -->
+  <!-- Do Not Translate. Checkbox label, shown on debug screen. -->
+  <!-- Do Not Translate. Checkbox label, shown on debug screen. -->
   <!-- The summary section entry in the AccountFolder list to display all inboxes -->
-  <string name="account_folder_list_summary_inbox">Caixa de entrada</string>
   <!-- The summary section entry in the AccountFolder list to display all starred
         [CHAR LIMIT=200dip] -->
-  <string name="account_folder_list_summary_starred">Marcado com estrela</string>
   <!-- The summary section entry in the AccountFolder list to display all drafts
         [CHAR LIMIT=200dip] -->
-  <string name="account_folder_list_summary_drafts">Rascunhos</string>
   <!-- The summary section entry in the AccountFolder list to display all outboxes
         [CHAR LIMIT=200dip] -->
-  <string name="account_folder_list_summary_outbox">Caixa de saída</string>
   <!-- Header for forwarded original messages -->
   <string name="message_compose_fwd_header_fmt">\n\n\"-------- Mensagem original --------\nAssunto: <xliff:g id="SUBJECT">%1$s</xliff:g>\nDe: <xliff:g id="SENDER">%2$s</xliff:g>\nPara: <xliff:g id="TO">%3$s</xliff:g>\nCC: <xliff:g id="CC_0">%4$s</xliff:g>\n\n\"</string>
   <!-- Title for dialog containing list of quick responses that user may insert
@@ -118,36 +98,17 @@
   <!-- Notification title when a forwarded attachment couldn't be sent [CHAR LIMIT=30]-->
   <string name="forward_download_failed_title">O anexo não foi encaminhado</string>
   <!-- Notification ticker when email account authentication fails [CHAR LIMIT=none] -->
-  <string name="login_failed_ticker">Início de sessão de <xliff:g id="ACCOUNT_NAME">%s</xliff:g> sem êxito.</string>
   <!-- Notification title when email account authentication fails [CHAR LIMIT=30]-->
   <string name="login_failed_title">Impossível iniciar sessão</string>
   <!-- Size unit for bytes for attachments [CHAR LIMIT=10] -->
-  <plurals name="message_view_attachment_bytes">
-    <item quantity="one"><xliff:g id="SIZE_IN_BYTES">%d</xliff:g>B</item>
-    <item quantity="other"><xliff:g id="SIZE_IN_BYTES">%d</xliff:g>B</item>
-  </plurals>
   <!-- Size unit for kilo bytes for attachments [CHAR LIMIT=10] -->
-  <plurals name="message_view_attachment_kilobytes">
-    <item quantity="one"><xliff:g id="SIZE_IN_KILOBYTES">%d</xliff:g>KB</item>
-    <item quantity="other"><xliff:g id="SIZE_IN_KILOBYTES">%d</xliff:g>KB</item>
-  </plurals>
   <!-- Size unit for mega bytes for attachments [CHAR LIMIT=10] -->
-  <plurals name="message_view_attachment_megabytes">
-    <item quantity="one"><xliff:g id="SIZE_IN_MEGABYTES">%d</xliff:g>MB</item>
-    <item quantity="other"><xliff:g id="SIZE_IN_MEGABYTES">%d</xliff:g>MB</item>
-  </plurals>
   <!-- Size unit for giga bytes for attachments [CHAR LIMIT=10] -->
-  <plurals name="message_view_attachment_gigabytes">
-    <item quantity="one"><xliff:g id="SIZE_IN_GIGABYTES">%d</xliff:g>GB</item>
-    <item quantity="other"><xliff:g id="SIZE_IN_GIGABYTES">%d</xliff:g>GB</item>
-  </plurals>
   <!-- Title of screen when setting up new email account [CHAR LIMIT=45] -->
   <string name="account_setup_basics_title">Configuração da conta</string>
   <!-- Headline of screen when setting up new email account (large text over divider)
         [CHAR LIMIT=none] -->
-  <string name="account_setup_basics_headline">Conta de e-mail</string>
   <!-- On "Set up email" screen, enthusiastic welcome message. -->
-  <string name="accounts_welcome">É possível configurar a sua conta em apenas alguns passos.</string>
   <!-- On "Set up email" screen, hint for account email address text field -->
   <string name="account_setup_basics_email_label">Endereço de e-mail</string>
   <!-- Button name on "Set up email" screen [CHAR LIMIT=20] -->
@@ -155,12 +116,10 @@
   <!-- Toast when we can't build a URI from the given email & password -->
   <!-- Note, the error message in the toast is purposefully vague, because I *don't* know
         exactly what's wrong. -->
-  <string name="account_setup_username_password_toast">Digite um endereço de e-mail e uma palavra-passe válidos.</string>
   <!-- Title of dialog shown when a duplicate account is created -->
   <string name="account_duplicate_dlg_title">Conta duplicada</string>
   <!-- Message of dialog shown when a duplicate account is created.  The display name of
          the duplicate account is displayed. -->
-  <string name="account_duplicate_dlg_message_fmt">Este nome de utilizador já está a ser utilizado para a conta “<xliff:g id="DUPLICATE">%s</xliff:g>”.</string>
   <!-- String that is displayed as error text for passwords with leading or trailing
          spaces.  [CHAR LIMIT=none] -->
   <string name="account_password_spaces_error">Esta palavra-passe começa ou termina com um ou mais caracteres de espaço. Muitos servidores não suportam palavras-passe com espaços.</string>
@@ -173,26 +132,16 @@
   <!-- Appears on screen while system is creating the account -->
   <string name="account_setup_creating_account_msg">A criar conta...</string>
   <!-- Title of "Set up email" screen after success [CHAR LIMIT=45] -->
-  <string name="account_setup_names_title">Configuração da conta</string>
   <!-- Text that appears on "Set up email" screen after successfully setting up an account
         [CHAR LIMIT=none] -->
-  <string name="account_setup_names_headline">A sua conta está configurada e o e-mail vai a caminho!</string>
   <!-- On "Set up email" screen, label of text field -->
-  <string name="account_setup_names_account_name_label">Dar um nome a esta conta (opcional)</string>
   <!-- On "Set up email" screen, label of text field -->
-  <string name="account_setup_names_user_name_label">O seu nome (apresentado nas mensagens enviadas)</string>
   <!-- On "Set up email" screen, error pop-up when user_name field is empty [CHAR LIMIT=none] -->
-  <string name="account_setup_names_user_name_empty_error">Este campo não pode estar em branco.</string>
   <!-- Activity Title for the account type selector (IMAP or POP3 or EAS) [CHAR LIMIT=45] -->
-  <string name="account_setup_account_type_title">Configuração da conta</string>
   <!-- Headline for the the account type selector (IMAP or POP3 or EAS) [CHAR LIMIT=none] -->
-  <string name="account_setup_account_type_headline">Tipo de conta</string>
   <!-- "Add new email account" screen, text that appears on screen -->
-  <string name="account_setup_account_type_instructions">Que tipo de conta é esta?</string>
   <!-- "Incoming server settings" screen, title [CHAR LIMIT=45] -->
-  <string name="account_setup_incoming_title">Configuração da conta</string>
   <!-- "Incoming server settings" screen, headline (text over divider) [CHAR LIMIT=none] -->
-  <string name="account_setup_incoming_headline">Definições do servidor de receção</string>
   <!-- "Incoming server settings" screen, label for text field -->
   <string name="account_setup_incoming_username_label">Nome de utilizador</string>
   <!-- "Incoming server settings" screen, label for text field -->
@@ -233,9 +182,7 @@
   <!-- "Incoming server settings" screen, hint for setting IMAP path prefix: -->
   <string name="account_setup_incoming_imap_path_prefix_hint">Opcional</string>
   <!-- "Outgoing server settings" screen, title [CHAR LIMIT=45] -->
-  <string name="account_setup_outgoing_title">Configuração da conta</string>
   <!-- "Outgoing server settings" screen, headline (text over divider) [CHAR LIMIT=none] -->
-  <string name="account_setup_outgoing_headline">Definições de servidor de envio</string>
   <!-- On "Outgoing server settings" screen, label for text field -->
   <string name="account_setup_outgoing_smtp_server_label">Servidor SMTP</string>
   <!-- On "Outgoing server settings" screen, label for text field -->
@@ -247,7 +194,6 @@
   <!-- On "Outgoing server settings" screen, label for text field -->
   <string name="account_setup_outgoing_username_label">Nome de utilizador</string>
   <!-- On "Outgoing server settings" screen, label for text field -->
-  <string name="account_setup_outgoing_password_label">Palavra-passe</string>
   <!-- On "Exchange" setup screen, a heading title for the current client certificate [CHAR LIMIT=50] -->
   <string name="account_setup_exchange_certificate_title">Certificado do cliente</string>
   <!-- On "Exchange" setup screen, a button label to include a client certificate [CHAR LIMIT=35] -->
@@ -262,7 +208,6 @@
   <!-- On "Exchange" setup screen, the exchange device-id label [CHAR LIMIT=30] -->
   <string name="account_setup_exchange_device_id_label">ID do dispositivo móvel</string>
   <!-- In Account setup options screen, Activity headline [CHAR LIMIT=none] -->
-  <string name="account_setup_options_headline">Opções da conta</string>
   <!-- In Account setup options & Account Settings screens, label for email check frequency option -->
   <string name="account_setup_options_mail_check_frequency_never">Nunca</string>
   <!-- In Account setup options & Account Settings screens, label for email check frequency option -->
@@ -277,15 +222,8 @@
   <string name="account_setup_options_mail_check_frequency_30min">De 30 em 30 minutos</string>
   <!-- In Account setup options & Account Settings screens, email check frequency option -->
   <string name="account_setup_options_mail_check_frequency_1hour">De hora em hora</string>
-  <!-- In Account setup options screen, check box to auto-download attachments  [CHAR LIMIT=none] -->
-  <string name="account_setup_options_background_attachments_label">Transferir automaticamente anexos quando ligado a uma rede Wi-Fi</string>
-  <!-- Dialog title when "setup" could not finish -->
-  <string name="account_setup_failed_dlg_title">Não foi possível concluir</string>
-  <!-- In Account setup options screen, label for email lookback selector -->
-  <string name="account_setup_options_mail_window_label">Dias para sincronização</string>
   <!-- In account setup options & account settings screens (exchange), sync window length; this
         implies loading a 'reasonable' number of messages [CHAR LIMIT=25] -->
-  <string name="account_setup_options_mail_window_auto">Automático</string>
   <!-- A sync window length setting (i.e. load messages this far back) [CHAR LIMIT=25]  -->
   <string name="account_setup_options_mail_window_1day">Último dia</string>
   <!-- A sync window length setting (i.e. load messages this far back) [CHAR LIMIT=25]  -->
@@ -303,7 +241,6 @@
   <!-- "Setup could not finish" dialog text; e.g., Username or password incorrect -->
   <string name="account_setup_failed_dlg_auth_message">O nome de utilizador ou a palavra-passe estão incorretos.</string>
   <!-- "Setup could not finish" dialog text; e.g., Username or password incorrect\n(ERR01 Account does not exist) -->
-  <string name="account_setup_failed_dlg_auth_message_fmt">O início de sessão falhou. \n(<xliff:g id="error">%s</xliff:g>)</string>
   <!-- Account setup autodiscover auth failure dialog title. This is shown when autodiscover hits
         an "access denied" server error, which could imply incorrect username/password or that no
         autodiscover service has been configured for the domain [CHAR LIMIT=40] -->
@@ -317,7 +254,6 @@
   <string name="account_setup_failed_dlg_certificate_message">Não é possível ligar ao servidor em segurança.</string>
   <!-- An error message presented to the user when the server's identity
          cannot be established or trusted [CHAR LIMIT=NONE] -->
-  <string name="account_setup_failed_dlg_certificate_message_fmt">Não é possível ligar ao servidor em segurança.\n(<xliff:g id="ERROR">%s</xliff:g>)</string>
   <!-- An error message presented to the user when the server requires a
          client certificate to connect [CHAR LIMIT=NONE] -->
   <string name="account_setup_failed_certificate_required">É necessário um certificado de cliente. Pretende ligar ao servidor com um certificado de cliente?</string>
@@ -329,7 +265,6 @@
   <!-- "Setup could not finish" dialog text; e.g., Cannot connect to server -->
   <string name="account_setup_failed_dlg_server_message">Não é possível ligar ao servidor.</string>
   <!-- "Setup could not finish" dialog text; e.g., Cannot connect to server\n(Connection timed out) -->
-  <string name="account_setup_failed_dlg_server_message_fmt">Não é possível ligar ao servidor.\n(<xliff:g id="ERROR">%s</xliff:g>)</string>
   <!-- Additional diagnostic text when TLS was required but the server doesn't support it -->
   <string name="account_setup_failed_tls_required">TLS necessário mas não suportado pelo servidor.</string>
   <!-- Additional diagnostic text when server does not support any of our authentication methods -->
@@ -350,10 +285,8 @@
   <!-- Additional diagnostic text when validation requires security provisioning (e.g. support
          for device lock PIN, or remote wipe.) and we ask the user permission before continuing.
          [CHAR LIMIT=none] -->
-  <string name="account_setup_security_policies_required_fmt">O servidor <xliff:g id="SERVER">%s</xliff:g> requer permissão para controlar remotamente algumas das funcionalidades de segurança do dispositivo Android. Pretende concluir a configuração desta conta?</string>
   <!-- Additional diagnostic text when validation failed due to required provisioning not
          being supported [CHAR LIMIT=none] -->
-  <string name="account_setup_failed_security_policies_unsupported">Este servidor requer funcionalidades de segurança que o seu aparelho Android não suporta, incluindo: <xliff:g id="ERROR">%s</xliff:g></string>
   <!-- The user name can only be changed during initial account setup. [CHAR LIMIT=none] -->
   <string name="account_setup_username_uneditable_error">Não é possível alterar o nome de utilizador de uma conta. Para adicionar uma conta com outro nome de utilizador, toque em Adicionar Conta.</string>
   <!-- Warning given to users when they request disabling device administration (i.e. that their
@@ -366,28 +299,21 @@
   <!-- Additional diagnostic text when the account requires some amount of device security
          provisioning, just before jumping into system settings such as Device Policy grant,
          PIN/password, or encryption setup.  [CHAR LIMIT=none] -->
-  <string name="account_security_dialog_content_fmt"><xliff:g id="account">%s</xliff:g> requer a atualização das definições de segurança.</string>
   <!-- Notification ticker when device security required (note: unused in Holo XL) -->
-  <string name="security_unsupported_ticker_fmt">Não é possível sincronizar a conta \"<xliff:g id="ACCOUNT">%s</xliff:g>\" devido a requisitos de segurança.</string>
   <!-- Notification ticker when device security required (note: unused in Holo XL) -->
-  <string name="security_needed_ticker_fmt">A conta \"<xliff:g id="ACCOUNT">%s</xliff:g>\" requer a atualização das definições de segurança.</string>
   <!-- Notification ticker when device security required (note: unused in Holo XL) -->
-  <string name="security_changed_ticker_fmt">A conta \"<xliff:g id="ACCOUNT">%s</xliff:g>\" alterou as definições de segurança; não é necessária qualquer ação do utilizador.</string>
   <!-- Notification content title when device security required [CHAR_LIMIT=30] -->
   <string name="security_notification_content_update_title">Necessária atualização de segurança</string>
   <!-- Notification content title when device security policies have changed [CHAR_LIMIT=36] -->
-  <string name="security_notification_content_change_title">Políticas de segurança alteradas</string>
   <!-- Notification content title when device security policies cannot be met [CHAR_LIMIT=30] -->
   <string name="security_notification_content_unsupported_title">Impossível cumprir polít. seg.</string>
   <!-- Title of the activity that dispatches changes to device security.  Not normally seen. -->
   <string name="account_security_title">Segurança do dispositivo</string>
   <!-- Additional diagnostic text when the email app asserts control of the phone.
         [CHAR LIMIT=none] -->
-  <string name="account_security_policy_explanation_fmt">O servidor <xliff:g id="SERVER">%s</xliff:g> requer permissão para controlar remotamente algumas das funcionalidades de segurança do aparelho Android.</string>
   <!-- "Setup could not finish" dialog action button -->
   <string name="account_setup_failed_dlg_edit_details_action">Editar detalhes</string>
   <!-- Notification ticker when device password is getting ready to expire [CHAR_LIMIT=80] -->
-  <string name="password_expire_warning_ticker_fmt">“<xliff:g id="account">%s</xliff:g>” solicita que altere o PIN ou palavra-passe do ecrã de bloqueio.</string>
   <!-- Notification content title when device password is getting ready to expire
             [CHAR_LIMIT=30] -->
   <string name="password_expire_warning_content_title">Palavra-passe de bloqueio do ecrã a expirar</string>
@@ -398,11 +324,9 @@
   <!-- Dialog title if device pin/password is going to expire soon. [CHAR_LIMIT=40] -->
   <string name="password_expire_warning_dialog_title">Palavra-passe de bloqueio do ecrã a expirar</string>
   <!-- Dialog content device pin/password is going to expire soon. [CHAR_LIMIT=none] -->
-  <string name="password_expire_warning_dialog_content_fmt">Tem de alterar o PIN ou a palavra-passe de bloqueio do ecrã ou os dados de <xliff:g id="account">%s</xliff:g> serão apagados. Pretende alterar agora?</string>
   <!-- Dialog title if device pin/password has already expired. [CHAR_LIMIT=40] -->
   <string name="password_expired_dialog_title">A palavra-passe de bloqueio do ecrã expirou</string>
   <!-- Dialog content device pin/password has already expired. [CHAR_LIMIT=none] -->
-  <string name="password_expired_dialog_content_fmt">Os dados de <xliff:g id="account">%s</xliff:g> estão a ser apagados do dispositivo. Pode restaurá-los alterando o PIN ou a palavra-passe de bloqueio do ecrã. Pretende alterar agora?</string>
   <!-- On AccountSettingsXL, dialog text if you try to exit in/out/eas fragment (server settings)
          without checking/saving [CHAR LIMIT=none]-->
   <string name="account_settings_exit_server_settings">Rejeitar alterações não guardadas?</string>
@@ -411,10 +335,8 @@
   <string name="account_settings_login_dialog_title">Não foi possível iniciar sessão.</string>
   <!-- Dialog content if you were brought here due to a login failure.
         [CHAR_LIMIT=none] -->
-  <string name="account_settings_login_dialog_content_fmt">O nome de utilizador ou a palavra-passe para <xliff:g id="account">%s</xliff:g> estão incorretos. Pretende atualizá-los agora?</string>
   <!-- Dialog content if you were brought here due to a login failure, and the server provided a reason
         [CHAR_LIMIT=none] -->
-  <string name="account_settings_login_dialog_reason_fmt">O seu início de sessão para <xliff:g id="ACCOUNT">%s</xliff:g> falhou; o servidor perguntou: <xliff:g id="REASON">%s</xliff:g> Pretende atualizar o seu nome de utilizador e/ou palavra-passe?</string>
   <!-- On Settings screen, setting option name -->
   <!-- Title of account preference for downloading attachments in background [CHAR LIMIT=32] -->
   <string name="account_settings_background_attachments_label">Transferir anexos</string>
@@ -463,13 +385,6 @@
   <string name="account_settings_data_usage">Utilização de dados</string>
   <!-- On Settings screen, section heading -->
   <string name="account_settings_policies">Políticas de segurança</string>
-  <string name="system_folders_title">Pastas do sistema</string>
-  <string name="system_folders_trash_title">Pasta de lixo</string>
-  <string name="system_folders_trash_summary">Selecionar a pasta de lixo do seu servidor</string>
-  <string name="system_folders_trash_dlg">Selecionar a pasta de lixo do seu servidor</string>
-  <string name="system_folders_sent_title">Pasta de itens enviados</string>
-  <string name="system_folders_sent_summary">Selecionar a pasta de itens enviados do seu servidor</string>
-  <string name="system_folders_sent_dlg">Selecionar a pasta de itens enviados do seu servidor</string>
   <!-- On settings screen, dialog heading informing user to create or edit a quick response -->
   <string name="edit_quick_response_dialog">Resposta rápida</string>
   <!-- On settings screen, edit quick response dialog's "save" button -->
@@ -480,8 +395,6 @@
   <string name="account_settings_sync_contacts_summary">Sincronizar contactos para esta conta</string>
   <!-- On settings screen, sync calendar check box label [CHAR LIMIT=20]-->
   <string name="account_settings_sync_calendar_enable">Sincronizar calendário</string>
-  <!-- On settings screen, sync calendar summary text [CHAR LIMIT=50] -->
-  <string name="account_settings_sync_calendar_summary">Sinc. evento do cal. p. esta conta</string>
   <!-- On settings screen, sync email check box label [CHAR LIMIT=20]-->
   <string name="account_settings_sync_email_enable">Sincronizar e-mail</string>
   <!-- On settings screen, sync email summary text [CHAR LIMIT=35] -->
@@ -495,7 +408,6 @@
   <!-- Mailbox settings activity title [CHAR LIMIT=none] -->
   <string name="mailbox_settings_activity_title">Opções de sincronização</string>
   <!-- Mailbox settings activity title, with the target folder name [CHAR LIMIT=none] -->
-  <string name="mailbox_settings_activity_title_with_mailbox">Opções de sincronização (<xliff:g id="MAILBOXX_NAME">%s</xliff:g>)</string>
   <!-- On mailbox settings screen: Whether to sync this mailbox when the account syncs. -->
   <string name="mailbox_settings_sync_enabled_label">Sincronizar esta pasta</string>
   <!-- On mailbox settings screen: Explanatory text for what it means to "sync this folder". -->
@@ -503,37 +415,30 @@
   <!-- On mailbox settings screen: Mailbox sync window (the number of days to synchronize email for) setting label [CHAR LIMIT=none] -->
   <string name="mailbox_settings_mailbox_sync_window_label">Dias de correio a sincronizar</string>
   <!-- Dialog title for the choosing whether to show checkboxes or sender image [CHAR LIMIT=200] -->
-  <string name="prefDialogTitle_conversationListIcon">Imagem do remetente</string>
   <!-- Message that appears when adding a Windows Live Hotmail Plus account -->
-  <string name="provider_note_live">Apenas algumas contas “Plus” incluem acesso POP, permitindo a ligação deste programa. Se não conseguir iniciar sessão com o endereço de e-mail e palavra-passe corretos, é possível que não tenha uma conta “Plus” paga. Inicie o navegador de Internet para obter acesso a essas contas de email.</string>
   <!-- Name of Microsoft Exchange account type; used by AccountManager -->
   <!-- Name of Microsoft Exchange account type; used by AccountManager -->
   <!-- Message that appears if the AccountManager cannot create the system Account -->
   <string name="system_account_create_failed">Não foi possível criar a conta. Tente novamente.</string>
   <!-- Strings that support the DeviceAdmin / DevicePolicyManager API -->
-  <!-- Name of the DeviceAdmin (seen in settings & in user confirmation screen) -->
-  <string name="device_admin_label">E-mail</string>
   <!-- Long-form description of the DeviceAdmin (2nd line in settings & in user conf. screen) -->
   <string name="device_admin_description">Ativa as políticas de segurança especificadas pelo servidor</string>
   <!-- Settings activity title [CHAR LIMIT=40]-->
   <string name="settings_activity_title">Configurações</string>
   <!-- General Preferences Screen -->
   <!-- Label in preferences header to describe general preferences [CHAR LIMIT=32] -->
-  <string name="header_label_general_preferences">Definições gerais</string>
   <!-- General preference: Label of the setting for requiring confirmation before
          message deletion [CHAR LIMIT=32] -->
   <string name="general_preference_confirm_delete_label">Confirmar antes de eliminar</string>
   <!-- General preference: Description of the setting for requiring confirmation before
          message deletion [CHAR LIMIT=64] -->
   <!-- TODO: Delete this string, no longer used -->
-  <string name="general_preference_confirm_delete_summary">Mensagens</string>
   <!-- General preference: Label of the setting for requiring confirmation before
          message sending [CHAR LIMIT=32] -->
   <string name="general_preference_confirm_send_label">Confirmar antes de enviar</string>
   <!-- General preference: Description of the setting for requiring confirmation before
          message sending [CHAR LIMIT=32] -->
   <!-- TODO: Delete this string, no longer used -->
-  <string name="general_preference_confirm_send_summary">Mensagens</string>
   <!-- General preference: Label of the setting for the text zoom.  [CHAR LIMIT=32] -->
   <string name="general_preference_text_zoom_label">Tamanho do texto da mensagem</string>
   <!-- General preference: Description of each setting for text zoom.  The entries here must
@@ -601,9 +506,438 @@
   <string name="pop3_name">POP3</string>
   <string name="folder_picker_title">Seletor de pastas</string>
   <!-- Displayed when the user must pick his server's trash folder from a list [CHAR LIMIT 30]-->
-  <string name="trash_folder_selection_title">Selecionar a pasta de lixo do servidor para <xliff:g id="ACCOUNT">%s</xliff:g></string>
   <!-- Displayed when the user must pick his server's sent items folder from a list [CHAR LIMIT 30]-->
-  <string name="sent_folder_selection_title">Selecionar a pasta de itens enviados do servidor para <xliff:g id="ACCOUNT">%s</xliff:g></string>
   <string name="account_waiting_for_folders_msg">A carregar a lista de pastas...</string>
   <!-- Feedback uri to be used when feedback is enabled -->
+  <!-- Names of packages and authorities that are common to all apps
+    and read from resources -->
+  <!-- Layout tests strings -->
+  <!-- Compose -->
+  <!-- Shown in Compose; the sender of the message [CHAR LIMIT=10] -->
+  <!-- Shown in Compose; the recipient(s) of the message [CHAR LIMIT=10] -->
+  <!-- Shown in Compose; the cc recipient(s) of the message [CHAR LIMIT=10] -->
+  <!-- Shown in Compose; the bcc recipient(s) of the message [CHAR LIMIT=10] -->
+  <!-- Shown in Compose; the subject of the message [CHAR LIMIT=100] -->
+  <!-- Shown in Compose; the subject of the message [CHAR LIMIT=100] -->
+  <!--  Compose screen button. Add an attachment to this message [CHAR LIMIT=20] -->
+  <!--  Compose screen button. Add a photo attachment to this message [CHAR LIMIT=20] -->
+  <!-- Button name: save this message as draft [CHAR LIMIT=25]-->
+  <!--  Button name: discard this message [CHAR LIMIT=15] -->
+  <!-- The possible ways to reply to a message [CHAR LIMIT=15] -->
+  <!-- The possible ways to reply to a message [CHAR LIMIT=15] -->
+  <!-- Formatting string for the subject when it contains a reply or forward identifier. Do not translate.-->
+  <!-- Compose screen, prefixed to the subject of a message when replying to it (if not already present). Do not translate. -->
+  <!-- Compose screen, Prefix to forwarded message subject. Do not translate. -->
+  <!-- Compose screen, displayed at the top of a message being replied to. Please preserve the HTML entities (surrounded by & and ;).  The two %s strings will be replaced by 1) the date 2) the person who wrote the email being responded to. [CHAR LIMIT=1000]-->
+  <!-- Compose screen, displayed at the top of a message being forwarded. Please preserve the HTML entities (surrounded by & and ;). [CHAR LIMIT=1000] -->
+  <!-- Compose screen, displayed at the top of a message being forwarded. [CHAR LIMIT=100]-->
+  <!-- Compose screen, displayed at the top of a message being forwarded if there are any email addresses in the CC list. Please preserve the HTML entities (surrounded by & and ;). [CHAR LIMIT=1000]-->
+  <!-- Dialog text: select the type of an attachment while composing [CHAR LIMIT=100]-->
+  <!-- Toast, attachment too large for single file [CHAR LIMIT=100] -->
+  <!-- Toast, attachment too large for multiple files [CHAR LIMIT=100] -->
+  <!-- Toast, attachment too large when existing attachments exist [CHAR LIMIT=100] -->
+  <!-- Toast, problem attaching file [CHAR LIMIT=100] -->
+  <!-- Displayed for one second after trying to send with no recipients in To field [CHAR LIMIT=200]-->
+  <!-- Title for recipient error dialog [CHAR LIMIT=200]-->
+  <!-- Title for send confirmation dialog [CHAR LIMIT=200]-->
+  <!-- Messages for send confirmation dialog [CHAR LIMIT=100]-->
+  <!-- Displayed for one second after discarding draft message [CHAR LIMIT=50]-->
+  <!--  Shown in the from dropdown in front of custom from addresses. [CHAR LIMIT=15] -->
+  <!-- Menu item: send this message -->
+  <!-- Menu item: mark this conversation as read -->
+  <!-- Menu item: mark this conversation as unread -->
+  <!--  Menu item: mute this conversation -->
+  <!-- Menu item: add a star to this conversation -->
+  <!-- Menu item: remove the star from this conversation -->
+  <!-- Remove the folder from this conversation [CHAR LIMIT = 30]-->
+  <!-- Menu item: archive this conversation -->
+  <!-- Menu item: report this conversation as spam [CHAR LIMIT = 30] -->
+  <!-- Menu item: report this conversation not as spam [CHAR LIMIT = 30] -->
+  <!-- Menu item: report this conversation as phishing [CHAR LIMIT = 30] -->
+  <!-- Menu item: delete this conversation -->
+  <!-- Menu item: discard the drafts in this conversation [CHAR LIMIT = 30] -->
+  <!-- Menu item: refresh the inbox -->
+  <!-- Menu item: reply to this message -->
+  <!-- Menu item: reply to all recipients in this message [CHAR LIMIT=18] -->
+  <!-- Menu item: resume a draft message [CHAR LIMIT=12] -->
+  <!-- Menu item: forward this message -->
+  <!-- Menu item: compose a new email -->
+  <!-- Menu item: change the folders for this conversation. -->
+  <!-- Menu item: moves to folders for selected conversation(s). [CHAR LIMIT = 30] -->
+  <!-- Menu item: moves current or selected conversation(s) to Inbox. [CHAR LIMIT = 30] -->
+  <!-- Menu item: manages the folders for this account. [CHAR LIMIT = 30] -->
+  <!-- Menu item text to show the original version of an email conversation, before message manipulation [CHAR LIMIT=25] -->
+  <!-- Menu item: options for this folder. When source text cannot be translated within the char limit, please translate the shorter "Folder options" instead. [CHAR LIMIT = 30] -->
+  <!-- Menu item: launch the Settings activity -->
+  <string name="menu_settings">Configurações</string>
+  <!-- Menu item: search through the Gmail inbox -->
+  <!--  Menu item: shown in conversation menu. Tap this to move to mark conversation as important [CHAR LIMIT=30] -->
+  <!--  Menu item: shown in conversation menu. Tap this to move to mark conversation as not important [CHAR LIMIT=30] -->
+  <!-- Compose screen, menu item: add Cc/Bcc fields -->
+  <!-- Compose screen, menu item: add Bcc field [CHAR_LIMIT=20]-->
+  <!-- Solicit feedback string in about screen [CHAR LIMIT=50]-->
+  <!-- Menu item that displays the help page for Gmail. [CHAR LIMIT=50]-->
+  <!-- Compose screen, Prefix to quoted text in forwarded/replied message [CHAR LIMIT=50]-->
+  <!-- Compose screen, Prefix to quoted text in forwarded/replied message; folder for the quoted text area. [CHAR LIMIT=25] -->
+  <!--  Button for including inline responses. [CHAR LIMIT=25] -->
+  <!-- Format string for email addresses -->
+  <!-- Attachments -->
+  <!-- Size unit, displayed in a button next to an attachment [CHAR LIMIT=5]-->
+  <!-- Size unit, displayed in a button next to an attachment [CHAR LIMIT=5] -->
+  <!-- Size unit, displayed in a button next to an attachment  [CHAR LIMIT=5]-->
+  <!-- Attachment description for image files [CHAR LIMIT=30] -->
+  <!-- Attachment description for video files [CHAR LIMIT=30] -->
+  <!-- Attachment description for audio files [CHAR LIMIT=30] -->
+  <!-- Attachment description for text files [CHAR LIMIT=30] -->
+  <!-- Attachment description for .doc files [CHAR LIMIT=30] -->
+  <!-- Attachment description for .ppt files [CHAR LIMIT=30] -->
+  <!-- Attachment description for excel files [CHAR LIMIT=30] -->
+  <!-- Attachment description for .pdf files [CHAR LIMIT=30] -->
+  <!-- Attachment description for unknown files [CHAR LIMIT=30]-->
+  <!-- Read email screen, button name. Preview an attachment by Gview. [CHAR LIMIT=18] -->
+  <!-- Read email screen, button name. Save an attachment to sd card. [CHAR LIMIT=10] -->
+  <string name="save_attachment">Guardar</string>
+  <!-- Read email screen, button name. Cancel a downloading attachment. [CHAR LIMIT=10] -->
+  <!-- Read email screen, button name. Redownload an attachment [CHAR LIMIT=20]-->
+  <!-- Dialog box title [CHAR LIMIT=30] -->
+  <!-- Dialog box message, displayed when we could not view an attachment. [CHAR LIMIT=200]-->
+  <!-- Dialog box title. [CHAR LIMIT=30] -->
+  <!-- Dialog box message. [CHAR LIMIT=80] -->
+  <!-- Displayed in the conversation view, next to a file's size and type. Status of a saved attachment. [CHAR LIMIT=20]-->
+  <!-- Displayed in the conversation view. Status of a failed attachment. [CHAR LIMIT=50]-->
+  <!-- Displayed in the conversation view, as a header informing
+         the user that the following is the attachments. [CHAR LIMIT=100] -->
+  <!-- Photo view screen, button name. Save all attachments to sd card. [CHAR LIMIT=17] -->
+  <!-- Photo view screen, button name. Share attachment. [CHAR LIMIT=10] -->
+  <!-- Photo view screen, button name. Share all attachments. [CHAR LIMIT=20] -->
+  <!-- Displayed in the action bar as a subtitle. Save in progress. [CHAR LIMIT=15] -->
+  <!-- Webview Context Menu Strings -->
+  <!-- Title of dialog for choosing which activity to share a link with. [CHAR LIMIT=50]-->
+  <!-- Menu item to open a link  [CHAR LIMIT=50]-->
+  <!-- Menu item to copy the selection  [CHAR LIMIT=50]-->
+  <!-- Menu item to copy a link  [CHAR LIMIT=50]-->
+  <!-- Menu item to dial a number  [CHAR LIMIT=50]-->
+  <!-- Menu item to send an SMS  [CHAR LIMIT=50]-->
+  <!-- Menu item to add a contact  [CHAR LIMIT=50]-->
+  <!-- Menu item to send an email [CHAR LIMIT=50] -->
+  <!-- Menu item to show a map  [CHAR LIMIT=50]-->
+  <!-- Menu item to share link  [CHAR LIMIT=50]-->
+  <!-- Menu item that displays the help page for Gmail.  [CHAR LIMIT=50]-->
+  <!-- Solicit feedback string in about screen [CHAR LIMIT=50]-->
+  <!-- Browse list item strings -->
+  <!-- Text indicating how many messages are selected in the top action bar
+    [CHAR LIMIT=40] -->
+  <!--  Displayed when drag and drop conversations "Move ? conversations" [CHAR LIMIT=50] -->
+  <!-- Formatting string for the content description field of a conversation list item when device is in accessibility mode. [CHAR LIMIT=250] -->
+  <!-- Formatting string for the content description field of a conversation list item when device is in accessibility mode and the message was received today. [CHAR LIMI=250] -->
+  <!-- String used in content description field of a conversation list item when device is in accessibility mode and the conversation was read [CHAR LIMIT=250] -->
+  <!-- String used in content description field of a conversation list item when device is in accessibility mode and the conversation was not read [CHAR LIMIT=250] -->
+  <!-- Formatting string. If the subject contains the tag of a mailing-list (text surrounded with
+    return the subject with that tag ellipsized, e.g. "[android-gmail-team] Hello" -> "[andr...] Hello" [CHAR LIMIT=100] -->
+  <!-- Displayed in Conversation Header View and Widget in the form of "subject - snippet"
+         [CHAR LIMIT=5] -->
+  <!-- Displayed in browse list item when the list item is a draft message instead of showing the subject [CHAR LIMIT=100] -->
+  <!-- Message displayed in a browse list item for one second when message is being sent [CHAR LIMIT=20]-->
+  <!-- Message displayed in a browse list item for one second after a send failed [CHAR LIMIT=26]-->
+  <!-- String used to represent "me" when used as an object pronoun. This string is used when
+         showing the list of recipients of a message [CHAR LIMIT=15] -->
+  <!-- String used to represent "me"/"I" when used as an subject pronoun. This string is use when
+         showing the list of senders for a conversation list item. [CHAR LIMIT=15] -->
+  <!-- Header for list of inboxes in the drawer (Inbox, Priority) [CHAR LIMIT=50] -->
+  <!-- Dialog text: confirm discard -->
+  <!-- Conversation list shared between the Activity and Widget -->
+  <!-- Displayed in the middle of the screen when conversations are being loaded [CHAR LIMIT 100]-->
+  <!-- Undo bar strings -->
+  <!-- Menu item: undo latest action [CHAR LIMIT=12]-->
+  <!-- The following are shown as a toast after the operation has completed -->
+  <!-- Displayed when swiping away a single conversation to delete it [CHAR LIMIT=80] -->
+  <!-- Displayed when swiping away a single conversation to archive it [CHAR LIMIT=80] -->
+  <!-- Displayed when swiping away a single conversation to remove the currently displayed folder [CHAR LIMIT=80] -->
+  <!-- Displayed after moving a conversation to a different folder. [CHAR LIMIT=100] -->
+  <!-- Search Results: Text for header that is shown above search results [CHAR LIMIT=30] -->
+  <!-- Toast shown when the user taps the search hard key when viewing an account that does not support search [CHAR LIMIT=100] -->
+  <!-- Search Results: Text for header that is shown above search results, while waiting for search results from the server [CHAR LIMIT=30] -->
+  <!-- Conversation view -->
+  <!--  Text anchor for control to add / change labels on a conversation when
+          viewing it. [CHAR LIMIT=40] -->
+  <!-- Conversation message header strings -->
+  <!--  Icon name for expanding recipient details in a message when viewing it. [CHAR LIMIT=40] -->
+  <!--  Icon name for collapsing recipient details in a message when viewing it. [CHAR LIMIT=40] -->
+  <!--  Icon name for showing sender contact information. [CHAR LIMIT=100] -->
+  <!--  Icon name for showing sender contact information when we cannot get sender info. [CHAR LIMIT=100] -->
+  <!-- Shown in collapsed mode when a conversation has more than one read message.
+         The message count is shown to the right of this text. [CHAR LIMIT=70] -->
+  <!-- Shown to display the from address of the message [CHAR LIMIT=10] -->
+  <!-- Shown to display the reply to address of the message [CHAR LIMIT=20] -->
+  <!-- Shown to display the to recipient(s) of the message [CHAR LIMIT=10] -->
+  <!-- Shown to display the cc recipient(s) of the message [CHAR LIMIT=10] -->
+  <!-- Shown to display the bcc recipient(s) of the message [CHAR LIMIT=10] -->
+  <!-- Shown to display the recipient(s) of the message [CHAR LIMIT=10] -->
+  <!-- Displayed above an HTML message to show the images in that message [CHAR LIMIT=40] -->
+  <!-- Displayed above an HTML message to always show images in messages from that sender [CHAR LIMIT=40] -->
+  <!-- Shown in a toast to acknowledge always showing images for a sender [CHAR LIMIT=100] -->
+  <!-- Display format of an email recipient, displayed in expanded message details [CHAR LIMIT=10] -->
+  <!-- Display format of an email sender if the message has a via domain set, displayed in expanded message details [CHAR LIMIT=15] -->
+  <!-- Displayed for one second after user saves message as draft [CHAR LIMIT=50]-->
+  <!-- Displayed for one second while message is being sent [CHAR LIMIT=50]-->
+  <!-- Displayed for one second after trying to send with invalid recipients [CHAR LIMIT=50]-->
+  <!-- Shown in HTML to allow the user to see quoted text; should match Gmail web UI. 25B6 is Unicode for a right-pointing triangle. [CHAR LIMIT=50] -->
+  <!-- Shown in HTML to allow the user to hide quoted text; should match Gmail web UI. 25BC is Unicode for a downward-pointing triangle. [CHAR LIMIT=50] -->
+  <!-- Shown as a heading in message view when a message contains a calendar invite [CHAR LIMIT=30]-->
+  <!-- Shown as a button label in message view to launch calendar to see this invite [CHAR LIMIT=40]-->
+  <!-- Shown as a text label in message view describing the choices of whether to attend an invite [CHAR LIMIT=20]-->
+  <!-- Shown as a button label in message view to accept a calendar invite [CHAR LIMIT=20]-->
+  <!-- Shown as a button label in message view to give a tentative response to a calendar invite [CHAR LIMIT=20]-->
+  <!-- Shown as a button label in message view to decline a calendar invite [CHAR LIMIT=20]-->
+  <!-- An enumeration comma for separating items in lists. [CHAR LIMIT=2] -->
+  <!-- Button name, displayed in dialogs [CHAR LIMIT=10]-->
+  <!-- Button name, displayed in dialogs [CHAR LIMIT=10]-->
+  <!-- Button name, displayed in dialogs [CHAR LIMIT=10] -->
+  <string name="ok">OK</string>
+  <!-- Button name, displayed in dialogs [CHAR LIMIT=10] -->
+  <string name="done">Concluído</string>
+  <!-- Button name, displayed in dialogs [CHAR LIMIT=10] -->
+  <string name="cancel">Cancelar</string>
+  <!-- Button name, displayed in dialogs [CHAR LIMIT=10] -->
+  <!-- Sync status errors. Please do not change the order [CHAR LIMIT=100] -->
+  <!-- Widget strings -->
+  <!-- Displayed when user adds a new widget. Tapping on the widget in this
+          mode will bring user to the account selection screen [CHAR LIMIT=35] -->
+  <!-- Displayed within a widget that was setup for a non-synced folder [CHAR LIMIT=60] -->
+  <!-- Displayed within a widget that was setup for a non-synced folder.  This is the text of the
+         button that will allow the user to configure sync for the folder [CHAR LIMIT=35] -->
+  <!-- Displayed in widget when unread count > 100. [CHAR LIMIT=4] -->
+  <!-- Displayed in the actionbar when unread count > 999. [CHAR LIMIT=30] -->
+  <!-- Displayed at the end of the conversation list in the widget. Tapping on this will open the default Inbox. [CHAR LIMIT=35] -->
+  <!-- Name of the Mailboxes activity [CHAR LIMIT=30] -->
+  <!-- Name of the Folders activity [CHAR LIMIT=30] -->
+  <!-- Name of the Folder shortcut widget. Should use "Email" to refer to the app. [CHAR LIMIT=30] -->
+  <!-- Folder selection dialog -->
+  <!-- Title for change folders dialog [CHAR LIMIT=30] -->
+  <!-- Title for move to dialog [CHAR LIMIT=30] -->
+  <!-- Search -->
+  <!-- Shown in light gray in the Search box when no text has been entered [CHAR LIMIT=20]-->
+  <!-- Search Results: Text for status of the search when the results are completely loaded [CHAR LIMIT=10] -->
+  <!-- Shown in conversation list footer when application cannot make a connection [CHAR LIMIT=20]-->
+  <!-- Button at bottom of conversation list screen if last attempt to load conversations failed [CHAR LIMIT=20]-->
+  <!-- Button at bottom of conversation list screen if the folder for which contents are being shown supports loading more on demand [CHAR LIMIT=20]-->
+  <!-- Text for dummy attachments to load the actual attachment. This is not an ideal string, but it's too late to add a new string and get it translated -->
+  <!-- Shortcut strings -->
+  <!-- Title for shortcut naming dialog [CHAR LIMIT=100]-->
+  <!-- Wait fragment strings -->
+  <!-- Displayed in title bar during the initial sync  [CHAR LIMIT=40] -->
+  <!-- Displayed in the middle of the screen during the initial sync [CHAR LIMIT=40] -->
+  <!-- Title for the screen displayed during the initial sync [CHAR LIMIT=100]  -->
+  <!-- Displayed in the middle of the screen during the initial sync [CHAR LIMIT=300]-->
+  <!-- Displayed at the bottom of the screen during the initial sync. If pressed will sync users mail for the selected account. [CHAR LIMIT=12]  -->
+  <!-- Displayed at the bottom of the screen during the initial sync. If pressed will open sync setting screen for accounts. [CHAR LIMIT=30]  -->
+  <!-- Displayed when we could not load a photo in the photo viewer. [CHAR LIMIT=30] -->
+  <!--  The move message / change labels action can't be taken because the selected messages
+        come from different accounts -->
+  <string name="cant_move_or_change_labels">Não é possível mover porque a seleção contém várias contas.</string>
+  <!-- Format string used when displaying a summary in a message summary in list notification that was triggered by several new conversations.
+         Extra space between sender and subject is intentional.  [CHAR LIMIT=120] -->
+  <!-- Format string used when displaying the big text of a notification that was triggered by a single new conversation. [CHAR LIMIT=120] -->
+  <!-- Displayed in a message subheading. Ignore the current spam warning. [CHAR LIMIT=30] -->
+  <!-- Displayed in the message heading. Shown if the message was sent via another domain. [CHAR LIMIT=10] -->
+  <!-- Button text for the button to click to have the user sign in again. [CHAR LIMIT=20]-->
+  <!-- Button text for the button to click for more information. [CHAR LIMIT=20]-->
+  <!-- Button text for the button to click to report feedback. [CHAR LIMIT=20]-->
+  <!-- Dialog title when a sync error occurs. [CHAR LIMIT=50]-->
+  <!-- Dialog title when a sync error occurs. [CHAR LIMIT=100]-->
+  <!-- Button text for the button to click to go to the manage storage settings screen. [CHAR LIMIT=20]-->
+  <!-- Token used as a divider between senders -->
+  <!-- Token to replace senders that are not visible -->
+  <!-- Token used to space out elided senders that are not visible -->
+  <!-- Token used to space out message count, draft text, and senders -->
+  <!-- String used in the FolderListFragment to mark the start of recent folders -->
+  <!-- Dialog title when showing message header details in a popup window. [CHAR LIMIT=100]-->
+  <!-- General preference: Label of the setting for the direction to move to
+         when deleting the current message.
+         Options contain "newer message","older message", etc. [CHAR LIMIT=32] -->
+  <!-- General preference: Description of the setting for the direction to move to
+         when deleting the current message.
+         Options contain "newer message","older message", etc. [CHAR LIMIT=64] -->
+  <!-- Title of the dialog that appears the first time they perform an action that would cause
+         auto advance logic to fire [CHAR LIMIT=70] -->
+  <!-- The auto-advance modes -->
+  <!-- Description for each auto-advance option to display after the user has picked one -->
+  <!-- The entries here must correspond to the entries in prefEntries_autoAdvance [CHAR LIMIT=60] -->
+  <!-- TODO: these pref keys that are never user visible should probably be
+    moved to a donttranslate file -->
+  <!-- The default auto-advance mode -->
+  <!-- The auto-advance mode values -->
+  <!-- Settings screen, title of "Restore default for "Show pictures"" [CHAR LIMIT=1000]-->
+  <!-- Settings screen, title of dialog shown to confirm action when user taps
+    "Clear picture approvals" in preferences [CHAR LIMIT=200]-->
+  <!-- Settings screen, message of dialog shown to confirm action when tapping
+    "Clear picture approvals" [CHAR LIMIT=1000]-->
+  <!-- Message shown in toast when the user taps "Restore default for "Show pictures"" in Gmail general preferences. [CHAR LIMIT=50] -->
+  <!-- Settings screen, name of the setting that lets the user choose their signature [CHAR LIMIT=50] -->
+  <!-- Settings screen, title of the dialog that lets the user configure their signature [CHAR LIMIT=50] -->
+  <!-- Settings screen, setting summary text when no signature set [CHAR LIMIT=100] -->
+  <!-- Notification action for replying-all to a message. [CHAR LIMIT=20] -->
+  <!-- Notification action for archiving a message. [CHAR LIMIT=20] -->
+  <!-- Notification action for removing a label from a message. [CHAR LIMIT=20] -->
+  <!-- Notification undo text after archiving a message. [CHAR LIMIT=30] -->
+  <!-- Notification undo text after removing a label from a message. [CHAR LIMIT=30] -->
+  <!-- Notification undo text after deleting a message. [CHAR LIMIT=30] -->
+  <!-- Regex that specifies veiled addresses. These are all empty because this is disabled currently. -->
+  <!-- String to be shown instead of a veiled addresses. [CHAR LIMIT=50] -->
+  <!-- String to be shown instead of a veiled addresses. [CHAR LIMIT=50] -->
+  <!-- Summary string to be shown instead of a veiled recipient. [CHAR LIMIT=50] -->
+  <!-- Notification ticker text for per-label notification [CHAR LIMIT=30]-->
+  <!-- Format string used when displaying the title of a notification that was triggered by a single new conversation. [CHAR LIMIT=120] -->
+  <!-- Settings screen, what to display for Ringtone when the user chooses "silent" [CHAR LIMIT=100]-->
+  <!-- Settings screen, preference name for archive vs. delete [CHAR LIMIT=50] -->
+  <!-- Options to select from for whether to have archive or delete as the remove action [CHAR LIMIT=50] -->
+  <!-- Description of currently selected option of whether to use archive or delete as remove action [CHAR LIMIT=200] -->
+  <!-- Dialog title for the choosing whether to use archive or delete as remove action [CHAR LIMIT=150] -->
+  <!-- The default value -->
+  <!--  Settings screen, Reply to all default setting title  [CHAR LIMIT=30] -->
+  <!--  Settings screen, Reply to all default setting summary [CHAR LIMIT=70] -->
+  <!-- Preference name for swipe action when action is archive [CHAR LIMIT=100]-->
+  <!-- Preference name for swipe action when action is delete [CHAR LIMIT=100]-->
+  <!-- Preference description swiping in conversation list option [CHAR LIMIT=100] -->
+  <!-- In conversation list, when user initiates a downward swipe,
+        this text is displayed in the action bar as a hint that they can trigger a
+        sync/refresh by continuing the downward swipe. [CHAR LIMIT=60] -->
+  <!-- In conversation list, when user has triggered a sync via a downward swipe,
+        this text is displayed in the action bar for a brief moment to
+    indicate that a sync is in progress.  [CHAR LIMIT=60] -->
+  <!-- Conversation list screen overflow menu in trash folder [CHAR LIMIT=50]  -->
+  <!-- Conversation list screen overflow menu in spam folder [CHAR LIMIT=50]  -->
+  <!-- Dialog title for empty trash confirmation dialog [CHAR LIMIT=100] -->
+  <!-- Dialog title for empty spam confirmation dialog [CHAR LIMIT=100] -->
+  <!-- Dialog message for empty folder confirmation dialog [CHAR LIMIT=300] -->
+  <!-- Strings used for accessibility for the items that toggles the drawer action  -->
+  <!-- Content description for the folder icon for nested folders. -->
+  <!--  Button, "Add account" in the preference screen [CHAR LIMIT=30] -->
+  <!-- Action bar title for viewing messages that are attached to another message. -->
+  <!-- Shown to display the date of the message when the message was received yesterday. [CHAR LIMIT=50]  -->
+  <!-- Content description for the "X" image icon for dismissing a tip. This is used for spoken description of the icon when touch explore is enabled. [CHAR LIMIT=50] -->
+  <!-- Tip for letting user know that their device auto-sync setting
+        is turned off, in case they are wondering why they are not
+        receiving any new mail. [CHAR LIMIT=250] -->
+  <!-- Tap to turn on device auto-sync setting.  [CHAR LIMIT=250] -->
+  <!-- Tip for letting user know that their account level sync setting
+        is turned off, in case they are wondering why they are not
+        receiving any new mail. [CHAR LIMIT=250] -->
+  <!-- Hint text for user to enable sync in Gmail's account settings.
+         The whole string should read "Turn on in Account settings.", but because we need
+         "Account settings" to appear as blue link text, it's a parameter here.
+         [CHAR LIMIT=250] -->
+  <!-- This is used as a parameter to another string and combined reads
+         "Turn on in Account settings." [CHAR LIMIT=250] -->
+  <string name="account_settings_param">Definições da conta</string>
+  <!-- Hint text that there are X number of unsent messages users
+    Outbox. [CHAR LIMIT=250] -->
+  <!-- Title of dialog to turn auto-sync on [CHAR LIMIT=100] -->
+  <!-- Text of dialog to turn auto-sync on [CHAR LIMIT=500] -->
+  <!-- Phone (vs. tablet) for describing this device [CHAR LIMIT=30] -->
+  <!-- Tablet (vs. phone) for describing this device [CHAR LIMIT=30] -->
+  <!-- Confirm button text for dialog to turn auto-sync on [CHAR
+         LIMIT=30] -->
+  <!-- Button in conversation list to show more folders [CHAR LIMIT=50] -->
+  <!-- Button in conversation list to hide folders [CHAR LIMIT=50] -->
+  <!-- Error message that is displayed when the user clicks on a quick contacts badge, but
+         there is no contacts application installed that can display the quick contact -->
+  <!-- Custom phone number type -->
+  <!-- Home phone number type -->
+  <!-- Mobile phone number type -->
+  <!-- Work phone number type -->
+  <!-- Work fax phone number type -->
+  <!-- Home fax phone number type -->
+  <!-- Pager phone number type -->
+  <!-- Other phone number type -->
+  <!-- Callback phone number type -->
+  <!-- Car phone number type -->
+  <!-- Company main phone number type -->
+  <!-- ISDN phone number type -->
+  <!-- Main phone number type -->
+  <!-- Other fax phone number type -->
+  <!-- Radio phone number type -->
+  <!-- Telex phone number type -->
+  <!-- TTY TDD phone number type -->
+  <!-- Work mobile phone number type -->
+  <!-- Work pager phone number type -->
+  <!-- Assistant phone number type -->
+  <!-- MMS phone number type -->
+  <!-- Label for custom events  [CHAR LIMIT=20] -->
+  <!-- Label for a birthday event  [CHAR LIMIT=20] -->
+  <!-- Label for an anniversary event  [CHAR LIMIT=20] -->
+  <!-- Label for other events  [CHAR LIMIT=20] -->
+  <!-- Custom email type -->
+  <!-- Home email type -->
+  <!-- Work email type -->
+  <!-- Other email type -->
+  <!-- Mobile email type -->
+  <!-- Custom postal address type -->
+  <!-- Home postal address type -->
+  <!-- Work postal address type -->
+  <!-- Other postal address type -->
+  <!-- Custom IM address type -->
+  <!-- Home IM address type -->
+  <!-- Work IM address type -->
+  <!-- Other IM address type -->
+  <!-- Custom IM protocol type -->
+  <!-- AIM IM protocol type -->
+  <!-- MSN IM protocol type -->
+  <!-- Yahoo IM protocol type -->
+  <!-- Skype IM protocol type -->
+  <!-- QQ IM protocol type -->
+  <!-- Google Talk IM protocol type -->
+  <!-- ICQ IM protocol type -->
+  <!-- Jabber IM protocol type -->
+  <!-- NetMeeting IM protocol type -->
+  <!-- Work organization type -->
+  <!-- Other organization type -->
+  <!-- Custom organization type -->
+  <!-- Custom relationship custom [CHAR LIMIT=20] -->
+  <!-- Assistant relationship type [CHAR LIMIT=20] -->
+  <!-- Brother relationship type [CHAR LIMIT=20] -->
+  <!-- Child relationship type [CHAR LIMIT=20] -->
+  <!-- Domestic Partner relationship type [CHAR LIMIT=20] -->
+  <!-- Father relationship type [CHAR LIMIT=20] -->
+  <!-- Friend relationship type [CHAR LIMIT=20] -->
+  <!-- Manager relationship type [CHAR LIMIT=20] -->
+  <!-- Mother relationship type [CHAR LIMIT=20] -->
+  <!-- Parent relationship type [CHAR LIMIT=20] -->
+  <!-- Partner relationship type [CHAR LIMIT=20] -->
+  <!-- Referred by relationship type [CHAR LIMIT=20] -->
+  <!-- Relative relationship type [CHAR LIMIT=20] -->
+  <!-- Sister relationship type [CHAR LIMIT=20] -->
+  <!-- Spouse relationship type [CHAR LIMIT=20] -->
+  <!-- Custom SIP address type. Same context as Custom phone type.  -->
+  <!-- Home SIP address type. Same context as Home phone type. -->
+  <!-- Work SIP address type. Same context as Work phone type. -->
+  <!-- Other SIP address type. Same context as Other phone type. -->
+  <!-- Part of a description of an repeating event. This part states the date when a repeating
+         event ends. The part before the semi-colon describes how it repeats.
+         e.g. Every 2 weeks; until 1/1/2030 [CHAR LIMIT=21] -->
+  <!-- Part of a description of an repeating event. This part how many times the event repeats.
+         The part before the semi-colon describes how it repeats.
+         e.g. Every 2 weeks; for 15 times [CHAR LIMIT=15] -->
+  <!-- A description for an event that repeats daily. For example, Every 2 days [CHAR LIMIT=15]-->
+  <!-- A label in a multiple-choice list for the specifying that an event
+         repeats every weekday (Monday through Friday) -->
+  <!-- A description for an event that repeats weekly on some day of the week. For example,
+         'Weekly on Tuesday' or Every 2 weeks on Monday, Tuesday.  [CHAR LIMIT=25]-->
+  <!-- The common portion of a string describing how often an event repeats,
+         example: 'Monthly (on day 2)' -->
+  <!-- Calendar spinner item, to select that an event recurs every year. -->
+  <!-- [CHAR LIMIT=NONE] Boot message while upgrading calendar. -->
+  <!-- Temporary Calendar name to use before we have the calendar name from the server -->
+  <!-- Caption on secret calendar info -->
+  <!-- Error message for secret calendar info -->
+  <!-- No calendars message for secret calendar info -->
+  <!-- Event count message for secret calendar info -->
+  <!-- Event and dirty event count message for secret calendar info -->
+  <!-- What to show in messaging that refers to this provider, e.g. AccountSyncSettings -->
+  <!-- Debug tool - dialog - delete file now [CHAR LIMIT=NONE] -->
+  <!-- Debug tool - dialog - start copying [CHAR LIMIT=NONE] -->
+  <!-- Debug tool - Main message shown to the user when starting up the debug tool [CHAR LIMIT=NONE] -->
+  <!-- Debug tool - email subject [CHAR LIMIT=NONE] -->
+  <!-- Debug tool - email subject [CHAR LIMIT=NONE] -->
+  <!-- Debug tool - email body [CHAR LIMIT=NONE] -->
 </resources>
