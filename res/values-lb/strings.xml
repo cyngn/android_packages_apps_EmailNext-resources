@@ -821,46 +821,74 @@
   <!-- Tip for letting user know that their device auto-sync setting
         is turned off, in case they are wondering why they are not
         receiving any new mail. [CHAR LIMIT=250] -->
+  <string name="auto_sync_off">Auto-Sync ass aus.</string>
   <!-- Tap to turn on device auto-sync setting.  [CHAR LIMIT=250] -->
+  <string name="tap_to_enable_sync">Drécke fir unzeschalten.</string>
   <!-- Tip for letting user know that their account level sync setting
         is turned off, in case they are wondering why they are not
         receiving any new mail. [CHAR LIMIT=250] -->
+  <string name="account_sync_off">Kontesynchronisatioun ass aus.</string>
   <!-- Hint text for user to enable sync in Gmail's account settings.
          The whole string should read "Turn on in Account settings.", but because we need
          "Account settings" to appear as blue link text, it's a parameter here.
          [CHAR LIMIT=250] -->
+  <string name="enable_sync_in_account_settings">Uschalten ënner <xliff:g id="account_settings">%1$s</xliff:g>.</string>
   <!-- This is used as a parameter to another string and combined reads
          "Turn on in Account settings." [CHAR LIMIT=250] -->
   <string name="account_settings_param">Kontenastellungen</string>
   <!-- Hint text that there are X number of unsent messages users
     Outbox. [CHAR LIMIT=250] -->
+  <string name="unsent_messages_in_outbox"><xliff:g id="number">%1$s</xliff:g> net verschéckt am Dossier <xliff:g id="outbox">%2$s</xliff:g></string>
   <!-- Title of dialog to turn auto-sync on [CHAR LIMIT=100] -->
+  <string name="turn_auto_sync_on_dialog_title">Automatesch Synchroniséierung uschalten?</string>
   <!-- Text of dialog to turn auto-sync on [CHAR LIMIT=500] -->
+  <string name="turn_auto_sync_on_dialog_body">Ännerungen déi s du bei all Appen a Konten - net just Gmail - méchs, ginn tëscht dem Internet, dengen aneren Apparater an dengem <xliff:g id="phone_or_tablet">%1$s</xliff:g> synchroniséiert.</string>
   <!-- Phone (vs. tablet) for describing this device [CHAR LIMIT=30] -->
+  <string name="phone">Telefon</string>
   <!-- Tablet (vs. phone) for describing this device [CHAR LIMIT=30] -->
+  <string name="tablet">Tablet</string>
   <!-- Confirm button text for dialog to turn auto-sync on [CHAR
          LIMIT=30] -->
+  <string name="turn_auto_sync_on_dialog_confirm_btn">Uschalten</string>
   <!-- Button in conversation list to show more folders [CHAR LIMIT=50] -->
   <!-- Button in conversation list to hide folders [CHAR LIMIT=50] -->
   <!-- Error message that is displayed when the user clicks on a quick contacts badge, but
          there is no contacts application installed that can display the quick contact -->
+  <string name="quick_contacts_not_available">Keng Applikatioun fonnt fir dëse Kontakt unzekucken.</string>
   <!-- Custom phone number type -->
+  <string name="phoneTypeCustom">Personaliséiert</string>
   <!-- Home phone number type -->
+  <string name="phoneTypeHome">Doheem</string>
   <!-- Mobile phone number type -->
+  <string name="phoneTypeMobile">Mobil</string>
   <!-- Work phone number type -->
+  <string name="phoneTypeWork">Aarbecht</string>
   <!-- Work fax phone number type -->
+  <string name="phoneTypeFaxWork">Aarbechtsfax</string>
   <!-- Home fax phone number type -->
+  <string name="phoneTypeFaxHome">Fax doheem</string>
   <!-- Pager phone number type -->
+  <string name="phoneTypePager">Pager</string>
   <!-- Other phone number type -->
+  <string name="phoneTypeOther">Aner</string>
   <!-- Callback phone number type -->
+  <string name="phoneTypeCallback">Réckruff</string>
   <!-- Car phone number type -->
+  <string name="phoneTypeCar">Auto</string>
   <!-- Company main phone number type -->
+  <string name="phoneTypeCompanyMain">Firma</string>
   <!-- ISDN phone number type -->
+  <string name="phoneTypeIsdn">ISDN</string>
   <!-- Main phone number type -->
+  <string name="phoneTypeMain">Haapt</string>
   <!-- Other fax phone number type -->
+  <string name="phoneTypeOtherFax">Anere Fax</string>
   <!-- Radio phone number type -->
+  <string name="phoneTypeRadio">Radio</string>
   <!-- Telex phone number type -->
+  <string name="phoneTypeTelex">Telex</string>
   <!-- TTY TDD phone number type -->
+  <string name="phoneTypeTtyTdd">TTY/TDD</string>
   <!-- Work mobile phone number type -->
   <!-- Work pager phone number type -->
   <!-- Assistant phone number type -->

@@ -27,14 +27,38 @@
   <string name="mailbox_name_display_archive">归档</string>
   <string name="mailbox_name_local_only_display_name"> -本地</string>
   <string name="account_setup_email_address_hint">请输入您的电子邮件地址</string>
+  <string name="account_setup_password_label">输入您的密码</string>
+  <string name="account_setup_discovery_account_name_hint">账户名称</string>
+  <string name="account_setup_username_invalid_chars">不允许使用下列字符：<xliff:g id="chars">%1$s</xliff:g></string>
+  <string name="account_setup_invalid_server_address">服务器地址无效</string>
+  <string name="account_setup_oauth_required_failure"><xliff:g id="account_type">%1$s</xliff:g> 帐户目前不支持两步验证。请登录您的帐户来生成一个应用特定密码。</string>
+  <string name="account_setup_domain_label">域名</string>
+  <string name="account_setup_server_info_heading">服务器信息</string>
   <string name="account_setup_security_heading">安全</string>
+  <string name="account_setup_general_heading">帐户首选项</string>
   <string name="account_setup_authentication_heading">身份验证</string>
+  <string name="account_setup_passcode_title">Exchange 管理员要求您设置一个密码才能同步。</string>
+  <string name="account_setup_passcode_format_restriction_complex">缺少以下中的 <xliff:g id="quantity">%1$d</xliff:g> 种：大写字母、小写字母、数字或特殊符号。</string>
+  <plurals name="account_setup_passcode_length_restriction">
+    <item quantity="other">至少 <xliff:g id="length">%1$d</xliff:g> 个字符长。</item>
+  </plurals>
+  <plurals name="account_setup_passcode_previous_use_restriction">
+    <item quantity="other">不匹配您以前 <xliff:g id="passcodeHistoryLength">%1$d</xliff:g> 个密码中的一个。</item>
+  </plurals>
+  <string name="account_setup_passcode_hint">输入您的密码</string>
+  <string name="account_setup_confirm_passcode_title">确认密码</string>
+  <string name="account_setup_confirm_passcode_subtitle">密码必须匹配</string>
+  <string name="account_setup_confirm_passcode_action_label">确认</string>
+  <string name="account_setup_check_settings_dialog_manual_button">手动</string>
   <!-- Error message shown in dialog body when authenticating an account during setup fails -->
+  <string name="account_setup_failed_dlg_message_fmt"><xliff:g id="error_msg">%1$s</xliff:g>您想要更新您的配置并再试一次，或手动输入设置信息？</string>
   <!-- Dialog title when "setup" could not finish -->
+  <string name="account_setup_failed_dlg_title">无法配置帐户</string>
   <!-- hint for account email password text field -->
   <string name="account_setup_basics_progress_message">正在自动发现</string>
   <!-- In Account setup options screen, Activity title [CHAR LIMIT=45] -->
   <!-- In Account setup options screen, label for email check frequency selector -->
+  <string name="account_setup_options_mail_check_frequency_label">检查收件箱</string>
   <!-- In Account setup options & Account Settings screens, email check frequency option -->
   <string name="account_setup_options_mail_check_frequency_2hour">每 2 个小时</string>
   <!-- In Account setup options & Account Settings screens, email check frequency option -->
@@ -42,8 +66,11 @@
   <!-- In Account setup options & Account Settings screens, email check frequency option -->
   <string name="account_setup_options_mail_check_frequency_1day">每天</string>
   <!-- In Account setup options screen, optional check box to also sync contacts -->
+  <string name="account_setup_options_sync_contacts_label">同步联系人</string>
   <!-- In Account setup options screen, optional check box to also sync calendar -->
+  <string name="account_setup_options_sync_calendar_label">同步日历</string>
   <!-- In Account setup options screen, check box to sync email -->
+  <string name="account_setup_options_sync_email_label">同步邮件</string>
   <!-- On Settings screen, setting option for showing all images -->
   <string name="account_settings_show_all_images_title">图片</string>
   <string name="account_settings_show_all_images_show">总是显示</string>
@@ -66,7 +93,9 @@
   <!-- On Settings screen, shown as an option for label/move preference -->
   <string name="account_settings_label_title">标签</string>
   <!-- The domain can only be changed during initial account setup. [CHAR LIMIT=none] -->
+  <string name="account_setup_domain_uneditable_error">您无法更改帐户的域名。要添加使用其他域名，请触摸“添加帐户”。</string>
   <!-- The email can only be changed during initial account setup. [CHAR LIMIT=none] -->
+  <string name="account_setup_email_uneditable_error">您无法更改帐户的电子邮件。要添加使用其他电子邮件，请触摸“添加帐户”。</string>
   <!-- General preference: Labels for the setting to mark emails as read before archiving them -->
   <string name="general_preference_mark_archive_messages_read">归档为已读</string>
   <string name="general_preference_mark_archive_messages_read_description">在归档邮件之前先标记为已读</string>
@@ -85,6 +114,7 @@
   <!-- Label for signing in with Google using OAuth -->
   <string name="sign_in_with_google">使用 Google 登录</string>
   <!--  On the "Setup up email" screen, label indicating what service we are signed in with [CHAR LIMIT=40] -->
+  <string name="signed_in_with_service_label">已使用 %1$s 登录</string>
   <!-- Label for the authentication section [CHAR LIMIT=20] -->
   <string name="authentication_label">身份验证</string>
   <!-- Label for the add authentication icon [CHAR LIMIT=40] -->
@@ -99,6 +129,7 @@
   <!-- Preference for the compose toolbar -->
   <string name="preference_compose_toolbar_visibility">显示撰写工具栏</string>
   <!-- Preference for conversation threading -->
+  <string name="preference_conversation_threading">会话线程</string>
   <string name="message_send_failed_ticker">发送信息失败</string>
   <string name="message_send_failed_title">信息没有发送</string>
   <string name="preferences_clear_search_history_title">清除搜索记录</string>
@@ -126,22 +157,41 @@
   <!-- Read email screen, button name. Open an attachment. [CHAR LIMIT=10] -->
   <!-- Read email screen, button name. Install an attachment. [CHAR LIMIT=10] -->
   <!-- Photo view screen, button name. Print photo. [CHAR LIMIT=20] -->
+  <string name="menu_photo_print">打印</string>
   <!-- Menu item to view an image  [CHAR LIMIT=50]-->
+  <string name="contextmenu_view_image">查看图片</string>
   <!-- Formatting for the collapsed To header in the MessageHeaderView -->
   <!-- Displayed in undo LeaveBehindItem after reporting a message as spam -->
   <!-- New Message notification text that appears over conversation view on incoming message. [CHAR LIMIT=40] -->
   <!-- New Message notification text that appears over conversation view on incoming messages. Will only be used if there is more than one new message. [CHAR LIMIT=40] -->
   <!-- Button name, displayed in dialogs [CHAR LIMIT=10] -->
+  <string name="edit">编辑</string>
   <!-- Hint for searching/filtering folders in the folder selection dialog [CHAR LIMIT=30] -->
+  <string name="folder_search_hint">搜索</string>
   <!-- The section headers for the move to folder dialog [CHAR LIMIT=15] -->
+  <string-array name="moveto_folder_sections">
+    <item>智能文件夹</item>
+    <item>所有文件夹</item>
+  </string-array>
   <!-- The section headers for the change folders dialog [CHAR LIMIT=15] -->
+  <string-array name="change_folders_sections">
+    <item>智能标签</item>
+    <item>所有标签</item>
+  </string-array>
   <!-- String used in the FolderListFragment to mark the start of "boxes" -->
+  <string name="boxes_heading">复选框</string>
   <!-- String used in the FolderListFragment to mark the start of user-defined folders -->
+  <string name="all_folders_heading">文件夹</string>
   <!-- String used in the FolderListFragment to mark the start of accounts -->
+  <string name="accounts_heading">账户</string>
   <!-- Default email signature on vendor builds -->
+  <string name="vendor_signature">发送自我的 Cyanogen 手机</string>
   <!-- Notification action for deleting a message. [CHAR LIMIT=20] -->
+  <string name="notification_action_mark_read">已读</string>
   <!-- Notification action for replying to a message. [CHAR LIMIT=20] -->
+  <string name="notification_action_reply">回复</string>
   <!-- Notification action for deleting a message. [CHAR LIMIT=20] -->
+  <string name="notification_action_delete">删除</string>
   <!-- Notification message to the user upon new messages for a conversation. [CHAR LIMIT=120] -->
   <!--  Settings screen, Swipe actions preference title -->
   <!--  Settings screen, Swipe actions preference summary -->
@@ -153,23 +203,68 @@
   <!-- Number of messages in a conversation [CHAR LIMIT=30]-->
   <!-- Shown to display the date of the message [CHAR LIMIT=50] -->
   <!-- Shown to display the to recipient(s) of the message if the message is a draft [CHAR LIMIT=20] -->
+  <string name="draft_to_heading">草稿：\u0020</string>
   <!-- Shown to display in the message header if the message is a draft and there are no "to" addresses in the draft [CHAR LIMIT=10] -->
+  <string name="draft_heading">草稿</string>
   <!-- Shown to inform the user that the quoted text for this message has been hidden. [CHAR LIMIT=50] -->
   <!-- Number of attachments in a message [CHAR LIMIT=30]-->
   <!-- Title to display when an email has no subject. [CHAR LIMIT=50]-->
+  <string name="no_subject">（无主题）</string>
+  <string name="action_grid_select_quick_response">选择快速响应</string>
+  <string name="action_grid_todo_dialog_title">详细信息</string>
+  <string name="action_grid_set_due_date">设置到期日期</string>
+  <string name="action_grid_due">到期： <xliff:g id="datestring">%1$s</xliff:g></string>
+  <string name="action_grid_add_priority">添加优先级</string>
+  <string name="action_grid_priority">优先级：\u0020</string>
+  <string name="action_grid_due_date_next_week">下周</string>
+  <string name="action_grid_due_date_specific_date">指定日期</string>
+  <string name="action_grid_priority_dialog_title">添加优先级</string>
+  <string name="action_grid_priority_highest">最高优先级</string>
+  <string name="action_grid_priority_high">高优先级</string>
+  <string name="action_grid_priority_normal">正常优先级</string>
+  <string name="action_grid_priority_low">低优先级</string>
+  <string name="action_grid_priority_lowest">最低优先级</string>
+  <string name="action_grid_assignee_dialog_title">添加代理人</string>
+  <string name="action_grid_assignee_search_for_contact">搜索联系人</string>
+  <string name="action_grid_assignee_button_bar_clear">清空</string>
   <!-- Prompt used if you are trying to delete a message -->
+  <string name="action_message_header_delete">删除此消息吗？</string>
   <!-- These strings below represent the default Actions that are available for the ActionGrid -->
+  <string name="action_like">赞</string>
   <string name="action_todo">待办事项</string>
+  <string name="action_quick">快速</string>
   <string name="action_move">移动</string>
   <string name="action_label">标签</string>
+  <string name="action_move_or_label">移动/标签</string>
   <string name="action_archive">归档</string>
+  <string name="action_delete">删除</string>
+  <string name="action_spam">垃圾邮件</string>
+  <string name="action_flag">旗标</string>
+  <string name="action_star">星标</string>
+  <string name="action_clear_star">清除星标</string>
+  <string name="action_star_or_flag">星标/旗标</string>
+  <string name="action_mark_unread">标记为未读</string>
+  <string name="action_mark_read">标记为已读</string>
+  <string name="action_read_or_unread">已读/未读</string>
+  <string name="action_actions">操作</string>
   <!-- These strings are shown in Toast messages when an Action above is selected -->
+  <string name="custom_mailbox_background_sync_label">后台同步</string>
+  <string name="custom_mailbox_background_sync_switch_on">开</string>
+  <string name="custom_mailbox_background_sync_switch_off">关</string>
   <!-- Title for confirm delete box dialog -->
   <!-- Ratings Viral Prompt -->
+  <string name="promo_code_edittext_hint">输入促销代码</string>
+  <string name="rage_shake_title">检测到摇晃</string>
+  <string name="rage_shake_message">您想要让应用崩溃来提交调试信息吗？</string>
+  <string name="actions_dialog_title">自定义</string>
+  <string name="actions_dialog_negative_button_text">关闭</string>
   <!-- Account Setup -->
   <!-- Like Feature -->
+  <string name="like_action_dialog_tittle">什么是“赞”？</string>
   <!-- Displayed on a button whose action is to create something new. -->
+  <string name="new_button">新建</string>
   <!-- Text hint when creating a new folder from the move/label dialog. -->
+  <string name="folder_name_hint">文件夹名称</string>
   <!-- Progress text when creating a new folder from the move/label dialog. -->
   <!-- Error title used when the user tries to add a folder that matches an existing folder. -->
   <!-- Error message used when the user tries to add a folder that matches an existing folder. -->
@@ -182,23 +277,83 @@
   <!-- Displayed in the middle of the screen when conversations are being loaded [CHAR LIMIT 100]-->
   <!-- Calendar invite hero card -->
   <!-- Link for opening an invite's event in the calendar app. -->
+  <string name="view_on_calendar">在日历中查看</string>
   <!-- Response action buttons. -->
+  <string name="accept">接受</string>
+  <string name="maybe">待定</string>
+  <string name="decline">拒绝</string>
   <!-- Attendee text when user is the only attendee. -->
+  <string name="calendar_attendees_me_only">我</string>
   <!-- Attendee text when there are additional attendees. -->
   <!-- Accompanies the date/time for all day events. -->
   <!-- Status for canceled events. -->
   <!-- Send availability strings -->
+  <string name="availability_by">提供：</string>
+  <string name="event_over">事件结束</string>
+  <string name="busy">忙碌</string>
+  <string name="available">可用</string>
   <!-- String shown in the TO field when it is blank -->
   <!-- Title for enter passcode screen -->
+  <string name="enter_passcode_logo_desc">Boxer 徽标</string>
+  <string name="enter_passcode_status_desc">状态指示器</string>
+  <string name="enter_passcode_success">成功！</string>
+  <string name="enter_passcode_failure">密码错误</string>
+  <string name="enter_passcode_wipe">正在擦除应用数据</string>
   <!-- Start of combined settings strings -->
+  <string name="header_category_mail">邮件</string>
+  <string name="header_category_other">其他</string>
+  <string name="header_default_account_title">默认账号</string>
+  <string name="header_passcode_title">密码</string>
   <!-- In Account Setup options screen, label for email lookback selector -->
   <!-- In Account Settings screen, label for email lookback selector -->
+  <string name="mail_settings_fragment_title">邮件设置</string>
   <!-- The menu item to send logs -->
+  <string name="menu_send_logs">发送日志</string>
   <!-- The menu item to open the about section -->
   <string name="menu_about">关于</string>
+  <string name="version">版本</string>
+  <string name="build">编译</string>
+  <string name="build_date">编译日期</string>
+  <string name="legal">法律</string>
   <!-- Name of the DeviceAdmin (seen in settings & in user confirmation screen) -->
+  <string name="device_admin_label">Boxer</string>
   <!-- Settings passcode strings -->
+  <string name="settings_passcode_change">修改密码</string>
+  <string name="settings_passcode_time_interval">需要密码</string>
   <!-- String array for require passcode in passcode settings -->
+  <string name="settings_require_passcode_1min">1 分钟</string>
+  <string name="settings_require_passcode_2min">2 分钟</string>
+  <string name="settings_require_passcode_3min">3 分钟</string>
+  <string name="settings_require_passcode_4min">4 分钟</string>
+  <string name="settings_require_passcode_5min">5 分钟</string>
+  <string name="settings_require_passcode_10min">10 分钟</string>
+  <string name="settings_require_passcode_15min">15 分钟</string>
+  <string name="settings_require_passcode_30min">30 分钟</string>
+  <string name="settings_require_passcode_1hour">1 小时</string>
+  <string name="settings_require_passcode_1.5hours">1.5 小时</string>
+  <string name="settings_require_passcode_4hours">4 小时</string>
+  <plurals name="settings_require_passcode_minutes">
+    <item quantity="other">分钟</item>
+  </plurals>
+  <plurals name="settings_require_passcode_hours">
+    <item quantity="other">小时</item>
+  </plurals>
   <!-- Permission related string -->
+  <string name="permissions_enable">启用</string>
+  <string name="permissions_storage_title">启用存储访问</string>
   <!-- String shown as a toast when sending a quick response fails due to some unknown error-->
+  <string name="account_setup_selection_title">帐户类型</string>
+  <string name="account_setup_options_title">同步选项</string>
+  <string name="plugin_permission_label">Boxer 插件权限</string>
+  <string name="view">查看</string>
+  <string name="meeting_from">
+    来自：
+    <xliff:g id="From">%s</xliff:g>
+    </string>
+  <string name="meeting_subject">
+    主题：
+    <xliff:g id="Subject">%s</xliff:g>    </string>
+  <string name="meeting_to">
+    至：
+    <xliff:g id="To">%s</xliff:g>    </string>
 </resources>
