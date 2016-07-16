@@ -255,6 +255,7 @@
   <string name="account_setup_failed_dlg_certificate_message">无法安全地连接到服务器。</string>
   <!-- An error message presented to the user when the server's identity
          cannot be established or trusted [CHAR LIMIT=NONE] -->
+  <string name="account_setup_failed_dlg_certificate_message_fmt">无法安全地连接到服务器。\n（<xliff:g id="error">%1$s</xliff:g>）</string>
   <!-- An error message presented to the user when the server requires a
          client certificate to connect [CHAR LIMIT=NONE] -->
   <string name="account_setup_failed_certificate_required">需要客户端证书。要通过客户端证书连接到服务器吗？</string>
@@ -650,6 +651,7 @@
   <!-- Displayed in the conversation view. Status of a failed attachment. [CHAR LIMIT=50]-->
   <!-- Displayed in the conversation view, as a header informing
          the user that the following is the attachments. [CHAR LIMIT=100] -->
+  <string name="attachments_header">附件</string>
   <!-- Photo view screen, button name. Save all attachments to sd card. [CHAR LIMIT=17] -->
   <string name="menu_photo_save_all">全部保存</string>
   <!-- Photo view screen, button name. Share attachment. [CHAR LIMIT=10] -->
@@ -754,11 +756,16 @@
          The message count is shown to the right of this text. [CHAR LIMIT=70] -->
   <!-- Shown to display the from address of the message [CHAR LIMIT=10] -->
   <!-- Shown to display the reply to address of the message [CHAR LIMIT=20] -->
+  <string name="replyto_heading">回复地址：</string>
   <!-- Shown to display the to recipient(s) of the message [CHAR LIMIT=10] -->
+  <string name="to_heading">收件人：</string>
   <!-- Shown to display the cc recipient(s) of the message [CHAR LIMIT=10] -->
+  <string name="cc_heading">抄送：</string>
   <!-- Shown to display the bcc recipient(s) of the message [CHAR LIMIT=10] -->
+  <string name="bcc_heading">密送：</string>
   <!-- Shown to display the recipient(s) of the message [CHAR LIMIT=10] -->
   <!-- Displayed above an HTML message to show the images in that message [CHAR LIMIT=40] -->
+  <string name="show_images">显示图片</string>
   <!-- Displayed above an HTML message to always show images in messages from that sender [CHAR LIMIT=40] -->
   <!-- Shown in a toast to acknowledge always showing images for a sender [CHAR LIMIT=100] -->
   <!-- Display format of an email recipient, displayed in expanded message details [CHAR LIMIT=10] -->
@@ -803,25 +810,35 @@
   <!-- Widget strings -->
   <!-- Displayed when user adds a new widget. Tapping on the widget in this
           mode will bring user to the account selection screen [CHAR LIMIT=35] -->
+  <string name="tap_to_configure">触摸可进行设置</string>
   <!-- Displayed within a widget that was setup for a non-synced folder [CHAR LIMIT=60] -->
   <!-- Displayed within a widget that was setup for a non-synced folder.  This is the text of the
          button that will allow the user to configure sync for the folder [CHAR LIMIT=35] -->
+  <string name="tap_to_configure_folder_sync">同步文件夹</string>
   <!-- Displayed in widget when unread count > 100. [CHAR LIMIT=4] -->
   <string name="widget_large_unread_count">%1$d+</string>
   <!-- Displayed in the actionbar when unread count > 999. [CHAR LIMIT=30] -->
   <!-- Displayed at the end of the conversation list in the widget. Tapping on this will open the default Inbox. [CHAR LIMIT=35] -->
+  <string name="view_more_conversations">查看更多会话</string>
   <!-- Name of the Mailboxes activity [CHAR LIMIT=30] -->
+  <string name="activity_mailbox_selection">选择帐户</string>
   <!-- Name of the Folders activity [CHAR LIMIT=30] -->
+  <string name="activity_folder_selection">选择文件夹</string>
   <!-- Name of the Folder shortcut widget. Should use "Email" to refer to the app. [CHAR LIMIT=30] -->
   <!-- Folder selection dialog -->
   <!-- Title for change folders dialog [CHAR LIMIT=30] -->
+  <string name="change_folders_selection_dialog_title">更改文件夹</string>
   <!-- Title for move to dialog [CHAR LIMIT=30] -->
+  <string name="move_to_selection_dialog_title">移至</string>
   <!-- Search -->
   <!-- Shown in light gray in the Search box when no text has been entered [CHAR LIMIT=20]-->
   <!-- Search Results: Text for status of the search when the results are completely loaded [CHAR LIMIT=10] -->
   <!-- Shown in conversation list footer when application cannot make a connection [CHAR LIMIT=20]-->
+  <string name="network_error">无连接</string>
   <!-- Button at bottom of conversation list screen if last attempt to load conversations failed [CHAR LIMIT=20]-->
+  <string name="retry">重试</string>
   <!-- Button at bottom of conversation list screen if the folder for which contents are being shown supports loading more on demand [CHAR LIMIT=20]-->
+  <string name="load_more">加载更多</string>
   <!-- Text for dummy attachments to load the actual attachment. This is not an ideal string, but it's too late to add a new string and get it translated -->
   <!-- Shortcut strings -->
   <!-- Title for shortcut naming dialog [CHAR LIMIT=100]-->
@@ -833,7 +850,9 @@
   <!-- Displayed at the bottom of the screen during the initial sync. If pressed will sync users mail for the selected account. [CHAR LIMIT=12]  -->
   <string name="manual_sync">立即同步</string>
   <!-- Displayed at the bottom of the screen during the initial sync. If pressed will open sync setting screen for accounts. [CHAR LIMIT=30]  -->
+  <string name="change_sync_settings">更改同步设置</string>
   <!-- Displayed when we could not load a photo in the photo viewer. [CHAR LIMIT=30] -->
+  <string name="photo_load_failed">无法加载图片</string>
   <!--  The move message / change labels action can't be taken because the selected messages
         come from different accounts -->
   <string name="cant_move_or_change_labels">所选内容包含多个帐户的邮件，因此无法进行移动。</string>
@@ -882,14 +901,23 @@
     "Clear picture approvals" [CHAR LIMIT=1000]-->
   <!-- Message shown in toast when the user taps "Restore default for "Show pictures"" in Gmail general preferences. [CHAR LIMIT=50] -->
   <!-- Settings screen, name of the setting that lets the user choose their signature [CHAR LIMIT=50] -->
+  <string name="preferences_signature_title">签名</string>
   <!-- Settings screen, title of the dialog that lets the user configure their signature [CHAR LIMIT=50] -->
+  <string name="preferences_signature_dialog_title">签名</string>
   <!-- Settings screen, setting summary text when no signature set [CHAR LIMIT=100] -->
+  <string name="preferences_signature_summary_not_set">未设置</string>
   <!-- Notification action for replying-all to a message. [CHAR LIMIT=20] -->
+  <string name="notification_action_reply_all">全部回复</string>
   <!-- Notification action for archiving a message. [CHAR LIMIT=20] -->
+  <string name="notification_action_archive">归档</string>
   <!-- Notification action for removing a label from a message. [CHAR LIMIT=20] -->
+  <string name="notification_action_remove_label">删除标签</string>
   <!-- Notification undo text after archiving a message. [CHAR LIMIT=30] -->
+  <string name="notification_action_undo_archive">已归档</string>
   <!-- Notification undo text after removing a label from a message. [CHAR LIMIT=30] -->
+  <string name="notification_action_undo_remove_label">已删除标签</string>
   <!-- Notification undo text after deleting a message. [CHAR LIMIT=30] -->
+  <string name="notification_action_undo_delete">已删除</string>
   <!-- Regex that specifies veiled addresses. These are all empty because this is disabled currently. -->
   <!-- String to be shown instead of a veiled addresses. [CHAR LIMIT=50] -->
   <!-- String to be shown instead of a veiled addresses. [CHAR LIMIT=50] -->
@@ -921,9 +949,11 @@
   <!-- Strings used for accessibility for the items that toggles the drawer action  -->
   <!-- Content description for the folder icon for nested folders. -->
   <!--  Button, "Add account" in the preference screen [CHAR LIMIT=30] -->
+  <string name="add_account">添加帐户</string>
   <!-- Action bar title for viewing messages that are attached to another message. -->
   <!-- Shown to display the date of the message when the message was received yesterday. [CHAR LIMIT=50]  -->
   <!-- Content description for the "X" image icon for dismissing a tip. This is used for spoken description of the icon when touch explore is enabled. [CHAR LIMIT=50] -->
+  <string name="dismiss_tip_hover_text">忽略提示</string>
   <!-- Tip for letting user know that their device auto-sync setting
         is turned off, in case they are wondering why they are not
         receiving any new mail. [CHAR LIMIT=250] -->
@@ -980,13 +1010,21 @@
   <!-- Main phone number type -->
   <string name="phoneTypeMain">主要</string>
   <!-- Other fax phone number type -->
+  <string name="phoneTypeOtherFax">其他传真</string>
   <!-- Radio phone number type -->
+  <string name="phoneTypeRadio">收音机</string>
   <!-- Telex phone number type -->
+  <string name="phoneTypeTelex">电传</string>
   <!-- TTY TDD phone number type -->
+  <string name="phoneTypeTtyTdd">TTY TDD</string>
   <!-- Work mobile phone number type -->
+  <string name="phoneTypeWorkMobile">工作手机</string>
   <!-- Work pager phone number type -->
+  <string name="phoneTypeWorkPager">工作寻呼机</string>
   <!-- Assistant phone number type -->
+  <string name="phoneTypeAssistant">助理</string>
   <!-- MMS phone number type -->
+  <string name="phoneTypeMms">彩信</string>
   <!-- Label for custom events  [CHAR LIMIT=20] -->
   <string name="eventTypeCustom">自定义</string>
   <!-- Label for a birthday event  [CHAR LIMIT=20] -->
@@ -1106,8 +1144,12 @@
   <!-- Event count message for secret calendar info -->
   <!-- Event and dirty event count message for secret calendar info -->
   <!-- What to show in messaging that refers to this provider, e.g. AccountSyncSettings -->
+  <string name="provider_label">日历</string>
+  <string name="contacts_provider_label">联系人</string>
   <!-- Debug tool - dialog - delete file now [CHAR LIMIT=NONE] -->
+  <string name="debug_tool_delete_button">立即删除</string>
   <!-- Debug tool - dialog - start copying [CHAR LIMIT=NONE] -->
+  <string name="debug_tool_start_button">开始</string>
   <!-- Debug tool - Main message shown to the user when starting up the debug tool [CHAR LIMIT=NONE] -->
   <!-- Debug tool - email subject [CHAR LIMIT=NONE] -->
   <!-- Debug tool - email subject [CHAR LIMIT=NONE] -->

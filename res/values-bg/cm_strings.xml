@@ -29,6 +29,8 @@
   <string name="account_setup_email_address_hint">Въведете вашия имейл адрес</string>
   <string name="account_setup_security_heading">Сигурност</string>
   <string name="account_setup_authentication_heading">Удостоверяване</string>
+  <string name="account_setup_confirm_passcode_action_label">Потвърдете</string>
+  <string name="account_setup_check_settings_dialog_manual_button">Ръчно</string>
   <!-- Error message shown in dialog body when authenticating an account during setup fails -->
   <!-- Dialog title when "setup" could not finish -->
   <!-- hint for account email password text field -->
