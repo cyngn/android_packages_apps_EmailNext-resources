@@ -27,14 +27,44 @@
   <string name="mailbox_name_display_archive">Arhiv</string>
   <string name="mailbox_name_local_only_display_name"> - lokalni</string>
   <string name="account_setup_email_address_hint">Vnesite svoj e-poštni naslov</string>
+  <string name="account_setup_password_label">Vnesite geslo</string>
+  <string name="account_setup_discovery_account_name_hint">Ime računa</string>
+  <string name="account_setup_username_invalid_chars">Naslednji znaki niso dovoljeni: <xliff:g id="chars">%1$s</xliff:g></string>
+  <string name="account_setup_invalid_server_address">Vnesen je bil neveljaven naslov strežnika</string>
+  <string name="account_setup_oauth_required_failure">Preverjanje v dveh korakih še ni podprto za račune <xliff:g id="account_type">%1$s</xliff:g>. Prijavite se v svoj račun za ustvarjenje gesla, posebej določenega za aplikacijo.</string>
+  <string name="account_setup_domain_label">Domena</string>
+  <string name="account_setup_server_info_heading">Podatki strežnika</string>
   <string name="account_setup_security_heading">Varnost</string>
+  <string name="account_setup_general_heading">Možnosti računa</string>
   <string name="account_setup_authentication_heading">Overitev</string>
+  <string name="account_setup_passcode_title">Skrbnik Exchange zahteva, da nastavite geslo za sinhronizacijo.</string>
+  <string name="account_setup_passcode_format_restriction_complex">Vključite <xliff:g id="quantity">%1$d</xliff:g> od naslednjega: velike črke, male črke, številke in/ali posebni znaki.</string>
+  <plurals name="account_setup_passcode_length_restriction">
+    <item quantity="one">Dolgo mora biti vsaj 1 znak.</item>
+    <item quantity="two">Dolgo mora biti vsaj <xliff:g id="length">%1$d</xliff:g> znaka.</item>
+    <item quantity="few">Dolgo mora biti vsaj <xliff:g id="length">%1$d</xliff:g> znake.</item>
+    <item quantity="other">Dolgo mora biti vsaj <xliff:g id="length">%1$d</xliff:g> znakov.</item>
+  </plurals>
+  <plurals name="account_setup_passcode_previous_use_restriction">
+    <item quantity="one">Ne sme se ujemati s prejšnjim geslom.</item>
+    <item quantity="two">Ne sme se ujemati z enim od <xliff:g id="passcodeHistoryLength">%1$d-h</xliff:g> prejšnjih gesel.</item>
+    <item quantity="few">Ne sme se ujemati z enim od <xliff:g id="passcodeHistoryLength">%1$d-h</xliff:g> prejšnjih gesel.</item>
+    <item quantity="other">Ne sme se ujemati z enim od <xliff:g id="passcodeHistoryLength">%1$d-h</xliff:g> prejšnjih gesel.</item>
+  </plurals>
+  <string name="account_setup_passcode_hint">Vnesite geslo</string>
+  <string name="account_setup_confirm_passcode_title">Potrdite geslo</string>
+  <string name="account_setup_confirm_passcode_subtitle">Gesli se morata ujemati</string>
+  <string name="account_setup_confirm_passcode_action_label">Potrdi</string>
+  <string name="account_setup_check_settings_dialog_manual_button">Ročno</string>
   <!-- Error message shown in dialog body when authenticating an account during setup fails -->
+  <string name="account_setup_failed_dlg_message_fmt"><xliff:g id="error_msg">%1$s</xliff:g>Ali želite posodobiti nastavitve in poskusiti znova, ali jih ročno vnesti?</string>
   <!-- Dialog title when "setup" could not finish -->
+  <string name="account_setup_failed_dlg_title">Računa ni mogoče nastaviti</string>
   <!-- hint for account email password text field -->
   <string name="account_setup_basics_progress_message">Samodejno odkrivanje se izvaja</string>
   <!-- In Account setup options screen, Activity title [CHAR LIMIT=45] -->
   <!-- In Account setup options screen, label for email check frequency selector -->
+  <string name="account_setup_options_mail_check_frequency_label">Preveri mapo Prejeto</string>
   <!-- In Account setup options & Account Settings screens, email check frequency option -->
   <string name="account_setup_options_mail_check_frequency_2hour">Vsaki 2 uri</string>
   <!-- In Account setup options & Account Settings screens, email check frequency option -->
@@ -42,8 +72,11 @@
   <!-- In Account setup options & Account Settings screens, email check frequency option -->
   <string name="account_setup_options_mail_check_frequency_1day">Vsak dan</string>
   <!-- In Account setup options screen, optional check box to also sync contacts -->
+  <string name="account_setup_options_sync_contacts_label">Sinhroniziraj stike</string>
   <!-- In Account setup options screen, optional check box to also sync calendar -->
+  <string name="account_setup_options_sync_calendar_label">Sinhroniziraj koledar</string>
   <!-- In Account setup options screen, check box to sync email -->
+  <string name="account_setup_options_sync_email_label">Sinhr. e-pošto</string>
   <!-- On Settings screen, setting option for showing all images -->
   <string name="account_settings_show_all_images_title">Slike</string>
   <string name="account_settings_show_all_images_show">Vedno prikaži</string>
@@ -66,7 +99,9 @@
   <!-- On Settings screen, shown as an option for label/move preference -->
   <string name="account_settings_label_title">Označi</string>
   <!-- The domain can only be changed during initial account setup. [CHAR LIMIT=none] -->
+  <string name="account_setup_domain_uneditable_error">Domene računa ni mogoče spreminjati. Če želite dodati račun z drugo domeno, se dotaknite »Dodaj račun«.</string>
   <!-- The email can only be changed during initial account setup. [CHAR LIMIT=none] -->
+  <string name="account_setup_email_uneditable_error">E-pošte računa ni mogoče spreminjati. Če želite dodati račun z drugo e-pošto, se dotaknite »Dodaj račun«.</string>
   <!-- General preference: Labels for the setting to mark emails as read before archiving them -->
   <string name="general_preference_mark_archive_messages_read">Arhiviraj kot prebrano</string>
   <string name="general_preference_mark_archive_messages_read_description">Pred arhiviranjem označi e-pošto kot prebrano</string>
@@ -85,6 +120,7 @@
   <!-- Label for signing in with Google using OAuth -->
   <string name="sign_in_with_google">Vpišite se z računom Google</string>
   <!--  On the "Setup up email" screen, label indicating what service we are signed in with [CHAR LIMIT=40] -->
+  <string name="signed_in_with_service_label">Vpisani s/z %1$s</string>
   <!-- Label for the authentication section [CHAR LIMIT=20] -->
   <string name="authentication_label">Overitev</string>
   <!-- Label for the add authentication icon [CHAR LIMIT=40] -->
@@ -99,6 +135,7 @@
   <!-- Preference for the compose toolbar -->
   <string name="preference_compose_toolbar_visibility">Prikaži orodno vrstico za sestavljanje</string>
   <!-- Preference for conversation threading -->
+  <string name="preference_conversation_threading">Nitenje pogovorov</string>
   <string name="message_send_failed_ticker">Pošiljanje sporočila je spodletelo</string>
   <string name="message_send_failed_title">Sporočilo ni poslano</string>
   <string name="preferences_clear_search_history_title">Počisti zgodovino iskanja</string>
@@ -116,89 +153,404 @@
   <string name="preference_allow_insecure_attachments_title">Dovoli nezanesljive priloge</string>
   <string name="preference_allow_insecure_attachments_summary">Dovoli ogled in shranjevanje nezanesljivih prilog</string>
   <string name="custom_perms_dialog_title">Podvojena dovoljenja</string>
+  <string name="custom_perms_dialog_msg">Druga aplikacija morda poizkuša zbrati vaše osebne podatke.\n\n<xliff:g id="content">%1$s</xliff:g>\n\nZa pomoč navežite stik z Boxerjevo podporo.</string>
+  <plurals name="custom_perms_dialog_app_violation">
+    <item quantity="one"><xliff:g id="app_name">(%1$s)</xliff:g> ponovno določuje dovoljenje: <xliff:g id="permissions_list">%2$s</xliff:g></item>
+    <item quantity="two"><xliff:g id="app_name">(%1$s)</xliff:g> ponovno določuje dovoljenji: <xliff:g id="permissions_list">%2$s</xliff:g></item>
+    <item quantity="few"><xliff:g id="app_name">(%1$s)</xliff:g> ponovno določuje dovoljenja: <xliff:g id="permissions_list">%2$s</xliff:g></item>
+    <item quantity="other"><xliff:g id="app_name">(%1$s)</xliff:g> ponovno določuje dovoljenja: <xliff:g id="permissions_list">%2$s</xliff:g></item>
+  </plurals>
   <string name="custom_perms_pos_btn">Prijavi</string>
   <!-- Label shown in the account selector to select "Combined", which contains
          Combined Inbox, Combined Outbox, etc. [CHAR LIMIT=30] -->
+  <string name="mailbox_list_account_selector_combined_view">Poenotene</string>
   <!-- Menu item: Select all conversations -->
+  <string name="menu_select_all">Izberi vse</string>
+  <string name="menu_actiongrid">Mreža dejanj</string>
   <!-- Main screen and setting, menu item [CHAR LIMIT=30]-->
   <!-- Main screen and setting, menu item [CHAR LIMIT=30]-->
+  <string name="support">Podpora</string>
   <!-- Delete account -->
+  <string name="delete_account_title">Izbriši račun</string>
+  <string name="delete_account_summary">Izbriši ta račun in vse nastavitve ter podatke</string>
+  <string name="delete_account_confirmation_msg">To bo izbrisalo vse nastavitve in e-pošto računa <xliff:g id="account">%1$s</xliff:g>. Tega opravila ni mogoče razveljaviti.\n\nNadaljuj?</string>
+  <string name="deleting_account_msg">Brisanje računa \u2026</string>
+  <string name="delete_account_failed">Računa ni bilo mogoče izbrisati</string>
   <!-- Read email screen, button name. Open an attachment. [CHAR LIMIT=10] -->
   <!-- Read email screen, button name. Install an attachment. [CHAR LIMIT=10] -->
   <!-- Photo view screen, button name. Print photo. [CHAR LIMIT=20] -->
+  <string name="menu_photo_print">Natisni</string>
   <!-- Menu item to view an image  [CHAR LIMIT=50]-->
+  <string name="contextmenu_view_image">Pokaži sliko</string>
   <!-- Formatting for the collapsed To header in the MessageHeaderView -->
+  <plurals name="to_header">
+    <item quantity="one"> in še %1$d drugi</item>
+    <item quantity="two">in še %1$d druga</item>
+    <item quantity="few">in še %1$d-je drugi</item>
+    <item quantity="other">in še %1$d drugih</item>
+  </plurals>
+  <plurals name="conversation_todo">
+    <!-- Displayed while setting one conversation to-do -->
+    <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; označen za storiti.</item>
+    <item quantity="two">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; označena za storiti.</item>
+    <item quantity="few">&lt;b&gt;<xliff:g id="count">%1$d-je</xliff:g>&lt;/b&gt; označeni za storiti.</item>
+    <!-- Displayed while archiving multiple conversations -->
+    <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; označenih za storiti.</item>
+  </plurals>
   <!-- Displayed in undo LeaveBehindItem after reporting a message as spam -->
+  <string name="reported_as_spam">Prijavljeno kot neželeno</string>
   <!-- New Message notification text that appears over conversation view on incoming message. [CHAR LIMIT=40] -->
+  <string name="new_incoming_messages_one">Prikaži novo sporočilo od <xliff:g id="sender">%1$s</xliff:g>.</string>
   <!-- New Message notification text that appears over conversation view on incoming messages. Will only be used if there is more than one new message. [CHAR LIMIT=40] -->
+  <plurals name="new_incoming_messages_many">
+    <item quantity="one">Prikaži <xliff:g id="count">%1$d</xliff:g> novo sporočilo.</item>
+    <item quantity="two">Prikaži <xliff:g id="count">%1$d</xliff:g> nova sporočila.</item>
+    <item quantity="few">Prikaži <xliff:g id="count">%1$d</xliff:g> nova sporočila.</item>
+    <item quantity="other">Prikaži <xliff:g id="count">%1$d</xliff:g> novih sporočil.</item>
+  </plurals>
   <!-- Button name, displayed in dialogs [CHAR LIMIT=10] -->
+  <string name="edit">Uredi</string>
   <!-- Hint for searching/filtering folders in the folder selection dialog [CHAR LIMIT=30] -->
+  <string name="folder_search_hint">Išči</string>
   <!-- The section headers for the move to folder dialog [CHAR LIMIT=15] -->
+  <string-array name="moveto_folder_sections">
+    <item>Pametne mape</item>
+    <item>Vse mape</item>
+  </string-array>
   <!-- The section headers for the change folders dialog [CHAR LIMIT=15] -->
+  <string-array name="change_folders_sections">
+    <item>Pametne oznake</item>
+    <item>Vse oznake</item>
+  </string-array>
   <!-- String used in the FolderListFragment to mark the start of "boxes" -->
+  <string name="boxes_heading">Polja</string>
   <!-- String used in the FolderListFragment to mark the start of user-defined folders -->
+  <string name="all_folders_heading">Mape</string>
   <!-- String used in the FolderListFragment to mark the start of accounts -->
+  <string name="accounts_heading">Računi</string>
   <!-- Default email signature on vendor builds -->
+  <string name="vendor_signature">Poslano iz mojega telefona Cyanogen</string>
+  <string name="vendor_signature_fmt">Poslano iz naprave <xliff:g id="brand" example="samsung">%1$s</xliff:g></string>
+  <string name="blu_signature">Poslano iz mojega telefona BLU - Pošte BLU, ki jo omogoča Boxer</string>
+  <string name="vendor_signature_o2">Poslano iz Cyanogena na O2</string>
   <!-- Notification action for deleting a message. [CHAR LIMIT=20] -->
+  <string name="notification_action_mark_read">PREBRANO</string>
   <!-- Notification action for replying to a message. [CHAR LIMIT=20] -->
+  <string name="notification_action_reply">ODGOVORI</string>
   <!-- Notification action for deleting a message. [CHAR LIMIT=20] -->
+  <string name="notification_action_delete">IZBRIŠI</string>
   <!-- Notification message to the user upon new messages for a conversation. [CHAR LIMIT=120] -->
+  <plurals name="new_messages">
+    <item quantity="one"><xliff:g id="count">%1$d</xliff:g> novo sporočilo</item>
+    <item quantity="two"><xliff:g id="count">%1$d</xliff:g> nova sporočila</item>
+    <item quantity="few"><xliff:g id="count">%1$d</xliff:g> nova sporočila</item>
+    <item quantity="other"><xliff:g id="count">%1$d</xliff:g> novih sporočil</item>
+  </plurals>
   <!--  Settings screen, Swipe actions preference title -->
+  <string name="preferences_swipe_actions_title">Dejanja potegov</string>
   <!--  Settings screen, Swipe actions preference summary -->
+  <string name="preferences_swipe_actions_summary">Prilagodite dejanji levega in desnega potega</string>
   <!--  Settings screen, Swipe actions, Left short preference title -->
+  <string name="preferences_swipe_left_short_title">Levi kratki poteg</string>
   <!--  Settings screen, Swipe actions, Left long preference title -->
+  <string name="preferences_swipe_left_long_title">Levi dolgi poteg</string>
   <!--  Settings screen, Swipe actions, Right short preference title -->
+  <string name="preferences_swipe_right_short_title">Desni kratki poteg</string>
   <!--  Settings screen, Swipe actions, Right long preference title -->
+  <string name="preferences_swipe_right_long_title">Desni dolgi poteg</string>
   <!-- Menu item text to that when clicked will allow a user to print an email conversation. [CHAR LIMIT=25] -->
+  <string name="print">Natisni</string>
   <!-- Number of messages in a conversation [CHAR LIMIT=30]-->
+  <plurals name="num_messages">
+    <item quantity="one"><xliff:g id="count">%1$d</xliff:g> sporočilo</item>
+    <item quantity="two"><xliff:g id="count">%1$d</xliff:g> sporočili</item>
+    <item quantity="few"><xliff:g id="count">%1$d</xliff:g> sporočila</item>
+    <item quantity="other"><xliff:g id="count">%1$d</xliff:g> sporočil</item>
+  </plurals>
   <!-- Shown to display the date of the message [CHAR LIMIT=50] -->
+  <string name="date_message_received_print"><xliff:g id="day_and_date">%1$s</xliff:g> ob <xliff:g id="time">%2$s</xliff:g></string>
   <!-- Shown to display the to recipient(s) of the message if the message is a draft [CHAR LIMIT=20] -->
+  <string name="draft_to_heading">Osnutek za:\u0020</string>
   <!-- Shown to display in the message header if the message is a draft and there are no "to" addresses in the draft [CHAR LIMIT=10] -->
+  <string name="draft_heading">Osnutek</string>
   <!-- Shown to inform the user that the quoted text for this message has been hidden. [CHAR LIMIT=50] -->
+  <string name="quoted_text_hidden_print">Navedeno besedilo skrito</string>
   <!-- Number of attachments in a message [CHAR LIMIT=30]-->
+  <plurals name="num_attachments">
+    <item quantity="one"><xliff:g id="count">%1$d</xliff:g> priloga</item>
+    <item quantity="two"><xliff:g id="count">%1$d</xliff:g> prilogi</item>
+    <item quantity="few"><xliff:g id="count">%1$d</xliff:g> priloge</item>
+    <item quantity="other"><xliff:g id="count">%1$d</xliff:g> prilog</item>
+  </plurals>
   <!-- Title to display when an email has no subject. [CHAR LIMIT=50]-->
+  <string name="no_subject">(brez zadeve)</string>
+  <string name="action_grid_select_quick_response">Izberite hiter odziv</string>
+  <string name="action_grid_todo_dialog_title">Podrobnosti</string>
+  <string name="action_grid_set_due_date">Nast. datum zapadlosti</string>
+  <string name="action_grid_due">Zapade: <xliff:g id="datestring">%1$s</xliff:g></string>
+  <string name="action_grid_add_priority">Dodaj prednost</string>
+  <string name="action_grid_priority">Prednost:\u0020</string>
+  <string name="action_grid_add_assignee">Dodaj pooblaščenca</string>
+  <string name="action_grid_assignee">Pooblaščenec:\u0020</string>
+  <string name="action_grid_due_date_dialog_title">Nast. datum zapadlosti</string>
+  <string name="action_grid_due_date_today">Danes</string>
+  <string name="action_grid_due_date_tomorrow">Jutri</string>
+  <string name="action_grid_due_date_this_week">Ta teden</string>
+  <string name="action_grid_due_date_next_week">Naslednji teden</string>
+  <string name="action_grid_due_date_specific_date">Določen datum</string>
+  <string name="action_grid_priority_dialog_title">Dodaj prednost</string>
+  <string name="action_grid_priority_highest">Najvišja prednost</string>
+  <string name="action_grid_priority_high">Visoka prednost</string>
+  <string name="action_grid_priority_normal">Običajna prednost</string>
+  <string name="action_grid_priority_low">Nizka prednost</string>
+  <string name="action_grid_priority_lowest">Najnižja prednost</string>
+  <string name="action_grid_assignee_dialog_title">Dodaj pooblaščenca</string>
+  <string name="action_grid_assignee_search_for_contact">Poišči stik</string>
+  <string name="action_grid_assignee_button_bar_clear">Počisti</string>
   <!-- Prompt used if you are trying to delete a message -->
+  <string name="action_message_header_delete">Izbriši to sporočilo?</string>
   <!-- These strings below represent the default Actions that are available for the ActionGrid -->
+  <string name="action_like">Všeč mi je</string>
   <string name="action_todo">Za storiti</string>
+  <string name="action_quick">Hitro</string>
   <string name="action_move">Premakni</string>
   <string name="action_label">Označi</string>
+  <string name="action_move_or_label">Premakni/Označi</string>
   <string name="action_archive">Arhiv</string>
+  <string name="action_delete">Izbriši</string>
+  <string name="action_spam">Neželeno</string>
+  <string name="action_flag">Označi z zastavico</string>
+  <string name="action_star">Označi z zvezdico</string>
+  <string name="action_clear_star">Počisti zvezdico</string>
+  <string name="action_star_or_flag">Označi z zvezdico/zastavico</string>
+  <string name="action_mark_unread">Označi kot neprebrano</string>
+  <string name="action_mark_read">Označi kot prebrano</string>
+  <string name="action_read_or_unread">Označi kot prebrano/neprebrano</string>
+  <string name="action_actions">Dejanja</string>
   <!-- These strings are shown in Toast messages when an Action above is selected -->
+  <plurals name="quick_response_sent">
+    <!-- Quick respond to 1 conversation -->
+    <item quantity="one">Odziv poslan</item>
+    <item quantity="two">Odziva poslana</item>
+    <item quantity="few">Odzivi poslani</item>
+    <!-- Quick respond to several conversations -->
+    <item quantity="other">Odzivi poslani</item>
+  </plurals>
+  <plurals name="liked_message">
+    <!-- Like 1 conversation -->
+    <item quantity="one">Sporočilo označeno z \'Všeč mi je\'</item>
+    <item quantity="two">Sporočili označeni z \'Všeč mi je\'</item>
+    <item quantity="few">Sporočila označena z \'Všeč mi je\'</item>
+    <!-- Like several conversations -->
+    <item quantity="other">Sporočila označena z \'Všeč mi je\'</item>
+  </plurals>
+  <string name="invalid_selection">Neveljavna izbira</string>
+  <string name="file_action_more_than_one_account">Izbrali ste pogovore za več kot en račun. Poskusite izbrati samo pogovore iz enega računa.</string>
+  <string name="action_more_than_one_conversation">Funkcionalnost Evernote podpira samo en pogovor naenkrat. Poskusite izbrati samo en pogovor.</string>
+  <string name="not_installed">Ni nameščeno</string>
+  <string name="evernote_not_installed">Videti je, da je Evernote ni nameščen. Namestite ga za uporabo te funkcionalnosti.</string>
+  <string name="custom_mailbox_button">Dodaj polje po meri</string>
+  <string name="custom_mailbox_settings_label">Nastavitve</string>
+  <string name="custom_mailbox_folder_name_hint">Ime polja po meri</string>
+  <string name="custom_mailbox_background_sync_label">Sinhronizacija v ozadju</string>
+  <string name="custom_mailbox_background_sync_switch_on">Vkl.</string>
+  <string name="custom_mailbox_background_sync_switch_off">Izk.</string>
+  <string name="custom_mailbox_delete_box">Izbriši polje</string>
+  <string name="custom_mailbox_error_no_selected_folders">Iz spodnjega seznama izberite vsaj eno mapo</string>
   <!-- Title for confirm delete box dialog -->
+  <string name="custom_mailbox_delete_box_dialog_title">Opozorilo</string>
+  <string name="custom_mailbox_delete_box_dialog_message">Ali res želite izbrisati to polje po meri?</string>
+  <string name="custom_mailbox_error_deleting_box">Pri brisanju nabiralnika po meri se je pojavila napaka</string>
   <!-- Ratings Viral Prompt -->
+  <string name="viral_prompt_rate_app_title">Oceni to aplikacijo</string>
+  <string name="viral_prompt_rate_app_body">Če vam je ta aplikacija všeč, si vzemite trenutek, da jo ocenite. Ne bo trajalo več kot minuto. Hvala za vašo podporo!</string>
+  <string name="viral_ratings_prompt_rate_now">Oceni zdaj</string>
+  <string name="promo_code_edittext_hint">Vnesite promocijsko kodo</string>
+  <string name="promo_code_button_text">Pošlji</string>
+  <string name="promo_code_error_no_code_entered">Pred pošiljanjem vnesite promocijsko kodo</string>
+  <string name="promo_code_error_invalid_code">Neveljavna promocijska koda</string>
+  <string name="promo_code_progress_dialog_validating">Preverjanje veljavnosti promocijske kode</string>
+  <string name="rage_shake_title">Zaznano tresenje</string>
+  <string name="rage_shake_message">Ali bi radi sesuli aplikacijo, da pošljete podatke o hrošču?</string>
+  <string name="actions_dialog_title">Prilagodi</string>
+  <string name="actions_dialog_message">Ali redno uporabljate mape? Sporočila pogosto označujete kot neželena? Vam je všeč pošiljanje odrezkov na Evernote?\n\nS prilagojenimi dejanji potegov lahko te poteze nastavite, da ustrezajo vašemu poteku dela.\n</string>
+  <string name="actions_dialog_positive_button_text">Prilagodi potege</string>
+  <string name="actions_dialog_negative_button_text">Zapri</string>
   <!-- Account Setup -->
+  <string name="account_setup_start_company_slogan_text">Dobrodošli v boljšo mapo Prejeto.</string>
+  <string name="account_setup_vendor_heading">Dobrodošli v e-pošto</string>
   <!-- Like Feature -->
+  <string name="like_action_dialog_tittle">Kaj je \'Všeč mi je\'?</string>
+  <string name="like_action_dialog_message">Našli ste našo priljubljeno značilnost. Ko sporočilo označite z \'Všeč mi je\', bo pošiljatelju in drugim prejemnikom poslana e-pošta, da vam je všeč. To je doslej najhitrejši način, da odgovorite na e-pošto.</string>
   <!-- Displayed on a button whose action is to create something new. -->
+  <string name="new_button">Novo</string>
   <!-- Text hint when creating a new folder from the move/label dialog. -->
+  <string name="folder_name_hint">Ime mape</string>
   <!-- Progress text when creating a new folder from the move/label dialog. -->
+  <string name="create_folder_progess">Ustvarjanje mape \u2026</string>
   <!-- Error title used when the user tries to add a folder that matches an existing folder. -->
+  <string name="duplicate_folder_title">Podvojeno ime</string>
   <!-- Error message used when the user tries to add a folder that matches an existing folder. -->
+  <string name="duplicate_folder_message">Ime mape, ki ste ga vnesli, že obstaja.</string>
   <!-- Title used for generic error alerts. -->
+  <string name="error">Napaka</string>
   <!-- Error message displayed when a folder fails to be created on the server. -->
+  <string name="error_creating_folder_message">Mape ni mogoče ustvariti.</string>
   <!-- Menu item: report an email was not readable or poorly rendered -->
   <string name="report_rendering_problem">Prijavi</string>
   <!-- Toast message for above action -->
+  <string name="message_reported">Sporočilo prijavljeno</string>
   <!-- Conversation list shared between the Activity and Widget -->
   <!-- Displayed in the middle of the screen when conversations are being loaded [CHAR LIMIT 100]-->
+  <string name="no_conversation_needs_sync">Tu ni pošte.\nPovlecite z vrha, da osvežite</string>
+  <string name="getting_messages">Pridobivanje vaših sporočil</string>
+  <string name="empty_folder">Tu ni pošte.</string>
+  <string name="empty_inbox">Končali ste! Uživajte v svojem dnevu.</string>
+  <string name="empty_search">Ups! Za <xliff:g id="search_query">%1$s</xliff:g> nismo našli ničesar.</string>
+  <string name="empty_spam_folder">Hura, tu ni neželene pošte!</string>
+  <string name="empty_trash_folder">Tu ni smeti. Hvala, ker ste reciklirali!</string>
   <!-- Calendar invite hero card -->
   <!-- Link for opening an invite's event in the calendar app. -->
+  <string name="view_on_calendar">Pokaži v koledarju</string>
   <!-- Response action buttons. -->
+  <string name="accept">Sprejmi</string>
+  <string name="maybe">Morda</string>
+  <string name="decline">Odkloni</string>
+  <string name="remove_from_cal">Odstrani iz koledarja</string>
+  <string name="remove_series_from_cal">Odstrani niz iz koledarja</string>
   <!-- Attendee text when user is the only attendee. -->
+  <string name="calendar_attendees_me_only">Jaz</string>
   <!-- Attendee text when there are additional attendees. -->
+  <plurals name="calendar_attendees">
+    <item quantity="one">Jaz in še %1$d drugi</item>
+    <item quantity="two">Jaz in še %1$d druga</item>
+    <item quantity="few">Jaz in še %1$d-je drugi</item>
+    <item quantity="other">Jaz in še %1$d drugih</item>
+  </plurals>
   <!-- Accompanies the date/time for all day events. -->
+  <string name="all_day">Ves dan</string>
   <!-- Status for canceled events. -->
+  <string name="canceled">Preklicano</string>
   <!-- Send availability strings -->
+  <string name="times_that_work_for_me">Termini, na katere sem prost:</string>
+  <string name="availability_by">Razpoložljivost po</string>
+  <string name="remove_availability">Odstrani razpoložljivost</string>
+  <string name="event_over">Dogodek končan</string>
+  <string name="busy">Zaseden</string>
+  <string name="available">Na voljo</string>
+  <plurals name="other_conflicts">
+    <item quantity="one">%1$d drug spor</item>
+    <item quantity="two">%1$d druga spora</item>
+    <item quantity="few">%1$d-je drugi spori</item>
+    <item quantity="other">%1$d drugih sporov</item>
+  </plurals>
+  <string name="meeting_invitation">Povzetek povabila:</string>
+  <string name="invitation_by">Povabilo od</string>
+  <string name="remove_invite">Odstrani povabilo</string>
+  <string name="action_liked_message_cm"><xliff:g id="display_name" example="John Doe">%s</xliff:g> je bilo vaše sporočilo z &lt;a href=\"%s\"&gt;Boxerjem na OS-u Cyanogen&lt;/a&gt; všeč.</string>
+  <string name="error_no_app_store">Primerne trgovine aplikacij ni bilo najdene</string>
   <!-- String shown in the TO field when it is blank -->
+  <string name="undisclosed_recipients">Nerazkriti prejemniki</string>
+  <string name="previous_action">Prejšnje</string>
   <!-- Title for enter passcode screen -->
+  <string name="enter_passcode_title">Vnesite geslo</string>
+  <string name="enter_passcode_logo_desc">Logotip Boxer</string>
+  <string name="enter_passcode_status_desc">Kazalnik stanja</string>
+  <string name="enter_passcode_hint">Vnesite geslo</string>
+  <string name="enter_passcode_go">Pojdi</string>
+  <string name="enter_passcode_success">Uspeh!</string>
+  <string name="enter_passcode_failure">Nepravilno geslo</string>
+  <string name="enter_passcode_failure_with_max">%1$d od %2$d-ih spodletelih poskusov</string>
+  <string name="enter_passcode_last_chance">Preostal je še 1 poskus.\nČe spodleti, bo vsa e-pošta izbrisana iz naprave.</string>
+  <string name="enter_passcode_wipe">Brisanje podatkov aplikacije</string>
   <!-- Start of combined settings strings -->
+  <string name="header_category_mail">Pošta</string>
+  <string name="header_category_other">Drugo</string>
+  <string name="header_default_account_title">Privzeti račun</string>
+  <string name="header_local_calendars_title">Lokalni koledarji</string>
+  <string name="header_mail_settings_title">Več nastavitev pošte</string>
+  <string name="header_calendar_settings_title">Več nastavitev koledarja</string>
+  <string name="header_passcode_title">Geslo</string>
   <!-- In Account Setup options screen, label for email lookback selector -->
+  <string name="account_setup_options_mail_window_label">Pošta sinhronizirana za</string>
   <!-- In Account Settings screen, label for email lookback selector -->
+  <string name="account_settings_options_mail_window_label">Dnevi za sinhronizacijo</string>
+  <string name="account_settings_sync_calendar_summary">Sinhroniziraj dogodke koledarja za ta račun</string>
+  <string name="default_account_fragment_title">Privzeti račun</string>
+  <string name="mail_settings_fragment_title">Nastavitve pošte</string>
   <!-- The menu item to send logs -->
+  <string name="menu_send_logs">Pošlji dnevnike</string>
   <!-- The menu item to open the about section -->
   <string name="menu_about">O programu</string>
+  <string name="version">Različica</string>
+  <string name="build">Izgradnja</string>
+  <string name="build_date">Datum izgradnje</string>
+  <string name="legal">Pravni podatki</string>
+  <string name="open_source">Odprtokodne licence</string>
+  <string name="privacy_policy">Pravilnik o zasebnosti AirWatcha</string>
   <!-- Name of the DeviceAdmin (seen in settings & in user confirmation screen) -->
+  <string name="device_admin_label">Boxer</string>
   <!-- Settings passcode strings -->
+  <string name="settings_passcode_on">Vklopi geslo</string>
+  <string name="settings_passcode_off">Izklopi geslo</string>
+  <string name="settings_passcode_change">Spremeni geslo</string>
+  <string name="settings_passcode_time_interval">Zahtevaj geslo</string>
   <!-- String array for require passcode in passcode settings -->
+  <string name="settings_require_passcode_1min">1 min.</string>
+  <string name="settings_require_passcode_2min">2 min.</string>
+  <string name="settings_require_passcode_3min">3 min.</string>
+  <string name="settings_require_passcode_4min">4 min.</string>
+  <string name="settings_require_passcode_5min">5 min.</string>
+  <string name="settings_require_passcode_10min">10 min.</string>
+  <string name="settings_require_passcode_15min">15 min.</string>
+  <string name="settings_require_passcode_30min">30 min.</string>
+  <string name="settings_require_passcode_1hour">1 ura</string>
+  <string name="settings_require_passcode_1.5hours">1,5 ure</string>
+  <string name="settings_require_passcode_4hours">4 ure</string>
+  <plurals name="settings_require_passcode_minutes">
+    <item quantity="one">minuta</item>
+    <item quantity="two">minuti</item>
+    <item quantity="few">minute</item>
+    <item quantity="other">minut</item>
+  </plurals>
+  <plurals name="settings_require_passcode_hours">
+    <item quantity="one">ura</item>
+    <item quantity="two">uri</item>
+    <item quantity="few">ure</item>
+    <item quantity="other">ur</item>
+  </plurals>
   <!-- Permission related string -->
+  <string name="permissions_enable">Omogoči</string>
+  <string name="permissions_call_title">Omogočanje dostopa do telefona</string>
+  <string name="permissions_call_message">Za klicanje morate Boxerju omogočiti dostop do telefona.</string>
+  <string name="permissions_storage_title">Omogočanje dostopa do pomnilniške naprave</string>
+  <string name="permissions_storage_message">Za shranjevanje prilog morate Boxerju omogočiti dostop do pomnilniške naprave.</string>
+  <string name="permissions_calendar_title">Omogočanje dostopa do koledarja</string>
+  <string name="permissions_calendar_message">Boxer nima dostop da izvirnih dogodkov koledarja.</string>
+  <string name="permissions_do_not_show_again">Ne prikazuj več</string>
   <!-- String shown as a toast when sending a quick response fails due to some unknown error-->
+  <string name="emailing_guests_failed">Pošiljanje pošte gostom je spodletelo</string>
+  <string name="account_setup_selection_title">Vrsta računa</string>
+  <string name="account_setup_discovery_title">Podrobnosti računa</string>
+  <string name="account_setup_options_title">Možnosti sinhronizacije</string>
+  <string name="plugin_permission_label">Dovoljenje za vstavek Boxer</string>
+  <string name="plugin_permission_description">Aplikacija naloži vstavke Boxer, da ponudi dodatne značilnosti. Vstavke mora Boxer podpisati, da se lahko naložijo.</string>
+  <string name="view">Pokaži</string>
+  <string name="original_appointment">----Izvirni domenek----</string>
+  <string name="meeting_from">
+        Od:
+        <xliff:g id="From">%s</xliff:g>
+    </string>
+  <string name="meeting_subject">
+        Zadeva:
+        <xliff:g id="Subject">%s</xliff:g>
+    </string>
+  <string name="meeting_to">
+        Za:
+        <xliff:g id="To">%s</xliff:g>
+    </string>
+  <string name="email_attendees">Pošlji pošto udeležencem</string>
+  <string name="forward_event">Posreduj dogodek</string>
+  <string name="email_organizer">Pošlji pošto organizatorju</string>
+  <string name="email_everyone">Pošlji pošto vsem</string>
 </resources>

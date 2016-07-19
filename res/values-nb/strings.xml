@@ -300,6 +300,7 @@
          provisioning, just before jumping into system settings such as Device Policy grant,
          PIN/password, or encryption setup.  [CHAR LIMIT=none] -->
   <!-- Notification ticker when device security required (note: unused in Holo XL) -->
+  <string name="security_unsupported_ticker_fmt">Kontoen <xliff:g id="account">%1$s</xliff:g> kan ikke synkroniseres på grunn av sikkerhetskrav.</string>
   <!-- Notification ticker when device security required (note: unused in Holo XL) -->
   <!-- Notification ticker when device security required (note: unused in Holo XL) -->
   <!-- Notification content title when device security required [CHAR_LIMIT=30] -->

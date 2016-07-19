@@ -102,9 +102,21 @@
   <!-- Notification title when email account authentication fails [CHAR LIMIT=30]-->
   <string name="login_failed_title">无法登录</string>
   <!-- Size unit for bytes for attachments [CHAR LIMIT=10] -->
+  <plurals name="message_view_attachment_bytes">
+    <item quantity="other"><xliff:g id="size_in_bytes" example="279">%1$d</xliff:g>B</item>
+  </plurals>
   <!-- Size unit for kilo bytes for attachments [CHAR LIMIT=10] -->
+  <plurals name="message_view_attachment_kilobytes">
+    <item quantity="other"><xliff:g id="size_in_kilobytes" example="279">%1$d</xliff:g>KB</item>
+  </plurals>
   <!-- Size unit for mega bytes for attachments [CHAR LIMIT=10] -->
+  <plurals name="message_view_attachment_megabytes">
+    <item quantity="other"><xliff:g id="size_in_megabytes" example="279">%1$d</xliff:g>MB</item>
+  </plurals>
   <!-- Size unit for giga bytes for attachments [CHAR LIMIT=10] -->
+  <plurals name="message_view_attachment_gigabytes">
+    <item quantity="other"><xliff:g id="size_in_gigabytes" example="279">%1$d</xliff:g>GB</item>
+  </plurals>
   <!-- Title of screen when setting up new email account [CHAR LIMIT=45] -->
   <string name="account_setup_basics_title">帐户设置</string>
   <!-- Headline of screen when setting up new email account (large text over divider)
@@ -121,6 +133,7 @@
   <string name="account_duplicate_dlg_title">帐户重复</string>
   <!-- Message of dialog shown when a duplicate account is created.  The display name of
          the duplicate account is displayed. -->
+  <string name="account_duplicate_dlg_message_fmt">帐户“<xliff:g id="duplicate">%1$s</xliff:g>”已经使用了此用户名。</string>
   <!-- String that is displayed as error text for passwords with leading or trailing
          spaces.  [CHAR LIMIT=none] -->
   <string name="account_password_spaces_error">该密码的开头或结尾存在一个或多个空格。很多服务器不支持带空格的密码。</string>
@@ -267,6 +280,7 @@
   <!-- "Setup could not finish" dialog text; e.g., Cannot connect to server -->
   <string name="account_setup_failed_dlg_server_message">无法连接到服务器。</string>
   <!-- "Setup could not finish" dialog text; e.g., Cannot connect to server\n(Connection timed out) -->
+  <string name="account_setup_failed_dlg_server_message_fmt">无法连接到服务器。\n（<xliff:g id="error">%1$s</xliff:g>）</string>
   <!-- Additional diagnostic text when TLS was required but the server doesn't support it -->
   <string name="account_setup_failed_tls_required">需要 TLS，但服务器不支持 TLS。</string>
   <!-- Additional diagnostic text when server does not support any of our authentication methods -->
@@ -287,8 +301,10 @@
   <!-- Additional diagnostic text when validation requires security provisioning (e.g. support
          for device lock PIN, or remote wipe.) and we ask the user permission before continuing.
          [CHAR LIMIT=none] -->
+  <string name="account_setup_security_policies_required_fmt"> <xliff:g id="server">%1$s</xliff:g> 服务器要求您允许其远程控制您 Android 设备的某些安全功能。您想要完成此帐户设置吗？</string>
   <!-- Additional diagnostic text when validation failed due to required provisioning not
          being supported [CHAR LIMIT=none] -->
+  <string name="account_setup_failed_security_policies_unsupported">您的 Android 设备不支持此服务器要求使用的安全功能，其中包括：<xliff:g id="error">%1$s</xliff:g></string>
   <!-- The user name can only be changed during initial account setup. [CHAR LIMIT=none] -->
   <string name="account_setup_username_uneditable_error">您无法更改帐户的用户名。要添加使用其他用户名的帐户，请触摸“添加帐户”。</string>
   <!-- Warning given to users when they request disabling device administration (i.e. that their
@@ -301,8 +317,11 @@
   <!-- Additional diagnostic text when the account requires some amount of device security
          provisioning, just before jumping into system settings such as Device Policy grant,
          PIN/password, or encryption setup.  [CHAR LIMIT=none] -->
+  <string name="account_security_dialog_content_fmt"><xliff:g id="account">%1$s</xliff:g> 要求更新您的安全设置。</string>
   <!-- Notification ticker when device security required (note: unused in Holo XL) -->
+  <string name="security_unsupported_ticker_fmt">帐户“<xliff:g id="account">%1$s</xliff:g>”由于安全要求而无法同步。</string>
   <!-- Notification ticker when device security required (note: unused in Holo XL) -->
+  <string name="security_needed_ticker_fmt">帐户“<xliff:g id="account">%1$s</xliff:g>”需要更新安全设置。</string>
   <!-- Notification ticker when device security required (note: unused in Holo XL) -->
   <!-- Notification content title when device security required [CHAR_LIMIT=30] -->
   <string name="security_notification_content_update_title">需要进行安全更新</string>
@@ -313,9 +332,11 @@
   <string name="account_security_title">设备安全性</string>
   <!-- Additional diagnostic text when the email app asserts control of the phone.
         [CHAR LIMIT=none] -->
+  <string name="account_security_policy_explanation_fmt"><xliff:g id="server">%1$s</xliff:g>服务器要求您允许其远程控制您 Android 设备的某些安全功能。</string>
   <!-- "Setup could not finish" dialog action button -->
   <string name="account_setup_failed_dlg_edit_details_action">编辑详情</string>
   <!-- Notification ticker when device password is getting ready to expire [CHAR_LIMIT=80] -->
+  <string name="password_expire_warning_ticker_fmt">“<xliff:g id="account">%1$s</xliff:g>”要求更改锁定屏幕 PIN 或密码。</string>
   <!-- Notification content title when device password is getting ready to expire
             [CHAR_LIMIT=30] -->
   <string name="password_expire_warning_content_title">锁定屏幕密码即将过期</string>
@@ -326,9 +347,11 @@
   <!-- Dialog title if device pin/password is going to expire soon. [CHAR_LIMIT=40] -->
   <string name="password_expire_warning_dialog_title">锁定屏幕密码即将过期</string>
   <!-- Dialog content device pin/password is going to expire soon. [CHAR_LIMIT=none] -->
+  <string name="password_expire_warning_dialog_content_fmt">您需要尽快更改锁定屏幕 PIN 或密码，否则系统将会清除 <xliff:g id="account">%1$s</xliff:g> 的数据。要立即更改吗？</string>
   <!-- Dialog title if device pin/password has already expired. [CHAR_LIMIT=40] -->
   <string name="password_expired_dialog_title">锁定屏幕密码已过期</string>
   <!-- Dialog content device pin/password has already expired. [CHAR_LIMIT=none] -->
+  <string name="password_expired_dialog_content_fmt"><xliff:g id="account">%1$s</xliff:g> 的数据已从设备中清除。您可以通过更改锁定屏幕 PIN 或密码来还原这些数据。要立即更改吗？</string>
   <!-- On AccountSettingsXL, dialog text if you try to exit in/out/eas fragment (server settings)
          without checking/saving [CHAR LIMIT=none]-->
   <string name="account_settings_exit_server_settings">要舍弃未保存的更改？</string>
@@ -337,8 +360,10 @@
   <string name="account_settings_login_dialog_title">无法登录</string>
   <!-- Dialog content if you were brought here due to a login failure.
         [CHAR_LIMIT=none] -->
+  <string name="account_settings_login_dialog_content_fmt"><xliff:g id="account">%1$s</xliff:g> 的用户名或密码不正确。要立即更新吗？</string>
   <!-- Dialog content if you were brought here due to a login failure, and the server provided a reason
         [CHAR_LIMIT=none] -->
+  <string name="account_settings_login_dialog_reason_fmt">无法登录 <xliff:g id="account">%1$s</xliff:g>；服务器提示：<xliff:g id="reason">%2$s</xliff:g>。您要更新自己的用户名和/或密码吗？</string>
   <!-- On Settings screen, setting option name -->
   <!-- Title of account preference for downloading attachments in background [CHAR LIMIT=32] -->
   <string name="account_settings_background_attachments_label">下载附件</string>
@@ -410,6 +435,7 @@
   <!-- Mailbox settings activity title [CHAR LIMIT=none] -->
   <string name="mailbox_settings_activity_title">同步选项</string>
   <!-- Mailbox settings activity title, with the target folder name [CHAR LIMIT=none] -->
+  <string name="mailbox_settings_activity_title_with_mailbox">同步选项（<xliff:g id="mailboxx_name" example="Family">%1$s</xliff:g>）</string>
   <!-- On mailbox settings screen: Whether to sync this mailbox when the account syncs. -->
   <string name="mailbox_settings_sync_enabled_label">同步此文件夹</string>
   <!-- On mailbox settings screen: Explanatory text for what it means to "sync this folder". -->
@@ -508,7 +534,9 @@
   <string name="pop3_name">POP3</string>
   <string name="folder_picker_title">选择文件夹</string>
   <!-- Displayed when the user must pick his server's trash folder from a list [CHAR LIMIT 30]-->
+  <string name="trash_folder_selection_title">选择 <xliff:g id="account">%1$s</xliff:g> 在服务器上的已删除邮件文件夹</string>
   <!-- Displayed when the user must pick his server's sent items folder from a list [CHAR LIMIT 30]-->
+  <string name="sent_folder_selection_title">选择 <xliff:g id="account">%1$s</xliff:g>在服务器上的已发邮件文件夹</string>
   <string name="account_waiting_for_folders_msg">正在加载文件夹列表&#8230;</string>
   <!-- Feedback uri to be used when feedback is enabled -->
   <!-- Names of packages and authorities that are common to all apps
@@ -528,16 +556,21 @@
   <!-- Shown in Compose; the subject of the message [CHAR LIMIT=100] -->
   <string name="body_hint">邮件内容</string>
   <!--  Compose screen button. Add an attachment to this message [CHAR LIMIT=20] -->
+  <string name="add_file_attachment">添加附件</string>
   <!--  Compose screen button. Add a photo attachment to this message [CHAR LIMIT=20] -->
+  <string name="add_photo_attachment">附加图片</string>
   <!-- Button name: save this message as draft [CHAR LIMIT=25]-->
+  <string name="save_draft">保存草稿</string>
   <!--  Button name: discard this message [CHAR LIMIT=15] -->
+  <string name="discard">舍弃</string>
   <!-- The possible ways to reply to a message [CHAR LIMIT=15] -->
+  <string name="compose">写邮件</string>
   <!-- The possible ways to reply to a message [CHAR LIMIT=15] -->
   <string-array name="compose_modes">
     <!-- Reply -->
-    <item>Reply</item>
+    <item>回复</item>
     <!-- Reply all -->
-    <item>Reply all</item>
+    <item>全部回复</item>
     <!-- Forward -->
     <item>前进</item>
   </string-array>
@@ -545,22 +578,35 @@
   <!-- Compose screen, prefixed to the subject of a message when replying to it (if not already present). Do not translate. -->
   <!-- Compose screen, Prefix to forwarded message subject. Do not translate. -->
   <!-- Compose screen, displayed at the top of a message being replied to. Please preserve the HTML entities (surrounded by & and ;).  The two %s strings will be replaced by 1) the date 2) the person who wrote the email being responded to. [CHAR LIMIT=1000]-->
+  <string name="reply_attribution"><xliff:g id="person">%2$s</xliff:g> 于 <xliff:g id="date">%1$s</xliff:g> 写道：</string>
   <!-- Compose screen, displayed at the top of a message being forwarded. Please preserve the HTML entities (surrounded by & and ;). [CHAR LIMIT=1000] -->
+  <string name="forward_attribution">---------- 转发的邮件 ----------&lt;br&gt;发件人：<xliff:g id="from">%1$s</xliff:g>&lt;br&gt;日期：<xliff:g id="date">%2$s</xliff:g>&lt;br&gt;主题：<xliff:g id="subject">%3$s</xliff:g>&lt;br&gt;收件人：<xliff:g id="to">%4$s</xliff:g>&lt;br&gt;</string>
   <!-- Compose screen, displayed at the top of a message being forwarded. [CHAR LIMIT=100]-->
+  <string name="forward_attribution_no_headers">---------- 转发的邮件 ----------</string>
   <!-- Compose screen, displayed at the top of a message being forwarded if there are any email addresses in the CC list. Please preserve the HTML entities (surrounded by & and ;). [CHAR LIMIT=1000]-->
   <string name="cc_attribution">抄送：<xliff:g id="cc">%1$s</xliff:g>&lt;br&gt;</string>
   <!-- Dialog text: select the type of an attachment while composing [CHAR LIMIT=100]-->
   <string name="select_attachment_type">选择附件类型</string>
   <!-- Toast, attachment too large for single file [CHAR LIMIT=100] -->
+  <string name="too_large_to_attach_single">不能附加大小超过 <xliff:g id="maxSize">%1$s</xliff:g> 的文件。</string>
   <!-- Toast, attachment too large for multiple files [CHAR LIMIT=100] -->
+  <string name="too_large_to_attach_multiple">未能附加一个或多个文件。上限为 <xliff:g id="maxSize">%1$s</xliff:g>。</string>
   <!-- Toast, attachment too large when existing attachments exist [CHAR LIMIT=100] -->
+  <string name="too_large_to_attach_additional">未能附加文件。已达到上限 <xliff:g id="maxSize">%1$s</xliff:g> 。</string>
   <!-- Toast, problem attaching file [CHAR LIMIT=100] -->
+  <string name="generic_attachment_problem">无法附加文件。</string>
   <!-- Displayed for one second after trying to send with no recipients in To field [CHAR LIMIT=200]-->
+  <string name="recipient_needed">请至少添加一位收件人。</string>
   <!-- Title for recipient error dialog [CHAR LIMIT=200]-->
   <!-- Title for send confirmation dialog [CHAR LIMIT=200]-->
   <!-- Messages for send confirmation dialog [CHAR LIMIT=100]-->
+  <string name="confirm_send_message_with_no_subject">邮件主题中没有文字。</string>
+  <string name="confirm_send_message_with_no_body">邮件正文中没有文字。</string>
+  <string name="confirm_send_message">要发送此邮件吗？</string>
   <!-- Displayed for one second after discarding draft message [CHAR LIMIT=50]-->
+  <string name="message_discarded">邮件已舍弃。</string>
   <!--  Shown in the from dropdown in front of custom from addresses. [CHAR LIMIT=15] -->
+  <string name="custom_from_account_label">用以下地址发送邮件：</string>
   <!-- Menu item: send this message -->
   <string name="send">发送</string>
   <!-- Menu item: mark this conversation as read -->
@@ -576,6 +622,7 @@
   <!-- Menu item: archive this conversation -->
   <string name="archive">归档</string>
   <!-- Menu item: report this conversation as spam [CHAR LIMIT = 30] -->
+  <string name="report_spam">举报垃圾邮件</string>
   <!-- Menu item: report this conversation not as spam [CHAR LIMIT = 30] -->
   <!-- Menu item: report this conversation as phishing [CHAR LIMIT = 30] -->
   <!-- Menu item: delete this conversation -->
@@ -591,9 +638,12 @@
   <!-- Menu item: resume a draft message [CHAR LIMIT=12] -->
   <string name="resume_draft">编辑</string>
   <!-- Menu item: forward this message -->
+  <string name="forward">转发</string>
   <!-- Menu item: compose a new email -->
   <!-- Menu item: change the folders for this conversation. -->
+  <string name="menu_change_folders">更改文件夹</string>
   <!-- Menu item: moves to folders for selected conversation(s). [CHAR LIMIT = 30] -->
+  <string name="menu_move_to">移至</string>
   <!-- Menu item: moves current or selected conversation(s) to Inbox. [CHAR LIMIT = 30] -->
   <!-- Menu item: manages the folders for this account. [CHAR LIMIT = 30] -->
   <!-- Menu item text to show the original version of an email conversation, before message manipulation [CHAR LIMIT=25] -->
@@ -601,8 +651,11 @@
   <!-- Menu item: launch the Settings activity -->
   <string name="menu_settings">设置</string>
   <!-- Menu item: search through the Gmail inbox -->
+  <string name="menu_search">搜索</string>
   <!--  Menu item: shown in conversation menu. Tap this to move to mark conversation as important [CHAR LIMIT=30] -->
+  <string name="mark_important">标记为重要</string>
   <!--  Menu item: shown in conversation menu. Tap this to move to mark conversation as not important [CHAR LIMIT=30] -->
+  <string name="mark_not_important">标记为不重要</string>
   <!-- Compose screen, menu item: add Cc/Bcc fields -->
   <string name="add_cc_label">添加抄送/密送地址</string>
   <!-- Compose screen, menu item: add Bcc field [CHAR_LIMIT=20]-->
@@ -626,15 +679,21 @@
   <!-- Attachment description for image files [CHAR LIMIT=30] -->
   <string name="attachment_image">图片</string>
   <!-- Attachment description for video files [CHAR LIMIT=30] -->
+  <string name="attachment_video">视频</string>
   <!-- Attachment description for audio files [CHAR LIMIT=30] -->
   <string name="attachment_audio">音频</string>
   <!-- Attachment description for text files [CHAR LIMIT=30] -->
+  <string name="attachment_text">文本</string>
   <!-- Attachment description for .doc files [CHAR LIMIT=30] -->
+  <string name="attachment_application_msword">文档</string>
   <!-- Attachment description for .ppt files [CHAR LIMIT=30] -->
+  <string name="attachment_application_vnd_ms_powerpoint">演示文稿</string>
   <!-- Attachment description for excel files [CHAR LIMIT=30] -->
+  <string name="attachment_application_vnd_ms_excel">电子表格</string>
   <!-- Attachment description for .pdf files [CHAR LIMIT=30] -->
   <string name="attachment_application_pdf">PDF</string>
   <!-- Attachment description for unknown files [CHAR LIMIT=30]-->
+  <string name="attachment_unknown"><xliff:g id="attachmentExtension">%1$s</xliff:g> 文件</string>
   <!-- Read email screen, button name. Preview an attachment by Gview. [CHAR LIMIT=18] -->
   <string name="preview_attachment">预览</string>
   <!-- Read email screen, button name. Save an attachment to sd card. [CHAR LIMIT=10] -->
@@ -645,10 +704,14 @@
   <!-- Dialog box title [CHAR LIMIT=30] -->
   <string name="more_info_attachment">信息</string>
   <!-- Dialog box message, displayed when we could not view an attachment. [CHAR LIMIT=200]-->
+  <string name="no_application_found">无应用可打开此附件，因此无法查看。</string>
   <!-- Dialog box title. [CHAR LIMIT=30] -->
+  <string name="fetching_attachment">正在提取附件</string>
   <!-- Dialog box message. [CHAR LIMIT=80] -->
   <!-- Displayed in the conversation view, next to a file's size and type. Status of a saved attachment. [CHAR LIMIT=20]-->
+  <string name="saved">已保存，<xliff:g id="size">%1$s</xliff:g></string>
   <!-- Displayed in the conversation view. Status of a failed attachment. [CHAR LIMIT=50]-->
+  <string name="download_failed">无法下载。请触摸以重试。</string>
   <!-- Displayed in the conversation view, as a header informing
          the user that the following is the attachments. [CHAR LIMIT=100] -->
   <string name="attachments_header">附件</string>
@@ -693,13 +756,19 @@
     <item quantity="other">移动 <xliff:g>%1$d</xliff:g> 个会话</item>
   </plurals>
   <!-- Formatting string for the content description field of a conversation list item when device is in accessibility mode. [CHAR LIMIT=250] -->
+  <string name="content_description">发送者：<xliff:g id="sender">%1$s</xliff:g>；主题：<xliff:g id="sybject">%2$s</xliff:g>；摘要：<xliff:g id="snippet">%3$s</xliff:g>；日期：<xliff:g id="date">%4$s</xliff:g>；阅读状态：<xliff:g id="redstate">%5$s</xliff:g></string>
   <!-- Formatting string for the content description field of a conversation list item when device is in accessibility mode and the message was received today. [CHAR LIMI=250] -->
+  <string name="content_description_today">发送者：<xliff:g id="sender">%1$s</xliff:g>；主题：<xliff:g id="subject">%2$s</xliff:g>；摘要：<xliff:g id="snippet">%3$s</xliff:g>；时间：<xliff:g id="time">%4$s</xliff:g>；阅读状态：<xliff:g id="redstate">%5$s</xliff:g></string>
   <!-- String used in content description field of a conversation list item when device is in accessibility mode and the conversation was read [CHAR LIMIT=250] -->
+  <string name="read_string">已读会话</string>
   <!-- String used in content description field of a conversation list item when device is in accessibility mode and the conversation was not read [CHAR LIMIT=250] -->
+  <string name="unread_string">未读会话</string>
   <!-- Formatting string. If the subject contains the tag of a mailing-list (text surrounded with
     return the subject with that tag ellipsized, e.g. "[android-gmail-team] Hello" -> "[andr...] Hello" [CHAR LIMIT=100] -->
+  <string name="filtered_tag"> [<xliff:g id="tag">%1$s</xliff:g>] <xliff:g id="subject">%2$s</xliff:g></string>
   <!-- Displayed in Conversation Header View and Widget in the form of "subject - snippet"
          [CHAR LIMIT=5] -->
+  <string name="subject_and_snippet"><xliff:g>%1$s</xliff:g> \u2014 <xliff:g>%2$s</xliff:g></string>
   <!-- Displayed in browse list item when the list item is a draft message instead of showing the subject [CHAR LIMIT=100] -->
   <plurals name="draft">
     <!-- Title of the screen when there is exactly one draft -->
@@ -709,6 +778,7 @@
   <!-- Message displayed in a browse list item for one second when message is being sent [CHAR LIMIT=20]-->
   <string name="sending">正在发送...</string>
   <!-- Message displayed in a browse list item for one second after a send failed [CHAR LIMIT=26]-->
+  <string name="send_failed">邮件发送失败。</string>
   <!-- String used to represent "me" when used as an object pronoun. This string is used when
          showing the list of recipients of a message [CHAR LIMIT=15] -->
   <string name="me_object_pronun">我</string>
@@ -720,6 +790,16 @@
     <!-- Dialog message to confirm deletion of one conversation -->
     <!-- Dialog message to confirm deletion of several conversations -->
     <item quantity="other">要删除这 <xliff:g id="count">%1$d</xliff:g> 个会话吗？</item>
+  </plurals>
+  <plurals name="confirm_archive_conversation">
+    <!-- Dialog message to confirm archival of one conversation -->
+    <!-- Dialog message to confirm archival of several conversations -->
+    <item quantity="other">要将这 <xliff:g id="count">%1$d</xliff:g> 个会话归档吗？</item>
+  </plurals>
+  <plurals name="confirm_discard_drafts_conversation">
+    <!-- Dialog message to confirm discarding drafts from one conversation [CHAR LIMIT=50] -->
+    <!-- Dialog message to confirm discarding drafts from several conversations [CHAR LIMIT=50] -->
+    <item quantity="other">要舍弃这 <xliff:g id="count">%1$d</xliff:g> 个会话中的草稿吗？</item>
   </plurals>
   <!-- Dialog text: confirm discard -->
   <string name="confirm_discard_text">要舍弃此邮件吗？</string>
@@ -733,27 +813,78 @@
     <item quantity="other">正在取消 <xliff:g id="count">%1$d</xliff:g> 个会话的星标。</item>
   </plurals>
   <!-- The following are shown as a toast after the operation has completed -->
+  <plurals name="conversation_muted">
+    <!-- Displayed while muting one conversation -->
+    <!-- Displayed while muting several conversations -->
+    <item quantity="other">已忽略 &lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; 个会话。</item>
+  </plurals>
+  <plurals name="conversation_spammed">
+    <!-- Displayed while reporting one conversation as spam -->
+    <!-- Displayed while reporting several conversations as spam -->
+    <item quantity="other">已将 &lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; 个会话举报为垃圾邮件。</item>
+  </plurals>
+  <plurals name="conversation_not_spam">
+    <!-- Displayed while reporting one conversation as not spam -->
+    <!-- Displayed while reporting several conversations as not spam -->
+    <item quantity="other">已将 &lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; 个会话报告为非垃圾邮件。</item>
+  </plurals>
+  <plurals name="conversation_not_important">
+    <!-- Displayed while reporting one conversation as not important in the important folder -->
+    <!-- Displayed while reporting several conversations as not important in the important folder -->
+    <item quantity="other">已将 &lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; 个会话标记为不重要。</item>
+  </plurals>
+  <plurals name="conversation_phished">
+    <!-- Displayed while reporting one conversation as phishing -->
+    <!-- Displayed while reporting several conversations as phishing -->
+    <item quantity="other">已将 &lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; 个会话报告为网上诱骗。</item>
+  </plurals>
+  <plurals name="conversation_archived">
+    <!-- Displayed while archiving one conversation -->
+    <!-- Displayed while archiving multiple conversations -->
+    <item quantity="other">已将 &lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; 个会话归档。</item>
+  </plurals>
+  <plurals name="conversation_deleted">
+    <!-- Displayed while deleting one conversation -->
+    <!-- Displayed while deleting multiple conversations -->
+    <item quantity="other">已删除 &lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; 个会话。</item>
+  </plurals>
   <!-- Displayed when swiping away a single conversation to delete it [CHAR LIMIT=80] -->
   <string name="deleted">已删除</string>
   <!-- Displayed when swiping away a single conversation to archive it [CHAR LIMIT=80] -->
   <string name="archived">已归档</string>
   <!-- Displayed when swiping away a single conversation to remove the currently displayed folder [CHAR LIMIT=80] -->
+  <string name="folder_removed">已从 <xliff:g id="folderName">%1$s</xliff:g> 中删除</string>
+  <plurals name="conversation_folder_changed">
+    <!-- Displayed while adding and removing folders to a single conversation. [CHAR LIMIT=100] -->
+    <!-- Displayed while adding and removing folders to multiple conversations. [CHAR LIMIT=100] -->
+    <item quantity="other">已更改文件夹。</item>
+  </plurals>
   <!-- Displayed after moving a conversation to a different folder. [CHAR LIMIT=100] -->
+  <string name="conversation_folder_moved">已移至“<xliff:g id="folderName">%1$s</xliff:g>”</string>
   <!-- Search Results: Text for header that is shown above search results [CHAR LIMIT=30] -->
   <string name="search_results_header">结果</string>
   <!-- Toast shown when the user taps the search hard key when viewing an account that does not support search [CHAR LIMIT=100] -->
+  <string name="search_unsupported">此帐户不支持搜索。</string>
   <!-- Search Results: Text for header that is shown above search results, while waiting for search results from the server [CHAR LIMIT=30] -->
   <string name="search_results_searching_header">正在搜索...</string>
   <!-- Conversation view -->
   <!--  Text anchor for control to add / change labels on a conversation when
           viewing it. [CHAR LIMIT=40] -->
+  <string name="add_label">添加文件夹</string>
   <!-- Conversation message header strings -->
   <!--  Icon name for expanding recipient details in a message when viewing it. [CHAR LIMIT=40] -->
+  <string name="expand_recipient_details">展开收件人详细信息</string>
   <!--  Icon name for collapsing recipient details in a message when viewing it. [CHAR LIMIT=40] -->
+  <string name="collapse_recipient_details">折叠收件人详细信息</string>
   <!--  Icon name for showing sender contact information. [CHAR LIMIT=100] -->
+  <string name="contact_info_string">显示<xliff:g id="name">%1$s</xliff:g>的联系人信息</string>
   <!--  Icon name for showing sender contact information when we cannot get sender info. [CHAR LIMIT=100] -->
+  <string name="contact_info_string_default">显示联系人信息</string>
   <!-- Shown in collapsed mode when a conversation has more than one read message.
          The message count is shown to the right of this text. [CHAR LIMIT=70] -->
+  <plurals name="show_messages_read">
+    <item quantity="other"><xliff:g id="count">%1$d</xliff:g> 封较早的邮件</item>
+  </plurals>
   <!-- Shown to display the from address of the message [CHAR LIMIT=10] -->
   <!-- Shown to display the reply to address of the message [CHAR LIMIT=20] -->
   <string name="replyto_heading">回复地址：</string>
@@ -767,14 +898,23 @@
   <!-- Displayed above an HTML message to show the images in that message [CHAR LIMIT=40] -->
   <string name="show_images">显示图片</string>
   <!-- Displayed above an HTML message to always show images in messages from that sender [CHAR LIMIT=40] -->
+  <string name="always_show_images">总是显示来自此发件人的图片</string>
   <!-- Shown in a toast to acknowledge always showing images for a sender [CHAR LIMIT=100] -->
+  <string name="always_show_images_toast">来自该发件人的图片将会自动显示。</string>
   <!-- Display format of an email recipient, displayed in expanded message details [CHAR LIMIT=10] -->
+  <string name="address_display_format"><xliff:g id="name">%1$s</xliff:g> <xliff:g id="email">%2$s</xliff:g></string>
   <!-- Display format of an email sender if the message has a via domain set, displayed in expanded message details [CHAR LIMIT=15] -->
+  <string name="address_display_format_with_via_domain"><xliff:g id="name">%1$s</xliff:g> <xliff:g id="email">%2$s</xliff:g> 来自 <xliff:g id="via_domain">%3$s</xliff:g></string>
   <!-- Displayed for one second after user saves message as draft [CHAR LIMIT=50]-->
+  <string name="message_saved">邮件已另存为草稿。</string>
   <!-- Displayed for one second while message is being sent [CHAR LIMIT=50]-->
+  <string name="sending_message">正在发送邮件...</string>
   <!-- Displayed for one second after trying to send with invalid recipients [CHAR LIMIT=50]-->
+  <string name="invalid_recipient">地址 <xliff:g id="wrongemail" example="foo@@gmail..com">%1$s</xliff:g> 无效。</string>
   <!-- Shown in HTML to allow the user to see quoted text; should match Gmail web UI. 25B6 is Unicode for a right-pointing triangle. [CHAR LIMIT=50] -->
+  <string name="show_elided">\u25B6 显示引用文字</string>
   <!-- Shown in HTML to allow the user to hide quoted text; should match Gmail web UI. 25BC is Unicode for a downward-pointing triangle. [CHAR LIMIT=50] -->
+  <string name="hide_elided">\u25BC 隐藏引用文字</string>
   <!-- Shown as a heading in message view when a message contains a calendar invite [CHAR LIMIT=30]-->
   <string name="message_invite_title">日历邀请</string>
   <!-- Shown as a button label in message view to launch calendar to see this invite [CHAR LIMIT=40]-->
@@ -812,12 +952,18 @@
           mode will bring user to the account selection screen [CHAR LIMIT=35] -->
   <string name="tap_to_configure">触摸可进行设置</string>
   <!-- Displayed within a widget that was setup for a non-synced folder [CHAR LIMIT=60] -->
+  <string name="non_synced_folder_description">要查看会话，请同步此文件夹。</string>
   <!-- Displayed within a widget that was setup for a non-synced folder.  This is the text of the
          button that will allow the user to configure sync for the folder [CHAR LIMIT=35] -->
   <string name="tap_to_configure_folder_sync">同步文件夹</string>
   <!-- Displayed in widget when unread count > 100. [CHAR LIMIT=4] -->
   <string name="widget_large_unread_count">%1$d+</string>
+  <plurals name="actionbar_unread_messages">
+    <!-- String for the actionbar subtitle when messages are unread [CHAR LIMIT=30] -->
+    <item quantity="other"><xliff:g id="count">%1$d</xliff:g> 封未读邮件</item>
+  </plurals>
   <!-- Displayed in the actionbar when unread count > 999. [CHAR LIMIT=30] -->
+  <string name="actionbar_large_unread_count">超过 <xliff:g id="count">%1$d</xliff:g> 封未读邮件</string>
   <!-- Displayed at the end of the conversation list in the widget. Tapping on this will open the default Inbox. [CHAR LIMIT=35] -->
   <string name="view_more_conversations">查看更多会话</string>
   <!-- Name of the Mailboxes activity [CHAR LIMIT=30] -->
@@ -842,11 +988,15 @@
   <!-- Text for dummy attachments to load the actual attachment. This is not an ideal string, but it's too late to add a new string and get it translated -->
   <!-- Shortcut strings -->
   <!-- Title for shortcut naming dialog [CHAR LIMIT=100]-->
+  <string name="shortcut_name_title">为文件夹快捷方式命名</string>
   <!-- Wait fragment strings -->
   <!-- Displayed in title bar during the initial sync  [CHAR LIMIT=40] -->
+  <string name="wait_for_sync_title">正在等待同步</string>
   <!-- Displayed in the middle of the screen during the initial sync [CHAR LIMIT=40] -->
   <!-- Title for the screen displayed during the initial sync [CHAR LIMIT=100]  -->
+  <string name="not_synced_title">帐户未同步</string>
   <!-- Displayed in the middle of the screen during the initial sync [CHAR LIMIT=300]-->
+  <string name="wait_for_manual_sync_body">此帐户未设置为自动同步。您可以\n触摸\"<b>"立即同步"</b>\"同步邮件一次，或者触摸\"<b>"更改同步设置"</b>\"，将此帐户设置为自动同步邮件。</string>
   <!-- Displayed at the bottom of the screen during the initial sync. If pressed will sync users mail for the selected account. [CHAR LIMIT=12]  -->
   <string name="manual_sync">立即同步</string>
   <!-- Displayed at the bottom of the screen during the initial sync. If pressed will open sync setting screen for accounts. [CHAR LIMIT=30]  -->
@@ -859,8 +1009,10 @@
   <!-- Format string used when displaying a summary in a message summary in list notification that was triggered by several new conversations.
          Extra space between sender and subject is intentional.  [CHAR LIMIT=120] -->
   <!-- Format string used when displaying the big text of a notification that was triggered by a single new conversation. [CHAR LIMIT=120] -->
+  <string name="single_new_message_notification_big_text"><xliff:g id="subject">%1$s</xliff:g>\n<xliff:g id="snippet">%2$s</xliff:g></string>
   <!-- Displayed in a message subheading. Ignore the current spam warning. [CHAR LIMIT=30] -->
   <!-- Displayed in the message heading. Shown if the message was sent via another domain. [CHAR LIMIT=10] -->
+  <string name="via_domain">来自 <xliff:g id="viaDomain">%1$s</xliff:g></string>
   <!-- Button text for the button to click to have the user sign in again. [CHAR LIMIT=20]-->
   <string name="signin">登录</string>
   <!-- Button text for the button to click for more information. [CHAR LIMIT=20]-->
@@ -869,6 +1021,7 @@
   <!-- Dialog title when a sync error occurs. [CHAR LIMIT=50]-->
   <string name="sync_error">无法同步。</string>
   <!-- Dialog title when a sync error occurs. [CHAR LIMIT=100]-->
+  <string name="sync_error_message">您的设备存储空间不足，无法同步。</string>
   <!-- Button text for the button to click to go to the manage storage settings screen. [CHAR LIMIT=20]-->
   <string name="storage">存储</string>
   <!-- Token used as a divider between senders -->
@@ -882,12 +1035,23 @@
   <!-- General preference: Label of the setting for the direction to move to
          when deleting the current message.
          Options contain "newer message","older message", etc. [CHAR LIMIT=32] -->
+  <string name="auto_advance_label">自动跳转</string>
   <!-- General preference: Description of the setting for the direction to move to
          when deleting the current message.
          Options contain "newer message","older message", etc. [CHAR LIMIT=64] -->
+  <string name="auto_advance_summary">选择删除邮件后显示的屏幕</string>
   <!-- Title of the dialog that appears the first time they perform an action that would cause
          auto advance logic to fire [CHAR LIMIT=70] -->
+  <string name="auto_advance_help_title">自动跳转偏好设置\n（在您执行删除等操作后）</string>
   <!-- The auto-advance modes -->
+  <string-array name="prefEntries_autoAdvance">
+    <!-- Newer conversation -->
+    <item>后一个会话</item>
+    <!-- Older conversation -->
+    <item>前一个会话</item>
+    <!-- Conversation list -->
+    <item>会话列表</item>
+  </string-array>
   <!-- Description for each auto-advance option to display after the user has picked one -->
   <!-- The entries here must correspond to the entries in prefEntries_autoAdvance [CHAR LIMIT=60] -->
   <!-- TODO: these pref keys that are never user visible should probably be
@@ -895,11 +1059,15 @@
   <!-- The default auto-advance mode -->
   <!-- The auto-advance mode values -->
   <!-- Settings screen, title of "Restore default for "Show pictures"" [CHAR LIMIT=1000]-->
+  <string name="clear_display_images_whitelist_title">清除“显示图片”设置</string>
   <!-- Settings screen, title of dialog shown to confirm action when user taps
     "Clear picture approvals" in preferences [CHAR LIMIT=200]-->
+  <string name="clear_display_images_whitelist_dialog_title">是否要清除“显示图片”设置？</string>
   <!-- Settings screen, message of dialog shown to confirm action when tapping
     "Clear picture approvals" [CHAR LIMIT=1000]-->
+  <string name="clear_display_images_whitelist_dialog_message">对于您之前允许显示其邮件内嵌图片的发件人，停止显示其邮件内的图片。</string>
   <!-- Message shown in toast when the user taps "Restore default for "Show pictures"" in Gmail general preferences. [CHAR LIMIT=50] -->
+  <string name="sender_whitelist_cleared">图片将不会自动显示。</string>
   <!-- Settings screen, name of the setting that lets the user choose their signature [CHAR LIMIT=50] -->
   <string name="preferences_signature_title">签名</string>
   <!-- Settings screen, title of the dialog that lets the user configure their signature [CHAR LIMIT=50] -->
@@ -923,55 +1091,81 @@
   <!-- String to be shown instead of a veiled addresses. [CHAR LIMIT=50] -->
   <!-- Summary string to be shown instead of a veiled recipient. [CHAR LIMIT=50] -->
   <!-- Notification ticker text for per-label notification [CHAR LIMIT=30]-->
+  <string name="label_notification_ticker">"<xliff:g id="label">%1$s</xliff:g>：<xliff:g id="notification">%2$s</xliff:g>"</string>
   <!-- Format string used when displaying the title of a notification that was triggered by a single new conversation. [CHAR LIMIT=120] -->
+  <string name="single_new_message_notification_title"><xliff:g id="sender">%1$s</xliff:g>：<xliff:g id="subject">%2$s</xliff:g></string>
   <!-- Settings screen, what to display for Ringtone when the user chooses "silent" [CHAR LIMIT=100]-->
+  <string name="silent_ringtone">静音</string>
   <!-- Settings screen, preference name for archive vs. delete [CHAR LIMIT=50] -->
   <!-- Options to select from for whether to have archive or delete as the remove action [CHAR LIMIT=50] -->
   <!-- Description of currently selected option of whether to use archive or delete as remove action [CHAR LIMIT=200] -->
   <!-- Dialog title for the choosing whether to use archive or delete as remove action [CHAR LIMIT=150] -->
   <!-- The default value -->
   <!--  Settings screen, Reply to all default setting title  [CHAR LIMIT=30] -->
+  <string name="preferences_default_reply_all_title">全部回复</string>
   <!--  Settings screen, Reply to all default setting summary [CHAR LIMIT=70] -->
+  <string name="preferences_default_reply_all_summary">用作默认的邮件回复方式</string>
   <!-- Preference name for swipe action when action is archive [CHAR LIMIT=100]-->
   <!-- Preference name for swipe action when action is delete [CHAR LIMIT=100]-->
   <!-- Preference description swiping in conversation list option [CHAR LIMIT=100] -->
   <!-- In conversation list, when user initiates a downward swipe,
         this text is displayed in the action bar as a hint that they can trigger a
         sync/refresh by continuing the downward swipe. [CHAR LIMIT=60] -->
+  <string name="swipe_down_to_refresh">下拉即可刷新</string>
   <!-- In conversation list, when user has triggered a sync via a downward swipe,
         this text is displayed in the action bar for a brief moment to
     indicate that a sync is in progress.  [CHAR LIMIT=60] -->
+  <string name="checking_for_mail">正在检查邮件</string>
   <!-- Conversation list screen overflow menu in trash folder [CHAR LIMIT=50]  -->
+  <string name="empty_trash">清空回收站</string>
   <!-- Conversation list screen overflow menu in spam folder [CHAR LIMIT=50]  -->
+  <string name="empty_spam">清空垃圾邮件</string>
   <!-- Dialog title for empty trash confirmation dialog [CHAR LIMIT=100] -->
+  <string name="empty_trash_dialog_title">要清空回收站吗？</string>
   <!-- Dialog title for empty spam confirmation dialog [CHAR LIMIT=100] -->
+  <string name="empty_spam_dialog_title">要清空垃圾邮件吗？</string>
   <!-- Dialog message for empty folder confirmation dialog [CHAR LIMIT=300] -->
+  <plurals name="empty_folder_dialog_message">
+    <item quantity="other"><xliff:g id="count">%1$d</xliff:g> 封邮件将会永久删除。</item>
+  </plurals>
   <!-- Strings used for accessibility for the items that toggles the drawer action  -->
+  <string name="drawer_open">打开导航抽屉</string>
+  <string name="drawer_close">关闭导航抽屉</string>
+  <string name="conversation_photo_welcome_text">触摸发件人头像即可选择相应的会话。</string>
   <!-- Content description for the folder icon for nested folders. -->
   <!--  Button, "Add account" in the preference screen [CHAR LIMIT=30] -->
   <string name="add_account">添加帐户</string>
   <!-- Action bar title for viewing messages that are attached to another message. -->
+  <string name="attached_message">附加的邮件</string>
   <!-- Shown to display the date of the message when the message was received yesterday. [CHAR LIMIT=50]  -->
+  <string name="date_message_received_yesterday">昨天，<xliff:g id="datetime">%1$s</xliff:g></string>
   <!-- Content description for the "X" image icon for dismissing a tip. This is used for spoken description of the icon when touch explore is enabled. [CHAR LIMIT=50] -->
   <string name="dismiss_tip_hover_text">忽略提示</string>
   <!-- Tip for letting user know that their device auto-sync setting
         is turned off, in case they are wondering why they are not
         receiving any new mail. [CHAR LIMIT=250] -->
+  <string name="auto_sync_off">自动同步功能已关闭。</string>
   <!-- Tap to turn on device auto-sync setting.  [CHAR LIMIT=250] -->
+  <string name="tap_to_enable_sync">触摸即可开启。</string>
   <!-- Tip for letting user know that their account level sync setting
         is turned off, in case they are wondering why they are not
         receiving any new mail. [CHAR LIMIT=250] -->
+  <string name="account_sync_off">帐户同步功能已关闭。</string>
   <!-- Hint text for user to enable sync in Gmail's account settings.
          The whole string should read "Turn on in Account settings.", but because we need
          "Account settings" to appear as blue link text, it's a parameter here.
          [CHAR LIMIT=250] -->
+  <string name="enable_sync_in_account_settings">在“<xliff:g id="account_settings">%1$s</xliff:g>”中开启。</string>
   <!-- This is used as a parameter to another string and combined reads
          "Turn on in Account settings." [CHAR LIMIT=250] -->
   <string name="account_settings_param">帐户设置</string>
   <!-- Hint text that there are X number of unsent messages users
     Outbox. [CHAR LIMIT=250] -->
+  <string name="unsent_messages_in_outbox"><xliff:g id="outbox">%2$s</xliff:g> 中有 <xliff:g id="number">%1$s</xliff:g> 封未发送的邮件</string>
   <!-- Title of dialog to turn auto-sync on [CHAR LIMIT=100] -->
+  <string name="turn_auto_sync_on_dialog_title">要开启自动同步功能吗？</string>
   <!-- Text of dialog to turn auto-sync on [CHAR LIMIT=500] -->
+  <string name="turn_auto_sync_on_dialog_body">您对所有应用和帐户（不只是 Gmail）所做的更改都会在网络、您的其他设备和您的<xliff:g id="phone_or_tablet">%1$s</xliff:g>之间同步。</string>
   <!-- Phone (vs. tablet) for describing this device [CHAR LIMIT=30] -->
   <string name="phone">手机</string>
   <!-- Tablet (vs. phone) for describing this device [CHAR LIMIT=30] -->
@@ -983,6 +1177,7 @@
   <!-- Button in conversation list to hide folders [CHAR LIMIT=50] -->
   <!-- Error message that is displayed when the user clicks on a quick contacts badge, but
          there is no contacts application installed that can display the quick contact -->
+  <string name="quick_contacts_not_available">未找到查看此联系人的应用程序。</string>
   <!-- Custom phone number type -->
   <string name="phoneTypeCustom">自定义</string>
   <!-- Home phone number type -->
@@ -1125,24 +1320,41 @@
   <!-- Part of a description of an repeating event. This part states the date when a repeating
          event ends. The part before the semi-colon describes how it repeats.
          e.g. Every 2 weeks; until 1/1/2030 [CHAR LIMIT=21] -->
+  <string name="endByDate">；直到 <xliff:g id="date">%1$s</xliff:g></string>
   <!-- Part of a description of an repeating event. This part how many times the event repeats.
          The part before the semi-colon describes how it repeats.
          e.g. Every 2 weeks; for 15 times [CHAR LIMIT=15] -->
+  <plurals name="endByCount">
+    <item quantity="other">；为 <xliff:g id="number">%1$d</xliff:g> 次</item>
+  </plurals>
   <!-- A description for an event that repeats daily. For example, Every 2 days [CHAR LIMIT=15]-->
+  <plurals name="daily">
+    <item quantity="other">每 <xliff:g id="number">%1$d</xliff:g> 天</item>
+  </plurals>
   <!-- A label in a multiple-choice list for the specifying that an event
          repeats every weekday (Monday through Friday) -->
+  <string name="every_weekday">"每个工作日（周一至周五）"</string>
   <!-- A description for an event that repeats weekly on some day of the week. For example,
          'Weekly on Tuesday' or Every 2 weeks on Monday, Tuesday.  [CHAR LIMIT=25]-->
+  <plurals name="weekly">
+    <item quantity="other">每 <xliff:g id="number">%1$d</xliff:g> 周的 <xliff:g id="days_of_week">%2$s</xliff:g></item>
+  </plurals>
   <!-- The common portion of a string describing how often an event repeats,
          example: 'Monthly (on day 2)' -->
+  <string name="monthly">每月</string>
   <!-- Calendar spinner item, to select that an event recurs every year. -->
+  <string name="yearly_plain">每年</string>
   <!-- [CHAR LIMIT=NONE] Boot message while upgrading calendar. -->
   <!-- Temporary Calendar name to use before we have the calendar name from the server -->
   <!-- Caption on secret calendar info -->
   <!-- Error message for secret calendar info -->
+  <string name="calendar_info_error">错误</string>
   <!-- No calendars message for secret calendar info -->
+  <string name="calendar_info_no_calendars">无日历</string>
   <!-- Event count message for secret calendar info -->
+  <string name="calendar_info_events">事件：<xliff:g id="events">%1$d</xliff:g></string>
   <!-- Event and dirty event count message for secret calendar info -->
+  <string name="calendar_info_events_dirty">事件：<xliff:g id="events">%1$d</xliff:g>，未保存：<xliff:g id="dirty events">%2$d</xliff:g></string>
   <!-- What to show in messaging that refers to this provider, e.g. AccountSyncSettings -->
   <string name="provider_label">日历</string>
   <string name="contacts_provider_label">联系人</string>
@@ -1151,7 +1363,11 @@
   <!-- Debug tool - dialog - start copying [CHAR LIMIT=NONE] -->
   <string name="debug_tool_start_button">开始</string>
   <!-- Debug tool - Main message shown to the user when starting up the debug tool [CHAR LIMIT=NONE] -->
+  <string name="debug_tool_message">您将要：1) 创建您日历数据库的副本到 SD 卡或 USB 存储，这意味着数据库可以被任何应用读取。2) 通过电子邮件发送，在成功复制到设备或对方接收后，请记得尽快删除该副本。</string>
   <!-- Debug tool - email subject [CHAR LIMIT=NONE] -->
+  <string name="debug_tool_email_sender_picker">选择应用以发送您的文件</string>
   <!-- Debug tool - email subject [CHAR LIMIT=NONE] -->
+  <string name="debug_tool_email_subject">日历数据库已附加</string>
   <!-- Debug tool - email body [CHAR LIMIT=NONE] -->
+  <string name="debug_tool_email_body">附件是我与我的约会和个人信息的日历数据库。小心轻放。</string>
 </resources>

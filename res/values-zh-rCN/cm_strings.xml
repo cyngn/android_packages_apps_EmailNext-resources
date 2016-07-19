@@ -28,7 +28,7 @@
   <string name="mailbox_name_local_only_display_name"> -本地</string>
   <string name="account_setup_email_address_hint">请输入您的电子邮件地址</string>
   <string name="account_setup_password_label">输入您的密码</string>
-  <string name="account_setup_discovery_account_name_hint">账户名称</string>
+  <string name="account_setup_discovery_account_name_hint">帐户名称</string>
   <string name="account_setup_username_invalid_chars">不允许使用下列字符：<xliff:g id="chars">%1$s</xliff:g></string>
   <string name="account_setup_invalid_server_address">服务器地址无效</string>
   <string name="account_setup_oauth_required_failure"><xliff:g id="account_type">%1$s</xliff:g> 帐户目前不支持两步验证。请登录您的帐户来生成一个应用特定密码。</string>
@@ -147,6 +147,10 @@
   <string name="preference_allow_insecure_attachments_title">允许不安全附件</string>
   <string name="preference_allow_insecure_attachments_summary">允许查看或保存不安全附件</string>
   <string name="custom_perms_dialog_title">重复权限</string>
+  <string name="custom_perms_dialog_msg">另一个应用可能会尝试收集您的个人信息。\n\n<xliff:g id="content">%1$s</xliff:g>\n\n请联系 Boxer 支持以获取帮助。</string>
+  <plurals name="custom_perms_dialog_app_violation">
+    <item quantity="other"><xliff:g id="app_name">(%1$s)</xliff:g> 重定义权限： <xliff:g id="permissions_list">%2$s</xliff:g></item>
+  </plurals>
   <string name="custom_perms_pos_btn">提交反馈</string>
   <!-- Label shown in the account selector to select "Combined", which contains
          Combined Inbox, Combined Outbox, etc. [CHAR LIMIT=30] -->
@@ -158,7 +162,11 @@
   <!-- Main screen and setting, menu item [CHAR LIMIT=30]-->
   <string name="support">支持</string>
   <!-- Delete account -->
-  <string name="delete_account_title">删除账户</string>
+  <string name="delete_account_title">删除帐户</string>
+  <string name="delete_account_summary">删除此帐户和所有的设置和数据</string>
+  <string name="delete_account_confirmation_msg">这将删除 <xliff:g id="account">%1$s</xliff:g> 帐户所有的设置和邮件。此操作不能撤销。\n\n要继续吗？</string>
+  <string name="deleting_account_msg">正在删除帐户\u2026</string>
+  <string name="delete_account_failed">无法删除该帐户</string>
   <!-- Read email screen, button name. Open an attachment. [CHAR LIMIT=10] -->
   <!-- Read email screen, button name. Install an attachment. [CHAR LIMIT=10] -->
   <!-- Photo view screen, button name. Print photo. [CHAR LIMIT=20] -->
@@ -166,10 +174,22 @@
   <!-- Menu item to view an image  [CHAR LIMIT=50]-->
   <string name="contextmenu_view_image">查看图片</string>
   <!-- Formatting for the collapsed To header in the MessageHeaderView -->
+  <plurals name="to_header">
+    <item quantity="other">&amp; 其他 %1$d 项</item>
+  </plurals>
+  <plurals name="conversation_todo">
+    <!-- Displayed while setting one conversation to-do -->
+    <!-- Displayed while archiving multiple conversations -->
+    <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; 项已标记为待办事项</item>
+  </plurals>
   <!-- Displayed in undo LeaveBehindItem after reporting a message as spam -->
   <string name="reported_as_spam">报告为垃圾邮件</string>
   <!-- New Message notification text that appears over conversation view on incoming message. [CHAR LIMIT=40] -->
+  <string name="new_incoming_messages_one">显示来自 <xliff:g id="sender">%1$s</xliff:g> 的新信息。</string>
   <!-- New Message notification text that appears over conversation view on incoming messages. Will only be used if there is more than one new message. [CHAR LIMIT=40] -->
+  <plurals name="new_incoming_messages_many">
+    <item quantity="other">显示 <xliff:g id="count">%1$d</xliff:g> 条新信息。</item>
+  </plurals>
   <!-- Button name, displayed in dialogs [CHAR LIMIT=10] -->
   <string name="edit">编辑</string>
   <!-- Hint for searching/filtering folders in the folder selection dialog [CHAR LIMIT=30] -->
@@ -189,9 +209,12 @@
   <!-- String used in the FolderListFragment to mark the start of user-defined folders -->
   <string name="all_folders_heading">文件夹</string>
   <!-- String used in the FolderListFragment to mark the start of accounts -->
-  <string name="accounts_heading">账户</string>
+  <string name="accounts_heading">帐户</string>
   <!-- Default email signature on vendor builds -->
   <string name="vendor_signature">发送自我的 Cyanogen 手机</string>
+  <string name="vendor_signature_fmt">发送自 <xliff:g id="brand" example="samsung">%1$s</xliff:g></string>
+  <string name="blu_signature">发送自我的 BLU 手机 – 由 Boxer 驱动的 BLU Mail</string>
+  <string name="vendor_signature_o2">发自 O2 上的 Cyanogen</string>
   <!-- Notification action for deleting a message. [CHAR LIMIT=20] -->
   <string name="notification_action_mark_read">已读</string>
   <!-- Notification action for replying to a message. [CHAR LIMIT=20] -->
@@ -199,29 +222,53 @@
   <!-- Notification action for deleting a message. [CHAR LIMIT=20] -->
   <string name="notification_action_delete">删除</string>
   <!-- Notification message to the user upon new messages for a conversation. [CHAR LIMIT=120] -->
+  <plurals name="new_messages">
+    <item quantity="other"><xliff:g id="count">%1$d</xliff:g> 条新信息</item>
+  </plurals>
   <!--  Settings screen, Swipe actions preference title -->
+  <string name="preferences_swipe_actions_title">滑动动作</string>
   <!--  Settings screen, Swipe actions preference summary -->
+  <string name="preferences_swipe_actions_summary">自定义左右的滑动动作</string>
   <!--  Settings screen, Swipe actions, Left short preference title -->
+  <string name="preferences_swipe_left_short_title">左短滑</string>
   <!--  Settings screen, Swipe actions, Left long preference title -->
+  <string name="preferences_swipe_left_long_title">左长滑</string>
   <!--  Settings screen, Swipe actions, Right short preference title -->
+  <string name="preferences_swipe_right_short_title">右短滑</string>
   <!--  Settings screen, Swipe actions, Right long preference title -->
+  <string name="preferences_swipe_right_long_title">右长滑</string>
   <!-- Menu item text to that when clicked will allow a user to print an email conversation. [CHAR LIMIT=25] -->
+  <string name="print">打印</string>
   <!-- Number of messages in a conversation [CHAR LIMIT=30]-->
+  <plurals name="num_messages">
+    <item quantity="other"><xliff:g id="count">%1$d</xliff:g> 条信息</item>
+  </plurals>
   <!-- Shown to display the date of the message [CHAR LIMIT=50] -->
+  <string name="date_message_received_print"><xliff:g id="day_and_date">%1$s</xliff:g> 在 <xliff:g id="time">%2$s</xliff:g></string>
   <!-- Shown to display the to recipient(s) of the message if the message is a draft [CHAR LIMIT=20] -->
   <string name="draft_to_heading">草稿：\u0020</string>
   <!-- Shown to display in the message header if the message is a draft and there are no "to" addresses in the draft [CHAR LIMIT=10] -->
   <string name="draft_heading">草稿</string>
   <!-- Shown to inform the user that the quoted text for this message has been hidden. [CHAR LIMIT=50] -->
+  <string name="quoted_text_hidden_print">已隐藏引用的文字</string>
   <!-- Number of attachments in a message [CHAR LIMIT=30]-->
+  <plurals name="num_attachments">
+    <item quantity="other"><xliff:g id="count">%1$d</xliff:g> 个附件</item>
+  </plurals>
   <!-- Title to display when an email has no subject. [CHAR LIMIT=50]-->
   <string name="no_subject">（无主题）</string>
-  <string name="action_grid_select_quick_response">选择快速响应</string>
+  <string name="action_grid_select_quick_response">选择快速回复</string>
   <string name="action_grid_todo_dialog_title">详细信息</string>
   <string name="action_grid_set_due_date">设置到期日期</string>
   <string name="action_grid_due">到期： <xliff:g id="datestring">%1$s</xliff:g></string>
   <string name="action_grid_add_priority">添加优先级</string>
   <string name="action_grid_priority">优先级：\u0020</string>
+  <string name="action_grid_add_assignee">添加代理人</string>
+  <string name="action_grid_assignee">代理人：\u0020</string>
+  <string name="action_grid_due_date_dialog_title">设置到期日期</string>
+  <string name="action_grid_due_date_today">今天</string>
+  <string name="action_grid_due_date_tomorrow">明天</string>
+  <string name="action_grid_due_date_this_week">本周</string>
   <string name="action_grid_due_date_next_week">下周</string>
   <string name="action_grid_due_date_specific_date">指定日期</string>
   <string name="action_grid_priority_dialog_title">添加优先级</string>
@@ -254,39 +301,81 @@
   <string name="action_read_or_unread">已读/未读</string>
   <string name="action_actions">操作</string>
   <!-- These strings are shown in Toast messages when an Action above is selected -->
+  <plurals name="quick_response_sent">
+    <!-- Quick respond to 1 conversation -->
+    <!-- Quick respond to several conversations -->
+    <item quantity="other">回复已发送</item>
+  </plurals>
+  <plurals name="liked_message">
+    <!-- Like 1 conversation -->
+    <!-- Like several conversations -->
+    <item quantity="other">消息已赞</item>
+  </plurals>
+  <string name="invalid_selection">无效的选择</string>
+  <string name="file_action_more_than_one_account">您已经选择的会话来自一个以上的帐户。请尝试仅选择一个帐户上的会话。</string>
+  <string name="action_more_than_one_conversation">选择的动作每次仅支持一个会话。请尝试仅选择一个会话。</string>
+  <string name="not_installed">未安装</string>
+  <string name="evernote_not_installed">Evernote 似乎没有被安装，请安装以使用此功能。</string>
+  <string name="custom_mailbox_button">添加自定义邮箱</string>
   <string name="custom_mailbox_settings_label">设置</string>
+  <string name="custom_mailbox_folder_name_hint">自定义邮箱名称</string>
   <string name="custom_mailbox_background_sync_label">后台同步</string>
   <string name="custom_mailbox_background_sync_switch_on">开</string>
   <string name="custom_mailbox_background_sync_switch_off">关</string>
+  <string name="custom_mailbox_delete_box">删除邮箱</string>
+  <string name="custom_mailbox_error_no_selected_folders">请从下面的列表中选择至少一个文件夹</string>
   <!-- Title for confirm delete box dialog -->
   <string name="custom_mailbox_delete_box_dialog_title">警告</string>
+  <string name="custom_mailbox_delete_box_dialog_message">您确定想要删除此自定义邮箱？</string>
+  <string name="custom_mailbox_error_deleting_box">删除您的自定义邮箱时出错</string>
   <!-- Ratings Viral Prompt -->
   <string name="viral_prompt_rate_app_title">评价此应用</string>
   <string name="viral_prompt_rate_app_body">如果您喜欢使用这个应用，您介意抽出一点时间来评价它吗？它不会超过一分钟。感谢您的支持 ！</string>
   <string name="viral_ratings_prompt_rate_now">立刻评价</string>
   <string name="promo_code_edittext_hint">输入促销代码</string>
   <string name="promo_code_button_text">提交</string>
+  <string name="promo_code_error_no_code_entered">请先输入促销代码，然后提交</string>
+  <string name="promo_code_error_invalid_code">无效的促销代码</string>
+  <string name="promo_code_progress_dialog_validating">正在验证促销代码</string>
   <string name="rage_shake_title">检测到摇晃</string>
   <string name="rage_shake_message">您想要让应用崩溃来提交调试信息吗？</string>
   <string name="actions_dialog_title">自定义</string>
+  <string name="actions_dialog_message">您经常使用文件夹整理？常常标记垃圾邮件？喜欢摘录到 Evernote？\n\n自定义滑动动作，您可以设置任何手势来适应您的工作流。\n</string>
+  <string name="actions_dialog_positive_button_text">自定义滑动</string>
   <string name="actions_dialog_negative_button_text">关闭</string>
   <!-- Account Setup -->
+  <string name="account_setup_start_company_slogan_text">欢迎来到一个更好的收件箱。</string>
+  <string name="account_setup_vendor_heading">欢迎来到电子邮件</string>
   <!-- Like Feature -->
   <string name="like_action_dialog_tittle">什么是“赞”？</string>
+  <string name="like_action_dialog_message">您找到了我们最喜欢的功能。当您“赞”一条信息，一封电子邮件将会发送给其他回复人告诉他们您喜欢它。这是目前最快速的电子邮件回复方式。</string>
   <!-- Displayed on a button whose action is to create something new. -->
   <string name="new_button">新建</string>
   <!-- Text hint when creating a new folder from the move/label dialog. -->
   <string name="folder_name_hint">文件夹名称</string>
   <!-- Progress text when creating a new folder from the move/label dialog. -->
+  <string name="create_folder_progess">正在创建文件夹\u2026</string>
   <!-- Error title used when the user tries to add a folder that matches an existing folder. -->
+  <string name="duplicate_folder_title">重复的名称</string>
   <!-- Error message used when the user tries to add a folder that matches an existing folder. -->
+  <string name="duplicate_folder_message">您已经输入的文件夹名称存在。</string>
   <!-- Title used for generic error alerts. -->
+  <string name="error">错误</string>
   <!-- Error message displayed when a folder fails to be created on the server. -->
+  <string name="error_creating_folder_message">无法创建该文件夹。</string>
   <!-- Menu item: report an email was not readable or poorly rendered -->
   <string name="report_rendering_problem">提交反馈</string>
   <!-- Toast message for above action -->
+  <string name="message_reported">信息已报告</string>
   <!-- Conversation list shared between the Activity and Widget -->
   <!-- Displayed in the middle of the screen when conversations are being loaded [CHAR LIMIT 100]-->
+  <string name="no_conversation_needs_sync">这里没有邮件。\n从顶部往下拉以刷新</string>
+  <string name="getting_messages">正在获取您的消息</string>
+  <string name="empty_folder">没有邮件。</string>
+  <string name="empty_inbox">您大功告成了！请享受您美好的一天。</string>
+  <string name="empty_search">糟糕！我们没有找到关于“<xliff:g id="search_query">%1$s</xliff:g>”的邮件。</string>
+  <string name="empty_spam_folder">万岁，没有垃圾邮件！</string>
+  <string name="empty_trash_folder">这里没有垃圾。感谢您的回收！</string>
   <!-- Calendar invite hero card -->
   <!-- Link for opening an invite's event in the calendar app. -->
   <string name="view_on_calendar">在日历中查看</string>
@@ -294,32 +383,61 @@
   <string name="accept">接受</string>
   <string name="maybe">待定</string>
   <string name="decline">拒绝</string>
+  <string name="remove_from_cal">从日历中移除</string>
+  <string name="remove_series_from_cal">从日历中移除此重复活动</string>
   <!-- Attendee text when user is the only attendee. -->
   <string name="calendar_attendees_me_only">我</string>
   <!-- Attendee text when there are additional attendees. -->
+  <plurals name="calendar_attendees">
+    <item quantity="other">我 &amp; 其他 %1$d 人</item>
+  </plurals>
   <!-- Accompanies the date/time for all day events. -->
   <string name="all_day">全天</string>
   <!-- Status for canceled events. -->
   <string name="canceled">已取消</string>
   <!-- Send availability strings -->
+  <string name="times_that_work_for_me">合适的时间：</string>
   <string name="availability_by">提供：</string>
+  <string name="remove_availability">移除可用性</string>
   <string name="event_over">事件结束</string>
   <string name="busy">忙碌</string>
   <string name="available">可用</string>
+  <plurals name="other_conflicts">
+    <item quantity="other">%1$d 个其他冲突</item>
+  </plurals>
+  <string name="meeting_invitation">邀请摘要：</string>
+  <string name="invitation_by">邀请人：</string>
+  <string name="remove_invite">移除邀请</string>
+  <string name="action_liked_message_cm"><xliff:g id="display_name" example="John Doe">%1$s</xliff:g> 使用 &lt;a href=\"%2$s\"&gt; 上的 Boxer &lt;/a&gt; 赞了您的消息。</string>
+  <string name="error_no_app_store">没有找到合适的应用商店</string>
   <!-- String shown in the TO field when it is blank -->
+  <string name="undisclosed_recipients">保密收件人</string>
+  <string name="previous_action">上一个</string>
   <!-- Title for enter passcode screen -->
+  <string name="enter_passcode_title">输入密码</string>
   <string name="enter_passcode_logo_desc">Boxer 徽标</string>
   <string name="enter_passcode_status_desc">状态指示器</string>
+  <string name="enter_passcode_hint">输入您的密码</string>
+  <string name="enter_passcode_go">转到</string>
   <string name="enter_passcode_success">成功！</string>
   <string name="enter_passcode_failure">密码错误</string>
+  <string name="enter_passcode_failure_with_max">%1$d / %2$d 次失败的尝试</string>
+  <string name="enter_passcode_last_chance">剩余一次机会。 \n如果失败将会从此设备删除所有的电子邮件。</string>
   <string name="enter_passcode_wipe">正在擦除应用数据</string>
   <!-- Start of combined settings strings -->
   <string name="header_category_mail">邮件</string>
   <string name="header_category_other">其他</string>
   <string name="header_default_account_title">默认账号</string>
+  <string name="header_local_calendars_title">本地日历</string>
+  <string name="header_mail_settings_title">更多邮件设置</string>
+  <string name="header_calendar_settings_title">更多日历设置</string>
   <string name="header_passcode_title">密码</string>
   <!-- In Account Setup options screen, label for email lookback selector -->
+  <string name="account_setup_options_mail_window_label">邮件已同步</string>
   <!-- In Account Settings screen, label for email lookback selector -->
+  <string name="account_settings_options_mail_window_label">同步最近多少天的邮件</string>
+  <string name="account_settings_sync_calendar_summary">同步此帐户的日历事件</string>
+  <string name="default_account_fragment_title">默认帐户</string>
   <string name="mail_settings_fragment_title">邮件设置</string>
   <!-- The menu item to send logs -->
   <string name="menu_send_logs">发送日志</string>
@@ -329,9 +447,12 @@
   <string name="build">编译</string>
   <string name="build_date">编译日期</string>
   <string name="legal">法律</string>
+  <string name="open_source">开源许可</string>
+  <string name="privacy_policy">AirWatch 隐私策略</string>
   <!-- Name of the DeviceAdmin (seen in settings & in user confirmation screen) -->
   <string name="device_admin_label">Boxer</string>
   <!-- Settings passcode strings -->
+  <string name="settings_passcode_on">启用密码</string>
   <string name="settings_passcode_off">禁用密码</string>
   <string name="settings_passcode_change">修改密码</string>
   <string name="settings_passcode_time_interval">需要密码</string>
@@ -355,13 +476,22 @@
   </plurals>
   <!-- Permission related string -->
   <string name="permissions_enable">启用</string>
+  <string name="permissions_call_title">启用电话权限</string>
+  <string name="permissions_call_message">为了拨打电话，您需要为 Boxer 启用电话权限。</string>
   <string name="permissions_storage_title">启用存储访问</string>
+  <string name="permissions_storage_message">为了保存附件，您需要为 Boxer 启用存储访问权限。</string>
+  <string name="permissions_calendar_title">启用日历权限</string>
+  <string name="permissions_calendar_message">Boxer 没有权限访问本地日历事件。</string>
+  <string name="permissions_do_not_show_again">不再显示</string>
   <!-- String shown as a toast when sending a quick response fails due to some unknown error-->
+  <string name="emailing_guests_failed">无法给客人发送电子邮件</string>
   <string name="account_setup_selection_title">帐户类型</string>
   <string name="account_setup_discovery_title">帐户详情</string>
   <string name="account_setup_options_title">同步选项</string>
   <string name="plugin_permission_label">Boxer 插件权限</string>
+  <string name="plugin_permission_description">Boxer 插件通过应用加载以提供附加功能。插件必须经由 Boxer 签名才能载入。</string>
   <string name="view">查看</string>
+  <string name="original_appointment">---- 原始约会 ----</string>
   <string name="meeting_from">
     来自：
     <xliff:g id="From">%s</xliff:g>
@@ -372,4 +502,8 @@
   <string name="meeting_to">
     至：
     <xliff:g id="To">%s</xliff:g>    </string>
+  <string name="email_attendees">给参与者发送电子邮件</string>
+  <string name="forward_event">转发事件</string>
+  <string name="email_organizer">给组织者发送电子邮件</string>
+  <string name="email_everyone">给每个人发送电子邮件</string>
 </resources>
