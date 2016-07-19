@@ -27,8 +27,13 @@
   <string name="mailbox_name_display_archive">Arkiv</string>
   <string name="mailbox_name_local_only_display_name"> -Lokal</string>
   <string name="account_setup_email_address_hint">Skriv inn epostadressen din</string>
+  <string name="account_setup_domain_label">Domenet</string>
   <string name="account_setup_security_heading">Sikkerhet</string>
   <string name="account_setup_authentication_heading">Godkjenning</string>
+  <plurals name="account_setup_passcode_previous_use_restriction">
+    <item quantity="one">Matchet ikke din forrige passkode.</item>
+    <item quantity="other">Matchet ikke 1 av dine forrige <xliff:g id="passcodeHistoryLength">%1$d</xliff:g> passkoder.</item>
+  </plurals>
   <!-- Error message shown in dialog body when authenticating an account during setup fails -->
   <!-- Dialog title when "setup" could not finish -->
   <!-- hint for account email password text field -->
@@ -157,6 +162,9 @@
   <!-- Shown to inform the user that the quoted text for this message has been hidden. [CHAR LIMIT=50] -->
   <!-- Number of attachments in a message [CHAR LIMIT=30]-->
   <!-- Title to display when an email has no subject. [CHAR LIMIT=50]-->
+  <string name="action_grid_set_due_date">Angi utløpsdato</string>
+  <string name="action_grid_due">Utløper: <xliff:g id="datestring">%1$s</xliff:g></string>
+  <string name="action_grid_due_date_dialog_title">Angi utløpsdato</string>
   <!-- Prompt used if you are trying to delete a message -->
   <!-- These strings below represent the default Actions that are available for the ActionGrid -->
   <string name="action_todo">Gjøremål</string>
@@ -164,7 +172,11 @@
   <string name="action_label">Etikett</string>
   <string name="action_archive">Arkiv</string>
   <!-- These strings are shown in Toast messages when an Action above is selected -->
+  <string name="custom_mailbox_background_sync_switch_on">På</string>
+  <string name="custom_mailbox_background_sync_switch_off">Av</string>
+  <string name="custom_mailbox_delete_box">Slett boks</string>
   <!-- Title for confirm delete box dialog -->
+  <string name="custom_mailbox_delete_box_dialog_title">Advarsel</string>
   <!-- Ratings Viral Prompt -->
   <!-- Account Setup -->
   <!-- Like Feature -->
