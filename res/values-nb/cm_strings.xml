@@ -172,12 +172,19 @@
   <string name="action_label">Etikett</string>
   <string name="action_archive">Arkiv</string>
   <!-- These strings are shown in Toast messages when an Action above is selected -->
+  <plurals name="liked_message">
+    <!-- Like 1 conversation -->
+    <item quantity="one">Melding likt</item>
+    <!-- Like several conversations -->
+    <item quantity="other">Meldinger likt</item>
+  </plurals>
   <string name="custom_mailbox_background_sync_switch_on">På</string>
   <string name="custom_mailbox_background_sync_switch_off">Av</string>
   <string name="custom_mailbox_delete_box">Slett boks</string>
   <!-- Title for confirm delete box dialog -->
   <string name="custom_mailbox_delete_box_dialog_title">Advarsel</string>
   <!-- Ratings Viral Prompt -->
+  <string name="actions_dialog_title">Tilpasse</string>
   <!-- Account Setup -->
   <!-- Like Feature -->
   <!-- Displayed on a button whose action is to create something new. -->
