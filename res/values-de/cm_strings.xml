@@ -27,10 +27,15 @@
   <string name="mailbox_name_display_archive">Archiv</string>
   <string name="mailbox_name_local_only_display_name"> – Lokal</string>
   <string name="account_setup_email_address_hint">Geben Sie Ihre E-Mail Adresse ein.</string>
+  <string name="account_setup_password_label">Geben Sie Ihr Passwort ein.</string>
+  <string name="account_setup_discovery_account_name_hint">Kontoname</string>
+  <string name="account_setup_username_invalid_chars">Die folgenden Zeichen sind nicht erlaubt: <xliff:g id="chars">%1$s</xliff:g></string>
+  <string name="account_setup_oauth_required_failure">Die Zwei-Faktor-Authentifizierung wird für <xliff:g id="account_type">%1$s </xliff:g>-Konten noch nicht unterstützt. Bitte melden Sie sich bei Ihrem Konto an, um ein App-spezifisches Passwort zu generieren.</string>
   <string name="account_setup_domain_label">Domäne</string>
   <string name="account_setup_server_info_heading">Serverinfo</string>
   <string name="account_setup_security_heading">Sicherheit</string>
   <string name="account_setup_authentication_heading">Authentifizierung</string>
+  <string name="account_setup_passcode_format_restriction_complex">Besitzt <xliff:g id="quantity">%1$d</xliff:g> dieser Merkmale: Einen Großbuchstaben, einen Kleinbuchstaben, eine Zahl und/oder ein Sonderzeichen.</string>
   <plurals name="account_setup_passcode_length_restriction">
     <item quantity="one">Ist mindestens ein Zeichen lang.</item>
     <item quantity="other">Ist mindestens <xliff:g id="length">%1$d</xliff:g> Zeichen lang.</item>
@@ -198,9 +203,12 @@
   <!-- Notification action for replying to a message. [CHAR LIMIT=20] -->
   <string name="notification_action_reply">ANTWORTEN</string>
   <!-- Notification action for deleting a message. [CHAR LIMIT=20] -->
+  <string name="notification_action_delete">LÖSCHEN</string>
   <!-- Notification message to the user upon new messages for a conversation. [CHAR LIMIT=120] -->
   <!--  Settings screen, Swipe actions preference title -->
+  <string name="preferences_swipe_actions_title">Wischaktionen</string>
   <!--  Settings screen, Swipe actions preference summary -->
+  <string name="preferences_swipe_actions_summary">Aktionen für Wischen nach links und rechts anpassen</string>
   <!--  Settings screen, Swipe actions, Left short preference title -->
   <string name="preferences_swipe_left_short_title">Kurzes Wischen nach links</string>
   <!--  Settings screen, Swipe actions, Left long preference title -->
@@ -212,16 +220,36 @@
   <!-- Menu item text to that when clicked will allow a user to print an email conversation. [CHAR LIMIT=25] -->
   <string name="print">Drucken</string>
   <!-- Number of messages in a conversation [CHAR LIMIT=30]-->
+  <plurals name="num_messages">
+    <item quantity="one"><xliff:g id="count">%1$d</xliff:g> Nachricht</item>
+    <item quantity="other"><xliff:g id="count">%1$d</xliff:g> Nachrichten</item>
+  </plurals>
   <!-- Shown to display the date of the message [CHAR LIMIT=50] -->
+  <string name="date_message_received_print"><xliff:g id="day_and_date">%1$s</xliff:g> um <xliff:g id="time">%2$s</xliff:g></string>
   <!-- Shown to display the to recipient(s) of the message if the message is a draft [CHAR LIMIT=20] -->
+  <string name="draft_to_heading">Entwurf an:\u0020</string>
   <!-- Shown to display in the message header if the message is a draft and there are no "to" addresses in the draft [CHAR LIMIT=10] -->
+  <string name="draft_heading">Entwurf</string>
   <!-- Shown to inform the user that the quoted text for this message has been hidden. [CHAR LIMIT=50] -->
+  <string name="quoted_text_hidden_print">Zitierter Text verborgen</string>
   <!-- Number of attachments in a message [CHAR LIMIT=30]-->
+  <plurals name="num_attachments">
+    <item quantity="one"><xliff:g id="count">%1$d</xliff:g> Anhang</item>
+    <item quantity="other"><xliff:g id="count">%1$d</xliff:g> Anhänge</item>
+  </plurals>
   <!-- Title to display when an email has no subject. [CHAR LIMIT=50]-->
   <string name="no_subject">(Kein Betreff)</string>
   <string name="action_grid_select_quick_response">Kurzantwort auswählen</string>
+  <string name="action_grid_todo_dialog_title">Details</string>
+  <string name="action_grid_set_due_date">Fälligkeitsdatum setzen</string>
+  <string name="action_grid_due">Fällig am: <xliff:g id="datestring">%1$s</xliff:g></string>
   <string name="action_grid_add_priority">Priorität hinzufügen</string>
   <string name="action_grid_priority">Priorität:\u0020</string>
+  <string name="action_grid_add_assignee">Bevollmächtigten hinzufügen</string>
+  <string name="action_grid_assignee">Bevollmächtigter:\u0020</string>
+  <string name="action_grid_due_date_dialog_title">Fälligkeitsdatum setzen</string>
+  <string name="action_grid_due_date_today">Heute</string>
+  <string name="action_grid_due_date_tomorrow">Morgen</string>
   <string name="action_grid_due_date_this_week">Diese Woche</string>
   <string name="action_grid_due_date_next_week">Nächste Woche</string>
   <string name="action_grid_due_date_specific_date">Bestimmtes Datum</string>
@@ -233,18 +261,29 @@
   <string name="action_grid_priority_lowest">Dringlichkeit: sehr niedrig</string>
   <string name="action_grid_assignee_dialog_title">Bevollmächtigten hinzufügen</string>
   <string name="action_grid_assignee_search_for_contact">Kontakt suchen</string>
+  <string name="action_grid_assignee_button_bar_clear">Löschen</string>
   <!-- Prompt used if you are trying to delete a message -->
   <string name="action_message_header_delete">Diese Nachricht löschen?</string>
   <!-- These strings below represent the default Actions that are available for the ActionGrid -->
   <string name="action_like">Gefällt mir</string>
   <string name="action_todo">To-Do</string>
+  <string name="action_quick">Schnell</string>
   <string name="action_move">Verschieben</string>
   <string name="action_label">Kennzeichnen</string>
   <string name="action_archive">Archiv</string>
+  <string name="action_delete">Löschen</string>
   <string name="action_spam">Spam</string>
+  <string name="action_mark_unread">Als ungelesen markieren</string>
+  <string name="action_mark_read">Als gelesen markiert</string>
   <string name="action_read_or_unread">Gelesen/Ungelesen</string>
   <string name="action_actions">Aktionen</string>
   <!-- These strings are shown in Toast messages when an Action above is selected -->
+  <plurals name="quick_response_sent">
+    <!-- Quick respond to 1 conversation -->
+    <item quantity="one">Antwort gesendet</item>
+    <!-- Quick respond to several conversations -->
+    <item quantity="other">Antworten gesendet</item>
+  </plurals>
   <string name="custom_mailbox_settings_label">Einstellungen</string>
   <string name="custom_mailbox_background_sync_label">Hintergrundsynchronisierung</string>
   <!-- Title for confirm delete box dialog -->
@@ -289,19 +328,60 @@
   <!-- Calendar invite hero card -->
   <!-- Link for opening an invite's event in the calendar app. -->
   <!-- Response action buttons. -->
+  <string name="decline">Ablehnen</string>
+  <string name="remove_from_cal">Aus dem Kalender entfernen</string>
+  <string name="remove_series_from_cal">Serientermine aus dem Kalender entfernen</string>
   <!-- Attendee text when user is the only attendee. -->
+  <string name="calendar_attendees_me_only">Ich</string>
   <!-- Attendee text when there are additional attendees. -->
+  <plurals name="calendar_attendees">
+    <item quantity="one">Ich &amp; %1$d anderer</item>
+    <item quantity="other">Ich &amp; %1$d andere</item>
+  </plurals>
   <!-- Accompanies the date/time for all day events. -->
+  <string name="all_day">Ganztägig</string>
   <!-- Status for canceled events. -->
+  <string name="canceled">Abgesagt</string>
   <!-- Send availability strings -->
+  <string name="times_that_work_for_me">Zeiten, die für mich passen würden:</string>
+  <string name="remove_availability">Verfügbarkeit entfernen</string>
+  <string name="event_over">Termin abgelaufen</string>
+  <string name="busy">Beschäftigt</string>
+  <string name="available">Verfügbar</string>
+  <plurals name="other_conflicts">
+    <item quantity="one">%1$d anderer Konflikt</item>
+    <item quantity="other">%1$d andere Konflikte</item>
+  </plurals>
+  <string name="meeting_invitation">Einladungszusammenfassung:</string>
+  <string name="invitation_by">Einladung von</string>
+  <string name="remove_invite">Einladung entfernen</string>
+  <string name="error_no_app_store">Es wurde kein passender App-Store gefunden</string>
   <!-- String shown in the TO field when it is blank -->
+  <string name="undisclosed_recipients">Empfänger in Blindkopie</string>
   <!-- Title for enter passcode screen -->
+  <string name="enter_passcode_title">Passwort eingeben</string>
+  <string name="enter_passcode_logo_desc">Boxer-Logo</string>
+  <string name="enter_passcode_hint">Geben Sie Ihr Passwort ein</string>
+  <string name="enter_passcode_go">Los</string>
+  <string name="enter_passcode_failure">Falsches Passwort</string>
   <!-- Start of combined settings strings -->
+  <string name="header_category_mail">E-Mail</string>
+  <string name="header_default_account_title">Standardkonto</string>
+  <string name="header_local_calendars_title">Lokale Kalender</string>
+  <string name="header_passcode_title">Passwort</string>
   <!-- In Account Setup options screen, label for email lookback selector -->
   <!-- In Account Settings screen, label for email lookback selector -->
+  <string name="account_settings_options_mail_window_label">Zu synchronisierende Tage</string>
+  <string name="default_account_fragment_title">Standardkonto</string>
   <!-- The menu item to send logs -->
+  <string name="menu_send_logs">Protokolle senden</string>
   <!-- The menu item to open the about section -->
   <string name="menu_about">Über</string>
+  <string name="version">Version</string>
+  <string name="build">Build</string>
+  <string name="build_date">Build-Datum</string>
+  <string name="open_source">Open-Source-Lizenzen</string>
+  <string name="privacy_policy">AirWatch-Datenschutzrichtlinie</string>
   <!-- Name of the DeviceAdmin (seen in settings & in user confirmation screen) -->
   <!-- Settings passcode strings -->
   <!-- String array for require passcode in passcode settings -->

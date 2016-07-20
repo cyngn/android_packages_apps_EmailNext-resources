@@ -620,6 +620,7 @@
   <string name="delete">Löschen</string>
   <!-- Menu item: discard the drafts in this conversation [CHAR LIMIT = 30] -->
   <!-- Menu item: refresh the inbox -->
+  <string name="refresh">Aktualisieren</string>
   <!-- Menu item: reply to this message -->
   <string name="reply">Antworten</string>
   <!-- Menu item: reply to all recipients in this message [CHAR LIMIT=18] -->
@@ -666,26 +667,40 @@
   <!-- Size unit, displayed in a button next to an attachment  [CHAR LIMIT=5]-->
   <string name="megabytes"><xliff:g id="count">%1$s</xliff:g> MB</string>
   <!-- Attachment description for image files [CHAR LIMIT=30] -->
+  <string name="attachment_image">Bild</string>
   <!-- Attachment description for video files [CHAR LIMIT=30] -->
+  <string name="attachment_video">Videodatei</string>
   <!-- Attachment description for audio files [CHAR LIMIT=30] -->
+  <string name="attachment_audio">Audiodatei</string>
   <!-- Attachment description for text files [CHAR LIMIT=30] -->
+  <string name="attachment_text">Textdatei</string>
   <!-- Attachment description for .doc files [CHAR LIMIT=30] -->
+  <string name="attachment_application_msword">Dokument</string>
   <!-- Attachment description for .ppt files [CHAR LIMIT=30] -->
+  <string name="attachment_application_vnd_ms_powerpoint">Präsentation</string>
   <!-- Attachment description for excel files [CHAR LIMIT=30] -->
+  <string name="attachment_application_vnd_ms_excel">Tabelle</string>
   <!-- Attachment description for .pdf files [CHAR LIMIT=30] -->
+  <string name="attachment_application_pdf">PDF</string>
   <!-- Attachment description for unknown files [CHAR LIMIT=30]-->
+  <string name="attachment_unknown"><xliff:g id="attachmentExtension">%1$s</xliff:g>-Datei</string>
   <!-- Read email screen, button name. Preview an attachment by Gview. [CHAR LIMIT=18] -->
+  <string name="preview_attachment">Vorschau</string>
   <!-- Read email screen, button name. Save an attachment to sd card. [CHAR LIMIT=10] -->
   <string name="save_attachment">Speichern</string>
   <!-- Read email screen, button name. Cancel a downloading attachment. [CHAR LIMIT=10] -->
   <!-- Read email screen, button name. Redownload an attachment [CHAR LIMIT=20]-->
+  <string name="download_again">Erneut herunterladen</string>
   <!-- Dialog box title [CHAR LIMIT=30] -->
+  <string name="more_info_attachment">Info</string>
   <!-- Dialog box message, displayed when we could not view an attachment. [CHAR LIMIT=200]-->
+  <string name="no_application_found">Dieser Anhang kann von keiner App zum Anzeigen geöffnet werden.</string>
   <!-- Dialog box title. [CHAR LIMIT=30] -->
   <string name="fetching_attachment">Anhang wird abgerufen</string>
   <!-- Dialog box message. [CHAR LIMIT=80] -->
   <!-- Displayed in the conversation view, next to a file's size and type. Status of a saved attachment. [CHAR LIMIT=20]-->
   <!-- Displayed in the conversation view. Status of a failed attachment. [CHAR LIMIT=50]-->
+  <string name="download_failed">Downloadfehler. Zum Wiederholen berühren.</string>
   <!-- Displayed in the conversation view, as a header informing
          the user that the following is the attachments. [CHAR LIMIT=100] -->
   <string name="attachments_header">Anhänge</string>
@@ -724,16 +739,26 @@
   <!-- Text indicating how many messages are selected in the top action bar
     [CHAR LIMIT=40] -->
   <!--  Displayed when drag and drop conversations "Move ? conversations" [CHAR LIMIT=50] -->
+  <plurals name="move_conversation">
+    <!-- Move 1 conversation -->
+    <item quantity="one">Konversation verschieben</item>
+    <!-- Move several conversations -->
+    <item quantity="other"><xliff:g>%1$d</xliff:g> Konversationen verschieben</item>
+  </plurals>
   <!-- Formatting string for the content description field of a conversation list item when device is in accessibility mode. [CHAR LIMIT=250] -->
+  <string name="content_description"><xliff:g id="sender">%1$s</xliff:g> über <xliff:g id="subject">%2$s</xliff:g>, <xliff:g id="snippet">%3$s</xliff:g> am <xliff:g id="date">%4$s</xliff:g>, <xliff:g id="readstate">%5$s</xliff:g></string>
   <!-- Formatting string for the content description field of a conversation list item when device is in accessibility mode and the message was received today. [CHAR LIMI=250] -->
+  <string name="content_description_today"><xliff:g id="sender">%1$s</xliff:g> über <xliff:g id="subject">%2$s</xliff:g>, <xliff:g id="snippet">%3$s</xliff:g> um <xliff:g id="time">%4$s</xliff:g>, <xliff:g id="readstate">%5$s</xliff:g></string>
   <!-- String used in content description field of a conversation list item when device is in accessibility mode and the conversation was read [CHAR LIMIT=250] -->
   <string name="read_string">Konversation gelesen</string>
   <!-- String used in content description field of a conversation list item when device is in accessibility mode and the conversation was not read [CHAR LIMIT=250] -->
   <string name="unread_string">Konversation ungelesen</string>
   <!-- Formatting string. If the subject contains the tag of a mailing-list (text surrounded with
     return the subject with that tag ellipsized, e.g. "[android-gmail-team] Hello" -> "[andr...] Hello" [CHAR LIMIT=100] -->
+  <string name="filtered_tag"> [<xliff:g id="tag">%1$s</xliff:g>]<xliff:g id="subject">%2$s</xliff:g></string>
   <!-- Displayed in Conversation Header View and Widget in the form of "subject - snippet"
          [CHAR LIMIT=5] -->
+  <string name="subject_and_snippet"><xliff:g>%1$s</xliff:g> \u2014 <xliff:g>%2$s</xliff:g></string>
   <!-- Displayed in browse list item when the list item is a draft message instead of showing the subject [CHAR LIMIT=100] -->
   <plurals name="draft">
     <!-- Title of the screen when there is exactly one draft -->
@@ -747,8 +772,10 @@
   <string name="send_failed">Nachricht wurde nicht gesendet.</string>
   <!-- String used to represent "me" when used as an object pronoun. This string is used when
          showing the list of recipients of a message [CHAR LIMIT=15] -->
+  <string name="me_object_pronun">ich</string>
   <!-- String used to represent "me"/"I" when used as an subject pronoun. This string is use when
          showing the list of senders for a conversation list item. [CHAR LIMIT=15] -->
+  <string name="me_subject_pronun">ich</string>
   <!-- Header for list of inboxes in the drawer (Inbox, Priority) [CHAR LIMIT=50] -->
   <plurals name="confirm_delete_conversation">
     <!-- Dialog message to confirm deletion of one conversation -->
@@ -762,11 +789,20 @@
     <!-- Dialog message to confirm archival of several conversations -->
     <item quantity="other">Diese <xliff:g id="count">%1$d</xliff:g> Konversationen archivieren?</item>
   </plurals>
+  <plurals name="confirm_discard_drafts_conversation">
+    <!-- Dialog message to confirm discarding drafts from one conversation [CHAR LIMIT=50] -->
+    <item quantity="one">Entwürfe aus dieser Konversation löschen?</item>
+    <!-- Dialog message to confirm discarding drafts from several conversations [CHAR LIMIT=50] -->
+    <item quantity="other">Entwürfe aus diesen <xliff:g id="count">%1$d</xliff:g> Konversationen löschen?</item>
+  </plurals>
   <!-- Dialog text: confirm discard -->
+  <string name="confirm_discard_text">Diese Nachricht löschen?</string>
   <!-- Conversation list shared between the Activity and Widget -->
   <!-- Displayed in the middle of the screen when conversations are being loaded [CHAR LIMIT 100]-->
+  <string name="loading_conversations">Wird geladen\u2026</string>
   <!-- Undo bar strings -->
   <!-- Menu item: undo latest action [CHAR LIMIT=12]-->
+  <string name="undo">Rückgängig</string>
   <!-- The following are shown as a toast after the operation has completed -->
   <plurals name="conversation_not_important">
     <!-- Displayed while reporting one conversation as not important in the important folder -->
@@ -822,10 +858,12 @@
   <string name="collapse_recipient_details">Empfängerdetails minimieren</string>
   <!--  Icon name for showing sender contact information. [CHAR LIMIT=100] -->
   <!--  Icon name for showing sender contact information when we cannot get sender info. [CHAR LIMIT=100] -->
+  <string name="contact_info_string_default">Kontaktinformationen anzeigen</string>
   <!-- Shown in collapsed mode when a conversation has more than one read message.
          The message count is shown to the right of this text. [CHAR LIMIT=70] -->
   <!-- Shown to display the from address of the message [CHAR LIMIT=10] -->
   <!-- Shown to display the reply to address of the message [CHAR LIMIT=20] -->
+  <string name="replyto_heading">Antworten:\u0020</string>
   <!-- Shown to display the to recipient(s) of the message [CHAR LIMIT=10] -->
   <!-- Shown to display the cc recipient(s) of the message [CHAR LIMIT=10] -->
   <!-- Shown to display the bcc recipient(s) of the message [CHAR LIMIT=10] -->
@@ -912,11 +950,14 @@
   <!-- Displayed in a message subheading. Ignore the current spam warning. [CHAR LIMIT=30] -->
   <!-- Displayed in the message heading. Shown if the message was sent via another domain. [CHAR LIMIT=10] -->
   <!-- Button text for the button to click to have the user sign in again. [CHAR LIMIT=20]-->
+  <string name="signin">Anmelden</string>
   <!-- Button text for the button to click for more information. [CHAR LIMIT=20]-->
+  <string name="info">Info</string>
   <!-- Button text for the button to click to report feedback. [CHAR LIMIT=20]-->
   <!-- Dialog title when a sync error occurs. [CHAR LIMIT=50]-->
   <!-- Dialog title when a sync error occurs. [CHAR LIMIT=100]-->
   <!-- Button text for the button to click to go to the manage storage settings screen. [CHAR LIMIT=20]-->
+  <string name="storage">Speicher</string>
   <!-- Token used as a divider between senders -->
   <!-- Token to replace senders that are not visible -->
   <!-- Token used to space out elided senders that are not visible -->
@@ -932,6 +973,14 @@
   <!-- Title of the dialog that appears the first time they perform an action that would cause
          auto advance logic to fire [CHAR LIMIT=70] -->
   <!-- The auto-advance modes -->
+  <string-array name="prefEntries_autoAdvance">
+    <!-- Newer conversation -->
+    <item>Neuer</item>
+    <!-- Older conversation -->
+    <item>Älter</item>
+    <!-- Conversation list -->
+    <item>Conversation list</item>
+  </string-array>
   <!-- Description for each auto-advance option to display after the user has picked one -->
   <!-- The entries here must correspond to the entries in prefEntries_autoAdvance [CHAR LIMIT=60] -->
   <!-- TODO: these pref keys that are never user visible should probably be
@@ -944,6 +993,7 @@
   <!-- Settings screen, message of dialog shown to confirm action when tapping
     "Clear picture approvals" [CHAR LIMIT=1000]-->
   <!-- Message shown in toast when the user taps "Restore default for "Show pictures"" in Gmail general preferences. [CHAR LIMIT=50] -->
+  <string name="sender_whitelist_cleared">Bilder werden nicht automatisch angezeigt.</string>
   <!-- Settings screen, name of the setting that lets the user choose their signature [CHAR LIMIT=50] -->
   <string name="preferences_signature_title">Signatur</string>
   <!-- Settings screen, title of the dialog that lets the user configure their signature [CHAR LIMIT=50] -->
@@ -967,14 +1017,18 @@
   <!-- String to be shown instead of a veiled addresses. [CHAR LIMIT=50] -->
   <!-- Summary string to be shown instead of a veiled recipient. [CHAR LIMIT=50] -->
   <!-- Notification ticker text for per-label notification [CHAR LIMIT=30]-->
+  <string name="label_notification_ticker">"<xliff:g id="label">%1$s</xliff:g>: <xliff:g id="notification">%2$s</xliff:g>"</string>
   <!-- Format string used when displaying the title of a notification that was triggered by a single new conversation. [CHAR LIMIT=120] -->
+  <string name="single_new_message_notification_title"><xliff:g id="sender">%1$s</xliff:g>: <xliff:g id="subject">%2$s</xliff:g></string>
   <!-- Settings screen, what to display for Ringtone when the user chooses "silent" [CHAR LIMIT=100]-->
+  <string name="silent_ringtone">Lautlos</string>
   <!-- Settings screen, preference name for archive vs. delete [CHAR LIMIT=50] -->
   <!-- Options to select from for whether to have archive or delete as the remove action [CHAR LIMIT=50] -->
   <!-- Description of currently selected option of whether to use archive or delete as remove action [CHAR LIMIT=200] -->
   <!-- Dialog title for the choosing whether to use archive or delete as remove action [CHAR LIMIT=150] -->
   <!-- The default value -->
   <!--  Settings screen, Reply to all default setting title  [CHAR LIMIT=30] -->
+  <string name="preferences_default_reply_all_title">Alle antworten</string>
   <!--  Settings screen, Reply to all default setting summary [CHAR LIMIT=70] -->
   <!-- Preference name for swipe action when action is archive [CHAR LIMIT=100]-->
   <!-- Preference name for swipe action when action is delete [CHAR LIMIT=100]-->
@@ -985,24 +1039,43 @@
   <!-- In conversation list, when user has triggered a sync via a downward swipe,
         this text is displayed in the action bar for a brief moment to
     indicate that a sync is in progress.  [CHAR LIMIT=60] -->
+  <string name="checking_for_mail">Nachrichten werden abgerufen</string>
   <!-- Conversation list screen overflow menu in trash folder [CHAR LIMIT=50]  -->
+  <string name="empty_trash">Papierkorb leeren</string>
   <!-- Conversation list screen overflow menu in spam folder [CHAR LIMIT=50]  -->
+  <string name="empty_spam">Spam-Ordner leeren</string>
   <!-- Dialog title for empty trash confirmation dialog [CHAR LIMIT=100] -->
+  <string name="empty_trash_dialog_title">Papierkorb leeren?</string>
   <!-- Dialog title for empty spam confirmation dialog [CHAR LIMIT=100] -->
+  <string name="empty_spam_dialog_title">Spam-Ordner leeren?</string>
   <!-- Dialog message for empty folder confirmation dialog [CHAR LIMIT=300] -->
+  <plurals name="empty_folder_dialog_message">
+    <item quantity="one"><xliff:g id="count">%1$d</xliff:g> Nachricht wird endgültig gelöscht.</item>
+    <item quantity="other"><xliff:g id="count">%1$d</xliff:g> Nachrichten werden endgültig gelöscht.</item>
+  </plurals>
   <!-- Strings used for accessibility for the items that toggles the drawer action  -->
+  <string name="drawer_open">Navigationsleiste öffnen</string>
+  <string name="drawer_close">Navigationsleiste schließen</string>
+  <string name="conversation_photo_welcome_text">Tippen Sie auf ein Absenderbild, um die entsprechende Konversation auszuwählen.</string>
   <!-- Content description for the folder icon for nested folders. -->
   <!--  Button, "Add account" in the preference screen [CHAR LIMIT=30] -->
+  <string name="add_account">Konto hinzufügen</string>
   <!-- Action bar title for viewing messages that are attached to another message. -->
+  <string name="attached_message">Angehängte Nachricht</string>
   <!-- Shown to display the date of the message when the message was received yesterday. [CHAR LIMIT=50]  -->
+  <string name="date_message_received_yesterday">Gestern um <xliff:g id="datetime">%1$s</xliff:g></string>
   <!-- Content description for the "X" image icon for dismissing a tip. This is used for spoken description of the icon when touch explore is enabled. [CHAR LIMIT=50] -->
+  <string name="dismiss_tip_hover_text">Tipp schließen</string>
   <!-- Tip for letting user know that their device auto-sync setting
         is turned off, in case they are wondering why they are not
         receiving any new mail. [CHAR LIMIT=250] -->
+  <string name="auto_sync_off">Automatische Synchronisierung ist deaktiviert.</string>
   <!-- Tap to turn on device auto-sync setting.  [CHAR LIMIT=250] -->
+  <string name="tap_to_enable_sync">Zum Aktivieren berühren</string>
   <!-- Tip for letting user know that their account level sync setting
         is turned off, in case they are wondering why they are not
         receiving any new mail. [CHAR LIMIT=250] -->
+  <string name="account_sync_off">Kontosynchronisierung ist deaktiviert.</string>
   <!-- Hint text for user to enable sync in Gmail's account settings.
          The whole string should read "Turn on in Account settings.", but because we need
          "Account settings" to appear as blue link text, it's a parameter here.
@@ -1043,27 +1116,42 @@
   <!-- Work pager phone number type -->
   <!-- Assistant phone number type -->
   <!-- MMS phone number type -->
+  <string name="phoneTypeMms">MMS</string>
   <!-- Label for custom events  [CHAR LIMIT=20] -->
   <!-- Label for a birthday event  [CHAR LIMIT=20] -->
   <string name="eventTypeBirthday">Geburtstag</string>
   <!-- Label for an anniversary event  [CHAR LIMIT=20] -->
   <string name="eventTypeAnniversary">Jahrestag</string>
   <!-- Label for other events  [CHAR LIMIT=20] -->
+  <string name="eventTypeOther">Andere</string>
   <!-- Custom email type -->
   <!-- Home email type -->
+  <string name="emailTypeHome">Zuhause</string>
   <!-- Work email type -->
+  <string name="emailTypeWork">Arbeit</string>
   <!-- Other email type -->
+  <string name="emailTypeOther">Andere</string>
   <!-- Mobile email type -->
+  <string name="emailTypeMobile">Mobil</string>
   <!-- Custom postal address type -->
   <!-- Home postal address type -->
+  <string name="postalTypeHome">Zuhause</string>
   <!-- Work postal address type -->
+  <string name="postalTypeWork">Arbeit</string>
   <!-- Other postal address type -->
+  <string name="postalTypeOther">Andere</string>
   <!-- Custom IM address type -->
+  <string name="imTypeCustom">Benutzerdefiniert</string>
   <!-- Home IM address type -->
+  <string name="imTypeHome">Zuhause</string>
   <!-- Work IM address type -->
+  <string name="imTypeWork">Arbeit</string>
   <!-- Other IM address type -->
+  <string name="imTypeOther">Andere</string>
   <!-- Custom IM protocol type -->
+  <string name="imProtocolCustom">Benutzerdefiniert</string>
   <!-- AIM IM protocol type -->
+  <string name="imProtocolAim">AIM</string>
   <!-- MSN IM protocol type -->
   <string name="imProtocolMsn">Windows Live</string>
   <!-- Yahoo IM protocol type -->
@@ -1081,46 +1169,75 @@
   <!-- NetMeeting IM protocol type -->
   <string name="imProtocolNetMeeting">NetMeeting</string>
   <!-- Work organization type -->
+  <string name="orgTypeWork">Arbeit</string>
   <!-- Other organization type -->
+  <string name="orgTypeOther">Andere</string>
   <!-- Custom organization type -->
+  <string name="orgTypeCustom">Benutzerdefiniert</string>
   <!-- Custom relationship custom [CHAR LIMIT=20] -->
   <!-- Assistant relationship type [CHAR LIMIT=20] -->
   <!-- Brother relationship type [CHAR LIMIT=20] -->
+  <string name="relationTypeBrother">Bruder</string>
   <!-- Child relationship type [CHAR LIMIT=20] -->
+  <string name="relationTypeChild">Kind</string>
   <!-- Domestic Partner relationship type [CHAR LIMIT=20] -->
+  <string name="relationTypeDomesticPartner">Lebensgefährte</string>
   <!-- Father relationship type [CHAR LIMIT=20] -->
+  <string name="relationTypeFather">Vater</string>
   <!-- Friend relationship type [CHAR LIMIT=20] -->
+  <string name="relationTypeFriend">Freund</string>
   <!-- Manager relationship type [CHAR LIMIT=20] -->
   <!-- Mother relationship type [CHAR LIMIT=20] -->
+  <string name="relationTypeMother">Mutter</string>
   <!-- Parent relationship type [CHAR LIMIT=20] -->
   <!-- Partner relationship type [CHAR LIMIT=20] -->
+  <string name="relationTypePartner">Partner</string>
   <!-- Referred by relationship type [CHAR LIMIT=20] -->
   <!-- Relative relationship type [CHAR LIMIT=20] -->
+  <string name="relationTypeRelative">Verwandter</string>
   <!-- Sister relationship type [CHAR LIMIT=20] -->
+  <string name="relationTypeSister">Schwester</string>
   <!-- Spouse relationship type [CHAR LIMIT=20] -->
+  <string name="relationTypeSpouse">Ehepartner</string>
   <!-- Custom SIP address type. Same context as Custom phone type.  -->
+  <string name="sipAddressTypeCustom">Benutzerdefiniert</string>
   <!-- Home SIP address type. Same context as Home phone type. -->
+  <string name="sipAddressTypeHome">Zuhause</string>
   <!-- Work SIP address type. Same context as Work phone type. -->
+  <string name="sipAddressTypeWork">Arbeit</string>
   <!-- Other SIP address type. Same context as Other phone type. -->
   <!-- Part of a description of an repeating event. This part states the date when a repeating
          event ends. The part before the semi-colon describes how it repeats.
          e.g. Every 2 weeks; until 1/1/2030 [CHAR LIMIT=21] -->
+  <string name="endByDate">; bis <xliff:g id="date">%1$s</xliff:g></string>
   <!-- Part of a description of an repeating event. This part how many times the event repeats.
          The part before the semi-colon describes how it repeats.
          e.g. Every 2 weeks; for 15 times [CHAR LIMIT=15] -->
   <!-- A description for an event that repeats daily. For example, Every 2 days [CHAR LIMIT=15]-->
+  <plurals name="daily">
+    <item quantity="one">Täglich</item>
+    <item quantity="other">Alle <xliff:g id="number">%1$d</xliff:g> Tage</item>
+  </plurals>
   <!-- A label in a multiple-choice list for the specifying that an event
          repeats every weekday (Monday through Friday) -->
   <!-- A description for an event that repeats weekly on some day of the week. For example,
          'Weekly on Tuesday' or Every 2 weeks on Monday, Tuesday.  [CHAR LIMIT=25]-->
+  <plurals name="weekly">
+    <item quantity="one">Wöchentlich am <xliff:g id="days_of_week">%2$s </xliff:g></item>
+    <item quantity="other">Alle <xliff:g id="number">%1$d</xliff:g> Wochen am <xliff:g id="days_of_week">%2$s</xliff:g></item>
+  </plurals>
   <!-- The common portion of a string describing how often an event repeats,
          example: 'Monthly (on day 2)' -->
+  <string name="monthly">Monatlich</string>
   <!-- Calendar spinner item, to select that an event recurs every year. -->
+  <string name="yearly_plain">Jährlich</string>
   <!-- [CHAR LIMIT=NONE] Boot message while upgrading calendar. -->
   <!-- Temporary Calendar name to use before we have the calendar name from the server -->
   <!-- Caption on secret calendar info -->
   <!-- Error message for secret calendar info -->
+  <string name="calendar_info_error">Fehler</string>
   <!-- No calendars message for secret calendar info -->
+  <string name="calendar_info_no_calendars">Keine Kalender</string>
   <!-- Event count message for secret calendar info -->
   <!-- Event and dirty event count message for secret calendar info -->
   <!-- What to show in messaging that refers to this provider, e.g. AccountSyncSettings -->
