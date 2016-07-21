@@ -120,6 +120,7 @@
   <string name="account_duplicate_dlg_title">Bikoiztu kontua</string>
   <!-- Message of dialog shown when a duplicate account is created.  The display name of
          the duplicate account is displayed. -->
+  <string name="account_duplicate_dlg_message_fmt">Erabiltzaile izen hau jada \"<xliff:g id="duplicate">%1$s</xliff:g>\" kontuarentzat erabiltzen duzu.</string>
   <!-- String that is displayed as error text for passwords with leading or trailing
          spaces.  [CHAR LIMIT=none] -->
   <string name="account_password_spaces_error">Zure pasahitzak espazioren bat du hasieran edo amaieran. Zerbitzari askok ez dituzte onartzen espazioak pasahitzetan.</string>
@@ -515,13 +516,21 @@
   <!-- Compose -->
   <!-- Shown in Compose; the sender of the message [CHAR LIMIT=10] -->
   <!-- Shown in Compose; the recipient(s) of the message [CHAR LIMIT=10] -->
+  <string name="to">Nori</string>
   <!-- Shown in Compose; the cc recipient(s) of the message [CHAR LIMIT=10] -->
+  <string name="cc">Cc</string>
   <!-- Shown in Compose; the bcc recipient(s) of the message [CHAR LIMIT=10] -->
+  <string name="bcc">Bcc</string>
   <!-- Shown in Compose; the subject of the message [CHAR LIMIT=100] -->
+  <string name="subject_hint">Gaia</string>
   <!-- Shown in Compose; the subject of the message [CHAR LIMIT=100] -->
+  <string name="body_hint">Idatzi eposta</string>
   <!--  Compose screen button. Add an attachment to this message [CHAR LIMIT=20] -->
+  <string name="add_file_attachment">Erantsi fitxategia</string>
   <!--  Compose screen button. Add a photo attachment to this message [CHAR LIMIT=20] -->
+  <string name="add_photo_attachment">Erantsi irudia</string>
   <!-- Button name: save this message as draft [CHAR LIMIT=25]-->
+  <string name="save_draft">Gorde zirriborroa</string>
   <!--  Button name: discard this message [CHAR LIMIT=15] -->
   <!-- The possible ways to reply to a message [CHAR LIMIT=15] -->
   <!-- The possible ways to reply to a message [CHAR LIMIT=15] -->
@@ -534,36 +543,62 @@
   <!-- Compose screen, displayed at the top of a message being forwarded if there are any email addresses in the CC list. Please preserve the HTML entities (surrounded by & and ;). [CHAR LIMIT=1000]-->
   <!-- Dialog text: select the type of an attachment while composing [CHAR LIMIT=100]-->
   <!-- Toast, attachment too large for single file [CHAR LIMIT=100] -->
+  <string name="too_large_to_attach_single">Ezin da erantsi <xliff:g id="maxSize">%1$s</xliff:g> baino gehiagoko fitxategi bat.</string>
   <!-- Toast, attachment too large for multiple files [CHAR LIMIT=100] -->
+  <string name="too_large_to_attach_multiple">Gutxienez fitxategi bat ez da erantsi. Muga <xliff:g id="maxSize">%1$s</xliff:g>.</string>
   <!-- Toast, attachment too large when existing attachments exist [CHAR LIMIT=100] -->
+  <string name="too_large_to_attach_additional">Fitxategia ez da erantsi. <xliff:g id="maxSize">%1$s</xliff:g>(e)ko muga gainditu da.</string>
   <!-- Toast, problem attaching file [CHAR LIMIT=100] -->
+  <string name="generic_attachment_problem">Ezin izan da fitxategia erantsi.</string>
   <!-- Displayed for one second after trying to send with no recipients in To field [CHAR LIMIT=200]-->
+  <string name="recipient_needed">Gehitu hartzaile bat gutxienez.</string>
   <!-- Title for recipient error dialog [CHAR LIMIT=200]-->
   <!-- Title for send confirmation dialog [CHAR LIMIT=200]-->
   <!-- Messages for send confirmation dialog [CHAR LIMIT=100]-->
+  <string name="confirm_send_message_with_no_subject">Ez dago testurik mezuaren gaian.</string>
+  <string name="confirm_send_message_with_no_body">Ez dago testurik mezuaren gorputzean.</string>
+  <string name="confirm_send_message">Bidali mezu hau?</string>
   <!-- Displayed for one second after discarding draft message [CHAR LIMIT=50]-->
+  <string name="message_discarded">Mezua baztertu da.</string>
   <!--  Shown in the from dropdown in front of custom from addresses. [CHAR LIMIT=15] -->
+  <string name="custom_from_account_label">Bidali mezua kontu honetatik:</string>
   <!-- Menu item: send this message -->
+  <string name="send">Bidali</string>
   <!-- Menu item: mark this conversation as read -->
+  <string name="mark_read">Markatu irakurrita gisa</string>
   <!-- Menu item: mark this conversation as unread -->
+  <string name="mark_unread">Markatu ez irakurrita gisa</string>
   <!--  Menu item: mute this conversation -->
   <!-- Menu item: add a star to this conversation -->
+  <string name="add_star">Gehitu izarra</string>
   <!-- Menu item: remove the star from this conversation -->
+  <string name="remove_star">Kendu izarra</string>
   <!-- Remove the folder from this conversation [CHAR LIMIT = 30]-->
   <!-- Menu item: archive this conversation -->
+  <string name="archive">Artxibatu</string>
   <!-- Menu item: report this conversation as spam [CHAR LIMIT = 30] -->
+  <string name="report_spam">Salatu zabor posta</string>
   <!-- Menu item: report this conversation not as spam [CHAR LIMIT = 30] -->
   <!-- Menu item: report this conversation as phishing [CHAR LIMIT = 30] -->
   <!-- Menu item: delete this conversation -->
+  <string name="delete">Ezabatu</string>
   <!-- Menu item: discard the drafts in this conversation [CHAR LIMIT = 30] -->
+  <string name="discard_drafts">Ezabatu zirriborroak</string>
   <!-- Menu item: refresh the inbox -->
+  <string name="refresh">Freskatu</string>
   <!-- Menu item: reply to this message -->
+  <string name="reply">Erantzun</string>
   <!-- Menu item: reply to all recipients in this message [CHAR LIMIT=18] -->
+  <string name="reply_all">Erantzun guztiei</string>
   <!-- Menu item: resume a draft message [CHAR LIMIT=12] -->
+  <string name="resume_draft">Editatu</string>
   <!-- Menu item: forward this message -->
+  <string name="forward">Berbidali</string>
   <!-- Menu item: compose a new email -->
   <!-- Menu item: change the folders for this conversation. -->
+  <string name="menu_change_folders">Aldatu karpetak</string>
   <!-- Menu item: moves to folders for selected conversation(s). [CHAR LIMIT = 30] -->
+  <string name="menu_move_to">Mugitu hona</string>
   <!-- Menu item: moves current or selected conversation(s) to Inbox. [CHAR LIMIT = 30] -->
   <!-- Menu item: manages the folders for this account. [CHAR LIMIT = 30] -->
   <!-- Menu item text to show the original version of an email conversation, before message manipulation [CHAR LIMIT=25] -->
@@ -571,15 +606,23 @@
   <!-- Menu item: launch the Settings activity -->
   <string name="menu_settings">Ezarpenak</string>
   <!-- Menu item: search through the Gmail inbox -->
+  <string name="menu_search">Bilatu</string>
   <!--  Menu item: shown in conversation menu. Tap this to move to mark conversation as important [CHAR LIMIT=30] -->
+  <string name="mark_important">Markatu garrantzitsu gisa</string>
   <!--  Menu item: shown in conversation menu. Tap this to move to mark conversation as not important [CHAR LIMIT=30] -->
+  <string name="mark_not_important">Markatu ez garrantzitsu gisa</string>
   <!-- Compose screen, menu item: add Cc/Bcc fields -->
+  <string name="add_cc_label">Gehitu Cc/Bcc</string>
   <!-- Compose screen, menu item: add Bcc field [CHAR_LIMIT=20]-->
   <!-- Solicit feedback string in about screen [CHAR LIMIT=50]-->
   <!-- Menu item that displays the help page for Gmail. [CHAR LIMIT=50]-->
+  <string name="help_and_info">Laguntza</string>
   <!-- Compose screen, Prefix to quoted text in forwarded/replied message [CHAR LIMIT=50]-->
+  <string name="quoted_text">Txertatu aipatutako testua</string>
   <!-- Compose screen, Prefix to quoted text in forwarded/replied message; folder for the quoted text area. [CHAR LIMIT=25] -->
+  <string name="quoted_text_label">Aipatu testua</string>
   <!--  Button for including inline responses. [CHAR LIMIT=25] -->
+  <string name="respond_inline">Mezuan bertan erantzun</string>
   <!-- Format string for email addresses -->
   <!-- Attachments -->
   <!-- Size unit, displayed in a button next to an attachment [CHAR LIMIT=5]-->
@@ -638,6 +681,7 @@
          [CHAR LIMIT=5] -->
   <!-- Displayed in browse list item when the list item is a draft message instead of showing the subject [CHAR LIMIT=100] -->
   <!-- Message displayed in a browse list item for one second when message is being sent [CHAR LIMIT=20]-->
+  <string name="sending">Bidaltzen\u2026</string>
   <!-- Message displayed in a browse list item for one second after a send failed [CHAR LIMIT=26]-->
   <!-- String used to represent "me" when used as an object pronoun. This string is used when
          showing the list of recipients of a message [CHAR LIMIT=15] -->
@@ -647,48 +691,137 @@
   <!-- Dialog text: confirm discard -->
   <!-- Conversation list shared between the Activity and Widget -->
   <!-- Displayed in the middle of the screen when conversations are being loaded [CHAR LIMIT 100]-->
+  <string name="loading_conversations">Kargatzen\u2026</string>
   <!-- Undo bar strings -->
   <!-- Menu item: undo latest action [CHAR LIMIT=12]-->
+  <string name="undo">Desegin</string>
+  <plurals name="conversation_unstarred">
+    <item quantity="one">Elkarrizketa <xliff:g id="count">%1$d</xliff:g>i izarra kentzen.</item>
+    <item quantity="other"><xliff:g id="count">%1$d</xliff:g> elkarrizketei izarra kentzen.</item>
+  </plurals>
   <!-- The following are shown as a toast after the operation has completed -->
+  <plurals name="conversation_muted">
+    <!-- Displayed while muting one conversation -->
+    <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; mutututa.</item>
+    <!-- Displayed while muting several conversations -->
+    <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; mutututa.</item>
+  </plurals>
+  <plurals name="conversation_spammed">
+    <!-- Displayed while reporting one conversation as spam -->
+    <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; zabor posta gisa salatua.</item>
+    <!-- Displayed while reporting several conversations as spam -->
+    <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; zabor posta gisa salatuak.</item>
+  </plurals>
+  <plurals name="conversation_not_spam">
+    <!-- Displayed while reporting one conversation as not spam -->
+    <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; ez zabor posta gisa markatua.</item>
+    <!-- Displayed while reporting several conversations as not spam -->
+    <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; ez zabor posta gisa markatuak.</item>
+  </plurals>
+  <plurals name="conversation_not_important">
+    <!-- Displayed while reporting one conversation as not important in the important folder -->
+    <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; ez garrantzitsu gisa markatu da.</item>
+    <!-- Displayed while reporting several conversations as not important in the important folder -->
+    <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; ez garrantzitsu gisa markatu dira.</item>
+  </plurals>
+  <plurals name="conversation_phished">
+    <!-- Displayed while reporting one conversation as phishing -->
+    <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; iruzur gisa salatu da.</item>
+    <!-- Displayed while reporting several conversations as phishing -->
+    <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; iruzur gisa salatu dira.</item>
+  </plurals>
+  <plurals name="conversation_archived">
+    <!-- Displayed while archiving one conversation -->
+    <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; artxibatu da.</item>
+    <!-- Displayed while archiving multiple conversations -->
+    <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; artxibatu dira.</item>
+  </plurals>
+  <plurals name="conversation_deleted">
+    <!-- Displayed while deleting one conversation -->
+    <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; ezabatu da.</item>
+    <!-- Displayed while deleting multiple conversations -->
+    <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; ezabatu dira.</item>
+  </plurals>
   <!-- Displayed when swiping away a single conversation to delete it [CHAR LIMIT=80] -->
+  <string name="deleted">Ezabatuta</string>
   <!-- Displayed when swiping away a single conversation to archive it [CHAR LIMIT=80] -->
+  <string name="archived">Artxibatuta</string>
   <!-- Displayed when swiping away a single conversation to remove the currently displayed folder [CHAR LIMIT=80] -->
+  <string name="folder_removed"><xliff:g id="folderName">%1$s</xliff:g>tik kenduta</string>
+  <plurals name="conversation_folder_changed">
+    <!-- Displayed while adding and removing folders to a single conversation. [CHAR LIMIT=100] -->
+    <item quantity="one">Karpeta aldatuta.</item>
+    <!-- Displayed while adding and removing folders to multiple conversations. [CHAR LIMIT=100] -->
+    <item quantity="other">Karpetak aldatuta.</item>
+  </plurals>
   <!-- Displayed after moving a conversation to a different folder. [CHAR LIMIT=100] -->
+  <string name="conversation_folder_moved"><xliff:g id="folderName">%1$s</xliff:g>ra mugituta</string>
   <!-- Search Results: Text for header that is shown above search results [CHAR LIMIT=30] -->
+  <string name="search_results_header">Emaitzak</string>
   <!-- Toast shown when the user taps the search hard key when viewing an account that does not support search [CHAR LIMIT=100] -->
+  <string name="search_unsupported">Kontu honek ez du bilaketa onartzen.</string>
   <!-- Search Results: Text for header that is shown above search results, while waiting for search results from the server [CHAR LIMIT=30] -->
+  <string name="search_results_searching_header">Bilatzen\u2026</string>
   <!-- Conversation view -->
   <!--  Text anchor for control to add / change labels on a conversation when
           viewing it. [CHAR LIMIT=40] -->
+  <string name="add_label">Gehitu karpeta</string>
   <!-- Conversation message header strings -->
   <!--  Icon name for expanding recipient details in a message when viewing it. [CHAR LIMIT=40] -->
+  <string name="expand_recipient_details">Zabaldu hartzailearen xehetasunak</string>
   <!--  Icon name for collapsing recipient details in a message when viewing it. [CHAR LIMIT=40] -->
+  <string name="collapse_recipient_details">Tolestu hartzailearen xehetasunak</string>
   <!--  Icon name for showing sender contact information. [CHAR LIMIT=100] -->
+  <string name="contact_info_string">Erakutsi <xliff:g id="name">%1$s</xliff:g> kontaktuaren informazioa</string>
   <!--  Icon name for showing sender contact information when we cannot get sender info. [CHAR LIMIT=100] -->
+  <string name="contact_info_string_default">Erakutsi kontaktuaren informazioa</string>
   <!-- Shown in collapsed mode when a conversation has more than one read message.
          The message count is shown to the right of this text. [CHAR LIMIT=70] -->
+  <plurals name="show_messages_read">
+    <item quantity="one">aurreko mezu <xliff:g id="count" example="4">%1$d</xliff:g></item>
+    <item quantity="other">aurreko <xliff:g id="count" example="4">%1$d</xliff:g> mezu</item>
+  </plurals>
   <!-- Shown to display the from address of the message [CHAR LIMIT=10] -->
   <!-- Shown to display the reply to address of the message [CHAR LIMIT=20] -->
+  <string name="replyto_heading">Erantzun honi:\u0020</string>
   <!-- Shown to display the to recipient(s) of the message [CHAR LIMIT=10] -->
+  <string name="to_heading">Nori:\u0020</string>
   <!-- Shown to display the cc recipient(s) of the message [CHAR LIMIT=10] -->
+  <string name="cc_heading">Cc:\u0020</string>
   <!-- Shown to display the bcc recipient(s) of the message [CHAR LIMIT=10] -->
+  <string name="bcc_heading">Bcc:\u0020</string>
   <!-- Shown to display the recipient(s) of the message [CHAR LIMIT=10] -->
   <!-- Displayed above an HTML message to show the images in that message [CHAR LIMIT=40] -->
+  <string name="show_images">Erakutsi irudiak</string>
   <!-- Displayed above an HTML message to always show images in messages from that sender [CHAR LIMIT=40] -->
+  <string name="always_show_images">Beti erakutsi igorle honen irudiak</string>
   <!-- Shown in a toast to acknowledge always showing images for a sender [CHAR LIMIT=100] -->
+  <string name="always_show_images_toast">Igorle honen irudiak automatikoki erakutsiko dira.</string>
   <!-- Display format of an email recipient, displayed in expanded message details [CHAR LIMIT=10] -->
+  <string name="address_display_format"><xliff:g id="name">%1$s</xliff:g> <xliff:g id="email">%2$s</xliff:g></string>
   <!-- Display format of an email sender if the message has a via domain set, displayed in expanded message details [CHAR LIMIT=15] -->
+  <string name="address_display_format_with_via_domain"><xliff:g id="name">%1$s</xliff:g> <xliff:g id="email">%2$s</xliff:g>, <xliff:g id="via_domain">%3$s</xliff:g> bidez</string>
   <!-- Displayed for one second after user saves message as draft [CHAR LIMIT=50]-->
+  <string name="message_saved">Mezua zirriborro gisa gorde da.</string>
   <!-- Displayed for one second while message is being sent [CHAR LIMIT=50]-->
+  <string name="sending_message">Mezua bidaltzen\u2026</string>
   <!-- Displayed for one second after trying to send with invalid recipients [CHAR LIMIT=50]-->
   <!-- Shown in HTML to allow the user to see quoted text; should match Gmail web UI. 25B6 is Unicode for a right-pointing triangle. [CHAR LIMIT=50] -->
+  <string name="show_elided">\u25B6 Bistaratu aipatutako testua</string>
   <!-- Shown in HTML to allow the user to hide quoted text; should match Gmail web UI. 25BC is Unicode for a downward-pointing triangle. [CHAR LIMIT=50] -->
+  <string name="hide_elided">\u25BC Ezkutatu aipatutako testua</string>
   <!-- Shown as a heading in message view when a message contains a calendar invite [CHAR LIMIT=30]-->
+  <string name="message_invite_title">Egutegi gonbitea</string>
   <!-- Shown as a button label in message view to launch calendar to see this invite [CHAR LIMIT=40]-->
+  <string name="message_invite_calendar_view">Ikusi egutegian</string>
   <!-- Shown as a text label in message view describing the choices of whether to attend an invite [CHAR LIMIT=20]-->
+  <string name="message_invite_label_attending">Bazoaz?</string>
   <!-- Shown as a button label in message view to accept a calendar invite [CHAR LIMIT=20]-->
+  <string name="message_invite_accept">Bai</string>
   <!-- Shown as a button label in message view to give a tentative response to a calendar invite [CHAR LIMIT=20]-->
+  <string name="message_invite_tentative">Agian</string>
   <!-- Shown as a button label in message view to decline a calendar invite [CHAR LIMIT=20]-->
+  <string name="message_invite_decline">Ez</string>
   <!-- An enumeration comma for separating items in lists. [CHAR LIMIT=2] -->
   <!-- Button name, displayed in dialogs [CHAR LIMIT=10]-->
   <!-- Button name, displayed in dialogs [CHAR LIMIT=10]-->
@@ -699,6 +832,7 @@
   <!-- Button name, displayed in dialogs [CHAR LIMIT=10] -->
   <string name="cancel">Utzi</string>
   <!-- Button name, displayed in dialogs [CHAR LIMIT=10] -->
+  <string name="clear">Garbitu</string>
   <!-- Sync status errors. Please do not change the order [CHAR LIMIT=100] -->
   <!-- Widget strings -->
   <!-- Displayed when user adds a new widget. Tapping on the widget in this
@@ -742,6 +876,7 @@
   <!-- Displayed in the message heading. Shown if the message was sent via another domain. [CHAR LIMIT=10] -->
   <!-- Button text for the button to click to have the user sign in again. [CHAR LIMIT=20]-->
   <!-- Button text for the button to click for more information. [CHAR LIMIT=20]-->
+  <string name="info">Info</string>
   <!-- Button text for the button to click to report feedback. [CHAR LIMIT=20]-->
   <!-- Dialog title when a sync error occurs. [CHAR LIMIT=50]-->
   <!-- Dialog title when a sync error occurs. [CHAR LIMIT=100]-->
@@ -768,34 +903,51 @@
   <!-- The default auto-advance mode -->
   <!-- The auto-advance mode values -->
   <!-- Settings screen, title of "Restore default for "Show pictures"" [CHAR LIMIT=1000]-->
+  <string name="clear_display_images_whitelist_title">Garbitu irudi onarpenak</string>
   <!-- Settings screen, title of dialog shown to confirm action when user taps
     "Clear picture approvals" in preferences [CHAR LIMIT=200]-->
+  <string name="clear_display_images_whitelist_dialog_title">Garbitu irudi onarpenak?</string>
   <!-- Settings screen, message of dialog shown to confirm action when tapping
     "Clear picture approvals" [CHAR LIMIT=1000]-->
+  <string name="clear_display_images_whitelist_dialog_message">Utzi aurretik baimendutako igorleen mezuetako irudiak bistaratzeari.</string>
   <!-- Message shown in toast when the user taps "Restore default for "Show pictures"" in Gmail general preferences. [CHAR LIMIT=50] -->
+  <string name="sender_whitelist_cleared">Irudiak ez dira automatikoki erakutsiko.</string>
   <!-- Settings screen, name of the setting that lets the user choose their signature [CHAR LIMIT=50] -->
+  <string name="preferences_signature_title">Sinadura</string>
   <!-- Settings screen, title of the dialog that lets the user configure their signature [CHAR LIMIT=50] -->
+  <string name="preferences_signature_dialog_title">Sinadura</string>
   <!-- Settings screen, setting summary text when no signature set [CHAR LIMIT=100] -->
+  <string name="preferences_signature_summary_not_set">Ezarri gabea</string>
   <!-- Notification action for replying-all to a message. [CHAR LIMIT=20] -->
+  <string name="notification_action_reply_all">Erantzun guztiei</string>
   <!-- Notification action for archiving a message. [CHAR LIMIT=20] -->
+  <string name="notification_action_archive">Artxibatu</string>
   <!-- Notification action for removing a label from a message. [CHAR LIMIT=20] -->
+  <string name="notification_action_remove_label">Kendu etiketa</string>
   <!-- Notification undo text after archiving a message. [CHAR LIMIT=30] -->
+  <string name="notification_action_undo_archive">Artxibatuta</string>
   <!-- Notification undo text after removing a label from a message. [CHAR LIMIT=30] -->
+  <string name="notification_action_undo_remove_label">Etiketa kendu da</string>
   <!-- Notification undo text after deleting a message. [CHAR LIMIT=30] -->
+  <string name="notification_action_undo_delete">Ezabatuta</string>
   <!-- Regex that specifies veiled addresses. These are all empty because this is disabled currently. -->
   <!-- String to be shown instead of a veiled addresses. [CHAR LIMIT=50] -->
   <!-- String to be shown instead of a veiled addresses. [CHAR LIMIT=50] -->
   <!-- Summary string to be shown instead of a veiled recipient. [CHAR LIMIT=50] -->
   <!-- Notification ticker text for per-label notification [CHAR LIMIT=30]-->
   <!-- Format string used when displaying the title of a notification that was triggered by a single new conversation. [CHAR LIMIT=120] -->
+  <string name="single_new_message_notification_title"><xliff:g id="sender">%1$s</xliff:g>: <xliff:g id="subject">%2$s</xliff:g></string>
   <!-- Settings screen, what to display for Ringtone when the user chooses "silent" [CHAR LIMIT=100]-->
+  <string name="silent_ringtone">Isilik</string>
   <!-- Settings screen, preference name for archive vs. delete [CHAR LIMIT=50] -->
   <!-- Options to select from for whether to have archive or delete as the remove action [CHAR LIMIT=50] -->
   <!-- Description of currently selected option of whether to use archive or delete as remove action [CHAR LIMIT=200] -->
   <!-- Dialog title for the choosing whether to use archive or delete as remove action [CHAR LIMIT=150] -->
   <!-- The default value -->
   <!--  Settings screen, Reply to all default setting title  [CHAR LIMIT=30] -->
+  <string name="preferences_default_reply_all_title">Erantzun guztiei</string>
   <!--  Settings screen, Reply to all default setting summary [CHAR LIMIT=70] -->
+  <string name="preferences_default_reply_all_summary">Erabili lehenetsita mezuak erantzuteko</string>
   <!-- Preference name for swipe action when action is archive [CHAR LIMIT=100]-->
   <!-- Preference name for swipe action when action is delete [CHAR LIMIT=100]-->
   <!-- Preference description swiping in conversation list option [CHAR LIMIT=100] -->
@@ -846,10 +998,14 @@
   <!-- Home phone number type -->
   <!-- Mobile phone number type -->
   <!-- Work phone number type -->
+  <string name="phoneTypeWork">Lana</string>
   <!-- Work fax phone number type -->
+  <string name="phoneTypeFaxWork">Laneko faxa</string>
   <!-- Home fax phone number type -->
+  <string name="phoneTypeFaxHome">Etxeko faxa</string>
   <!-- Pager phone number type -->
   <!-- Other phone number type -->
+  <string name="phoneTypeOther">Beste bat</string>
   <!-- Callback phone number type -->
   <!-- Car phone number type -->
   <!-- Company main phone number type -->
@@ -863,54 +1019,99 @@
   <!-- Work pager phone number type -->
   <!-- Assistant phone number type -->
   <!-- MMS phone number type -->
+  <string name="phoneTypeMms">MMS</string>
   <!-- Label for custom events  [CHAR LIMIT=20] -->
+  <string name="eventTypeCustom">Pertsonalizatua</string>
   <!-- Label for a birthday event  [CHAR LIMIT=20] -->
+  <string name="eventTypeBirthday">Urtebetetzea</string>
   <!-- Label for an anniversary event  [CHAR LIMIT=20] -->
   <!-- Label for other events  [CHAR LIMIT=20] -->
+  <string name="eventTypeOther">Beste bat</string>
   <!-- Custom email type -->
+  <string name="emailTypeCustom">Pertsonalizatua</string>
   <!-- Home email type -->
+  <string name="emailTypeHome">Etxekoa</string>
   <!-- Work email type -->
+  <string name="emailTypeWork">Lanekoa</string>
   <!-- Other email type -->
+  <string name="emailTypeOther">Beste bat</string>
   <!-- Mobile email type -->
+  <string name="emailTypeMobile">Mugikorra</string>
   <!-- Custom postal address type -->
+  <string name="postalTypeCustom">Pertsonalizatua</string>
   <!-- Home postal address type -->
+  <string name="postalTypeHome">Etxekoa</string>
   <!-- Work postal address type -->
+  <string name="postalTypeWork">Lanekoa</string>
   <!-- Other postal address type -->
+  <string name="postalTypeOther">Beste bat</string>
   <!-- Custom IM address type -->
+  <string name="imTypeCustom">Pertsonalizatua</string>
   <!-- Home IM address type -->
+  <string name="imTypeHome">Etxekoa</string>
   <!-- Work IM address type -->
+  <string name="imTypeWork">Lanekoa</string>
   <!-- Other IM address type -->
+  <string name="imTypeOther">Beste bat</string>
   <!-- Custom IM protocol type -->
+  <string name="imProtocolCustom">Pertsonalizatua</string>
   <!-- AIM IM protocol type -->
+  <string name="imProtocolAim">AIM</string>
   <!-- MSN IM protocol type -->
+  <string name="imProtocolMsn">Windows Live</string>
   <!-- Yahoo IM protocol type -->
+  <string name="imProtocolYahoo">Yahoo</string>
   <!-- Skype IM protocol type -->
+  <string name="imProtocolSkype">Skype</string>
   <!-- QQ IM protocol type -->
+  <string name="imProtocolQq">QQ</string>
   <!-- Google Talk IM protocol type -->
+  <string name="imProtocolGoogleTalk">Hangouts</string>
   <!-- ICQ IM protocol type -->
+  <string name="imProtocolIcq">ICQ</string>
   <!-- Jabber IM protocol type -->
+  <string name="imProtocolJabber">Jabber</string>
   <!-- NetMeeting IM protocol type -->
+  <string name="imProtocolNetMeeting">NetMeeting</string>
   <!-- Work organization type -->
+  <string name="orgTypeWork">Lanekoa</string>
   <!-- Other organization type -->
+  <string name="orgTypeOther">Beste bat</string>
   <!-- Custom organization type -->
+  <string name="orgTypeCustom">Pertsonalizatua</string>
   <!-- Custom relationship custom [CHAR LIMIT=20] -->
   <!-- Assistant relationship type [CHAR LIMIT=20] -->
   <!-- Brother relationship type [CHAR LIMIT=20] -->
+  <string name="relationTypeBrother">Anaia/Neba</string>
   <!-- Child relationship type [CHAR LIMIT=20] -->
+  <string name="relationTypeChild">Semea/Alaba</string>
   <!-- Domestic Partner relationship type [CHAR LIMIT=20] -->
+  <string name="relationTypeDomesticPartner">Etxekidea</string>
   <!-- Father relationship type [CHAR LIMIT=20] -->
+  <string name="relationTypeFather">Aita</string>
   <!-- Friend relationship type [CHAR LIMIT=20] -->
+  <string name="relationTypeFriend">Laguna</string>
   <!-- Manager relationship type [CHAR LIMIT=20] -->
+  <string name="relationTypeManager">Nagusia</string>
   <!-- Mother relationship type [CHAR LIMIT=20] -->
+  <string name="relationTypeMother">Ama</string>
   <!-- Parent relationship type [CHAR LIMIT=20] -->
+  <string name="relationTypeParent">Gurasoa</string>
   <!-- Partner relationship type [CHAR LIMIT=20] -->
+  <string name="relationTypePartner">Bikotea</string>
   <!-- Referred by relationship type [CHAR LIMIT=20] -->
   <!-- Relative relationship type [CHAR LIMIT=20] -->
+  <string name="relationTypeRelative">Familia</string>
   <!-- Sister relationship type [CHAR LIMIT=20] -->
+  <string name="relationTypeSister">Ahizta/arreba</string>
   <!-- Spouse relationship type [CHAR LIMIT=20] -->
+  <string name="relationTypeSpouse">Emaztea</string>
   <!-- Custom SIP address type. Same context as Custom phone type.  -->
+  <string name="sipAddressTypeCustom">Pertsonalizatua</string>
   <!-- Home SIP address type. Same context as Home phone type. -->
+  <string name="sipAddressTypeHome">Etxekoa</string>
   <!-- Work SIP address type. Same context as Work phone type. -->
+  <string name="sipAddressTypeWork">Lanekoa</string>
   <!-- Other SIP address type. Same context as Other phone type. -->
   <!-- Part of a description of an repeating event. This part states the date when a repeating
          event ends. The part before the semi-colon describes how it repeats.

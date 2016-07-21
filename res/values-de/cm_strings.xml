@@ -364,15 +364,20 @@
   <string name="enter_passcode_hint">Geben Sie Ihr Passwort ein</string>
   <string name="enter_passcode_go">Los</string>
   <string name="enter_passcode_failure">Falsches Passwort</string>
+  <string name="enter_passcode_failure_with_max">%1$d von %2$d Versuchen fehlgeschlagen</string>
+  <string name="enter_passcode_last_chance">1 verbleibender Versuch.\nWenn dieser fehlschlägt, werden alle E-Mails vom Gerät gelöscht.</string>
   <!-- Start of combined settings strings -->
   <string name="header_category_mail">E-Mail</string>
   <string name="header_default_account_title">Standardkonto</string>
   <string name="header_local_calendars_title">Lokale Kalender</string>
+  <string name="header_mail_settings_title">Weitere Mail-Einstellungen</string>
+  <string name="header_calendar_settings_title">Weitere Kalender-Einstellungen</string>
   <string name="header_passcode_title">Passwort</string>
   <!-- In Account Setup options screen, label for email lookback selector -->
   <!-- In Account Settings screen, label for email lookback selector -->
   <string name="account_settings_options_mail_window_label">Zu synchronisierende Tage</string>
   <string name="default_account_fragment_title">Standardkonto</string>
+  <string name="mail_settings_fragment_title">Mail-Einstellungen</string>
   <!-- The menu item to send logs -->
   <string name="menu_send_logs">Protokolle senden</string>
   <!-- The menu item to open the about section -->
@@ -384,6 +389,10 @@
   <string name="privacy_policy">AirWatch-Datenschutzrichtlinie</string>
   <!-- Name of the DeviceAdmin (seen in settings & in user confirmation screen) -->
   <!-- Settings passcode strings -->
+  <string name="settings_passcode_on">Passwort einschalten</string>
+  <string name="settings_passcode_off">Passwort ausschalten</string>
+  <string name="settings_passcode_change">Passwort ändern</string>
+  <string name="settings_passcode_time_interval">Passwort erforderlich</string>
   <!-- String array for require passcode in passcode settings -->
   <string name="settings_require_passcode_1min">1 Minute</string>
   <string name="settings_require_passcode_2min">2 Minuten</string>
@@ -405,5 +414,22 @@
     <item quantity="other">Stunden</item>
   </plurals>
   <!-- Permission related string -->
+  <string name="permissions_enable">Aktivieren</string>
   <!-- String shown as a toast when sending a quick response fails due to some unknown error-->
+  <string name="account_setup_options_title">Synchronisierungsoptionen</string>
+  <string name="view">Anzeigen</string>
+  <string name="original_appointment">----Ursprüngliche Termin----</string>
+  <string name="meeting_from">
+        Von:
+        <xliff:g id="From">%s</xliff:g>
+    </string>
+  <string name="meeting_subject">
+        Betreff:
+        <xliff:g id="Subject">%s</xliff:g>
+    </string>
+  <string name="meeting_to">An: <xliff:g id="To">%s</xliff:g>     </string>
+  <string name="email_attendees">E-Mail an Teilnehmer senden</string>
+  <string name="forward_event">Termin weiterleiten</string>
+  <string name="email_organizer">E-Mail an Organisator senden</string>
+  <string name="email_everyone">E-Mail an alle senden</string>
 </resources>

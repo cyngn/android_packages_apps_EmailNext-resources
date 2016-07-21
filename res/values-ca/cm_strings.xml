@@ -29,6 +29,8 @@
   <string name="account_setup_email_address_hint">Introdueix la teva adreça de correu electrònic</string>
   <string name="account_setup_password_label">Introdueix la teva contrasenya</string>
   <string name="account_setup_discovery_account_name_hint">Nom del compte</string>
+  <string name="account_setup_username_invalid_chars">No s\'admeten els caràcters següents: <xliff:g id="chars">%1$s</xliff:g></string>
+  <string name="account_setup_invalid_server_address">S\'ha introduït una adreça de servidor invàlida</string>
   <string name="account_setup_oauth_required_failure">La verificació en dos passos encara no està suportada pels comptes <xliff:g id="account_type">%1$s</xliff:g>. Si us plau accedeix al teu compte per generar una contrasenya específica d\'aplicació.</string>
   <string name="account_setup_domain_label">Domini</string>
   <string name="account_setup_server_info_heading">Info del servidor</string>
@@ -51,6 +53,7 @@
   <string name="account_setup_confirm_passcode_action_label">Confirma</string>
   <string name="account_setup_check_settings_dialog_manual_button">Manual</string>
   <!-- Error message shown in dialog body when authenticating an account during setup fails -->
+  <string name="account_setup_failed_dlg_message_fmt"><xliff:g id="error_msg">%1$s</xliff:g>Vols actualitzar la teva configuració i provar-ho una altra vegada o vols introduir la configuració manualment?</string>
   <!-- Dialog title when "setup" could not finish -->
   <string name="account_setup_failed_dlg_title">No s\'ha pogut configurar el compte</string>
   <!-- hint for account email password text field -->
@@ -128,6 +131,7 @@
   <!-- Preference for the compose toolbar -->
   <string name="preference_compose_toolbar_visibility">Mostra la barra d\'eines de redacció</string>
   <!-- Preference for conversation threading -->
+  <string name="preference_conversation_threading">Fils de conversa</string>
   <string name="message_send_failed_ticker">L\'enviament del missatge ha fallat</string>
   <string name="message_send_failed_title">Missatge no enviat</string>
   <string name="preferences_clear_search_history_title">Neteja l\'historial de cerca</string>
@@ -442,6 +446,7 @@
   <string name="header_calendar_settings_title">Més configuracions del calendari</string>
   <string name="header_passcode_title">Contrasenya</string>
   <!-- In Account Setup options screen, label for email lookback selector -->
+  <string name="account_setup_options_mail_window_label">Correu sincronitzat per</string>
   <!-- In Account Settings screen, label for email lookback selector -->
   <string name="account_settings_options_mail_window_label">Dies per sincronitzar</string>
   <string name="account_settings_sync_calendar_summary">Sincronitza els esdeveniments del calendari per aquest compte</string>
@@ -454,6 +459,7 @@
   <string name="version">Versió</string>
   <string name="build">Elaboració</string>
   <string name="build_date">Data d\'elaboració</string>
+  <string name="legal">Jurisdicció</string>
   <string name="open_source">Llicències de codi obert</string>
   <string name="privacy_policy">Política de privacitat d\'AirWatch</string>
   <!-- Name of the DeviceAdmin (seen in settings & in user confirmation screen) -->
@@ -486,12 +492,35 @@
   <!-- Permission related string -->
   <string name="permissions_enable">Habilita</string>
   <string name="permissions_call_title">Habilita l\'accés al telèfon</string>
+  <string name="permissions_call_message">Per poder trucar, necessites habilitar-li a Boxer el permís d\'accés al telèfon.</string>
+  <string name="permissions_storage_title">Habilita l\'accés a l\'emmagatzematge</string>
+  <string name="permissions_storage_message">Per poder desar els fitxers adjunts, necessites habilitar-li a Boxer el permís d\'accés a l\'emmagatzematge.</string>
   <string name="permissions_calendar_title">Habilita l\'accés al calendari</string>
+  <string name="permissions_calendar_message">Boxer no té accés als esdeveniments del calendari natiu.</string>
   <string name="permissions_do_not_show_again">No ho tornis a mostrar</string>
   <!-- String shown as a toast when sending a quick response fails due to some unknown error-->
+  <string name="emailing_guests_failed">No s\'ha pogut enviar el correu als convidats</string>
   <string name="account_setup_selection_title">Tipus de compte</string>
   <string name="account_setup_discovery_title">Detalls del compte</string>
   <string name="account_setup_options_title">Opcions de sincronització</string>
+  <string name="plugin_permission_label">Permís del connector de Boxer</string>
+  <string name="plugin_permission_description">Los connectors de Boxer els carrega l\'aplicació per proporcionar característiques addicionals. Els connectors han d\'estar signats per part de Boxer per poder ser carregats.</string>
   <string name="view">Veure</string>
+  <string name="original_appointment">----Cita Original----</string>
+  <string name="meeting_from">
+        De:
+        <xliff:g id="From">%s</xliff:g>
+    </string>
+  <string name="meeting_subject">
+        Assumpte:
+        <xliff:g id="Subject">%s</xliff:g>
+    </string>
+  <string name="meeting_to">
+        Per a:
+        <xliff:g id="To">%s</xliff:g>
+    </string>
+  <string name="email_attendees">Envia un correu als Assistents</string>
   <string name="forward_event">Reenvia Esdeveniment</string>
+  <string name="email_organizer">Envia un correu a l\'Organitzador</string>
+  <string name="email_everyone">Envia un correu a Tothom</string>
 </resources>

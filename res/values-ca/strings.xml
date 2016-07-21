@@ -823,11 +823,54 @@
     <item quantity="other">S\'estan anul·lant <xliff:g id="count">%1$d</xliff:g> converses destacades.</item>
   </plurals>
   <!-- The following are shown as a toast after the operation has completed -->
+  <plurals name="conversation_muted">
+    <!-- Displayed while muting one conversation -->
+    <item quantity="one">S\'ha silenciat &lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt;.</item>
+    <!-- Displayed while muting several conversations -->
+    <item quantity="other">S\'han silenciat &lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt;.</item>
+  </plurals>
+  <plurals name="conversation_spammed">
+    <!-- Displayed while reporting one conversation as spam -->
+    <item quantity="one">S\'ha informat d\'&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; com a brossa.</item>
+    <!-- Displayed while reporting several conversations as spam -->
+    <item quantity="other">S\'ha informat de &lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; com a brossa.</item>
+  </plurals>
+  <plurals name="conversation_not_spam">
+    <!-- Displayed while reporting one conversation as not spam -->
+    <item quantity="one">S\'ha informat que &lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; no és brossa.</item>
+    <!-- Displayed while reporting several conversations as not spam -->
+    <item quantity="other">S\'ha informat que &lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; no són brossa.</item>
+  </plurals>
+  <plurals name="conversation_not_important">
+    <!-- Displayed while reporting one conversation as not important in the important folder -->
+    <item quantity="one">S\'ha marcat &lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; com a no important.</item>
+    <!-- Displayed while reporting several conversations as not important in the important folder -->
+    <item quantity="other">S\'han marcat &lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; com a no importants.</item>
+  </plurals>
+  <plurals name="conversation_phished">
+    <!-- Displayed while reporting one conversation as phishing -->
+    <item quantity="one">S\'ha informat d\'&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; com a phishing.</item>
+    <!-- Displayed while reporting several conversations as phishing -->
+    <item quantity="other">S\'ha informat de &lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; com a phishing.</item>
+  </plurals>
+  <plurals name="conversation_archived">
+    <!-- Displayed while archiving one conversation -->
+    <item quantity="one">S\'ha arxivat &lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt;.</item>
+    <!-- Displayed while archiving multiple conversations -->
+    <item quantity="other">S\'han arxivat &lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt;.</item>
+  </plurals>
+  <plurals name="conversation_deleted">
+    <!-- Displayed while deleting one conversation -->
+    <item quantity="one">S\'ha esborrat &lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt;.</item>
+    <!-- Displayed while deleting multiple conversations -->
+    <item quantity="other">S\'han esborrat &lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt;.</item>
+  </plurals>
   <!-- Displayed when swiping away a single conversation to delete it [CHAR LIMIT=80] -->
   <string name="deleted">Esborrat</string>
   <!-- Displayed when swiping away a single conversation to archive it [CHAR LIMIT=80] -->
   <string name="archived">Arxivat</string>
   <!-- Displayed when swiping away a single conversation to remove the currently displayed folder [CHAR LIMIT=80] -->
+  <string name="folder_removed">S\'ha eliminat de <xliff:g id="folderName">%1$s</xliff:g></string>
   <plurals name="conversation_folder_changed">
     <!-- Displayed while adding and removing folders to a single conversation. [CHAR LIMIT=100] -->
     <item quantity="one">S\'ha canviat la carpeta.</item>
@@ -835,9 +878,11 @@
     <item quantity="other">S\'han canviat les carpetes.</item>
   </plurals>
   <!-- Displayed after moving a conversation to a different folder. [CHAR LIMIT=100] -->
+  <string name="conversation_folder_moved">S\'ha mogut a <xliff:g id="folderName">%1$s</xliff:g></string>
   <!-- Search Results: Text for header that is shown above search results [CHAR LIMIT=30] -->
   <string name="search_results_header">Resultats</string>
   <!-- Toast shown when the user taps the search hard key when viewing an account that does not support search [CHAR LIMIT=100] -->
+  <string name="search_unsupported">La cerca no és compatible en aquest compte.</string>
   <!-- Search Results: Text for header that is shown above search results, while waiting for search results from the server [CHAR LIMIT=30] -->
   <string name="search_results_searching_header">S\'està buscant\u2026</string>
   <!-- Conversation view -->
@@ -850,6 +895,7 @@
   <!--  Icon name for collapsing recipient details in a message when viewing it. [CHAR LIMIT=40] -->
   <string name="collapse_recipient_details">Redueix els detalls del destinatari</string>
   <!--  Icon name for showing sender contact information. [CHAR LIMIT=100] -->
+  <string name="contact_info_string">Mostra la informació de contacte de <xliff:g id="name">%1$s</xliff:g></string>
   <!--  Icon name for showing sender contact information when we cannot get sender info. [CHAR LIMIT=100] -->
   <string name="contact_info_string_default">Mostra la informació de contacte</string>
   <!-- Shown in collapsed mode when a conversation has more than one read message.
@@ -871,12 +917,19 @@
   <!-- Displayed above an HTML message to show the images in that message [CHAR LIMIT=40] -->
   <string name="show_images">Mostra imatges</string>
   <!-- Displayed above an HTML message to always show images in messages from that sender [CHAR LIMIT=40] -->
+  <string name="always_show_images">Mostra sempre imatges d\'aquest remitent</string>
   <!-- Shown in a toast to acknowledge always showing images for a sender [CHAR LIMIT=100] -->
+  <string name="always_show_images_toast">Les imatges d\'aquest remitent es mostraran automàticament.</string>
   <!-- Display format of an email recipient, displayed in expanded message details [CHAR LIMIT=10] -->
+  <string name="address_display_format"><xliff:g id="name">%1$s</xliff:g> <xliff:g id="email">%2$s</xliff:g></string>
   <!-- Display format of an email sender if the message has a via domain set, displayed in expanded message details [CHAR LIMIT=15] -->
+  <string name="address_display_format_with_via_domain"><xliff:g id="name">%1$s</xliff:g> <xliff:g id="email">%2$s</xliff:g> a través de <xliff:g id="via_domain">%3$s</xliff:g></string>
   <!-- Displayed for one second after user saves message as draft [CHAR LIMIT=50]-->
+  <string name="message_saved">Missatge desat com a esborrany.</string>
   <!-- Displayed for one second while message is being sent [CHAR LIMIT=50]-->
+  <string name="sending_message">S\'està enviant el missatge\u2026</string>
   <!-- Displayed for one second after trying to send with invalid recipients [CHAR LIMIT=50]-->
+  <string name="invalid_recipient">L\'adreça <xliff:g id="wrongemail example="foo@@gmail..com">%1$s</xliff:g> no és vàlida.</string>
   <!-- Shown in HTML to allow the user to see quoted text; should match Gmail web UI. 25B6 is Unicode for a right-pointing triangle. [CHAR LIMIT=50] -->
   <string name="show_elided">\u25B6 Mostra el text citat</string>
   <!-- Shown in HTML to allow the user to hide quoted text; should match Gmail web UI. 25BC is Unicode for a downward-pointing triangle. [CHAR LIMIT=50] -->
@@ -963,6 +1016,7 @@
   <!-- Title for the screen displayed during the initial sync [CHAR LIMIT=100]  -->
   <string name="not_synced_title">El compte no està sincronitzat</string>
   <!-- Displayed in the middle of the screen during the initial sync [CHAR LIMIT=300]-->
+  <string name="wait_for_manual_sync_body">Aquest compte no està configurat per sincronitzar automàticament.\nToca \"<b>"Sincronitza ara"</b>\" per sincronitzar el correu una vegada o bé \"<b>"Canvia la configuració de sincronització"</b>\" per configurar aquest compte per sincronitzar el correu de manera automàtica.</string>
   <!-- Displayed at the bottom of the screen during the initial sync. If pressed will sync users mail for the selected account. [CHAR LIMIT=12]  -->
   <string name="manual_sync">Sincronitza ara</string>
   <!-- Displayed at the bottom of the screen during the initial sync. If pressed will open sync setting screen for accounts. [CHAR LIMIT=30]  -->
@@ -978,6 +1032,7 @@
   <string name="single_new_message_notification_big_text"><xliff:g id="subject">%1$s</xliff:g>\n<xliff:g id="snippet">%2$s</xliff:g></string>
   <!-- Displayed in a message subheading. Ignore the current spam warning. [CHAR LIMIT=30] -->
   <!-- Displayed in the message heading. Shown if the message was sent via another domain. [CHAR LIMIT=10] -->
+  <string name="via_domain">a través de <xliff:g id="viadomain">%1$s</xliff:g></string>
   <!-- Button text for the button to click to have the user sign in again. [CHAR LIMIT=20]-->
   <string name="signin">Inicia la sessió</string>
   <!-- Button text for the button to click for more information. [CHAR LIMIT=20]-->
@@ -1042,6 +1097,7 @@
   <!-- Notification action for replying-all to a message. [CHAR LIMIT=20] -->
   <string name="notification_action_reply_all">Respon a tots</string>
   <!-- Notification action for archiving a message. [CHAR LIMIT=20] -->
+  <string name="notification_action_archive">Arxiva</string>
   <!-- Notification action for removing a label from a message. [CHAR LIMIT=20] -->
   <string name="notification_action_remove_label">Elimina l\'etiqueta</string>
   <!-- Notification undo text after archiving a message. [CHAR LIMIT=30] -->
@@ -1057,7 +1113,9 @@
   <!-- Notification ticker text for per-label notification [CHAR LIMIT=30]-->
   <string name="label_notification_ticker">"<xliff:g id="label">%1$s</xliff:g>: <xliff:g id="notification">%2$s</xliff:g>"</string>
   <!-- Format string used when displaying the title of a notification that was triggered by a single new conversation. [CHAR LIMIT=120] -->
+  <string name="single_new_message_notification_title"><xliff:g id="sender">%1$s</xliff:g>: <xliff:g id="subject">%2$s</xliff:g></string>
   <!-- Settings screen, what to display for Ringtone when the user chooses "silent" [CHAR LIMIT=100]-->
+  <string name="silent_ringtone">Silenci</string>
   <!-- Settings screen, preference name for archive vs. delete [CHAR LIMIT=50] -->
   <!-- Options to select from for whether to have archive or delete as the remove action [CHAR LIMIT=50] -->
   <!-- Description of currently selected option of whether to use archive or delete as remove action [CHAR LIMIT=200] -->
@@ -1066,6 +1124,7 @@
   <!--  Settings screen, Reply to all default setting title  [CHAR LIMIT=30] -->
   <string name="preferences_default_reply_all_title">Respon a tots</string>
   <!--  Settings screen, Reply to all default setting summary [CHAR LIMIT=70] -->
+  <string name="preferences_default_reply_all_summary">Utilitza com a opció predeterminada per respondre missatges</string>
   <!-- Preference name for swipe action when action is archive [CHAR LIMIT=100]-->
   <!-- Preference name for swipe action when action is delete [CHAR LIMIT=100]-->
   <!-- Preference description swiping in conversation list option [CHAR LIMIT=100] -->
@@ -1157,6 +1216,7 @@
   <!-- Other phone number type -->
   <string name="phoneTypeOther">Altres</string>
   <!-- Callback phone number type -->
+  <string name="phoneTypeCallback">Retrotrucada</string>
   <!-- Car phone number type -->
   <string name="phoneTypeCar">Cotxe</string>
   <!-- Company main phone number type -->
@@ -1172,6 +1232,7 @@
   <!-- Telex phone number type -->
   <string name="phoneTypeTelex">Tèlex</string>
   <!-- TTY TDD phone number type -->
+  <string name="phoneTypeTtyTdd">TTY TDD</string>
   <!-- Work mobile phone number type -->
   <string name="phoneTypeWorkMobile">Mòbil de la feina</string>
   <!-- Work pager phone number type -->
@@ -1248,6 +1309,7 @@
   <!-- Child relationship type [CHAR LIMIT=20] -->
   <string name="relationTypeChild">Nen</string>
   <!-- Domestic Partner relationship type [CHAR LIMIT=20] -->
+  <string name="relationTypeDomesticPartner">Parella domèstica</string>
   <!-- Father relationship type [CHAR LIMIT=20] -->
   <string name="relationTypeFather">Pare</string>
   <!-- Friend relationship type [CHAR LIMIT=20] -->
@@ -1261,6 +1323,7 @@
   <!-- Partner relationship type [CHAR LIMIT=20] -->
   <string name="relationTypePartner">Company/a</string>
   <!-- Referred by relationship type [CHAR LIMIT=20] -->
+  <string name="relationTypeReferredBy">Indicat per</string>
   <!-- Relative relationship type [CHAR LIMIT=20] -->
   <string name="relationTypeRelative">Familiar</string>
   <!-- Sister relationship type [CHAR LIMIT=20] -->
@@ -1296,6 +1359,10 @@
   <string name="every_weekday">"Els dies laborables (Dil\u2013Div)"</string>
   <!-- A description for an event that repeats weekly on some day of the week. For example,
          'Weekly on Tuesday' or Every 2 weeks on Monday, Tuesday.  [CHAR LIMIT=25]-->
+  <plurals name="weekly">
+    <item quantity="one">Setmanalment els <xliff:g id="days_of_week">%2$s</xliff:g></item>
+    <item quantity="other">Cada <xliff:g id="number">%1$d</xliff:g> setmanes els <xliff:g id="days_of_week">%2$s</xliff:g></item>
+  </plurals>
   <!-- The common portion of a string describing how often an event repeats,
          example: 'Monthly (on day 2)' -->
   <string name="monthly">Mensualment</string>
@@ -1309,6 +1376,7 @@
   <!-- No calendars message for secret calendar info -->
   <string name="calendar_info_no_calendars">No hi ha cap calendari</string>
   <!-- Event count message for secret calendar info -->
+  <string name="calendar_info_events">Esdeveniments: <xliff:g id="events">%1$d</xliff:g></string>
   <!-- Event and dirty event count message for secret calendar info -->
   <string name="calendar_info_events_dirty">Esdeveniments: <xliff:g id="events">%1$d</xliff:g>, No desats: <xliff:g id="dirty events">%2$d</xliff:g></string>
   <!-- What to show in messaging that refers to this provider, e.g. AccountSyncSettings -->
@@ -1319,8 +1387,11 @@
   <!-- Debug tool - dialog - start copying [CHAR LIMIT=NONE] -->
   <string name="debug_tool_start_button">Inicia</string>
   <!-- Debug tool - Main message shown to the user when starting up the debug tool [CHAR LIMIT=NONE] -->
+  <string name="debug_tool_message">Estàs a punt de 1) fer una còpia de la base de dades del teu calendari a l\'emmagatzematge de la targeta SD/l\'emmagatzematge USB, que és llegible per qualsevol aplicació i 2) enviar-la per correu electrònic. Recorda esborrar la còpia tan aviat com l\'hagis copiat amb èxit al dispositiu o hagis rebut el correu electrònic.</string>
   <!-- Debug tool - email subject [CHAR LIMIT=NONE] -->
   <string name="debug_tool_email_sender_picker">Tria un programa per enviar el teu fitxer</string>
   <!-- Debug tool - email subject [CHAR LIMIT=NONE] -->
+  <string name="debug_tool_email_subject">Bd del calendari adjunta</string>
   <!-- Debug tool - email body [CHAR LIMIT=NONE] -->
+  <string name="debug_tool_email_body">Hi ha adjunta la meva base de dades del calendari amb totes les meves cites i informació personal. Manipula amb cura.</string>
 </resources>

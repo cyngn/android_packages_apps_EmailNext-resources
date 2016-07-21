@@ -405,7 +405,7 @@
   <string name="no_conversation_needs_sync">Tu ni pošte.\nPovlecite z vrha, da osvežite</string>
   <string name="getting_messages">Pridobivanje vaših sporočil</string>
   <string name="empty_folder">Tu ni pošte.</string>
-  <string name="empty_inbox">Končali ste! Uživajte v svojem dnevu.</string>
+  <string name="empty_inbox">Končali ste! Lep dan.</string>
   <string name="empty_search">Ups! Za <xliff:g id="search_query">%1$s</xliff:g> nismo našli ničesar.</string>
   <string name="empty_spam_folder">Hura, tu ni neželene pošte!</string>
   <string name="empty_trash_folder">Tu ni smeti. Hvala, ker ste reciklirali!</string>

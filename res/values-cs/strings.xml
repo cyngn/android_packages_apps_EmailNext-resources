@@ -98,12 +98,33 @@
   <!-- Notification title when a forwarded attachment couldn't be sent [CHAR LIMIT=30]-->
   <string name="forward_download_failed_title">Příloha nebyla přeposlána</string>
   <!-- Notification ticker when email account authentication fails [CHAR LIMIT=none] -->
+  <string name="login_failed_ticker">Přihlášení k účtu <xliff:g id="Account_NAME">%1$s</xliff:g> se nezdařilo.</string>
   <!-- Notification title when email account authentication fails [CHAR LIMIT=30]-->
   <string name="login_failed_title">Přihlášení se nezdařilo</string>
   <!-- Size unit for bytes for attachments [CHAR LIMIT=10] -->
+  <plurals name="message_view_attachment_bytes">
+    <item quantity="one"><xliff:g id="size_in_bytes" example="1">%1$d</xliff:g>B</item>
+    <item quantity="few"><xliff:g id="size_in_bytes" example="2">%1$d</xliff:g>B</item>
+    <item quantity="other"><xliff:g id="size_in_bytes" example="20">%1$d</xliff:g>B</item>
+  </plurals>
   <!-- Size unit for kilo bytes for attachments [CHAR LIMIT=10] -->
+  <plurals name="message_view_attachment_kilobytes">
+    <item quantity="one"><xliff:g id="size_in_kilobytes" example="1">%1$d</xliff:g>KB</item>
+    <item quantity="few"><xliff:g id="size_in_kilobytes" example="2">%1$d</xliff:g>KB</item>
+    <item quantity="other"><xliff:g id="size_in_kilobytes" example="20">%1$d</xliff:g>KB</item>
+  </plurals>
   <!-- Size unit for mega bytes for attachments [CHAR LIMIT=10] -->
+  <plurals name="message_view_attachment_megabytes">
+    <item quantity="one"><xliff:g id="size_in_megabytes" example="1">%1$d</xliff:g>MB</item>
+    <item quantity="few"><xliff:g id="size_in_megabytes" example="2">%1$d</xliff:g>MB</item>
+    <item quantity="other"><xliff:g id="size_in_megabytes" example="20">%1$d</xliff:g>MB</item>
+  </plurals>
   <!-- Size unit for giga bytes for attachments [CHAR LIMIT=10] -->
+  <plurals name="message_view_attachment_gigabytes">
+    <item quantity="one"><xliff:g id="size_in_gigabytes" example="1">%1$d</xliff:g>GB</item>
+    <item quantity="few"><xliff:g id="size_in_gigabytes" example="2">%1$d</xliff:g>GB</item>
+    <item quantity="other"><xliff:g id="size_in_gigabytes" example="20">%1$d</xliff:g>GB</item>
+  </plurals>
   <!-- Title of screen when setting up new email account [CHAR LIMIT=45] -->
   <string name="account_setup_basics_title">Nastavení účtu</string>
   <!-- Headline of screen when setting up new email account (large text over divider)
@@ -120,6 +141,7 @@
   <string name="account_duplicate_dlg_title">Duplicitní účet</string>
   <!-- Message of dialog shown when a duplicate account is created.  The display name of
          the duplicate account is displayed. -->
+  <string name="account_duplicate_dlg_message_fmt">Toto uživatelské jméno již používáte pro účet „<xliff:g id="duplicate">%1$s</xliff:g>“.</string>
   <!-- String that is displayed as error text for passwords with leading or trailing
          spaces.  [CHAR LIMIT=none] -->
   <string name="account_password_spaces_error">Toto heslo začíná nebo končí nejméně jednou mezerou. Většina serverů hesla s mezerami nepodporuje.</string>
@@ -254,6 +276,7 @@
   <string name="account_setup_failed_dlg_certificate_message">Nelze se bezpečně připojit k serveru.</string>
   <!-- An error message presented to the user when the server's identity
          cannot be established or trusted [CHAR LIMIT=NONE] -->
+  <string name="account_setup_failed_dlg_certificate_message_fmt">Nelze se bezpečně připojit k serveru.\n(<xliff:g id="ERROR">%1$s</xliff:g>)</string>
   <!-- An error message presented to the user when the server requires a
          client certificate to connect [CHAR LIMIT=NONE] -->
   <string name="account_setup_failed_certificate_required">Je vyžadován certifikát klienta. Chcete se k serveru připojit pomocí certifikátu klienta?</string>
@@ -265,6 +288,7 @@
   <!-- "Setup could not finish" dialog text; e.g., Cannot connect to server -->
   <string name="account_setup_failed_dlg_server_message">Nelze se připojit k serveru.</string>
   <!-- "Setup could not finish" dialog text; e.g., Cannot connect to server\n(Connection timed out) -->
+  <string name="account_setup_failed_dlg_server_message_fmt">Nelze se připojit k serveru.\n(<xliff:g id="ERROR">%1$s</xliff:g>)</string>
   <!-- Additional diagnostic text when TLS was required but the server doesn't support it -->
   <string name="account_setup_failed_tls_required">Služba TLS je požadována, ale není podporována na serveru.</string>
   <!-- Additional diagnostic text when server does not support any of our authentication methods -->
@@ -285,8 +309,10 @@
   <!-- Additional diagnostic text when validation requires security provisioning (e.g. support
          for device lock PIN, or remote wipe.) and we ask the user permission before continuing.
          [CHAR LIMIT=none] -->
+  <string name="account_setup_security_policies_required_fmt">Server <xliff:g id="SERVER">%1$s</xliff:g> žádá o povolení, aby mohl vzdáleně ovládat některé funkce zabezpečení v zařízení Android. Chcete dokončit nastavení tohoto účtu?</string>
   <!-- Additional diagnostic text when validation failed due to required provisioning not
          being supported [CHAR LIMIT=none] -->
+  <string name="account_setup_failed_security_policies_unsupported">Server vyžaduje funkce zabezpečení, které toto zařízení Android nepodporuje, například: <xliff:g id="ERROR">%1$s</xliff:g></string>
   <!-- The user name can only be changed during initial account setup. [CHAR LIMIT=none] -->
   <string name="account_setup_username_uneditable_error">Uživatelské jméno účtu nemůžete změnit. Chcete-li přidat účet s jiným uživatelským jménem, dotkněte se možnosti Přidat účet.</string>
   <!-- Warning given to users when they request disabling device administration (i.e. that their
@@ -299,8 +325,11 @@
   <!-- Additional diagnostic text when the account requires some amount of device security
          provisioning, just before jumping into system settings such as Device Policy grant,
          PIN/password, or encryption setup.  [CHAR LIMIT=none] -->
+  <string name="account_security_dialog_content_fmt">Účet <xliff:g id="ACCOUNT">%1$s</xliff:g> vyžaduje aktualizaci nastavení zabezpečení.</string>
   <!-- Notification ticker when device security required (note: unused in Holo XL) -->
+  <string name="security_unsupported_ticker_fmt">Účet „<xliff:g id="ACCOUNT">%1$s</xliff:g>“ nelze synchronizovat z důvodu požadavků na zabezpečení.</string>
   <!-- Notification ticker when device security required (note: unused in Holo XL) -->
+  <string name="security_needed_ticker_fmt">Účet „<xliff:g id="ACCOUNT">%1$s</xliff:g>“ požaduje aktualizaci nastavení zabezpečení.</string>
   <!-- Notification ticker when device security required (note: unused in Holo XL) -->
   <!-- Notification content title when device security required [CHAR_LIMIT=30] -->
   <string name="security_notification_content_update_title">Je třeba aktualizovat zabezp.</string>
@@ -311,9 +340,11 @@
   <string name="account_security_title">Zabezpečení zařízení</string>
   <!-- Additional diagnostic text when the email app asserts control of the phone.
         [CHAR LIMIT=none] -->
+  <string name="account_security_policy_explanation_fmt">Server <xliff:g id="SERVER">%1$s</xliff:g> žádá o povolení, aby mohl vzdáleně ovládat některé funkce zabezpečení v zařízení Android.</string>
   <!-- "Setup could not finish" dialog action button -->
   <string name="account_setup_failed_dlg_edit_details_action">Upravit podrobnosti</string>
   <!-- Notification ticker when device password is getting ready to expire [CHAR_LIMIT=80] -->
+  <string name="password_expire_warning_ticker_fmt">Účet „<xliff:g id="ACCOUNT">%1$s</xliff:g>“ vyžaduje změnu kódu PIN nebo hesla pro uzamčení obrazovky.</string>
   <!-- Notification content title when device password is getting ready to expire
             [CHAR_LIMIT=30] -->
   <string name="password_expire_warning_content_title">Heslo zámku obrazovky brzy vyprší</string>
@@ -324,9 +355,11 @@
   <!-- Dialog title if device pin/password is going to expire soon. [CHAR_LIMIT=40] -->
   <string name="password_expire_warning_dialog_title">Heslo zámku obrazovky brzy vyprší</string>
   <!-- Dialog content device pin/password is going to expire soon. [CHAR_LIMIT=none] -->
+  <string name="password_expire_warning_dialog_content_fmt">Je nutné, abyste si brzy změnili kód PIN nebo heslo pro uzamčení obrazovky, jinak dojde k vymazání údajů účtu <xliff:g id="ACCOUNT">%1$s</xliff:g>. Chcete tuto změnu provést hned?</string>
   <!-- Dialog title if device pin/password has already expired. [CHAR_LIMIT=40] -->
   <string name="password_expired_dialog_title">Platnost hesla zámku obrazovky vypršela</string>
   <!-- Dialog content device pin/password has already expired. [CHAR_LIMIT=none] -->
+  <string name="password_expired_dialog_content_fmt">Ze zařízení jsou mazány údaje účtu <xliff:g id="ACCOUNT">%1$s</xliff:g>. Můžete je obnovit změnou kódu PIN nebo hesla pro uzamčení obrazovky. Chcete tuto změnu provést hned?</string>
   <!-- On AccountSettingsXL, dialog text if you try to exit in/out/eas fragment (server settings)
          without checking/saving [CHAR LIMIT=none]-->
   <string name="account_settings_exit_server_settings">Zahodit neuložené změny?</string>
@@ -335,8 +368,10 @@
   <string name="account_settings_login_dialog_title">Přihlášení se nezdařilo</string>
   <!-- Dialog content if you were brought here due to a login failure.
         [CHAR_LIMIT=none] -->
+  <string name="account_settings_login_dialog_content_fmt">Uživatelské jméno nebo heslo k účtu <xliff:g id="ACCOUNT">%1$s</xliff:g> je nesprávné. Chcete je aktualizovat?</string>
   <!-- Dialog content if you were brought here due to a login failure, and the server provided a reason
         [CHAR_LIMIT=none] -->
+  <string name="account_settings_login_dialog_reason_fmt">Připojení k účtu <xliff:g id="ACCOUNT">%1$s</xliff:g> se nezdařilo. Odpověď serveru: <xliff:g id="REASON">%2$s</xliff:g> Chcete aktualizovat své uživatelské jméno a heslo?</string>
   <!-- On Settings screen, setting option name -->
   <!-- Title of account preference for downloading attachments in background [CHAR LIMIT=32] -->
   <string name="account_settings_background_attachments_label">Stahovat přílohy</string>
@@ -408,6 +443,7 @@
   <!-- Mailbox settings activity title [CHAR LIMIT=none] -->
   <string name="mailbox_settings_activity_title">Možnosti synchronizace</string>
   <!-- Mailbox settings activity title, with the target folder name [CHAR LIMIT=none] -->
+  <string name="mailbox_settings_activity_title_with_mailbox">Možnosti synchronizace (<xliff:g id="MAILBOXX_NAME">%1$s</xliff:g>)</string>
   <!-- On mailbox settings screen: Whether to sync this mailbox when the account syncs. -->
   <string name="mailbox_settings_sync_enabled_label">Synchronizovat tuto složku</string>
   <!-- On mailbox settings screen: Explanatory text for what it means to "sync this folder". -->
@@ -506,7 +542,9 @@
   <string name="pop3_name">POP3</string>
   <string name="folder_picker_title">Výběr složky</string>
   <!-- Displayed when the user must pick his server's trash folder from a list [CHAR LIMIT 30]-->
+  <string name="trash_folder_selection_title">Vyberte Koš serveru pro účet <xliff:g id="ACCOUNT">%1$s</xliff:g></string>
   <!-- Displayed when the user must pick his server's sent items folder from a list [CHAR LIMIT 30]-->
+  <string name="sent_folder_selection_title">Vyberte složku odesl. položek <xliff:g id="ACCOUNT">%1$s</xliff:g></string>
   <string name="account_waiting_for_folders_msg">Načítání seznamu složek&#8230;</string>
   <!-- Feedback uri to be used when feedback is enabled -->
   <!-- Names of packages and authorities that are common to all apps
@@ -514,22 +552,43 @@
   <!-- Layout tests strings -->
   <!-- Compose -->
   <!-- Shown in Compose; the sender of the message [CHAR LIMIT=10] -->
+  <string name="from">Od</string>
   <!-- Shown in Compose; the recipient(s) of the message [CHAR LIMIT=10] -->
+  <string name="to">Komu</string>
   <!-- Shown in Compose; the cc recipient(s) of the message [CHAR LIMIT=10] -->
+  <string name="cc">Kopie</string>
   <!-- Shown in Compose; the bcc recipient(s) of the message [CHAR LIMIT=10] -->
+  <string name="bcc">Skrytá kopie</string>
   <!-- Shown in Compose; the subject of the message [CHAR LIMIT=100] -->
+  <string name="subject_hint">Předmět</string>
   <!-- Shown in Compose; the subject of the message [CHAR LIMIT=100] -->
+  <string name="body_hint">Napsat zprávu</string>
   <!--  Compose screen button. Add an attachment to this message [CHAR LIMIT=20] -->
+  <string name="add_file_attachment">Přiložit soubor</string>
   <!--  Compose screen button. Add a photo attachment to this message [CHAR LIMIT=20] -->
+  <string name="add_photo_attachment">Připojit obrázek</string>
   <!-- Button name: save this message as draft [CHAR LIMIT=25]-->
+  <string name="save_draft">Uložit koncept</string>
   <!--  Button name: discard this message [CHAR LIMIT=15] -->
+  <string name="discard">Zahodit</string>
   <!-- The possible ways to reply to a message [CHAR LIMIT=15] -->
+  <string name="compose">Nová zpráva</string>
   <!-- The possible ways to reply to a message [CHAR LIMIT=15] -->
+  <string-array name="compose_modes">
+    <!-- Reply -->
+    <item>Odpovědět</item>
+    <!-- Reply all -->
+    <item>Odpovědět všem</item>
+    <!-- Forward -->
+    <item>Přeposlat</item>
+  </string-array>
   <!-- Formatting string for the subject when it contains a reply or forward identifier. Do not translate.-->
   <!-- Compose screen, prefixed to the subject of a message when replying to it (if not already present). Do not translate. -->
   <!-- Compose screen, Prefix to forwarded message subject. Do not translate. -->
   <!-- Compose screen, displayed at the top of a message being replied to. Please preserve the HTML entities (surrounded by & and ;).  The two %s strings will be replaced by 1) the date 2) the person who wrote the email being responded to. [CHAR LIMIT=1000]-->
+  <string name="reply_attribution">Dne <xliff:g id="Date">%1$s</xliff:g> <xliff:g id="Person">%2$s</xliff:g> napsal(a):</string>
   <!-- Compose screen, displayed at the top of a message being forwarded. Please preserve the HTML entities (surrounded by & and ;). [CHAR LIMIT=1000] -->
+  <string name="forward_attribution">---------- Přeposlaná zpráva ----------&lt;br&gt;Od: <xliff:g id="FROM">%1$s</xliff:g>&lt;br&gt;Datum: <xliff:g id="DATE">%2$s</xliff:g>&lt;br&gt;Předmět: <xliff:g id="SUBJECT">%3$s</xliff:g>&lt;br&gt;Komu: <xliff:g id="TO">%4$s</xliff:g>&lt;br&gt;</string>
   <!-- Compose screen, displayed at the top of a message being forwarded. [CHAR LIMIT=100]-->
   <!-- Compose screen, displayed at the top of a message being forwarded if there are any email addresses in the CC list. Please preserve the HTML entities (surrounded by & and ;). [CHAR LIMIT=1000]-->
   <!-- Dialog text: select the type of an attachment while composing [CHAR LIMIT=100]-->
@@ -861,6 +920,7 @@
   <!-- TTY TDD phone number type -->
   <!-- Work mobile phone number type -->
   <!-- Work pager phone number type -->
+  <string name="phoneTypeWorkPager">Pracovní pager</string>
   <!-- Assistant phone number type -->
   <!-- MMS phone number type -->
   <!-- Label for custom events  [CHAR LIMIT=20] -->
@@ -903,11 +963,13 @@
   <!-- Manager relationship type [CHAR LIMIT=20] -->
   <!-- Mother relationship type [CHAR LIMIT=20] -->
   <!-- Parent relationship type [CHAR LIMIT=20] -->
+  <string name="relationTypeParent">Rodič</string>
   <!-- Partner relationship type [CHAR LIMIT=20] -->
   <!-- Referred by relationship type [CHAR LIMIT=20] -->
   <!-- Relative relationship type [CHAR LIMIT=20] -->
   <!-- Sister relationship type [CHAR LIMIT=20] -->
   <!-- Spouse relationship type [CHAR LIMIT=20] -->
+  <string name="relationTypeSpouse">Partner</string>
   <!-- Custom SIP address type. Same context as Custom phone type.  -->
   <!-- Home SIP address type. Same context as Home phone type. -->
   <!-- Work SIP address type. Same context as Work phone type. -->
@@ -915,14 +977,26 @@
   <!-- Part of a description of an repeating event. This part states the date when a repeating
          event ends. The part before the semi-colon describes how it repeats.
          e.g. Every 2 weeks; until 1/1/2030 [CHAR LIMIT=21] -->
+  <string name="endByDate">; do <xliff:g id="date">%1$s</xliff:g></string>
   <!-- Part of a description of an repeating event. This part how many times the event repeats.
          The part before the semi-colon describes how it repeats.
          e.g. Every 2 weeks; for 15 times [CHAR LIMIT=15] -->
+  <plurals name="endByCount">
+    <item quantity="one">; jednou</item>
+    <item quantity="few">; <xliff:g id="number">%1$d</xliff:g> krát</item>
+    <item quantity="other">; <xliff:g id="number">%1$d</xliff:g> krát</item>
+  </plurals>
   <!-- A description for an event that repeats daily. For example, Every 2 days [CHAR LIMIT=15]-->
   <!-- A label in a multiple-choice list for the specifying that an event
          repeats every weekday (Monday through Friday) -->
+  <string name="every_weekday">"Každý všední den (Po\u2013Pá)"</string>
   <!-- A description for an event that repeats weekly on some day of the week. For example,
          'Weekly on Tuesday' or Every 2 weeks on Monday, Tuesday.  [CHAR LIMIT=25]-->
+  <plurals name="weekly">
+    <item quantity="one">Každý týden v <xliff:g id="days_of_week">%2$s</xliff:g></item>
+    <item quantity="few">Každé <xliff:g id="number">%1$d</xliff:g> týdny v <xliff:g id="days_of_week">%2$s</xliff:g></item>
+    <item quantity="other">Každých <xliff:g id="number">%1$d</xliff:g> týdnů v <xliff:g id="days_of_week">%2$s</xliff:g></item>
+  </plurals>
   <!-- The common portion of a string describing how often an event repeats,
          example: 'Monthly (on day 2)' -->
   <!-- Calendar spinner item, to select that an event recurs every year. -->
@@ -932,12 +1006,17 @@
   <!-- Error message for secret calendar info -->
   <!-- No calendars message for secret calendar info -->
   <!-- Event count message for secret calendar info -->
+  <string name="calendar_info_events">Události: <xliff:g id="events">%1$d</xliff:g></string>
   <!-- Event and dirty event count message for secret calendar info -->
+  <string name="calendar_info_events_dirty">Události: <xliff:g id="events">%1$d</xliff:g>, neuložené: <xliff:g id="dirty events">%2$d</xliff:g></string>
   <!-- What to show in messaging that refers to this provider, e.g. AccountSyncSettings -->
   <!-- Debug tool - dialog - delete file now [CHAR LIMIT=NONE] -->
   <!-- Debug tool - dialog - start copying [CHAR LIMIT=NONE] -->
   <!-- Debug tool - Main message shown to the user when starting up the debug tool [CHAR LIMIT=NONE] -->
+  <string name="debug_tool_message">Bude provedeno 1) vytvoření kopie databáze kalendáře a její uložení na kartu SD / úložiště USB, která je poté čitelná jakoukoliv aplikací a 2) odeslání jí e-mailem. Nezapomeňte tuto tuto kopii co nejdříve odstranit.</string>
   <!-- Debug tool - email subject [CHAR LIMIT=NONE] -->
   <!-- Debug tool - email subject [CHAR LIMIT=NONE] -->
+  <string name="debug_tool_email_subject">Databáze kalendáře přiložena</string>
   <!-- Debug tool - email body [CHAR LIMIT=NONE] -->
+  <string name="debug_tool_email_body">Byla přiložena kompletní databáze kalendáře se všemi schůzkami a osobními informacemi. Buďte obezřetní.</string>
 </resources>
