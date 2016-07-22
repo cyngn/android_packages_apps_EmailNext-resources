@@ -27,14 +27,40 @@
   <string name="mailbox_name_display_archive">Archivia</string>
   <string name="mailbox_name_local_only_display_name"> - Locale</string>
   <string name="account_setup_email_address_hint">Inserisci il tuo indirizzo e-mail</string>
+  <string name="account_setup_password_label">Inserisci la tua password</string>
+  <string name="account_setup_discovery_account_name_hint">Nome account</string>
+  <string name="account_setup_username_invalid_chars">I caratteri seguenti non sono consentiti: <xliff:g id="chars">%1$s</xliff:g></string>
+  <string name="account_setup_invalid_server_address">Inserito indirizzo del server non valido</string>
+  <string name="account_setup_oauth_required_failure">La verifica in due passaggi non è ancora supportata per gli account <xliff:g id="account_type">%1$s</xliff:g>. Effetua il login nel tuo account per generare una password specifica per l\'app.</string>
+  <string name="account_setup_domain_label">Dominio</string>
+  <string name="account_setup_server_info_heading">Info Server</string>
   <string name="account_setup_security_heading">Sicurezza</string>
+  <string name="account_setup_general_heading">Preferenze Account</string>
   <string name="account_setup_authentication_heading">Autenticazione</string>
+  <string name="account_setup_passcode_title">L\'amministratore Exchange richiede l\'impostazione di un codice di accesso per la sincronizzazione.</string>
+  <string name="account_setup_passcode_format_restriction_complex">Ci devono essere almeno <xliff:g id="quantity">%1$d</xliff:g> dei seguenti: una lettera maiuscola, una lettera minuscola, un numero e/o carattere speciale.</string>
+  <plurals name="account_setup_passcode_length_restriction">
+    <item quantity="one">Deve essere lunga di almeno 1 carattere.</item>
+    <item quantity="other">Deve essere lunga di almeno <xliff:g id="length">%1$d</xliff:g> caratteri.</item>
+  </plurals>
+  <plurals name="account_setup_passcode_previous_use_restriction">
+    <item quantity="one">Non può essere uguale al tuo codice precedente.</item>
+    <item quantity="other">Non può essere uguale ad uno dei tuoi <xliff:g id="passcodeHistoryLength">%1$d</xliff:g> codici precedentemente usati.</item>
+  </plurals>
+  <string name="account_setup_passcode_hint">Inserisci la tua password</string>
+  <string name="account_setup_confirm_passcode_title">Conferma la password</string>
+  <string name="account_setup_confirm_passcode_subtitle">Le password devono coincidere</string>
+  <string name="account_setup_confirm_passcode_action_label">Conferma</string>
+  <string name="account_setup_check_settings_dialog_manual_button">Manuale</string>
   <!-- Error message shown in dialog body when authenticating an account during setup fails -->
+  <string name="account_setup_failed_dlg_message_fmt"><xliff:g id="error_msg">%1$s</xliff:g>. Vuoi aggiornare le impostazioni e riprovare, o inserire le impostazioni manualmente?</string>
   <!-- Dialog title when "setup" could not finish -->
+  <string name="account_setup_failed_dlg_title">Impossibile configurare l\'account</string>
   <!-- hint for account email password text field -->
   <string name="account_setup_basics_progress_message">Rilevamento automatico in corso</string>
   <!-- In Account setup options screen, Activity title [CHAR LIMIT=45] -->
   <!-- In Account setup options screen, label for email check frequency selector -->
+  <string name="account_setup_options_mail_check_frequency_label">Controlla casella di posta</string>
   <!-- In Account setup options & Account Settings screens, email check frequency option -->
   <string name="account_setup_options_mail_check_frequency_2hour">Ogni 2 ore</string>
   <!-- In Account setup options & Account Settings screens, email check frequency option -->
@@ -42,8 +68,11 @@
   <!-- In Account setup options & Account Settings screens, email check frequency option -->
   <string name="account_setup_options_mail_check_frequency_1day">Ogni giorno</string>
   <!-- In Account setup options screen, optional check box to also sync contacts -->
+  <string name="account_setup_options_sync_contacts_label">Sincronizza contatti</string>
   <!-- In Account setup options screen, optional check box to also sync calendar -->
+  <string name="account_setup_options_sync_calendar_label">Sincronizza calendario</string>
   <!-- In Account setup options screen, check box to sync email -->
+  <string name="account_setup_options_sync_email_label">Sincronizza email</string>
   <!-- On Settings screen, setting option for showing all images -->
   <string name="account_settings_show_all_images_title">Immagini</string>
   <string name="account_settings_show_all_images_show">Mostra sempre</string>
@@ -66,7 +95,9 @@
   <!-- On Settings screen, shown as an option for label/move preference -->
   <string name="account_settings_label_title">Etichetta</string>
   <!-- The domain can only be changed during initial account setup. [CHAR LIMIT=none] -->
+  <string name="account_setup_domain_uneditable_error">Non è possibile modificare il dominio di un account. Per aggiungere un account con un altro dominio, tocca Aggiungi account.</string>
   <!-- The email can only be changed during initial account setup. [CHAR LIMIT=none] -->
+  <string name="account_setup_email_uneditable_error">Non è possibile modificare l\'email di un account. Per aggiungere un account con un\'altra email, tocca Aggiungi account.</string>
   <!-- General preference: Labels for the setting to mark emails as read before archiving them -->
   <string name="general_preference_mark_archive_messages_read">Archivia come letta</string>
   <string name="general_preference_mark_archive_messages_read_description">Segna le email come lette prima di archiviarle</string>
@@ -85,6 +116,7 @@
   <!-- Label for signing in with Google using OAuth -->
   <string name="sign_in_with_google">Accedi con Google</string>
   <!--  On the "Setup up email" screen, label indicating what service we are signed in with [CHAR LIMIT=40] -->
+  <string name="signed_in_with_service_label">Connesso con %1$s</string>
   <!-- Label for the authentication section [CHAR LIMIT=20] -->
   <string name="authentication_label">Autenticazione</string>
   <!-- Label for the add authentication icon [CHAR LIMIT=40] -->
@@ -99,6 +131,7 @@
   <!-- Preference for the compose toolbar -->
   <string name="preference_compose_toolbar_visibility">Visualizza toolbar composizione</string>
   <!-- Preference for conversation threading -->
+  <string name="preference_conversation_threading">Raggruppa conversazioni</string>
   <string name="message_send_failed_ticker">Invio del messaggio fallito</string>
   <string name="message_send_failed_title">Messaggio non inviato</string>
   <string name="preferences_clear_search_history_title">Pulisci cronologia ricerca</string>
@@ -116,6 +149,11 @@
   <string name="preference_allow_insecure_attachments_title">Consenti allegati non sicuri</string>
   <string name="preference_allow_insecure_attachments_summary">Consenti visualizzazione o salvataggio di allegati non sicuri</string>
   <string name="custom_perms_dialog_title">Duplica autorizzazioni</string>
+  <string name="custom_perms_dialog_msg">Un\'altra app sta tentando di raccogliere le tue informazioni personali.\n\n<xliff:g id="content">%1$s</xliff:g>\n\nPrego contatta supporto Boxer per aiuto.</string>
+  <plurals name="custom_perms_dialog_app_violation">
+    <item quantity="one"><xliff:g id="app_name">(%1$s)</xliff:g> ridefinisce autorizzazione: <xliff:g id="permissions_list">%2$s</xliff:g></item>
+    <item quantity="other"><xliff:g id="app_name">(%1$s)</xliff:g> ridefinisce autorizzazioni: <xliff:g id="permissions_list">%2$s</xliff:g></item>
+  </plurals>
   <string name="custom_perms_pos_btn">Segnala</string>
   <!-- Label shown in the account selector to select "Combined", which contains
          Combined Inbox, Combined Outbox, etc. [CHAR LIMIT=30] -->
@@ -129,6 +167,7 @@
   <!-- Delete account -->
   <string name="delete_account_title">Elimina account</string>
   <string name="delete_account_summary">Elimina questo account e le relative impostazioni e dati</string>
+  <string name="delete_account_confirmation_msg">Questa operazione cancellerà tutte le impostazioni e le email dell\'account <xliff:g id="account">%1$s</xliff:g>. Questa operazione è irreversibile.\n\nContinuare?</string>
   <string name="deleting_account_msg">Eliminazione account\u2026</string>
   <string name="delete_account_failed">Impossibile eliminare l\'account</string>
   <!-- Read email screen, button name. Open an attachment. [CHAR LIMIT=10] -->
@@ -138,6 +177,10 @@
   <!-- Menu item to view an image  [CHAR LIMIT=50]-->
   <string name="contextmenu_view_image">Visualizza immagine</string>
   <!-- Formatting for the collapsed To header in the MessageHeaderView -->
+  <plurals name="to_header">
+    <item quantity="one">&amp; %1$d altro</item>
+    <item quantity="other">&amp; %1$d altri</item>
+  </plurals>
   <plurals name="conversation_todo">
     <!-- Displayed while setting one conversation to-do -->
     <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; segnato come da fare.</item>
@@ -147,6 +190,7 @@
   <!-- Displayed in undo LeaveBehindItem after reporting a message as spam -->
   <string name="reported_as_spam">Segnalato come spam</string>
   <!-- New Message notification text that appears over conversation view on incoming message. [CHAR LIMIT=40] -->
+  <string name="new_incoming_messages_one">Mostra nuovo messaggio da <xliff:g id="sender">%1$s</xliff:g>.</string>
   <!-- New Message notification text that appears over conversation view on incoming messages. Will only be used if there is more than one new message. [CHAR LIMIT=40] -->
   <plurals name="new_incoming_messages_many">
     <item quantity="one">Mostra <xliff:g id="count">%1$d</xliff:g> nuovo messaggio.</item>
@@ -174,6 +218,7 @@
   <string name="accounts_heading">Account</string>
   <!-- Default email signature on vendor builds -->
   <string name="vendor_signature">Inviato dal mio telefono Cyanogen</string>
+  <string name="vendor_signature_fmt">Inviato da <xliff:g id="brand" example="samsung">%1$s</xliff:g></string>
   <string name="blu_signature">Inviato dal mio telefono BLU - BLU Mail offerto da Boxer</string>
   <string name="vendor_signature_o2">Inviato da Cyanogen su O2</string>
   <!-- Notification action for deleting a message. [CHAR LIMIT=20] -->
@@ -181,6 +226,7 @@
   <!-- Notification action for replying to a message. [CHAR LIMIT=20] -->
   <string name="notification_action_reply">RISPONDI</string>
   <!-- Notification action for deleting a message. [CHAR LIMIT=20] -->
+  <string name="notification_action_delete">ELIMINA</string>
   <!-- Notification message to the user upon new messages for a conversation. [CHAR LIMIT=120] -->
   <plurals name="new_messages">
     <item quantity="one"><xliff:g id="count">%1$d</xliff:g> nuovo messaggio</item>
@@ -223,6 +269,7 @@
   <string name="action_grid_select_quick_response">Seleziona risposta rapida</string>
   <string name="action_grid_todo_dialog_title">Dettagli</string>
   <string name="action_grid_set_due_date">Imposta data di scadenza</string>
+  <string name="action_grid_due">Scadenza: <xliff:g id="datestring">%1$s</xliff:g></string>
   <string name="action_grid_add_priority">Aggiungi priorità</string>
   <string name="action_grid_priority">Priorità:\u0020</string>
   <string name="action_grid_add_assignee">Aggiungi assegnatario</string>
@@ -277,6 +324,7 @@
   </plurals>
   <string name="invalid_selection">Selezione non valida</string>
   <string name="file_action_more_than_one_account">Hai selezionato conversazioni da più di un account. Prova a selezionare solo le conversazioni di un account.</string>
+  <string name="action_more_than_one_conversation">La funzione selezionata supporta solo una conversazione alla volta. Prova a selezionare solo una conversazione.</string>
   <string name="not_installed">Non installato</string>
   <string name="evernote_not_installed">Evernote non sembra essere installato. Installalo per poter utilizzare questa funzionalità.</string>
   <string name="custom_mailbox_button">Aggiungi casella personalizzata</string>
@@ -307,6 +355,7 @@
   <string name="actions_dialog_positive_button_text">Personalizza scorrimenti</string>
   <string name="actions_dialog_negative_button_text">Chiudi</string>
   <!-- Account Setup -->
+  <string name="account_setup_start_company_slogan_text">Benvenuto in una casella di posta elettronica migliore.</string>
   <string name="account_setup_vendor_heading">Benvenuto in Email</string>
   <!-- Like Feature -->
   <string name="like_action_dialog_tittle">Come è?</string>
@@ -350,6 +399,10 @@
   <!-- Attendee text when user is the only attendee. -->
   <string name="calendar_attendees_me_only">Me</string>
   <!-- Attendee text when there are additional attendees. -->
+  <plurals name="calendar_attendees">
+    <item quantity="one">Io &amp; %1$d altro</item>
+    <item quantity="other">Io &amp; %1$d altri</item>
+  </plurals>
   <!-- Accompanies the date/time for all day events. -->
   <string name="all_day">Tutto il giorno</string>
   <!-- Status for canceled events. -->
@@ -361,22 +414,113 @@
   <string name="event_over">Evento terminato</string>
   <string name="busy">Occupato</string>
   <string name="available">Disponibile</string>
+  <plurals name="other_conflicts">
+    <item quantity="one">%1$d altro conflitto</item>
+    <item quantity="other">%1$d altri conflitti</item>
+  </plurals>
   <string name="meeting_invitation">Riepilogo invito:</string>
   <string name="invitation_by">Invito da</string>
   <string name="remove_invite">Rimuovi invito</string>
+  <string name="action_liked_message_cm"><xliff:g id="display_name" example="John Doe">%1$s</xliff:g> ha apprezzato il tuo messaggio con &lt;a href=\"%2$s\"&gt;Boxer su Cyanogen OS&lt;/a&gt;.</string>
   <string name="error_no_app_store">Nessun app store adatto è stato trovato</string>
   <!-- String shown in the TO field when it is blank -->
   <string name="undisclosed_recipients">Destinatari nascosti</string>
+  <string name="previous_action">Precedente</string>
   <!-- Title for enter passcode screen -->
+  <string name="enter_passcode_title">Inserisci la password</string>
+  <string name="enter_passcode_logo_desc">Logo Boxer</string>
+  <string name="enter_passcode_status_desc">Indicatore di stato</string>
+  <string name="enter_passcode_hint">Inserisci la tua password</string>
+  <string name="enter_passcode_go">Vai</string>
+  <string name="enter_passcode_success">Completato!</string>
+  <string name="enter_passcode_failure">Password errata</string>
+  <string name="enter_passcode_failure_with_max">%1$d di %2$d tentativi falliti</string>
+  <string name="enter_passcode_last_chance">1 tentativo rimanente.\nSe fallirà tutte le email saranno cancellate dal dispositivo.</string>
+  <string name="enter_passcode_wipe">Cancello dati app</string>
   <!-- Start of combined settings strings -->
+  <string name="header_category_mail">Mail</string>
+  <string name="header_category_other">Altro</string>
+  <string name="header_default_account_title">Account predefinito</string>
+  <string name="header_local_calendars_title">Calendari locali</string>
+  <string name="header_mail_settings_title">Altre opzioni email</string>
+  <string name="header_calendar_settings_title">Altre opzioni calendario</string>
+  <string name="header_passcode_title">Codice di accesso</string>
   <!-- In Account Setup options screen, label for email lookback selector -->
+  <string name="account_setup_options_mail_window_label">Posta sincronizzata per</string>
   <!-- In Account Settings screen, label for email lookback selector -->
+  <string name="account_settings_options_mail_window_label">Giorni da sincronizzare</string>
+  <string name="account_settings_sync_calendar_summary">Sincronizza eventi calendario per questo account</string>
+  <string name="default_account_fragment_title">Account predefinito</string>
+  <string name="mail_settings_fragment_title">Impostazioni posta</string>
   <!-- The menu item to send logs -->
+  <string name="menu_send_logs">Invia log</string>
   <!-- The menu item to open the about section -->
   <string name="menu_about">Info</string>
+  <string name="version">Versione</string>
+  <string name="build">Build</string>
+  <string name="build_date">Data build</string>
+  <string name="legal">Legale</string>
+  <string name="open_source">Licenze open source</string>
+  <string name="privacy_policy">Informativa privacy AirWatch</string>
   <!-- Name of the DeviceAdmin (seen in settings & in user confirmation screen) -->
+  <string name="device_admin_label">Boxer</string>
   <!-- Settings passcode strings -->
+  <string name="settings_passcode_on">Attiva codice d\'accesso</string>
+  <string name="settings_passcode_off">Disattiva codice d\'accesso</string>
+  <string name="settings_passcode_change">Cambia password</string>
+  <string name="settings_passcode_time_interval">Richiedi password</string>
   <!-- String array for require passcode in passcode settings -->
+  <string name="settings_require_passcode_1min">1 minuto</string>
+  <string name="settings_require_passcode_2min">2 minuti</string>
+  <string name="settings_require_passcode_3min">3 minuti</string>
+  <string name="settings_require_passcode_4min">4 minuti</string>
+  <string name="settings_require_passcode_5min">5 minuti</string>
+  <string name="settings_require_passcode_10min">10 minuti</string>
+  <string name="settings_require_passcode_15min">15 minuti</string>
+  <string name="settings_require_passcode_30min">30 minuti</string>
+  <string name="settings_require_passcode_1hour">1 ora</string>
+  <string name="settings_require_passcode_1.5hours">1,5 ore</string>
+  <string name="settings_require_passcode_4hours">4 ore</string>
+  <plurals name="settings_require_passcode_minutes">
+    <item quantity="one">minuto</item>
+    <item quantity="other">minuti</item>
+  </plurals>
+  <plurals name="settings_require_passcode_hours">
+    <item quantity="one">ora</item>
+    <item quantity="other">ore</item>
+  </plurals>
   <!-- Permission related string -->
+  <string name="permissions_enable">Attiva</string>
+  <string name="permissions_call_title">Attiva accesso telefono</string>
+  <string name="permissions_call_message">Per telefonare, devi consentire il permesso del telefono a Boxer.</string>
+  <string name="permissions_storage_title">Attiva accesso memoria</string>
+  <string name="permissions_storage_message">Per salvare gli allegati, devi consentire il permesso di accesso alla memoria a Boxer.</string>
+  <string name="permissions_calendar_title">Attiva accesso calendario</string>
+  <string name="permissions_calendar_message">Boxer non ha il permesso di accedere agli eventi del calendario.</string>
+  <string name="permissions_do_not_show_again">Non mostrare di nuovo</string>
   <!-- String shown as a toast when sending a quick response fails due to some unknown error-->
+  <string name="emailing_guests_failed">Impossibile invare mail agli ospiti</string>
+  <string name="account_setup_selection_title">Tipo di account</string>
+  <string name="account_setup_discovery_title">Dettagli dell\'account</string>
+  <string name="account_setup_options_title">Opzioni di sincronizzazione</string>
+  <string name="plugin_permission_label">Permesso plugin Boxer</string>
+  <string name="plugin_permission_description">I plugin Boxer sono caricati dall\'app per aggiungere funzioni aggiuntive. I plugin devono essere firmati da Boxer per essere caricati.</string>
+  <string name="view">Visualizza</string>
+  <string name="original_appointment">----Appuntamento originale---</string>
+  <string name="meeting_from">
+        Da:
+        <xliff:g id="From">%s</xliff:g>
+    </string>
+  <string name="meeting_subject">
+        Oggetto:
+        <xliff:g id="Subject">%s</xliff:g>
+    </string>
+  <string name="meeting_to">
+        A:
+        <xliff:g id="To">%s</xliff:g>
+    </string>
+  <string name="email_attendees">Email ai partecipanti</string>
+  <string name="forward_event">Inoltra evento</string>
+  <string name="email_organizer">Invia email all\'organizzatore</string>
+  <string name="email_everyone">Email a tutti</string>
 </resources>

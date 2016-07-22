@@ -30,6 +30,7 @@
   <string name="account_setup_password_label">Geben Sie Ihr Passwort ein.</string>
   <string name="account_setup_discovery_account_name_hint">Kontoname</string>
   <string name="account_setup_username_invalid_chars">Die folgenden Zeichen sind nicht erlaubt: <xliff:g id="chars">%1$s</xliff:g></string>
+  <string name="account_setup_invalid_server_address">Ungültige Serveradresse eingegeben</string>
   <string name="account_setup_oauth_required_failure">Die Zwei-Faktor-Authentifizierung wird für <xliff:g id="account_type">%1$s </xliff:g>-Konten noch nicht unterstützt. Bitte melden Sie sich bei Ihrem Konto an, um ein App-spezifisches Passwort zu generieren.</string>
   <string name="account_setup_domain_label">Domäne</string>
   <string name="account_setup_server_info_heading">Serverinfo</string>
@@ -181,12 +182,12 @@
   <string name="folder_search_hint">Suche</string>
   <!-- The section headers for the move to folder dialog [CHAR LIMIT=15] -->
   <string-array name="moveto_folder_sections">
-    <item>Smart folders</item>
+    <item>Smart Folders</item>
     <item>Alle Ordner</item>
   </string-array>
   <!-- The section headers for the change folders dialog [CHAR LIMIT=15] -->
   <string-array name="change_folders_sections">
-    <item>Smart labels</item>
+    <item>Smart Labels</item>
     <item>Alle Label</item>
   </string-array>
   <!-- String used in the FolderListFragment to mark the start of "boxes" -->
@@ -196,6 +197,7 @@
   <string name="accounts_heading">Konten</string>
   <!-- Default email signature on vendor builds -->
   <string name="vendor_signature">Von meinem Cyanogen-Telefon gesendet</string>
+  <string name="vendor_signature_fmt">Von <xliff:g id="brand" example="samsung">%1$s</xliff:g> gesendet</string>
   <string name="blu_signature">Von meinem BLU-Telefon gesendet – BLU Mail wird von Boxer zur Verfügung gestellt</string>
   <string name="vendor_signature_o2">Gesendet von Cyanogen über O2</string>
   <!-- Notification action for deleting a message. [CHAR LIMIT=20] -->
@@ -205,6 +207,10 @@
   <!-- Notification action for deleting a message. [CHAR LIMIT=20] -->
   <string name="notification_action_delete">LÖSCHEN</string>
   <!-- Notification message to the user upon new messages for a conversation. [CHAR LIMIT=120] -->
+  <plurals name="new_messages">
+    <item quantity="one"><xliff:g id="count">%1$d</xliff:g> neue Nachricht</item>
+    <item quantity="other"><xliff:g id="count">%1$d</xliff:g> neue Nachrichten</item>
+  </plurals>
   <!--  Settings screen, Swipe actions preference title -->
   <string name="preferences_swipe_actions_title">Wischaktionen</string>
   <!--  Settings screen, Swipe actions preference summary -->
@@ -300,8 +306,10 @@
   <string name="rage_shake_title">Schütteln erkannt</string>
   <string name="rage_shake_message">Möchten Sie Debuginformationen übermitteln, wenn die App abstürzt?</string>
   <string name="actions_dialog_title">Anpassen</string>
+  <string name="actions_dialog_positive_button_text">Wischaktionen anpassen</string>
   <string name="actions_dialog_negative_button_text">Schließen</string>
   <!-- Account Setup -->
+  <string name="account_setup_start_company_slogan_text">Willkommen zu einem besserem Posteingang</string>
   <string name="account_setup_vendor_heading">Willkommen bei E-Mail</string>
   <!-- Like Feature -->
   <string name="like_action_dialog_tittle">Was ist \"Gefällt mir\"?</string>
@@ -325,9 +333,17 @@
   <string name="message_reported">Nachricht gemeldet</string>
   <!-- Conversation list shared between the Activity and Widget -->
   <!-- Displayed in the middle of the screen when conversations are being loaded [CHAR LIMIT 100]-->
+  <string name="empty_folder">Keine E-Mails vorhanden.</string>
+  <string name="empty_inbox">Alles erledigt! Genießen Sie Ihren Tag.</string>
+  <string name="empty_search">Hoppla! Wir haben nichts für \"<xliff:g id="search_query">%1$s</xliff:g>\" gefunden.</string>
+  <string name="empty_spam_folder">Hurra, keine Spam-Mails!</string>
+  <string name="empty_trash_folder">Papierkorb leer. Danke fürs Aufräumen!</string>
   <!-- Calendar invite hero card -->
   <!-- Link for opening an invite's event in the calendar app. -->
+  <string name="view_on_calendar">Im Kalender anzeigen</string>
   <!-- Response action buttons. -->
+  <string name="accept">Annehmen</string>
+  <string name="maybe">Vielleicht</string>
   <string name="decline">Ablehnen</string>
   <string name="remove_from_cal">Aus dem Kalender entfernen</string>
   <string name="remove_series_from_cal">Serientermine aus dem Kalender entfernen</string>
@@ -415,7 +431,11 @@
   </plurals>
   <!-- Permission related string -->
   <string name="permissions_enable">Aktivieren</string>
+  <string name="permissions_calendar_title">Kalenderzugriff gewähren</string>
+  <string name="permissions_do_not_show_again">Nicht erneut anzeigen</string>
   <!-- String shown as a toast when sending a quick response fails due to some unknown error-->
+  <string name="account_setup_selection_title">Kontotyp</string>
+  <string name="account_setup_discovery_title">Kontodetails</string>
   <string name="account_setup_options_title">Synchronisierungsoptionen</string>
   <string name="view">Anzeigen</string>
   <string name="original_appointment">----Ursprüngliche Termin----</string>

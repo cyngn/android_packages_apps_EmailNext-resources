@@ -98,12 +98,29 @@
   <!-- Notification title when a forwarded attachment couldn't be sent [CHAR LIMIT=30]-->
   <string name="forward_download_failed_title">Allegato non inoltrato</string>
   <!-- Notification ticker when email account authentication fails [CHAR LIMIT=none] -->
+  <string name="login_failed_ticker">Accesso a <xliff:g id="account_name">%1$s</xliff:g> fallito.</string>
   <!-- Notification title when email account authentication fails [CHAR LIMIT=30]-->
   <string name="login_failed_title">Accesso non riuscito</string>
   <!-- Size unit for bytes for attachments [CHAR LIMIT=10] -->
+  <plurals name="message_view_attachment_bytes">
+    <item quantity="one"><xliff:g id="size_in_bytes" example="1">%1$d</xliff:g>B</item>
+    <item quantity="other"><xliff:g id="size_in_bytes" example="279">%1$d</xliff:g>B</item>
+  </plurals>
   <!-- Size unit for kilo bytes for attachments [CHAR LIMIT=10] -->
+  <plurals name="message_view_attachment_kilobytes">
+    <item quantity="one"><xliff:g id="size_in_kilobytes" example="1">%1$d</xliff:g>KB</item>
+    <item quantity="other"><xliff:g id="size_in_kilobytes" example="279">%1$d</xliff:g>KB</item>
+  </plurals>
   <!-- Size unit for mega bytes for attachments [CHAR LIMIT=10] -->
+  <plurals name="message_view_attachment_megabytes">
+    <item quantity="one"><xliff:g id="size_in_megabytes" example="1">%1$d</xliff:g>MB</item>
+    <item quantity="other"><xliff:g id="size_in_megabytes" example="279">%1$d</xliff:g>MB</item>
+  </plurals>
   <!-- Size unit for giga bytes for attachments [CHAR LIMIT=10] -->
+  <plurals name="message_view_attachment_gigabytes">
+    <item quantity="one"><xliff:g id="size_in_gigabytes" example="1">%1$d</xliff:g>GB</item>
+    <item quantity="other"><xliff:g id="size_in_gigabytes" example="279">%1$d</xliff:g>GB</item>
+  </plurals>
   <!-- Title of screen when setting up new email account [CHAR LIMIT=45] -->
   <string name="account_setup_basics_title">Impostazione account</string>
   <!-- Headline of screen when setting up new email account (large text over divider)
@@ -120,6 +137,7 @@
   <string name="account_duplicate_dlg_title">Account duplicato</string>
   <!-- Message of dialog shown when a duplicate account is created.  The display name of
          the duplicate account is displayed. -->
+  <string name="account_duplicate_dlg_message_fmt">Utilizzi già questo nome utente per l\'account \"<xliff:g id="duplicate">%1$s</xliff:g>\".</string>
   <!-- String that is displayed as error text for passwords with leading or trailing
          spaces.  [CHAR LIMIT=none] -->
   <string name="account_password_spaces_error">Questa password inizia o termina con uno o più spazi. Molti server non supportano le password contenenti spazi.</string>
@@ -254,6 +272,7 @@
   <string name="account_setup_failed_dlg_certificate_message">Impossibile connettersi in modo sicuro al server.</string>
   <!-- An error message presented to the user when the server's identity
          cannot be established or trusted [CHAR LIMIT=NONE] -->
+  <string name="account_setup_failed_dlg_certificate_message_fmt">Impossibile connettersi in modo sicuro al server.\n(<xliff:g id="error">%1$s</xliff:g>)</string>
   <!-- An error message presented to the user when the server requires a
          client certificate to connect [CHAR LIMIT=NONE] -->
   <string name="account_setup_failed_certificate_required">È necessario un certificato client. Vuoi connetterti al server con un certificato client?</string>
@@ -265,6 +284,7 @@
   <!-- "Setup could not finish" dialog text; e.g., Cannot connect to server -->
   <string name="account_setup_failed_dlg_server_message">Impossibile connettersi al server.</string>
   <!-- "Setup could not finish" dialog text; e.g., Cannot connect to server\n(Connection timed out) -->
+  <string name="account_setup_failed_dlg_server_message_fmt">Impossibile connettersi al server.\n(<xliff:g id="error">%1$s</xliff:g>)</string>
   <!-- Additional diagnostic text when TLS was required but the server doesn't support it -->
   <string name="account_setup_failed_tls_required">TLS richiesto ma non supportato dal server.</string>
   <!-- Additional diagnostic text when server does not support any of our authentication methods -->
@@ -285,8 +305,10 @@
   <!-- Additional diagnostic text when validation requires security provisioning (e.g. support
          for device lock PIN, or remote wipe.) and we ask the user permission before continuing.
          [CHAR LIMIT=none] -->
+  <string name="account_setup_security_policies_required_fmt">Il server <xliff:g id="server">%1$s</xliff:g> richiede che tu consenta il controllo remoto di alcune funzionalità di sicurezza del tuo dispositivo Android. Completare la configurazione dell\'account?</string>
   <!-- Additional diagnostic text when validation failed due to required provisioning not
          being supported [CHAR LIMIT=none] -->
+  <string name="account_setup_failed_security_policies_unsupported">Il server richiede funzioni di sicurezza non supportate dal tuo dispositivo Android, fra cui: <xliff:g id="error">%1$s</xliff:g></string>
   <!-- The user name can only be changed during initial account setup. [CHAR LIMIT=none] -->
   <string name="account_setup_username_uneditable_error">Non è possibile modificare il nome utente di un account. Per aggiungere un account con un altro nome utente, tocca Aggiungi account.</string>
   <!-- Warning given to users when they request disabling device administration (i.e. that their
@@ -299,8 +321,11 @@
   <!-- Additional diagnostic text when the account requires some amount of device security
          provisioning, just before jumping into system settings such as Device Policy grant,
          PIN/password, or encryption setup.  [CHAR LIMIT=none] -->
+  <string name="account_security_dialog_content_fmt"><xliff:g id="account">%1$s</xliff:g> richiede l\'aggiornamento delle impostazioni di sicurezza.</string>
   <!-- Notification ticker when device security required (note: unused in Holo XL) -->
+  <string name="security_unsupported_ticker_fmt">L\'account \"<xliff:g id="account">%1$s</xliff:g>\" non può essere sincronizzato a causa di requisiti di sicurezza.</string>
   <!-- Notification ticker when device security required (note: unused in Holo XL) -->
+  <string name="security_needed_ticker_fmt">È richiesto l\'aggiornamento delle impostazioni di sicurezza per l\'account \"<xliff:g id="account">%1$s</xliff:g>\".</string>
   <!-- Notification ticker when device security required (note: unused in Holo XL) -->
   <!-- Notification content title when device security required [CHAR_LIMIT=30] -->
   <string name="security_notification_content_update_title">Aggiornam. sicurezza richiesto</string>
@@ -311,9 +336,11 @@
   <string name="account_security_title">Sicurezza dispositivo</string>
   <!-- Additional diagnostic text when the email app asserts control of the phone.
         [CHAR LIMIT=none] -->
+  <string name="account_security_policy_explanation_fmt">Il server <xliff:g id="server">%1$s</xliff:g> richiede che tu consenta il controllo remoto di alcune funzionalità di sicurezza del tuo dispositivo Android.</string>
   <!-- "Setup could not finish" dialog action button -->
   <string name="account_setup_failed_dlg_edit_details_action">Modifica dettagli</string>
   <!-- Notification ticker when device password is getting ready to expire [CHAR_LIMIT=80] -->
+  <string name="password_expire_warning_ticker_fmt">\"<xliff:g id="account">%1$s</xliff:g>\" richiede la modifica del PIN o della password di blocco dello schermo.</string>
   <!-- Notification content title when device password is getting ready to expire
             [CHAR_LIMIT=30] -->
   <string name="password_expire_warning_content_title">Password blocco schermo in scadenza</string>
@@ -324,9 +351,11 @@
   <!-- Dialog title if device pin/password is going to expire soon. [CHAR_LIMIT=40] -->
   <string name="password_expire_warning_dialog_title">Password blocco schermo in scadenza</string>
   <!-- Dialog content device pin/password is going to expire soon. [CHAR_LIMIT=none] -->
+  <string name="password_expire_warning_dialog_content_fmt">Appena possibile devi cambiare il PIN o la password di blocco dello schermo; in caso contrario i dati di <xliff:g id="account">%1$s</xliff:g> verranno eliminati. Vuoi apportare la modifica ora?</string>
   <!-- Dialog title if device pin/password has already expired. [CHAR_LIMIT=40] -->
   <string name="password_expired_dialog_title">Password blocco schermo scaduta</string>
   <!-- Dialog content device pin/password has already expired. [CHAR_LIMIT=none] -->
+  <string name="password_expired_dialog_content_fmt">I dati relativi a <xliff:g id="account">%1$s</xliff:g> stanno per essere cancellati dal dispositivo. È possibile ripristinarli modificando il PIN o la password di blocco dello schermo. Vuoi apportare la modifica ora?</string>
   <!-- On AccountSettingsXL, dialog text if you try to exit in/out/eas fragment (server settings)
          without checking/saving [CHAR LIMIT=none]-->
   <string name="account_settings_exit_server_settings">Ignorare le modifiche non salvate?</string>
@@ -335,8 +364,10 @@
   <string name="account_settings_login_dialog_title">Impossibile accedere</string>
   <!-- Dialog content if you were brought here due to a login failure.
         [CHAR_LIMIT=none] -->
+  <string name="account_settings_login_dialog_content_fmt">Password o nome utente di <xliff:g id="account">%1$s</xliff:g> errato. Vuoi aggiornarli ora?</string>
   <!-- Dialog content if you were brought here due to a login failure, and the server provided a reason
         [CHAR_LIMIT=none] -->
+  <string name="account_settings_login_dialog_reason_fmt">Accesso a <xliff:g id="account">%1$s</xliff:g> non riuscito. Il server ha restituito il seguente messaggio: <xliff:g id="reason">%2$s</xliff:g> Vuoi aggiornare nome utente e/o password?</string>
   <!-- On Settings screen, setting option name -->
   <!-- Title of account preference for downloading attachments in background [CHAR LIMIT=32] -->
   <string name="account_settings_background_attachments_label">Scarica allegati</string>
@@ -408,6 +439,7 @@
   <!-- Mailbox settings activity title [CHAR LIMIT=none] -->
   <string name="mailbox_settings_activity_title">Opzioni di sincronizzazione</string>
   <!-- Mailbox settings activity title, with the target folder name [CHAR LIMIT=none] -->
+  <string name="mailbox_settings_activity_title_with_mailbox">Opzioni di sincronizzazione (<xliff:g id="mailboxx_name" example="Family">%1$s</xliff:g>)</string>
   <!-- On mailbox settings screen: Whether to sync this mailbox when the account syncs. -->
   <string name="mailbox_settings_sync_enabled_label">Sincronizza questa cartella</string>
   <!-- On mailbox settings screen: Explanatory text for what it means to "sync this folder". -->
@@ -506,7 +538,9 @@
   <string name="pop3_name">POP3</string>
   <string name="folder_picker_title">Selettore cartelle</string>
   <!-- Displayed when the user must pick his server's trash folder from a list [CHAR LIMIT 30]-->
+  <string name="trash_folder_selection_title">Selez. cartella Cestino server per <xliff:g id="account">%1$s</xliff:g></string>
   <!-- Displayed when the user must pick his server's sent items folder from a list [CHAR LIMIT 30]-->
+  <string name="sent_folder_selection_title">Selez. cartella posta inviata server <xliff:g id="account">%1$s</xliff:g></string>
   <string name="account_waiting_for_folders_msg">Caricamento elenco cartelle&#8230;</string>
   <!-- Feedback uri to be used when feedback is enabled -->
   <!-- Names of packages and authorities that are common to all apps
@@ -548,6 +582,7 @@
   <!-- Compose screen, prefixed to the subject of a message when replying to it (if not already present). Do not translate. -->
   <!-- Compose screen, Prefix to forwarded message subject. Do not translate. -->
   <!-- Compose screen, displayed at the top of a message being replied to. Please preserve the HTML entities (surrounded by & and ;).  The two %s strings will be replaced by 1) the date 2) the person who wrote the email being responded to. [CHAR LIMIT=1000]-->
+  <string name="reply_attribution">Il <xliff:g id="date">%1$s</xliff:g>, <xliff:g id="person">%2$s</xliff:g> ha scritto:</string>
   <!-- Compose screen, displayed at the top of a message being forwarded. Please preserve the HTML entities (surrounded by & and ;). [CHAR LIMIT=1000] -->
   <string name="forward_attribution">---------- Messaggio inoltrato ----------&lt;br&gt;Da: <xliff:g id="from">%1$s</xliff:g>&lt;br&gt;Data: <xliff:g id="date">%2$s</xliff:g>&lt;br&gt;Oggetto: <xliff:g id="subject">%3$s</xliff:g>&lt;br&gt;A: <xliff:g id="to">%4$s</xliff:g>&lt;br&gt;</string>
   <!-- Compose screen, displayed at the top of a message being forwarded. [CHAR LIMIT=100]-->
@@ -640,8 +675,11 @@
   <!-- Format string for email addresses -->
   <!-- Attachments -->
   <!-- Size unit, displayed in a button next to an attachment [CHAR LIMIT=5]-->
+  <string name="bytes"><xliff:g id="count">%1$s</xliff:g> B</string>
   <!-- Size unit, displayed in a button next to an attachment [CHAR LIMIT=5] -->
+  <string name="kilobytes"><xliff:g id="count">%1$s</xliff:g> KB</string>
   <!-- Size unit, displayed in a button next to an attachment  [CHAR LIMIT=5]-->
+  <string name="megabytes"><xliff:g id="count">%1$s</xliff:g> MB</string>
   <!-- Attachment description for image files [CHAR LIMIT=30] -->
   <string name="attachment_image">Immagine</string>
   <!-- Attachment description for video files [CHAR LIMIT=30] -->
@@ -659,6 +697,7 @@
   <!-- Attachment description for .pdf files [CHAR LIMIT=30] -->
   <string name="attachment_application_pdf">PDF</string>
   <!-- Attachment description for unknown files [CHAR LIMIT=30]-->
+  <string name="attachment_unknown"><xliff:g id="attachmentExtension">%1$s</xliff:g> File</string>
   <!-- Read email screen, button name. Preview an attachment by Gview. [CHAR LIMIT=18] -->
   <string name="preview_attachment">Anteprima</string>
   <!-- Read email screen, button name. Save an attachment to sd card. [CHAR LIMIT=10] -->
@@ -674,6 +713,7 @@
   <string name="fetching_attachment">Recupero allegato</string>
   <!-- Dialog box message. [CHAR LIMIT=80] -->
   <!-- Displayed in the conversation view, next to a file's size and type. Status of a saved attachment. [CHAR LIMIT=20]-->
+  <string name="saved">Salvato, <xliff:g id="size">%1$s</xliff:g></string>
   <!-- Displayed in the conversation view. Status of a failed attachment. [CHAR LIMIT=50]-->
   <string name="download_failed">Download non riuscito. Toccca per riprovare.</string>
   <!-- Displayed in the conversation view, as a header informing
@@ -733,6 +773,7 @@
   <string name="filtered_tag">[<xliff:g id="tag">%1$s</xliff:g>] <xliff:g id="subject">%2$s</xliff:g></string>
   <!-- Displayed in Conversation Header View and Widget in the form of "subject - snippet"
          [CHAR LIMIT=5] -->
+  <string name="subject_and_snippet"><xliff:g>%1$s</xliff:g> \u2014 <xliff:g>%2$s</xliff:g></string>
   <!-- Displayed in browse list item when the list item is a draft message instead of showing the subject [CHAR LIMIT=100] -->
   <plurals name="draft">
     <!-- Title of the screen when there is exactly one draft -->
@@ -888,6 +929,7 @@
   <!-- Displayed for one second while message is being sent [CHAR LIMIT=50]-->
   <string name="sending_message">Invio messaggio\u2026</string>
   <!-- Displayed for one second after trying to send with invalid recipients [CHAR LIMIT=50]-->
+  <string name="invalid_recipient">L\'indirizzo <xliff:g id="wrongemail" example="foo@@gmail..com">%1$s</xliff:g> non è valido.</string>
   <!-- Shown in HTML to allow the user to see quoted text; should match Gmail web UI. 25B6 is Unicode for a right-pointing triangle. [CHAR LIMIT=50] -->
   <string name="show_elided">\u25B6 Mostra testo quotato</string>
   <!-- Shown in HTML to allow the user to hide quoted text; should match Gmail web UI. 25BC is Unicode for a downward-pointing triangle. [CHAR LIMIT=50] -->
@@ -934,6 +976,7 @@
          button that will allow the user to configure sync for the folder [CHAR LIMIT=35] -->
   <string name="tap_to_configure_folder_sync">Sincronizza cartella</string>
   <!-- Displayed in widget when unread count > 100. [CHAR LIMIT=4] -->
+  <string name="widget_large_unread_count">%1$d+</string>
   <plurals name="actionbar_unread_messages">
     <item quantity="one"><xliff:g id="count" example="4">%1$d</xliff:g> non letto</item>
     <!-- String for the actionbar subtitle when messages are unread [CHAR LIMIT=30] -->
@@ -1068,6 +1111,7 @@
   <!-- String to be shown instead of a veiled addresses. [CHAR LIMIT=50] -->
   <!-- Summary string to be shown instead of a veiled recipient. [CHAR LIMIT=50] -->
   <!-- Notification ticker text for per-label notification [CHAR LIMIT=30]-->
+  <string name="label_notification_ticker">"<xliff:g id="label">%1$s</xliff:g>: <xliff:g id="notification">%2$s</xliff:g>"</string>
   <!-- Format string used when displaying the title of a notification that was triggered by a single new conversation. [CHAR LIMIT=120] -->
   <string name="single_new_message_notification_title"><xliff:g id="sender">%1$s</xliff:g>: <xliff:g id="subject">%2$s</xliff:g></string>
   <!-- Settings screen, what to display for Ringtone when the user chooses "silent" [CHAR LIMIT=100]-->
@@ -1154,102 +1198,200 @@
   <!-- Button in conversation list to hide folders [CHAR LIMIT=50] -->
   <!-- Error message that is displayed when the user clicks on a quick contacts badge, but
          there is no contacts application installed that can display the quick contact -->
+  <string name="quick_contacts_not_available">Nessuna applicazione trovata per vedere questo contatto.</string>
   <!-- Custom phone number type -->
+  <string name="phoneTypeCustom">Personalizzato</string>
   <!-- Home phone number type -->
+  <string name="phoneTypeHome">Casa</string>
   <!-- Mobile phone number type -->
+  <string name="phoneTypeMobile">Mobile</string>
   <!-- Work phone number type -->
+  <string name="phoneTypeWork">Lavoro</string>
   <!-- Work fax phone number type -->
+  <string name="phoneTypeFaxWork">Fax di lavoro</string>
   <!-- Home fax phone number type -->
+  <string name="phoneTypeFaxHome">Fax abitazione</string>
   <!-- Pager phone number type -->
+  <string name="phoneTypePager">Cercapersone</string>
   <!-- Other phone number type -->
+  <string name="phoneTypeOther">Altro</string>
   <!-- Callback phone number type -->
+  <string name="phoneTypeCallback">Callback</string>
   <!-- Car phone number type -->
+  <string name="phoneTypeCar">Auto</string>
   <!-- Company main phone number type -->
+  <string name="phoneTypeCompanyMain">Azienda principale</string>
   <!-- ISDN phone number type -->
+  <string name="phoneTypeIsdn">ISDN</string>
   <!-- Main phone number type -->
+  <string name="phoneTypeMain">Main</string>
   <!-- Other fax phone number type -->
+  <string name="phoneTypeOtherFax">Altro Fax</string>
   <!-- Radio phone number type -->
+  <string name="phoneTypeRadio">Radio</string>
   <!-- Telex phone number type -->
+  <string name="phoneTypeTelex">Telex</string>
   <!-- TTY TDD phone number type -->
+  <string name="phoneTypeTtyTdd">TTY TDD</string>
   <!-- Work mobile phone number type -->
+  <string name="phoneTypeWorkMobile">Telefono di lavoro</string>
   <!-- Work pager phone number type -->
+  <string name="phoneTypeWorkPager">Pager di lavoro</string>
   <!-- Assistant phone number type -->
+  <string name="phoneTypeAssistant">Assistente</string>
   <!-- MMS phone number type -->
+  <string name="phoneTypeMms">MMS</string>
   <!-- Label for custom events  [CHAR LIMIT=20] -->
+  <string name="eventTypeCustom">Personalizzato</string>
   <!-- Label for a birthday event  [CHAR LIMIT=20] -->
+  <string name="eventTypeBirthday">Compleanno</string>
   <!-- Label for an anniversary event  [CHAR LIMIT=20] -->
+  <string name="eventTypeAnniversary">Anniversario</string>
   <!-- Label for other events  [CHAR LIMIT=20] -->
+  <string name="eventTypeOther">Altro</string>
   <!-- Custom email type -->
+  <string name="emailTypeCustom">Personalizzato</string>
   <!-- Home email type -->
+  <string name="emailTypeHome">Casa</string>
   <!-- Work email type -->
+  <string name="emailTypeWork">Lavoro</string>
   <!-- Other email type -->
+  <string name="emailTypeOther">Altro</string>
   <!-- Mobile email type -->
+  <string name="emailTypeMobile">Mobile</string>
   <!-- Custom postal address type -->
+  <string name="postalTypeCustom">Personalizzato</string>
   <!-- Home postal address type -->
+  <string name="postalTypeHome">Casa</string>
   <!-- Work postal address type -->
+  <string name="postalTypeWork">Lavoro</string>
   <!-- Other postal address type -->
+  <string name="postalTypeOther">Altro</string>
   <!-- Custom IM address type -->
+  <string name="imTypeCustom">Personalizzato</string>
   <!-- Home IM address type -->
+  <string name="imTypeHome">Casa</string>
   <!-- Work IM address type -->
+  <string name="imTypeWork">Lavoro</string>
   <!-- Other IM address type -->
+  <string name="imTypeOther">Altro</string>
   <!-- Custom IM protocol type -->
+  <string name="imProtocolCustom">Personalizzato</string>
   <!-- AIM IM protocol type -->
+  <string name="imProtocolAim">AIM</string>
   <!-- MSN IM protocol type -->
+  <string name="imProtocolMsn">Windows Live</string>
   <!-- Yahoo IM protocol type -->
+  <string name="imProtocolYahoo">Yahoo</string>
   <!-- Skype IM protocol type -->
+  <string name="imProtocolSkype">Skype</string>
   <!-- QQ IM protocol type -->
+  <string name="imProtocolQq">QQ</string>
   <!-- Google Talk IM protocol type -->
+  <string name="imProtocolGoogleTalk">Hangouts</string>
   <!-- ICQ IM protocol type -->
+  <string name="imProtocolIcq">ICQ</string>
   <!-- Jabber IM protocol type -->
+  <string name="imProtocolJabber">Jabber</string>
   <!-- NetMeeting IM protocol type -->
+  <string name="imProtocolNetMeeting">NetMeeting</string>
   <!-- Work organization type -->
+  <string name="orgTypeWork">Lavoro</string>
   <!-- Other organization type -->
+  <string name="orgTypeOther">Altro</string>
   <!-- Custom organization type -->
+  <string name="orgTypeCustom">Personalizzato</string>
   <!-- Custom relationship custom [CHAR LIMIT=20] -->
   <!-- Assistant relationship type [CHAR LIMIT=20] -->
+  <string name="relationTypeAssistant">Assistente</string>
   <!-- Brother relationship type [CHAR LIMIT=20] -->
+  <string name="relationTypeBrother">Fratello</string>
   <!-- Child relationship type [CHAR LIMIT=20] -->
+  <string name="relationTypeChild">Figlio</string>
   <!-- Domestic Partner relationship type [CHAR LIMIT=20] -->
+  <string name="relationTypeDomesticPartner">Partner domestico</string>
   <!-- Father relationship type [CHAR LIMIT=20] -->
+  <string name="relationTypeFather">Padre</string>
   <!-- Friend relationship type [CHAR LIMIT=20] -->
+  <string name="relationTypeFriend">Amico</string>
   <!-- Manager relationship type [CHAR LIMIT=20] -->
+  <string name="relationTypeManager">Manager</string>
   <!-- Mother relationship type [CHAR LIMIT=20] -->
+  <string name="relationTypeMother">Madre</string>
   <!-- Parent relationship type [CHAR LIMIT=20] -->
+  <string name="relationTypeParent">Genitore</string>
   <!-- Partner relationship type [CHAR LIMIT=20] -->
+  <string name="relationTypePartner">Partner</string>
   <!-- Referred by relationship type [CHAR LIMIT=20] -->
+  <string name="relationTypeReferredBy">Riferito da</string>
   <!-- Relative relationship type [CHAR LIMIT=20] -->
+  <string name="relationTypeRelative">Parente</string>
   <!-- Sister relationship type [CHAR LIMIT=20] -->
+  <string name="relationTypeSister">Sorella</string>
   <!-- Spouse relationship type [CHAR LIMIT=20] -->
+  <string name="relationTypeSpouse">Coniuge</string>
   <!-- Custom SIP address type. Same context as Custom phone type.  -->
+  <string name="sipAddressTypeCustom">Personalizzato</string>
   <!-- Home SIP address type. Same context as Home phone type. -->
+  <string name="sipAddressTypeHome">Casa</string>
   <!-- Work SIP address type. Same context as Work phone type. -->
+  <string name="sipAddressTypeWork">Lavoro</string>
   <!-- Other SIP address type. Same context as Other phone type. -->
+  <string name="sipAddressTypeOther">Altro</string>
   <!-- Part of a description of an repeating event. This part states the date when a repeating
          event ends. The part before the semi-colon describes how it repeats.
          e.g. Every 2 weeks; until 1/1/2030 [CHAR LIMIT=21] -->
+  <string name="endByDate">; fino a <xliff:g id="date">%1$s</xliff:g></string>
   <!-- Part of a description of an repeating event. This part how many times the event repeats.
          The part before the semi-colon describes how it repeats.
          e.g. Every 2 weeks; for 15 times [CHAR LIMIT=15] -->
+  <plurals name="endByCount">
+    <item quantity="one">; per una volta</item>
+    <item quantity="other">; per <xliff:g id="number">%1$d</xliff:g> volte</item>
+  </plurals>
   <!-- A description for an event that repeats daily. For example, Every 2 days [CHAR LIMIT=15]-->
+  <plurals name="daily">
+    <item quantity="one">Quotidianamente</item>
+    <item quantity="other">Ogni <xliff:g id="number">%1$d</xliff:g> giorni</item>
+  </plurals>
   <!-- A label in a multiple-choice list for the specifying that an event
          repeats every weekday (Monday through Friday) -->
+  <string name="every_weekday">"Ogni giorno feriale (Lun\u2013Ven)"</string>
   <!-- A description for an event that repeats weekly on some day of the week. For example,
          'Weekly on Tuesday' or Every 2 weeks on Monday, Tuesday.  [CHAR LIMIT=25]-->
+  <plurals name="weekly">
+    <item quantity="one">Settimanalmente il <xliff:g id="days_of_week">%2$s</xliff:g></item>
+    <item quantity="other">Ogni <xliff:g id="number">%1$d</xliff:g> settimane il <xliff:g id="days_of_week">%2$s</xliff:g></item>
+  </plurals>
   <!-- The common portion of a string describing how often an event repeats,
          example: 'Monthly (on day 2)' -->
+  <string name="monthly">Mensilmente</string>
   <!-- Calendar spinner item, to select that an event recurs every year. -->
+  <string name="yearly_plain">Annualmente</string>
   <!-- [CHAR LIMIT=NONE] Boot message while upgrading calendar. -->
   <!-- Temporary Calendar name to use before we have the calendar name from the server -->
   <!-- Caption on secret calendar info -->
   <!-- Error message for secret calendar info -->
+  <string name="calendar_info_error">Errore</string>
   <!-- No calendars message for secret calendar info -->
+  <string name="calendar_info_no_calendars">Nessun calendario</string>
   <!-- Event count message for secret calendar info -->
+  <string name="calendar_info_events">Eventi: <xliff:g id="events">%1$d</xliff:g></string>
   <!-- Event and dirty event count message for secret calendar info -->
+  <string name="calendar_info_events_dirty">Eventi <xliff:g id="events">%1$d</xliff:g>, Non salvati: <xliff:g id="dirty events">%2$d</xliff:g></string>
   <!-- What to show in messaging that refers to this provider, e.g. AccountSyncSettings -->
+  <string name="provider_label">Calendario</string>
+  <string name="contacts_provider_label">Contatti</string>
   <!-- Debug tool - dialog - delete file now [CHAR LIMIT=NONE] -->
+  <string name="debug_tool_delete_button">Elimina ora</string>
   <!-- Debug tool - dialog - start copying [CHAR LIMIT=NONE] -->
+  <string name="debug_tool_start_button">Inizia</string>
   <!-- Debug tool - Main message shown to the user when starting up the debug tool [CHAR LIMIT=NONE] -->
+  <string name="debug_tool_message">Stai per 1) creare una copia del tuo calendario nella scheda SD / memoria USB, che è leggibile da qualunque app, e 2) inviarlo via email. Ricordati di eliminare la copia appena l\'hai copiata fuori dal dispositivo o l\'email è stata ricevuta.</string>
   <!-- Debug tool - email subject [CHAR LIMIT=NONE] -->
+  <string name="debug_tool_email_sender_picker">Seleziona il programma per inviare il tuo file</string>
   <!-- Debug tool - email subject [CHAR LIMIT=NONE] -->
+  <string name="debug_tool_email_subject">Allegato Db calendario</string>
   <!-- Debug tool - email body [CHAR LIMIT=NONE] -->
+  <string name="debug_tool_email_body">In allegato il mio database Calendario con tutti i miei appuntamenti e informazioni personali. Gestire con cura.</string>
 </resources>

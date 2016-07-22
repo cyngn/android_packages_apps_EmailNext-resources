@@ -1311,7 +1311,7 @@
   <!-- Mother relationship type [CHAR LIMIT=20] -->
   <string name="relationTypeMother">Mãe</string>
   <!-- Parent relationship type [CHAR LIMIT=20] -->
-  <string name="relationTypeParent">Parente</string>
+  <string name="relationTypeParent">Pai</string>
   <!-- Partner relationship type [CHAR LIMIT=20] -->
   <string name="relationTypePartner">Parceiro</string>
   <!-- Referred by relationship type [CHAR LIMIT=20] -->
