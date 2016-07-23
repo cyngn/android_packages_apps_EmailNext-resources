@@ -120,6 +120,7 @@
   <string name="account_duplicate_dlg_title">Dvostruki račun</string>
   <!-- Message of dialog shown when a duplicate account is created.  The display name of
          the duplicate account is displayed. -->
+  <string name="account_duplicate_dlg_message_fmt">To korisničko ime već upotrebljavate za račun \"<xliff:g id="duplicate">%1$s</xliff:g>\".</string>
   <!-- String that is displayed as error text for passwords with leading or trailing
          spaces.  [CHAR LIMIT=none] -->
   <string name="account_password_spaces_error">Ova zaporka počinje ili završava jednim ili više znakova razmaka. Mnogi poslužitelji ne podržavaju zaporke s razmacima.</string>

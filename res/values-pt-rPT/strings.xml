@@ -1317,6 +1317,7 @@
   <!-- Referred by relationship type [CHAR LIMIT=20] -->
   <string name="relationTypeReferredBy">Indicado por</string>
   <!-- Relative relationship type [CHAR LIMIT=20] -->
+  <string name="relationTypeRelative">Parente</string>
   <!-- Sister relationship type [CHAR LIMIT=20] -->
   <string name="relationTypeSister">Irmã</string>
   <!-- Spouse relationship type [CHAR LIMIT=20] -->
