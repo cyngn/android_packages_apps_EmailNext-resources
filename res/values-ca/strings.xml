@@ -1131,7 +1131,7 @@
   <!-- In conversation list, when user initiates a downward swipe,
         this text is displayed in the action bar as a hint that they can trigger a
         sync/refresh by continuing the downward swipe. [CHAR LIMIT=60] -->
-  <string name="swipe_down_to_refresh">Fes lliscar el dit cap avall per actualitzar</string>
+  <string name="swipe_down_to_refresh">Llisca cap avall per actualitzar</string>
   <!-- In conversation list, when user has triggered a sync via a downward swipe,
         this text is displayed in the action bar for a brief moment to
     indicate that a sync is in progress.  [CHAR LIMIT=60] -->

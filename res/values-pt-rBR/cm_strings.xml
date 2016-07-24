@@ -27,14 +27,40 @@
   <string name="mailbox_name_display_archive">Arquivo</string>
   <string name="mailbox_name_local_only_display_name"> - Local</string>
   <string name="account_setup_email_address_hint">Digite seu endereço de e-mail</string>
+  <string name="account_setup_password_label">Digite sua senha</string>
+  <string name="account_setup_discovery_account_name_hint">Nome da conta</string>
+  <string name="account_setup_username_invalid_chars">Os seguintes caracteres não são permitidos: <xliff:g id="chars">%1$s</xliff:g></string>
+  <string name="account_setup_invalid_server_address">Endereço do servidor inválido</string>
+  <string name="account_setup_oauth_required_failure">Verificação em duas etapas ainda não suportada para contas <xliff:g id="account_type">%1$s</xliff:g>. Por favor, faça o login com a sua conta para gerar uma senha específica do aplicativo.</string>
+  <string name="account_setup_domain_label">Domínio</string>
+  <string name="account_setup_server_info_heading">Informação do servidor</string>
   <string name="account_setup_security_heading">Segurança</string>
+  <string name="account_setup_general_heading">Preferências da conta</string>
   <string name="account_setup_authentication_heading">Autenticação</string>
+  <string name="account_setup_passcode_title">O administrador do Exchange requer que você defina uma senha para sincronizar.</string>
+  <string name="account_setup_passcode_format_restriction_complex">Precisa de <xliff:g id="quantity">%1$d</xliff:g> entre os seguintes: uma letra maiúscula, uma letra minúscula, um número ou um caractere especial.</string>
+  <plurals name="account_setup_passcode_length_restriction">
+    <item quantity="one">Conter pelo menos 1 caracter.</item>
+    <item quantity="other">Conter pelo menos <xliff:g id="length">%1$d</xliff:g> caracteres.</item>
+  </plurals>
+  <plurals name="account_setup_passcode_previous_use_restriction">
+    <item quantity="one">Não pode coincidir com a sua senha anterior.</item>
+    <item quantity="other">Não pode coincidir com uma das suas <xliff:g id="passcodeHistoryLength">%1$d</xliff:g> senhas anteriores.</item>
+  </plurals>
+  <string name="account_setup_passcode_hint">Digite a sua senha</string>
+  <string name="account_setup_confirm_passcode_title">Confirme a senha</string>
+  <string name="account_setup_confirm_passcode_subtitle">As senhas têm que corresponder</string>
+  <string name="account_setup_confirm_passcode_action_label">Confirmar</string>
+  <string name="account_setup_check_settings_dialog_manual_button">Manual</string>
   <!-- Error message shown in dialog body when authenticating an account during setup fails -->
+  <string name="account_setup_failed_dlg_message_fmt"><xliff:g id="error_msg">%1$s</xliff:g>Você quer atualizar suas configurações e tentar novamente, ou inserir as configurações manualmente?</string>
   <!-- Dialog title when "setup" could not finish -->
+  <string name="account_setup_failed_dlg_title">Não foi possível configurar a conta</string>
   <!-- hint for account email password text field -->
   <string name="account_setup_basics_progress_message">Descoberta automática em andamento</string>
   <!-- In Account setup options screen, Activity title [CHAR LIMIT=45] -->
   <!-- In Account setup options screen, label for email check frequency selector -->
+  <string name="account_setup_options_mail_check_frequency_label">Verificar a Caixa de Entrada</string>
   <!-- In Account setup options & Account Settings screens, email check frequency option -->
   <string name="account_setup_options_mail_check_frequency_2hour">A cada 2 horas</string>
   <!-- In Account setup options & Account Settings screens, email check frequency option -->

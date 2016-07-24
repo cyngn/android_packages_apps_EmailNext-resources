@@ -515,6 +515,7 @@
   <!-- Layout tests strings -->
   <!-- Compose -->
   <!-- Shown in Compose; the sender of the message [CHAR LIMIT=10] -->
+  <string name="from">Nork</string>
   <!-- Shown in Compose; the recipient(s) of the message [CHAR LIMIT=10] -->
   <string name="to">Nori</string>
   <!-- Shown in Compose; the cc recipient(s) of the message [CHAR LIMIT=10] -->
@@ -532,16 +533,29 @@
   <!-- Button name: save this message as draft [CHAR LIMIT=25]-->
   <string name="save_draft">Gorde zirriborroa</string>
   <!--  Button name: discard this message [CHAR LIMIT=15] -->
+  <string name="discard">Baztertu</string>
   <!-- The possible ways to reply to a message [CHAR LIMIT=15] -->
+  <string name="compose">Idatzi</string>
   <!-- The possible ways to reply to a message [CHAR LIMIT=15] -->
+  <string-array name="compose_modes">
+    <!-- Reply -->
+    <item>Erantzun</item>
+    <!-- Reply all -->
+    <item>Reply all</item>
+    <!-- Forward -->
+    <item>Forward</item>
+  </string-array>
   <!-- Formatting string for the subject when it contains a reply or forward identifier. Do not translate.-->
   <!-- Compose screen, prefixed to the subject of a message when replying to it (if not already present). Do not translate. -->
   <!-- Compose screen, Prefix to forwarded message subject. Do not translate. -->
   <!-- Compose screen, displayed at the top of a message being replied to. Please preserve the HTML entities (surrounded by & and ;).  The two %s strings will be replaced by 1) the date 2) the person who wrote the email being responded to. [CHAR LIMIT=1000]-->
   <!-- Compose screen, displayed at the top of a message being forwarded. Please preserve the HTML entities (surrounded by & and ;). [CHAR LIMIT=1000] -->
   <!-- Compose screen, displayed at the top of a message being forwarded. [CHAR LIMIT=100]-->
+  <string name="forward_attribution_no_headers">---------- Birbidalitako mezua ----------</string>
   <!-- Compose screen, displayed at the top of a message being forwarded if there are any email addresses in the CC list. Please preserve the HTML entities (surrounded by & and ;). [CHAR LIMIT=1000]-->
+  <string name="cc_attribution">Cc: <xliff:g id="cc">%1$s</xliff:g>&lt;br&gt;</string>
   <!-- Dialog text: select the type of an attachment while composing [CHAR LIMIT=100]-->
+  <string name="select_attachment_type">Hautatu eranskin mota</string>
   <!-- Toast, attachment too large for single file [CHAR LIMIT=100] -->
   <string name="too_large_to_attach_single">Ezin da erantsi <xliff:g id="maxSize">%1$s</xliff:g> baino gehiagoko fitxategi bat.</string>
   <!-- Toast, attachment too large for multiple files [CHAR LIMIT=100] -->
@@ -630,8 +644,11 @@
   <!-- Size unit, displayed in a button next to an attachment  [CHAR LIMIT=5]-->
   <!-- Attachment description for image files [CHAR LIMIT=30] -->
   <!-- Attachment description for video files [CHAR LIMIT=30] -->
+  <string name="attachment_video">Bideoa</string>
   <!-- Attachment description for audio files [CHAR LIMIT=30] -->
+  <string name="attachment_audio">Audioa</string>
   <!-- Attachment description for text files [CHAR LIMIT=30] -->
+  <string name="attachment_text">Testua</string>
   <!-- Attachment description for .doc files [CHAR LIMIT=30] -->
   <!-- Attachment description for .ppt files [CHAR LIMIT=30] -->
   <!-- Attachment description for excel files [CHAR LIMIT=30] -->
@@ -658,37 +675,81 @@
   <!-- Title of dialog for choosing which activity to share a link with. [CHAR LIMIT=50]-->
   <!-- Menu item to open a link  [CHAR LIMIT=50]-->
   <!-- Menu item to copy the selection  [CHAR LIMIT=50]-->
+  <string name="contextmenu_copy">Kopiatu</string>
   <!-- Menu item to copy a link  [CHAR LIMIT=50]-->
+  <string name="contextmenu_copylink">Kopiatu estekaren URLa</string>
   <!-- Menu item to dial a number  [CHAR LIMIT=50]-->
+  <string name="contextmenu_dial_dot">Markatu\u2026</string>
   <!-- Menu item to send an SMS  [CHAR LIMIT=50]-->
+  <string name="contextmenu_sms_dot">SMS\u2026</string>
   <!-- Menu item to add a contact  [CHAR LIMIT=50]-->
+  <string name="contextmenu_add_contact">Gehitu kontaktua</string>
   <!-- Menu item to send an email [CHAR LIMIT=50] -->
+  <string name="contextmenu_send_mail">Bidali mezua</string>
   <!-- Menu item to show a map  [CHAR LIMIT=50]-->
+  <string name="contextmenu_map">Mapa</string>
   <!-- Menu item to share link  [CHAR LIMIT=50]-->
+  <string name="contextmenu_sharelink">Partekatu lotura</string>
   <!-- Menu item that displays the help page for Gmail.  [CHAR LIMIT=50]-->
   <!-- Solicit feedback string in about screen [CHAR LIMIT=50]-->
   <!-- Browse list item strings -->
   <!-- Text indicating how many messages are selected in the top action bar
     [CHAR LIMIT=40] -->
   <!--  Displayed when drag and drop conversations "Move ? conversations" [CHAR LIMIT=50] -->
+  <plurals name="move_conversation">
+    <!-- Move 1 conversation -->
+    <item quantity="one">Mugitu elkarrizketa</item>
+    <!-- Move several conversations -->
+    <item quantity="other">Mugitu <xliff:g>%1$d</xliff:g> elkarrizketa</item>
+  </plurals>
   <!-- Formatting string for the content description field of a conversation list item when device is in accessibility mode. [CHAR LIMIT=250] -->
   <!-- Formatting string for the content description field of a conversation list item when device is in accessibility mode and the message was received today. [CHAR LIMI=250] -->
   <!-- String used in content description field of a conversation list item when device is in accessibility mode and the conversation was read [CHAR LIMIT=250] -->
+  <string name="read_string">elkarrizketa irakurrita</string>
   <!-- String used in content description field of a conversation list item when device is in accessibility mode and the conversation was not read [CHAR LIMIT=250] -->
+  <string name="unread_string">elkarrizketa ez irakurrita</string>
   <!-- Formatting string. If the subject contains the tag of a mailing-list (text surrounded with
     return the subject with that tag ellipsized, e.g. "[android-gmail-team] Hello" -> "[andr...] Hello" [CHAR LIMIT=100] -->
   <!-- Displayed in Conversation Header View and Widget in the form of "subject - snippet"
          [CHAR LIMIT=5] -->
   <!-- Displayed in browse list item when the list item is a draft message instead of showing the subject [CHAR LIMIT=100] -->
+  <plurals name="draft">
+    <!-- Title of the screen when there is exactly one draft -->
+    <item quantity="one">Zirriborroa</item>
+    <!-- Title of the screen when there are more than one draft -->
+    <item quantity="other">Zirriborroak</item>
+  </plurals>
   <!-- Message displayed in a browse list item for one second when message is being sent [CHAR LIMIT=20]-->
   <string name="sending">Bidaltzen\u2026</string>
   <!-- Message displayed in a browse list item for one second after a send failed [CHAR LIMIT=26]-->
+  <string name="send_failed">Mezua ez da bidali.</string>
   <!-- String used to represent "me" when used as an object pronoun. This string is used when
          showing the list of recipients of a message [CHAR LIMIT=15] -->
+  <string name="me_object_pronun">ni</string>
   <!-- String used to represent "me"/"I" when used as an subject pronoun. This string is use when
          showing the list of senders for a conversation list item. [CHAR LIMIT=15] -->
+  <string name="me_subject_pronun">ni</string>
   <!-- Header for list of inboxes in the drawer (Inbox, Priority) [CHAR LIMIT=50] -->
+  <plurals name="confirm_delete_conversation">
+    <!-- Dialog message to confirm deletion of one conversation -->
+    <item quantity="one">Ezabatu elkarrizketa hau?</item>
+    <!-- Dialog message to confirm deletion of several conversations -->
+    <item quantity="other">Ezabatu <xliff:g id="count">%1$d</xliff:g> elkarrizketa hauek?</item>
+  </plurals>
+  <plurals name="confirm_archive_conversation">
+    <!-- Dialog message to confirm archival of one conversation -->
+    <item quantity="one">Artxibatu elkarrizketa hau?</item>
+    <!-- Dialog message to confirm archival of several conversations -->
+    <item quantity="other">Artxibatu <xliff:g id="count">%1$d</xliff:g> elkarrizketa hauek?</item>
+  </plurals>
+  <plurals name="confirm_discard_drafts_conversation">
+    <!-- Dialog message to confirm discarding drafts from one conversation [CHAR LIMIT=50] -->
+    <item quantity="one">Ezabatu elkarrizketa honetako zirriborroak?</item>
+    <!-- Dialog message to confirm discarding drafts from several conversations [CHAR LIMIT=50] -->
+    <item quantity="other">Ezabatu <xliff:g id="count">%1$d</xliff:g> elkarrizketa hauetako zirriborroak?</item>
+  </plurals>
   <!-- Dialog text: confirm discard -->
+  <string name="confirm_discard_text">Baztertu mezu hau?</string>
   <!-- Conversation list shared between the Activity and Widget -->
   <!-- Displayed in the middle of the screen when conversations are being loaded [CHAR LIMIT 100]-->
   <string name="loading_conversations">Kargatzen\u2026</string>
@@ -875,10 +936,12 @@
   <!-- Displayed in a message subheading. Ignore the current spam warning. [CHAR LIMIT=30] -->
   <!-- Displayed in the message heading. Shown if the message was sent via another domain. [CHAR LIMIT=10] -->
   <!-- Button text for the button to click to have the user sign in again. [CHAR LIMIT=20]-->
+  <string name="signin">Hasi saioa</string>
   <!-- Button text for the button to click for more information. [CHAR LIMIT=20]-->
   <string name="info">Info</string>
   <!-- Button text for the button to click to report feedback. [CHAR LIMIT=20]-->
   <!-- Dialog title when a sync error occurs. [CHAR LIMIT=50]-->
+  <string name="sync_error">Ezin izan da sinkronizatu.</string>
   <!-- Dialog title when a sync error occurs. [CHAR LIMIT=100]-->
   <!-- Button text for the button to click to go to the manage storage settings screen. [CHAR LIMIT=20]-->
   <!-- Token used as a divider between senders -->
@@ -996,7 +1059,9 @@
          there is no contacts application installed that can display the quick contact -->
   <!-- Custom phone number type -->
   <!-- Home phone number type -->
+  <string name="phoneTypeHome">Etxekoa</string>
   <!-- Mobile phone number type -->
+  <string name="phoneTypeMobile">Mugikorra</string>
   <!-- Work phone number type -->
   <string name="phoneTypeWork">Lana</string>
   <!-- Work fax phone number type -->
@@ -1004,16 +1069,24 @@
   <!-- Home fax phone number type -->
   <string name="phoneTypeFaxHome">Etxeko faxa</string>
   <!-- Pager phone number type -->
+  <string name="phoneTypePager">Bilatzailea</string>
   <!-- Other phone number type -->
   <string name="phoneTypeOther">Beste bat</string>
   <!-- Callback phone number type -->
+  <string name="phoneTypeCallback">Itzuli deia</string>
   <!-- Car phone number type -->
+  <string name="phoneTypeCar">Kotxea</string>
   <!-- Company main phone number type -->
   <!-- ISDN phone number type -->
+  <string name="phoneTypeIsdn">RDSI</string>
   <!-- Main phone number type -->
+  <string name="phoneTypeMain">Nagusia</string>
   <!-- Other fax phone number type -->
+  <string name="phoneTypeOtherFax">Beste Fax bat</string>
   <!-- Radio phone number type -->
+  <string name="phoneTypeRadio">Irratia</string>
   <!-- Telex phone number type -->
+  <string name="phoneTypeTelex">Telex</string>
   <!-- TTY TDD phone number type -->
   <!-- Work mobile phone number type -->
   <!-- Work pager phone number type -->
@@ -1126,17 +1199,25 @@
          'Weekly on Tuesday' or Every 2 weeks on Monday, Tuesday.  [CHAR LIMIT=25]-->
   <!-- The common portion of a string describing how often an event repeats,
          example: 'Monthly (on day 2)' -->
+  <string name="monthly">Hilero</string>
   <!-- Calendar spinner item, to select that an event recurs every year. -->
+  <string name="yearly_plain">Urtero</string>
   <!-- [CHAR LIMIT=NONE] Boot message while upgrading calendar. -->
   <!-- Temporary Calendar name to use before we have the calendar name from the server -->
   <!-- Caption on secret calendar info -->
   <!-- Error message for secret calendar info -->
+  <string name="calendar_info_error">Errorea</string>
   <!-- No calendars message for secret calendar info -->
+  <string name="calendar_info_no_calendars">Ez dago egutegirik</string>
   <!-- Event count message for secret calendar info -->
   <!-- Event and dirty event count message for secret calendar info -->
   <!-- What to show in messaging that refers to this provider, e.g. AccountSyncSettings -->
+  <string name="provider_label">Egutegia</string>
+  <string name="contacts_provider_label">Kontaktuak</string>
   <!-- Debug tool - dialog - delete file now [CHAR LIMIT=NONE] -->
+  <string name="debug_tool_delete_button">Ezabatu orain</string>
   <!-- Debug tool - dialog - start copying [CHAR LIMIT=NONE] -->
+  <string name="debug_tool_start_button">Hasi</string>
   <!-- Debug tool - Main message shown to the user when starting up the debug tool [CHAR LIMIT=NONE] -->
   <!-- Debug tool - email subject [CHAR LIMIT=NONE] -->
   <!-- Debug tool - email subject [CHAR LIMIT=NONE] -->

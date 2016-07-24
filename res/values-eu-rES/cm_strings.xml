@@ -30,13 +30,22 @@
   <string name="account_setup_password_label">Sartu zure pasahitza</string>
   <string name="account_setup_discovery_account_name_hint">Kontuaren izena</string>
   <string name="account_setup_domain_label">Domeinua</string>
+  <string name="account_setup_server_info_heading">Zerbitzariaren informazioa</string>
   <string name="account_setup_security_heading">Segurtasuna</string>
+  <string name="account_setup_general_heading">Kontuaren hobespenak</string>
   <string name="account_setup_authentication_heading">Autentifikazioa</string>
+  <plurals name="account_setup_passcode_previous_use_restriction">
+    <item quantity="one">Ezin da zure aurreko pasakodea errepikatu.</item>
+    <item quantity="other">Ezin da zure aurreko <xliff:g id="passcodeHistoryLength">%1$d</xliff:g> pasakodetako bat errepikatu.</item>
+  </plurals>
   <string name="account_setup_passcode_hint">Sartu zure pasakodea</string>
+  <string name="account_setup_confirm_passcode_title">Berretsi pasakodea</string>
+  <string name="account_setup_confirm_passcode_subtitle">Pasakodeak berdinak izan behar dira</string>
   <string name="account_setup_confirm_passcode_action_label">Berretsi</string>
   <string name="account_setup_check_settings_dialog_manual_button">Eskuz</string>
   <!-- Error message shown in dialog body when authenticating an account during setup fails -->
   <!-- Dialog title when "setup" could not finish -->
+  <string name="account_setup_failed_dlg_title">Ezin izan da kontua konfiguratu</string>
   <!-- hint for account email password text field -->
   <string name="account_setup_basics_progress_message">Aurkikuntza automatikoa lanean</string>
   <!-- In Account setup options screen, Activity title [CHAR LIMIT=45] -->
@@ -96,6 +105,7 @@
   <!-- Label for signing in with Google using OAuth -->
   <string name="sign_in_with_google">Hasi Google saioa</string>
   <!--  On the "Setup up email" screen, label indicating what service we are signed in with [CHAR LIMIT=40] -->
+  <string name="signed_in_with_service_label">%1$s zerbitzuarekin hasi duzu saioa</string>
   <!-- Label for the authentication section [CHAR LIMIT=20] -->
   <string name="authentication_label">Autentifikazioa</string>
   <!-- Label for the add authentication icon [CHAR LIMIT=40] -->
@@ -149,6 +159,10 @@
   <!-- Menu item to view an image  [CHAR LIMIT=50]-->
   <string name="contextmenu_view_image">Ikusi irudia</string>
   <!-- Formatting for the collapsed To header in the MessageHeaderView -->
+  <plurals name="to_header">
+    <item quantity="one"> eta beste %1$d</item>
+    <item quantity="other"> eta beste %1$d</item>
+  </plurals>
   <plurals name="conversation_todo">
     <!-- Displayed while setting one conversation to-do -->
     <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; zeregin gisa markatu da.</item>
@@ -192,6 +206,7 @@
   <!-- Notification action for replying to a message. [CHAR LIMIT=20] -->
   <string name="notification_action_reply">ERANTZUN</string>
   <!-- Notification action for deleting a message. [CHAR LIMIT=20] -->
+  <string name="notification_action_delete">EZABATU</string>
   <!-- Notification message to the user upon new messages for a conversation. [CHAR LIMIT=120] -->
   <plurals name="new_messages">
     <item quantity="one">mezu berri <xliff:g id="count">%1$d</xliff:g></item>
@@ -231,6 +246,11 @@
   </plurals>
   <!-- Title to display when an email has no subject. [CHAR LIMIT=50]-->
   <string name="no_subject">(gairik gabe)</string>
+  <string name="action_grid_select_quick_response">Hautatu erantzun azkarra</string>
+  <string name="action_grid_todo_dialog_title">Xehetasunak</string>
+  <string name="action_grid_set_due_date">Ezarri epemuga</string>
+  <string name="action_grid_add_priority">Gehitu lehentasuna</string>
+  <string name="action_grid_priority">Lehentasuna:\u0020</string>
   <string name="action_grid_add_assignee">Gehitu arduraduna</string>
   <string name="action_grid_assignee">Arduraduna:\u0020</string>
   <string name="action_grid_due_date_dialog_title">Ezarri epemuga</string>
@@ -263,6 +283,9 @@
   <string name="action_star">Izarra</string>
   <string name="action_clear_star">Garbitu izarra</string>
   <string name="action_star_or_flag">Izarra/bandera</string>
+  <string name="action_mark_unread">Markatu ez irakurrita gisa</string>
+  <string name="action_mark_read">Markatu irakurrita gisa</string>
+  <string name="action_read_or_unread">Irakurrita/Ez irakurrita</string>
   <string name="action_actions">Ekintzak</string>
   <!-- These strings are shown in Toast messages when an Action above is selected -->
   <plurals name="quick_response_sent">
@@ -271,6 +294,13 @@
     <!-- Quick respond to several conversations -->
     <item quantity="other">Erantzunak bidali dira</item>
   </plurals>
+  <plurals name="liked_message">
+    <!-- Like 1 conversation -->
+    <item quantity="one">Mezua gogoko</item>
+    <!-- Like several conversations -->
+    <item quantity="other">Mezuak gogoko</item>
+  </plurals>
+  <string name="invalid_selection">Hautapen baliogabea</string>
   <string name="file_action_more_than_one_account">Hainbat kontuetako elkarrizketak hautatu dituzu. Hautatu kontu bereko elkarrizketak.</string>
   <string name="not_installed">Instalatu gabe</string>
   <string name="evernote_not_installed">Ez dirudi Evernote instalatuta dagoenik. Instalatu ezazu funtzionalitate hau erabiltzeko.</string>
@@ -302,6 +332,7 @@
   <string name="actions_dialog_positive_button_text">Pertsonalizatu hatza pasatzeak</string>
   <string name="actions_dialog_negative_button_text">Itxi</string>
   <!-- Account Setup -->
+  <string name="account_setup_start_company_slogan_text">Ongi etorri sarrera ontzi hobe batetara.</string>
   <string name="account_setup_vendor_heading">Ongi etorri E-postara</string>
   <!-- Like Feature -->
   <string name="like_action_dialog_tittle">Zer da gogokoa?</string>
@@ -329,27 +360,92 @@
   <string name="no_conversation_needs_sync">Ez dago mezurik hemen.\npasatu hatza beherantz berrizteko</string>
   <string name="getting_messages">Zure mezuak jasotzen</string>
   <string name="empty_folder">Ez dago mezurik hemen.</string>
+  <string name="empty_trash_folder">Ez dago zaborrik hemen. Eskerrik asko birziklatzeagatik!</string>
   <!-- Calendar invite hero card -->
   <!-- Link for opening an invite's event in the calendar app. -->
+  <string name="view_on_calendar">Ikusi egutegian</string>
   <!-- Response action buttons. -->
+  <string name="accept">Onartu</string>
+  <string name="maybe">Agian</string>
+  <string name="decline">Ezetsi</string>
+  <string name="remove_from_cal">Kendu egutegitik</string>
+  <string name="remove_series_from_cal">Kendu serieak egutegitik</string>
   <!-- Attendee text when user is the only attendee. -->
+  <string name="calendar_attendees_me_only">Ni</string>
   <!-- Attendee text when there are additional attendees. -->
+  <plurals name="calendar_attendees">
+    <item quantity="one">Ni eta beste %d</item>
+    <item quantity="other">Ni eta beste %d</item>
+  </plurals>
   <!-- Accompanies the date/time for all day events. -->
+  <string name="all_day">Egun osoa</string>
   <!-- Status for canceled events. -->
+  <string name="canceled">Ezeztatua</string>
   <!-- Send availability strings -->
+  <string name="times_that_work_for_me">Ondo datozkidan orduak:</string>
+  <string name="availability_by">Eskuragarritasuna</string>
+  <string name="remove_availability">Ezabatu eskuragarritasuna</string>
+  <string name="event_over">Gertaeraren bukaera</string>
+  <string name="busy">Lanpetuta</string>
+  <string name="available">Eskuragarri</string>
+  <plurals name="other_conflicts">
+    <item quantity="one">beste gatazka %1$d</item>
+    <item quantity="other">beste %1$d gatazka</item>
+  </plurals>
+  <string name="meeting_invitation">Gonbidapenaren laburpena:</string>
+  <string name="invitation_by">Gonbidatzailea</string>
+  <string name="remove_invite">Ezabatu gonbidapena</string>
+  <string name="error_no_app_store">Ez da aplikazio denda egokirik aurkitu</string>
   <!-- String shown in the TO field when it is blank -->
+  <string name="undisclosed_recipients">Jasotzaile ezkutuak</string>
   <string name="previous_action">Aurrekoa</string>
   <!-- Title for enter passcode screen -->
+  <string name="enter_passcode_title">Sartu pasakodea</string>
   <string name="enter_passcode_logo_desc">Boxer logoa</string>
+  <string name="enter_passcode_hint">Sartu zure pasakodea</string>
+  <string name="enter_passcode_go">Joan</string>
+  <string name="enter_passcode_success">Arrakasta!</string>
   <!-- Start of combined settings strings -->
+  <string name="header_category_mail">Posta</string>
+  <string name="header_category_other">Beste bat</string>
+  <string name="header_default_account_title">Lehenetsitako kontua</string>
+  <string name="header_local_calendars_title">Tokiko egutegiak</string>
+  <string name="header_passcode_title">Pasakodea</string>
   <!-- In Account Setup options screen, label for email lookback selector -->
   <!-- In Account Settings screen, label for email lookback selector -->
+  <string name="account_settings_options_mail_window_label">Sinkronizatzeko egunak</string>
   <!-- The menu item to send logs -->
   <!-- The menu item to open the about section -->
   <string name="menu_about">Honi buruz</string>
   <!-- Name of the DeviceAdmin (seen in settings & in user confirmation screen) -->
   <!-- Settings passcode strings -->
   <!-- String array for require passcode in passcode settings -->
+  <string name="settings_require_passcode_4min">4 minutu</string>
+  <string name="settings_require_passcode_5min">5 minutu</string>
+  <string name="settings_require_passcode_10min">10 minutu</string>
+  <string name="settings_require_passcode_15min">15 minutu</string>
+  <string name="settings_require_passcode_30min">30 minutu</string>
+  <string name="settings_require_passcode_1hour">ordu 1</string>
+  <string name="settings_require_passcode_1.5hours">1,5 ordu</string>
+  <string name="settings_require_passcode_4hours">4 ordu</string>
+  <plurals name="settings_require_passcode_minutes">
+    <item quantity="one">minutu</item>
+    <item quantity="other">minutu</item>
+  </plurals>
+  <plurals name="settings_require_passcode_hours">
+    <item quantity="one">ordu</item>
+    <item quantity="other">ordu</item>
+  </plurals>
   <!-- Permission related string -->
+  <string name="permissions_enable">Gaitu</string>
+  <string name="permissions_do_not_show_again">Ez erakutsi berriro</string>
   <!-- String shown as a toast when sending a quick response fails due to some unknown error-->
+  <string name="account_setup_selection_title">Kontu mota</string>
+  <string name="account_setup_options_title">Sinkronizazio aukerak</string>
+  <string name="view">Ikusi</string>
+  <string name="original_appointment">----Jatorrizko hitzordua----</string>
+  <string name="meeting_subject">
+Gaia:
+        <xliff:g id="Subject">%s</xliff:g>
+    </string>
 </resources>

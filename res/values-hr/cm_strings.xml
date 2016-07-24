@@ -27,14 +27,28 @@
   <string name="mailbox_name_display_archive">Arhiva</string>
   <string name="mailbox_name_local_only_display_name"> - Lokalni</string>
   <string name="account_setup_email_address_hint">Unesite adresu e-pošte</string>
+  <string name="account_setup_password_label">Unesite svoju lozinku</string>
+  <string name="account_setup_discovery_account_name_hint">Naziv računa</string>
+  <string name="account_setup_username_invalid_chars">Sljedeći znakovi nisu dopušteni: <xliff:g id="chars">%1$s</xliff:g></string>
+  <string name="account_setup_invalid_server_address">Unijeli ste nevažeću adresu poslužitelja</string>
+  <string name="account_setup_oauth_required_failure">Potvrda u 2 koraka još nije podržana za <xliff:g id="account_type">%1$s</xliff:g> račune. Prijavite se u svoj račun da biste stvorili određenu lozinku za aplikaciju.</string>
+  <string name="account_setup_domain_label">Domena</string>
+  <string name="account_setup_server_info_heading">Informacije o poslužitelju</string>
   <string name="account_setup_security_heading">Sigurnost</string>
+  <string name="account_setup_general_heading">Postavke računa</string>
   <string name="account_setup_authentication_heading">Autentičnost</string>
+  <string name="account_setup_passcode_hint">Unesite vašu lozinku</string>
+  <string name="account_setup_confirm_passcode_title">Potvrdi lozinku</string>
+  <string name="account_setup_confirm_passcode_subtitle">Lozinke se moraju podudarati</string>
+  <string name="account_setup_confirm_passcode_action_label">Potvrdi</string>
+  <string name="account_setup_check_settings_dialog_manual_button">Ručno</string>
   <!-- Error message shown in dialog body when authenticating an account during setup fails -->
   <!-- Dialog title when "setup" could not finish -->
   <!-- hint for account email password text field -->
   <string name="account_setup_basics_progress_message">Auto-otkrivanje u tijeku</string>
   <!-- In Account setup options screen, Activity title [CHAR LIMIT=45] -->
   <!-- In Account setup options screen, label for email check frequency selector -->
+  <string name="account_setup_options_mail_check_frequency_label">Provjeri inbox</string>
   <!-- In Account setup options & Account Settings screens, email check frequency option -->
   <string name="account_setup_options_mail_check_frequency_2hour">Svaka 2 sata</string>
   <!-- In Account setup options & Account Settings screens, email check frequency option -->
@@ -43,7 +57,9 @@
   <string name="account_setup_options_mail_check_frequency_1day">Svaki dan</string>
   <!-- In Account setup options screen, optional check box to also sync contacts -->
   <!-- In Account setup options screen, optional check box to also sync calendar -->
+  <string name="account_setup_options_sync_calendar_label">Sinkroniziraj kalendar</string>
   <!-- In Account setup options screen, check box to sync email -->
+  <string name="account_setup_options_sync_email_label">Sinkroniziraj e-poštu</string>
   <!-- On Settings screen, setting option for showing all images -->
   <string name="account_settings_show_all_images_title">Slike</string>
   <string name="account_settings_show_all_images_show">Uvijek pokaži</string>
@@ -139,24 +155,54 @@
   <!-- String used in the FolderListFragment to mark the start of user-defined folders -->
   <!-- String used in the FolderListFragment to mark the start of accounts -->
   <!-- Default email signature on vendor builds -->
+  <string name="vendor_signature">Poslano sa mog Cyanogen telefona</string>
+  <string name="vendor_signature_fmt">Poslano sa <xliff:g id="brand" example="samsung">%1$s</xliff:g></string>
   <!-- Notification action for deleting a message. [CHAR LIMIT=20] -->
+  <string name="notification_action_mark_read">PROČITANO</string>
   <!-- Notification action for replying to a message. [CHAR LIMIT=20] -->
+  <string name="notification_action_reply">ODGOVOR</string>
   <!-- Notification action for deleting a message. [CHAR LIMIT=20] -->
+  <string name="notification_action_delete">IZBRIŠI</string>
   <!-- Notification message to the user upon new messages for a conversation. [CHAR LIMIT=120] -->
   <!--  Settings screen, Swipe actions preference title -->
+  <string name="preferences_swipe_actions_title">Akcije poteza</string>
   <!--  Settings screen, Swipe actions preference summary -->
   <!--  Settings screen, Swipe actions, Left short preference title -->
+  <string name="preferences_swipe_left_short_title">Kratki potez lijevo</string>
   <!--  Settings screen, Swipe actions, Left long preference title -->
+  <string name="preferences_swipe_left_long_title">Dugi potez lijevo</string>
   <!--  Settings screen, Swipe actions, Right short preference title -->
+  <string name="preferences_swipe_right_short_title">Kratki potez desno</string>
   <!--  Settings screen, Swipe actions, Right long preference title -->
+  <string name="preferences_swipe_right_long_title">Dugi potez desno</string>
   <!-- Menu item text to that when clicked will allow a user to print an email conversation. [CHAR LIMIT=25] -->
+  <string name="print">Ispis</string>
   <!-- Number of messages in a conversation [CHAR LIMIT=30]-->
   <!-- Shown to display the date of the message [CHAR LIMIT=50] -->
   <!-- Shown to display the to recipient(s) of the message if the message is a draft [CHAR LIMIT=20] -->
   <!-- Shown to display in the message header if the message is a draft and there are no "to" addresses in the draft [CHAR LIMIT=10] -->
+  <string name="draft_heading">Skica</string>
   <!-- Shown to inform the user that the quoted text for this message has been hidden. [CHAR LIMIT=50] -->
   <!-- Number of attachments in a message [CHAR LIMIT=30]-->
   <!-- Title to display when an email has no subject. [CHAR LIMIT=50]-->
+  <string name="no_subject">(nema predmeta)</string>
+  <string name="action_grid_select_quick_response">Odaberi brzi odgovor</string>
+  <string name="action_grid_todo_dialog_title">Pojedinosti</string>
+  <string name="action_grid_set_due_date">Namjesti dospjeli datum</string>
+  <string name="action_grid_add_priority">Dodaj prioritet</string>
+  <string name="action_grid_add_assignee">Dodaj predstavnika</string>
+  <string name="action_grid_due_date_today">Danas</string>
+  <string name="action_grid_due_date_tomorrow">Sutra</string>
+  <string name="action_grid_due_date_this_week">Ovaj tjedan</string>
+  <string name="action_grid_due_date_next_week">Sljedeći tjedan</string>
+  <string name="action_grid_due_date_specific_date">Određeni datum</string>
+  <string name="action_grid_priority_dialog_title">Dodaj prioritet</string>
+  <string name="action_grid_priority_highest">Najviši prioritet</string>
+  <string name="action_grid_priority_high">Visoki prioritet</string>
+  <string name="action_grid_priority_normal">Normalan prioritet</string>
+  <string name="action_grid_priority_low">Nizak prioritet</string>
+  <string name="action_grid_priority_lowest">Najniži prioritet</string>
+  <string name="action_grid_assignee_search_for_contact">Potražite kontakt</string>
   <!-- Prompt used if you are trying to delete a message -->
   <!-- These strings below represent the default Actions that are available for the ActionGrid -->
   <string name="action_todo">Zaduženja</string>
