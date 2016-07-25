@@ -98,12 +98,29 @@
   <!-- Notification title when a forwarded attachment couldn't be sent [CHAR LIMIT=30]-->
   <string name="forward_download_failed_title">Ez da eranskina birbidali</string>
   <!-- Notification ticker when email account authentication fails [CHAR LIMIT=none] -->
+  <string name="login_failed_ticker"><xliff:g id="account_name">%1$s</xliff:g> saio hasierak huts egin du.</string>
   <!-- Notification title when email account authentication fails [CHAR LIMIT=30]-->
   <string name="login_failed_title">Ezin izan da saioa hasi</string>
   <!-- Size unit for bytes for attachments [CHAR LIMIT=10] -->
+  <plurals name="message_view_attachment_bytes">
+    <item quantity="one"><xliff:g id="size_in_bytes" example="1">%1$d</xliff:g>B</item>
+    <item quantity="other"><xliff:g id="size_in_bytes" example="279">%1$d</xliff:g>B</item>
+  </plurals>
   <!-- Size unit for kilo bytes for attachments [CHAR LIMIT=10] -->
+  <plurals name="message_view_attachment_kilobytes">
+    <item quantity="one"><xliff:g id="size_in_kilobytes" example="1">%1$d</xliff:g>KB</item>
+    <item quantity="other"><xliff:g id="size_in_kilobytes" example="279">%1$d</xliff:g>KB</item>
+  </plurals>
   <!-- Size unit for mega bytes for attachments [CHAR LIMIT=10] -->
+  <plurals name="message_view_attachment_megabytes">
+    <item quantity="one"><xliff:g id="size_in_megabytes" example="1">%1$d</xliff:g>MB</item>
+    <item quantity="other"><xliff:g id="size_in_megabytes" example="279">%1$d</xliff:g>MB</item>
+  </plurals>
   <!-- Size unit for giga bytes for attachments [CHAR LIMIT=10] -->
+  <plurals name="message_view_attachment_gigabytes">
+    <item quantity="one"><xliff:g id="size_in_gigabytes" example="1">%1$d</xliff:g>GB</item>
+    <item quantity="other"><xliff:g id="size_in_gigabytes" example="279">%1$d</xliff:g>GB</item>
+  </plurals>
   <!-- Title of screen when setting up new email account [CHAR LIMIT=45] -->
   <string name="account_setup_basics_title">Kontuaren ezarpena</string>
   <!-- Headline of screen when setting up new email account (large text over divider)
@@ -255,6 +272,7 @@
   <string name="account_setup_failed_dlg_certificate_message">Ezin da zerbitzariarekin konexio segurua ezarri.</string>
   <!-- An error message presented to the user when the server's identity
          cannot be established or trusted [CHAR LIMIT=NONE] -->
+  <string name="account_setup_failed_dlg_certificate_message_fmt">Ezin da zerbitzariarekin konexio segurua ezarri.\n(<xliff:g id="error">%1$s</xliff:g>)</string>
   <!-- An error message presented to the user when the server requires a
          client certificate to connect [CHAR LIMIT=NONE] -->
   <string name="account_setup_failed_certificate_required">Bezero ziurtagiri bat behar da. zerbitzarira bezero ziurtagiri batekin konektatu nahi duzu?</string>
@@ -266,6 +284,7 @@
   <!-- "Setup could not finish" dialog text; e.g., Cannot connect to server -->
   <string name="account_setup_failed_dlg_server_message">Ezin da zerbitzariarekin konektatu.</string>
   <!-- "Setup could not finish" dialog text; e.g., Cannot connect to server\n(Connection timed out) -->
+  <string name="account_setup_failed_dlg_server_message_fmt">Ezin da konexiorik ezarri zerbitzariarekin.\n(<xliff:g id="error">%1$s</xliff:g>)</string>
   <!-- Additional diagnostic text when TLS was required but the server doesn't support it -->
   <string name="account_setup_failed_tls_required">TLS protokoloa ezinbestekoa da, baina zerbitzariak ez du onartzen.</string>
   <!-- Additional diagnostic text when server does not support any of our authentication methods -->
@@ -286,8 +305,10 @@
   <!-- Additional diagnostic text when validation requires security provisioning (e.g. support
          for device lock PIN, or remote wipe.) and we ask the user permission before continuing.
          [CHAR LIMIT=none] -->
+  <string name="account_setup_security_policies_required_fmt"> <xliff:g id="server">%1$s</xliff:g> zerbitzariak zure Android gailuko segurtasun ezaugarri batzuk urrunetik kontrolatzea baimendu diezaiozula eskatzen dizu. Kontu hau ezartzen bukatu nahi duzu?</string>
   <!-- Additional diagnostic text when validation failed due to required provisioning not
          being supported [CHAR LIMIT=none] -->
+  <string name="account_setup_failed_security_policies_unsupported">Zerbitzari honek zure Android gailuan euskarririk ez duten segurtasun ezaugarriak behar ditu, besteak beste: <xliff:g id="error">%1$s</xliff:g></string>
   <!-- The user name can only be changed during initial account setup. [CHAR LIMIT=none] -->
   <string name="account_setup_username_uneditable_error">Ezin da kontu baten erabiltzaile izena aldatu. Beste erabiltzaile izen bat duen kontua gehitzeko, ukitu Gehitu kontua.</string>
   <!-- Warning given to users when they request disabling device administration (i.e. that their
@@ -300,8 +321,11 @@
   <!-- Additional diagnostic text when the account requires some amount of device security
          provisioning, just before jumping into system settings such as Device Policy grant,
          PIN/password, or encryption setup.  [CHAR LIMIT=none] -->
+  <string name="account_security_dialog_content_fmt"><xliff:g id="account">%1$s</xliff:g> kontuak zuk segurtasun ezarpenak eguneratzea behar du.</string>
   <!-- Notification ticker when device security required (note: unused in Holo XL) -->
+  <string name="security_unsupported_ticker_fmt">\"<xliff:g id="account">%1$s</xliff:g>\" kontua ezin da sinkronizatu segurtasun baldintzak direla eta.</string>
   <!-- Notification ticker when device security required (note: unused in Holo XL) -->
+  <string name="security_needed_ticker_fmt">\"<xliff:g id="account">%1$s</xliff:g>\" kontuak segurtasun ezarpenak eguneratzea behar du.</string>
   <!-- Notification ticker when device security required (note: unused in Holo XL) -->
   <!-- Notification content title when device security required [CHAR_LIMIT=30] -->
   <string name="security_notification_content_update_title">Segurtasun eguneraketa ezinbestekoa</string>
@@ -312,9 +336,11 @@
   <string name="account_security_title">Gailuaren segurtasuna</string>
   <!-- Additional diagnostic text when the email app asserts control of the phone.
         [CHAR LIMIT=none] -->
+  <string name="account_security_policy_explanation_fmt"><xliff:g id="server">%1$s</xliff:g> zerbitzariak zure Android gailuko segurtasun ezaugarri batzuk urrunetik kontrolatzea baimendu diezaiozula eskatzen dizu.</string>
   <!-- "Setup could not finish" dialog action button -->
   <string name="account_setup_failed_dlg_edit_details_action">Editatu xehetasunak</string>
   <!-- Notification ticker when device password is getting ready to expire [CHAR_LIMIT=80] -->
+  <string name="password_expire_warning_ticker_fmt">\"<xliff:g id="account">%1$s</xliff:g>\" kontuak zuk blokeo-pantailako PIN zenbakia edo pasahitza aldatzea behar du.</string>
   <!-- Notification content title when device password is getting ready to expire
             [CHAR_LIMIT=30] -->
   <string name="password_expire_warning_content_title">Blokeo-pantailako pasahitza iraungi egingo da</string>
@@ -325,9 +351,11 @@
   <!-- Dialog title if device pin/password is going to expire soon. [CHAR_LIMIT=40] -->
   <string name="password_expire_warning_dialog_title">Blokeo-pantailako pasahitza iraungi egingo da</string>
   <!-- Dialog content device pin/password is going to expire soon. [CHAR_LIMIT=none] -->
+  <string name="password_expire_warning_dialog_content_fmt">Laster blokeo-pantailako PIN zenbakia edo pasahitza aldatu behar duzu, bestela <xliff:g id="account">%1$s</xliff:g> kontuko datuak ezabatuko dira. Orain aldatu nahi duzu?</string>
   <!-- Dialog title if device pin/password has already expired. [CHAR_LIMIT=40] -->
   <string name="password_expired_dialog_title">Blokeo-pantailaren pasahitza iraungita</string>
   <!-- Dialog content device pin/password has already expired. [CHAR_LIMIT=none] -->
+  <string name="password_expired_dialog_content_fmt"><xliff:g id="account">%1$s</xliff:g> kontuko datuak gailutik ezabatzen ari dira. Berrezartzeko, aldatu blokeo-pantailaren PIN zenbakia edo pasahitza. Orain aldatu nahi dituzu?</string>
   <!-- On AccountSettingsXL, dialog text if you try to exit in/out/eas fragment (server settings)
          without checking/saving [CHAR LIMIT=none]-->
   <string name="account_settings_exit_server_settings">Baztertu gorde gabeko aldaketak?</string>
@@ -336,8 +364,10 @@
   <string name="account_settings_login_dialog_title">Ezin izan da saioa hasi</string>
   <!-- Dialog content if you were brought here due to a login failure.
         [CHAR_LIMIT=none] -->
+  <string name="account_settings_login_dialog_content_fmt"><xliff:g id="account">%1$s</xliff:g> kontuko erabiltzailea edo pasahitza oker dago. Orain eguneratu nahi dituzu?</string>
   <!-- Dialog content if you were brought here due to a login failure, and the server provided a reason
         [CHAR_LIMIT=none] -->
+  <string name="account_settings_login_dialog_reason_fmt">Huts egin du <xliff:g id="account">%1$s</xliff:g> kontuarekin saioa hastea; zerbitzariak dio: <xliff:g id="reason">%2$s</xliff:g>. Erabiltzailea edo eta pasahitza eguneratu nahi duzu?</string>
   <!-- On Settings screen, setting option name -->
   <!-- Title of account preference for downloading attachments in background [CHAR LIMIT=32] -->
   <string name="account_settings_background_attachments_label">Deskargatu eranskinak</string>
@@ -409,6 +439,7 @@
   <!-- Mailbox settings activity title [CHAR LIMIT=none] -->
   <string name="mailbox_settings_activity_title">Sinkronizazio aukerak</string>
   <!-- Mailbox settings activity title, with the target folder name [CHAR LIMIT=none] -->
+  <string name="mailbox_settings_activity_title_with_mailbox">Sinkronizazio aukerak (<xliff:g id="mailboxx_name" example="Family">%1$s</xliff:g>)</string>
   <!-- On mailbox settings screen: Whether to sync this mailbox when the account syncs. -->
   <string name="mailbox_settings_sync_enabled_label">Sinkronizatu karpeta hau</string>
   <!-- On mailbox settings screen: Explanatory text for what it means to "sync this folder". -->
@@ -507,7 +538,9 @@
   <string name="pop3_name">POP3</string>
   <string name="folder_picker_title">Karpeta hautatzailea</string>
   <!-- Displayed when the user must pick his server's trash folder from a list [CHAR LIMIT 30]-->
+  <string name="trash_folder_selection_title">Hautatu <xliff:g id="account">%1$s</xliff:g> kontuaren zerbitzariko paperontzia</string>
   <!-- Displayed when the user must pick his server's sent items folder from a list [CHAR LIMIT 30]-->
+  <string name="sent_folder_selection_title">Hautatu <xliff:g id="account">%1$s</xliff:g> kontuaren zerbitzariko bidalitakoak karpeta</string>
   <string name="account_waiting_for_folders_msg">Karpeta zerrenda kargatzen&#8230;</string>
   <!-- Feedback uri to be used when feedback is enabled -->
   <!-- Names of packages and authorities that are common to all apps
@@ -541,15 +574,17 @@
     <!-- Reply -->
     <item>Erantzun</item>
     <!-- Reply all -->
-    <item>Reply all</item>
+    <item>Erantzun guztiei</item>
     <!-- Forward -->
-    <item>Forward</item>
+    <item>Birbidali</item>
   </string-array>
   <!-- Formatting string for the subject when it contains a reply or forward identifier. Do not translate.-->
   <!-- Compose screen, prefixed to the subject of a message when replying to it (if not already present). Do not translate. -->
   <!-- Compose screen, Prefix to forwarded message subject. Do not translate. -->
   <!-- Compose screen, displayed at the top of a message being replied to. Please preserve the HTML entities (surrounded by & and ;).  The two %s strings will be replaced by 1) the date 2) the person who wrote the email being responded to. [CHAR LIMIT=1000]-->
+  <string name="reply_attribution"><xliff:g id="date">%1$s</xliff:g>, <xliff:g id="person">%2$s</xliff:g>ean idatzi zuen:</string>
   <!-- Compose screen, displayed at the top of a message being forwarded. Please preserve the HTML entities (surrounded by & and ;). [CHAR LIMIT=1000] -->
+  <string name="forward_attribution">---------- Birbidalitako mezua ----------&lt;br&gt;Nork: <xliff:g id="from">%1$s</xliff:g>&lt;br&gt;Data: <xliff:g id="date">%2$s</xliff:g>&lt;br&gt;Gaia: <xliff:g id="subject">%3$s</xliff:g>&lt;br&gt;Nori: <xliff:g id="to">%4$s</xliff:g>&lt;br&gt;</string>
   <!-- Compose screen, displayed at the top of a message being forwarded. [CHAR LIMIT=100]-->
   <string name="forward_attribution_no_headers">---------- Birbidalitako mezua ----------</string>
   <!-- Compose screen, displayed at the top of a message being forwarded if there are any email addresses in the CC list. Please preserve the HTML entities (surrounded by & and ;). [CHAR LIMIT=1000]-->
@@ -607,7 +642,7 @@
   <!-- Menu item: resume a draft message [CHAR LIMIT=12] -->
   <string name="resume_draft">Editatu</string>
   <!-- Menu item: forward this message -->
-  <string name="forward">Berbidali</string>
+  <string name="forward">Birbidali</string>
   <!-- Menu item: compose a new email -->
   <!-- Menu item: change the folders for this conversation. -->
   <string name="menu_change_folders">Aldatu karpetak</string>
@@ -640,9 +675,13 @@
   <!-- Format string for email addresses -->
   <!-- Attachments -->
   <!-- Size unit, displayed in a button next to an attachment [CHAR LIMIT=5]-->
+  <string name="bytes"><xliff:g id="count">%1$s</xliff:g> B</string>
   <!-- Size unit, displayed in a button next to an attachment [CHAR LIMIT=5] -->
+  <string name="kilobytes"><xliff:g id="count">%1$s</xliff:g> KB</string>
   <!-- Size unit, displayed in a button next to an attachment  [CHAR LIMIT=5]-->
+  <string name="megabytes"><xliff:g id="count">%1$s</xliff:g> MB</string>
   <!-- Attachment description for image files [CHAR LIMIT=30] -->
+  <string name="attachment_image">Irudia</string>
   <!-- Attachment description for video files [CHAR LIMIT=30] -->
   <string name="attachment_video">Bideoa</string>
   <!-- Attachment description for audio files [CHAR LIMIT=30] -->
@@ -650,30 +689,49 @@
   <!-- Attachment description for text files [CHAR LIMIT=30] -->
   <string name="attachment_text">Testua</string>
   <!-- Attachment description for .doc files [CHAR LIMIT=30] -->
+  <string name="attachment_application_msword">Dokumentua</string>
   <!-- Attachment description for .ppt files [CHAR LIMIT=30] -->
+  <string name="attachment_application_vnd_ms_powerpoint">Aurkezpena</string>
   <!-- Attachment description for excel files [CHAR LIMIT=30] -->
+  <string name="attachment_application_vnd_ms_excel">Kalkulu-orria</string>
   <!-- Attachment description for .pdf files [CHAR LIMIT=30] -->
+  <string name="attachment_application_pdf">PDF</string>
   <!-- Attachment description for unknown files [CHAR LIMIT=30]-->
+  <string name="attachment_unknown"><xliff:g id="attachmentExtension">%1$s</xliff:g> fitxategia</string>
   <!-- Read email screen, button name. Preview an attachment by Gview. [CHAR LIMIT=18] -->
+  <string name="preview_attachment">Aurreikusi</string>
   <!-- Read email screen, button name. Save an attachment to sd card. [CHAR LIMIT=10] -->
   <string name="save_attachment">Gorde</string>
   <!-- Read email screen, button name. Cancel a downloading attachment. [CHAR LIMIT=10] -->
   <!-- Read email screen, button name. Redownload an attachment [CHAR LIMIT=20]-->
+  <string name="download_again">Deskargatu berriro</string>
   <!-- Dialog box title [CHAR LIMIT=30] -->
+  <string name="more_info_attachment">Info</string>
   <!-- Dialog box message, displayed when we could not view an attachment. [CHAR LIMIT=200]-->
+  <string name="no_application_found">Ez dago eranskina bistaratzeko ireki dezakeen aplikaziorik.</string>
   <!-- Dialog box title. [CHAR LIMIT=30] -->
+  <string name="fetching_attachment">Eranskinak eskuratzen</string>
   <!-- Dialog box message. [CHAR LIMIT=80] -->
   <!-- Displayed in the conversation view, next to a file's size and type. Status of a saved attachment. [CHAR LIMIT=20]-->
+  <string name="saved">Gordeta, <xliff:g id="size">%1$s</xliff:g></string>
   <!-- Displayed in the conversation view. Status of a failed attachment. [CHAR LIMIT=50]-->
+  <string name="download_failed">Ezin izan da deskargatu. Ukitu berriro saiatzeko.</string>
   <!-- Displayed in the conversation view, as a header informing
          the user that the following is the attachments. [CHAR LIMIT=100] -->
+  <string name="attachments_header">Eranskinak</string>
   <!-- Photo view screen, button name. Save all attachments to sd card. [CHAR LIMIT=17] -->
+  <string name="menu_photo_save_all">Gorde guztiak</string>
   <!-- Photo view screen, button name. Share attachment. [CHAR LIMIT=10] -->
+  <string name="menu_photo_share">Partekatu</string>
   <!-- Photo view screen, button name. Share all attachments. [CHAR LIMIT=20] -->
+  <string name="menu_photo_share_all">Partekatu guztiak</string>
   <!-- Displayed in the action bar as a subtitle. Save in progress. [CHAR LIMIT=15] -->
+  <string name="saving">Gordetzen&#8230;</string>
   <!-- Webview Context Menu Strings -->
   <!-- Title of dialog for choosing which activity to share a link with. [CHAR LIMIT=50]-->
+  <string name="choosertitle_sharevia">Partekatu honen bitartez</string>
   <!-- Menu item to open a link  [CHAR LIMIT=50]-->
+  <string name="contextmenu_openlink">Ireki nabigatzailean</string>
   <!-- Menu item to copy the selection  [CHAR LIMIT=50]-->
   <string name="contextmenu_copy">Kopiatu</string>
   <!-- Menu item to copy a link  [CHAR LIMIT=50]-->
@@ -703,15 +761,19 @@
     <item quantity="other">Mugitu <xliff:g>%1$d</xliff:g> elkarrizketa</item>
   </plurals>
   <!-- Formatting string for the content description field of a conversation list item when device is in accessibility mode. [CHAR LIMIT=250] -->
+  <string name="content_description">nork: <xliff:g id="sender">%1$s</xliff:g>, gaia: <xliff:g id="subject">%2$s</xliff:g>, <xliff:g id="snippet">%3$s</xliff:g>, noiz:<xliff:g id="date">%4$s</xliff:g>, <xliff:g id="readstate">%5$s</xliff:g></string>
   <!-- Formatting string for the content description field of a conversation list item when device is in accessibility mode and the message was received today. [CHAR LIMI=250] -->
+  <string name="content_description_today">nork: <xliff:g id="sender">%1$s</xliff:g>, gaia: <xliff:g id="subject">%2$s</xliff:g>, <xliff:g id="snippet">%3$s</xliff:g>, noiz:<xliff:g id="time">%4$s</xliff:g>, <xliff:g id="readstate">%5$s</xliff:g></string>
   <!-- String used in content description field of a conversation list item when device is in accessibility mode and the conversation was read [CHAR LIMIT=250] -->
   <string name="read_string">elkarrizketa irakurrita</string>
   <!-- String used in content description field of a conversation list item when device is in accessibility mode and the conversation was not read [CHAR LIMIT=250] -->
   <string name="unread_string">elkarrizketa ez irakurrita</string>
   <!-- Formatting string. If the subject contains the tag of a mailing-list (text surrounded with
     return the subject with that tag ellipsized, e.g. "[android-gmail-team] Hello" -> "[andr...] Hello" [CHAR LIMIT=100] -->
+  <string name="filtered_tag"> [<xliff:g id="tag">%1$s</xliff:g>]<xliff:g id="subject">%2$s</xliff:g></string>
   <!-- Displayed in Conversation Header View and Widget in the form of "subject - snippet"
          [CHAR LIMIT=5] -->
+  <string name="subject_and_snippet"><xliff:g>%1$s</xliff:g> \u2014 <xliff:g>%2$s</xliff:g></string>
   <!-- Displayed in browse list item when the list item is a draft message instead of showing the subject [CHAR LIMIT=100] -->
   <plurals name="draft">
     <!-- Title of the screen when there is exactly one draft -->
@@ -867,6 +929,7 @@
   <!-- Displayed for one second while message is being sent [CHAR LIMIT=50]-->
   <string name="sending_message">Mezua bidaltzen\u2026</string>
   <!-- Displayed for one second after trying to send with invalid recipients [CHAR LIMIT=50]-->
+  <string name="invalid_recipient"><xliff:g id="wrongemail" example="foo@@gmail..com">%1$s</xliff:g> helbidea baliogabea da.</string>
   <!-- Shown in HTML to allow the user to see quoted text; should match Gmail web UI. 25B6 is Unicode for a right-pointing triangle. [CHAR LIMIT=50] -->
   <string name="show_elided">\u25B6 Bistaratu aipatutako testua</string>
   <!-- Shown in HTML to allow the user to hide quoted text; should match Gmail web UI. 25BC is Unicode for a downward-pointing triangle. [CHAR LIMIT=50] -->
@@ -895,46 +958,81 @@
   <!-- Button name, displayed in dialogs [CHAR LIMIT=10] -->
   <string name="clear">Garbitu</string>
   <!-- Sync status errors. Please do not change the order [CHAR LIMIT=100] -->
+  <string-array name="sync_status">
+    <item>Arrakasta</item>
+    <item>Konexiorik gabe.</item>
+    <item>Ezin izan da saioa hasi.</item>
+    <item>Segurtasun errorea.</item>
+    <item>Ezin izan da sinkronizatu.</item>
+    <item>Barne errorea</item>
+  </string-array>
   <!-- Widget strings -->
   <!-- Displayed when user adds a new widget. Tapping on the widget in this
           mode will bring user to the account selection screen [CHAR LIMIT=35] -->
+  <string name="tap_to_configure">Sakatu ezartzeko</string>
   <!-- Displayed within a widget that was setup for a non-synced folder [CHAR LIMIT=60] -->
+  <string name="non_synced_folder_description">Elkarrizketak ikusteko, sinkronizatu karpeta hau.</string>
   <!-- Displayed within a widget that was setup for a non-synced folder.  This is the text of the
          button that will allow the user to configure sync for the folder [CHAR LIMIT=35] -->
+  <string name="tap_to_configure_folder_sync">Sinkronizatu karpeta</string>
   <!-- Displayed in widget when unread count > 100. [CHAR LIMIT=4] -->
+  <string name="widget_large_unread_count">%1$d+</string>
+  <plurals name="actionbar_unread_messages">
+    <item quantity="one"><xliff:g id="count" example="4">%1$d</xliff:g> irakurri gabe</item>
+    <!-- String for the actionbar subtitle when messages are unread [CHAR LIMIT=30] -->
+    <item quantity="other"><xliff:g id="count" example="4">%1$d</xliff:g> irakurri gabe</item>
+  </plurals>
   <!-- Displayed in the actionbar when unread count > 999. [CHAR LIMIT=30] -->
+  <string name="actionbar_large_unread_count"><xliff:g id="count">%1$d</xliff:g>+ irakurri gabe</string>
   <!-- Displayed at the end of the conversation list in the widget. Tapping on this will open the default Inbox. [CHAR LIMIT=35] -->
+  <string name="view_more_conversations">Ikusi elkarrizketa gehiago</string>
   <!-- Name of the Mailboxes activity [CHAR LIMIT=30] -->
+  <string name="activity_mailbox_selection">Hautatu kontua</string>
   <!-- Name of the Folders activity [CHAR LIMIT=30] -->
+  <string name="activity_folder_selection">Hautatu karpeta</string>
   <!-- Name of the Folder shortcut widget. Should use "Email" to refer to the app. [CHAR LIMIT=30] -->
   <!-- Folder selection dialog -->
   <!-- Title for change folders dialog [CHAR LIMIT=30] -->
+  <string name="change_folders_selection_dialog_title">Aldatu karpetak</string>
   <!-- Title for move to dialog [CHAR LIMIT=30] -->
+  <string name="move_to_selection_dialog_title">Mugitu hona</string>
   <!-- Search -->
   <!-- Shown in light gray in the Search box when no text has been entered [CHAR LIMIT=20]-->
   <!-- Search Results: Text for status of the search when the results are completely loaded [CHAR LIMIT=10] -->
   <!-- Shown in conversation list footer when application cannot make a connection [CHAR LIMIT=20]-->
+  <string name="network_error">Konexiorik gabe</string>
   <!-- Button at bottom of conversation list screen if last attempt to load conversations failed [CHAR LIMIT=20]-->
+  <string name="retry">Saiatu berriro</string>
   <!-- Button at bottom of conversation list screen if the folder for which contents are being shown supports loading more on demand [CHAR LIMIT=20]-->
+  <string name="load_more">Kargatu gehiago</string>
   <!-- Text for dummy attachments to load the actual attachment. This is not an ideal string, but it's too late to add a new string and get it translated -->
   <!-- Shortcut strings -->
   <!-- Title for shortcut naming dialog [CHAR LIMIT=100]-->
+  <string name="shortcut_name_title">Izendatu karpeta lasterbidea</string>
   <!-- Wait fragment strings -->
   <!-- Displayed in title bar during the initial sync  [CHAR LIMIT=40] -->
+  <string name="wait_for_sync_title">Sinkronizazioaren zai</string>
   <!-- Displayed in the middle of the screen during the initial sync [CHAR LIMIT=40] -->
   <!-- Title for the screen displayed during the initial sync [CHAR LIMIT=100]  -->
+  <string name="not_synced_title">Sinkronizatu gabeko kontua</string>
   <!-- Displayed in the middle of the screen during the initial sync [CHAR LIMIT=300]-->
+  <string name="wait_for_manual_sync_body">Kontu honetan ez da ezarri sinkronizazio automatikoa.\nSakatu <b>Sinkronizatu orain</b> posta behin sinkronizatzeko, edo <b>Aldatu sinkronizazio ezarpenak</b> kontu hau automatikoki sinkronizatu dadin ezartzeko.</string>
   <!-- Displayed at the bottom of the screen during the initial sync. If pressed will sync users mail for the selected account. [CHAR LIMIT=12]  -->
+  <string name="manual_sync">Sinkronizatu orain</string>
   <!-- Displayed at the bottom of the screen during the initial sync. If pressed will open sync setting screen for accounts. [CHAR LIMIT=30]  -->
+  <string name="change_sync_settings">Aldatu sinkronizazio ezarpenak</string>
   <!-- Displayed when we could not load a photo in the photo viewer. [CHAR LIMIT=30] -->
+  <string name="photo_load_failed">Ezin izan da irudia kargatu</string>
   <!--  The move message / change labels action can't be taken because the selected messages
         come from different accounts -->
   <string name="cant_move_or_change_labels">Ezin da mugitu hautapenak hainbat kontu dituelako.</string>
   <!-- Format string used when displaying a summary in a message summary in list notification that was triggered by several new conversations.
          Extra space between sender and subject is intentional.  [CHAR LIMIT=120] -->
   <!-- Format string used when displaying the big text of a notification that was triggered by a single new conversation. [CHAR LIMIT=120] -->
+  <string name="single_new_message_notification_big_text"><xliff:g id="subject">%1$s</xliff:g>\n<xliff:g id="snippet">%2$s</xliff:g></string>
   <!-- Displayed in a message subheading. Ignore the current spam warning. [CHAR LIMIT=30] -->
   <!-- Displayed in the message heading. Shown if the message was sent via another domain. [CHAR LIMIT=10] -->
+  <string name="via_domain"><xliff:g id="viaDomain">%1$s</xliff:g> bidez</string>
   <!-- Button text for the button to click to have the user sign in again. [CHAR LIMIT=20]-->
   <string name="signin">Hasi saioa</string>
   <!-- Button text for the button to click for more information. [CHAR LIMIT=20]-->
@@ -943,8 +1041,12 @@
   <!-- Dialog title when a sync error occurs. [CHAR LIMIT=50]-->
   <string name="sync_error">Ezin izan da sinkronizatu.</string>
   <!-- Dialog title when a sync error occurs. [CHAR LIMIT=100]-->
+  <string name="sync_error_message">Zure gailuak ez du biltegiratze leku nahikorik sinkronizaziorako.</string>
   <!-- Button text for the button to click to go to the manage storage settings screen. [CHAR LIMIT=20]-->
+  <string name="storage">Biltegiratzea</string>
   <!-- Token used as a divider between senders -->
+  <string name="senders_split_token">,\u00A0</string>
+  <string name="draft_count_format">\u00A0(<xliff:g id="count">%1$s</xliff:g>)</string>
   <!-- Token to replace senders that are not visible -->
   <!-- Token used to space out elided senders that are not visible -->
   <!-- Token used to space out message count, draft text, and senders -->
@@ -953,12 +1055,24 @@
   <!-- General preference: Label of the setting for the direction to move to
          when deleting the current message.
          Options contain "newer message","older message", etc. [CHAR LIMIT=32] -->
+  <string name="auto_advance_label">Automatikoki aurreratu</string>
   <!-- General preference: Description of the setting for the direction to move to
          when deleting the current message.
          Options contain "newer message","older message", etc. [CHAR LIMIT=64] -->
+  <string name="auto_advance_summary">Aukeratu bistaratuko den pantaila 
+        mezu bat ezabatu eta gero</string>
   <!-- Title of the dialog that appears the first time they perform an action that would cause
          auto advance logic to fire [CHAR LIMIT=70] -->
+  <string name="auto_advance_help_title">Ezarri aurreratze automatikoaren hobespena\n(ezabatu eta gero, eta abar)</string>
   <!-- The auto-advance modes -->
+  <string-array name="prefEntries_autoAdvance">
+    <!-- Newer conversation -->
+    <item>Berriagoa</item>
+    <!-- Older conversation -->
+    <item>Zaharragoa</item>
+    <!-- Conversation list -->
+    <item>Elkarrizketa zerrenda</item>
+  </string-array>
   <!-- Description for each auto-advance option to display after the user has picked one -->
   <!-- The entries here must correspond to the entries in prefEntries_autoAdvance [CHAR LIMIT=60] -->
   <!-- TODO: these pref keys that are never user visible should probably be
@@ -998,6 +1112,7 @@
   <!-- String to be shown instead of a veiled addresses. [CHAR LIMIT=50] -->
   <!-- Summary string to be shown instead of a veiled recipient. [CHAR LIMIT=50] -->
   <!-- Notification ticker text for per-label notification [CHAR LIMIT=30]-->
+  <string name="label_notification_ticker">"<xliff:g id="label">%1$s</xliff:g>: <xliff:g id="notification">%2$s</xliff:g>"</string>
   <!-- Format string used when displaying the title of a notification that was triggered by a single new conversation. [CHAR LIMIT=120] -->
   <string name="single_new_message_notification_title"><xliff:g id="sender">%1$s</xliff:g>: <xliff:g id="subject">%2$s</xliff:g></string>
   <!-- Settings screen, what to display for Ringtone when the user chooses "silent" [CHAR LIMIT=100]-->
@@ -1017,47 +1132,76 @@
   <!-- In conversation list, when user initiates a downward swipe,
         this text is displayed in the action bar as a hint that they can trigger a
         sync/refresh by continuing the downward swipe. [CHAR LIMIT=60] -->
+  <string name="swipe_down_to_refresh">Pasatu hatza behera berritzeko</string>
   <!-- In conversation list, when user has triggered a sync via a downward swipe,
         this text is displayed in the action bar for a brief moment to
     indicate that a sync is in progress.  [CHAR LIMIT=60] -->
+  <string name="checking_for_mail">Posta egiaztatzen</string>
   <!-- Conversation list screen overflow menu in trash folder [CHAR LIMIT=50]  -->
+  <string name="empty_trash">Hustu zakarrontzia</string>
   <!-- Conversation list screen overflow menu in spam folder [CHAR LIMIT=50]  -->
+  <string name="empty_spam">Hustu zabor posta</string>
   <!-- Dialog title for empty trash confirmation dialog [CHAR LIMIT=100] -->
+  <string name="empty_trash_dialog_title">Hustu zakarrontzia?</string>
   <!-- Dialog title for empty spam confirmation dialog [CHAR LIMIT=100] -->
+  <string name="empty_spam_dialog_title">Hustu zabor posta?</string>
   <!-- Dialog message for empty folder confirmation dialog [CHAR LIMIT=300] -->
+  <plurals name="empty_folder_dialog_message">
+    <item quantity="one">mezu <xliff:g id="count">%1$d</xliff:g> behin betiko ezabatuko da.</item>
+    <item quantity="other"><xliff:g id="count">%1$d</xliff:g> mezu behin betiko ezabatuko dira.</item>
+  </plurals>
   <!-- Strings used for accessibility for the items that toggles the drawer action  -->
+  <string name="drawer_open">Ireki nabigazio tiradera</string>
+  <string name="drawer_close">Itxi nabigazio tiradera</string>
+  <string name="conversation_photo_welcome_text">Sakatu igorlearen irudia elkarrizketa hautatzeko.</string>
   <!-- Content description for the folder icon for nested folders. -->
   <!--  Button, "Add account" in the preference screen [CHAR LIMIT=30] -->
+  <string name="add_account">Gehitu kontua</string>
   <!-- Action bar title for viewing messages that are attached to another message. -->
+  <string name="attached_message">Erantsitako mezua</string>
   <!-- Shown to display the date of the message when the message was received yesterday. [CHAR LIMIT=50]  -->
+  <string name="date_message_received_yesterday">Atzo, <xliff:g id="datetime">%1$s</xliff:g></string>
   <!-- Content description for the "X" image icon for dismissing a tip. This is used for spoken description of the icon when touch explore is enabled. [CHAR LIMIT=50] -->
+  <string name="dismiss_tip_hover_text">Baztertu aholkua</string>
   <!-- Tip for letting user know that their device auto-sync setting
         is turned off, in case they are wondering why they are not
         receiving any new mail. [CHAR LIMIT=250] -->
+  <string name="auto_sync_off">Sinkronizazio automatikoa itzalita dago.</string>
   <!-- Tap to turn on device auto-sync setting.  [CHAR LIMIT=250] -->
+  <string name="tap_to_enable_sync">Sakatu pizteko.</string>
   <!-- Tip for letting user know that their account level sync setting
         is turned off, in case they are wondering why they are not
         receiving any new mail. [CHAR LIMIT=250] -->
+  <string name="account_sync_off">Kontuaren sinkronizazioa itzalita dago.</string>
   <!-- Hint text for user to enable sync in Gmail's account settings.
          The whole string should read "Turn on in Account settings.", but because we need
          "Account settings" to appear as blue link text, it's a parameter here.
          [CHAR LIMIT=250] -->
+  <string name="enable_sync_in_account_settings">Piztu hemen: <xliff:g id="account_settings">%1$s</xliff:g>.</string>
   <!-- This is used as a parameter to another string and combined reads
          "Turn on in Account settings." [CHAR LIMIT=250] -->
   <string name="account_settings_param">Kontuaren ezarpenak</string>
   <!-- Hint text that there are X number of unsent messages users
     Outbox. [CHAR LIMIT=250] -->
+  <string name="unsent_messages_in_outbox"><xliff:g id="number">%1$s</xliff:g> bidali gabe <xliff:g id="outbox">%2$s</xliff:g>n</string>
   <!-- Title of dialog to turn auto-sync on [CHAR LIMIT=100] -->
+  <string name="turn_auto_sync_on_dialog_title">Piztu sinkronizazio automatikoa?</string>
   <!-- Text of dialog to turn auto-sync on [CHAR LIMIT=500] -->
+  <string name="turn_auto_sync_on_dialog_body">Aplikazio eta kontu guztiei egindako aldaketak, ez soilik Gmail, webgunea zure beste gailuak eta zure <xliff:g id="phone_or_tablet">%1$s</xliff:g>aren artean sinkronizatuko dira.</string>
   <!-- Phone (vs. tablet) for describing this device [CHAR LIMIT=30] -->
+  <string name="phone">telefonoa</string>
   <!-- Tablet (vs. phone) for describing this device [CHAR LIMIT=30] -->
+  <string name="tablet">tableta</string>
   <!-- Confirm button text for dialog to turn auto-sync on [CHAR
          LIMIT=30] -->
+  <string name="turn_auto_sync_on_dialog_confirm_btn">Piztu</string>
   <!-- Button in conversation list to show more folders [CHAR LIMIT=50] -->
   <!-- Button in conversation list to hide folders [CHAR LIMIT=50] -->
   <!-- Error message that is displayed when the user clicks on a quick contacts badge, but
          there is no contacts application installed that can display the quick contact -->
+  <string name="quick_contacts_not_available">Ez da aplikaziorik aurkitu kontaktu hau ikusteko.</string>
   <!-- Custom phone number type -->
+  <string name="phoneTypeCustom">Pertsonalizatua</string>
   <!-- Home phone number type -->
   <string name="phoneTypeHome">Etxekoa</string>
   <!-- Mobile phone number type -->
@@ -1077,6 +1221,7 @@
   <!-- Car phone number type -->
   <string name="phoneTypeCar">Kotxea</string>
   <!-- Company main phone number type -->
+  <string name="phoneTypeCompanyMain">Enpresaren telefono nagusia</string>
   <!-- ISDN phone number type -->
   <string name="phoneTypeIsdn">RDSI</string>
   <!-- Main phone number type -->
@@ -1088,9 +1233,13 @@
   <!-- Telex phone number type -->
   <string name="phoneTypeTelex">Telex</string>
   <!-- TTY TDD phone number type -->
+  <string name="phoneTypeTtyTdd">TTY TDD</string>
   <!-- Work mobile phone number type -->
+  <string name="phoneTypeWorkMobile">Laneko mugikorra</string>
   <!-- Work pager phone number type -->
+  <string name="phoneTypeWorkPager">Laneko bilatzailea</string>
   <!-- Assistant phone number type -->
+  <string name="phoneTypeAssistant">Laguntzailea</string>
   <!-- MMS phone number type -->
   <string name="phoneTypeMms">MMS</string>
   <!-- Label for custom events  [CHAR LIMIT=20] -->
@@ -1098,6 +1247,7 @@
   <!-- Label for a birthday event  [CHAR LIMIT=20] -->
   <string name="eventTypeBirthday">Urtebetetzea</string>
   <!-- Label for an anniversary event  [CHAR LIMIT=20] -->
+  <string name="eventTypeAnniversary">Urteurrena</string>
   <!-- Label for other events  [CHAR LIMIT=20] -->
   <string name="eventTypeOther">Beste bat</string>
   <!-- Custom email type -->
@@ -1154,6 +1304,7 @@
   <string name="orgTypeCustom">Pertsonalizatua</string>
   <!-- Custom relationship custom [CHAR LIMIT=20] -->
   <!-- Assistant relationship type [CHAR LIMIT=20] -->
+  <string name="relationTypeAssistant">Laguntzailea</string>
   <!-- Brother relationship type [CHAR LIMIT=20] -->
   <string name="relationTypeBrother">Anaia/Neba</string>
   <!-- Child relationship type [CHAR LIMIT=20] -->
@@ -1173,6 +1324,7 @@
   <!-- Partner relationship type [CHAR LIMIT=20] -->
   <string name="relationTypePartner">Bikotea</string>
   <!-- Referred by relationship type [CHAR LIMIT=20] -->
+  <string name="relationTypeReferredBy">Honek gomendatua</string>
   <!-- Relative relationship type [CHAR LIMIT=20] -->
   <string name="relationTypeRelative">Familia</string>
   <!-- Sister relationship type [CHAR LIMIT=20] -->
@@ -1186,17 +1338,32 @@
   <!-- Work SIP address type. Same context as Work phone type. -->
   <string name="sipAddressTypeWork">Lanekoa</string>
   <!-- Other SIP address type. Same context as Other phone type. -->
+  <string name="sipAddressTypeOther">Beste bat</string>
   <!-- Part of a description of an repeating event. This part states the date when a repeating
          event ends. The part before the semi-colon describes how it repeats.
          e.g. Every 2 weeks; until 1/1/2030 [CHAR LIMIT=21] -->
+  <string name="endByDate">; <xliff:g id="date">%1$s</xliff:g> arte</string>
   <!-- Part of a description of an repeating event. This part how many times the event repeats.
          The part before the semi-colon describes how it repeats.
          e.g. Every 2 weeks; for 15 times [CHAR LIMIT=15] -->
+  <plurals name="endByCount">
+    <item quantity="one">; behin</item>
+    <item quantity="other">; behin<xliff:g id="number">%1$d</xliff:g> aldiz</item>
+  </plurals>
   <!-- A description for an event that repeats daily. For example, Every 2 days [CHAR LIMIT=15]-->
+  <plurals name="daily">
+    <item quantity="one">Egunero</item>
+    <item quantity="other"><xliff:g id="number">%1$d</xliff:g> egunez behin</item>
+  </plurals>
   <!-- A label in a multiple-choice list for the specifying that an event
          repeats every weekday (Monday through Friday) -->
+  <string name="every_weekday">"Lanegunetan (ast\u2013ost)"</string>
   <!-- A description for an event that repeats weekly on some day of the week. For example,
          'Weekly on Tuesday' or Every 2 weeks on Monday, Tuesday.  [CHAR LIMIT=25]-->
+  <plurals name="weekly">
+    <item quantity="one">Astero egun hauetan <xliff:g id="days_of_week">%2$s</xliff:g></item>
+    <item quantity="other"><xliff:g id="number">%1$d</xliff:g> astetan behin egun hauetan <xliff:g id="days_of_week">%2$s</xliff:g></item>
+  </plurals>
   <!-- The common portion of a string describing how often an event repeats,
          example: 'Monthly (on day 2)' -->
   <string name="monthly">Hilero</string>
@@ -1210,7 +1377,9 @@
   <!-- No calendars message for secret calendar info -->
   <string name="calendar_info_no_calendars">Ez dago egutegirik</string>
   <!-- Event count message for secret calendar info -->
+  <string name="calendar_info_events">Gertakariak: \"<xliff:g id="events">%1$d</xliff:g></string>
   <!-- Event and dirty event count message for secret calendar info -->
+  <string name="calendar_info_events_dirty">\"Gertakariak: \"<xliff:g id="events">%1$d</xliff:g>", Gorde gabeak: "<xliff:g id="dirty events">%2$d</xliff:g></string>
   <!-- What to show in messaging that refers to this provider, e.g. AccountSyncSettings -->
   <string name="provider_label">Egutegia</string>
   <string name="contacts_provider_label">Kontaktuak</string>
@@ -1219,7 +1388,11 @@
   <!-- Debug tool - dialog - start copying [CHAR LIMIT=NONE] -->
   <string name="debug_tool_start_button">Hasi</string>
   <!-- Debug tool - Main message shown to the user when starting up the debug tool [CHAR LIMIT=NONE] -->
+  <string name="debug_tool_message">Honako hau egingo duzu: 1) egutegiko datu basearen kopia bat SD txartelean edo USB biltegian, zeinera edozein aplikazio sar daitekeen eta 2) posta elektronikoz bidali. Gogoan izan hura ezabatzea behin gailutik kanpo era egokian kopiatu denean edo mezua jaso denean.</string>
   <!-- Debug tool - email subject [CHAR LIMIT=NONE] -->
+  <string name="debug_tool_email_sender_picker">Aukeratu programa bat fitxategia bidaltzeko</string>
   <!-- Debug tool - email subject [CHAR LIMIT=NONE] -->
+  <string name="debug_tool_email_subject">Egutegiko datu base erantsia</string>
   <!-- Debug tool - email body [CHAR LIMIT=NONE] -->
+  <string name="debug_tool_email_body">Mezu honi erantsita doakizu nire egutegiko datu basea, nire hitzorduak eta nire informazio pertsonala. Erabili informazio hori kontu handiz.</string>
 </resources>

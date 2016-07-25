@@ -35,6 +35,7 @@
   <string name="account_setup_domain_label">Domäne</string>
   <string name="account_setup_server_info_heading">Serverinfo</string>
   <string name="account_setup_security_heading">Sicherheit</string>
+  <string name="account_setup_general_heading">Kontoeinstellungen</string>
   <string name="account_setup_authentication_heading">Authentifizierung</string>
   <string name="account_setup_passcode_format_restriction_complex">Besitzt <xliff:g id="quantity">%1$d</xliff:g> dieser Merkmale: Einen Großbuchstaben, einen Kleinbuchstaben, eine Zahl und/oder ein Sonderzeichen.</string>
   <plurals name="account_setup_passcode_length_restriction">
@@ -49,6 +50,7 @@
   <!-- Error message shown in dialog body when authenticating an account during setup fails -->
   <string name="account_setup_failed_dlg_message_fmt"><xliff:g id="error_msg">%1$s</xliff:g>Möchten Sie Ihre Einstellungen aktualisieren und es erneut versuchen oder möchten Sie die Einstellungen manuell eingeben?</string>
   <!-- Dialog title when "setup" could not finish -->
+  <string name="account_setup_failed_dlg_title">Das Konto konnte nicht konfiguriert werden</string>
   <!-- hint for account email password text field -->
   <string name="account_setup_basics_progress_message">Automatische Erkennung in Arbeit</string>
   <!-- In Account setup options screen, Activity title [CHAR LIMIT=45] -->
@@ -276,9 +278,14 @@
   <string name="action_quick">Schnell</string>
   <string name="action_move">Verschieben</string>
   <string name="action_label">Kennzeichnen</string>
+  <string name="action_move_or_label">Verschieben/Kennzeichnen</string>
   <string name="action_archive">Archiv</string>
   <string name="action_delete">Löschen</string>
   <string name="action_spam">Spam</string>
+  <string name="action_flag">Markierung</string>
+  <string name="action_star">Stern</string>
+  <string name="action_clear_star">Stern entfernen</string>
+  <string name="action_star_or_flag">Favorisieren/Markieren</string>
   <string name="action_mark_unread">Als ungelesen markieren</string>
   <string name="action_mark_read">Als gelesen markiert</string>
   <string name="action_read_or_unread">Gelesen/Ungelesen</string>
@@ -290,8 +297,20 @@
     <!-- Quick respond to several conversations -->
     <item quantity="other">Antworten gesendet</item>
   </plurals>
+  <plurals name="liked_message">
+    <!-- Like 1 conversation -->
+    <item quantity="one">Nachricht gefällt mir</item>
+    <!-- Like several conversations -->
+    <item quantity="other">Nachrichten gefallen mir</item>
+  </plurals>
+  <string name="invalid_selection">Ungültige Auswahl</string>
+  <string name="file_action_more_than_one_account">Sie haben Konversationen aus mehreren Konten ausgewählt. Versuchen Sie, nur Konversationen von einem Konto auszuwählen.</string>
+  <string name="action_more_than_one_conversation">Die gewählte Aktion unterstützt immer nur eine Konversation. Versuchen Sie nur eine Konversation auszuwählen.</string>
+  <string name="not_installed">Nicht installiert</string>
+  <string name="evernote_not_installed">Evernote scheint nicht installiert zu sein. Bitte installieren Sie Evernote, um diese Funktionen nutzen zu können.</string>
   <string name="custom_mailbox_settings_label">Einstellungen</string>
   <string name="custom_mailbox_background_sync_label">Hintergrundsynchronisierung</string>
+  <string name="custom_mailbox_error_no_selected_folders">Bitte wählen Sie mindestens einen Ordern aus der nachstehenden Liste aus.</string>
   <!-- Title for confirm delete box dialog -->
   <string name="custom_mailbox_delete_box_dialog_title">Warnung</string>
   <!-- Ratings Viral Prompt -->

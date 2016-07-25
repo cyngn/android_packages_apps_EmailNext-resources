@@ -29,11 +29,20 @@
   <string name="account_setup_email_address_hint">Sartu zure eposta helbidea</string>
   <string name="account_setup_password_label">Sartu zure pasahitza</string>
   <string name="account_setup_discovery_account_name_hint">Kontuaren izena</string>
+  <string name="account_setup_username_invalid_chars">Honako karaktere hauek ez dira onartzen: <xliff:g id="chars">%1$s</xliff:g></string>
+  <string name="account_setup_invalid_server_address">Baliogabeko zerbitzari helbide bat sartu da</string>
+  <string name="account_setup_oauth_required_failure">Ez da oraindik onartzen bi urratsetako egiaztaketa <xliff:g id="account_type">%1$s</xliff:g> kontuentzat. Hasi saioa zure kontuan aplikazioak erabiliko duen pasahitza sortzeko.</string>
   <string name="account_setup_domain_label">Domeinua</string>
   <string name="account_setup_server_info_heading">Zerbitzariaren informazioa</string>
   <string name="account_setup_security_heading">Segurtasuna</string>
   <string name="account_setup_general_heading">Kontuaren hobespenak</string>
   <string name="account_setup_authentication_heading">Autentifikazioa</string>
+  <string name="account_setup_passcode_title">Exchange administratzaileak sinkronizatzeko pasakodea ezartzea eskatzen du.</string>
+  <string name="account_setup_passcode_format_restriction_complex">Hauetako <xliff:g id="quantity">%1$d</xliff:g> izan: Hizkia maiuskulaz, hizkia minuskulaz, zenbakia, bestelako karaktere berezia.</string>
+  <plurals name="account_setup_passcode_length_restriction">
+    <item quantity="one">Gutxienez karaktere bateko luzera.</item>
+    <item quantity="other">Gutxienez <xliff:g id="length">%1$d</xliff:g> karaktereko luzera.</item>
+  </plurals>
   <plurals name="account_setup_passcode_previous_use_restriction">
     <item quantity="one">Ezin da zure aurreko pasakodea errepikatu.</item>
     <item quantity="other">Ezin da zure aurreko <xliff:g id="passcodeHistoryLength">%1$d</xliff:g> pasakodetako bat errepikatu.</item>
@@ -44,12 +53,14 @@
   <string name="account_setup_confirm_passcode_action_label">Berretsi</string>
   <string name="account_setup_check_settings_dialog_manual_button">Eskuz</string>
   <!-- Error message shown in dialog body when authenticating an account during setup fails -->
+  <string name="account_setup_failed_dlg_message_fmt"><xliff:g id="error_msg">%1$s</xliff:g>Ezarpenak eguneratu nahi dituzu eta berriro saiatu, edo ezarpenak eskuz sartu nahi dituzu?</string>
   <!-- Dialog title when "setup" could not finish -->
   <string name="account_setup_failed_dlg_title">Ezin izan da kontua konfiguratu</string>
   <!-- hint for account email password text field -->
   <string name="account_setup_basics_progress_message">Aurkikuntza automatikoa lanean</string>
   <!-- In Account setup options screen, Activity title [CHAR LIMIT=45] -->
   <!-- In Account setup options screen, label for email check frequency selector -->
+  <string name="account_setup_options_mail_check_frequency_label">Egiaztatu sarrera ontzia</string>
   <!-- In Account setup options & Account Settings screens, email check frequency option -->
   <string name="account_setup_options_mail_check_frequency_2hour">2 ordutik behin</string>
   <!-- In Account setup options & Account Settings screens, email check frequency option -->
@@ -120,6 +131,7 @@
   <!-- Preference for the compose toolbar -->
   <string name="preference_compose_toolbar_visibility">Erakutsi konposiziorako tresna-barra</string>
   <!-- Preference for conversation threading -->
+  <string name="preference_conversation_threading">Elkarrizketak haritzea</string>
   <string name="message_send_failed_ticker">Mezua bidaltzeak huts egin du</string>
   <string name="message_send_failed_title">Mezua ez da bidali</string>
   <string name="preferences_clear_search_history_title">Ezabatu bilaketen historia</string>
@@ -137,6 +149,11 @@
   <string name="preference_allow_insecure_attachments_title">Baimendu eranskin ez seguruak</string>
   <string name="preference_allow_insecure_attachments_summary">Baimendu eranskin ez seguruak ikusi edo gordetzea</string>
   <string name="custom_perms_dialog_title">Bikoiztu baimenak</string>
+  <string name="custom_perms_dialog_msg">Agian beste aplikazioren bat zure datu pertsonalak atzitzen saiatzen ari da.\n\n<xliff:g id="content">%1$s</xliff:g>\n\nJarri kontaktuan Boxer euskarriarekin laguntza jasotzeko.</string>
+  <plurals name="custom_perms_dialog_app_violation">
+    <item quantity="one"><xliff:g id="app_name">(%1$s)</xliff:g> baimena birdefinitzen du: <xliff:g id="permissions_list">%2$s</xliff:g></item>
+    <item quantity="other"><xliff:g id="app_name">(%1$s)</xliff:g> baimenak birdefinitzen ditu: <xliff:g id="permissions_list">%2$s</xliff:g></item>
+  </plurals>
   <string name="custom_perms_pos_btn">Jakinarazi</string>
   <!-- Label shown in the account selector to select "Combined", which contains
          Combined Inbox, Combined Outbox, etc. [CHAR LIMIT=30] -->
@@ -150,6 +167,7 @@
   <!-- Delete account -->
   <string name="delete_account_title">Ezabatu kontua</string>
   <string name="delete_account_summary">Ezabatu kontu hau eta bere ezarpen eta datu guztiak</string>
+  <string name="delete_account_confirmation_msg">Honek <xliff:g id="account">%1$s</xliff:g> kontuko ezarpen eta mezu guztiak ezabatuko ditu. Eragiketa hau ezin da desegin.\n\nJarraitu?</string>
   <string name="deleting_account_msg">Kontua ezabatzen\u2026</string>
   <string name="delete_account_failed">Ezin izan da kontua ezabatu</string>
   <!-- Read email screen, button name. Open an attachment. [CHAR LIMIT=10] -->
@@ -172,6 +190,7 @@
   <!-- Displayed in undo LeaveBehindItem after reporting a message as spam -->
   <string name="reported_as_spam">Spam gisa salatua</string>
   <!-- New Message notification text that appears over conversation view on incoming message. [CHAR LIMIT=40] -->
+  <string name="new_incoming_messages_one">Bistaratu <xliff:g id="sender">%1$s</xliff:g> erabiltzailearen mezu berria.</string>
   <!-- New Message notification text that appears over conversation view on incoming messages. Will only be used if there is more than one new message. [CHAR LIMIT=40] -->
   <plurals name="new_incoming_messages_many">
     <item quantity="one">Bistaratu mezu berri <xliff:g id="count">%1$d</xliff:g>.</item>
@@ -199,6 +218,7 @@
   <string name="accounts_heading">Kontuak</string>
   <!-- Default email signature on vendor builds -->
   <string name="vendor_signature">Nire Cyanogen telefonotik bidalita</string>
+  <string name="vendor_signature_fmt">Nire <xliff:g id="brand" example="samsung">%1$s</xliff:g> gailutik bidalita</string>
   <string name="blu_signature">Nire BLU telefonotik bidalita - BLU Mail, Boxerren oinarrituta</string>
   <string name="vendor_signature_o2">O2ko Cyanogenetik bidalita</string>
   <!-- Notification action for deleting a message. [CHAR LIMIT=20] -->
@@ -249,6 +269,7 @@
   <string name="action_grid_select_quick_response">Hautatu erantzun azkarra</string>
   <string name="action_grid_todo_dialog_title">Xehetasunak</string>
   <string name="action_grid_set_due_date">Ezarri epemuga</string>
+  <string name="action_grid_due">Epemuga: <xliff:g id="datestring">%1$s</xliff:g></string>
   <string name="action_grid_add_priority">Gehitu lehentasuna</string>
   <string name="action_grid_priority">Lehentasuna:\u0020</string>
   <string name="action_grid_add_assignee">Gehitu arduraduna</string>
@@ -279,6 +300,7 @@
   <string name="action_move_or_label">Mugitu/Etiketatu</string>
   <string name="action_archive">Artxiboa</string>
   <string name="action_delete">Ezabatu</string>
+  <string name="action_spam">Zabor posta</string>
   <string name="action_flag">Bandera</string>
   <string name="action_star">Izarra</string>
   <string name="action_clear_star">Garbitu izarra</string>
@@ -302,6 +324,7 @@
   </plurals>
   <string name="invalid_selection">Hautapen baliogabea</string>
   <string name="file_action_more_than_one_account">Hainbat kontuetako elkarrizketak hautatu dituzu. Hautatu kontu bereko elkarrizketak.</string>
+  <string name="action_more_than_one_conversation">Hautatutako funtzionaltasunak aldi bakoitzeko elkarrizketa bakarra onartzen du. Hautatu elkarrizketa bakarra.</string>
   <string name="not_installed">Instalatu gabe</string>
   <string name="evernote_not_installed">Ez dirudi Evernote instalatuta dagoenik. Instalatu ezazu funtzionalitate hau erabiltzeko.</string>
   <string name="custom_mailbox_button">Gehitu postontzi pertsonalizatua</string>
@@ -360,6 +383,9 @@
   <string name="no_conversation_needs_sync">Ez dago mezurik hemen.\npasatu hatza beherantz berrizteko</string>
   <string name="getting_messages">Zure mezuak jasotzen</string>
   <string name="empty_folder">Ez dago mezurik hemen.</string>
+  <string name="empty_inbox">Bukatu duzu! Gozatu eguna.</string>
+  <string name="empty_search">Ene! Ez dugu ezer aurkitu \"<xliff:g id="search_query">%1$s</xliff:g>\" bilatzean.</string>
+  <string name="empty_spam_folder">Zoragarri. Ez dago spam mezurik hemen!</string>
   <string name="empty_trash_folder">Ez dago zaborrik hemen. Eskerrik asko birziklatzeagatik!</string>
   <!-- Calendar invite hero card -->
   <!-- Link for opening an invite's event in the calendar app. -->
@@ -395,6 +421,7 @@
   <string name="meeting_invitation">Gonbidapenaren laburpena:</string>
   <string name="invitation_by">Gonbidatzailea</string>
   <string name="remove_invite">Ezabatu gonbidapena</string>
+  <string name="action_liked_message_cm"><xliff:g id="display_name" example="John Doe">%1$s</xliff:g>(e)k zure mezua gogoko gisa markatu du &lt;a href=\"%2$s\"&gt;Cyanogen OSrako Boxer &lt;/a&gt; erabilita.</string>
   <string name="error_no_app_store">Ez da aplikazio denda egokirik aurkitu</string>
   <!-- String shown in the TO field when it is blank -->
   <string name="undisclosed_recipients">Jasotzaile ezkutuak</string>
@@ -402,24 +429,50 @@
   <!-- Title for enter passcode screen -->
   <string name="enter_passcode_title">Sartu pasakodea</string>
   <string name="enter_passcode_logo_desc">Boxer logoa</string>
+  <string name="enter_passcode_status_desc">Egoera-adierazlea</string>
   <string name="enter_passcode_hint">Sartu zure pasakodea</string>
   <string name="enter_passcode_go">Joan</string>
   <string name="enter_passcode_success">Arrakasta!</string>
+  <string name="enter_passcode_failure">Pasakode okerra</string>
+  <string name="enter_passcode_failure_with_max">%2$dtik %1$d saiakerek huts egin dute</string>
+  <string name="enter_passcode_last_chance">Saiakera bat geratzen da.\nHuts egitekotan e-posta guztia ezabatuko da gailutik.</string>
+  <string name="enter_passcode_wipe">Aplikazioaren datuak ezabatzen</string>
   <!-- Start of combined settings strings -->
   <string name="header_category_mail">Posta</string>
   <string name="header_category_other">Beste bat</string>
   <string name="header_default_account_title">Lehenetsitako kontua</string>
   <string name="header_local_calendars_title">Tokiko egutegiak</string>
+  <string name="header_mail_settings_title">E-posta ezarpen gehiago</string>
+  <string name="header_calendar_settings_title">Egutegi ezarpen gehiago</string>
   <string name="header_passcode_title">Pasakodea</string>
   <!-- In Account Setup options screen, label for email lookback selector -->
+  <string name="account_setup_options_mail_window_label">E-Posta hau sinkronizatu da</string>
   <!-- In Account Settings screen, label for email lookback selector -->
   <string name="account_settings_options_mail_window_label">Sinkronizatzeko egunak</string>
+  <string name="account_settings_sync_calendar_summary">Sinkronizatu kontu honetako egutegiko gertakizunak</string>
+  <string name="default_account_fragment_title">Lehenetsitako kontua</string>
+  <string name="mail_settings_fragment_title">E-posta ezarpenak</string>
   <!-- The menu item to send logs -->
+  <string name="menu_send_logs">Bidali egunkariak</string>
   <!-- The menu item to open the about section -->
   <string name="menu_about">Honi buruz</string>
+  <string name="version">Bertsioa</string>
+  <string name="build">Konpilaketa</string>
+  <string name="build_date">Konpilatze data</string>
+  <string name="legal">Legezkoa</string>
+  <string name="open_source">Lizentzia libreak</string>
+  <string name="privacy_policy">AirWatch pribatutasun politika</string>
   <!-- Name of the DeviceAdmin (seen in settings & in user confirmation screen) -->
+  <string name="device_admin_label">Boxer</string>
   <!-- Settings passcode strings -->
+  <string name="settings_passcode_on">Gaitu pasakodea</string>
+  <string name="settings_passcode_off">Desgaitu pasakodea</string>
+  <string name="settings_passcode_change">Aldatu pasakodea</string>
+  <string name="settings_passcode_time_interval">Eskatu pasakodea</string>
   <!-- String array for require passcode in passcode settings -->
+  <string name="settings_require_passcode_1min">minutu bat</string>
+  <string name="settings_require_passcode_2min">2 minutu</string>
+  <string name="settings_require_passcode_3min">3 minutu</string>
   <string name="settings_require_passcode_4min">4 minutu</string>
   <string name="settings_require_passcode_5min">5 minutu</string>
   <string name="settings_require_passcode_10min">10 minutu</string>
@@ -438,14 +491,36 @@
   </plurals>
   <!-- Permission related string -->
   <string name="permissions_enable">Gaitu</string>
+  <string name="permissions_call_title">Gaitu telefonora sarbidea</string>
+  <string name="permissions_call_message">Deitu ahal izateko telefonora sarbidea eman behar diozu Boxerri.</string>
+  <string name="permissions_storage_title">Gaitu biltegiratzera sarbidea</string>
+  <string name="permissions_storage_message">Eranskinak gorde ahal izateko, biltegiratzera sarbidea eman behar diozu Boxerri.</string>
+  <string name="permissions_calendar_title">Gaitu egutegira sarbidea</string>
+  <string name="permissions_calendar_message">Boxerrek ez du sarbidea gailuko egutegietako gertakizunetara.</string>
   <string name="permissions_do_not_show_again">Ez erakutsi berriro</string>
   <!-- String shown as a toast when sending a quick response fails due to some unknown error-->
+  <string name="emailing_guests_failed">Ezin izan da gonbidatuei mezua bidali</string>
   <string name="account_setup_selection_title">Kontu mota</string>
+  <string name="account_setup_discovery_title">Kontuaren xehetasunak</string>
   <string name="account_setup_options_title">Sinkronizazio aukerak</string>
+  <string name="plugin_permission_label">Boxer plugin baimena</string>
+  <string name="plugin_permission_description">Aplikazioak Boxer pluginak kargatzen ditu ezaugarri gehigarriak izateko. Pluginak Boxerrek sinatuta egon behar dira kargatu ahal izateko.</string>
   <string name="view">Ikusi</string>
   <string name="original_appointment">----Jatorrizko hitzordua----</string>
+  <string name="meeting_from">
+        Noiztik:
+        <xliff:g id="From">%s</xliff:g>
+    </string>
   <string name="meeting_subject">
 Gaia:
         <xliff:g id="Subject">%s</xliff:g>
     </string>
+  <string name="meeting_to">
+        Noiz arte:
+        <xliff:g id="To">%s</xliff:g>
+    </string>
+  <string name="email_attendees">Bidali mezua parte hartzaileei</string>
+  <string name="forward_event">Birbidali gertakizuna</string>
+  <string name="email_organizer">Bidali mezua antolatzaileari</string>
+  <string name="email_everyone">Bidali mezua guztiei</string>
 </resources>
