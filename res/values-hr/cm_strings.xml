@@ -213,6 +213,8 @@
   <!-- Title for confirm delete box dialog -->
   <!-- Ratings Viral Prompt -->
   <!-- Account Setup -->
+  <string name="account_setup_start_company_slogan_text">Dobro došli u bolju pristiglu poštu!</string>
+  <string name="account_setup_vendor_heading">Dobro došli u e-poštu</string>
   <!-- Like Feature -->
   <!-- Displayed on a button whose action is to create something new. -->
   <!-- Text hint when creating a new folder from the move/label dialog. -->

@@ -812,6 +812,7 @@
   <!-- Dialog title for empty spam confirmation dialog [CHAR LIMIT=100] -->
   <!-- Dialog message for empty folder confirmation dialog [CHAR LIMIT=300] -->
   <!-- Strings used for accessibility for the items that toggles the drawer action  -->
+  <string name="conversation_photo_welcome_text">Dodirnite sliku pošiljatelja da biste odabrali taj razgovor.</string>
   <!-- Content description for the folder icon for nested folders. -->
   <!--  Button, "Add account" in the preference screen [CHAR LIMIT=30] -->
   <!-- Action bar title for viewing messages that are attached to another message. -->
