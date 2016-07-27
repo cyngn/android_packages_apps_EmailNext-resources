@@ -439,7 +439,7 @@
   <!-- Mailbox settings activity title [CHAR LIMIT=none] -->
   <string name="mailbox_settings_activity_title">Opções de sincronização</string>
   <!-- Mailbox settings activity title, with the target folder name [CHAR LIMIT=none] -->
-  <string name="mailbox_settings_activity_title_with_mailbox">Opçoes de sincronização (<xliff:g id="mailboxx_name" example="Family">%1$s</xliff:g>)</string>
+  <string name="mailbox_settings_activity_title_with_mailbox">Opções de sincronização (<xliff:g id="mailboxx_name" example="Family">%1$s</xliff:g>)</string>
   <!-- On mailbox settings screen: Whether to sync this mailbox when the account syncs. -->
   <string name="mailbox_settings_sync_enabled_label">Sincronizar esta pasta</string>
   <!-- On mailbox settings screen: Explanatory text for what it means to "sync this folder". -->
@@ -671,6 +671,7 @@
   <!-- Compose screen, Prefix to quoted text in forwarded/replied message; folder for the quoted text area. [CHAR LIMIT=25] -->
   <string name="quoted_text_label">Citar texto</string>
   <!--  Button for including inline responses. [CHAR LIMIT=25] -->
+  <string name="respond_inline">Responder na mesma linha</string>
   <!-- Format string for email addresses -->
   <!-- Attachments -->
   <!-- Size unit, displayed in a button next to an attachment [CHAR LIMIT=5]-->
@@ -846,6 +847,12 @@
     <!-- Displayed while reporting several conversations as not important in the important folder -->
     <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; marcadas como não importante.</item>
   </plurals>
+  <plurals name="conversation_phished">
+    <!-- Displayed while reporting one conversation as phishing -->
+    <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; reportada como phishing.</item>
+    <!-- Displayed while reporting several conversations as phishing -->
+    <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; reportadas como phishing.</item>
+  </plurals>
   <plurals name="conversation_archived">
     <!-- Displayed while archiving one conversation -->
     <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; arquivada.</item>
@@ -1001,7 +1008,7 @@
   <!-- Text for dummy attachments to load the actual attachment. This is not an ideal string, but it's too late to add a new string and get it translated -->
   <!-- Shortcut strings -->
   <!-- Title for shortcut naming dialog [CHAR LIMIT=100]-->
-  <string name="shortcut_name_title">Atalho para pasta de nome</string>
+  <string name="shortcut_name_title">Nome do atalho para a pasta</string>
   <!-- Wait fragment strings -->
   <!-- Displayed in title bar during the initial sync  [CHAR LIMIT=40] -->
   <string name="wait_for_sync_title">A aguardar sincronização</string>
@@ -1302,6 +1309,7 @@
   <!-- Child relationship type [CHAR LIMIT=20] -->
   <string name="relationTypeChild">Filho(a)</string>
   <!-- Domestic Partner relationship type [CHAR LIMIT=20] -->
+  <string name="relationTypeDomesticPartner">Parceiro doméstico</string>
   <!-- Father relationship type [CHAR LIMIT=20] -->
   <string name="relationTypeFather">Pai</string>
   <!-- Friend relationship type [CHAR LIMIT=20] -->
@@ -1311,7 +1319,7 @@
   <!-- Mother relationship type [CHAR LIMIT=20] -->
   <string name="relationTypeMother">Mãe</string>
   <!-- Parent relationship type [CHAR LIMIT=20] -->
-  <string name="relationTypeParent">Pai</string>
+  <string name="relationTypeParent">Pai/Mãe</string>
   <!-- Partner relationship type [CHAR LIMIT=20] -->
   <string name="relationTypePartner">Parceiro</string>
   <!-- Referred by relationship type [CHAR LIMIT=20] -->
@@ -1379,10 +1387,11 @@
   <!-- Debug tool - dialog - start copying [CHAR LIMIT=NONE] -->
   <string name="debug_tool_start_button">Início</string>
   <!-- Debug tool - Main message shown to the user when starting up the debug tool [CHAR LIMIT=NONE] -->
+  <string name="debug_tool_message">Está prestes a 1) realizar uma cópia da base de dados do seu calendário para o armazenamento USB/cartão SD, que pode ser lido por qualquer aplicação e a 2) enviá-la por e-mail. Lembre-se de eliminar a cópia assim que a tenha retirado do dispositivo ou que o e-mail seja recebido.</string>
   <!-- Debug tool - email subject [CHAR LIMIT=NONE] -->
-  <string name="debug_tool_email_sender_picker">Escolher um programa para enviar o seu ficheiro</string>
+  <string name="debug_tool_email_sender_picker">Escolha um programa para enviar o seu ficheiro</string>
   <!-- Debug tool - email subject [CHAR LIMIT=NONE] -->
-  <string name="debug_tool_email_subject">Bd do calendário anexada</string>
+  <string name="debug_tool_email_subject">BD do calendário anexada</string>
   <!-- Debug tool - email body [CHAR LIMIT=NONE] -->
-  <string name="debug_tool_email_body">Em anexo está a minha base de dados do Calendário com todos os meus compromissos e informações pessoais. Manuseie com cuidado.</string>
+  <string name="debug_tool_email_body">Em anexo está a minha base de dados do Calendário com todos os meus compromissos e informações pessoais. Trate esses dados com cuidado.</string>
 </resources>
