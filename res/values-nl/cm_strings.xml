@@ -27,8 +27,19 @@
   <string name="mailbox_name_display_archive">Archief</string>
   <string name="mailbox_name_local_only_display_name"> - Lokaal</string>
   <string name="account_setup_email_address_hint">E-mailadres invoeren</string>
+  <string name="account_setup_password_label">Wachtwoord invoeren</string>
+  <string name="account_setup_discovery_account_name_hint">Accountnaam</string>
+  <string name="account_setup_username_invalid_chars">De volgende tekens zijn niet toegestaan: <xliff:g id="chars">%1$s</xliff:g></string>
+  <string name="account_setup_invalid_server_address">Ongeldig serveradres ingevoerd</string>
+  <string name="account_setup_oauth_required_failure">Tweestapsverificatie wordt nog niet ondersteund door <xliff:g id="account_type">%1$s</xliff:g>-accounts. Log in op uw account om een app-specifiek wachtwoord te genereren.</string>
+  <string name="account_setup_domain_label">Domein</string>
+  <string name="account_setup_server_info_heading">Serverinstelingen</string>
   <string name="account_setup_security_heading">Beveiliging</string>
+  <string name="account_setup_general_heading">Accountinstellingen</string>
   <string name="account_setup_authentication_heading">Authenticatie</string>
+  <string name="account_setup_passcode_format_restriction_complex">Gebruik <xliff:g id="quantity">%1$d</xliff:g> van de volgende opties: een hoofdletter, een kleine letter, een cijfer en/of een speciaal teken.</string>
+  <string name="account_setup_confirm_passcode_action_label">Bevestigen</string>
+  <string name="account_setup_check_settings_dialog_manual_button">Handmatig</string>
   <!-- Error message shown in dialog body when authenticating an account during setup fails -->
   <!-- Dialog title when "setup" could not finish -->
   <!-- hint for account email password text field -->
@@ -42,8 +53,11 @@
   <!-- In Account setup options & Account Settings screens, email check frequency option -->
   <string name="account_setup_options_mail_check_frequency_1day">Elke dag</string>
   <!-- In Account setup options screen, optional check box to also sync contacts -->
+  <string name="account_setup_options_sync_contacts_label">Contacten synchroniseren</string>
   <!-- In Account setup options screen, optional check box to also sync calendar -->
+  <string name="account_setup_options_sync_calendar_label">Agenda synchroniseren</string>
   <!-- In Account setup options screen, check box to sync email -->
+  <string name="account_setup_options_sync_email_label">E-mail synchroniseren</string>
   <!-- On Settings screen, setting option for showing all images -->
   <string name="account_settings_show_all_images_title">Afbeeldingen</string>
   <string name="account_settings_show_all_images_show">Altijd weergeven</string>
@@ -66,7 +80,9 @@
   <!-- On Settings screen, shown as an option for label/move preference -->
   <string name="account_settings_label_title">Labelen</string>
   <!-- The domain can only be changed during initial account setup. [CHAR LIMIT=none] -->
+  <string name="account_setup_domain_uneditable_error">U kunt het domein van een account niet wijzigen. Als u een account met een ander domein wilt toevoegen, raakt u \'Account toevoegen\' aan.</string>
   <!-- The email can only be changed during initial account setup. [CHAR LIMIT=none] -->
+  <string name="account_setup_email_uneditable_error">U kunt het e-mailadres van een account niet wijzigen. Als u een account met een ander e-mailadres wilt toevoegen, raakt u \'Account toevoegen\' aan.</string>
   <!-- General preference: Labels for the setting to mark emails as read before archiving them -->
   <string name="general_preference_mark_archive_messages_read">Archiveren als gelezen</string>
   <string name="general_preference_mark_archive_messages_read_description">Berichten als gelezen markeren bij archiveren</string>
@@ -85,6 +101,7 @@
   <!-- Label for signing in with Google using OAuth -->
   <string name="sign_in_with_google">Aanmelden met Google</string>
   <!--  On the "Setup up email" screen, label indicating what service we are signed in with [CHAR LIMIT=40] -->
+  <string name="signed_in_with_service_label">Aangemeld met %1$s</string>
   <!-- Label for the authentication section [CHAR LIMIT=20] -->
   <string name="authentication_label">Authenticatie</string>
   <!-- Label for the add authentication icon [CHAR LIMIT=40] -->
@@ -119,65 +136,226 @@
   <string name="custom_perms_pos_btn">Rapporteren</string>
   <!-- Label shown in the account selector to select "Combined", which contains
          Combined Inbox, Combined Outbox, etc. [CHAR LIMIT=30] -->
+  <string name="mailbox_list_account_selector_combined_view">Gecombineerd</string>
   <!-- Menu item: Select all conversations -->
+  <string name="menu_select_all">Alles selecteren</string>
+  <string name="menu_actiongrid">Actievenster</string>
   <!-- Main screen and setting, menu item [CHAR LIMIT=30]-->
   <!-- Main screen and setting, menu item [CHAR LIMIT=30]-->
+  <string name="support">Ondersteuning</string>
   <!-- Delete account -->
+  <string name="delete_account_title">Account verwijderen</string>
+  <string name="delete_account_summary">Account en alle instellingen en gegevens verwijderen</string>
+  <string name="delete_account_confirmation_msg">Dit zal alle instellingen en berichten van account <xliff:g id="account">%1$s</xliff:g> verwijderen. Deze actie kan niet ongedaan worden gemaakt.\n\nDoorgaan?</string>
+  <string name="deleting_account_msg">Account verwijderen\u2026</string>
+  <string name="delete_account_failed">Kan account niet verwijderen</string>
   <!-- Read email screen, button name. Open an attachment. [CHAR LIMIT=10] -->
   <!-- Read email screen, button name. Install an attachment. [CHAR LIMIT=10] -->
   <!-- Photo view screen, button name. Print photo. [CHAR LIMIT=20] -->
+  <string name="menu_photo_print">Afdrukken</string>
   <!-- Menu item to view an image  [CHAR LIMIT=50]-->
+  <string name="contextmenu_view_image">Afbeelding weergeven</string>
   <!-- Formatting for the collapsed To header in the MessageHeaderView -->
+  <plurals name="to_header">
+    <item quantity="one"> &amp; %1$d ander</item>
+    <item quantity="other"> &amp; %1$d anderen</item>
+  </plurals>
+  <plurals name="conversation_todo">
+    <!-- Displayed while setting one conversation to-do -->
+    <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; gemarkeerd als taak.</item>
+    <!-- Displayed while archiving multiple conversations -->
+    <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; gemarkeerd als taak.</item>
+  </plurals>
   <!-- Displayed in undo LeaveBehindItem after reporting a message as spam -->
+  <string name="reported_as_spam">Gemarkeerd als spam</string>
   <!-- New Message notification text that appears over conversation view on incoming message. [CHAR LIMIT=40] -->
+  <string name="new_incoming_messages_one">Nieuw bericht van <xliff:g id="sender">%1$s</xliff:g>. Weergeven.</string>
   <!-- New Message notification text that appears over conversation view on incoming messages. Will only be used if there is more than one new message. [CHAR LIMIT=40] -->
+  <plurals name="new_incoming_messages_many">
+    <item quantity="one"><xliff:g id="count">%1$d</xliff:g> nieuw bericht. Weergeven.</item>
+    <item quantity="other"><xliff:g id="count">%1$d</xliff:g> nieuwe berichten. Weergeven.</item>
+  </plurals>
   <!-- Button name, displayed in dialogs [CHAR LIMIT=10] -->
+  <string name="edit">Bewerken</string>
   <!-- Hint for searching/filtering folders in the folder selection dialog [CHAR LIMIT=30] -->
+  <string name="folder_search_hint">Zoeken</string>
   <!-- The section headers for the move to folder dialog [CHAR LIMIT=15] -->
+  <string-array name="moveto_folder_sections">
+    <item>Slimme mappen</item>
+    <item>Alle mappen</item>
+  </string-array>
   <!-- The section headers for the change folders dialog [CHAR LIMIT=15] -->
+  <string-array name="change_folders_sections">
+    <item>Slimme labels</item>
+    <item>Alle labels</item>
+  </string-array>
   <!-- String used in the FolderListFragment to mark the start of "boxes" -->
+  <string name="boxes_heading">Boxen</string>
   <!-- String used in the FolderListFragment to mark the start of user-defined folders -->
+  <string name="all_folders_heading">Mappen</string>
   <!-- String used in the FolderListFragment to mark the start of accounts -->
+  <string name="accounts_heading">Accounts</string>
   <!-- Default email signature on vendor builds -->
+  <string name="vendor_signature">Verzonden vanaf mijn Cyanogen-telefoon</string>
+  <string name="vendor_signature_fmt">Verzonden met <xliff:g id="brand" example="samsung">%1$s</xliff:g></string>
+  <string name="blu_signature">Verzonden vanaf mijn BLU-telefoon – BLU e-mail mogelijk gemaakt door Boxer</string>
+  <string name="vendor_signature_o2">Verzonden vanaf Cyanogen op O2</string>
   <!-- Notification action for deleting a message. [CHAR LIMIT=20] -->
+  <string name="notification_action_mark_read">Lees</string>
   <!-- Notification action for replying to a message. [CHAR LIMIT=20] -->
+  <string name="notification_action_reply">Antw</string>
   <!-- Notification action for deleting a message. [CHAR LIMIT=20] -->
+  <string name="notification_action_delete">Wis</string>
   <!-- Notification message to the user upon new messages for a conversation. [CHAR LIMIT=120] -->
+  <plurals name="new_messages">
+    <item quantity="one"><xliff:g id="count">%1$d</xliff:g> nieuw bericht</item>
+    <item quantity="other"><xliff:g id="count">%1$d</xliff:g> nieuwe berichten</item>
+  </plurals>
   <!--  Settings screen, Swipe actions preference title -->
+  <string name="preferences_swipe_actions_title">Veegacties</string>
   <!--  Settings screen, Swipe actions preference summary -->
   <!--  Settings screen, Swipe actions, Left short preference title -->
+  <string name="preferences_swipe_left_short_title">Korte veeg naar links</string>
   <!--  Settings screen, Swipe actions, Left long preference title -->
+  <string name="preferences_swipe_left_long_title">Lange veeg naar links</string>
   <!--  Settings screen, Swipe actions, Right short preference title -->
+  <string name="preferences_swipe_right_short_title">Korte veeg naar rechts</string>
   <!--  Settings screen, Swipe actions, Right long preference title -->
+  <string name="preferences_swipe_right_long_title">Lange veeg naar rechts</string>
   <!-- Menu item text to that when clicked will allow a user to print an email conversation. [CHAR LIMIT=25] -->
+  <string name="print">Afdrukken</string>
   <!-- Number of messages in a conversation [CHAR LIMIT=30]-->
+  <plurals name="num_messages">
+    <item quantity="one"><xliff:g id="count">%1$d</xliff:g> bericht</item>
+    <item quantity="other"><xliff:g id="count">%1$d</xliff:g> berichten</item>
+  </plurals>
   <!-- Shown to display the date of the message [CHAR LIMIT=50] -->
+  <string name="date_message_received_print"><xliff:g id="day_and_date">%1$s</xliff:g> om <xliff:g id="time">%2$s</xliff:g></string>
   <!-- Shown to display the to recipient(s) of the message if the message is a draft [CHAR LIMIT=20] -->
+  <string name="draft_to_heading">Concept naar:\u0020</string>
   <!-- Shown to display in the message header if the message is a draft and there are no "to" addresses in the draft [CHAR LIMIT=10] -->
+  <string name="draft_heading">Concept</string>
   <!-- Shown to inform the user that the quoted text for this message has been hidden. [CHAR LIMIT=50] -->
+  <string name="quoted_text_hidden_print">Geciteerde tekst verborgen</string>
   <!-- Number of attachments in a message [CHAR LIMIT=30]-->
+  <plurals name="num_attachments">
+    <item quantity="one"><xliff:g id="count">%1$d</xliff:g> bijlage</item>
+    <item quantity="other"><xliff:g id="count">%1$d</xliff:g> bijlagen</item>
+  </plurals>
   <!-- Title to display when an email has no subject. [CHAR LIMIT=50]-->
+  <string name="no_subject">(geen onderwerp)</string>
+  <string name="action_grid_select_quick_response">Snelle reactie selecteren</string>
+  <string name="action_grid_todo_dialog_title">Details</string>
+  <string name="action_grid_set_due_date">Vervaldatum instellen</string>
+  <string name="action_grid_due">Vervaldatum: <xliff:g id="datestring">%1$s</xliff:g></string>
+  <string name="action_grid_add_priority">Prioriteit instellen</string>
+  <string name="action_grid_priority">Prioriteit:\u0020</string>
+  <string name="action_grid_add_assignee">Uitvoerder toevoegen</string>
+  <string name="action_grid_assignee">Uitvoerder:\u0020</string>
+  <string name="action_grid_due_date_dialog_title">Vervaldatum instellen</string>
+  <string name="action_grid_due_date_today">Vandaag</string>
+  <string name="action_grid_due_date_tomorrow">Morgen</string>
+  <string name="action_grid_due_date_this_week">Deze week</string>
+  <string name="action_grid_due_date_next_week">Volgende week</string>
+  <string name="action_grid_due_date_specific_date">Specifieke datum</string>
+  <string name="action_grid_priority_dialog_title">Prioriteit instellen</string>
+  <string name="action_grid_priority_highest">Hoogste prioriteit</string>
+  <string name="action_grid_priority_high">Hoge prioriteit</string>
+  <string name="action_grid_priority_normal">Normale prioriteit</string>
+  <string name="action_grid_priority_low">Lage prioriteit</string>
+  <string name="action_grid_priority_lowest">Laagste prioriteit</string>
+  <string name="action_grid_assignee_dialog_title">Uitvoerder toevoegen</string>
+  <string name="action_grid_assignee_search_for_contact">Zoeken naar contacten</string>
+  <string name="action_grid_assignee_button_bar_clear">Verwijderen</string>
   <!-- Prompt used if you are trying to delete a message -->
+  <string name="action_message_header_delete">Dit bericht verwijderen?</string>
   <!-- These strings below represent the default Actions that are available for the ActionGrid -->
+  <string name="action_like">Leuk</string>
   <string name="action_todo">Taak</string>
+  <string name="action_quick">Snel</string>
   <string name="action_move">Verplaatsen</string>
   <string name="action_label">Labelen</string>
+  <string name="action_move_or_label">Verplaats/Label</string>
   <string name="action_archive">Archief</string>
+  <string name="action_delete">Verwijderen</string>
+  <string name="action_spam">Spam</string>
+  <string name="action_flag">Markeren</string>
+  <string name="action_star">Ster</string>
+  <string name="action_clear_star">Ster verwijderen</string>
+  <string name="action_star_or_flag">Ster/Markering</string>
+  <string name="action_mark_unread">Markeren als ongelezen</string>
+  <string name="action_mark_read">Markeren als gelezen</string>
+  <string name="action_read_or_unread">Gelezen/Ongelezen</string>
+  <string name="action_actions">Acties</string>
   <!-- These strings are shown in Toast messages when an Action above is selected -->
+  <plurals name="quick_response_sent">
+    <!-- Quick respond to 1 conversation -->
+    <item quantity="one">Reactie verzonden</item>
+    <!-- Quick respond to several conversations -->
+    <item quantity="other">Reacties verzonden</item>
+  </plurals>
+  <plurals name="liked_message">
+    <!-- Like 1 conversation -->
+    <item quantity="one">Bericht gemarkeerd als leuk</item>
+    <!-- Like several conversations -->
+    <item quantity="other">Berichten gemarkeerd als leuk</item>
+  </plurals>
+  <string name="invalid_selection">Ongeldige selectie</string>
+  <string name="file_action_more_than_one_account">U heeft gesprekken van meer dan één account geselecteerd. Selecteer gesprekken van maar één account.</string>
+  <string name="action_more_than_one_conversation">De geselecteerde actie ondersteunt slechts één gesprek tegelijk. Selecteer slechts één gesprek.</string>
+  <string name="not_installed">Niet geïnstalleerd</string>
+  <string name="evernote_not_installed">Evernote lijkt niet te zijn geïnstalleerd. Installeer Evernote om deze functionaliteit te kunnen gebruiken.</string>
+  <string name="custom_mailbox_button">Aangepaste box toevoegen</string>
+  <string name="custom_mailbox_settings_label">Instellingen</string>
+  <string name="custom_mailbox_folder_name_hint">Naam van aangepaste box</string>
+  <string name="custom_mailbox_background_sync_label">Achtergrondsynchronisatie</string>
+  <string name="custom_mailbox_background_sync_switch_on">Aan</string>
+  <string name="custom_mailbox_background_sync_switch_off">Uit</string>
+  <string name="custom_mailbox_delete_box">Box verwijderen</string>
+  <string name="custom_mailbox_error_no_selected_folders">Selecteer ten minste één map uit onderstaande lijst</string>
   <!-- Title for confirm delete box dialog -->
+  <string name="custom_mailbox_delete_box_dialog_title">Let op</string>
+  <string name="custom_mailbox_delete_box_dialog_message">Weet u zeker dat u deze aangepaste box wilt verwijderen?</string>
+  <string name="custom_mailbox_error_deleting_box">Aangepaste box verwijderen mislukt</string>
   <!-- Ratings Viral Prompt -->
+  <string name="viral_prompt_rate_app_title">Deze app beoordelen</string>
+  <string name="viral_prompt_rate_app_body">Als u deze app leuk vindt, zou u een beoordeling achter willen laten? Het kost nog geen minuut van uw tijd. Bedankt voor uw steun!</string>
+  <string name="viral_ratings_prompt_rate_now">Nu beoordelen</string>
+  <string name="promo_code_edittext_hint">Promo-code invoeren</string>
+  <string name="promo_code_button_text">Opslaan</string>
+  <string name="promo_code_error_no_code_entered">Voer een promo-code in voordat u op \'Opslaan\' drukt</string>
+  <string name="promo_code_error_invalid_code">Promo-code ongeldig</string>
+  <string name="promo_code_progress_dialog_validating">Promo-code controleren</string>
+  <string name="rage_shake_title">Schudden gedetecteerd</string>
+  <string name="rage_shake_message">Wilt u de app crashen om foutopsporingsgegevens te verzenden?</string>
+  <string name="actions_dialog_title">Aanpassen</string>
+  <string name="actions_dialog_message">Gebruikt u vaak mappen? Markeert u vaak berichten als ongewenst? Werkt u graag met Evernote?\n\nMet aangepaste veegacties kunt u gebaren koppelen aan een actie naar keuze.\n</string>
+  <string name="actions_dialog_positive_button_text">Veegacties aanpassen</string>
+  <string name="actions_dialog_negative_button_text">Sluiten</string>
   <!-- Account Setup -->
+  <string name="account_setup_start_company_slogan_text">Welkom bij een verbeterde inbox</string>
+  <string name="account_setup_vendor_heading">Welkom bij e-mail</string>
   <!-- Like Feature -->
+  <string name="like_action_dialog_tittle">Wat is \'Leuk vinden\'?</string>
+  <string name="like_action_dialog_message">U heeft onze favoriete functie gevonden. Wanneer u een bericht markeert als \'leuk\', wordt er een e-mail verstuurd om de verzender en andere ontvangers te laten weten dat u het bericht leuk vindt. Het is een snelle manier om op e-mails te reageren.</string>
   <!-- Displayed on a button whose action is to create something new. -->
+  <string name="new_button">Nieuw</string>
   <!-- Text hint when creating a new folder from the move/label dialog. -->
+  <string name="folder_name_hint">Mapnaam</string>
   <!-- Progress text when creating a new folder from the move/label dialog. -->
+  <string name="create_folder_progess">Map aanmaken\u2026</string>
   <!-- Error title used when the user tries to add a folder that matches an existing folder. -->
+  <string name="duplicate_folder_title">Map bestaat al</string>
   <!-- Error message used when the user tries to add a folder that matches an existing folder. -->
+  <string name="duplicate_folder_message">De mapnaam die u heeft ingevoerd bestaat al.</string>
   <!-- Title used for generic error alerts. -->
+  <string name="error">Fout</string>
   <!-- Error message displayed when a folder fails to be created on the server. -->
+  <string name="error_creating_folder_message">De map kon niet worden aangemaakt.</string>
   <!-- Menu item: report an email was not readable or poorly rendered -->
   <string name="report_rendering_problem">Rapporteren</string>
   <!-- Toast message for above action -->
+  <string name="message_reported">Bericht gerapporteerd</string>
   <!-- Conversation list shared between the Activity and Widget -->
   <!-- Displayed in the middle of the screen when conversations are being loaded [CHAR LIMIT 100]-->
   <!-- Calendar invite hero card -->
@@ -191,14 +369,44 @@
   <!-- String shown in the TO field when it is blank -->
   <!-- Title for enter passcode screen -->
   <!-- Start of combined settings strings -->
+  <string name="header_category_mail">E-mail</string>
+  <string name="header_category_other">Overig</string>
   <!-- In Account Setup options screen, label for email lookback selector -->
   <!-- In Account Settings screen, label for email lookback selector -->
   <!-- The menu item to send logs -->
   <!-- The menu item to open the about section -->
   <string name="menu_about">Over</string>
+  <string name="version">Versie</string>
+  <string name="build">Build</string>
+  <string name="build_date">Build-datum</string>
+  <string name="legal">Juridisch</string>
+  <string name="open_source">Open-sourcelicenties</string>
   <!-- Name of the DeviceAdmin (seen in settings & in user confirmation screen) -->
+  <string name="device_admin_label">Boxer</string>
   <!-- Settings passcode strings -->
   <!-- String array for require passcode in passcode settings -->
+  <string name="settings_require_passcode_1min">1 minuut</string>
+  <string name="settings_require_passcode_2min">2 minuten</string>
+  <string name="settings_require_passcode_3min">3 minuten</string>
+  <string name="settings_require_passcode_4min">4 minuten</string>
+  <string name="settings_require_passcode_5min">5 minuten</string>
+  <string name="settings_require_passcode_10min">10 minuten</string>
+  <string name="settings_require_passcode_15min">15 minuten</string>
+  <string name="settings_require_passcode_30min">30 minuten</string>
+  <string name="settings_require_passcode_1hour">1 uur</string>
+  <string name="settings_require_passcode_1.5hours">1,5 uur</string>
+  <string name="settings_require_passcode_4hours">4 uur</string>
+  <plurals name="settings_require_passcode_minutes">
+    <item quantity="one">minuut</item>
+    <item quantity="other">minuten</item>
+  </plurals>
+  <plurals name="settings_require_passcode_hours">
+    <item quantity="one">uur</item>
+    <item quantity="other">uren</item>
+  </plurals>
   <!-- Permission related string -->
+  <string name="permissions_enable">Inschakelen</string>
   <!-- String shown as a toast when sending a quick response fails due to some unknown error-->
+  <string name="account_setup_selection_title">Accounttype</string>
+  <string name="account_setup_options_title">Synchronisatieopties</string>
 </resources>
