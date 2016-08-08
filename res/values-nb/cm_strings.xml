@@ -453,11 +453,30 @@
   <string name="default_account_fragment_title">Standardkonto</string>
   <string name="mail_settings_fragment_title">Postinnstillinger</string>
   <!-- The menu item to send logs -->
+  <string name="menu_send_logs">Send loggene</string>
   <!-- The menu item to open the about section -->
   <string name="menu_about">Om</string>
+  <string name="version">Versjon</string>
+  <string name="build">Byggversjon</string>
+  <string name="build_date">Byggdato</string>
+  <string name="legal">Juridisk</string>
+  <string name="open_source">Åpen kildekode lisenser</string>
+  <string name="privacy_policy">AirWatch personvern</string>
   <!-- Name of the DeviceAdmin (seen in settings & in user confirmation screen) -->
+  <string name="device_admin_label">Boxer</string>
   <!-- Settings passcode strings -->
+  <string name="settings_passcode_on">Slå passkode på</string>
+  <string name="settings_passcode_off">Slå passkode av</string>
+  <string name="settings_passcode_change">Bytt passkode</string>
+  <string name="settings_passcode_time_interval">Krev passkode</string>
   <!-- String array for require passcode in passcode settings -->
+  <string name="settings_require_passcode_1min">1 minutt</string>
+  <string name="settings_require_passcode_2min">2 minutter</string>
+  <string name="settings_require_passcode_3min">3 minutter</string>
+  <string name="settings_require_passcode_4min">4 minutter</string>
+  <string name="settings_require_passcode_5min">5 minutter</string>
+  <string name="settings_require_passcode_10min">10 minutter</string>
+  <string name="settings_require_passcode_15min">15 minutter</string>
   <string name="settings_require_passcode_30min">30 minutter</string>
   <string name="settings_require_passcode_1hour">1 time</string>
   <string name="settings_require_passcode_1.5hours">1.5 timer</string>
@@ -473,7 +492,15 @@
   <!-- Permission related string -->
   <string name="permissions_enable">Aktiver</string>
   <string name="permissions_call_title">Aktiver telefon tilgang</string>
+  <string name="permissions_call_message">For å kunne ringe, må du aktivere telefon tilgang for Boxer.</string>
+  <string name="permissions_storage_title">Aktiver lagring tilgang</string>
+  <string name="permissions_storage_message">For å lagre vedlegg, må du aktivere lagring tilgang for Boxer.</string>
+  <string name="permissions_calendar_title">Aktiver kalender tilgang</string>
+  <string name="permissions_calendar_message">Boxer har ikke tilgang til lokale kalenderhendelser.</string>
+  <string name="permissions_do_not_show_again">Ikke vis igjen</string>
   <!-- String shown as a toast when sending a quick response fails due to some unknown error-->
+  <string name="emailing_guests_failed">Kunne ikke sende e-post til gjester</string>
+  <string name="account_setup_selection_title">Kontotype</string>
   <string name="account_setup_discovery_title">Kontodetaljer</string>
   <string name="account_setup_options_title">Synkroniseringsalternativer</string>
   <string name="plugin_permission_label">Boxer plugin tillatelse</string>

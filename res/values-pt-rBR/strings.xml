@@ -137,6 +137,7 @@
   <string name="account_duplicate_dlg_title">Conta duplicada</string>
   <!-- Message of dialog shown when a duplicate account is created.  The display name of
          the duplicate account is displayed. -->
+  <string name="account_duplicate_dlg_message_fmt">Você já está usando este nome de usuário para a conta \"<xliff:g id="duplicate">%1$s</xliff:g>\".</string>
   <!-- String that is displayed as error text for passwords with leading or trailing
          spaces.  [CHAR LIMIT=none] -->
   <string name="account_password_spaces_error">Essa senha inicia ou termina com um ou mais caracteres de espaço. Muitos servidores não suportam senhas com espaços.</string>
@@ -271,6 +272,7 @@
   <string name="account_setup_failed_dlg_certificate_message">Não é possível se conectar ao servidor com segurança.</string>
   <!-- An error message presented to the user when the server's identity
          cannot be established or trusted [CHAR LIMIT=NONE] -->
+  <string name="account_setup_failed_dlg_certificate_message_fmt">Não é possível conectar ao servidor com segurança.\n(<xliff:g id="error">%1$s</xliff:g>)</string>
   <!-- An error message presented to the user when the server requires a
          client certificate to connect [CHAR LIMIT=NONE] -->
   <string name="account_setup_failed_certificate_required">É necessário um certificado de cliente. Deseja se conectar ao servidor com um certificado de cliente?</string>
@@ -282,6 +284,7 @@
   <!-- "Setup could not finish" dialog text; e.g., Cannot connect to server -->
   <string name="account_setup_failed_dlg_server_message">Não é possível se conectar ao servidor.</string>
   <!-- "Setup could not finish" dialog text; e.g., Cannot connect to server\n(Connection timed out) -->
+  <string name="account_setup_failed_dlg_server_message_fmt">Não é possível se conectar ao servidor.\n(<xliff:g id="error">%1$s</xliff:g>)</string>
   <!-- Additional diagnostic text when TLS was required but the server doesn't support it -->
   <string name="account_setup_failed_tls_required">TLS solicitado, mas não suportado pelo servidor.</string>
   <!-- Additional diagnostic text when server does not support any of our authentication methods -->
@@ -302,8 +305,10 @@
   <!-- Additional diagnostic text when validation requires security provisioning (e.g. support
          for device lock PIN, or remote wipe.) and we ask the user permission before continuing.
          [CHAR LIMIT=none] -->
+  <string name="account_setup_security_policies_required_fmt"> O servidor <xliff:g id="server">%1$s</xliff:g> requer permissão para controlar remotamente algumas características de segurança do seu dispositivo Android. Você quer finalizar a configuração desta conta?</string>
   <!-- Additional diagnostic text when validation failed due to required provisioning not
          being supported [CHAR LIMIT=none] -->
+  <string name="account_setup_failed_security_policies_unsupported">Este servidor requer recursos de segurança que o seu dispositivo Android não suporta, incluindo: <xliff:g id="error">%1$s</xliff:g></string>
   <!-- The user name can only be changed during initial account setup. [CHAR LIMIT=none] -->
   <string name="account_setup_username_uneditable_error">Não é possível alterar o nome de usuário de uma conta. Para adicionar uma conta com um nome de usuário diferente, toque em Adicionar conta.</string>
   <!-- Warning given to users when they request disabling device administration (i.e. that their
@@ -316,8 +321,11 @@
   <!-- Additional diagnostic text when the account requires some amount of device security
          provisioning, just before jumping into system settings such as Device Policy grant,
          PIN/password, or encryption setup.  [CHAR LIMIT=none] -->
+  <string name="account_security_dialog_content_fmt"><xliff:g id="account">%1$s</xliff:g> requer que você atualize as suas configurações de segurança.</string>
   <!-- Notification ticker when device security required (note: unused in Holo XL) -->
+  <string name="security_unsupported_ticker_fmt">A conta \"<xliff:g id="account">%1$s</xliff:g>\" não pode ser sincronizada devido às exigências de segurança.</string>
   <!-- Notification ticker when device security required (note: unused in Holo XL) -->
+  <string name="security_needed_ticker_fmt">A conta \"<xliff:g id="account">%1$s</xliff:g>\" requer a atualização das configurações de segurança.</string>
   <!-- Notification ticker when device security required (note: unused in Holo XL) -->
   <!-- Notification content title when device security required [CHAR_LIMIT=30] -->
   <string name="security_notification_content_update_title">Necessária atualiz. segurança</string>
@@ -328,9 +336,11 @@
   <string name="account_security_title">Segurança do dispositivo</string>
   <!-- Additional diagnostic text when the email app asserts control of the phone.
         [CHAR LIMIT=none] -->
+  <string name="account_security_policy_explanation_fmt">O servidor <xliff:g id="server">%1$s</xliff:g> requer permissão para controlar remotamente algumas características de segurança do seu dispositivo Android.</string>
   <!-- "Setup could not finish" dialog action button -->
   <string name="account_setup_failed_dlg_edit_details_action">Editar detalhes</string>
   <!-- Notification ticker when device password is getting ready to expire [CHAR_LIMIT=80] -->
+  <string name="password_expire_warning_ticker_fmt">\"<xliff:g id="account">%1$s</xliff:g>\" requer que você altere o seu PIN ou senha da tela de bloqueio.</string>
   <!-- Notification content title when device password is getting ready to expire
             [CHAR_LIMIT=30] -->
   <string name="password_expire_warning_content_title">Senha da tela de bloqueio expirando</string>
@@ -341,9 +351,11 @@
   <!-- Dialog title if device pin/password is going to expire soon. [CHAR_LIMIT=40] -->
   <string name="password_expire_warning_dialog_title">Senha da tela de bloqueio expirando</string>
   <!-- Dialog content device pin/password is going to expire soon. [CHAR_LIMIT=none] -->
+  <string name="password_expire_warning_dialog_content_fmt">Você precisa mudar o seu PIN ou senha da tela de bloqueio logo, os dados para <xliff:g id="account">%1$s</xliff:g> serão apagados. Você quer mudá-lo agora?</string>
   <!-- Dialog title if device pin/password has already expired. [CHAR_LIMIT=40] -->
   <string name="password_expired_dialog_title">Senha da tela de bloqueio expirada</string>
   <!-- Dialog content device pin/password has already expired. [CHAR_LIMIT=none] -->
+  <string name="password_expired_dialog_content_fmt">Os dados para <xliff:g id="account">%1$s</xliff:g> estão sendo apagados do seu dispositivo. Você pode restaurá-los alterando o PIN ou senha da sua tela de bloqueio. Você quer mudá-lo agora?</string>
   <!-- On AccountSettingsXL, dialog text if you try to exit in/out/eas fragment (server settings)
          without checking/saving [CHAR LIMIT=none]-->
   <string name="account_settings_exit_server_settings">Descartar as alterações não salvas?</string>
@@ -352,8 +364,10 @@
   <string name="account_settings_login_dialog_title">Não foi possível fazer login</string>
   <!-- Dialog content if you were brought here due to a login failure.
         [CHAR_LIMIT=none] -->
+  <string name="account_settings_login_dialog_content_fmt">O nome de usuário ou senha para <xliff:g id="account">%1$s</xliff:g> está incorreta. Você quer atualizá-los agora?</string>
   <!-- Dialog content if you were brought here due to a login failure, and the server provided a reason
         [CHAR_LIMIT=none] -->
+  <string name="account_settings_login_dialog_reason_fmt">Seu login para <xliff:g id="account">%1$s</xliff:g> falhou; o servidor disse: <xliff:g id="reason">%2$s</xliff:g> você quer atualizar seu nome de usuário e/ou senha?</string>
   <!-- On Settings screen, setting option name -->
   <!-- Title of account preference for downloading attachments in background [CHAR LIMIT=32] -->
   <string name="account_settings_background_attachments_label">Fazer download dos anexos</string>
@@ -425,6 +439,7 @@
   <!-- Mailbox settings activity title [CHAR LIMIT=none] -->
   <string name="mailbox_settings_activity_title">Opções de sincronização</string>
   <!-- Mailbox settings activity title, with the target folder name [CHAR LIMIT=none] -->
+  <string name="mailbox_settings_activity_title_with_mailbox">Opções de sincronização (<xliff:g id="mailboxx_name" example="Family">%1$s</xliff:g>)</string>
   <!-- On mailbox settings screen: Whether to sync this mailbox when the account syncs. -->
   <string name="mailbox_settings_sync_enabled_label">Sincronizar esta pasta</string>
   <!-- On mailbox settings screen: Explanatory text for what it means to "sync this folder". -->
@@ -523,7 +538,9 @@
   <string name="pop3_name">POP3</string>
   <string name="folder_picker_title">Seletor de pasta</string>
   <!-- Displayed when the user must pick his server's trash folder from a list [CHAR LIMIT 30]-->
+  <string name="trash_folder_selection_title">Selecione a pasta de lixo do servidor para <xliff:g id="account">%1$s</xliff:g></string>
   <!-- Displayed when the user must pick his server's sent items folder from a list [CHAR LIMIT 30]-->
+  <string name="sent_folder_selection_title">Selecione a pasta de itens enviados do servidor para <xliff:g id="account">%1$s</xliff:g></string>
   <string name="account_waiting_for_folders_msg">Carregando a lista de pastas...</string>
   <!-- Feedback uri to be used when feedback is enabled -->
   <!-- Names of packages and authorities that are common to all apps
@@ -531,17 +548,36 @@
   <!-- Layout tests strings -->
   <!-- Compose -->
   <!-- Shown in Compose; the sender of the message [CHAR LIMIT=10] -->
+  <string name="from">De</string>
   <!-- Shown in Compose; the recipient(s) of the message [CHAR LIMIT=10] -->
+  <string name="to">Para</string>
   <!-- Shown in Compose; the cc recipient(s) of the message [CHAR LIMIT=10] -->
+  <string name="cc">Cc</string>
   <!-- Shown in Compose; the bcc recipient(s) of the message [CHAR LIMIT=10] -->
+  <string name="bcc">Cco</string>
   <!-- Shown in Compose; the subject of the message [CHAR LIMIT=100] -->
+  <string name="subject_hint">Assunto</string>
   <!-- Shown in Compose; the subject of the message [CHAR LIMIT=100] -->
+  <string name="body_hint">Escrever e-mail</string>
   <!--  Compose screen button. Add an attachment to this message [CHAR LIMIT=20] -->
+  <string name="add_file_attachment">Anexar arquivo</string>
   <!--  Compose screen button. Add a photo attachment to this message [CHAR LIMIT=20] -->
+  <string name="add_photo_attachment">Anexar imagem</string>
   <!-- Button name: save this message as draft [CHAR LIMIT=25]-->
+  <string name="save_draft">Salvar rascunho</string>
   <!--  Button name: discard this message [CHAR LIMIT=15] -->
+  <string name="discard">Descartar</string>
   <!-- The possible ways to reply to a message [CHAR LIMIT=15] -->
+  <string name="compose">Escrever</string>
   <!-- The possible ways to reply to a message [CHAR LIMIT=15] -->
+  <string-array name="compose_modes">
+    <!-- Reply -->
+    <item>Responder</item>
+    <!-- Reply all -->
+    <item>Responder a todos</item>
+    <!-- Forward -->
+    <item>Encaminhar</item>
+  </string-array>
   <!-- Formatting string for the subject when it contains a reply or forward identifier. Do not translate.-->
   <!-- Compose screen, prefixed to the subject of a message when replying to it (if not already present). Do not translate. -->
   <!-- Compose screen, Prefix to forwarded message subject. Do not translate. -->

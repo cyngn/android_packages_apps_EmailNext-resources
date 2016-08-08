@@ -98,12 +98,29 @@
   <!-- Notification title when a forwarded attachment couldn't be sent [CHAR LIMIT=30]-->
   <string name="forward_download_failed_title">Vedlegget ble ikke videresendt</string>
   <!-- Notification ticker when email account authentication fails [CHAR LIMIT=none] -->
+  <string name="login_failed_ticker">Pålogging til <xliff:g id="account_name">%1$s</xliff:g> mislyktes.</string>
   <!-- Notification title when email account authentication fails [CHAR LIMIT=30]-->
   <string name="login_failed_title">Kunne ikke logge på</string>
   <!-- Size unit for bytes for attachments [CHAR LIMIT=10] -->
+  <plurals name="message_view_attachment_bytes">
+    <item quantity="one"><xliff:g id="size_in_bytes" example="1">%1$d</xliff:g>B</item>
+    <item quantity="other"><xliff:g id="size_in_bytes" example="279">%1$d</xliff:g>B</item>
+  </plurals>
   <!-- Size unit for kilo bytes for attachments [CHAR LIMIT=10] -->
+  <plurals name="message_view_attachment_kilobytes">
+    <item quantity="one"><xliff:g id="size_in_kilobytes" example="1">%1$d</xliff:g>KB</item>
+    <item quantity="other"><xliff:g id="size_in_kilobytes" example="279">%1$d</xliff:g>KB</item>
+  </plurals>
   <!-- Size unit for mega bytes for attachments [CHAR LIMIT=10] -->
+  <plurals name="message_view_attachment_megabytes">
+    <item quantity="one"><xliff:g id="size_in_megabytes" example="1">%1$d</xliff:g>MB</item>
+    <item quantity="other"><xliff:g id="size_in_megabytes" example="279">%1$d</xliff:g>MB</item>
+  </plurals>
   <!-- Size unit for giga bytes for attachments [CHAR LIMIT=10] -->
+  <plurals name="message_view_attachment_gigabytes">
+    <item quantity="one"><xliff:g id="size_in_gigabytes" example="1">%1$d</xliff:g>GB</item>
+    <item quantity="other"><xliff:g id="size_in_gigabytes" example="279">%1$d</xliff:g>GB</item>
+  </plurals>
   <!-- Title of screen when setting up new email account [CHAR LIMIT=45] -->
   <string name="account_setup_basics_title">Konfigurering av konto</string>
   <!-- Headline of screen when setting up new email account (large text over divider)
@@ -120,6 +137,7 @@
   <string name="account_duplicate_dlg_title">Duplisert konto</string>
   <!-- Message of dialog shown when a duplicate account is created.  The display name of
          the duplicate account is displayed. -->
+  <string name="account_duplicate_dlg_message_fmt">Du bruker allerede dette brukernavnet for kontoen \"<xliff:g id="duplicate">%1$s</xliff:g>\".</string>
   <!-- String that is displayed as error text for passwords with leading or trailing
          spaces.  [CHAR LIMIT=none] -->
   <string name="account_password_spaces_error">Dette passordet begynner eller slutter med en eller flere mellomromstegn. Mange tjenere støtter ikke passord med mellomrom.</string>
@@ -254,6 +272,7 @@
   <string name="account_setup_failed_dlg_certificate_message">Kan ikke koble til tjeneren på en sikker måte.</string>
   <!-- An error message presented to the user when the server's identity
          cannot be established or trusted [CHAR LIMIT=NONE] -->
+  <string name="account_setup_failed_dlg_certificate_message_fmt">Kan ikke koble til tjeneren på en sikker måte.\n(<xliff:g id="error">%1$s</xliff:g>)</string>
   <!-- An error message presented to the user when the server requires a
          client certificate to connect [CHAR LIMIT=NONE] -->
   <string name="account_setup_failed_certificate_required">Et klientsertifikat er påkrevd. Vil du koble til tjeneren med et klientsertifikat?</string>
@@ -265,6 +284,7 @@
   <!-- "Setup could not finish" dialog text; e.g., Cannot connect to server -->
   <string name="account_setup_failed_dlg_server_message">Kan ikke koble til tjeneren.</string>
   <!-- "Setup could not finish" dialog text; e.g., Cannot connect to server\n(Connection timed out) -->
+  <string name="account_setup_failed_dlg_server_message_fmt">Kan ikke koble til tjeneren.\n(<xliff:g id="error">%1$s</xliff:g>)</string>
   <!-- Additional diagnostic text when TLS was required but the server doesn't support it -->
   <string name="account_setup_failed_tls_required">TLS påkrevd, men tjeneren støtter det ikke.</string>
   <!-- Additional diagnostic text when server does not support any of our authentication methods -->
@@ -285,8 +305,10 @@
   <!-- Additional diagnostic text when validation requires security provisioning (e.g. support
          for device lock PIN, or remote wipe.) and we ask the user permission before continuing.
          [CHAR LIMIT=none] -->
+  <string name="account_setup_security_policies_required_fmt"> Tjeneren <xliff:g id="server">%1$s</xliff:g> krever at den kan kontrollere noen av sikkerhetsfunksjonene på Android-enheten utenfra. Ønsker du å fullføre oppsettet av kontoen?</string>
   <!-- Additional diagnostic text when validation failed due to required provisioning not
          being supported [CHAR LIMIT=none] -->
+  <string name="account_setup_failed_security_policies_unsupported">Denne tjeneren krever sikkerhetsfunksjoner som Android-enheten din ikke støtter, for eksempel: <xliff:g id="error">%1$s</xliff:g></string>
   <!-- The user name can only be changed during initial account setup. [CHAR LIMIT=none] -->
   <string name="account_setup_username_uneditable_error">Du kan ikke endre brukernavnet for en konto. Hvis du ønsker å legge til en konto med et annet brukernavn, trykker du på Legg til konto.</string>
   <!-- Warning given to users when they request disabling device administration (i.e. that their
@@ -299,9 +321,11 @@
   <!-- Additional diagnostic text when the account requires some amount of device security
          provisioning, just before jumping into system settings such as Device Policy grant,
          PIN/password, or encryption setup.  [CHAR LIMIT=none] -->
+  <string name="account_security_dialog_content_fmt"><xliff:g id="account">%1$s</xliff:g> krever at du oppdaterer dine sikkerhetsinnstillinger.</string>
   <!-- Notification ticker when device security required (note: unused in Holo XL) -->
   <string name="security_unsupported_ticker_fmt">Kontoen <xliff:g id="account">%1$s</xliff:g> kan ikke synkroniseres på grunn av sikkerhetskrav.</string>
   <!-- Notification ticker when device security required (note: unused in Holo XL) -->
+  <string name="security_needed_ticker_fmt">Kontoen \"<xliff:g id="account">%1$s</xliff:g>\" krever oppdatering av sikkerhetsinnstillingene.</string>
   <!-- Notification ticker when device security required (note: unused in Holo XL) -->
   <!-- Notification content title when device security required [CHAR_LIMIT=30] -->
   <string name="security_notification_content_update_title">Sikkerhetsoppdatering påkrevd</string>
@@ -312,9 +336,11 @@
   <string name="account_security_title">Enhetssikkerhet</string>
   <!-- Additional diagnostic text when the email app asserts control of the phone.
         [CHAR LIMIT=none] -->
+  <string name="account_security_policy_explanation_fmt">Tjeneren <xliff:g id="server">%1$s</xliff:g> krever at den kan kontrollere noen av sikkerhetsfunksjonene på Android-enheten din.</string>
   <!-- "Setup could not finish" dialog action button -->
   <string name="account_setup_failed_dlg_edit_details_action">Rediger detaljer</string>
   <!-- Notification ticker when device password is getting ready to expire [CHAR_LIMIT=80] -->
+  <string name="password_expire_warning_ticker_fmt">Kontoen \"<xliff:g id="account">%1$s</xliff:g>\" krever at du bytter skjermlås PIN-kode eller passord.</string>
   <!-- Notification content title when device password is getting ready to expire
             [CHAR_LIMIT=30] -->
   <string name="password_expire_warning_content_title">Passord for skjermlås utløper</string>
@@ -325,9 +351,11 @@
   <!-- Dialog title if device pin/password is going to expire soon. [CHAR_LIMIT=40] -->
   <string name="password_expire_warning_dialog_title">Passord for skjermlås utløper</string>
   <!-- Dialog content device pin/password is going to expire soon. [CHAR_LIMIT=none] -->
+  <string name="password_expire_warning_dialog_content_fmt">Du må bytte skjermlås PIN-koden eller passordet snart, eller så vil all data for <xliff:g id="account">%1$s</xliff:g> bli slettet. Vil du bytte den nå?</string>
   <!-- Dialog title if device pin/password has already expired. [CHAR_LIMIT=40] -->
   <string name="password_expired_dialog_title">Passord for skjermlås utløpt</string>
   <!-- Dialog content device pin/password has already expired. [CHAR_LIMIT=none] -->
+  <string name="password_expired_dialog_content_fmt">All data for <xliff:g id="account">%1$s</xliff:g> blir slettet fra enheten din. Du kan få dataen tilbake ved å bytte skjermlås PIN-kode eller passord. Vil du bytte den nå?</string>
   <!-- On AccountSettingsXL, dialog text if you try to exit in/out/eas fragment (server settings)
          without checking/saving [CHAR LIMIT=none]-->
   <string name="account_settings_exit_server_settings">Vil du forkaste endringer som ikke er lagret?</string>
@@ -336,6 +364,7 @@
   <string name="account_settings_login_dialog_title">Kunne ikke logge på</string>
   <!-- Dialog content if you were brought here due to a login failure.
         [CHAR_LIMIT=none] -->
+  <string name="account_settings_login_dialog_content_fmt">Brukernavnet eller passordet til <xliff:g id="account">%1$s</xliff:g> er feil. Vil du oppdatere dette nå?</string>
   <!-- Dialog content if you were brought here due to a login failure, and the server provided a reason
         [CHAR_LIMIT=none] -->
   <!-- On Settings screen, setting option name -->

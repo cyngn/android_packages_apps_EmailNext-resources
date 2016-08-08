@@ -44,6 +44,7 @@
   <!-- In Account setup options screen, optional check box to also sync contacts -->
   <!-- In Account setup options screen, optional check box to also sync calendar -->
   <!-- In Account setup options screen, check box to sync email -->
+  <string name="account_setup_options_sync_email_label">סנכרן דוא\"ל</string>
   <!-- On Settings screen, setting option for showing all images -->
   <string name="account_settings_show_all_images_title">תמונות</string>
   <string name="account_settings_show_all_images_show">הצג תמיד</string>
@@ -120,28 +121,47 @@
   <!-- Label shown in the account selector to select "Combined", which contains
          Combined Inbox, Combined Outbox, etc. [CHAR LIMIT=30] -->
   <!-- Menu item: Select all conversations -->
+  <string name="menu_select_all">בחר הכול</string>
   <!-- Main screen and setting, menu item [CHAR LIMIT=30]-->
   <!-- Main screen and setting, menu item [CHAR LIMIT=30]-->
+  <string name="support">תמיכה</string>
   <!-- Delete account -->
   <!-- Read email screen, button name. Open an attachment. [CHAR LIMIT=10] -->
   <!-- Read email screen, button name. Install an attachment. [CHAR LIMIT=10] -->
   <!-- Photo view screen, button name. Print photo. [CHAR LIMIT=20] -->
+  <string name="menu_photo_print">הדפס</string>
   <!-- Menu item to view an image  [CHAR LIMIT=50]-->
   <!-- Formatting for the collapsed To header in the MessageHeaderView -->
   <!-- Displayed in undo LeaveBehindItem after reporting a message as spam -->
   <!-- New Message notification text that appears over conversation view on incoming message. [CHAR LIMIT=40] -->
   <!-- New Message notification text that appears over conversation view on incoming messages. Will only be used if there is more than one new message. [CHAR LIMIT=40] -->
   <!-- Button name, displayed in dialogs [CHAR LIMIT=10] -->
+  <string name="edit">עריכה</string>
   <!-- Hint for searching/filtering folders in the folder selection dialog [CHAR LIMIT=30] -->
+  <string name="folder_search_hint">חיפוש</string>
   <!-- The section headers for the move to folder dialog [CHAR LIMIT=15] -->
+  <string-array name="moveto_folder_sections">
+    <item>תיקיות חכמות</item>
+    <item>כל התיקיות</item>
+  </string-array>
   <!-- The section headers for the change folders dialog [CHAR LIMIT=15] -->
+  <string-array name="change_folders_sections">
+    <item>תוויות חכמות</item>
+    <item>All labels</item>
+  </string-array>
   <!-- String used in the FolderListFragment to mark the start of "boxes" -->
+  <string name="boxes_heading">תיבות</string>
   <!-- String used in the FolderListFragment to mark the start of user-defined folders -->
+  <string name="all_folders_heading">תיקיות</string>
   <!-- String used in the FolderListFragment to mark the start of accounts -->
+  <string name="accounts_heading">חשבונות</string>
   <!-- Default email signature on vendor builds -->
   <!-- Notification action for deleting a message. [CHAR LIMIT=20] -->
+  <string name="notification_action_mark_read">קרא</string>
   <!-- Notification action for replying to a message. [CHAR LIMIT=20] -->
+  <string name="notification_action_reply">השב</string>
   <!-- Notification action for deleting a message. [CHAR LIMIT=20] -->
+  <string name="notification_action_delete">מחק</string>
   <!-- Notification message to the user upon new messages for a conversation. [CHAR LIMIT=120] -->
   <!--  Settings screen, Swipe actions preference title -->
   <!--  Settings screen, Swipe actions preference summary -->
@@ -150,13 +170,26 @@
   <!--  Settings screen, Swipe actions, Right short preference title -->
   <!--  Settings screen, Swipe actions, Right long preference title -->
   <!-- Menu item text to that when clicked will allow a user to print an email conversation. [CHAR LIMIT=25] -->
+  <string name="print">הדפס</string>
   <!-- Number of messages in a conversation [CHAR LIMIT=30]-->
   <!-- Shown to display the date of the message [CHAR LIMIT=50] -->
   <!-- Shown to display the to recipient(s) of the message if the message is a draft [CHAR LIMIT=20] -->
   <!-- Shown to display in the message header if the message is a draft and there are no "to" addresses in the draft [CHAR LIMIT=10] -->
+  <string name="draft_heading">טיוטה</string>
   <!-- Shown to inform the user that the quoted text for this message has been hidden. [CHAR LIMIT=50] -->
   <!-- Number of attachments in a message [CHAR LIMIT=30]-->
   <!-- Title to display when an email has no subject. [CHAR LIMIT=50]-->
+  <string name="no_subject">(ללא נושא)</string>
+  <string name="action_grid_select_quick_response">בחירת תגובה מהירה</string>
+  <string name="action_grid_todo_dialog_title">פרטים</string>
+  <string name="action_grid_set_due_date">הגדר תאריך תפוגה</string>
+  <string name="action_grid_priority">עדיפות:\u0020</string>
+  <string name="action_grid_due_date_dialog_title">הגדר תאריך תפוגה</string>
+  <string name="action_grid_due_date_today">היום</string>
+  <string name="action_grid_due_date_tomorrow">מחר</string>
+  <string name="action_grid_due_date_this_week">השבוע</string>
+  <string name="action_grid_due_date_next_week">שבוע הבא</string>
+  <string name="action_grid_due_date_specific_date">תאריך מסוים</string>
   <!-- Prompt used if you are trying to delete a message -->
   <!-- These strings below represent the default Actions that are available for the ActionGrid -->
   <string name="action_todo">לביצוע</string>
@@ -165,6 +198,7 @@
   <string name="action_archive">העבר לארכיון</string>
   <!-- These strings are shown in Toast messages when an Action above is selected -->
   <!-- Title for confirm delete box dialog -->
+  <string name="custom_mailbox_delete_box_dialog_title">אזהרה</string>
   <!-- Ratings Viral Prompt -->
   <!-- Account Setup -->
   <!-- Like Feature -->
@@ -174,6 +208,7 @@
   <!-- Error title used when the user tries to add a folder that matches an existing folder. -->
   <!-- Error message used when the user tries to add a folder that matches an existing folder. -->
   <!-- Title used for generic error alerts. -->
+  <string name="error">שגיאה</string>
   <!-- Error message displayed when a folder fails to be created on the server. -->
   <!-- Menu item: report an email was not readable or poorly rendered -->
   <string name="report_rendering_problem">דיווח</string>
