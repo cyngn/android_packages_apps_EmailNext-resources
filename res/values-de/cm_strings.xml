@@ -313,6 +313,7 @@
   <string name="action_more_than_one_conversation">Die gewählte Aktion unterstützt immer nur eine Konversation. Versuchen Sie nur eine Konversation auszuwählen.</string>
   <string name="not_installed">Nicht installiert</string>
   <string name="evernote_not_installed">Evernote scheint nicht installiert zu sein. Bitte installieren Sie Evernote, um diese Funktionen nutzen zu können.</string>
+  <string name="custom_mailbox_button">Benutzerdefinierten Posteingang hinzufügen</string>
   <string name="custom_mailbox_settings_label">Einstellungen</string>
   <string name="custom_mailbox_background_sync_label">Hintergrundsynchronisierung</string>
   <string name="custom_mailbox_error_no_selected_folders">Bitte wählen Sie mindestens einen Ordern aus der nachstehenden Liste aus.</string>

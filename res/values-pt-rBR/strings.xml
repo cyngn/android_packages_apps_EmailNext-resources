@@ -582,41 +582,72 @@
   <!-- Compose screen, prefixed to the subject of a message when replying to it (if not already present). Do not translate. -->
   <!-- Compose screen, Prefix to forwarded message subject. Do not translate. -->
   <!-- Compose screen, displayed at the top of a message being replied to. Please preserve the HTML entities (surrounded by & and ;).  The two %s strings will be replaced by 1) the date 2) the person who wrote the email being responded to. [CHAR LIMIT=1000]-->
+  <string name="reply_attribution">Em <xliff:g id="date">%1$s</xliff:g>, <xliff:g id="person">%2$s</xliff:g> escreveu:</string>
   <!-- Compose screen, displayed at the top of a message being forwarded. Please preserve the HTML entities (surrounded by & and ;). [CHAR LIMIT=1000] -->
+  <string name="forward_attribution">---------- Mensagem encaminhada ----------&lt;br&gt;De: <xliff:g id="from">%1$s</xliff:g>&lt;br&gt;Data: <xliff:g id="date">%2$s</xliff:g>&lt;br&gt;Assunto: <xliff:g id="subject">%3$s</xliff:g>&lt;br&gt;Para: <xliff:g id="to">%4$s</xliff:g>&lt;br&gt;</string>
   <!-- Compose screen, displayed at the top of a message being forwarded. [CHAR LIMIT=100]-->
+  <string name="forward_attribution_no_headers">---------- Mensagem encaminhada ----------</string>
   <!-- Compose screen, displayed at the top of a message being forwarded if there are any email addresses in the CC list. Please preserve the HTML entities (surrounded by & and ;). [CHAR LIMIT=1000]-->
+  <string name="cc_attribution">Cc: <xliff:g id="cc">%1$s</xliff:g>&lt;br&gt;</string>
   <!-- Dialog text: select the type of an attachment while composing [CHAR LIMIT=100]-->
+  <string name="select_attachment_type">Escolher tipo de anexo</string>
   <!-- Toast, attachment too large for single file [CHAR LIMIT=100] -->
+  <string name="too_large_to_attach_single">Não é possível anexar o arquivo com mais de <xliff:g id="Maxsize">%1$s</xliff:g>.</string>
   <!-- Toast, attachment too large for multiple files [CHAR LIMIT=100] -->
+  <string name="too_large_to_attach_multiple">Um ou mais arquivos não foram anexados. Limite de <xliff:g id="Maxsize">%1$s</xliff:g>.</string>
   <!-- Toast, attachment too large when existing attachments exist [CHAR LIMIT=100] -->
+  <string name="too_large_to_attach_additional">Arquivo não anexado. O limite de <xliff:g id="Maxsize">%1$s</xliff:g> foi atingido.</string>
   <!-- Toast, problem attaching file [CHAR LIMIT=100] -->
+  <string name="generic_attachment_problem">Não foi possível anexar o arquivo.</string>
   <!-- Displayed for one second after trying to send with no recipients in To field [CHAR LIMIT=200]-->
+  <string name="recipient_needed">Adicione pelo menos um destinatário.</string>
   <!-- Title for recipient error dialog [CHAR LIMIT=200]-->
   <!-- Title for send confirmation dialog [CHAR LIMIT=200]-->
   <!-- Messages for send confirmation dialog [CHAR LIMIT=100]-->
+  <string name="confirm_send_message_with_no_subject">Não há texto no assunto da mensagem.</string>
+  <string name="confirm_send_message_with_no_body">Não há texto no corpo da mensagem.</string>
+  <string name="confirm_send_message">Enviar esta mensagem?</string>
   <!-- Displayed for one second after discarding draft message [CHAR LIMIT=50]-->
+  <string name="message_discarded">Mensagem descartada.</string>
   <!--  Shown in the from dropdown in front of custom from addresses. [CHAR LIMIT=15] -->
+  <string name="custom_from_account_label">Enviar como:</string>
   <!-- Menu item: send this message -->
+  <string name="send">Enviar</string>
   <!-- Menu item: mark this conversation as read -->
+  <string name="mark_read">Marcar como lida</string>
   <!-- Menu item: mark this conversation as unread -->
+  <string name="mark_unread">Marcar como não lida</string>
   <!--  Menu item: mute this conversation -->
   <!-- Menu item: add a star to this conversation -->
+  <string name="add_star">Adicionar estrela</string>
   <!-- Menu item: remove the star from this conversation -->
+  <string name="remove_star">Remover estrela</string>
   <!-- Remove the folder from this conversation [CHAR LIMIT = 30]-->
   <!-- Menu item: archive this conversation -->
+  <string name="archive">Arquivar</string>
   <!-- Menu item: report this conversation as spam [CHAR LIMIT = 30] -->
+  <string name="report_spam">Denunciar spam</string>
   <!-- Menu item: report this conversation not as spam [CHAR LIMIT = 30] -->
   <!-- Menu item: report this conversation as phishing [CHAR LIMIT = 30] -->
   <!-- Menu item: delete this conversation -->
+  <string name="delete">Excluir</string>
   <!-- Menu item: discard the drafts in this conversation [CHAR LIMIT = 30] -->
+  <string name="discard_drafts">Descartar rascunhos</string>
   <!-- Menu item: refresh the inbox -->
+  <string name="refresh">Atualizar</string>
   <!-- Menu item: reply to this message -->
+  <string name="reply">Responder</string>
   <!-- Menu item: reply to all recipients in this message [CHAR LIMIT=18] -->
+  <string name="reply_all">Responder a todos</string>
   <!-- Menu item: resume a draft message [CHAR LIMIT=12] -->
+  <string name="resume_draft">Editar</string>
   <!-- Menu item: forward this message -->
+  <string name="forward">Encaminhar</string>
   <!-- Menu item: compose a new email -->
   <!-- Menu item: change the folders for this conversation. -->
+  <string name="menu_change_folders">Alterar pastas</string>
   <!-- Menu item: moves to folders for selected conversation(s). [CHAR LIMIT = 30] -->
+  <string name="menu_move_to">Mover para</string>
   <!-- Menu item: moves current or selected conversation(s) to Inbox. [CHAR LIMIT = 30] -->
   <!-- Menu item: manages the folders for this account. [CHAR LIMIT = 30] -->
   <!-- Menu item text to show the original version of an email conversation, before message manipulation [CHAR LIMIT=25] -->
@@ -624,88 +655,222 @@
   <!-- Menu item: launch the Settings activity -->
   <string name="menu_settings">Configurações</string>
   <!-- Menu item: search through the Gmail inbox -->
+  <string name="menu_search">Procurar</string>
   <!--  Menu item: shown in conversation menu. Tap this to move to mark conversation as important [CHAR LIMIT=30] -->
+  <string name="mark_important">Marcar como importante</string>
   <!--  Menu item: shown in conversation menu. Tap this to move to mark conversation as not important [CHAR LIMIT=30] -->
+  <string name="mark_not_important">Marcar como não importante</string>
   <!-- Compose screen, menu item: add Cc/Bcc fields -->
+  <string name="add_cc_label">Adicionar Cc/Cco</string>
   <!-- Compose screen, menu item: add Bcc field [CHAR_LIMIT=20]-->
   <!-- Solicit feedback string in about screen [CHAR LIMIT=50]-->
   <!-- Menu item that displays the help page for Gmail. [CHAR LIMIT=50]-->
+  <string name="help_and_info">Ajuda</string>
   <!-- Compose screen, Prefix to quoted text in forwarded/replied message [CHAR LIMIT=50]-->
+  <string name="quoted_text">Incluir texto das mensagens anteriores</string>
   <!-- Compose screen, Prefix to quoted text in forwarded/replied message; folder for the quoted text area. [CHAR LIMIT=25] -->
+  <string name="quoted_text_label">Texto mensag. anteriores</string>
   <!--  Button for including inline responses. [CHAR LIMIT=25] -->
+  <string name="respond_inline">Responder em linha</string>
   <!-- Format string for email addresses -->
   <!-- Attachments -->
   <!-- Size unit, displayed in a button next to an attachment [CHAR LIMIT=5]-->
+  <string name="bytes"><xliff:g id="count">%1$s</xliff:g> B</string>
   <!-- Size unit, displayed in a button next to an attachment [CHAR LIMIT=5] -->
+  <string name="kilobytes"><xliff:g id="count">%1$s</xliff:g> KB</string>
   <!-- Size unit, displayed in a button next to an attachment  [CHAR LIMIT=5]-->
+  <string name="megabytes"><xliff:g id="count">%1$s</xliff:g> MB</string>
   <!-- Attachment description for image files [CHAR LIMIT=30] -->
+  <string name="attachment_image">Imagem</string>
   <!-- Attachment description for video files [CHAR LIMIT=30] -->
+  <string name="attachment_video">Vídeo</string>
   <!-- Attachment description for audio files [CHAR LIMIT=30] -->
+  <string name="attachment_audio">Áudio</string>
   <!-- Attachment description for text files [CHAR LIMIT=30] -->
+  <string name="attachment_text">Texto</string>
   <!-- Attachment description for .doc files [CHAR LIMIT=30] -->
+  <string name="attachment_application_msword">Documento</string>
   <!-- Attachment description for .ppt files [CHAR LIMIT=30] -->
+  <string name="attachment_application_vnd_ms_powerpoint">Apresentação</string>
   <!-- Attachment description for excel files [CHAR LIMIT=30] -->
+  <string name="attachment_application_vnd_ms_excel">Planilha</string>
   <!-- Attachment description for .pdf files [CHAR LIMIT=30] -->
+  <string name="attachment_application_pdf">PDF</string>
   <!-- Attachment description for unknown files [CHAR LIMIT=30]-->
+  <string name="attachment_unknown">Arquivo <xliff:g id="attachmentExtension">%1$s</xliff:g></string>
   <!-- Read email screen, button name. Preview an attachment by Gview. [CHAR LIMIT=18] -->
+  <string name="preview_attachment">Pré-visualizar</string>
   <!-- Read email screen, button name. Save an attachment to sd card. [CHAR LIMIT=10] -->
   <string name="save_attachment">Salvar</string>
   <!-- Read email screen, button name. Cancel a downloading attachment. [CHAR LIMIT=10] -->
   <!-- Read email screen, button name. Redownload an attachment [CHAR LIMIT=20]-->
+  <string name="download_again">Baixar novamente</string>
   <!-- Dialog box title [CHAR LIMIT=30] -->
+  <string name="more_info_attachment">Informações</string>
   <!-- Dialog box message, displayed when we could not view an attachment. [CHAR LIMIT=200]-->
+  <string name="no_application_found">Nenhum aplicativo pode abrir este anexo para visualização.</string>
   <!-- Dialog box title. [CHAR LIMIT=30] -->
+  <string name="fetching_attachment">Buscando anexo</string>
   <!-- Dialog box message. [CHAR LIMIT=80] -->
   <!-- Displayed in the conversation view, next to a file's size and type. Status of a saved attachment. [CHAR LIMIT=20]-->
+  <string name="saved">Salvo, <xliff:g id="size">%1$s</xliff:g></string>
   <!-- Displayed in the conversation view. Status of a failed attachment. [CHAR LIMIT=50]-->
+  <string name="download_failed">Falha no download. Toque p/ repetir.</string>
   <!-- Displayed in the conversation view, as a header informing
          the user that the following is the attachments. [CHAR LIMIT=100] -->
+  <string name="attachments_header">Anexos</string>
   <!-- Photo view screen, button name. Save all attachments to sd card. [CHAR LIMIT=17] -->
+  <string name="menu_photo_save_all">Salvar tudo</string>
   <!-- Photo view screen, button name. Share attachment. [CHAR LIMIT=10] -->
+  <string name="menu_photo_share">Compartilhar</string>
   <!-- Photo view screen, button name. Share all attachments. [CHAR LIMIT=20] -->
+  <string name="menu_photo_share_all">Compartilhar todas</string>
   <!-- Displayed in the action bar as a subtitle. Save in progress. [CHAR LIMIT=15] -->
+  <string name="saving">Salvando&#8230;</string>
   <!-- Webview Context Menu Strings -->
   <!-- Title of dialog for choosing which activity to share a link with. [CHAR LIMIT=50]-->
+  <string name="choosertitle_sharevia">Compartilhar via</string>
   <!-- Menu item to open a link  [CHAR LIMIT=50]-->
+  <string name="contextmenu_openlink">Abrir no navegador</string>
   <!-- Menu item to copy the selection  [CHAR LIMIT=50]-->
+  <string name="contextmenu_copy">Copiar</string>
   <!-- Menu item to copy a link  [CHAR LIMIT=50]-->
+  <string name="contextmenu_copylink">Copiar URL do link</string>
   <!-- Menu item to dial a number  [CHAR LIMIT=50]-->
+  <string name="contextmenu_dial_dot">Discar\u2026</string>
   <!-- Menu item to send an SMS  [CHAR LIMIT=50]-->
+  <string name="contextmenu_sms_dot">SMS\u2026</string>
   <!-- Menu item to add a contact  [CHAR LIMIT=50]-->
+  <string name="contextmenu_add_contact">Adicionar contato</string>
   <!-- Menu item to send an email [CHAR LIMIT=50] -->
+  <string name="contextmenu_send_mail">Enviar e-mail</string>
   <!-- Menu item to show a map  [CHAR LIMIT=50]-->
+  <string name="contextmenu_map">Mapa</string>
   <!-- Menu item to share link  [CHAR LIMIT=50]-->
+  <string name="contextmenu_sharelink">Compartilhar link</string>
   <!-- Menu item that displays the help page for Gmail.  [CHAR LIMIT=50]-->
   <!-- Solicit feedback string in about screen [CHAR LIMIT=50]-->
   <!-- Browse list item strings -->
   <!-- Text indicating how many messages are selected in the top action bar
     [CHAR LIMIT=40] -->
   <!--  Displayed when drag and drop conversations "Move ? conversations" [CHAR LIMIT=50] -->
+  <plurals name="move_conversation">
+    <!-- Move 1 conversation -->
+    <item quantity="one">Mover conversa</item>
+    <!-- Move several conversations -->
+    <item quantity="other">Mover <xliff:g>%1$d</xliff:g> conversas</item>
+  </plurals>
   <!-- Formatting string for the content description field of a conversation list item when device is in accessibility mode. [CHAR LIMIT=250] -->
+  <string name="content_description"><xliff:g id="sender">%1$s</xliff:g> sobre <xliff:g id="subject">%2$s</xliff:g>, <xliff:g id="snippet">%3$s</xliff:g> em <xliff:g id="date">%4$s</xliff:g>, <xliff:g id="readstate">%5$s</xliff:g></string>
   <!-- Formatting string for the content description field of a conversation list item when device is in accessibility mode and the message was received today. [CHAR LIMI=250] -->
+  <string name="content_description_today"><xliff:g id="sender">%1$s</xliff:g> sobre <xliff:g id="subject">%2$s</xliff:g>, <xliff:g id="snippet">%3$s</xliff:g> às <xliff:g id="Time">%4$s</xliff:g>, <xliff:g id="readstate">%5$s</xliff:g></string>
   <!-- String used in content description field of a conversation list item when device is in accessibility mode and the conversation was read [CHAR LIMIT=250] -->
+  <string name="read_string">conversa lida</string>
   <!-- String used in content description field of a conversation list item when device is in accessibility mode and the conversation was not read [CHAR LIMIT=250] -->
+  <string name="unread_string">conversa não lida</string>
   <!-- Formatting string. If the subject contains the tag of a mailing-list (text surrounded with
     return the subject with that tag ellipsized, e.g. "[android-gmail-team] Hello" -> "[andr...] Hello" [CHAR LIMIT=100] -->
+  <string name="filtered_tag"> [<xliff:g id="tag">%1$s</xliff:g>]<xliff:g id="subject">%2$s</xliff:g></string>
   <!-- Displayed in Conversation Header View and Widget in the form of "subject - snippet"
          [CHAR LIMIT=5] -->
+  <string name="subject_and_snippet"><xliff:g>%1$s</xliff:g> \u2014 <xliff:g>%2$s</xliff:g></string>
   <!-- Displayed in browse list item when the list item is a draft message instead of showing the subject [CHAR LIMIT=100] -->
+  <plurals name="draft">
+    <!-- Title of the screen when there is exactly one draft -->
+    <item quantity="one">Rascunho</item>
+    <!-- Title of the screen when there are more than one draft -->
+    <item quantity="other">Rascunhos</item>
+  </plurals>
   <!-- Message displayed in a browse list item for one second when message is being sent [CHAR LIMIT=20]-->
+  <string name="sending">Enviando\u2026</string>
   <!-- Message displayed in a browse list item for one second after a send failed [CHAR LIMIT=26]-->
+  <string name="send_failed">A mensagem não foi enviada.</string>
   <!-- String used to represent "me" when used as an object pronoun. This string is used when
          showing the list of recipients of a message [CHAR LIMIT=15] -->
+  <string name="me_object_pronun">eu</string>
   <!-- String used to represent "me"/"I" when used as an subject pronoun. This string is use when
          showing the list of senders for a conversation list item. [CHAR LIMIT=15] -->
+  <string name="me_subject_pronun">eu</string>
   <!-- Header for list of inboxes in the drawer (Inbox, Priority) [CHAR LIMIT=50] -->
+  <plurals name="confirm_delete_conversation">
+    <!-- Dialog message to confirm deletion of one conversation -->
+    <item quantity="one">Excluir esta conversa?</item>
+    <!-- Dialog message to confirm deletion of several conversations -->
+    <item quantity="other">Excluir estas <xliff:g id="Count">%1$d</xliff:g> conversas?</item>
+  </plurals>
+  <plurals name="confirm_archive_conversation">
+    <!-- Dialog message to confirm archival of one conversation -->
+    <item quantity="one">Arquivar esta conversa?</item>
+    <!-- Dialog message to confirm archival of several conversations -->
+    <item quantity="other">Arquivar estas <xliff:g id="count">%1$d</xliff:g> conversas?</item>
+  </plurals>
+  <plurals name="confirm_discard_drafts_conversation">
+    <!-- Dialog message to confirm discarding drafts from one conversation [CHAR LIMIT=50] -->
+    <item quantity="one">Descartar os rascunhos desta conversa?</item>
+    <!-- Dialog message to confirm discarding drafts from several conversations [CHAR LIMIT=50] -->
+    <item quantity="other">Descartar os rascunhos das <xliff:g id="count">%1$d</xliff:g> conversas?</item>
+  </plurals>
   <!-- Dialog text: confirm discard -->
+  <string name="confirm_discard_text">Descartar esta mensagem?</string>
   <!-- Conversation list shared between the Activity and Widget -->
   <!-- Displayed in the middle of the screen when conversations are being loaded [CHAR LIMIT 100]-->
+  <string name="loading_conversations">Carregando\u2026</string>
   <!-- Undo bar strings -->
   <!-- Menu item: undo latest action [CHAR LIMIT=12]-->
+  <string name="undo">Desfazer</string>
+  <plurals name="conversation_unstarred">
+    <item quantity="one">Removendo a estrela de <xliff:g id="count">%1$d</xliff:g> conversa.</item>
+    <item quantity="other">Removendo a estrela de <xliff:g id="count">%1$d</xliff:g> conversas.</item>
+  </plurals>
   <!-- The following are shown as a toast after the operation has completed -->
+  <plurals name="conversation_muted">
+    <!-- Displayed while muting one conversation -->
+    <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; ignoradas.</item>
+    <!-- Displayed while muting several conversations -->
+    <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; ignoradas.</item>
+  </plurals>
+  <plurals name="conversation_spammed">
+    <!-- Displayed while reporting one conversation as spam -->
+    <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; marcada como spam.</item>
+    <!-- Displayed while reporting several conversations as spam -->
+    <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; marcadas como spam.</item>
+  </plurals>
+  <plurals name="conversation_not_spam">
+    <!-- Displayed while reporting one conversation as not spam -->
+    <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; marcada como não sendo spam.</item>
+    <!-- Displayed while reporting several conversations as not spam -->
+    <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; marcadas como não sendo spam.</item>
+  </plurals>
+  <plurals name="conversation_not_important">
+    <!-- Displayed while reporting one conversation as not important in the important folder -->
+    <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; marcada como não importante.</item>
+    <!-- Displayed while reporting several conversations as not important in the important folder -->
+    <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; marcadas como não importantes.</item>
+  </plurals>
+  <plurals name="conversation_phished">
+    <!-- Displayed while reporting one conversation as phishing -->
+    <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; marcada como phishing.</item>
+    <!-- Displayed while reporting several conversations as phishing -->
+    <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; marcadas como phishing.</item>
+  </plurals>
+  <plurals name="conversation_archived">
+    <!-- Displayed while archiving one conversation -->
+    <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; arquivada.</item>
+    <!-- Displayed while archiving multiple conversations -->
+    <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; arquivadas.</item>
+  </plurals>
+  <plurals name="conversation_deleted">
+    <!-- Displayed while deleting one conversation -->
+    <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; excluída.</item>
+    <!-- Displayed while deleting multiple conversations -->
+    <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; excluídas.</item>
+  </plurals>
   <!-- Displayed when swiping away a single conversation to delete it [CHAR LIMIT=80] -->
+  <string name="deleted">Excluído</string>
   <!-- Displayed when swiping away a single conversation to archive it [CHAR LIMIT=80] -->
+  <string name="archived">Arquivada</string>
   <!-- Displayed when swiping away a single conversation to remove the currently displayed folder [CHAR LIMIT=80] -->
+  <string name="folder_removed">Removido de <xliff:g id="foldername">%1$s</xliff:g></string>
   <!-- Displayed after moving a conversation to a different folder. [CHAR LIMIT=100] -->
   <!-- Search Results: Text for header that is shown above search results [CHAR LIMIT=30] -->
   <!-- Toast shown when the user taps the search hard key when viewing an account that does not support search [CHAR LIMIT=100] -->
@@ -768,38 +933,58 @@
   <!-- Folder selection dialog -->
   <!-- Title for change folders dialog [CHAR LIMIT=30] -->
   <!-- Title for move to dialog [CHAR LIMIT=30] -->
+  <string name="move_to_selection_dialog_title">Mover para</string>
   <!-- Search -->
   <!-- Shown in light gray in the Search box when no text has been entered [CHAR LIMIT=20]-->
   <!-- Search Results: Text for status of the search when the results are completely loaded [CHAR LIMIT=10] -->
   <!-- Shown in conversation list footer when application cannot make a connection [CHAR LIMIT=20]-->
+  <string name="network_error">Sem conexão</string>
   <!-- Button at bottom of conversation list screen if last attempt to load conversations failed [CHAR LIMIT=20]-->
+  <string name="retry">Tentar novamente</string>
   <!-- Button at bottom of conversation list screen if the folder for which contents are being shown supports loading more on demand [CHAR LIMIT=20]-->
+  <string name="load_more">Carregar mais</string>
   <!-- Text for dummy attachments to load the actual attachment. This is not an ideal string, but it's too late to add a new string and get it translated -->
   <!-- Shortcut strings -->
   <!-- Title for shortcut naming dialog [CHAR LIMIT=100]-->
+  <string name="shortcut_name_title">Atalho da pasta Nome</string>
   <!-- Wait fragment strings -->
   <!-- Displayed in title bar during the initial sync  [CHAR LIMIT=40] -->
+  <string name="wait_for_sync_title">Aguardando sincronização</string>
   <!-- Displayed in the middle of the screen during the initial sync [CHAR LIMIT=40] -->
   <!-- Title for the screen displayed during the initial sync [CHAR LIMIT=100]  -->
+  <string name="not_synced_title">Conta não sincronizada</string>
   <!-- Displayed in the middle of the screen during the initial sync [CHAR LIMIT=300]-->
+  <string name="wait_for_manual_sync_body">Esta conta não está configurada para sincronizar automaticamente.\nToque em <b>Sincr. agora</b> para sincronizar os e-mails uma vez ou em <b>Alterar configurações de sincronização</b> para configurar a sincronização automática de e-mails desta conta.</string>
   <!-- Displayed at the bottom of the screen during the initial sync. If pressed will sync users mail for the selected account. [CHAR LIMIT=12]  -->
+  <string name="manual_sync">Sincr. agora</string>
   <!-- Displayed at the bottom of the screen during the initial sync. If pressed will open sync setting screen for accounts. [CHAR LIMIT=30]  -->
+  <string name="change_sync_settings">Alterar config. de sincronização</string>
   <!-- Displayed when we could not load a photo in the photo viewer. [CHAR LIMIT=30] -->
+  <string name="photo_load_failed">Impossível carregar a imagem</string>
   <!--  The move message / change labels action can't be taken because the selected messages
         come from different accounts -->
   <string name="cant_move_or_change_labels">Não é possível mover porque a seleção contém várias contas.</string>
   <!-- Format string used when displaying a summary in a message summary in list notification that was triggered by several new conversations.
          Extra space between sender and subject is intentional.  [CHAR LIMIT=120] -->
   <!-- Format string used when displaying the big text of a notification that was triggered by a single new conversation. [CHAR LIMIT=120] -->
+  <string name="single_new_message_notification_big_text"><xliff:g id="subject">%1$s</xliff:g>\n<xliff:g id="snippet">%2$s</xliff:g></string>
   <!-- Displayed in a message subheading. Ignore the current spam warning. [CHAR LIMIT=30] -->
   <!-- Displayed in the message heading. Shown if the message was sent via another domain. [CHAR LIMIT=10] -->
+  <string name="via_domain">através de <xliff:g id="viaDomain">%1$s</xliff:g></string>
   <!-- Button text for the button to click to have the user sign in again. [CHAR LIMIT=20]-->
+  <string name="signin">Entrar</string>
   <!-- Button text for the button to click for more information. [CHAR LIMIT=20]-->
+  <string name="info">Informações</string>
   <!-- Button text for the button to click to report feedback. [CHAR LIMIT=20]-->
   <!-- Dialog title when a sync error occurs. [CHAR LIMIT=50]-->
+  <string name="sync_error">Não foi possível sincronizar.</string>
   <!-- Dialog title when a sync error occurs. [CHAR LIMIT=100]-->
+  <string name="sync_error_message">O dispositivo não tem espaço de armazenamento suficiente para sincronizar.</string>
   <!-- Button text for the button to click to go to the manage storage settings screen. [CHAR LIMIT=20]-->
+  <string name="storage">Armazenamento</string>
   <!-- Token used as a divider between senders -->
+  <string name="senders_split_token">,\u00A0</string>
+  <string name="draft_count_format">\u00A0(<xliff:g id="count">%1$s</xliff:g>)</string>
   <!-- Token to replace senders that are not visible -->
   <!-- Token used to space out elided senders that are not visible -->
   <!-- Token used to space out message count, draft text, and senders -->
@@ -808,9 +993,11 @@
   <!-- General preference: Label of the setting for the direction to move to
          when deleting the current message.
          Options contain "newer message","older message", etc. [CHAR LIMIT=32] -->
+  <string name="auto_advance_label">Avanço automático</string>
   <!-- General preference: Description of the setting for the direction to move to
          when deleting the current message.
          Options contain "newer message","older message", etc. [CHAR LIMIT=64] -->
+  <string name="auto_advance_summary">Selecione a tela exibida após excluir uma mensagem</string>
   <!-- Title of the dialog that appears the first time they perform an action that would cause
          auto advance logic to fire [CHAR LIMIT=70] -->
   <!-- The auto-advance modes -->
