@@ -530,35 +530,61 @@
   <!-- Compose screen, Prefix to forwarded message subject. Do not translate. -->
   <!-- Compose screen, displayed at the top of a message being replied to. Please preserve the HTML entities (surrounded by & and ;).  The two %s strings will be replaced by 1) the date 2) the person who wrote the email being responded to. [CHAR LIMIT=1000]-->
   <!-- Compose screen, displayed at the top of a message being forwarded. Please preserve the HTML entities (surrounded by & and ;). [CHAR LIMIT=1000] -->
+  <string name="forward_attribution">---------- Прослеђена порука ----------&lt;br&gt;Од: <xliff:g id="FROM">%1$s</xliff:g>&lt;br&gt;Датум: <xliff:g id="DATE">%2$s</xliff:g>&lt;br&gt;Наслов: <xliff:g id="SUBJECT">%3$s</xliff:g>&lt;br&gt;Коме: <xliff:g id="TO">%4$s</xliff:g>&lt;br&gt;</string>
   <!-- Compose screen, displayed at the top of a message being forwarded. [CHAR LIMIT=100]-->
+  <string name="forward_attribution_no_headers">---------- Прослеђена порука ----------</string>
   <!-- Compose screen, displayed at the top of a message being forwarded if there are any email addresses in the CC list. Please preserve the HTML entities (surrounded by & and ;). [CHAR LIMIT=1000]-->
+  <string name="cc_attribution">Копија: <xliff:g id="CC">%1$s</xliff:g>&lt;br&gt;</string>
   <!-- Dialog text: select the type of an attachment while composing [CHAR LIMIT=100]-->
+  <string name="select_attachment_type">Изаберите тип прилога</string>
   <!-- Toast, attachment too large for single file [CHAR LIMIT=100] -->
+  <string name="too_large_to_attach_single">Није могуће приложити датотеку која премашује <xliff:g id="Maxsize">%1$s</xliff:g>.</string>
   <!-- Toast, attachment too large for multiple files [CHAR LIMIT=100] -->
+  <string name="too_large_to_attach_multiple">Није приложена једна датотека или више њих. Ограничење је <xliff:g id="Maxsize">%1$s</xliff:g>.</string>
   <!-- Toast, attachment too large when existing attachments exist [CHAR LIMIT=100] -->
+  <string name="too_large_to_attach_additional">Датотека није приложена. Достигнуто је ограничење од <xliff:g id="Maxsize">%1$s</xliff:g>.</string>
   <!-- Toast, problem attaching file [CHAR LIMIT=100] -->
+  <string name="generic_attachment_problem">Није могуће приложити фајл.</string>
   <!-- Displayed for one second after trying to send with no recipients in To field [CHAR LIMIT=200]-->
+  <string name="recipient_needed">Додајте најмање једног примаоца.</string>
   <!-- Title for recipient error dialog [CHAR LIMIT=200]-->
   <!-- Title for send confirmation dialog [CHAR LIMIT=200]-->
   <!-- Messages for send confirmation dialog [CHAR LIMIT=100]-->
+  <string name="confirm_send_message_with_no_subject">Нема текста у наслову поруке.</string>
+  <string name="confirm_send_message_with_no_body">Нема текста у самој поруци.</string>
+  <string name="confirm_send_message">Желите ли да пошаљете ову поруку?</string>
   <!-- Displayed for one second after discarding draft message [CHAR LIMIT=50]-->
+  <string name="message_discarded">Порука је одбачена.</string>
   <!--  Shown in the from dropdown in front of custom from addresses. [CHAR LIMIT=15] -->
+  <string name="custom_from_account_label">Шаљи пошту као:</string>
   <!-- Menu item: send this message -->
+  <string name="send">Пошаљи</string>
   <!-- Menu item: mark this conversation as read -->
+  <string name="mark_read">Означи као прочитано</string>
   <!-- Menu item: mark this conversation as unread -->
+  <string name="mark_unread">Означи као непрочитано</string>
   <!--  Menu item: mute this conversation -->
   <!-- Menu item: add a star to this conversation -->
+  <string name="add_star">Додај звездицу</string>
   <!-- Menu item: remove the star from this conversation -->
+  <string name="remove_star">Уклони звездицу</string>
   <!-- Remove the folder from this conversation [CHAR LIMIT = 30]-->
   <!-- Menu item: archive this conversation -->
+  <string name="archive">Архива</string>
   <!-- Menu item: report this conversation as spam [CHAR LIMIT = 30] -->
+  <string name="report_spam">Пријави као непожељно</string>
   <!-- Menu item: report this conversation not as spam [CHAR LIMIT = 30] -->
   <!-- Menu item: report this conversation as phishing [CHAR LIMIT = 30] -->
   <!-- Menu item: delete this conversation -->
+  <string name="delete">Обриши</string>
   <!-- Menu item: discard the drafts in this conversation [CHAR LIMIT = 30] -->
+  <string name="discard_drafts">Одбаци недовршене поруке</string>
   <!-- Menu item: refresh the inbox -->
+  <string name="refresh">Освежи</string>
   <!-- Menu item: reply to this message -->
+  <string name="reply">Одговори</string>
   <!-- Menu item: reply to all recipients in this message [CHAR LIMIT=18] -->
+  <string name="reply_all">Одгов. свима</string>
   <!-- Menu item: resume a draft message [CHAR LIMIT=12] -->
   <!-- Menu item: forward this message -->
   <!-- Menu item: compose a new email -->
@@ -595,33 +621,54 @@
   <!-- Attachment description for .pdf files [CHAR LIMIT=30] -->
   <!-- Attachment description for unknown files [CHAR LIMIT=30]-->
   <!-- Read email screen, button name. Preview an attachment by Gview. [CHAR LIMIT=18] -->
+  <string name="preview_attachment">Прикажи</string>
   <!-- Read email screen, button name. Save an attachment to sd card. [CHAR LIMIT=10] -->
   <string name="save_attachment">Сачувај</string>
   <!-- Read email screen, button name. Cancel a downloading attachment. [CHAR LIMIT=10] -->
   <!-- Read email screen, button name. Redownload an attachment [CHAR LIMIT=20]-->
+  <string name="download_again">Преузми поново</string>
   <!-- Dialog box title [CHAR LIMIT=30] -->
+  <string name="more_info_attachment">Инфо</string>
   <!-- Dialog box message, displayed when we could not view an attachment. [CHAR LIMIT=200]-->
+  <string name="no_application_found">Ниједна апликација не може да отвори овај прилог за прегледање.</string>
   <!-- Dialog box title. [CHAR LIMIT=30] -->
+  <string name="fetching_attachment">Преузимање прилога</string>
   <!-- Dialog box message. [CHAR LIMIT=80] -->
   <!-- Displayed in the conversation view, next to a file's size and type. Status of a saved attachment. [CHAR LIMIT=20]-->
   <!-- Displayed in the conversation view. Status of a failed attachment. [CHAR LIMIT=50]-->
+  <string name="download_failed">Није преузето. Додирните за пон. пок.</string>
   <!-- Displayed in the conversation view, as a header informing
          the user that the following is the attachments. [CHAR LIMIT=100] -->
+  <string name="attachments_header">Прилози</string>
   <!-- Photo view screen, button name. Save all attachments to sd card. [CHAR LIMIT=17] -->
+  <string name="menu_photo_save_all">Сачувaj све</string>
   <!-- Photo view screen, button name. Share attachment. [CHAR LIMIT=10] -->
+  <string name="menu_photo_share">Дели</string>
   <!-- Photo view screen, button name. Share all attachments. [CHAR LIMIT=20] -->
+  <string name="menu_photo_share_all">Дели све</string>
   <!-- Displayed in the action bar as a subtitle. Save in progress. [CHAR LIMIT=15] -->
+  <string name="saving">Чување&#8230;</string>
   <!-- Webview Context Menu Strings -->
   <!-- Title of dialog for choosing which activity to share a link with. [CHAR LIMIT=50]-->
+  <string name="choosertitle_sharevia">Дељење преко</string>
   <!-- Menu item to open a link  [CHAR LIMIT=50]-->
+  <string name="contextmenu_openlink">Отвори у прегледачу</string>
   <!-- Menu item to copy the selection  [CHAR LIMIT=50]-->
+  <string name="contextmenu_copy">Копирај</string>
   <!-- Menu item to copy a link  [CHAR LIMIT=50]-->
+  <string name="contextmenu_copylink">Копирај URL адресу везе</string>
   <!-- Menu item to dial a number  [CHAR LIMIT=50]-->
+  <string name="contextmenu_dial_dot">Позови\u2026</string>
   <!-- Menu item to send an SMS  [CHAR LIMIT=50]-->
+  <string name="contextmenu_sms_dot">SMS\u2026</string>
   <!-- Menu item to add a contact  [CHAR LIMIT=50]-->
+  <string name="contextmenu_add_contact">Додај контакт</string>
   <!-- Menu item to send an email [CHAR LIMIT=50] -->
+  <string name="contextmenu_send_mail">Пошаљи Е-пошту</string>
   <!-- Menu item to show a map  [CHAR LIMIT=50]-->
+  <string name="contextmenu_map">Мапа</string>
   <!-- Menu item to share link  [CHAR LIMIT=50]-->
+  <string name="contextmenu_sharelink">Дели везу</string>
   <!-- Menu item that displays the help page for Gmail.  [CHAR LIMIT=50]-->
   <!-- Solicit feedback string in about screen [CHAR LIMIT=50]-->
   <!-- Browse list item strings -->
@@ -651,20 +698,32 @@
   <!-- Menu item: undo latest action [CHAR LIMIT=12]-->
   <!-- The following are shown as a toast after the operation has completed -->
   <!-- Displayed when swiping away a single conversation to delete it [CHAR LIMIT=80] -->
+  <string name="deleted">Избрисано</string>
   <!-- Displayed when swiping away a single conversation to archive it [CHAR LIMIT=80] -->
+  <string name="archived">Архивирано</string>
   <!-- Displayed when swiping away a single conversation to remove the currently displayed folder [CHAR LIMIT=80] -->
+  <string name="folder_removed">Уклоњено из директоријума <xliff:g id="Foldername">%1$s</xliff:g></string>
   <!-- Displayed after moving a conversation to a different folder. [CHAR LIMIT=100] -->
+  <string name="conversation_folder_moved">Премештена је у <xliff:g id="Foldername">%1$s</xliff:g></string>
   <!-- Search Results: Text for header that is shown above search results [CHAR LIMIT=30] -->
+  <string name="search_results_header">Резултати</string>
   <!-- Toast shown when the user taps the search hard key when viewing an account that does not support search [CHAR LIMIT=100] -->
+  <string name="search_unsupported">Претрага није подржана на овом налогу.</string>
   <!-- Search Results: Text for header that is shown above search results, while waiting for search results from the server [CHAR LIMIT=30] -->
+  <string name="search_results_searching_header">Претраживање\u2026</string>
   <!-- Conversation view -->
   <!--  Text anchor for control to add / change labels on a conversation when
           viewing it. [CHAR LIMIT=40] -->
+  <string name="add_label">Додај фолдер</string>
   <!-- Conversation message header strings -->
   <!--  Icon name for expanding recipient details in a message when viewing it. [CHAR LIMIT=40] -->
+  <string name="expand_recipient_details">Прошири детаље о примаоцу</string>
   <!--  Icon name for collapsing recipient details in a message when viewing it. [CHAR LIMIT=40] -->
+  <string name="collapse_recipient_details">Скупи детаље о примаоцу</string>
   <!--  Icon name for showing sender contact information. [CHAR LIMIT=100] -->
+  <string name="contact_info_string">Прикажи контакт информације корисника <xliff:g id="Name">%1$s</xliff:g></string>
   <!--  Icon name for showing sender contact information when we cannot get sender info. [CHAR LIMIT=100] -->
+  <string name="contact_info_string_default">Прикажи контакт информације</string>
   <!-- Shown in collapsed mode when a conversation has more than one read message.
          The message count is shown to the right of this text. [CHAR LIMIT=70] -->
   <!-- Shown to display the from address of the message [CHAR LIMIT=10] -->
@@ -674,21 +733,33 @@
   <!-- Shown to display the bcc recipient(s) of the message [CHAR LIMIT=10] -->
   <!-- Shown to display the recipient(s) of the message [CHAR LIMIT=10] -->
   <!-- Displayed above an HTML message to show the images in that message [CHAR LIMIT=40] -->
+  <string name="show_images">Прикажи слике</string>
   <!-- Displayed above an HTML message to always show images in messages from that sender [CHAR LIMIT=40] -->
+  <string name="always_show_images">Увек приказуј слике овог пошиљаоца</string>
   <!-- Shown in a toast to acknowledge always showing images for a sender [CHAR LIMIT=100] -->
+  <string name="always_show_images_toast">Слике овог пошиљаоца биће аутоматски приказане.</string>
   <!-- Display format of an email recipient, displayed in expanded message details [CHAR LIMIT=10] -->
+  <string name="address_display_format"><xliff:g id="name">%1$s</xliff:g> <xliff:g id="email">%2$s</xliff:g></string>
   <!-- Display format of an email sender if the message has a via domain set, displayed in expanded message details [CHAR LIMIT=15] -->
+  <string name="address_display_format_with_via_domain"><xliff:g id="name">%1$s</xliff:g> <xliff:g id="email">%2$s</xliff:g> преко <xliff:g id="via_domain">%3$s</xliff:g></string>
   <!-- Displayed for one second after user saves message as draft [CHAR LIMIT=50]-->
+  <string name="message_saved">Порука је сачувана као недовршена.</string>
   <!-- Displayed for one second while message is being sent [CHAR LIMIT=50]-->
   <!-- Displayed for one second after trying to send with invalid recipients [CHAR LIMIT=50]-->
   <!-- Shown in HTML to allow the user to see quoted text; should match Gmail web UI. 25B6 is Unicode for a right-pointing triangle. [CHAR LIMIT=50] -->
   <!-- Shown in HTML to allow the user to hide quoted text; should match Gmail web UI. 25BC is Unicode for a downward-pointing triangle. [CHAR LIMIT=50] -->
   <!-- Shown as a heading in message view when a message contains a calendar invite [CHAR LIMIT=30]-->
+  <string name="message_invite_title">Позивница за Календар</string>
   <!-- Shown as a button label in message view to launch calendar to see this invite [CHAR LIMIT=40]-->
+  <string name="message_invite_calendar_view">Прикажи у Календару</string>
   <!-- Shown as a text label in message view describing the choices of whether to attend an invite [CHAR LIMIT=20]-->
+  <string name="message_invite_label_attending">Идете?</string>
   <!-- Shown as a button label in message view to accept a calendar invite [CHAR LIMIT=20]-->
+  <string name="message_invite_accept">Да</string>
   <!-- Shown as a button label in message view to give a tentative response to a calendar invite [CHAR LIMIT=20]-->
+  <string name="message_invite_tentative">Можда</string>
   <!-- Shown as a button label in message view to decline a calendar invite [CHAR LIMIT=20]-->
+  <string name="message_invite_decline">Не</string>
   <!-- An enumeration comma for separating items in lists. [CHAR LIMIT=2] -->
   <!-- Button name, displayed in dialogs [CHAR LIMIT=10]-->
   <!-- Button name, displayed in dialogs [CHAR LIMIT=10]-->
@@ -699,7 +770,16 @@
   <!-- Button name, displayed in dialogs [CHAR LIMIT=10] -->
   <string name="cancel">Откажи</string>
   <!-- Button name, displayed in dialogs [CHAR LIMIT=10] -->
+  <string name="clear">Брисање</string>
   <!-- Sync status errors. Please do not change the order [CHAR LIMIT=100] -->
+  <string-array name="sync_status">
+    <item>Успешно</item>
+    <item>Веза није успостављена.</item>
+    <item>Пријављивање није могуће.</item>
+    <item>Безбедносна грешка.</item>
+    <item>Синхронизација није могућа.</item>
+    <item>Интерна грешка</item>
+  </string-array>
   <!-- Widget strings -->
   <!-- Displayed when user adds a new widget. Tapping on the widget in this
           mode will bring user to the account selection screen [CHAR LIMIT=35] -->
@@ -758,9 +838,19 @@
   <!-- General preference: Description of the setting for the direction to move to
          when deleting the current message.
          Options contain "newer message","older message", etc. [CHAR LIMIT=64] -->
+  <string name="auto_advance_summary">Избор екрана који желите да прикажете након брисања поруке</string>
   <!-- Title of the dialog that appears the first time they perform an action that would cause
          auto advance logic to fire [CHAR LIMIT=70] -->
+  <string name="auto_advance_help_title">Подешавање аутоматског померања унапред\n(након брисања итд.)</string>
   <!-- The auto-advance modes -->
+  <string-array name="prefEntries_autoAdvance">
+    <!-- Newer conversation -->
+    <item>Новије</item>
+    <!-- Older conversation -->
+    <item>Старије</item>
+    <!-- Conversation list -->
+    <item>Листа преписки</item>
+  </string-array>
   <!-- Description for each auto-advance option to display after the user has picked one -->
   <!-- The entries here must correspond to the entries in prefEntries_autoAdvance [CHAR LIMIT=60] -->
   <!-- TODO: these pref keys that are never user visible should probably be
@@ -768,43 +858,63 @@
   <!-- The default auto-advance mode -->
   <!-- The auto-advance mode values -->
   <!-- Settings screen, title of "Restore default for "Show pictures"" [CHAR LIMIT=1000]-->
+  <string name="clear_display_images_whitelist_title">Обриши одобрења за слике</string>
   <!-- Settings screen, title of dialog shown to confirm action when user taps
     "Clear picture approvals" in preferences [CHAR LIMIT=200]-->
+  <string name="clear_display_images_whitelist_dialog_title">Обриши одобрења за слике?</string>
   <!-- Settings screen, message of dialog shown to confirm action when tapping
     "Clear picture approvals" [CHAR LIMIT=1000]-->
+  <string name="clear_display_images_whitelist_dialog_message">Престаните да приказујете уметнуте слике пошиљалаца које сте раније одобрили.</string>
   <!-- Message shown in toast when the user taps "Restore default for "Show pictures"" in Gmail general preferences. [CHAR LIMIT=50] -->
+  <string name="sender_whitelist_cleared">Слике неће бити аутоматски приказиване.</string>
   <!-- Settings screen, name of the setting that lets the user choose their signature [CHAR LIMIT=50] -->
+  <string name="preferences_signature_title">Потпис</string>
   <!-- Settings screen, title of the dialog that lets the user configure their signature [CHAR LIMIT=50] -->
+  <string name="preferences_signature_dialog_title">Потпис</string>
   <!-- Settings screen, setting summary text when no signature set [CHAR LIMIT=100] -->
+  <string name="preferences_signature_summary_not_set">Није подешено</string>
   <!-- Notification action for replying-all to a message. [CHAR LIMIT=20] -->
+  <string name="notification_action_reply_all">Одгов. свима</string>
   <!-- Notification action for archiving a message. [CHAR LIMIT=20] -->
+  <string name="notification_action_archive">Архива</string>
   <!-- Notification action for removing a label from a message. [CHAR LIMIT=20] -->
+  <string name="notification_action_remove_label">Уклони ознаку</string>
   <!-- Notification undo text after archiving a message. [CHAR LIMIT=30] -->
+  <string name="notification_action_undo_archive">Архивирано</string>
   <!-- Notification undo text after removing a label from a message. [CHAR LIMIT=30] -->
+  <string name="notification_action_undo_remove_label">Ознака је уклоњена</string>
   <!-- Notification undo text after deleting a message. [CHAR LIMIT=30] -->
+  <string name="notification_action_undo_delete">Избрисано</string>
   <!-- Regex that specifies veiled addresses. These are all empty because this is disabled currently. -->
   <!-- String to be shown instead of a veiled addresses. [CHAR LIMIT=50] -->
   <!-- String to be shown instead of a veiled addresses. [CHAR LIMIT=50] -->
   <!-- Summary string to be shown instead of a veiled recipient. [CHAR LIMIT=50] -->
   <!-- Notification ticker text for per-label notification [CHAR LIMIT=30]-->
+  <string name="label_notification_ticker">"<xliff:g id="label">%1$s</xliff:g>: <xliff:g id="notification">%2$s</xliff:g>"</string>
   <!-- Format string used when displaying the title of a notification that was triggered by a single new conversation. [CHAR LIMIT=120] -->
+  <string name="single_new_message_notification_title"><xliff:g id="sender">%1$s</xliff:g>: <xliff:g id="subject">%2$s</xliff:g></string>
   <!-- Settings screen, what to display for Ringtone when the user chooses "silent" [CHAR LIMIT=100]-->
+  <string name="silent_ringtone">Нечујно</string>
   <!-- Settings screen, preference name for archive vs. delete [CHAR LIMIT=50] -->
   <!-- Options to select from for whether to have archive or delete as the remove action [CHAR LIMIT=50] -->
   <!-- Description of currently selected option of whether to use archive or delete as remove action [CHAR LIMIT=200] -->
   <!-- Dialog title for the choosing whether to use archive or delete as remove action [CHAR LIMIT=150] -->
   <!-- The default value -->
   <!--  Settings screen, Reply to all default setting title  [CHAR LIMIT=30] -->
+  <string name="preferences_default_reply_all_title">Одгов. свима</string>
   <!--  Settings screen, Reply to all default setting summary [CHAR LIMIT=70] -->
+  <string name="preferences_default_reply_all_summary">Коришћење ове опције као подразумеване за одговоре на поруке</string>
   <!-- Preference name for swipe action when action is archive [CHAR LIMIT=100]-->
   <!-- Preference name for swipe action when action is delete [CHAR LIMIT=100]-->
   <!-- Preference description swiping in conversation list option [CHAR LIMIT=100] -->
   <!-- In conversation list, when user initiates a downward swipe,
         this text is displayed in the action bar as a hint that they can trigger a
         sync/refresh by continuing the downward swipe. [CHAR LIMIT=60] -->
+  <string name="swipe_down_to_refresh">Листајте надоле да бисте освежили</string>
   <!-- In conversation list, when user has triggered a sync via a downward swipe,
         this text is displayed in the action bar for a brief moment to
     indicate that a sync is in progress.  [CHAR LIMIT=60] -->
+  <string name="checking_for_mail">Проверавање поште</string>
   <!-- Conversation list screen overflow menu in trash folder [CHAR LIMIT=50]  -->
   <!-- Conversation list screen overflow menu in spam folder [CHAR LIMIT=50]  -->
   <!-- Dialog title for empty trash confirmation dialog [CHAR LIMIT=100] -->

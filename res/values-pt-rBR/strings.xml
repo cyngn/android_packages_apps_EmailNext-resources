@@ -871,42 +871,81 @@
   <string name="archived">Arquivada</string>
   <!-- Displayed when swiping away a single conversation to remove the currently displayed folder [CHAR LIMIT=80] -->
   <string name="folder_removed">Removido de <xliff:g id="foldername">%1$s</xliff:g></string>
+  <plurals name="conversation_folder_changed">
+    <!-- Displayed while adding and removing folders to a single conversation. [CHAR LIMIT=100] -->
+    <item quantity="one">Pasta alterada.</item>
+    <!-- Displayed while adding and removing folders to multiple conversations. [CHAR LIMIT=100] -->
+    <item quantity="other">Pastas alteradas.</item>
+  </plurals>
   <!-- Displayed after moving a conversation to a different folder. [CHAR LIMIT=100] -->
+  <string name="conversation_folder_moved">Movida para <xliff:g id="Foldername">%1$s</xliff:g></string>
   <!-- Search Results: Text for header that is shown above search results [CHAR LIMIT=30] -->
+  <string name="search_results_header">Resultados</string>
   <!-- Toast shown when the user taps the search hard key when viewing an account that does not support search [CHAR LIMIT=100] -->
+  <string name="search_unsupported">Não há suporte para pesquisa nesta conta.</string>
   <!-- Search Results: Text for header that is shown above search results, while waiting for search results from the server [CHAR LIMIT=30] -->
+  <string name="search_results_searching_header">Pesquisando\u2026</string>
   <!-- Conversation view -->
   <!--  Text anchor for control to add / change labels on a conversation when
           viewing it. [CHAR LIMIT=40] -->
+  <string name="add_label">Adicionar pasta</string>
   <!-- Conversation message header strings -->
   <!--  Icon name for expanding recipient details in a message when viewing it. [CHAR LIMIT=40] -->
+  <string name="expand_recipient_details">Expandir detalhes do destinatário</string>
   <!--  Icon name for collapsing recipient details in a message when viewing it. [CHAR LIMIT=40] -->
+  <string name="collapse_recipient_details">Recolher detalhes do destinatário</string>
   <!--  Icon name for showing sender contact information. [CHAR LIMIT=100] -->
+  <string name="contact_info_string">Mostrar informações de contato de <xliff:g id="Name">%1$s</xliff:g></string>
   <!--  Icon name for showing sender contact information when we cannot get sender info. [CHAR LIMIT=100] -->
+  <string name="contact_info_string_default">Mostrar informações de contato</string>
   <!-- Shown in collapsed mode when a conversation has more than one read message.
          The message count is shown to the right of this text. [CHAR LIMIT=70] -->
+  <plurals name="show_messages_read">
+    <item quantity="one"><xliff:g id="count" example="4">%1$d</xliff:g> mensagem antiga</item>
+    <item quantity="other"><xliff:g id="count" example="4">%1$d</xliff:g> mensagens antigas</item>
+  </plurals>
   <!-- Shown to display the from address of the message [CHAR LIMIT=10] -->
   <!-- Shown to display the reply to address of the message [CHAR LIMIT=20] -->
+  <string name="replyto_heading">Responder para:\u0020</string>
   <!-- Shown to display the to recipient(s) of the message [CHAR LIMIT=10] -->
+  <string name="to_heading">Para:\u0020</string>
   <!-- Shown to display the cc recipient(s) of the message [CHAR LIMIT=10] -->
+  <string name="cc_heading">Cc:\u0020</string>
   <!-- Shown to display the bcc recipient(s) of the message [CHAR LIMIT=10] -->
+  <string name="bcc_heading">Cco:\u0020</string>
   <!-- Shown to display the recipient(s) of the message [CHAR LIMIT=10] -->
   <!-- Displayed above an HTML message to show the images in that message [CHAR LIMIT=40] -->
+  <string name="show_images">Mostrar imagens</string>
   <!-- Displayed above an HTML message to always show images in messages from that sender [CHAR LIMIT=40] -->
+  <string name="always_show_images">Sempre mostrar imagens deste remetente</string>
   <!-- Shown in a toast to acknowledge always showing images for a sender [CHAR LIMIT=100] -->
+  <string name="always_show_images_toast">As imagens desse remetente serão mostradas automaticamente.</string>
   <!-- Display format of an email recipient, displayed in expanded message details [CHAR LIMIT=10] -->
+  <string name="address_display_format"><xliff:g id="name">%1$s</xliff:g> <xliff:g id="email">%2$s</xliff:g></string>
   <!-- Display format of an email sender if the message has a via domain set, displayed in expanded message details [CHAR LIMIT=15] -->
+  <string name="address_display_format_with_via_domain"><xliff:g id="name">%1$s</xliff:g> <xliff:g id="email">%2$s</xliff:g> via <xliff:g id="via_domain">%3$s</xliff:g></string>
   <!-- Displayed for one second after user saves message as draft [CHAR LIMIT=50]-->
+  <string name="message_saved">Mensagem salva como rascunho.</string>
   <!-- Displayed for one second while message is being sent [CHAR LIMIT=50]-->
+  <string name="sending_message">Enviando mensagem\u2026</string>
   <!-- Displayed for one second after trying to send with invalid recipients [CHAR LIMIT=50]-->
+  <string name="invalid_recipient">O endereço <xliff:g id="wrongemail" example="foo@@gmail..com">%1$s</xliff:g> é inválido.</string>
   <!-- Shown in HTML to allow the user to see quoted text; should match Gmail web UI. 25B6 is Unicode for a right-pointing triangle. [CHAR LIMIT=50] -->
+  <string name="show_elided">\u25B6 Exibir texto da mensagem anterior</string>
   <!-- Shown in HTML to allow the user to hide quoted text; should match Gmail web UI. 25BC is Unicode for a downward-pointing triangle. [CHAR LIMIT=50] -->
+  <string name="hide_elided">\u25BC Ocultar texto da mensagem anterior</string>
   <!-- Shown as a heading in message view when a message contains a calendar invite [CHAR LIMIT=30]-->
+  <string name="message_invite_title">Convite da Agenda</string>
   <!-- Shown as a button label in message view to launch calendar to see this invite [CHAR LIMIT=40]-->
+  <string name="message_invite_calendar_view">Ver no Calendário</string>
   <!-- Shown as a text label in message view describing the choices of whether to attend an invite [CHAR LIMIT=20]-->
+  <string name="message_invite_label_attending">Você vai?</string>
   <!-- Shown as a button label in message view to accept a calendar invite [CHAR LIMIT=20]-->
+  <string name="message_invite_accept">Sim</string>
   <!-- Shown as a button label in message view to give a tentative response to a calendar invite [CHAR LIMIT=20]-->
+  <string name="message_invite_tentative">Talvez</string>
   <!-- Shown as a button label in message view to decline a calendar invite [CHAR LIMIT=20]-->
+  <string name="message_invite_decline">Não</string>
   <!-- An enumeration comma for separating items in lists. [CHAR LIMIT=2] -->
   <!-- Button name, displayed in dialogs [CHAR LIMIT=10]-->
   <!-- Button name, displayed in dialogs [CHAR LIMIT=10]-->
@@ -917,21 +956,44 @@
   <!-- Button name, displayed in dialogs [CHAR LIMIT=10] -->
   <string name="cancel">Cancelar</string>
   <!-- Button name, displayed in dialogs [CHAR LIMIT=10] -->
+  <string name="clear">Limpar</string>
   <!-- Sync status errors. Please do not change the order [CHAR LIMIT=100] -->
+  <string-array name="sync_status">
+    <item>Êxito</item>
+    <item>Sem conexão.</item>
+    <item>Não foi possível fazer login.</item>
+    <item>Erro de segurança.</item>
+    <item>Não foi possível sincronizar.</item>
+    <item>Erro interno</item>
+  </string-array>
   <!-- Widget strings -->
   <!-- Displayed when user adds a new widget. Tapping on the widget in this
           mode will bring user to the account selection screen [CHAR LIMIT=35] -->
+  <string name="tap_to_configure">Toque para configurar</string>
   <!-- Displayed within a widget that was setup for a non-synced folder [CHAR LIMIT=60] -->
+  <string name="non_synced_folder_description">Para ver as conversas, sincronize esta pasta.</string>
   <!-- Displayed within a widget that was setup for a non-synced folder.  This is the text of the
          button that will allow the user to configure sync for the folder [CHAR LIMIT=35] -->
+  <string name="tap_to_configure_folder_sync">Sincronizar pasta</string>
   <!-- Displayed in widget when unread count > 100. [CHAR LIMIT=4] -->
+  <string name="widget_large_unread_count">%1$d+</string>
+  <plurals name="actionbar_unread_messages">
+    <item quantity="one"><xliff:g id="count" example="4">%1$d</xliff:g> não lida</item>
+    <!-- String for the actionbar subtitle when messages are unread [CHAR LIMIT=30] -->
+    <item quantity="other"><xliff:g id="count" example="4">%1$d</xliff:g> não lidas</item>
+  </plurals>
   <!-- Displayed in the actionbar when unread count > 999. [CHAR LIMIT=30] -->
+  <string name="actionbar_large_unread_count"><xliff:g id="count">%1$d</xliff:g>+ não lidas</string>
   <!-- Displayed at the end of the conversation list in the widget. Tapping on this will open the default Inbox. [CHAR LIMIT=35] -->
+  <string name="view_more_conversations">Ver mais conversas</string>
   <!-- Name of the Mailboxes activity [CHAR LIMIT=30] -->
+  <string name="activity_mailbox_selection">Escolher conta</string>
   <!-- Name of the Folders activity [CHAR LIMIT=30] -->
+  <string name="activity_folder_selection">Escolher pasta</string>
   <!-- Name of the Folder shortcut widget. Should use "Email" to refer to the app. [CHAR LIMIT=30] -->
   <!-- Folder selection dialog -->
   <!-- Title for change folders dialog [CHAR LIMIT=30] -->
+  <string name="change_folders_selection_dialog_title">Alterar pastas</string>
   <!-- Title for move to dialog [CHAR LIMIT=30] -->
   <string name="move_to_selection_dialog_title">Mover para</string>
   <!-- Search -->
@@ -1000,7 +1062,16 @@
   <string name="auto_advance_summary">Selecione a tela exibida após excluir uma mensagem</string>
   <!-- Title of the dialog that appears the first time they perform an action that would cause
          auto advance logic to fire [CHAR LIMIT=70] -->
+  <string name="auto_advance_help_title">Configurar a preferência de avanço automático\n(depois de excluir, etc.)</string>
   <!-- The auto-advance modes -->
+  <string-array name="prefEntries_autoAdvance">
+    <!-- Newer conversation -->
+    <item>Mais recente</item>
+    <!-- Older conversation -->
+    <item>Mais antiga</item>
+    <!-- Conversation list -->
+    <item>Lista de conversas</item>
+  </string-array>
   <!-- Description for each auto-advance option to display after the user has picked one -->
   <!-- The entries here must correspond to the entries in prefEntries_autoAdvance [CHAR LIMIT=60] -->
   <!-- TODO: these pref keys that are never user visible should probably be
@@ -1008,176 +1079,319 @@
   <!-- The default auto-advance mode -->
   <!-- The auto-advance mode values -->
   <!-- Settings screen, title of "Restore default for "Show pictures"" [CHAR LIMIT=1000]-->
+  <string name="clear_display_images_whitelist_title">Limpar aprovações de fotos</string>
   <!-- Settings screen, title of dialog shown to confirm action when user taps
     "Clear picture approvals" in preferences [CHAR LIMIT=200]-->
+  <string name="clear_display_images_whitelist_dialog_title">Limpar aprovações de fotos?</string>
   <!-- Settings screen, message of dialog shown to confirm action when tapping
     "Clear picture approvals" [CHAR LIMIT=1000]-->
+  <string name="clear_display_images_whitelist_dialog_message">Não mostrar mais imagens no corpo do e-mail de remetentes que você autorizou anteriormente.</string>
   <!-- Message shown in toast when the user taps "Restore default for "Show pictures"" in Gmail general preferences. [CHAR LIMIT=50] -->
+  <string name="sender_whitelist_cleared">As imagens não serão exibidas automaticamente.</string>
   <!-- Settings screen, name of the setting that lets the user choose their signature [CHAR LIMIT=50] -->
+  <string name="preferences_signature_title">Assinatura</string>
   <!-- Settings screen, title of the dialog that lets the user configure their signature [CHAR LIMIT=50] -->
+  <string name="preferences_signature_dialog_title">Assinatura</string>
   <!-- Settings screen, setting summary text when no signature set [CHAR LIMIT=100] -->
+  <string name="preferences_signature_summary_not_set">Não definida</string>
   <!-- Notification action for replying-all to a message. [CHAR LIMIT=20] -->
+  <string name="notification_action_reply_all">Responder a todos</string>
   <!-- Notification action for archiving a message. [CHAR LIMIT=20] -->
+  <string name="notification_action_archive">Arquivar</string>
   <!-- Notification action for removing a label from a message. [CHAR LIMIT=20] -->
+  <string name="notification_action_remove_label">Remover marcador</string>
   <!-- Notification undo text after archiving a message. [CHAR LIMIT=30] -->
+  <string name="notification_action_undo_archive">Arquivada</string>
   <!-- Notification undo text after removing a label from a message. [CHAR LIMIT=30] -->
+  <string name="notification_action_undo_remove_label">Marcador removido</string>
   <!-- Notification undo text after deleting a message. [CHAR LIMIT=30] -->
+  <string name="notification_action_undo_delete">Excluído</string>
   <!-- Regex that specifies veiled addresses. These are all empty because this is disabled currently. -->
   <!-- String to be shown instead of a veiled addresses. [CHAR LIMIT=50] -->
   <!-- String to be shown instead of a veiled addresses. [CHAR LIMIT=50] -->
   <!-- Summary string to be shown instead of a veiled recipient. [CHAR LIMIT=50] -->
   <!-- Notification ticker text for per-label notification [CHAR LIMIT=30]-->
+  <string name="label_notification_ticker">"<xliff:g id="label">%1$s</xliff:g>: <xliff:g id="notification">%2$s</xliff:g>"</string>
   <!-- Format string used when displaying the title of a notification that was triggered by a single new conversation. [CHAR LIMIT=120] -->
+  <string name="single_new_message_notification_title"><xliff:g id="sender">%1$s</xliff:g>: <xliff:g id="subject">%2$s</xliff:g></string>
   <!-- Settings screen, what to display for Ringtone when the user chooses "silent" [CHAR LIMIT=100]-->
+  <string name="silent_ringtone">Silêncio</string>
   <!-- Settings screen, preference name for archive vs. delete [CHAR LIMIT=50] -->
   <!-- Options to select from for whether to have archive or delete as the remove action [CHAR LIMIT=50] -->
   <!-- Description of currently selected option of whether to use archive or delete as remove action [CHAR LIMIT=200] -->
   <!-- Dialog title for the choosing whether to use archive or delete as remove action [CHAR LIMIT=150] -->
   <!-- The default value -->
   <!--  Settings screen, Reply to all default setting title  [CHAR LIMIT=30] -->
+  <string name="preferences_default_reply_all_title">Responder a todos</string>
   <!--  Settings screen, Reply to all default setting summary [CHAR LIMIT=70] -->
+  <string name="preferences_default_reply_all_summary">Usar como padrão para respostas de mensagens</string>
   <!-- Preference name for swipe action when action is archive [CHAR LIMIT=100]-->
   <!-- Preference name for swipe action when action is delete [CHAR LIMIT=100]-->
   <!-- Preference description swiping in conversation list option [CHAR LIMIT=100] -->
   <!-- In conversation list, when user initiates a downward swipe,
         this text is displayed in the action bar as a hint that they can trigger a
         sync/refresh by continuing the downward swipe. [CHAR LIMIT=60] -->
+  <string name="swipe_down_to_refresh">Deslize para baixo para atualizar</string>
   <!-- In conversation list, when user has triggered a sync via a downward swipe,
         this text is displayed in the action bar for a brief moment to
     indicate that a sync is in progress.  [CHAR LIMIT=60] -->
+  <string name="checking_for_mail">Verificando por e-mail(s)</string>
   <!-- Conversation list screen overflow menu in trash folder [CHAR LIMIT=50]  -->
+  <string name="empty_trash">Esvaziar lixeira</string>
   <!-- Conversation list screen overflow menu in spam folder [CHAR LIMIT=50]  -->
+  <string name="empty_spam">Esvaziar spam</string>
   <!-- Dialog title for empty trash confirmation dialog [CHAR LIMIT=100] -->
+  <string name="empty_trash_dialog_title">Esvaziar a lixeira?</string>
   <!-- Dialog title for empty spam confirmation dialog [CHAR LIMIT=100] -->
+  <string name="empty_spam_dialog_title">Esvaziar spam?</string>
   <!-- Dialog message for empty folder confirmation dialog [CHAR LIMIT=300] -->
+  <plurals name="empty_folder_dialog_message">
+    <item quantity="one"><xliff:g id="count">%1$d</xliff:g> mensagem será excluída permanentemente.</item>
+    <item quantity="other"><xliff:g id="count">%1$d</xliff:g> as mensagens serão excluídas permanentemente.</item>
+  </plurals>
   <!-- Strings used for accessibility for the items that toggles the drawer action  -->
+  <string name="drawer_open">Abrir gaveta de navegação</string>
+  <string name="drawer_close">Fechar gaveta de navegação</string>
+  <string name="conversation_photo_welcome_text">Toque na imagem do remetente para selecionar a conversa.</string>
   <!-- Content description for the folder icon for nested folders. -->
   <!--  Button, "Add account" in the preference screen [CHAR LIMIT=30] -->
+  <string name="add_account">Adicionar conta</string>
   <!-- Action bar title for viewing messages that are attached to another message. -->
+  <string name="attached_message">Mensagem anexada</string>
   <!-- Shown to display the date of the message when the message was received yesterday. [CHAR LIMIT=50]  -->
+  <string name="date_message_received_yesterday">Ontem, <xliff:g id="datetime">%1$s</xliff:g></string>
   <!-- Content description for the "X" image icon for dismissing a tip. This is used for spoken description of the icon when touch explore is enabled. [CHAR LIMIT=50] -->
+  <string name="dismiss_tip_hover_text">Dispensar dica</string>
   <!-- Tip for letting user know that their device auto-sync setting
         is turned off, in case they are wondering why they are not
         receiving any new mail. [CHAR LIMIT=250] -->
+  <string name="auto_sync_off">A sincronização automática está desativada.</string>
   <!-- Tap to turn on device auto-sync setting.  [CHAR LIMIT=250] -->
+  <string name="tap_to_enable_sync">Toque para ativar.</string>
   <!-- Tip for letting user know that their account level sync setting
         is turned off, in case they are wondering why they are not
         receiving any new mail. [CHAR LIMIT=250] -->
+  <string name="account_sync_off">A sincronização da conta está desativada.</string>
   <!-- Hint text for user to enable sync in Gmail's account settings.
          The whole string should read "Turn on in Account settings.", but because we need
          "Account settings" to appear as blue link text, it's a parameter here.
          [CHAR LIMIT=250] -->
+  <string name="enable_sync_in_account_settings">Ative em <xliff:g id="account_settings">%1$s</xliff:g>.</string>
   <!-- This is used as a parameter to another string and combined reads
          "Turn on in Account settings." [CHAR LIMIT=250] -->
   <string name="account_settings_param">Configurações da conta</string>
   <!-- Hint text that there are X number of unsent messages users
     Outbox. [CHAR LIMIT=250] -->
+  <string name="unsent_messages_in_outbox"><xliff:g id="number">%1$s</xliff:g> mensagem(ns) não enviadas em <xliff:g id="outbox">%2$s</xliff:g></string>
   <!-- Title of dialog to turn auto-sync on [CHAR LIMIT=100] -->
+  <string name="turn_auto_sync_on_dialog_title">Ativar sincronização automática?</string>
   <!-- Text of dialog to turn auto-sync on [CHAR LIMIT=500] -->
+  <string name="turn_auto_sync_on_dialog_body">As alterações você faz em todos os aplicativos e contas, e não apenas no Gmail, serão sincronizadas entre a Web, os seus outros dispositivos e seu <xliff:g id="phone_or_tablet">%1$s</xliff:g>.</string>
   <!-- Phone (vs. tablet) for describing this device [CHAR LIMIT=30] -->
+  <string name="phone">telefone</string>
   <!-- Tablet (vs. phone) for describing this device [CHAR LIMIT=30] -->
+  <string name="tablet">tablet</string>
   <!-- Confirm button text for dialog to turn auto-sync on [CHAR
          LIMIT=30] -->
+  <string name="turn_auto_sync_on_dialog_confirm_btn">Ativar</string>
   <!-- Button in conversation list to show more folders [CHAR LIMIT=50] -->
   <!-- Button in conversation list to hide folders [CHAR LIMIT=50] -->
   <!-- Error message that is displayed when the user clicks on a quick contacts badge, but
          there is no contacts application installed that can display the quick contact -->
+  <string name="quick_contacts_not_available">Nenhum aplicativo encontrado para visualizar este contato.</string>
   <!-- Custom phone number type -->
+  <string name="phoneTypeCustom">Personalizado</string>
   <!-- Home phone number type -->
+  <string name="phoneTypeHome">Início</string>
   <!-- Mobile phone number type -->
+  <string name="phoneTypeMobile">Celular</string>
   <!-- Work phone number type -->
+  <string name="phoneTypeWork">Trabalho</string>
   <!-- Work fax phone number type -->
+  <string name="phoneTypeFaxWork">Fax do trabalho</string>
   <!-- Home fax phone number type -->
+  <string name="phoneTypeFaxHome">Fax em casa</string>
   <!-- Pager phone number type -->
+  <string name="phoneTypePager">Pager</string>
   <!-- Other phone number type -->
+  <string name="phoneTypeOther">Outro</string>
   <!-- Callback phone number type -->
+  <string name="phoneTypeCallback">Retorno de chamada</string>
   <!-- Car phone number type -->
+  <string name="phoneTypeCar">Carro</string>
   <!-- Company main phone number type -->
+  <string name="phoneTypeCompanyMain">Principal da empresa</string>
   <!-- ISDN phone number type -->
+  <string name="phoneTypeIsdn">ISDN</string>
   <!-- Main phone number type -->
+  <string name="phoneTypeMain">Principal</string>
   <!-- Other fax phone number type -->
+  <string name="phoneTypeOtherFax">Outro Fax</string>
   <!-- Radio phone number type -->
+  <string name="phoneTypeRadio">Rádio</string>
   <!-- Telex phone number type -->
+  <string name="phoneTypeTelex">Telex</string>
   <!-- TTY TDD phone number type -->
+  <string name="phoneTypeTtyTdd">TTY TDD</string>
   <!-- Work mobile phone number type -->
+  <string name="phoneTypeWorkMobile">Celular do trabalho</string>
   <!-- Work pager phone number type -->
+  <string name="phoneTypeWorkPager">Pager do trabalho</string>
   <!-- Assistant phone number type -->
+  <string name="phoneTypeAssistant">Assistente</string>
   <!-- MMS phone number type -->
+  <string name="phoneTypeMms">MMS</string>
   <!-- Label for custom events  [CHAR LIMIT=20] -->
+  <string name="eventTypeCustom">Personalizado</string>
   <!-- Label for a birthday event  [CHAR LIMIT=20] -->
+  <string name="eventTypeBirthday">Aniversário</string>
   <!-- Label for an anniversary event  [CHAR LIMIT=20] -->
+  <string name="eventTypeAnniversary">Aniversário</string>
   <!-- Label for other events  [CHAR LIMIT=20] -->
+  <string name="eventTypeOther">Outro</string>
   <!-- Custom email type -->
+  <string name="emailTypeCustom">Personalizado</string>
   <!-- Home email type -->
+  <string name="emailTypeHome">Casa</string>
   <!-- Work email type -->
+  <string name="emailTypeWork">Trabalho</string>
   <!-- Other email type -->
+  <string name="emailTypeOther">Outro</string>
   <!-- Mobile email type -->
+  <string name="emailTypeMobile">Celular</string>
   <!-- Custom postal address type -->
+  <string name="postalTypeCustom">Personalizado</string>
   <!-- Home postal address type -->
+  <string name="postalTypeHome">Casa</string>
   <!-- Work postal address type -->
+  <string name="postalTypeWork">Trabalho</string>
   <!-- Other postal address type -->
+  <string name="postalTypeOther">Outro</string>
   <!-- Custom IM address type -->
+  <string name="imTypeCustom">Personalizado</string>
   <!-- Home IM address type -->
+  <string name="imTypeHome">Casa</string>
   <!-- Work IM address type -->
+  <string name="imTypeWork">Trabalho</string>
   <!-- Other IM address type -->
+  <string name="imTypeOther">Outro</string>
   <!-- Custom IM protocol type -->
+  <string name="imProtocolCustom">Personalizado</string>
   <!-- AIM IM protocol type -->
+  <string name="imProtocolAim">AIM</string>
   <!-- MSN IM protocol type -->
+  <string name="imProtocolMsn">Windows Live</string>
   <!-- Yahoo IM protocol type -->
+  <string name="imProtocolYahoo">Yahoo</string>
   <!-- Skype IM protocol type -->
+  <string name="imProtocolSkype">Skype</string>
   <!-- QQ IM protocol type -->
+  <string name="imProtocolQq">QQ</string>
   <!-- Google Talk IM protocol type -->
+  <string name="imProtocolGoogleTalk">Hangouts</string>
   <!-- ICQ IM protocol type -->
+  <string name="imProtocolIcq">ICQ</string>
   <!-- Jabber IM protocol type -->
+  <string name="imProtocolJabber">Jabber</string>
   <!-- NetMeeting IM protocol type -->
+  <string name="imProtocolNetMeeting">NetMeeting</string>
   <!-- Work organization type -->
+  <string name="orgTypeWork">Trabalho</string>
   <!-- Other organization type -->
+  <string name="orgTypeOther">Outro</string>
   <!-- Custom organization type -->
+  <string name="orgTypeCustom">Personalizado</string>
   <!-- Custom relationship custom [CHAR LIMIT=20] -->
   <!-- Assistant relationship type [CHAR LIMIT=20] -->
+  <string name="relationTypeAssistant">Assistente</string>
   <!-- Brother relationship type [CHAR LIMIT=20] -->
+  <string name="relationTypeBrother">Irmão</string>
   <!-- Child relationship type [CHAR LIMIT=20] -->
+  <string name="relationTypeChild">Filho(a)</string>
   <!-- Domestic Partner relationship type [CHAR LIMIT=20] -->
+  <string name="relationTypeDomesticPartner">Parceiro doméstico</string>
   <!-- Father relationship type [CHAR LIMIT=20] -->
+  <string name="relationTypeFather">Pai</string>
   <!-- Friend relationship type [CHAR LIMIT=20] -->
+  <string name="relationTypeFriend">Amigo</string>
   <!-- Manager relationship type [CHAR LIMIT=20] -->
+  <string name="relationTypeManager">Empresário</string>
   <!-- Mother relationship type [CHAR LIMIT=20] -->
+  <string name="relationTypeMother">Mãe</string>
   <!-- Parent relationship type [CHAR LIMIT=20] -->
+  <string name="relationTypeParent">Pai/Mãe</string>
   <!-- Partner relationship type [CHAR LIMIT=20] -->
+  <string name="relationTypePartner">Parceiro</string>
   <!-- Referred by relationship type [CHAR LIMIT=20] -->
+  <string name="relationTypeReferredBy">Indicado por</string>
   <!-- Relative relationship type [CHAR LIMIT=20] -->
+  <string name="relationTypeRelative">Parente</string>
   <!-- Sister relationship type [CHAR LIMIT=20] -->
+  <string name="relationTypeSister">Irmã</string>
   <!-- Spouse relationship type [CHAR LIMIT=20] -->
+  <string name="relationTypeSpouse">Cônjuge</string>
   <!-- Custom SIP address type. Same context as Custom phone type.  -->
+  <string name="sipAddressTypeCustom">Personalizado</string>
   <!-- Home SIP address type. Same context as Home phone type. -->
+  <string name="sipAddressTypeHome">Casa</string>
   <!-- Work SIP address type. Same context as Work phone type. -->
+  <string name="sipAddressTypeWork">Trabalho</string>
   <!-- Other SIP address type. Same context as Other phone type. -->
+  <string name="sipAddressTypeOther">Outro</string>
   <!-- Part of a description of an repeating event. This part states the date when a repeating
          event ends. The part before the semi-colon describes how it repeats.
          e.g. Every 2 weeks; until 1/1/2030 [CHAR LIMIT=21] -->
+  <string name="endByDate">; até <xliff:g id="date">%1$s</xliff:g></string>
   <!-- Part of a description of an repeating event. This part how many times the event repeats.
          The part before the semi-colon describes how it repeats.
          e.g. Every 2 weeks; for 15 times [CHAR LIMIT=15] -->
+  <plurals name="endByCount">
+    <item quantity="one">; por uma vez</item>
+    <item quantity="other">; por <xliff:g id="number">%1$d</xliff:g> vezes</item>
+  </plurals>
   <!-- A description for an event that repeats daily. For example, Every 2 days [CHAR LIMIT=15]-->
+  <plurals name="daily">
+    <item quantity="one">Diariamente</item>
+    <item quantity="other">A cada <xliff:g id="number">%1$d</xliff:g> dias</item>
+  </plurals>
   <!-- A label in a multiple-choice list for the specifying that an event
          repeats every weekday (Monday through Friday) -->
+  <string name="every_weekday">"Cada dia da semana (seg.\u2013Fsex.)"</string>
   <!-- A description for an event that repeats weekly on some day of the week. For example,
          'Weekly on Tuesday' or Every 2 weeks on Monday, Tuesday.  [CHAR LIMIT=25]-->
+  <plurals name="weekly">
+    <item quantity="one">Semanalmente na <xliff:g id="days_of_week">%2$s</xliff:g></item>
+    <item quantity="other">A cada <xliff:g id="number">%1$d</xliff:g> semanas na <xliff:g id="days_of_week">%2$s</xliff:g></item>
+  </plurals>
   <!-- The common portion of a string describing how often an event repeats,
          example: 'Monthly (on day 2)' -->
+  <string name="monthly">Mensalmente</string>
   <!-- Calendar spinner item, to select that an event recurs every year. -->
+  <string name="yearly_plain">Anualmente</string>
   <!-- [CHAR LIMIT=NONE] Boot message while upgrading calendar. -->
   <!-- Temporary Calendar name to use before we have the calendar name from the server -->
   <!-- Caption on secret calendar info -->
   <!-- Error message for secret calendar info -->
+  <string name="calendar_info_error">Erro</string>
   <!-- No calendars message for secret calendar info -->
+  <string name="calendar_info_no_calendars">Sem calendários</string>
   <!-- Event count message for secret calendar info -->
+  <string name="calendar_info_events">Eventos: <xliff:g id="events">%1$d</xliff:g></string>
   <!-- Event and dirty event count message for secret calendar info -->
+  <string name="calendar_info_events_dirty">Eventos: <xliff:g id="events">%1$d</xliff:g>, não salvos: <xliff:g id="dirty events">%2$d</xliff:g></string>
   <!-- What to show in messaging that refers to this provider, e.g. AccountSyncSettings -->
+  <string name="provider_label">Calendário</string>
+  <string name="contacts_provider_label">Contatos</string>
   <!-- Debug tool - dialog - delete file now [CHAR LIMIT=NONE] -->
+  <string name="debug_tool_delete_button">Excluir agora</string>
   <!-- Debug tool - dialog - start copying [CHAR LIMIT=NONE] -->
+  <string name="debug_tool_start_button">Iniciar</string>
   <!-- Debug tool - Main message shown to the user when starting up the debug tool [CHAR LIMIT=NONE] -->
+  <string name="debug_tool_message">Você está prestes a 1) fazer uma cópia do seu banco de dados do calendário para o armazenamento USB/cartão SD, que pode ser lido por qualquer app e 2) enviar por e-mail. Lembre-se de excluir a cópia, assim que você copiar do dispositivo ou o e-mail for recebido.</string>
   <!-- Debug tool - email subject [CHAR LIMIT=NONE] -->
+  <string name="debug_tool_email_sender_picker">Escolher um programa para enviar seu arquivo</string>
   <!-- Debug tool - email subject [CHAR LIMIT=NONE] -->
+  <string name="debug_tool_email_subject">Banco de dados do calendário anexado</string>
   <!-- Debug tool - email body [CHAR LIMIT=NONE] -->
+  <string name="debug_tool_email_body">Em anexo está o meu banco de dados do calendário com todos os meus compromissos e informações pessoais. Manuseie com cuidado.</string>
 </resources>

@@ -514,7 +514,9 @@
   <!-- Layout tests strings -->
   <!-- Compose -->
   <!-- Shown in Compose; the sender of the message [CHAR LIMIT=10] -->
+  <string name="from">Från</string>
   <!-- Shown in Compose; the recipient(s) of the message [CHAR LIMIT=10] -->
+  <string name="to">Till</string>
   <!-- Shown in Compose; the cc recipient(s) of the message [CHAR LIMIT=10] -->
   <!-- Shown in Compose; the bcc recipient(s) of the message [CHAR LIMIT=10] -->
   <!-- Shown in Compose; the subject of the message [CHAR LIMIT=100] -->

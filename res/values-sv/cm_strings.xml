@@ -27,8 +27,12 @@
   <string name="mailbox_name_display_archive">Arkiv</string>
   <string name="mailbox_name_local_only_display_name"> - Lokal</string>
   <string name="account_setup_email_address_hint">Ange din e-postadress</string>
+  <string name="account_setup_domain_label">Domän</string>
+  <string name="account_setup_server_info_heading">Server-info</string>
   <string name="account_setup_security_heading">Säkerhet</string>
   <string name="account_setup_authentication_heading">Autentisering</string>
+  <string name="account_setup_confirm_passcode_action_label">Bekräfta</string>
+  <string name="account_setup_check_settings_dialog_manual_button">Manuell</string>
   <!-- Error message shown in dialog body when authenticating an account during setup fails -->
   <!-- Dialog title when "setup" could not finish -->
   <!-- hint for account email password text field -->
@@ -123,23 +127,35 @@
   <!-- Main screen and setting, menu item [CHAR LIMIT=30]-->
   <!-- Main screen and setting, menu item [CHAR LIMIT=30]-->
   <!-- Delete account -->
+  <string name="deleting_account_msg">Tar bort konto\u2026</string>
   <!-- Read email screen, button name. Open an attachment. [CHAR LIMIT=10] -->
   <!-- Read email screen, button name. Install an attachment. [CHAR LIMIT=10] -->
   <!-- Photo view screen, button name. Print photo. [CHAR LIMIT=20] -->
+  <string name="menu_photo_print">Skriv ut</string>
   <!-- Menu item to view an image  [CHAR LIMIT=50]-->
+  <string name="contextmenu_view_image">Visa bild</string>
   <!-- Formatting for the collapsed To header in the MessageHeaderView -->
   <!-- Displayed in undo LeaveBehindItem after reporting a message as spam -->
   <!-- New Message notification text that appears over conversation view on incoming message. [CHAR LIMIT=40] -->
   <!-- New Message notification text that appears over conversation view on incoming messages. Will only be used if there is more than one new message. [CHAR LIMIT=40] -->
   <!-- Button name, displayed in dialogs [CHAR LIMIT=10] -->
+  <string name="edit">Redigera</string>
   <!-- Hint for searching/filtering folders in the folder selection dialog [CHAR LIMIT=30] -->
+  <string name="folder_search_hint">Sök</string>
   <!-- The section headers for the move to folder dialog [CHAR LIMIT=15] -->
+  <string-array name="moveto_folder_sections">
+    <item>Smart folders</item>
+    <item>Alla mappar</item>
+  </string-array>
   <!-- The section headers for the change folders dialog [CHAR LIMIT=15] -->
   <!-- String used in the FolderListFragment to mark the start of "boxes" -->
   <!-- String used in the FolderListFragment to mark the start of user-defined folders -->
+  <string name="all_folders_heading">Mappar</string>
   <!-- String used in the FolderListFragment to mark the start of accounts -->
+  <string name="accounts_heading">Konton</string>
   <!-- Default email signature on vendor builds -->
   <!-- Notification action for deleting a message. [CHAR LIMIT=20] -->
+  <string name="notification_action_mark_read">LÄS</string>
   <!-- Notification action for replying to a message. [CHAR LIMIT=20] -->
   <!-- Notification action for deleting a message. [CHAR LIMIT=20] -->
   <!-- Notification message to the user upon new messages for a conversation. [CHAR LIMIT=120] -->
@@ -157,13 +173,23 @@
   <!-- Shown to inform the user that the quoted text for this message has been hidden. [CHAR LIMIT=50] -->
   <!-- Number of attachments in a message [CHAR LIMIT=30]-->
   <!-- Title to display when an email has no subject. [CHAR LIMIT=50]-->
+  <string name="action_grid_priority">Prioritet:\u0020</string>
+  <string name="action_grid_due_date_today">Idag</string>
+  <string name="action_grid_due_date_tomorrow">Imorgon</string>
+  <string name="action_grid_priority_normal">Normal prioritet</string>
+  <string name="action_grid_assignee_button_bar_clear">Rensa</string>
   <!-- Prompt used if you are trying to delete a message -->
   <!-- These strings below represent the default Actions that are available for the ActionGrid -->
+  <string name="action_like">Gilla</string>
   <string name="action_todo">Att göra</string>
   <string name="action_move">Flytta</string>
   <string name="action_label">Etikett</string>
   <string name="action_archive">Arkiv</string>
+  <string name="action_star">Stjärnmärk</string>
   <!-- These strings are shown in Toast messages when an Action above is selected -->
+  <string name="custom_mailbox_settings_label">Inställningar</string>
+  <string name="custom_mailbox_background_sync_switch_on">På</string>
+  <string name="custom_mailbox_background_sync_switch_off">Av</string>
   <!-- Title for confirm delete box dialog -->
   <!-- Ratings Viral Prompt -->
   <!-- Account Setup -->
