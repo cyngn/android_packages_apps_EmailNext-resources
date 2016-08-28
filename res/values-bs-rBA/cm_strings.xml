@@ -134,7 +134,6 @@
   <!-- In Account Settings screen, label for email lookback selector -->
   <!-- The menu item to send logs -->
   <!-- The menu item to open the about section -->
-  <string name="menu_about">Pri</string>
   <!-- Name of the DeviceAdmin (seen in settings & in user confirmation screen) -->
   <!-- Settings passcode strings -->
   <!-- String array for require passcode in passcode settings -->

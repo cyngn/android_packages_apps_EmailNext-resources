@@ -319,7 +319,7 @@
     <item quantity="other">Berichten gemarkeerd als leuk</item>
   </plurals>
   <string name="invalid_selection">Ongeldige selectie</string>
-  <string name="file_action_more_than_one_account">U heeft gesprekken van meer dan één account geselecteerd. Selecteer gesprekken van maar één account.</string>
+  <string name="file_action_more_than_one_account">U hebt gesprekken van meer dan één account geselecteerd. Selecteer gesprekken van maar één account.</string>
   <string name="action_more_than_one_conversation">De geselecteerde actie ondersteunt slechts één gesprek tegelijk. Selecteer slechts één gesprek.</string>
   <string name="not_installed">Niet geïnstalleerd</string>
   <string name="evernote_not_installed">Evernote lijkt niet te zijn geïnstalleerd. Installeer Evernote om deze functionaliteit te kunnen gebruiken.</string>
@@ -355,7 +355,7 @@
   <string name="account_setup_vendor_heading">Welkom bij e-mail</string>
   <!-- Like Feature -->
   <string name="like_action_dialog_tittle">Wat is \'Leuk vinden\'?</string>
-  <string name="like_action_dialog_message">U heeft onze favoriete functie gevonden. Wanneer u een bericht markeert als \'leuk\', wordt er een e-mail verstuurd om de verzender en andere ontvangers te laten weten dat u het bericht leuk vindt. Het is een snelle manier om op e-mails te reageren.</string>
+  <string name="like_action_dialog_message">U hebt onze favoriete functie gevonden. Wanneer u een bericht markeert als \'leuk\', wordt er een e-mail verstuurd om de verzender en andere ontvangers te laten weten dat u het bericht leuk vindt. Het is een snelle manier om op e-mails te reageren.</string>
   <!-- Displayed on a button whose action is to create something new. -->
   <string name="new_button">Nieuw</string>
   <!-- Text hint when creating a new folder from the move/label dialog. -->
@@ -365,7 +365,7 @@
   <!-- Error title used when the user tries to add a folder that matches an existing folder. -->
   <string name="duplicate_folder_title">Map bestaat al</string>
   <!-- Error message used when the user tries to add a folder that matches an existing folder. -->
-  <string name="duplicate_folder_message">De mapnaam die u heeft ingevoerd bestaat al.</string>
+  <string name="duplicate_folder_message">De mapnaam die u hebt ingevoerd bestaat al.</string>
   <!-- Title used for generic error alerts. -->
   <string name="error">Fout</string>
   <!-- Error message displayed when a folder fails to be created on the server. -->

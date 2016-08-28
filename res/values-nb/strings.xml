@@ -584,40 +584,70 @@
   <!-- Compose screen, displayed at the top of a message being replied to. Please preserve the HTML entities (surrounded by & and ;).  The two %s strings will be replaced by 1) the date 2) the person who wrote the email being responded to. [CHAR LIMIT=1000]-->
   <string name="reply_attribution"><xliff:g id="date">%1$s</xliff:g> skrev <xliff:g id="person">%2$s</xliff:g>:</string>
   <!-- Compose screen, displayed at the top of a message being forwarded. Please preserve the HTML entities (surrounded by & and ;). [CHAR LIMIT=1000] -->
+  <string name="forward_attribution">---------- Videresendt e-post ----------&lt;br&gt;Fra: <xliff:g id="from">%1$s</xliff:g>&lt;br&gt;Dato: <xliff:g id="date">%2$s</xliff:g>&lt;br&gt;Emne: <xliff:g id="subject">%3$s</xliff:g>&lt;br&gt;Til: <xliff:g id="to">%4$s</xliff:g>&lt;br&gt;</string>
   <!-- Compose screen, displayed at the top of a message being forwarded. [CHAR LIMIT=100]-->
+  <string name="forward_attribution_no_headers">---------- Videresendt e-post ----------</string>
   <!-- Compose screen, displayed at the top of a message being forwarded if there are any email addresses in the CC list. Please preserve the HTML entities (surrounded by & and ;). [CHAR LIMIT=1000]-->
+  <string name="cc_attribution">Kopi: <xliff:g id="cc">%1$s</xliff:g>&lt;br&gt;</string>
   <!-- Dialog text: select the type of an attachment while composing [CHAR LIMIT=100]-->
+  <string name="select_attachment_type">Velg vedleggstype</string>
   <!-- Toast, attachment too large for single file [CHAR LIMIT=100] -->
+  <string name="too_large_to_attach_single">Filer på mer enn <xliff:g id="maxSize">%1$s</xliff:g> kan ikke legges ved.</string>
   <!-- Toast, attachment too large for multiple files [CHAR LIMIT=100] -->
+  <string name="too_large_to_attach_multiple">Én eller flere av filene ble ikke vedlagt. Grensen er på <xliff:g id="maxSize">%1$s</xliff:g>.</string>
   <!-- Toast, attachment too large when existing attachments exist [CHAR LIMIT=100] -->
+  <string name="too_large_to_attach_additional">Filen ble ikke vedlagt. Du har nådd maksgrensen på <xliff:g id="maxSize">%1$s</xliff:g>.</string>
   <!-- Toast, problem attaching file [CHAR LIMIT=100] -->
+  <string name="generic_attachment_problem">Kunne ikke legge ved fil.</string>
   <!-- Displayed for one second after trying to send with no recipients in To field [CHAR LIMIT=200]-->
+  <string name="recipient_needed">Legg til minst én mottaker.</string>
   <!-- Title for recipient error dialog [CHAR LIMIT=200]-->
   <!-- Title for send confirmation dialog [CHAR LIMIT=200]-->
   <!-- Messages for send confirmation dialog [CHAR LIMIT=100]-->
+  <string name="confirm_send_message_with_no_subject">E-postens emne har ingen tekst.</string>
+  <string name="confirm_send_message_with_no_body">E-posten har ingen tekst.</string>
+  <string name="confirm_send_message">Vil du sende denne e-posten?</string>
   <!-- Displayed for one second after discarding draft message [CHAR LIMIT=50]-->
+  <string name="message_discarded">E-posten er forkastet.</string>
   <!--  Shown in the from dropdown in front of custom from addresses. [CHAR LIMIT=15] -->
+  <string name="custom_from_account_label">Send e-post som:</string>
   <!-- Menu item: send this message -->
+  <string name="send">Send</string>
   <!-- Menu item: mark this conversation as read -->
+  <string name="mark_read">Merk som lest</string>
   <!-- Menu item: mark this conversation as unread -->
+  <string name="mark_unread">Merk som ulest</string>
   <!--  Menu item: mute this conversation -->
   <!-- Menu item: add a star to this conversation -->
+  <string name="add_star">Legg til stjerne</string>
   <!-- Menu item: remove the star from this conversation -->
+  <string name="remove_star">Fjern stjerne</string>
   <!-- Remove the folder from this conversation [CHAR LIMIT = 30]-->
   <!-- Menu item: archive this conversation -->
+  <string name="archive">Arkiv</string>
   <!-- Menu item: report this conversation as spam [CHAR LIMIT = 30] -->
+  <string name="report_spam">Rapportér nettsøppel</string>
   <!-- Menu item: report this conversation not as spam [CHAR LIMIT = 30] -->
   <!-- Menu item: report this conversation as phishing [CHAR LIMIT = 30] -->
   <!-- Menu item: delete this conversation -->
+  <string name="delete">Slett</string>
   <!-- Menu item: discard the drafts in this conversation [CHAR LIMIT = 30] -->
+  <string name="discard_drafts">Forkast utkastene</string>
   <!-- Menu item: refresh the inbox -->
+  <string name="refresh">Last inn på nytt</string>
   <!-- Menu item: reply to this message -->
+  <string name="reply">Svar</string>
   <!-- Menu item: reply to all recipients in this message [CHAR LIMIT=18] -->
+  <string name="reply_all">Svar alle</string>
   <!-- Menu item: resume a draft message [CHAR LIMIT=12] -->
+  <string name="resume_draft">Rediger</string>
   <!-- Menu item: forward this message -->
+  <string name="forward">Videresend</string>
   <!-- Menu item: compose a new email -->
   <!-- Menu item: change the folders for this conversation. -->
+  <string name="menu_change_folders">Bytt mapper</string>
   <!-- Menu item: moves to folders for selected conversation(s). [CHAR LIMIT = 30] -->
+  <string name="menu_move_to">Flytt til</string>
   <!-- Menu item: moves current or selected conversation(s) to Inbox. [CHAR LIMIT = 30] -->
   <!-- Menu item: manages the folders for this account. [CHAR LIMIT = 30] -->
   <!-- Menu item text to show the original version of an email conversation, before message manipulation [CHAR LIMIT=25] -->
@@ -625,86 +655,192 @@
   <!-- Menu item: launch the Settings activity -->
   <string name="menu_settings">Innstillinger</string>
   <!-- Menu item: search through the Gmail inbox -->
+  <string name="menu_search">Søk</string>
   <!--  Menu item: shown in conversation menu. Tap this to move to mark conversation as important [CHAR LIMIT=30] -->
+  <string name="mark_important">Merk som viktig</string>
   <!--  Menu item: shown in conversation menu. Tap this to move to mark conversation as not important [CHAR LIMIT=30] -->
+  <string name="mark_not_important">Merk som uviktig</string>
   <!-- Compose screen, menu item: add Cc/Bcc fields -->
+  <string name="add_cc_label">Legg til Kopi/Blindkopi</string>
   <!-- Compose screen, menu item: add Bcc field [CHAR_LIMIT=20]-->
   <!-- Solicit feedback string in about screen [CHAR LIMIT=50]-->
   <!-- Menu item that displays the help page for Gmail. [CHAR LIMIT=50]-->
   <string name="help_and_info">Hjelp</string>
   <!-- Compose screen, Prefix to quoted text in forwarded/replied message [CHAR LIMIT=50]-->
+  <string name="quoted_text">Inkluder sitert tekst</string>
   <!-- Compose screen, Prefix to quoted text in forwarded/replied message; folder for the quoted text area. [CHAR LIMIT=25] -->
+  <string name="quoted_text_label">Siter tekst</string>
   <!--  Button for including inline responses. [CHAR LIMIT=25] -->
+  <string name="respond_inline">Integrert svar</string>
   <!-- Format string for email addresses -->
   <!-- Attachments -->
   <!-- Size unit, displayed in a button next to an attachment [CHAR LIMIT=5]-->
+  <string name="bytes"><xliff:g id="count">%1$s</xliff:g> B</string>
   <!-- Size unit, displayed in a button next to an attachment [CHAR LIMIT=5] -->
+  <string name="kilobytes"><xliff:g id="count">%1$s</xliff:g> KB</string>
   <!-- Size unit, displayed in a button next to an attachment  [CHAR LIMIT=5]-->
+  <string name="megabytes"><xliff:g id="count">%1$s</xliff:g> MB</string>
   <!-- Attachment description for image files [CHAR LIMIT=30] -->
+  <string name="attachment_image">Bilde</string>
   <!-- Attachment description for video files [CHAR LIMIT=30] -->
+  <string name="attachment_video">Video</string>
   <!-- Attachment description for audio files [CHAR LIMIT=30] -->
+  <string name="attachment_audio">Lyd</string>
   <!-- Attachment description for text files [CHAR LIMIT=30] -->
+  <string name="attachment_text">Tekst</string>
   <!-- Attachment description for .doc files [CHAR LIMIT=30] -->
+  <string name="attachment_application_msword">Dokument</string>
   <!-- Attachment description for .ppt files [CHAR LIMIT=30] -->
+  <string name="attachment_application_vnd_ms_powerpoint">Presentasjon</string>
   <!-- Attachment description for excel files [CHAR LIMIT=30] -->
+  <string name="attachment_application_vnd_ms_excel">Regneark</string>
   <!-- Attachment description for .pdf files [CHAR LIMIT=30] -->
+  <string name="attachment_application_pdf">PDF</string>
   <!-- Attachment description for unknown files [CHAR LIMIT=30]-->
+  <string name="attachment_unknown"><xliff:g id="attachmentExtension">%1$s</xliff:g> Fil</string>
   <!-- Read email screen, button name. Preview an attachment by Gview. [CHAR LIMIT=18] -->
+  <string name="preview_attachment">Forhåndsvisning</string>
   <!-- Read email screen, button name. Save an attachment to sd card. [CHAR LIMIT=10] -->
   <string name="save_attachment">Lagre</string>
   <!-- Read email screen, button name. Cancel a downloading attachment. [CHAR LIMIT=10] -->
   <!-- Read email screen, button name. Redownload an attachment [CHAR LIMIT=20]-->
+  <string name="download_again">Last ned på nytt</string>
   <!-- Dialog box title [CHAR LIMIT=30] -->
+  <string name="more_info_attachment">Info</string>
   <!-- Dialog box message, displayed when we could not view an attachment. [CHAR LIMIT=200]-->
+  <string name="no_application_found">Ingen apper kan åpne dette vedlegget slik at du kan se det.</string>
   <!-- Dialog box title. [CHAR LIMIT=30] -->
+  <string name="fetching_attachment">Henter vedlegg</string>
   <!-- Dialog box message. [CHAR LIMIT=80] -->
   <!-- Displayed in the conversation view, next to a file's size and type. Status of a saved attachment. [CHAR LIMIT=20]-->
+  <string name="saved">Lagret, <xliff:g id="size">%1$s</xliff:g></string>
   <!-- Displayed in the conversation view. Status of a failed attachment. [CHAR LIMIT=50]-->
+  <string name="download_failed">Kunne ikke laste ned. Trykk for å prøve på nytt.</string>
   <!-- Displayed in the conversation view, as a header informing
          the user that the following is the attachments. [CHAR LIMIT=100] -->
+  <string name="attachments_header">Vedlegg</string>
   <!-- Photo view screen, button name. Save all attachments to sd card. [CHAR LIMIT=17] -->
+  <string name="menu_photo_save_all">Lagre alle</string>
   <!-- Photo view screen, button name. Share attachment. [CHAR LIMIT=10] -->
+  <string name="menu_photo_share">Del</string>
   <!-- Photo view screen, button name. Share all attachments. [CHAR LIMIT=20] -->
+  <string name="menu_photo_share_all">Del alle</string>
   <!-- Displayed in the action bar as a subtitle. Save in progress. [CHAR LIMIT=15] -->
+  <string name="saving">Lagrer&#8230;</string>
   <!-- Webview Context Menu Strings -->
   <!-- Title of dialog for choosing which activity to share a link with. [CHAR LIMIT=50]-->
+  <string name="choosertitle_sharevia">Del via</string>
   <!-- Menu item to open a link  [CHAR LIMIT=50]-->
+  <string name="contextmenu_openlink">Åpne i nettleser</string>
   <!-- Menu item to copy the selection  [CHAR LIMIT=50]-->
+  <string name="contextmenu_copy">Kopiér</string>
   <!-- Menu item to copy a link  [CHAR LIMIT=50]-->
+  <string name="contextmenu_copylink">Kopier koblingsadresse</string>
   <!-- Menu item to dial a number  [CHAR LIMIT=50]-->
+  <string name="contextmenu_dial_dot">Ring\u2026</string>
   <!-- Menu item to send an SMS  [CHAR LIMIT=50]-->
+  <string name="contextmenu_sms_dot">SMS\u2026</string>
   <!-- Menu item to add a contact  [CHAR LIMIT=50]-->
+  <string name="contextmenu_add_contact">Legg til kontakt</string>
   <!-- Menu item to send an email [CHAR LIMIT=50] -->
+  <string name="contextmenu_send_mail">Send e-post</string>
   <!-- Menu item to show a map  [CHAR LIMIT=50]-->
+  <string name="contextmenu_map">Kart</string>
   <!-- Menu item to share link  [CHAR LIMIT=50]-->
+  <string name="contextmenu_sharelink">Del lenke</string>
   <!-- Menu item that displays the help page for Gmail.  [CHAR LIMIT=50]-->
   <!-- Solicit feedback string in about screen [CHAR LIMIT=50]-->
   <!-- Browse list item strings -->
   <!-- Text indicating how many messages are selected in the top action bar
     [CHAR LIMIT=40] -->
   <!--  Displayed when drag and drop conversations "Move ? conversations" [CHAR LIMIT=50] -->
+  <plurals name="move_conversation">
+    <!-- Move 1 conversation -->
+    <item quantity="one">Flytt samtale</item>
+    <!-- Move several conversations -->
+    <item quantity="other">Flytt <xliff:g>%1$d</xliff:g> samtaler</item>
+  </plurals>
   <!-- Formatting string for the content description field of a conversation list item when device is in accessibility mode. [CHAR LIMIT=250] -->
+  <string name="content_description"><xliff:g id="sender">%1$s</xliff:g> om <xliff:g id="subject">%2$s</xliff:g>, <xliff:g id="snippet">%3$s</xliff:g> på <xliff:g id="date">%4$s</xliff:g>, <xliff:g id="readstate">%5$s</xliff:g></string>
   <!-- Formatting string for the content description field of a conversation list item when device is in accessibility mode and the message was received today. [CHAR LIMI=250] -->
+  <string name="content_description_today"><xliff:g id="sender">%1$s</xliff:g> om <xliff:g id="subject">%2$s</xliff:g>, <xliff:g id="snippet">%3$s</xliff:g> kl. <xliff:g id="time">%4$s</xliff:g>, <xliff:g id="readstate">%5$s</xliff:g></string>
   <!-- String used in content description field of a conversation list item when device is in accessibility mode and the conversation was read [CHAR LIMIT=250] -->
+  <string name="read_string">samtalen er lest</string>
   <!-- String used in content description field of a conversation list item when device is in accessibility mode and the conversation was not read [CHAR LIMIT=250] -->
+  <string name="unread_string">samtalen er ulest</string>
   <!-- Formatting string. If the subject contains the tag of a mailing-list (text surrounded with
     return the subject with that tag ellipsized, e.g. "[android-gmail-team] Hello" -> "[andr...] Hello" [CHAR LIMIT=100] -->
+  <string name="filtered_tag"> [<xliff:g id="tag">%1$s</xliff:g>]<xliff:g id="subject">%2$s</xliff:g></string>
   <!-- Displayed in Conversation Header View and Widget in the form of "subject - snippet"
          [CHAR LIMIT=5] -->
+  <string name="subject_and_snippet"><xliff:g>%1$s</xliff:g> \u2014 <xliff:g>%2$s</xliff:g></string>
   <!-- Displayed in browse list item when the list item is a draft message instead of showing the subject [CHAR LIMIT=100] -->
+  <plurals name="draft">
+    <!-- Title of the screen when there is exactly one draft -->
+    <item quantity="one">Utkast</item>
+    <!-- Title of the screen when there are more than one draft -->
+    <item quantity="other">Utkast</item>
+  </plurals>
   <!-- Message displayed in a browse list item for one second when message is being sent [CHAR LIMIT=20]-->
+  <string name="sending">Sender\u2026</string>
   <!-- Message displayed in a browse list item for one second after a send failed [CHAR LIMIT=26]-->
+  <string name="send_failed">Meldingen ble ikke sendt.</string>
   <!-- String used to represent "me" when used as an object pronoun. This string is used when
          showing the list of recipients of a message [CHAR LIMIT=15] -->
+  <string name="me_object_pronun">meg</string>
   <!-- String used to represent "me"/"I" when used as an subject pronoun. This string is use when
          showing the list of senders for a conversation list item. [CHAR LIMIT=15] -->
+  <string name="me_subject_pronun">jeg</string>
   <!-- Header for list of inboxes in the drawer (Inbox, Priority) [CHAR LIMIT=50] -->
+  <plurals name="confirm_delete_conversation">
+    <!-- Dialog message to confirm deletion of one conversation -->
+    <item quantity="one">Slette denne samtalen?</item>
+    <!-- Dialog message to confirm deletion of several conversations -->
+    <item quantity="other">Slette disse <xliff:g id="count">%1$d</xliff:g> samtalene?</item>
+  </plurals>
+  <plurals name="confirm_archive_conversation">
+    <!-- Dialog message to confirm archival of one conversation -->
+    <item quantity="one">Arkivere denne samtalen?</item>
+    <!-- Dialog message to confirm archival of several conversations -->
+    <item quantity="other">Arkivere disse <xliff:g id="count">%1$d</xliff:g> samtalene?</item>
+  </plurals>
+  <plurals name="confirm_discard_drafts_conversation">
+    <!-- Dialog message to confirm discarding drafts from one conversation [CHAR LIMIT=50] -->
+    <item quantity="one">Forkaste utkastene fra denne samtalen?</item>
+    <!-- Dialog message to confirm discarding drafts from several conversations [CHAR LIMIT=50] -->
+    <item quantity="other">Forkaste utkastene fra disse <xliff:g id="count">%1$d</xliff:g> samtalene?</item>
+  </plurals>
   <!-- Dialog text: confirm discard -->
+  <string name="confirm_discard_text">Forkaste denne e-posten?</string>
   <!-- Conversation list shared between the Activity and Widget -->
   <!-- Displayed in the middle of the screen when conversations are being loaded [CHAR LIMIT 100]-->
+  <string name="loading_conversations">Laster inn\u2026</string>
   <!-- Undo bar strings -->
   <!-- Menu item: undo latest action [CHAR LIMIT=12]-->
+  <string name="undo">Angre</string>
+  <plurals name="conversation_unstarred">
+    <item quantity="one">Fjerner stjerne fra <xliff:g id="count">%1$d</xliff:g> samtale.</item>
+    <item quantity="other">Fjerner stjerne fra <xliff:g id="count">%1$d</xliff:g> samtaler.</item>
+  </plurals>
   <!-- The following are shown as a toast after the operation has completed -->
+  <plurals name="conversation_muted">
+    <!-- Displayed while muting one conversation -->
+    <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; dempet.</item>
+    <!-- Displayed while muting several conversations -->
+    <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; dempet.</item>
+  </plurals>
+  <plurals name="conversation_spammed">
+    <!-- Displayed while reporting one conversation as spam -->
+    <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; rapportert som søppelpost.</item>
+    <!-- Displayed while reporting several conversations as spam -->
+    <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; rapportert som søppelpost.</item>
+  </plurals>
+  <plurals name="conversation_not_spam">
+    <!-- Displayed while reporting one conversation as not spam -->
+    <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; rapportert at ikke er søppelpost.</item>
+    <!-- Displayed while reporting several conversations as not spam -->
+    <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; rapportert at ikke er søppelpost.</item>
+  </plurals>
   <!-- Displayed when swiping away a single conversation to delete it [CHAR LIMIT=80] -->
   <!-- Displayed when swiping away a single conversation to archive it [CHAR LIMIT=80] -->
   <!-- Displayed when swiping away a single conversation to remove the currently displayed folder [CHAR LIMIT=80] -->

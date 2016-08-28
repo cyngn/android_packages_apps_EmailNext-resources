@@ -27,8 +27,21 @@
   <string name="mailbox_name_display_archive">Архива</string>
   <string name="mailbox_name_local_only_display_name"> - Локално</string>
   <string name="account_setup_email_address_hint">Унеси своју адресу Е-поште</string>
+  <string name="account_setup_password_label">Унеси лозинку</string>
+  <string name="account_setup_discovery_account_name_hint">Име налога</string>
+  <string name="account_setup_username_invalid_chars">Следећи знакови нису дозвољени: <xliff:g id="chars">%1$s</xliff:g></string>
+  <string name="account_setup_invalid_server_address">Унета неважећа адреса сервера</string>
+  <string name="account_setup_oauth_required_failure">Верификација у два корака није још увек подржана за <xliff:g id="account_type">%1$s</xliff:g> налоге. Улогуј се у свој налог да креираш одређену лозинку за апликацију.</string>
+  <string name="account_setup_domain_label">Домен</string>
+  <string name="account_setup_server_info_heading">Информације о серверу</string>
   <string name="account_setup_security_heading">Заштита</string>
+  <string name="account_setup_general_heading">Поставке налога</string>
   <string name="account_setup_authentication_heading">Провера</string>
+  <string name="account_setup_passcode_title">Exchange админ тражи да поставиш лозинку за синхронизацију.</string>
+  <string name="account_setup_passcode_hint">Унеси лозинку</string>
+  <string name="account_setup_confirm_passcode_title">Потврди лозинку</string>
+  <string name="account_setup_confirm_passcode_action_label">Потврди</string>
+  <string name="account_setup_check_settings_dialog_manual_button">Ручно</string>
   <!-- Error message shown in dialog body when authenticating an account during setup fails -->
   <!-- Dialog title when "setup" could not finish -->
   <!-- hint for account email password text field -->
@@ -132,24 +145,47 @@
   <!-- New Message notification text that appears over conversation view on incoming message. [CHAR LIMIT=40] -->
   <!-- New Message notification text that appears over conversation view on incoming messages. Will only be used if there is more than one new message. [CHAR LIMIT=40] -->
   <!-- Button name, displayed in dialogs [CHAR LIMIT=10] -->
+  <string name="edit">Измени</string>
   <!-- Hint for searching/filtering folders in the folder selection dialog [CHAR LIMIT=30] -->
+  <string name="folder_search_hint">Претрага</string>
   <!-- The section headers for the move to folder dialog [CHAR LIMIT=15] -->
+  <string-array name="moveto_folder_sections">
+    <item>Паметни фолдери</item>
+    <item>Сви фолдери</item>
+  </string-array>
   <!-- The section headers for the change folders dialog [CHAR LIMIT=15] -->
+  <string-array name="change_folders_sections">
+    <item>Паметне ознаке</item>
+    <item>Све ознаке</item>
+  </string-array>
   <!-- String used in the FolderListFragment to mark the start of "boxes" -->
+  <string name="boxes_heading">Кутије</string>
   <!-- String used in the FolderListFragment to mark the start of user-defined folders -->
+  <string name="all_folders_heading">Фолдери</string>
   <!-- String used in the FolderListFragment to mark the start of accounts -->
+  <string name="accounts_heading">Налози</string>
   <!-- Default email signature on vendor builds -->
+  <string name="vendor_signature">Послато са мог Cyanogen телефона</string>
+  <string name="vendor_signature_o2">Послато од Cyanogen-а на O2</string>
   <!-- Notification action for deleting a message. [CHAR LIMIT=20] -->
   <!-- Notification action for replying to a message. [CHAR LIMIT=20] -->
+  <string name="notification_action_reply">ОДГОВОРИ</string>
   <!-- Notification action for deleting a message. [CHAR LIMIT=20] -->
   <!-- Notification message to the user upon new messages for a conversation. [CHAR LIMIT=120] -->
   <!--  Settings screen, Swipe actions preference title -->
+  <string name="preferences_swipe_actions_title">Акција превлачења</string>
   <!--  Settings screen, Swipe actions preference summary -->
+  <string name="preferences_swipe_actions_summary">Прилагоди акцију левог и десног превлачења</string>
   <!--  Settings screen, Swipe actions, Left short preference title -->
+  <string name="preferences_swipe_left_short_title">Лево кратко превлачење</string>
   <!--  Settings screen, Swipe actions, Left long preference title -->
+  <string name="preferences_swipe_left_long_title">Лево дуго превлачење</string>
   <!--  Settings screen, Swipe actions, Right short preference title -->
+  <string name="preferences_swipe_right_short_title">Десно кратко превлачење</string>
   <!--  Settings screen, Swipe actions, Right long preference title -->
+  <string name="preferences_swipe_right_long_title">Десно дуго превлачење</string>
   <!-- Menu item text to that when clicked will allow a user to print an email conversation. [CHAR LIMIT=25] -->
+  <string name="print">Штампај</string>
   <!-- Number of messages in a conversation [CHAR LIMIT=30]-->
   <!-- Shown to display the date of the message [CHAR LIMIT=50] -->
   <!-- Shown to display the to recipient(s) of the message if the message is a draft [CHAR LIMIT=20] -->
@@ -157,15 +193,58 @@
   <!-- Shown to inform the user that the quoted text for this message has been hidden. [CHAR LIMIT=50] -->
   <!-- Number of attachments in a message [CHAR LIMIT=30]-->
   <!-- Title to display when an email has no subject. [CHAR LIMIT=50]-->
+  <string name="action_grid_due_date_specific_date">Одређени датум</string>
+  <string name="action_grid_priority_dialog_title">Постави приоритет</string>
+  <string name="action_grid_priority_highest">Највиши приоритет</string>
+  <string name="action_grid_priority_high">Висок приоритет</string>
+  <string name="action_grid_priority_normal">Нормални приоритет</string>
+  <string name="action_grid_priority_low">Низак приоритет</string>
+  <string name="action_grid_priority_lowest">Најнижи приоритет</string>
+  <string name="action_grid_assignee_dialog_title">Додај представника</string>
+  <string name="action_grid_assignee_search_for_contact">Претражи контакте</string>
+  <string name="action_grid_assignee_button_bar_clear">Брисање</string>
   <!-- Prompt used if you are trying to delete a message -->
+  <string name="action_message_header_delete">Обриши ову поруку?</string>
   <!-- These strings below represent the default Actions that are available for the ActionGrid -->
+  <string name="action_like">Like</string>
   <string name="action_todo">За урадити</string>
+  <string name="action_quick">Брзина</string>
   <string name="action_move">Премести</string>
   <string name="action_label">Ознака</string>
+  <string name="action_move_or_label">Премести/Ознака</string>
   <string name="action_archive">Архива</string>
+  <string name="action_delete">Обриши</string>
+  <string name="action_spam">Спам</string>
+  <string name="action_flag">Ознака</string>
+  <string name="action_star">Звезда</string>
+  <string name="action_clear_star">Очисти звезду</string>
+  <string name="action_star_or_flag">Звезда/Ознака</string>
+  <string name="action_mark_unread">Означи као непрочитано</string>
+  <string name="action_mark_read">Означи као прочитано</string>
+  <string name="action_read_or_unread">Прочитано/Непрочитано</string>
+  <string name="action_actions">Радње</string>
   <!-- These strings are shown in Toast messages when an Action above is selected -->
+  <string name="invalid_selection">Неважећи избор</string>
+  <string name="file_action_more_than_one_account">Изабрао си конверзацију са више од једног налога. Покушај изабрати конверзацију само са једним налогом.</string>
+  <string name="not_installed">Није инсталирано</string>
+  <string name="evernote_not_installed">Evernote изгледа није инсталиран. Молим инсталирајте да би користили ову функционалност.</string>
+  <string name="custom_mailbox_button">Додај прилагођену кутију</string>
+  <string name="custom_mailbox_settings_label">Подешавања</string>
+  <string name="custom_mailbox_folder_name_hint">Име прилагођене кутије</string>
+  <string name="custom_mailbox_background_sync_label">Синхронизација у позадини</string>
+  <string name="custom_mailbox_background_sync_switch_on">Укљ</string>
+  <string name="custom_mailbox_background_sync_switch_off">Иск</string>
+  <string name="custom_mailbox_delete_box">Обриши кутију</string>
+  <string name="custom_mailbox_error_no_selected_folders">Изабери барем један фолдер са доње листе</string>
   <!-- Title for confirm delete box dialog -->
+  <string name="custom_mailbox_delete_box_dialog_title">Упозорење</string>
+  <string name="custom_mailbox_delete_box_dialog_message">Да ли сте сигурни да желите обрисати прилагођену кутију?</string>
+  <string name="custom_mailbox_error_deleting_box">Грешка при брисању твоје прилагођене поштанске кутије</string>
   <!-- Ratings Viral Prompt -->
+  <string name="viral_prompt_rate_app_title">Оцени ову апликацију</string>
+  <string name="viral_prompt_rate_app_body">Ако сте задовољни коришћењем ове апликације, да ли би одвојили момент да је оцените? Неће трајати више од минуте. Хвала за подршку!</string>
+  <string name="viral_ratings_prompt_rate_now">Оцени сада</string>
+  <string name="promo_code_edittext_hint">Унеси промотивни код</string>
   <!-- Account Setup -->
   <!-- Like Feature -->
   <!-- Displayed on a button whose action is to create something new. -->
@@ -180,14 +259,35 @@
   <!-- Toast message for above action -->
   <!-- Conversation list shared between the Activity and Widget -->
   <!-- Displayed in the middle of the screen when conversations are being loaded [CHAR LIMIT 100]-->
+  <string name="empty_spam_folder">Ура, нема спама овде!</string>
+  <string name="empty_trash_folder">Нема ђубрета овде. Хвала за рециклажу!</string>
   <!-- Calendar invite hero card -->
   <!-- Link for opening an invite's event in the calendar app. -->
+  <string name="view_on_calendar">Преглед на календару</string>
   <!-- Response action buttons. -->
+  <string name="accept">Прихвати</string>
+  <string name="maybe">Можда</string>
+  <string name="decline">Одбиј</string>
+  <string name="remove_from_cal">Уклони из календара</string>
+  <string name="remove_series_from_cal">Уклони серију из календара</string>
   <!-- Attendee text when user is the only attendee. -->
+  <string name="calendar_attendees_me_only">Мени</string>
   <!-- Attendee text when there are additional attendees. -->
   <!-- Accompanies the date/time for all day events. -->
+  <string name="all_day">Цео дан</string>
   <!-- Status for canceled events. -->
+  <string name="canceled">Отказано</string>
   <!-- Send availability strings -->
+  <string name="times_that_work_for_me">Време које траје за мене:</string>
+  <string name="availability_by">Расположиво од</string>
+  <string name="remove_availability">Уклони расположивост</string>
+  <string name="event_over">Догађај завршен</string>
+  <string name="busy">Заузет</string>
+  <string name="available">Доступан</string>
+  <string name="meeting_invitation">Резиме позивнице:</string>
+  <string name="invitation_by">Позивница од</string>
+  <string name="remove_invite">Уклони позивницу</string>
+  <string name="error_no_app_store">Није пронађена одговарајућа апликација за складиштење</string>
   <!-- String shown in the TO field when it is blank -->
   <!-- Title for enter passcode screen -->
   <!-- Start of combined settings strings -->
@@ -196,9 +296,36 @@
   <!-- The menu item to send logs -->
   <!-- The menu item to open the about section -->
   <string name="menu_about">О програму</string>
+  <string name="version">Верзија</string>
+  <string name="build_date">Датум издања</string>
+  <string name="open_source">Лиценце отвореног кода</string>
   <!-- Name of the DeviceAdmin (seen in settings & in user confirmation screen) -->
+  <string name="device_admin_label">Boxer</string>
   <!-- Settings passcode strings -->
+  <string name="settings_passcode_change">Промени лозинку</string>
   <!-- String array for require passcode in passcode settings -->
+  <string name="settings_require_passcode_1min">1 минут</string>
+  <string name="settings_require_passcode_2min">2 минута</string>
+  <string name="settings_require_passcode_3min">3 минута</string>
+  <string name="settings_require_passcode_4min">4 минута</string>
+  <string name="settings_require_passcode_5min">5 минута</string>
+  <string name="settings_require_passcode_10min">10 минута</string>
+  <string name="settings_require_passcode_15min">15 минута</string>
+  <string name="settings_require_passcode_30min">30 минута</string>
+  <string name="settings_require_passcode_1hour">1 сат</string>
+  <string name="settings_require_passcode_1.5hours">1,5 сат</string>
+  <string name="settings_require_passcode_4hours">4 сата</string>
+  <plurals name="settings_require_passcode_minutes">
+    <item quantity="one">минут</item>
+    <item quantity="few">минути</item>
+    <item quantity="other">минути</item>
+  </plurals>
+  <plurals name="settings_require_passcode_hours">
+    <item quantity="one">сат</item>
+    <item quantity="few">сати</item>
+    <item quantity="other">сати</item>
+  </plurals>
   <!-- Permission related string -->
+  <string name="permissions_enable">Омогући</string>
   <!-- String shown as a toast when sending a quick response fails due to some unknown error-->
 </resources>

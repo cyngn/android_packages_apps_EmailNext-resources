@@ -30,6 +30,7 @@
   <string name="account_setup_password_label">Zadejte heslo</string>
   <string name="account_setup_discovery_account_name_hint">Název účtu</string>
   <string name="account_setup_username_invalid_chars">Následující znaky nejsou povoleny: <xliff:g id="chars">%1$s</xliff:g></string>
+  <string name="account_setup_invalid_server_address">Byla zadána neplatná adresa serveru</string>
   <string name="account_setup_domain_label">Doména</string>
   <string name="account_setup_server_info_heading">Info o serveru</string>
   <string name="account_setup_security_heading">Zabezpečení</string>

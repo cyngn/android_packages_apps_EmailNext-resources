@@ -98,6 +98,7 @@
   <!-- Notification title when a forwarded attachment couldn't be sent [CHAR LIMIT=30]-->
   <string name="forward_download_failed_title">Anhang nicht weitergeleitet</string>
   <!-- Notification ticker when email account authentication fails [CHAR LIMIT=none] -->
+  <string name="login_failed_ticker">Anmeldung bei <xliff:g id="account_name">%1$s</xliff:g> fehlgeschlagen.</string>
   <!-- Notification title when email account authentication fails [CHAR LIMIT=30]-->
   <string name="login_failed_title">Anmeldung nicht möglich</string>
   <!-- Size unit for bytes for attachments [CHAR LIMIT=10] -->
@@ -339,6 +340,7 @@
   <!-- "Setup could not finish" dialog action button -->
   <string name="account_setup_failed_dlg_edit_details_action">Details bearbeiten</string>
   <!-- Notification ticker when device password is getting ready to expire [CHAR_LIMIT=80] -->
+  <string name="password_expire_warning_ticker_fmt">\"<xliff:g id="account">%1$s</xliff:g>\" erfordert, dass Sie PIN bzw. Passwort für die Bildschirmsperre ändern.</string>
   <!-- Notification content title when device password is getting ready to expire
             [CHAR_LIMIT=30] -->
   <string name="password_expire_warning_content_title">Passwort für Bildschirmperre läuft ab</string>
@@ -349,9 +351,11 @@
   <!-- Dialog title if device pin/password is going to expire soon. [CHAR_LIMIT=40] -->
   <string name="password_expire_warning_dialog_title">Passwort für Bildschirmperre läuft ab</string>
   <!-- Dialog content device pin/password is going to expire soon. [CHAR_LIMIT=none] -->
+  <string name="password_expire_warning_dialog_content_fmt">Sie müssen Ihre PIN oder Ihr Passwort für die Bildschirmperre bald ändern, weil sonst die Daten für <xliff:g id="account">%1$s</xliff:g> gelöscht werden. Möchten Sie die Änderung jetzt durchführen?</string>
   <!-- Dialog title if device pin/password has already expired. [CHAR_LIMIT=40] -->
   <string name="password_expired_dialog_title">Sperr-Passwort abgelaufen</string>
   <!-- Dialog content device pin/password has already expired. [CHAR_LIMIT=none] -->
+  <string name="password_expired_dialog_content_fmt">Die Daten für <xliff:g id="account">%1$s</xliff:g> werden von Ihrem Gerät gelöscht. Sie können die Daten wiederherstellen, indem Sie Ihren PIN für die Bildschirmsperre oder Ihr Passwort ändern. Möchten Sie den PIN oder das Passwort jetzt ändern?</string>
   <!-- On AccountSettingsXL, dialog text if you try to exit in/out/eas fragment (server settings)
          without checking/saving [CHAR LIMIT=none]-->
   <string name="account_settings_exit_server_settings">Nicht gespeicherte Änderungen verwerfen?</string>
@@ -360,8 +364,10 @@
   <string name="account_settings_login_dialog_title">Anmeldung nicht möglich</string>
   <!-- Dialog content if you were brought here due to a login failure.
         [CHAR_LIMIT=none] -->
+  <string name="account_settings_login_dialog_content_fmt">Benutzername oder Passwort für <xliff:g id="account">%1$s</xliff:g> ist falsch. Möchten Sie die Daten jetzt ändern?</string>
   <!-- Dialog content if you were brought here due to a login failure, and the server provided a reason
         [CHAR_LIMIT=none] -->
+  <string name="account_settings_login_dialog_reason_fmt">Fehler bei Ihrer Anmeldung bei <xliff:g id="account">%1$s</xliff:g>, Servermeldung: <xliff:g id="reason">%2$s</xliff:g>. Möchten Sie Ihren Benutzernamen und/oder Ihr Passwort aktualisieren?</string>
   <!-- On Settings screen, setting option name -->
   <!-- Title of account preference for downloading attachments in background [CHAR LIMIT=32] -->
   <string name="account_settings_background_attachments_label">Anhänge herunterladen</string>
@@ -612,7 +618,9 @@
   <string name="mark_unread">Als ungelesen markieren</string>
   <!--  Menu item: mute this conversation -->
   <!-- Menu item: add a star to this conversation -->
+  <string name="add_star">Mit Stern markieren</string>
   <!-- Menu item: remove the star from this conversation -->
+  <string name="remove_star">Stern entfernen</string>
   <!-- Remove the folder from this conversation [CHAR LIMIT = 30]-->
   <!-- Menu item: archive this conversation -->
   <string name="archive">Archivieren</string>
@@ -704,6 +712,7 @@
   <string name="fetching_attachment">Anhang wird abgerufen</string>
   <!-- Dialog box message. [CHAR LIMIT=80] -->
   <!-- Displayed in the conversation view, next to a file's size and type. Status of a saved attachment. [CHAR LIMIT=20]-->
+  <string name="saved">Gespeichert, <xliff:g id="size">%1$s</xliff:g></string>
   <!-- Displayed in the conversation view. Status of a failed attachment. [CHAR LIMIT=50]-->
   <string name="download_failed">Downloadfehler. Zum Wiederholen berühren.</string>
   <!-- Displayed in the conversation view, as a header informing
@@ -808,7 +817,29 @@
   <!-- Undo bar strings -->
   <!-- Menu item: undo latest action [CHAR LIMIT=12]-->
   <string name="undo">Rückgängig</string>
+  <plurals name="conversation_unstarred">
+    <item quantity="one">Stern wird von <xliff:g id="count">%1$d</xliff:g> Konversation entfernt.</item>
+    <item quantity="other">Stern wird von <xliff:g id="count">%1$d</xliff:g> Konversationen entfernt.</item>
+  </plurals>
   <!-- The following are shown as a toast after the operation has completed -->
+  <plurals name="conversation_muted">
+    <!-- Displayed while muting one conversation -->
+    <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; wird ignoriert.</item>
+    <!-- Displayed while muting several conversations -->
+    <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; werden ignoriert.</item>
+  </plurals>
+  <plurals name="conversation_spammed">
+    <!-- Displayed while reporting one conversation as spam -->
+    <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; als Spam gemeldet.</item>
+    <!-- Displayed while reporting several conversations as spam -->
+    <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; als Spam gemeldet.</item>
+  </plurals>
+  <plurals name="conversation_not_spam">
+    <!-- Displayed while reporting one conversation as not spam -->
+    <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; als kein Spam gemeldet.</item>
+    <!-- Displayed while reporting several conversations as not spam -->
+    <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; als kein Spam gemeldet.</item>
+  </plurals>
   <plurals name="conversation_not_important">
     <!-- Displayed while reporting one conversation as not important in the important folder -->
     <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; als nicht wichtig markiert.</item>
@@ -850,6 +881,7 @@
   <!-- Search Results: Text for header that is shown above search results [CHAR LIMIT=30] -->
   <string name="search_results_header">Ergebnisse</string>
   <!-- Toast shown when the user taps the search hard key when viewing an account that does not support search [CHAR LIMIT=100] -->
+  <string name="search_unsupported">Die Suche wird für dieses Konto nicht unterstützt.</string>
   <!-- Search Results: Text for header that is shown above search results, while waiting for search results from the server [CHAR LIMIT=30] -->
   <string name="search_results_searching_header">Suchen\u2026</string>
   <!-- Conversation view -->
@@ -862,10 +894,15 @@
   <!--  Icon name for collapsing recipient details in a message when viewing it. [CHAR LIMIT=40] -->
   <string name="collapse_recipient_details">Empfängerdetails minimieren</string>
   <!--  Icon name for showing sender contact information. [CHAR LIMIT=100] -->
+  <string name="contact_info_string">Kontaktinformationen für <xliff:g id="name">%1$s</xliff:g> anzeigen</string>
   <!--  Icon name for showing sender contact information when we cannot get sender info. [CHAR LIMIT=100] -->
   <string name="contact_info_string_default">Kontaktinformationen anzeigen</string>
   <!-- Shown in collapsed mode when a conversation has more than one read message.
          The message count is shown to the right of this text. [CHAR LIMIT=70] -->
+  <plurals name="show_messages_read">
+    <item quantity="one"><xliff:g id="count" example="4">%1$d</xliff:g> ältere Nachricht</item>
+    <item quantity="other"><xliff:g id="count" example="4">%1$d</xliff:g> ältere Nachrichten</item>
+  </plurals>
   <!-- Shown to display the from address of the message [CHAR LIMIT=10] -->
   <!-- Shown to display the reply to address of the message [CHAR LIMIT=20] -->
   <string name="replyto_heading">Antworten:\u0020</string>
@@ -993,6 +1030,7 @@
   <string name="single_new_message_notification_big_text"><xliff:g id="subject">%1$s</xliff:g>\n<xliff:g id="snippet">%2$s</xliff:g></string>
   <!-- Displayed in a message subheading. Ignore the current spam warning. [CHAR LIMIT=30] -->
   <!-- Displayed in the message heading. Shown if the message was sent via another domain. [CHAR LIMIT=10] -->
+  <string name="via_domain">über <xliff:g id="viaDomain">%1$s</xliff:g></string>
   <!-- Button text for the button to click to have the user sign in again. [CHAR LIMIT=20]-->
   <string name="signin">Anmelden</string>
   <!-- Button text for the button to click for more information. [CHAR LIMIT=20]-->
@@ -1078,12 +1116,14 @@
   <!--  Settings screen, Reply to all default setting title  [CHAR LIMIT=30] -->
   <string name="preferences_default_reply_all_title">Alle antworten</string>
   <!--  Settings screen, Reply to all default setting summary [CHAR LIMIT=70] -->
+  <string name="preferences_default_reply_all_summary">Als Standard für Antworten verwenden</string>
   <!-- Preference name for swipe action when action is archive [CHAR LIMIT=100]-->
   <!-- Preference name for swipe action when action is delete [CHAR LIMIT=100]-->
   <!-- Preference description swiping in conversation list option [CHAR LIMIT=100] -->
   <!-- In conversation list, when user initiates a downward swipe,
         this text is displayed in the action bar as a hint that they can trigger a
         sync/refresh by continuing the downward swipe. [CHAR LIMIT=60] -->
+  <string name="swipe_down_to_refresh">Zum Aktualisieren nach unten wischen</string>
   <!-- In conversation list, when user has triggered a sync via a downward swipe,
         this text is displayed in the action bar for a brief moment to
     indicate that a sync is in progress.  [CHAR LIMIT=60] -->
@@ -1133,9 +1173,11 @@
   <string name="account_settings_param">Kontoeinstellungen</string>
   <!-- Hint text that there are X number of unsent messages users
     Outbox. [CHAR LIMIT=250] -->
+  <string name="unsent_messages_in_outbox"><xliff:g id="number">%1$s</xliff:g> nicht gesendete Nachricht(en) in <xliff:g id="outbox">%2$s</xliff:g></string>
   <!-- Title of dialog to turn auto-sync on [CHAR LIMIT=100] -->
   <string name="turn_auto_sync_on_dialog_title">Automatische Synchronisierung aktivieren?</string>
   <!-- Text of dialog to turn auto-sync on [CHAR LIMIT=500] -->
+  <string name="turn_auto_sync_on_dialog_body">Änderungen, die Sie nicht nur für Gmail, sondern für alle Apps und Konten vornehmen, werden zwischen dem Web, Ihren anderen Geräten und Ihrem <xliff:g id="phone_or_tablet">%1$s</xliff:g> synchronisiert.</string>
   <!-- Phone (vs. tablet) for describing this device [CHAR LIMIT=30] -->
   <string name="phone">Telefon</string>
   <!-- Tablet (vs. phone) for describing this device [CHAR LIMIT=30] -->
@@ -1169,15 +1211,22 @@
   <!-- Car phone number type -->
   <string name="phoneTypeCar">Auto</string>
   <!-- Company main phone number type -->
+  <string name="phoneTypeCompanyMain">Hauptnummer (geschäftl.)</string>
   <!-- ISDN phone number type -->
   <string name="phoneTypeIsdn">ISDN</string>
   <!-- Main phone number type -->
+  <string name="phoneTypeMain">Hauptnummer</string>
   <!-- Other fax phone number type -->
+  <string name="phoneTypeOtherFax">Fax (sonstige)</string>
   <!-- Radio phone number type -->
   <!-- Telex phone number type -->
+  <string name="phoneTypeTelex">Telex</string>
   <!-- TTY TDD phone number type -->
+  <string name="phoneTypeTtyTdd">TTY/TDD</string>
   <!-- Work mobile phone number type -->
+  <string name="phoneTypeWorkMobile">Mobil (geschäftl.)</string>
   <!-- Work pager phone number type -->
+  <string name="phoneTypeWorkPager">Pager (geschäftl.)</string>
   <!-- Assistant phone number type -->
   <string name="phoneTypeAssistant">Assistent</string>
   <!-- MMS phone number type -->
@@ -1264,6 +1313,7 @@
   <!-- Partner relationship type [CHAR LIMIT=20] -->
   <string name="relationTypePartner">Partner</string>
   <!-- Referred by relationship type [CHAR LIMIT=20] -->
+  <string name="relationTypeReferredBy">Bekannt durch</string>
   <!-- Relative relationship type [CHAR LIMIT=20] -->
   <string name="relationTypeRelative">Verwandter</string>
   <!-- Sister relationship type [CHAR LIMIT=20] -->
@@ -1327,6 +1377,7 @@
   <!-- Debug tool - dialog - start copying [CHAR LIMIT=NONE] -->
   <string name="debug_tool_start_button">Start</string>
   <!-- Debug tool - Main message shown to the user when starting up the debug tool [CHAR LIMIT=NONE] -->
+  <string name="debug_tool_message">Sie sind dabei: 1.) eine Kopie Ihrer Kalender-Datenbank auf der SD-Karte/USB-Speicher zu speichern, die für jede App lesbar ist und 2.) diese per E-Mail zu versenden. Denken Sie daran, die Kopie zu löschen, sobald diese erfolgreich extern gesichert wurde bzw. die E-Mail erhalten wurde.</string>
   <!-- Debug tool - email subject [CHAR LIMIT=NONE] -->
   <string name="debug_tool_email_sender_picker">Wählen Sie ein Programm, um Ihre Datei zu senden</string>
   <!-- Debug tool - email subject [CHAR LIMIT=NONE] -->
