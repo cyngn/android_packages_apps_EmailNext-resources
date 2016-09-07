@@ -31,14 +31,31 @@
   <string name="account_setup_discovery_account_name_hint">Název účtu</string>
   <string name="account_setup_username_invalid_chars">Následující znaky nejsou povoleny: <xliff:g id="chars">%1$s</xliff:g></string>
   <string name="account_setup_invalid_server_address">Byla zadána neplatná adresa serveru</string>
+  <string name="account_setup_oauth_required_failure">Dvoufázové ověření zatím není podporováno pro <xliff:g id="account_type">%1$s</xliff:g> účty. Pro vygenerování hesla k aplikaci se prosím přihlaste ke svému účtu.</string>
   <string name="account_setup_domain_label">Doména</string>
   <string name="account_setup_server_info_heading">Info o serveru</string>
   <string name="account_setup_security_heading">Zabezpečení</string>
   <string name="account_setup_general_heading">Předvolby účtu</string>
   <string name="account_setup_authentication_heading">Ověřování</string>
+  <string name="account_setup_passcode_title">Administrátor serveru Exchange vyžaduje nastavení hesla pro synchronizaci.</string>
+  <string name="account_setup_passcode_format_restriction_complex">Heslo musí obsahovat <xliff:g id="quantity">%1$d</xliff:g> z následujících: velké písmeno, malé písmeno, číslo a/nebo speciální znak.</string>
+  <plurals name="account_setup_passcode_length_restriction">
+    <item quantity="one">Musí být alespoň 1 znak dlouhé.</item>
+    <item quantity="few">Musí být alespoň <xliff:g id="length">%1$d</xliff:g> znaky dlouhé.</item>
+    <item quantity="other">Musí být alespoň <xliff:g id="length">%1$d</xliff:g> znaků dlouhé.</item>
+  </plurals>
+  <plurals name="account_setup_passcode_previous_use_restriction">
+    <item quantity="one">Vaše předchozí heslo se nesmí shodovat.</item>
+    <item quantity="few">Jedno z vašich předchozích <xliff:g id="passcodeHistoryLength">%1$d</xliff:g> hesel se nesmí shodovat.</item>
+    <item quantity="other">Jedno z vašich předchozích <xliff:g id="passcodeHistoryLength">%1$d</xliff:g> hesel se nesmí shodovat.</item>
+  </plurals>
+  <string name="account_setup_passcode_hint">Zadejte heslo</string>
+  <string name="account_setup_confirm_passcode_title">Potvrdit heslo</string>
+  <string name="account_setup_confirm_passcode_subtitle">Hesla se musí shodovat</string>
   <string name="account_setup_confirm_passcode_action_label">Potvrdit</string>
   <string name="account_setup_check_settings_dialog_manual_button">Manuálně</string>
   <!-- Error message shown in dialog body when authenticating an account during setup fails -->
+  <string name="account_setup_failed_dlg_message_fmt"><xliff:g id="error_msg">%1$s</xliff:g>Chcete změnit nastavení a opakovat akci, nebo zadat nastavení ručně?</string>
   <!-- Dialog title when "setup" could not finish -->
   <string name="account_setup_failed_dlg_title">Nepodařilo se nastavit účet</string>
   <!-- hint for account email password text field -->
@@ -82,6 +99,7 @@
   <!-- The domain can only be changed during initial account setup. [CHAR LIMIT=none] -->
   <string name="account_setup_domain_uneditable_error">Uživatelské jméno domény nemůžete změnit. Chcete-li přidat doménu s jiným uživatelským jménem, použijte „Přidat účet“.</string>
   <!-- The email can only be changed during initial account setup. [CHAR LIMIT=none] -->
+  <string name="account_setup_email_uneditable_error">Nemůžete změnit e-mail účtu. Chcete-li přidat účet s jiným e-mailem, klepněte na Přidat účet.</string>
   <!-- General preference: Labels for the setting to mark emails as read before archiving them -->
   <string name="general_preference_mark_archive_messages_read">Archivovat jako přečtené</string>
   <string name="general_preference_mark_archive_messages_read_description">Před archivací označit e-maily jako přečtené</string>
@@ -115,6 +133,7 @@
   <!-- Preference for the compose toolbar -->
   <string name="preference_compose_toolbar_visibility">Zobrazit panel nástrojů</string>
   <!-- Preference for conversation threading -->
+  <string name="preference_conversation_threading">Vlákna konverzací</string>
   <string name="message_send_failed_ticker">Odeslání zprávy se nezdařilo</string>
   <string name="message_send_failed_title">Zpráva nebyla odeslána</string>
   <string name="preferences_clear_search_history_title">Vymazat historii vyhledávání</string>
@@ -421,11 +440,15 @@
   <string name="undisclosed_recipients">Neznámí příjemci</string>
   <string name="previous_action">Předchozí</string>
   <!-- Title for enter passcode screen -->
+  <string name="enter_passcode_title">Zadejte heslo</string>
   <string name="enter_passcode_logo_desc">Boxer logo</string>
   <string name="enter_passcode_status_desc">Indikátor stavu</string>
+  <string name="enter_passcode_hint">Zadejte své heslo</string>
   <string name="enter_passcode_go">Přejít</string>
   <string name="enter_passcode_success">Podařilo se!</string>
+  <string name="enter_passcode_failure">Heslo je nesprávné</string>
   <string name="enter_passcode_failure_with_max">%1$d z %2$d neúspěšných pokusů</string>
+  <string name="enter_passcode_last_chance">1 pokus zbývá. \nPři selhání budou všechny e-maily vymazány ze zařízení.</string>
   <string name="enter_passcode_wipe">Vymazání dat aplikací</string>
   <!-- Start of combined settings strings -->
   <string name="header_category_mail">Pošta</string>
@@ -434,6 +457,7 @@
   <string name="header_local_calendars_title">Místní kalendáře</string>
   <string name="header_mail_settings_title">Další nastavení pošty</string>
   <string name="header_calendar_settings_title">Další nastavení kalendáře</string>
+  <string name="header_passcode_title">Heslo</string>
   <!-- In Account Setup options screen, label for email lookback selector -->
   <string name="account_setup_options_mail_window_label">Pošta synchronizována pro</string>
   <!-- In Account Settings screen, label for email lookback selector -->
@@ -454,6 +478,10 @@
   <!-- Name of the DeviceAdmin (seen in settings & in user confirmation screen) -->
   <string name="device_admin_label">Boxer</string>
   <!-- Settings passcode strings -->
+  <string name="settings_passcode_on">Zapnout heslo</string>
+  <string name="settings_passcode_off">Vypnout heslo</string>
+  <string name="settings_passcode_change">Změnit heslo</string>
+  <string name="settings_passcode_time_interval">Vyžadovat heslo</string>
   <!-- String array for require passcode in passcode settings -->
   <string name="settings_require_passcode_1min">1 minuta</string>
   <string name="settings_require_passcode_2min">2 minuty</string>
@@ -479,11 +507,35 @@
   <!-- Permission related string -->
   <string name="permissions_enable">Povolit</string>
   <string name="permissions_call_title">Povolit přístup k telefonu</string>
+  <string name="permissions_call_message">Chcete-li volat, musíte povolit aplikaci Boxer přístup k telefonu.</string>
   <string name="permissions_storage_title">Povolit přístup k úložišti</string>
+  <string name="permissions_storage_message">Chcete-li uložit přílohy, je třeba povolit aplikaci Boxer přístup k úložišti.</string>
+  <string name="permissions_calendar_title">Povolit přístup ke kalendáři</string>
+  <string name="permissions_calendar_message">Boxer nemá přístup k událostem kalendáře.</string>
+  <string name="permissions_do_not_show_again">Znovu nezobrazovat</string>
   <!-- String shown as a toast when sending a quick response fails due to some unknown error-->
+  <string name="emailing_guests_failed">Nelze odeslat e-mail hostům</string>
   <string name="account_setup_selection_title">Typ účtu</string>
   <string name="account_setup_discovery_title">Detaily účtu</string>
   <string name="account_setup_options_title">Možnosti synchronizace</string>
   <string name="plugin_permission_label">Oprávnění pluginu Boxer</string>
+  <string name="plugin_permission_description">Zásuvné moduly aplikace Boxer rozšiřují aplikaci o další funkce. Zásuvné moduly musí být podepsány aplikací Boxer, aby byly načteny.</string>
   <string name="view">Zobrazit</string>
+  <string name="original_appointment">---Původní událost---</string>
+  <string name="meeting_from">
+        Od:
+        <xliff:g id="From">%s</xliff:g>
+    </string>
+  <string name="meeting_subject">
+        Předmět:
+        <xliff:g id="Subject">%s</xliff:g>
+    </string>
+  <string name="meeting_to">
+        Komu:
+        <xliff:g id="To">%s</xliff:g>
+    </string>
+  <string name="email_attendees">Účastníci e-mailu</string>
+  <string name="forward_event">Přeposlat událost</string>
+  <string name="email_organizer">Poslat e-mail organizátorovi</string>
+  <string name="email_everyone">Odpovědět všem</string>
 </resources>

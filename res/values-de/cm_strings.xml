@@ -131,6 +131,7 @@
   <!-- Preference for the compose toolbar -->
   <string name="preference_compose_toolbar_visibility">Funktionsleiste anzeigen</string>
   <!-- Preference for conversation threading -->
+  <string name="preference_conversation_threading">Nachrichten gruppieren</string>
   <string name="message_send_failed_ticker">Senden der Nachricht fehlgeschlagen</string>
   <string name="message_send_failed_title">Nachricht nicht gesendet</string>
   <string name="preferences_clear_search_history_title">Suchverlauf löschen</string>
@@ -358,6 +359,7 @@
   <string name="account_setup_vendor_heading">Willkommen bei E-Mail</string>
   <!-- Like Feature -->
   <string name="like_action_dialog_tittle">Was ist \"Gefällt mir\"?</string>
+  <string name="like_action_dialog_message">Sie haben unsere Lieblingsfunktion gefunden. Wenn Sie bei einer Nachricht \"gefällt mir\" auswählen, wird dem Absender und anderen Empfängern per E-Mail mitgeteilt, dass diese Ihnen gefällt. Es ist die schnellste Art, auf eine E-Mail zu antworten.</string>
   <!-- Displayed on a button whose action is to create something new. -->
   <string name="new_button">Neu</string>
   <!-- Text hint when creating a new folder from the move/label dialog. -->
@@ -487,11 +489,15 @@
   </plurals>
   <!-- Permission related string -->
   <string name="permissions_enable">Aktivieren</string>
+  <string name="permissions_call_title">Telefonzugriff gewähren</string>
+  <string name="permissions_call_message">Um Anrufe tätigen zu können, müssen Sie den Telefonzugriff für Boxer aktivieren.</string>
   <string name="permissions_storage_title">Speicherzugriff gewähren</string>
   <string name="permissions_storage_message">Um Anhänge zu speichern, müssen Sie den Speicherzugriff für Boxer aktivieren.</string>
   <string name="permissions_calendar_title">Kalenderzugriff gewähren</string>
+  <string name="permissions_calendar_message">Boxer hat keinen Zugriff auf systemeigene Kalendertermine.</string>
   <string name="permissions_do_not_show_again">Nicht erneut anzeigen</string>
   <!-- String shown as a toast when sending a quick response fails due to some unknown error-->
+  <string name="emailing_guests_failed">E-Mail konnte nicht an Gäste gesendet werden</string>
   <string name="account_setup_selection_title">Kontotyp</string>
   <string name="account_setup_discovery_title">Kontodetails</string>
   <string name="account_setup_options_title">Synchronisierungsoptionen</string>
