@@ -27,10 +27,14 @@
   <string name="mailbox_name_display_archive">Arkiv</string>
   <string name="mailbox_name_local_only_display_name"> - Lokal</string>
   <string name="account_setup_email_address_hint">Ange din e-postadress</string>
+  <string name="account_setup_password_label">Ange ditt lösenord</string>
+  <string name="account_setup_discovery_account_name_hint">Kontonamn</string>
   <string name="account_setup_domain_label">Domän</string>
   <string name="account_setup_server_info_heading">Server-info</string>
   <string name="account_setup_security_heading">Säkerhet</string>
+  <string name="account_setup_general_heading">Kontoinställningar</string>
   <string name="account_setup_authentication_heading">Autentisering</string>
+  <string name="account_setup_passcode_hint">Skriv in ditt lösenord</string>
   <string name="account_setup_confirm_passcode_action_label">Bekräfta</string>
   <string name="account_setup_check_settings_dialog_manual_button">Manuell</string>
   <!-- Error message shown in dialog body when authenticating an account during setup fails -->
@@ -46,6 +50,7 @@
   <!-- In Account setup options & Account Settings screens, email check frequency option -->
   <string name="account_setup_options_mail_check_frequency_1day">Varje dag</string>
   <!-- In Account setup options screen, optional check box to also sync contacts -->
+  <string name="account_setup_options_sync_contacts_label">Synkronisera kontakter</string>
   <!-- In Account setup options screen, optional check box to also sync calendar -->
   <!-- In Account setup options screen, check box to sync email -->
   <!-- On Settings screen, setting option for showing all images -->
@@ -89,6 +94,7 @@
   <!-- Label for signing in with Google using OAuth -->
   <string name="sign_in_with_google">Logga in med Google</string>
   <!--  On the "Setup up email" screen, label indicating what service we are signed in with [CHAR LIMIT=40] -->
+  <string name="signed_in_with_service_label">Loggade in med %1$s</string>
   <!-- Label for the authentication section [CHAR LIMIT=20] -->
   <string name="authentication_label">Autentisering</string>
   <!-- Label for the add authentication icon [CHAR LIMIT=40] -->
@@ -124,9 +130,12 @@
   <!-- Label shown in the account selector to select "Combined", which contains
          Combined Inbox, Combined Outbox, etc. [CHAR LIMIT=30] -->
   <!-- Menu item: Select all conversations -->
+  <string name="menu_select_all">Välj alla</string>
   <!-- Main screen and setting, menu item [CHAR LIMIT=30]-->
   <!-- Main screen and setting, menu item [CHAR LIMIT=30]-->
+  <string name="support">Support</string>
   <!-- Delete account -->
+  <string name="delete_account_title">Ta bort konto</string>
   <string name="deleting_account_msg">Tar bort konto\u2026</string>
   <!-- Read email screen, button name. Open an attachment. [CHAR LIMIT=10] -->
   <!-- Read email screen, button name. Install an attachment. [CHAR LIMIT=10] -->
@@ -158,6 +167,7 @@
   <string name="notification_action_mark_read">LÄS</string>
   <!-- Notification action for replying to a message. [CHAR LIMIT=20] -->
   <!-- Notification action for deleting a message. [CHAR LIMIT=20] -->
+  <string name="notification_action_delete">TA BORT</string>
   <!-- Notification message to the user upon new messages for a conversation. [CHAR LIMIT=120] -->
   <!--  Settings screen, Swipe actions preference title -->
   <!--  Settings screen, Swipe actions preference summary -->
@@ -166,6 +176,7 @@
   <!--  Settings screen, Swipe actions, Right short preference title -->
   <!--  Settings screen, Swipe actions, Right long preference title -->
   <!-- Menu item text to that when clicked will allow a user to print an email conversation. [CHAR LIMIT=25] -->
+  <string name="print">Skriv ut</string>
   <!-- Number of messages in a conversation [CHAR LIMIT=30]-->
   <!-- Shown to display the date of the message [CHAR LIMIT=50] -->
   <!-- Shown to display the to recipient(s) of the message if the message is a draft [CHAR LIMIT=20] -->
@@ -173,10 +184,20 @@
   <!-- Shown to inform the user that the quoted text for this message has been hidden. [CHAR LIMIT=50] -->
   <!-- Number of attachments in a message [CHAR LIMIT=30]-->
   <!-- Title to display when an email has no subject. [CHAR LIMIT=50]-->
+  <string name="no_subject">(inget ämne)</string>
+  <string name="action_grid_todo_dialog_title">Detaljer</string>
+  <string name="action_grid_add_priority">Lägg till prioritet</string>
   <string name="action_grid_priority">Prioritet:\u0020</string>
   <string name="action_grid_due_date_today">Idag</string>
   <string name="action_grid_due_date_tomorrow">Imorgon</string>
+  <string name="action_grid_due_date_this_week">Den här veckan</string>
+  <string name="action_grid_due_date_next_week">Nästkommande vecka</string>
+  <string name="action_grid_due_date_specific_date">Specifikt datum</string>
+  <string name="action_grid_priority_highest">Högsta prioritet</string>
+  <string name="action_grid_priority_high">Hög prioritet</string>
   <string name="action_grid_priority_normal">Normal prioritet</string>
+  <string name="action_grid_priority_low">Låg prioritet</string>
+  <string name="action_grid_priority_lowest">Lägst prioritet</string>
   <string name="action_grid_assignee_button_bar_clear">Rensa</string>
   <!-- Prompt used if you are trying to delete a message -->
   <!-- These strings below represent the default Actions that are available for the ActionGrid -->
@@ -185,46 +206,87 @@
   <string name="action_move">Flytta</string>
   <string name="action_label">Etikett</string>
   <string name="action_archive">Arkiv</string>
+  <string name="action_delete">Ta bort</string>
+  <string name="action_spam">Skräppost</string>
   <string name="action_star">Stjärnmärk</string>
+  <string name="action_mark_unread">Markera som o-läst</string>
+  <string name="action_mark_read">Markera som läst</string>
+  <string name="action_actions">Åtgärder</string>
   <!-- These strings are shown in Toast messages when an Action above is selected -->
+  <string name="not_installed">Inte installerad</string>
   <string name="custom_mailbox_settings_label">Inställningar</string>
   <string name="custom_mailbox_background_sync_switch_on">På</string>
   <string name="custom_mailbox_background_sync_switch_off">Av</string>
   <!-- Title for confirm delete box dialog -->
+  <string name="custom_mailbox_delete_box_dialog_title">Varning</string>
   <!-- Ratings Viral Prompt -->
+  <string name="viral_prompt_rate_app_title">Betygsätt den här appen</string>
+  <string name="viral_ratings_prompt_rate_now">Betygsätt nu</string>
+  <string name="promo_code_edittext_hint">Ange kampanjkod</string>
   <!-- Account Setup -->
   <!-- Like Feature -->
   <!-- Displayed on a button whose action is to create something new. -->
+  <string name="new_button">Ny</string>
   <!-- Text hint when creating a new folder from the move/label dialog. -->
+  <string name="folder_name_hint">Mapp-namn</string>
   <!-- Progress text when creating a new folder from the move/label dialog. -->
   <!-- Error title used when the user tries to add a folder that matches an existing folder. -->
   <!-- Error message used when the user tries to add a folder that matches an existing folder. -->
   <!-- Title used for generic error alerts. -->
+  <string name="error">Fel</string>
   <!-- Error message displayed when a folder fails to be created on the server. -->
   <!-- Menu item: report an email was not readable or poorly rendered -->
   <string name="report_rendering_problem">Rapportera</string>
   <!-- Toast message for above action -->
   <!-- Conversation list shared between the Activity and Widget -->
   <!-- Displayed in the middle of the screen when conversations are being loaded [CHAR LIMIT 100]-->
+  <string name="empty_spam_folder">Hurra! Det finns ingen skräppost här!</string>
   <!-- Calendar invite hero card -->
   <!-- Link for opening an invite's event in the calendar app. -->
+  <string name="view_on_calendar">Visa i kalender</string>
   <!-- Response action buttons. -->
+  <string name="accept">Acceptera</string>
+  <string name="maybe">Kanske</string>
+  <string name="decline">Neka</string>
+  <string name="remove_from_cal">Ta bort från kalender</string>
   <!-- Attendee text when user is the only attendee. -->
+  <string name="calendar_attendees_me_only">Jag</string>
   <!-- Attendee text when there are additional attendees. -->
   <!-- Accompanies the date/time for all day events. -->
   <!-- Status for canceled events. -->
   <!-- Send availability strings -->
+  <string name="busy">Upptagen</string>
   <!-- String shown in the TO field when it is blank -->
   <!-- Title for enter passcode screen -->
   <!-- Start of combined settings strings -->
+  <string name="header_category_mail">E-post</string>
+  <string name="header_default_account_title">Standardkonto</string>
+  <string name="header_mail_settings_title">Fler e-post-inställningar</string>
   <!-- In Account Setup options screen, label for email lookback selector -->
   <!-- In Account Settings screen, label for email lookback selector -->
+  <string name="mail_settings_fragment_title">E-postinställningar</string>
   <!-- The menu item to send logs -->
+  <string name="menu_send_logs">Skicka loggar</string>
   <!-- The menu item to open the about section -->
   <string name="menu_about">Om</string>
+  <string name="version">Version</string>
   <!-- Name of the DeviceAdmin (seen in settings & in user confirmation screen) -->
   <!-- Settings passcode strings -->
   <!-- String array for require passcode in passcode settings -->
+  <string name="settings_require_passcode_1min">1 minut</string>
+  <string name="settings_require_passcode_2min">2 minuter</string>
+  <string name="settings_require_passcode_3min">3 minuter</string>
+  <string name="settings_require_passcode_4min">4 minuter</string>
+  <string name="settings_require_passcode_5min">5 minuter</string>
+  <string name="settings_require_passcode_10min">10 minuter</string>
+  <string name="settings_require_passcode_15min">15 minuter</string>
+  <string name="settings_require_passcode_30min">30 minuter</string>
+  <string name="settings_require_passcode_1hour">1 timme</string>
+  <string name="settings_require_passcode_1.5hours">1.5 timmar</string>
+  <string name="settings_require_passcode_4hours">4 timmar</string>
   <!-- Permission related string -->
+  <string name="permissions_enable">Aktivera</string>
   <!-- String shown as a toast when sending a quick response fails due to some unknown error-->
+  <string name="account_setup_discovery_title">Kontodetaljer</string>
+  <string name="view">Visa</string>
 </resources>

@@ -230,6 +230,14 @@
   <!-- Shown to inform the user that the quoted text for this message has been hidden. [CHAR LIMIT=50] -->
   <!-- Number of attachments in a message [CHAR LIMIT=30]-->
   <!-- Title to display when an email has no subject. [CHAR LIMIT=50]-->
+  <string name="action_grid_priority">Приоритет:\u0020</string>
+  <string name="action_grid_add_assignee">Додај преносника</string>
+  <string name="action_grid_assignee">Представник:\u0020</string>
+  <string name="action_grid_due_date_dialog_title">Намести доспели датум</string>
+  <string name="action_grid_due_date_today">Данас</string>
+  <string name="action_grid_due_date_tomorrow">Сутра</string>
+  <string name="action_grid_due_date_this_week">Овe недељe</string>
+  <string name="action_grid_due_date_next_week">Следеће недеље</string>
   <string name="action_grid_due_date_specific_date">Одређени датум</string>
   <string name="action_grid_priority_dialog_title">Постави приоритет</string>
   <string name="action_grid_priority_highest">Највиши приоритет</string>
@@ -261,6 +269,13 @@
   <string name="action_read_or_unread">Прочитано/Непрочитано</string>
   <string name="action_actions">Радње</string>
   <!-- These strings are shown in Toast messages when an Action above is selected -->
+  <plurals name="quick_response_sent">
+    <!-- Quick respond to 1 conversation -->
+    <item quantity="one">Одговор послат</item>
+    <item quantity="few">Одговори послати</item>
+    <!-- Quick respond to several conversations -->
+    <item quantity="other">Одговори послати</item>
+  </plurals>
   <plurals name="liked_message">
     <!-- Like 1 conversation -->
     <item quantity="one">Порука се свидела</item>
@@ -359,14 +374,29 @@
   <string name="remove_invite">Уклони позивницу</string>
   <string name="error_no_app_store">Није пронађена одговарајућа апликација за складиштење</string>
   <!-- String shown in the TO field when it is blank -->
+  <string name="undisclosed_recipients">Неоткривени примаоци</string>
+  <string name="previous_action">Претходно</string>
   <!-- Title for enter passcode screen -->
+  <string name="enter_passcode_title">Унеси лозинку</string>
+  <string name="enter_passcode_logo_desc">Boxer лого</string>
+  <string name="enter_passcode_hint">Унеси лозинку</string>
+  <string name="enter_passcode_go">Иди</string>
+  <string name="enter_passcode_success">Успешно!</string>
+  <string name="enter_passcode_failure">Нетачна лозинка</string>
   <!-- Start of combined settings strings -->
+  <string name="header_category_mail">Пошта</string>
+  <string name="header_category_other">Друго</string>
+  <string name="header_default_account_title">Подразумевани налог</string>
+  <string name="header_local_calendars_title">Локални календари</string>
+  <string name="header_mail_settings_title">Још поставки поште</string>
+  <string name="header_passcode_title">Лозинка</string>
   <!-- In Account Setup options screen, label for email lookback selector -->
   <!-- In Account Settings screen, label for email lookback selector -->
   <string name="account_settings_options_mail_window_label">Дани за синхронизацију</string>
   <string name="default_account_fragment_title">Подразумевани налог</string>
   <string name="mail_settings_fragment_title">Поставке поште</string>
   <!-- The menu item to send logs -->
+  <string name="menu_send_logs">Пошаљи евиденције</string>
   <!-- The menu item to open the about section -->
   <string name="menu_about">О програму</string>
   <string name="version">Верзија</string>

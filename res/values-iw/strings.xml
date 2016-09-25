@@ -516,6 +516,7 @@
   <!-- Layout tests strings -->
   <!-- Compose -->
   <!-- Shown in Compose; the sender of the message [CHAR LIMIT=10] -->
+  <string name="from">מאת</string>
   <!-- Shown in Compose; the recipient(s) of the message [CHAR LIMIT=10] -->
   <string name="to">אל</string>
   <!-- Shown in Compose; the cc recipient(s) of the message [CHAR LIMIT=10] -->
@@ -570,6 +571,7 @@
   <!-- Menu item: report this conversation not as spam [CHAR LIMIT = 30] -->
   <!-- Menu item: report this conversation as phishing [CHAR LIMIT = 30] -->
   <!-- Menu item: delete this conversation -->
+  <string name="delete">מחק</string>
   <!-- Menu item: discard the drafts in this conversation [CHAR LIMIT = 30] -->
   <!-- Menu item: refresh the inbox -->
   <!-- Menu item: reply to this message -->

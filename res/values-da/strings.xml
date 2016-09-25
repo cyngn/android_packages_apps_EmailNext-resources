@@ -98,12 +98,29 @@
   <!-- Notification title when a forwarded attachment couldn't be sent [CHAR LIMIT=30]-->
   <string name="forward_download_failed_title">Vedhæftet fil er ikke sendt</string>
   <!-- Notification ticker when email account authentication fails [CHAR LIMIT=none] -->
+  <string name="login_failed_ticker"><xliff:g id="account_name">%1$s</xliff:g> kunne ikke logge ind.</string>
   <!-- Notification title when email account authentication fails [CHAR LIMIT=30]-->
   <string name="login_failed_title">Login mislykkedes</string>
   <!-- Size unit for bytes for attachments [CHAR LIMIT=10] -->
+  <plurals name="message_view_attachment_bytes">
+    <item quantity="one"><xliff:g id="size_in_bytes" example="1">%1$d</xliff:g>B</item>
+    <item quantity="other"><xliff:g id="size_in_bytes" example="279">%1$d</xliff:g>B</item>
+  </plurals>
   <!-- Size unit for kilo bytes for attachments [CHAR LIMIT=10] -->
+  <plurals name="message_view_attachment_kilobytes">
+    <item quantity="one"><xliff:g id="size_in_kilobytes" example="1">%1$d</xliff:g>KB</item>
+    <item quantity="other"><xliff:g id="size_in_kilobytes" example="279">%1$d</xliff:g>KB</item>
+  </plurals>
   <!-- Size unit for mega bytes for attachments [CHAR LIMIT=10] -->
+  <plurals name="message_view_attachment_megabytes">
+    <item quantity="one"><xliff:g id="size_in_megabytes" example="1">%1$d</xliff:g>MB</item>
+    <item quantity="other"><xliff:g id="size_in_megabytes" example="279">%1$d</xliff:g>MB</item>
+  </plurals>
   <!-- Size unit for giga bytes for attachments [CHAR LIMIT=10] -->
+  <plurals name="message_view_attachment_gigabytes">
+    <item quantity="one"><xliff:g id="size_in_gigabytes" example="1">%1$d</xliff:g>GB</item>
+    <item quantity="other"><xliff:g id="size_in_gigabytes" example="279">%1$d</xliff:g>GB</item>
+  </plurals>
   <!-- Title of screen when setting up new email account [CHAR LIMIT=45] -->
   <string name="account_setup_basics_title">Kontoindstillinger</string>
   <!-- Headline of screen when setting up new email account (large text over divider)
@@ -120,6 +137,7 @@
   <string name="account_duplicate_dlg_title">Dobbeltforekomst af konto</string>
   <!-- Message of dialog shown when a duplicate account is created.  The display name of
          the duplicate account is displayed. -->
+  <string name="account_duplicate_dlg_message_fmt">Du bruger allerede dette brugernavn til kontoen \"<xliff:g id="duplicate">%1$s</xliff:g>\".</string>
   <!-- String that is displayed as error text for passwords with leading or trailing
          spaces.  [CHAR LIMIT=none] -->
   <string name="account_password_spaces_error">Denne adgangskode starter eller slutter med ét eller flere mellemrum. Mange servere understøtter ikke adgangskoder med mellemrum.</string>
@@ -254,6 +272,7 @@
   <string name="account_setup_failed_dlg_certificate_message">Der kan ikke oprettes en sikker forbindelse til serveren.</string>
   <!-- An error message presented to the user when the server's identity
          cannot be established or trusted [CHAR LIMIT=NONE] -->
+  <string name="account_setup_failed_dlg_certificate_message_fmt">Kan ikke oprette en sikker forbindelse til serveren.\n(<xliff:g id="error">%1$s</xliff:g>)</string>
   <!-- An error message presented to the user when the server requires a
          client certificate to connect [CHAR LIMIT=NONE] -->
   <string name="account_setup_failed_certificate_required">Der kræves et klientcertifikat. Vil du oprette forbindelse til serveren med et klientcertifikat?</string>
@@ -265,6 +284,7 @@
   <!-- "Setup could not finish" dialog text; e.g., Cannot connect to server -->
   <string name="account_setup_failed_dlg_server_message">Der kan ikke oprettes forbindelse til serveren.</string>
   <!-- "Setup could not finish" dialog text; e.g., Cannot connect to server\n(Connection timed out) -->
+  <string name="account_setup_failed_dlg_server_message_fmt">Kan ikke oprette forbindelse til serveren.\n(<xliff:g id="error">%1$s</xliff:g>)</string>
   <!-- Additional diagnostic text when TLS was required but the server doesn't support it -->
   <string name="account_setup_failed_tls_required">TLS er påkrævet, men understøttes ikke af serveren.</string>
   <!-- Additional diagnostic text when server does not support any of our authentication methods -->
@@ -285,8 +305,10 @@
   <!-- Additional diagnostic text when validation requires security provisioning (e.g. support
          for device lock PIN, or remote wipe.) and we ask the user permission before continuing.
          [CHAR LIMIT=none] -->
+  <string name="account_setup_security_policies_required_fmt"> Serveren <xliff:g id="server">%1$s</xliff:g> kræver, at du giver den tilladelse til eksternt at kontrollere nogle af Android-enhedens sikkerhedsfunktioner. Vil du afslutte opsætning af denne konto?</string>
   <!-- Additional diagnostic text when validation failed due to required provisioning not
          being supported [CHAR LIMIT=none] -->
+  <string name="account_setup_failed_security_policies_unsupported">Denne server kræver sikkerhedsfunktioner, som din Android-enhed ikke understøtter, f.eks.: <xliff:g id="error">%1$s</xliff:g></string>
   <!-- The user name can only be changed during initial account setup. [CHAR LIMIT=none] -->
   <string name="account_setup_username_uneditable_error">Du kan ikke ændre brugernavnet på en konto. Hvis du vil tilføje en konto med et andet brugernavn, skal du trykke på Tilføj konto.</string>
   <!-- Warning given to users when they request disabling device administration (i.e. that their
@@ -299,8 +321,11 @@
   <!-- Additional diagnostic text when the account requires some amount of device security
          provisioning, just before jumping into system settings such as Device Policy grant,
          PIN/password, or encryption setup.  [CHAR LIMIT=none] -->
+  <string name="account_security_dialog_content_fmt"><xliff:g id="account">%1$s</xliff:g> kræver, at du opdaterer dine sikkerhedsindstillinger.</string>
   <!-- Notification ticker when device security required (note: unused in Holo XL) -->
+  <string name="security_unsupported_ticker_fmt">Kontoen \"<xliff:g id="account">%1$s</xliff:g>\" kan ikke synkroniseres på grund af sikkerhedskravene.</string>
   <!-- Notification ticker when device security required (note: unused in Holo XL) -->
+  <string name="security_needed_ticker_fmt">Kontoen \"<xliff:g id="account">%1$s</xliff:g>\" kræver opdatering af sikkerhedsindstillingerne.</string>
   <!-- Notification ticker when device security required (note: unused in Holo XL) -->
   <!-- Notification content title when device security required [CHAR_LIMIT=30] -->
   <string name="security_notification_content_update_title">Sikkerhedsopdatering kræves</string>
@@ -311,9 +336,11 @@
   <string name="account_security_title">Enhedssikkerhed</string>
   <!-- Additional diagnostic text when the email app asserts control of the phone.
         [CHAR LIMIT=none] -->
+  <string name="account_security_policy_explanation_fmt">Serveren <xliff:g id="server">%1$s</xliff:g> kræver, at du giver den tilladelse til eksternt at kontrollere nogle af Android-enhedens sikkerhedsfunktioner.</string>
   <!-- "Setup could not finish" dialog action button -->
   <string name="account_setup_failed_dlg_edit_details_action">Rediger detaljer</string>
   <!-- Notification ticker when device password is getting ready to expire [CHAR_LIMIT=80] -->
+  <string name="password_expire_warning_ticker_fmt">\"<xliff:g id="account">%1$s</xliff:g>\" kræver, at du ændrer skærmlåsens pinkode eller adgangskode.</string>
   <!-- Notification content title when device password is getting ready to expire
             [CHAR_LIMIT=30] -->
   <string name="password_expire_warning_content_title">Skærmlåskoden er ved at udløbe</string>
@@ -324,9 +351,11 @@
   <!-- Dialog title if device pin/password is going to expire soon. [CHAR_LIMIT=40] -->
   <string name="password_expire_warning_dialog_title">Skærmlåskoden er ved at udløbe</string>
   <!-- Dialog content device pin/password is going to expire soon. [CHAR_LIMIT=none] -->
+  <string name="password_expire_warning_dialog_content_fmt">Du skal ændre pinkoden eller adgangskoden til din skærmlås snart, ellers vil data for <xliff:g id="account">%1$s</xliff:g> vil blive slettet. Vil du ændre dette nu?</string>
   <!-- Dialog title if device pin/password has already expired. [CHAR_LIMIT=40] -->
   <string name="password_expired_dialog_title">Skærmlåskoden er udløbet</string>
   <!-- Dialog content device pin/password has already expired. [CHAR_LIMIT=none] -->
+  <string name="password_expired_dialog_content_fmt">Dataene for <xliff:g id="account">%1$s</xliff:g> er ved at blive slettet fra enheden. Du kan gendanne dem ved at ændre skærmlåsens pinkode eller adgangskode. Vil du ændre dette nu?</string>
   <!-- On AccountSettingsXL, dialog text if you try to exit in/out/eas fragment (server settings)
          without checking/saving [CHAR LIMIT=none]-->
   <string name="account_settings_exit_server_settings">Vil du kassere ændringer, som ikke er gemt?</string>
@@ -525,45 +554,84 @@
   <!--  Button name: discard this message [CHAR LIMIT=15] -->
   <!-- The possible ways to reply to a message [CHAR LIMIT=15] -->
   <!-- The possible ways to reply to a message [CHAR LIMIT=15] -->
+  <string-array name="compose_modes">
+    <!-- Reply -->
+    <item>Reply</item>
+    <!-- Reply all -->
+    <item>Svar alle</item>
+    <!-- Forward -->
+    <item>Videresend</item>
+  </string-array>
   <!-- Formatting string for the subject when it contains a reply or forward identifier. Do not translate.-->
   <!-- Compose screen, prefixed to the subject of a message when replying to it (if not already present). Do not translate. -->
   <!-- Compose screen, Prefix to forwarded message subject. Do not translate. -->
   <!-- Compose screen, displayed at the top of a message being replied to. Please preserve the HTML entities (surrounded by & and ;).  The two %s strings will be replaced by 1) the date 2) the person who wrote the email being responded to. [CHAR LIMIT=1000]-->
+  <string name="reply_attribution">Den <xliff:g id="date">%1$s</xliff:g> skrev <xliff:g id="person">%2$s</xliff:g>:</string>
   <!-- Compose screen, displayed at the top of a message being forwarded. Please preserve the HTML entities (surrounded by & and ;). [CHAR LIMIT=1000] -->
+  <string name="forward_attribution">---------- Videresendt meddelelse ----------&lt;br&gt;Fra: <xliff:g id="from">%1$s</xliff:g>&lt;br&gt;Dato: <xliff:g id="date">%2$s</xliff:g>&lt;br&gt;Emne: <xliff:g id="subject">%3$s</xliff:g>&lt;br&gt;Til: <xliff:g id="to">%4$s</xliff:g>&lt;br&gt;</string>
   <!-- Compose screen, displayed at the top of a message being forwarded. [CHAR LIMIT=100]-->
+  <string name="forward_attribution_no_headers">---------- Videresendt meddelelse ----------</string>
   <!-- Compose screen, displayed at the top of a message being forwarded if there are any email addresses in the CC list. Please preserve the HTML entities (surrounded by & and ;). [CHAR LIMIT=1000]-->
+  <string name="cc_attribution">Cc: <xliff:g id="cc">%1$s</xliff:g>&lt;br&gt;</string>
   <!-- Dialog text: select the type of an attachment while composing [CHAR LIMIT=100]-->
+  <string name="select_attachment_type">Vælg typen af ​​vedhæftet fil</string>
   <!-- Toast, attachment too large for single file [CHAR LIMIT=100] -->
+  <string name="too_large_to_attach_single">En fil over <xliff:g id="maxSize">%1$s</xliff:g> kan ikke vedhæftes.</string>
   <!-- Toast, attachment too large for multiple files [CHAR LIMIT=100] -->
+  <string name="too_large_to_attach_multiple">En eller flere filer blev ikke vedhæftet. Grænsen er <xliff:g id="maxSize">%1$s</xliff:g>.</string>
   <!-- Toast, attachment too large when existing attachments exist [CHAR LIMIT=100] -->
+  <string name="too_large_to_attach_additional">Filen blev ikke vedhæftet. Grænsen på <xliff:g id="maxSize">%1$s</xliff:g> er nået.</string>
   <!-- Toast, problem attaching file [CHAR LIMIT=100] -->
+  <string name="generic_attachment_problem">Filen kunne ikke vedhæftes.</string>
   <!-- Displayed for one second after trying to send with no recipients in To field [CHAR LIMIT=200]-->
+  <string name="recipient_needed">Tilføj mindst én modtager.</string>
   <!-- Title for recipient error dialog [CHAR LIMIT=200]-->
   <!-- Title for send confirmation dialog [CHAR LIMIT=200]-->
   <!-- Messages for send confirmation dialog [CHAR LIMIT=100]-->
+  <string name="confirm_send_message_with_no_subject">Der er ingen tekst i meddelelsens emne.</string>
+  <string name="confirm_send_message_with_no_body">Der er ingen tekst i selve meddelelsen.</string>
+  <string name="confirm_send_message">Vil du sende denne meddelelse?</string>
   <!-- Displayed for one second after discarding draft message [CHAR LIMIT=50]-->
+  <string name="message_discarded">Meddelelsen er kasseret.</string>
   <!--  Shown in the from dropdown in front of custom from addresses. [CHAR LIMIT=15] -->
+  <string name="custom_from_account_label">Send mail som:</string>
   <!-- Menu item: send this message -->
+  <string name="send">Send</string>
   <!-- Menu item: mark this conversation as read -->
+  <string name="mark_read">Markér som læst</string>
   <!-- Menu item: mark this conversation as unread -->
+  <string name="mark_unread">Markér som ulæst</string>
   <!--  Menu item: mute this conversation -->
   <!-- Menu item: add a star to this conversation -->
+  <string name="add_star">Tilføj stjerne</string>
   <!-- Menu item: remove the star from this conversation -->
+  <string name="remove_star">Fjern stjerne</string>
   <!-- Remove the folder from this conversation [CHAR LIMIT = 30]-->
   <!-- Menu item: archive this conversation -->
+  <string name="archive">Arkiv</string>
   <!-- Menu item: report this conversation as spam [CHAR LIMIT = 30] -->
+  <string name="report_spam">Rapportér spam</string>
   <!-- Menu item: report this conversation not as spam [CHAR LIMIT = 30] -->
   <!-- Menu item: report this conversation as phishing [CHAR LIMIT = 30] -->
   <!-- Menu item: delete this conversation -->
+  <string name="delete">Slet</string>
   <!-- Menu item: discard the drafts in this conversation [CHAR LIMIT = 30] -->
+  <string name="discard_drafts">Kassér kladder</string>
   <!-- Menu item: refresh the inbox -->
+  <string name="refresh">Opdater</string>
   <!-- Menu item: reply to this message -->
+  <string name="reply">Besvar</string>
   <!-- Menu item: reply to all recipients in this message [CHAR LIMIT=18] -->
+  <string name="reply_all">Svar alle</string>
   <!-- Menu item: resume a draft message [CHAR LIMIT=12] -->
+  <string name="resume_draft">Rediger</string>
   <!-- Menu item: forward this message -->
+  <string name="forward">Videresend</string>
   <!-- Menu item: compose a new email -->
   <!-- Menu item: change the folders for this conversation. -->
+  <string name="menu_change_folders">Skift mapper</string>
   <!-- Menu item: moves to folders for selected conversation(s). [CHAR LIMIT = 30] -->
+  <string name="menu_move_to">Flyt til</string>
   <!-- Menu item: moves current or selected conversation(s) to Inbox. [CHAR LIMIT = 30] -->
   <!-- Menu item: manages the folders for this account. [CHAR LIMIT = 30] -->
   <!-- Menu item text to show the original version of an email conversation, before message manipulation [CHAR LIMIT=25] -->
@@ -571,26 +639,43 @@
   <!-- Menu item: launch the Settings activity -->
   <string name="menu_settings">Indstillinger</string>
   <!-- Menu item: search through the Gmail inbox -->
+  <string name="menu_search">Søg</string>
   <!--  Menu item: shown in conversation menu. Tap this to move to mark conversation as important [CHAR LIMIT=30] -->
+  <string name="mark_important">Markér som vigtig</string>
   <!--  Menu item: shown in conversation menu. Tap this to move to mark conversation as not important [CHAR LIMIT=30] -->
+  <string name="mark_not_important">Markér som uvigtig</string>
   <!-- Compose screen, menu item: add Cc/Bcc fields -->
+  <string name="add_cc_label">Tilføj Cc/Bcc</string>
   <!-- Compose screen, menu item: add Bcc field [CHAR_LIMIT=20]-->
   <!-- Solicit feedback string in about screen [CHAR LIMIT=50]-->
   <!-- Menu item that displays the help page for Gmail. [CHAR LIMIT=50]-->
+  <string name="help_and_info">Hjælp</string>
   <!-- Compose screen, Prefix to quoted text in forwarded/replied message [CHAR LIMIT=50]-->
+  <string name="quoted_text">Medtag citeret tekst</string>
   <!-- Compose screen, Prefix to quoted text in forwarded/replied message; folder for the quoted text area. [CHAR LIMIT=25] -->
+  <string name="quoted_text_label">Citere tekst</string>
   <!--  Button for including inline responses. [CHAR LIMIT=25] -->
+  <string name="respond_inline">Svar indlejret</string>
   <!-- Format string for email addresses -->
   <!-- Attachments -->
   <!-- Size unit, displayed in a button next to an attachment [CHAR LIMIT=5]-->
+  <string name="bytes"><xliff:g id="count">%1$s</xliff:g> B</string>
   <!-- Size unit, displayed in a button next to an attachment [CHAR LIMIT=5] -->
+  <string name="kilobytes"><xliff:g id="count">%1$s</xliff:g> KB</string>
   <!-- Size unit, displayed in a button next to an attachment  [CHAR LIMIT=5]-->
+  <string name="megabytes"><xliff:g id="count">%1$s</xliff:g> MB</string>
   <!-- Attachment description for image files [CHAR LIMIT=30] -->
+  <string name="attachment_image">Billede</string>
   <!-- Attachment description for video files [CHAR LIMIT=30] -->
+  <string name="attachment_video">Video</string>
   <!-- Attachment description for audio files [CHAR LIMIT=30] -->
+  <string name="attachment_audio">Lyd</string>
   <!-- Attachment description for text files [CHAR LIMIT=30] -->
+  <string name="attachment_text">Tekst</string>
   <!-- Attachment description for .doc files [CHAR LIMIT=30] -->
+  <string name="attachment_application_msword">Dokument</string>
   <!-- Attachment description for .ppt files [CHAR LIMIT=30] -->
+  <string name="attachment_application_vnd_ms_powerpoint">Præsentation</string>
   <!-- Attachment description for excel files [CHAR LIMIT=30] -->
   <!-- Attachment description for .pdf files [CHAR LIMIT=30] -->
   <!-- Attachment description for unknown files [CHAR LIMIT=30]-->
@@ -650,45 +735,93 @@
   <!-- Undo bar strings -->
   <!-- Menu item: undo latest action [CHAR LIMIT=12]-->
   <!-- The following are shown as a toast after the operation has completed -->
+  <plurals name="conversation_deleted">
+    <!-- Displayed while deleting one conversation -->
+    <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; slettet.</item>
+    <!-- Displayed while deleting multiple conversations -->
+    <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; slettet.</item>
+  </plurals>
   <!-- Displayed when swiping away a single conversation to delete it [CHAR LIMIT=80] -->
+  <string name="deleted">Slettet</string>
   <!-- Displayed when swiping away a single conversation to archive it [CHAR LIMIT=80] -->
+  <string name="archived">Arkiveret</string>
   <!-- Displayed when swiping away a single conversation to remove the currently displayed folder [CHAR LIMIT=80] -->
+  <string name="folder_removed">Fjernet fra <xliff:g id="folderName">%1$s</xliff:g></string>
+  <plurals name="conversation_folder_changed">
+    <!-- Displayed while adding and removing folders to a single conversation. [CHAR LIMIT=100] -->
+    <item quantity="one">Ændrede mappe.</item>
+    <!-- Displayed while adding and removing folders to multiple conversations. [CHAR LIMIT=100] -->
+    <item quantity="other">Ændrede mapper.</item>
+  </plurals>
   <!-- Displayed after moving a conversation to a different folder. [CHAR LIMIT=100] -->
+  <string name="conversation_folder_moved">Flyttet til <xliff:g id="folderName">%1$s</xliff:g></string>
   <!-- Search Results: Text for header that is shown above search results [CHAR LIMIT=30] -->
+  <string name="search_results_header">Resultater</string>
   <!-- Toast shown when the user taps the search hard key when viewing an account that does not support search [CHAR LIMIT=100] -->
+  <string name="search_unsupported">Søgningen understøttes ikke på denne konto.</string>
   <!-- Search Results: Text for header that is shown above search results, while waiting for search results from the server [CHAR LIMIT=30] -->
+  <string name="search_results_searching_header">Søger\u2026</string>
   <!-- Conversation view -->
   <!--  Text anchor for control to add / change labels on a conversation when
           viewing it. [CHAR LIMIT=40] -->
+  <string name="add_label">Tilføj mappe</string>
   <!-- Conversation message header strings -->
   <!--  Icon name for expanding recipient details in a message when viewing it. [CHAR LIMIT=40] -->
+  <string name="expand_recipient_details">Udvid modtageroplysninger</string>
   <!--  Icon name for collapsing recipient details in a message when viewing it. [CHAR LIMIT=40] -->
+  <string name="collapse_recipient_details">Skjul modtageroplysninger</string>
   <!--  Icon name for showing sender contact information. [CHAR LIMIT=100] -->
+  <string name="contact_info_string">Vis kontaktoplysninger for <xliff:g id="name">%1$s</xliff:g></string>
   <!--  Icon name for showing sender contact information when we cannot get sender info. [CHAR LIMIT=100] -->
+  <string name="contact_info_string_default">Vis kontaktoplysninger</string>
   <!-- Shown in collapsed mode when a conversation has more than one read message.
          The message count is shown to the right of this text. [CHAR LIMIT=70] -->
+  <plurals name="show_messages_read">
+    <item quantity="one"><xliff:g id="count" example="4">%1$d</xliff:g> gamle beskeder</item>
+    <item quantity="other"><xliff:g id="count" example="4">%1$d</xliff:g> gamle beskeder</item>
+  </plurals>
   <!-- Shown to display the from address of the message [CHAR LIMIT=10] -->
   <!-- Shown to display the reply to address of the message [CHAR LIMIT=20] -->
+  <string name="replyto_heading">Svar til:\u0020</string>
   <!-- Shown to display the to recipient(s) of the message [CHAR LIMIT=10] -->
+  <string name="to_heading">Til:\u0020</string>
   <!-- Shown to display the cc recipient(s) of the message [CHAR LIMIT=10] -->
+  <string name="cc_heading">Cc:\u0020</string>
   <!-- Shown to display the bcc recipient(s) of the message [CHAR LIMIT=10] -->
+  <string name="bcc_heading">Bcc:\u0020</string>
   <!-- Shown to display the recipient(s) of the message [CHAR LIMIT=10] -->
   <!-- Displayed above an HTML message to show the images in that message [CHAR LIMIT=40] -->
+  <string name="show_images">Vis billeder</string>
   <!-- Displayed above an HTML message to always show images in messages from that sender [CHAR LIMIT=40] -->
+  <string name="always_show_images">Vis altid billeder fra denne afsender</string>
   <!-- Shown in a toast to acknowledge always showing images for a sender [CHAR LIMIT=100] -->
+  <string name="always_show_images_toast">Billeder fra denne afsender vises automatisk.</string>
   <!-- Display format of an email recipient, displayed in expanded message details [CHAR LIMIT=10] -->
+  <string name="address_display_format"><xliff:g id="name">%1$s</xliff:g> <xliff:g id="email">%2$s</xliff:g></string>
   <!-- Display format of an email sender if the message has a via domain set, displayed in expanded message details [CHAR LIMIT=15] -->
+  <string name="address_display_format_with_via_domain"><xliff:g id="name">%1$s</xliff:g> <xliff:g id="email">%2$s</xliff:g> via <xliff:g id="via_domain">%3$s</xliff:g></string>
   <!-- Displayed for one second after user saves message as draft [CHAR LIMIT=50]-->
+  <string name="message_saved">Meddelelsen er gemt som kladde.</string>
   <!-- Displayed for one second while message is being sent [CHAR LIMIT=50]-->
+  <string name="sending_message">Sender meddelelsen\u2026</string>
   <!-- Displayed for one second after trying to send with invalid recipients [CHAR LIMIT=50]-->
+  <string name="invalid_recipient">Adressen <xliff:g id="wrongemail" example="foo@@gmail..com">%1$s</xliff:g> er ugyldig.</string>
   <!-- Shown in HTML to allow the user to see quoted text; should match Gmail web UI. 25B6 is Unicode for a right-pointing triangle. [CHAR LIMIT=50] -->
+  <string name="show_elided">\u25B6 Vis citeret tekst</string>
   <!-- Shown in HTML to allow the user to hide quoted text; should match Gmail web UI. 25BC is Unicode for a downward-pointing triangle. [CHAR LIMIT=50] -->
+  <string name="hide_elided">\u25BC Skjul citeret tekst</string>
   <!-- Shown as a heading in message view when a message contains a calendar invite [CHAR LIMIT=30]-->
+  <string name="message_invite_title">Invitation i Kalender</string>
   <!-- Shown as a button label in message view to launch calendar to see this invite [CHAR LIMIT=40]-->
+  <string name="message_invite_calendar_view">Vis i Kalender</string>
   <!-- Shown as a text label in message view describing the choices of whether to attend an invite [CHAR LIMIT=20]-->
+  <string name="message_invite_label_attending">Deltager du?</string>
   <!-- Shown as a button label in message view to accept a calendar invite [CHAR LIMIT=20]-->
+  <string name="message_invite_accept">Ja</string>
   <!-- Shown as a button label in message view to give a tentative response to a calendar invite [CHAR LIMIT=20]-->
+  <string name="message_invite_tentative">Måske</string>
   <!-- Shown as a button label in message view to decline a calendar invite [CHAR LIMIT=20]-->
+  <string name="message_invite_decline">Nej</string>
   <!-- An enumeration comma for separating items in lists. [CHAR LIMIT=2] -->
   <!-- Button name, displayed in dialogs [CHAR LIMIT=10]-->
   <!-- Button name, displayed in dialogs [CHAR LIMIT=10]-->
@@ -699,17 +832,38 @@
   <!-- Button name, displayed in dialogs [CHAR LIMIT=10] -->
   <string name="cancel">Annuller</string>
   <!-- Button name, displayed in dialogs [CHAR LIMIT=10] -->
+  <string name="clear">Ryd</string>
   <!-- Sync status errors. Please do not change the order [CHAR LIMIT=100] -->
+  <string-array name="sync_status">
+    <item>Gennemført</item>
+    <item>Ingen forbindelse.</item>
+    <item>Det var ikke muligt at logge ind.</item>
+    <item>Sikkerhedsfejl.</item>
+    <item>Det var ikke muligt at synkronisere.</item>
+    <item>Intern fejl</item>
+  </string-array>
   <!-- Widget strings -->
   <!-- Displayed when user adds a new widget. Tapping on the widget in this
           mode will bring user to the account selection screen [CHAR LIMIT=35] -->
+  <string name="tap_to_configure">Tryk for at konfigurere</string>
   <!-- Displayed within a widget that was setup for a non-synced folder [CHAR LIMIT=60] -->
+  <string name="non_synced_folder_description">Synkroniser denne mappe for at se samtaler.</string>
   <!-- Displayed within a widget that was setup for a non-synced folder.  This is the text of the
          button that will allow the user to configure sync for the folder [CHAR LIMIT=35] -->
+  <string name="tap_to_configure_folder_sync">Synkroniser mappe</string>
   <!-- Displayed in widget when unread count > 100. [CHAR LIMIT=4] -->
+  <string name="widget_large_unread_count">%1$d+</string>
+  <plurals name="actionbar_unread_messages">
+    <item quantity="one"><xliff:g id="count" example="4">%1$d</xliff:g> ulæst</item>
+    <!-- String for the actionbar subtitle when messages are unread [CHAR LIMIT=30] -->
+    <item quantity="other"><xliff:g id="count" example="4">%1$d</xliff:g> ulæste</item>
+  </plurals>
   <!-- Displayed in the actionbar when unread count > 999. [CHAR LIMIT=30] -->
+  <string name="actionbar_large_unread_count"><xliff:g id="count">%1$d</xliff:g>+ ulæste</string>
   <!-- Displayed at the end of the conversation list in the widget. Tapping on this will open the default Inbox. [CHAR LIMIT=35] -->
+  <string name="view_more_conversations">Vis flere samtaler</string>
   <!-- Name of the Mailboxes activity [CHAR LIMIT=30] -->
+  <string name="activity_mailbox_selection">Vælg konto</string>
   <!-- Name of the Folders activity [CHAR LIMIT=30] -->
   <!-- Name of the Folder shortcut widget. Should use "Email" to refer to the app. [CHAR LIMIT=30] -->
   <!-- Folder selection dialog -->
@@ -808,52 +962,86 @@
   <!-- Conversation list screen overflow menu in trash folder [CHAR LIMIT=50]  -->
   <!-- Conversation list screen overflow menu in spam folder [CHAR LIMIT=50]  -->
   <!-- Dialog title for empty trash confirmation dialog [CHAR LIMIT=100] -->
+  <string name="empty_trash_dialog_title">Skal papirkurven tømmes?</string>
   <!-- Dialog title for empty spam confirmation dialog [CHAR LIMIT=100] -->
+  <string name="empty_spam_dialog_title">Skal spammappen tømmes?</string>
   <!-- Dialog message for empty folder confirmation dialog [CHAR LIMIT=300] -->
+  <plurals name="empty_folder_dialog_message">
+    <item quantity="one"><xliff:g id="count">%1$d</xliff:g> meddelelse vil blive slettet permanent.</item>
+    <item quantity="other"><xliff:g id="count">%1$d</xliff:g> meddelelser vil blive slettet permanent.</item>
+  </plurals>
   <!-- Strings used for accessibility for the items that toggles the drawer action  -->
+  <string name="drawer_open">Åbn navigationsskuffen</string>
+  <string name="drawer_close">Luk navigationsskuffen</string>
+  <string name="conversation_photo_welcome_text">Tryk på et afsenderbillede for at vælge den samtale.</string>
   <!-- Content description for the folder icon for nested folders. -->
   <!--  Button, "Add account" in the preference screen [CHAR LIMIT=30] -->
+  <string name="add_account">Tilføj konto</string>
   <!-- Action bar title for viewing messages that are attached to another message. -->
+  <string name="attached_message">Vedhæftet meddelelse</string>
   <!-- Shown to display the date of the message when the message was received yesterday. [CHAR LIMIT=50]  -->
+  <string name="date_message_received_yesterday">I går, <xliff:g id="datetime">%1$s</xliff:g></string>
   <!-- Content description for the "X" image icon for dismissing a tip. This is used for spoken description of the icon when touch explore is enabled. [CHAR LIMIT=50] -->
+  <string name="dismiss_tip_hover_text">Afvis tip</string>
   <!-- Tip for letting user know that their device auto-sync setting
         is turned off, in case they are wondering why they are not
         receiving any new mail. [CHAR LIMIT=250] -->
+  <string name="auto_sync_off">Automatisk synkronisering er slået fra.</string>
   <!-- Tap to turn on device auto-sync setting.  [CHAR LIMIT=250] -->
+  <string name="tap_to_enable_sync">Tryk for at slå til.</string>
   <!-- Tip for letting user know that their account level sync setting
         is turned off, in case they are wondering why they are not
         receiving any new mail. [CHAR LIMIT=250] -->
+  <string name="account_sync_off">Kontosynkronisering er slået fra.</string>
   <!-- Hint text for user to enable sync in Gmail's account settings.
          The whole string should read "Turn on in Account settings.", but because we need
          "Account settings" to appear as blue link text, it's a parameter here.
          [CHAR LIMIT=250] -->
+  <string name="enable_sync_in_account_settings">Aktivér i <xliff:g id="account_settings">%1$s</xliff:g>.</string>
   <!-- This is used as a parameter to another string and combined reads
          "Turn on in Account settings." [CHAR LIMIT=250] -->
   <string name="account_settings_param">Indstillinger for konto</string>
   <!-- Hint text that there are X number of unsent messages users
     Outbox. [CHAR LIMIT=250] -->
+  <string name="unsent_messages_in_outbox"><xliff:g id="number">%1$s</xliff:g> usendte i <xliff:g id="outbox">%2$s</xliff:g></string>
   <!-- Title of dialog to turn auto-sync on [CHAR LIMIT=100] -->
+  <string name="turn_auto_sync_on_dialog_title">Vil du slå automatisk synkronisering til?</string>
   <!-- Text of dialog to turn auto-sync on [CHAR LIMIT=500] -->
+  <string name="turn_auto_sync_on_dialog_body">Ændringer du foretager i alle apps og konti, ikke kun Gmail, synkroniseres mellem nettet, dine andre enheder og din <xliff:g id="phone_or_tablet">%1$s</xliff:g>.</string>
   <!-- Phone (vs. tablet) for describing this device [CHAR LIMIT=30] -->
+  <string name="phone">telefon</string>
   <!-- Tablet (vs. phone) for describing this device [CHAR LIMIT=30] -->
+  <string name="tablet">tablet</string>
   <!-- Confirm button text for dialog to turn auto-sync on [CHAR
          LIMIT=30] -->
+  <string name="turn_auto_sync_on_dialog_confirm_btn">Slå til</string>
   <!-- Button in conversation list to show more folders [CHAR LIMIT=50] -->
   <!-- Button in conversation list to hide folders [CHAR LIMIT=50] -->
   <!-- Error message that is displayed when the user clicks on a quick contacts badge, but
          there is no contacts application installed that can display the quick contact -->
+  <string name="quick_contacts_not_available">Ingen app fundet til at vise denne kontakt.</string>
   <!-- Custom phone number type -->
+  <string name="phoneTypeCustom">Egen</string>
   <!-- Home phone number type -->
+  <string name="phoneTypeHome">Hjem</string>
   <!-- Mobile phone number type -->
+  <string name="phoneTypeMobile">Mobil</string>
   <!-- Work phone number type -->
+  <string name="phoneTypeWork">Arbejde</string>
   <!-- Work fax phone number type -->
+  <string name="phoneTypeFaxWork">Arbejde Fax</string>
   <!-- Home fax phone number type -->
+  <string name="phoneTypeFaxHome">Hjemmefax</string>
   <!-- Pager phone number type -->
+  <string name="phoneTypePager">Personsøger</string>
   <!-- Other phone number type -->
+  <string name="phoneTypeOther">Andet</string>
   <!-- Callback phone number type -->
   <!-- Car phone number type -->
+  <string name="phoneTypeCar">Bil</string>
   <!-- Company main phone number type -->
   <!-- ISDN phone number type -->
+  <string name="phoneTypeIsdn">ISDN</string>
   <!-- Main phone number type -->
   <!-- Other fax phone number type -->
   <!-- Radio phone number type -->

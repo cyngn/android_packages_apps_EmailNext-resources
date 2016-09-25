@@ -605,10 +605,14 @@
   <!-- Menu item: reply to all recipients in this message [CHAR LIMIT=18] -->
   <string name="reply_all">Одгов. свима</string>
   <!-- Menu item: resume a draft message [CHAR LIMIT=12] -->
+  <string name="resume_draft">Измени</string>
   <!-- Menu item: forward this message -->
+  <string name="forward">Напред</string>
   <!-- Menu item: compose a new email -->
   <!-- Menu item: change the folders for this conversation. -->
+  <string name="menu_change_folders">Промени фолдер</string>
   <!-- Menu item: moves to folders for selected conversation(s). [CHAR LIMIT = 30] -->
+  <string name="menu_move_to">Премештање у</string>
   <!-- Menu item: moves current or selected conversation(s) to Inbox. [CHAR LIMIT = 30] -->
   <!-- Menu item: manages the folders for this account. [CHAR LIMIT = 30] -->
   <!-- Menu item text to show the original version of an email conversation, before message manipulation [CHAR LIMIT=25] -->
@@ -616,22 +620,35 @@
   <!-- Menu item: launch the Settings activity -->
   <string name="menu_settings">Подешавања</string>
   <!-- Menu item: search through the Gmail inbox -->
+  <string name="menu_search">Претрага</string>
   <!--  Menu item: shown in conversation menu. Tap this to move to mark conversation as important [CHAR LIMIT=30] -->
+  <string name="mark_important">Означи као важно</string>
   <!--  Menu item: shown in conversation menu. Tap this to move to mark conversation as not important [CHAR LIMIT=30] -->
+  <string name="mark_not_important">Означи као неважно</string>
   <!-- Compose screen, menu item: add Cc/Bcc fields -->
+  <string name="add_cc_label">Додај Cc/Bcc</string>
   <!-- Compose screen, menu item: add Bcc field [CHAR_LIMIT=20]-->
   <!-- Solicit feedback string in about screen [CHAR LIMIT=50]-->
   <!-- Menu item that displays the help page for Gmail. [CHAR LIMIT=50]-->
+  <string name="help_and_info">Помоћ</string>
   <!-- Compose screen, Prefix to quoted text in forwarded/replied message [CHAR LIMIT=50]-->
+  <string name="quoted_text">Уврсти наведени текст</string>
   <!-- Compose screen, Prefix to quoted text in forwarded/replied message; folder for the quoted text area. [CHAR LIMIT=25] -->
+  <string name="quoted_text_label">Наведи текст</string>
   <!--  Button for including inline responses. [CHAR LIMIT=25] -->
+  <string name="respond_inline">Одговори са уметањем</string>
   <!-- Format string for email addresses -->
   <!-- Attachments -->
   <!-- Size unit, displayed in a button next to an attachment [CHAR LIMIT=5]-->
+  <string name="bytes"><xliff:g id="count">%1$s</xliff:g> B</string>
   <!-- Size unit, displayed in a button next to an attachment [CHAR LIMIT=5] -->
+  <string name="kilobytes"><xliff:g id="count">%1$s</xliff:g> KB</string>
   <!-- Size unit, displayed in a button next to an attachment  [CHAR LIMIT=5]-->
+  <string name="megabytes"><xliff:g id="count">%1$s</xliff:g> MB</string>
   <!-- Attachment description for image files [CHAR LIMIT=30] -->
+  <string name="attachment_image">Слика</string>
   <!-- Attachment description for video files [CHAR LIMIT=30] -->
+  <string name="attachment_video">Видео</string>
   <!-- Attachment description for audio files [CHAR LIMIT=30] -->
   <string name="attachment_audio">Аудио</string>
   <!-- Attachment description for text files [CHAR LIMIT=30] -->
@@ -645,6 +662,7 @@
   <!-- Attachment description for .pdf files [CHAR LIMIT=30] -->
   <string name="attachment_application_pdf">PDF</string>
   <!-- Attachment description for unknown files [CHAR LIMIT=30]-->
+  <string name="attachment_unknown"><xliff:g id="attachmentExtension">%1$s</xliff:g> Фајл</string>
   <!-- Read email screen, button name. Preview an attachment by Gview. [CHAR LIMIT=18] -->
   <string name="preview_attachment">Прикажи</string>
   <!-- Read email screen, button name. Save an attachment to sd card. [CHAR LIMIT=10] -->
@@ -660,6 +678,7 @@
   <string name="fetching_attachment">Преузимање прилога</string>
   <!-- Dialog box message. [CHAR LIMIT=80] -->
   <!-- Displayed in the conversation view, next to a file's size and type. Status of a saved attachment. [CHAR LIMIT=20]-->
+  <string name="saved">Сачувано, <xliff:g id="size">%1$s</xliff:g></string>
   <!-- Displayed in the conversation view. Status of a failed attachment. [CHAR LIMIT=50]-->
   <string name="download_failed">Није преузето. Додирните за пон. пок.</string>
   <!-- Displayed in the conversation view, as a header informing
@@ -700,6 +719,13 @@
   <!-- Text indicating how many messages are selected in the top action bar
     [CHAR LIMIT=40] -->
   <!--  Displayed when drag and drop conversations "Move ? conversations" [CHAR LIMIT=50] -->
+  <plurals name="move_conversation">
+    <!-- Move 1 conversation -->
+    <item quantity="one">Премести преписку</item>
+    <item quantity="few">Премести <xliff:g>%1$d</xliff:g> преписке</item>
+    <!-- Move several conversations -->
+    <item quantity="other">Премести <xliff:g>%1$d</xliff:g> преписке</item>
+  </plurals>
   <!-- Formatting string for the content description field of a conversation list item when device is in accessibility mode. [CHAR LIMIT=250] -->
   <!-- Formatting string for the content description field of a conversation list item when device is in accessibility mode and the message was received today. [CHAR LIMI=250] -->
   <!-- String used in content description field of a conversation list item when device is in accessibility mode and the conversation was read [CHAR LIMIT=250] -->
@@ -729,6 +755,20 @@
          showing the list of senders for a conversation list item. [CHAR LIMIT=15] -->
   <string name="me_subject_pronun">ја</string>
   <!-- Header for list of inboxes in the drawer (Inbox, Priority) [CHAR LIMIT=50] -->
+  <plurals name="confirm_delete_conversation">
+    <!-- Dialog message to confirm deletion of one conversation -->
+    <item quantity="one">Избрисати ову преписку?</item>
+    <item quantity="few">Избрисати ове <xliff:g id="count">%1$d</xliff:g> преписке?</item>
+    <!-- Dialog message to confirm deletion of several conversations -->
+    <item quantity="other">Избрисати ове <xliff:g id="count">%1$d</xliff:g> преписке?</item>
+  </plurals>
+  <plurals name="confirm_archive_conversation">
+    <!-- Dialog message to confirm archival of one conversation -->
+    <item quantity="one">Сачувати ову преписку?</item>
+    <item quantity="few">Сачувати ове <xliff:g id="count">%1$d</xliff:g> преписке?</item>
+    <!-- Dialog message to confirm archival of several conversations -->
+    <item quantity="other">Сачувати ове <xliff:g id="count">%1$d</xliff:g> преписке?</item>
+  </plurals>
   <!-- Dialog text: confirm discard -->
   <string name="confirm_discard_text">Одбаци ову поруку?</string>
   <!-- Conversation list shared between the Activity and Widget -->
@@ -767,6 +807,7 @@
          The message count is shown to the right of this text. [CHAR LIMIT=70] -->
   <!-- Shown to display the from address of the message [CHAR LIMIT=10] -->
   <!-- Shown to display the reply to address of the message [CHAR LIMIT=20] -->
+  <string name="replyto_heading">Одговор на:\u0020</string>
   <!-- Shown to display the to recipient(s) of the message [CHAR LIMIT=10] -->
   <string name="to_heading">Коме:\u0020</string>
   <!-- Shown to display the cc recipient(s) of the message [CHAR LIMIT=10] -->
@@ -790,7 +831,9 @@
   <string name="sending_message">Слање поруке\u2026</string>
   <!-- Displayed for one second after trying to send with invalid recipients [CHAR LIMIT=50]-->
   <!-- Shown in HTML to allow the user to see quoted text; should match Gmail web UI. 25B6 is Unicode for a right-pointing triangle. [CHAR LIMIT=50] -->
+  <string name="show_elided">\u25B6 Прикажи наведени текст</string>
   <!-- Shown in HTML to allow the user to hide quoted text; should match Gmail web UI. 25BC is Unicode for a downward-pointing triangle. [CHAR LIMIT=50] -->
+  <string name="hide_elided">\u25BC Сакриј наведени текст</string>
   <!-- Shown as a heading in message view when a message contains a calendar invite [CHAR LIMIT=30]-->
   <string name="message_invite_title">Позивница за Календар</string>
   <!-- Shown as a button label in message view to launch calendar to see this invite [CHAR LIMIT=40]-->
@@ -898,6 +941,7 @@
   <string name="storage">Складиште</string>
   <!-- Token used as a divider between senders -->
   <string name="senders_split_token">,\u00A0</string>
+  <string name="draft_count_format">\u00A0(<xliff:g id="count">%1$s</xliff:g>)</string>
   <!-- Token to replace senders that are not visible -->
   <!-- Token used to space out elided senders that are not visible -->
   <!-- Token used to space out message count, draft text, and senders -->
@@ -996,47 +1040,74 @@
   <string name="empty_spam_dialog_title">Испразнити нежељено?</string>
   <!-- Dialog message for empty folder confirmation dialog [CHAR LIMIT=300] -->
   <!-- Strings used for accessibility for the items that toggles the drawer action  -->
+  <string name="drawer_open">Отвори фиоку за навигацију</string>
+  <string name="drawer_close">Затвори фиоку за навигацију</string>
+  <string name="conversation_photo_welcome_text">Додирните слику пошиљаоца да бисте изабрали ту преписку.</string>
   <!-- Content description for the folder icon for nested folders. -->
   <!--  Button, "Add account" in the preference screen [CHAR LIMIT=30] -->
+  <string name="add_account">Додај налог</string>
   <!-- Action bar title for viewing messages that are attached to another message. -->
+  <string name="attached_message">Приложена порука</string>
   <!-- Shown to display the date of the message when the message was received yesterday. [CHAR LIMIT=50]  -->
+  <string name="date_message_received_yesterday">Јуче, <xliff:g id="datetime">%1$s</xliff:g></string>
   <!-- Content description for the "X" image icon for dismissing a tip. This is used for spoken description of the icon when touch explore is enabled. [CHAR LIMIT=50] -->
+  <string name="dismiss_tip_hover_text">Одбацивање савета</string>
   <!-- Tip for letting user know that their device auto-sync setting
         is turned off, in case they are wondering why they are not
         receiving any new mail. [CHAR LIMIT=250] -->
+  <string name="auto_sync_off">Аутоматска синхронизација је искључена.</string>
   <!-- Tap to turn on device auto-sync setting.  [CHAR LIMIT=250] -->
+  <string name="tap_to_enable_sync">Додирните да бисте укључили.</string>
   <!-- Tip for letting user know that their account level sync setting
         is turned off, in case they are wondering why they are not
         receiving any new mail. [CHAR LIMIT=250] -->
+  <string name="account_sync_off">Синхронизација налога је искључена.</string>
   <!-- Hint text for user to enable sync in Gmail's account settings.
          The whole string should read "Turn on in Account settings.", but because we need
          "Account settings" to appear as blue link text, it's a parameter here.
          [CHAR LIMIT=250] -->
+  <string name="enable_sync_in_account_settings">Укључите у <xliff:g id="account_settings">%1$s</xliff:g>.</string>
   <!-- This is used as a parameter to another string and combined reads
          "Turn on in Account settings." [CHAR LIMIT=250] -->
   <string name="account_settings_param">Подешавања налога</string>
   <!-- Hint text that there are X number of unsent messages users
     Outbox. [CHAR LIMIT=250] -->
   <!-- Title of dialog to turn auto-sync on [CHAR LIMIT=100] -->
+  <string name="turn_auto_sync_on_dialog_title">Желите ли да укључите аутоматску синхронизацију?</string>
   <!-- Text of dialog to turn auto-sync on [CHAR LIMIT=500] -->
+  <string name="turn_auto_sync_on_dialog_body">Промене које обављате у свим апликацијама и налозима, а не само у Gmail-у, биће синхронизоване између веба, других уређаја и <xliff:g id="phone_or_tablet">%1$s</xliff:g>.</string>
   <!-- Phone (vs. tablet) for describing this device [CHAR LIMIT=30] -->
+  <string name="phone">телефон</string>
   <!-- Tablet (vs. phone) for describing this device [CHAR LIMIT=30] -->
+  <string name="tablet">таблет</string>
   <!-- Confirm button text for dialog to turn auto-sync on [CHAR
          LIMIT=30] -->
+  <string name="turn_auto_sync_on_dialog_confirm_btn">Укључи</string>
   <!-- Button in conversation list to show more folders [CHAR LIMIT=50] -->
   <!-- Button in conversation list to hide folders [CHAR LIMIT=50] -->
   <!-- Error message that is displayed when the user clicks on a quick contacts badge, but
          there is no contacts application installed that can display the quick contact -->
+  <string name="quick_contacts_not_available">Није пронађена апликација да би сте видели овај контакт.</string>
   <!-- Custom phone number type -->
+  <string name="phoneTypeCustom">Прилагођено</string>
   <!-- Home phone number type -->
+  <string name="phoneTypeHome">Кући</string>
   <!-- Mobile phone number type -->
+  <string name="phoneTypeMobile">Мобилни</string>
   <!-- Work phone number type -->
+  <string name="phoneTypeWork">Посао</string>
   <!-- Work fax phone number type -->
+  <string name="phoneTypeFaxWork">Факс на послу</string>
   <!-- Home fax phone number type -->
+  <string name="phoneTypeFaxHome">Факс код куће</string>
   <!-- Pager phone number type -->
+  <string name="phoneTypePager">Пејџер</string>
   <!-- Other phone number type -->
+  <string name="phoneTypeOther">Друго</string>
   <!-- Callback phone number type -->
+  <string name="phoneTypeCallback">Повратни позив</string>
   <!-- Car phone number type -->
+  <string name="phoneTypeCar">Кола</string>
   <!-- Company main phone number type -->
   <!-- ISDN phone number type -->
   <!-- Main phone number type -->
@@ -1084,19 +1155,33 @@
   <!-- Child relationship type [CHAR LIMIT=20] -->
   <!-- Domestic Partner relationship type [CHAR LIMIT=20] -->
   <!-- Father relationship type [CHAR LIMIT=20] -->
+  <string name="relationTypeFather">Отац</string>
   <!-- Friend relationship type [CHAR LIMIT=20] -->
+  <string name="relationTypeFriend">Пријатељ</string>
   <!-- Manager relationship type [CHAR LIMIT=20] -->
+  <string name="relationTypeManager">Менаџер</string>
   <!-- Mother relationship type [CHAR LIMIT=20] -->
+  <string name="relationTypeMother">Мајка</string>
   <!-- Parent relationship type [CHAR LIMIT=20] -->
+  <string name="relationTypeParent">Родитељ</string>
   <!-- Partner relationship type [CHAR LIMIT=20] -->
+  <string name="relationTypePartner">Партнер</string>
   <!-- Referred by relationship type [CHAR LIMIT=20] -->
+  <string name="relationTypeReferredBy">Препоручен од</string>
   <!-- Relative relationship type [CHAR LIMIT=20] -->
+  <string name="relationTypeRelative">Релативан</string>
   <!-- Sister relationship type [CHAR LIMIT=20] -->
+  <string name="relationTypeSister">Сестра</string>
   <!-- Spouse relationship type [CHAR LIMIT=20] -->
+  <string name="relationTypeSpouse">Супружник</string>
   <!-- Custom SIP address type. Same context as Custom phone type.  -->
+  <string name="sipAddressTypeCustom">Прилагођено</string>
   <!-- Home SIP address type. Same context as Home phone type. -->
+  <string name="sipAddressTypeHome">Кућа</string>
   <!-- Work SIP address type. Same context as Work phone type. -->
+  <string name="sipAddressTypeWork">Посао</string>
   <!-- Other SIP address type. Same context as Other phone type. -->
+  <string name="sipAddressTypeOther">Друго</string>
   <!-- Part of a description of an repeating event. This part states the date when a repeating
          event ends. The part before the semi-colon describes how it repeats.
          e.g. Every 2 weeks; until 1/1/2030 [CHAR LIMIT=21] -->
@@ -1110,19 +1195,28 @@
          'Weekly on Tuesday' or Every 2 weeks on Monday, Tuesday.  [CHAR LIMIT=25]-->
   <!-- The common portion of a string describing how often an event repeats,
          example: 'Monthly (on day 2)' -->
+  <string name="monthly">Месечно</string>
   <!-- Calendar spinner item, to select that an event recurs every year. -->
+  <string name="yearly_plain">Годишње</string>
   <!-- [CHAR LIMIT=NONE] Boot message while upgrading calendar. -->
   <!-- Temporary Calendar name to use before we have the calendar name from the server -->
   <!-- Caption on secret calendar info -->
   <!-- Error message for secret calendar info -->
+  <string name="calendar_info_error">Грешка</string>
   <!-- No calendars message for secret calendar info -->
+  <string name="calendar_info_no_calendars">Нема календара</string>
   <!-- Event count message for secret calendar info -->
   <!-- Event and dirty event count message for secret calendar info -->
   <!-- What to show in messaging that refers to this provider, e.g. AccountSyncSettings -->
+  <string name="provider_label">Календар</string>
+  <string name="contacts_provider_label">Контакти</string>
   <!-- Debug tool - dialog - delete file now [CHAR LIMIT=NONE] -->
+  <string name="debug_tool_delete_button">Избриши сад</string>
   <!-- Debug tool - dialog - start copying [CHAR LIMIT=NONE] -->
+  <string name="debug_tool_start_button">Почни</string>
   <!-- Debug tool - Main message shown to the user when starting up the debug tool [CHAR LIMIT=NONE] -->
   <!-- Debug tool - email subject [CHAR LIMIT=NONE] -->
+  <string name="debug_tool_email_sender_picker">Одабери програм за слање фајла</string>
   <!-- Debug tool - email subject [CHAR LIMIT=NONE] -->
   <!-- Debug tool - email body [CHAR LIMIT=NONE] -->
 </resources>

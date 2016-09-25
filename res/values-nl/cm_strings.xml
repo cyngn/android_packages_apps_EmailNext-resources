@@ -150,6 +150,10 @@
   <string name="preference_allow_insecure_attachments_summary">Weergeven of opslaan van onveilige bijlagen toestaan</string>
   <string name="custom_perms_dialog_title">Dubbele machtigingen</string>
   <string name="custom_perms_dialog_msg">Een andere app probeert mogelijk uw persoonlijke gegevens te verzamelen.\n\n<xliff:g id="content">%1$s</xliff:g>\n\nNeem contact op met Boxer voor hulp.</string>
+  <plurals name="custom_perms_dialog_app_violation">
+    <item quantity="one"><xliff:g id="app_name">(%1$s)</xliff:g> herdefinieert machtiging: <xliff:g id="permissions_list">%2$s</xliff:g></item>
+    <item quantity="other"><xliff:g id="app_name">(%1$s)</xliff:g> herdefinieert machtigingen: <xliff:g id="permissions_list">%2$s</xliff:g></item>
+  </plurals>
   <string name="custom_perms_pos_btn">Rapporteren</string>
   <!-- Label shown in the account selector to select "Combined", which contains
          Combined Inbox, Combined Outbox, etc. [CHAR LIMIT=30] -->

@@ -24,125 +24,503 @@
   <!-- In the UI, the folder to-do will be displayed with this name -->
   <string name="mailbox_name_display_todo">Pendentes</string>
   <!-- In the UI, the archive will be displayed with this name -->
+  <string name="mailbox_name_display_archive">Arquivadas</string>
   <string name="mailbox_name_local_only_display_name"> - Local</string>
+  <string name="account_setup_email_address_hint">Introduza o seu enderezo electrónico</string>
+  <string name="account_setup_password_label">Introduce o teu contrasinal</string>
+  <string name="account_setup_discovery_account_name_hint">Nome da conta</string>
+  <string name="account_setup_username_invalid_chars">Os seguintes caracteres non están permitidos: <xliff:g id="chars">%1$s</xliff:g></string>
+  <string name="account_setup_invalid_server_address">Inseriuse un enderezo de servidor non válido</string>
+  <string name="account_setup_oauth_required_failure">A verificación en dous pasos aínda non está soportada para contas <xliff:g id="account_type">%1$s</xliff:g>. Por favor, inicia sesión na túa conta para xerar un contrasinal específico para a aplicación.</string>
+  <string name="account_setup_domain_label">Dominio</string>
+  <string name="account_setup_server_info_heading">Información do servidor</string>
+  <string name="account_setup_security_heading">Seguranza</string>
+  <string name="account_setup_general_heading">Preferencias da conta</string>
+  <string name="account_setup_authentication_heading">Autentificación</string>
+  <string name="account_setup_passcode_title">O administrador do Exchange require que definas un contrasinal para sincronizar.</string>
+  <string name="account_setup_passcode_format_restriction_complex">Ten de incluír <xliff:g id="quantity">%1$d </xliff:g> das seguintes características: unha letra maiúscula, unha letra minúscula, un número ou un carácter especial.</string>
+  <plurals name="account_setup_passcode_length_restriction">
+    <item quantity="one">Debe conter cando menos 1 caracter.</item>
+    <item quantity="other">Debe conter cando menos <xliff:g id="length">%1$d</xliff:g> caracteres.</item>
+  </plurals>
+  <plurals name="account_setup_passcode_previous_use_restriction">
+    <item quantity="one">Non coincide co contrasinal anterior.</item>
+    <item quantity="other">Non coincide cun dos <xliff:g id="passcodeHistoryLength">%1$d</xliff:g> contrasinais anteriores.</item>
+  </plurals>
+  <string name="account_setup_passcode_hint">Introduce o teu contrasinal</string>
+  <string name="account_setup_confirm_passcode_title">Confirmar o contrasinal</string>
+  <string name="account_setup_confirm_passcode_subtitle">Os contrasinais teñen que coincidir</string>
+  <string name="account_setup_confirm_passcode_action_label">Confirmar</string>
+  <string name="account_setup_check_settings_dialog_manual_button">Manual</string>
   <!-- Error message shown in dialog body when authenticating an account during setup fails -->
+  <string name="account_setup_failed_dlg_message_fmt"><xliff:g id="error_msg">%1$s</xliff:g> Desexas actualizar a configuración e volver a tentalo ou introducir os axustes manualmente?</string>
   <!-- Dialog title when "setup" could not finish -->
+  <string name="account_setup_failed_dlg_title">Non é posíbel configurar a conta</string>
   <!-- hint for account email password text field -->
+  <string name="account_setup_basics_progress_message">A realizar auto-descubrimento</string>
   <!-- In Account setup options screen, Activity title [CHAR LIMIT=45] -->
   <!-- In Account setup options screen, label for email check frequency selector -->
+  <string name="account_setup_options_mail_check_frequency_label">Comprobar a caixa de correo</string>
   <!-- In Account setup options & Account Settings screens, email check frequency option -->
+  <string name="account_setup_options_mail_check_frequency_2hour">Cada 2 horas</string>
   <!-- In Account setup options & Account Settings screens, email check frequency option -->
+  <string name="account_setup_options_mail_check_frequency_4hour">Cada 4 horas</string>
   <!-- In Account setup options & Account Settings screens, email check frequency option -->
+  <string name="account_setup_options_mail_check_frequency_1day">Cada día</string>
   <!-- In Account setup options screen, optional check box to also sync contacts -->
+  <string name="account_setup_options_sync_contacts_label">Sincronizar contactos</string>
   <!-- In Account setup options screen, optional check box to also sync calendar -->
+  <string name="account_setup_options_sync_calendar_label">Sincronizar calendario</string>
   <!-- In Account setup options screen, check box to sync email -->
+  <string name="account_setup_options_sync_email_label">Sincronizar correo electrónico</string>
   <!-- On Settings screen, setting option for showing all images -->
+  <string name="account_settings_show_all_images_title">Imaxes</string>
+  <string name="account_settings_show_all_images_show">Mostrar sempre</string>
+  <string name="account_settings_show_all_images_ask">Preguntar antes de mostrar</string>
   <!-- On Settings Screen, setting option for setting the account color -->
+  <string name="account_settings_account_color_title">Color da conta</string>
+  <string name="account_settings_account_color_summary">Editar o color desta conta</string>
+  <string name="account_settings_account_color_dialog_title">Elexir unha cor</string>
   <!-- On Settings screen, led notification title label -->
+  <string name="account_settings_led_notification_label">Activar a notificación por LED</string>
+  <string name="account_settings_led_notification_custom_color">Usar a cor de LED personalizada</string>
   <!-- On Settings screen, led color title and summary label -->
+  <string name="account_settings_led_color_label">Personalizar cor de LED</string>
+  <string name="account_settings_led_color_summary">Por defecto é a cor da conta</string>
   <!-- On Settings screen, tutorial header title label -->
   <!-- On Settings screen, title for label/move preference -->
+  <string name="account_settings_move_label_title">Etiquetar/Mover mensaxes</string>
   <!-- On Settings screen, shown as an option for label/move preference -->
+  <string name="account_settings_move_title">Mover</string>
   <!-- On Settings screen, shown as an option for label/move preference -->
+  <string name="account_settings_label_title">Etiquetar</string>
   <!-- The domain can only be changed during initial account setup. [CHAR LIMIT=none] -->
+  <string name="account_setup_domain_uneditable_error">Non podes cambiar o dominio da conta. Para engadir unha conta con un dominio diferente, toca Engadir Conta.</string>
   <!-- The email can only be changed during initial account setup. [CHAR LIMIT=none] -->
+  <string name="account_setup_email_uneditable_error">Non pode modificar o email dunha conta. Para engadir unha conta con outro email, toque Engadir conta.</string>
   <!-- General preference: Labels for the setting to mark emails as read before archiving them -->
+  <string name="general_preference_mark_archive_messages_read">Arquivar como lidas</string>
+  <string name="general_preference_mark_archive_messages_read_description">Marcar as mensaxes como lidas antes de as arquivar</string>
   <!-- General preference: Notifications open to the combined inbox-->
+  <string name="general_pref_notifications_use_combined_inbox">As notificacións ábrense nunha caixa de entrada combinada</string>
+  <string name="general_pref_notifications_use_combined_inbox_desc">Ao premer nunha notificación ábrese a caixa de entrada combinada no canto da caixa de entrada da conta</string>
   <!-- The hint used in the search box [CHAR LIMIT=35] -->
+  <string name="search_hint">Buscar\u2026</string>
   <!-- Title of screen when trying to get oauth authentication -->
+  <string name="oauth_authentication_title">Solicitando autorización</string>
   <!-- Title of screen to choose with authentication to use -->
   <!-- Button shown on SignInActivity -->
+  <string name="sign_in_button">Listo</string>
   <!-- Label between OAuth and password authentication, indicating the user must do one or the other [CHAR LIMIT=40] -->
+  <string name="or_label">OU</string>
   <!-- Label for signing in with Google using OAuth -->
+  <string name="sign_in_with_google">Acceder con Google</string>
   <!--  On the "Setup up email" screen, label indicating what service we are signed in with [CHAR LIMIT=40] -->
+  <string name="signed_in_with_service_label">Accedeuse con %1$s</string>
   <!-- Label for the authentication section [CHAR LIMIT=20] -->
+  <string name="authentication_label">Autentificación</string>
   <!-- Label for the add authentication icon [CHAR LIMIT=40] -->
+  <string name="oauth_saving_message">Gardando\u2026</string>
   <!-- A sync window length setting (i.e. load messages this far back) [CHAR LIMIT=25]  -->
   <!-- A sync window length setting (i.e. load messages this far back) [CHAR LIMIT=25]  -->
+  <string name="account_settings_unable_to_edit_field">O seu administrador non permite que se modifique este campo</string>
   <!-- Menu item for sending availability from compose. [CHAR_LIMIT=30] -->
+  <string name="message_compose_send_availability_menu_title">Enviar dispoñibilidade</string>
   <!-- Menu item for including an invite from compose. [CHAR_LIMIT=30] -->
+  <string name="message_compose_create_invite_menu_title">Crear invitación</string>
   <!-- Preference for the compose toolbar -->
+  <string name="preference_compose_toolbar_visibility">Mostrar a barra de escritura</string>
   <!-- Preference for conversation threading -->
+  <string name="preference_conversation_threading">Fío de conversa</string>
+  <string name="message_send_failed_ticker">Non se puido enviar a mensaxe</string>
+  <string name="message_send_failed_title">Non se enviou a mensaxe</string>
+  <string name="preferences_clear_search_history_title">Borrar o Historial de busca</string>
+  <string name="preferences_clear_search_history_summary">Eliminar todas as buscas realizadas</string>
+  <string name="search_history_cleared">Borrouse o Historial de busca.</string>
+  <string name="update_available_ticker">Hai unha actualización dispoñíbel para Correo electrónico</string>
+  <string name="update_availalable_title">Hai unha actualización dispoñíbel</string>
+  <string name="update_available_content">Toque para instalala</string>
   <!-- Security settings category -->
+  <string name="preferences_security_title">Seguranza</string>
   <!-- Preference for disabling screenshots of app screens. -->
+  <string name="preference_disable_screenshots">Desactivar capturas de pantalla</string>
   <!-- Preference for disabling screenshots of app screens. -->
+  <string name="preference_disable_screenshots_summary">Impedir que outras aplicacións capturen a pantalla doutras aplicacións</string>
+  <string name="preference_allow_insecure_attachments_title">Permitir anexos inseguros</string>
+  <string name="preference_allow_insecure_attachments_summary">Permitir a visualización ou gardado de anexos inseguros</string>
+  <string name="custom_perms_dialog_title">Duplicar os permisos</string>
+  <string name="custom_perms_dialog_msg">Outra aplicación podería estar a obter a túa información persoal.\n\n<xliff:g id="content">%1$s</xliff:g>\n\nPor favor, contacto co soporte Boxer para obter axuda.</string>
+  <plurals name="custom_perms_dialog_app_violation">
+    <item quantity="one"><xliff:g id="app_name">(%1$s)</xliff:g> redefine o permiso: <xliff:g id="permissions_list">%2$s</xliff:g></item>
+    <item quantity="other"><xliff:g id="app_name">(%1$s)</xliff:g> redefine os permisos: <xliff:g id="permissions_list">%2$s</xliff:g></item>
+  </plurals>
+  <string name="custom_perms_pos_btn">Comunicar problema</string>
   <!-- Label shown in the account selector to select "Combined", which contains
          Combined Inbox, Combined Outbox, etc. [CHAR LIMIT=30] -->
+  <string name="mailbox_list_account_selector_combined_view">Combinada</string>
   <!-- Menu item: Select all conversations -->
+  <string name="menu_select_all">Seleccionar todas</string>
+  <string name="menu_actiongrid">Grella de accións</string>
   <!-- Main screen and setting, menu item [CHAR LIMIT=30]-->
   <!-- Main screen and setting, menu item [CHAR LIMIT=30]-->
+  <string name="support">Soporte</string>
   <!-- Delete account -->
+  <string name="delete_account_title">Eliminar conta</string>
+  <string name="delete_account_summary">Eliminar esta conta, todos os axustes e datos</string>
+  <string name="delete_account_confirmation_msg">Vanse borrar todas as configuracións e correos electrónicos da conta <xliff:g id="account">%1$s</xliff:g>. Esta operación non se pode desfacer.\n\nQuere continuar?</string>
+  <string name="deleting_account_msg">Eliminando a conta\u2026</string>
+  <string name="delete_account_failed">Non se puido eliminar a conta</string>
   <!-- Read email screen, button name. Open an attachment. [CHAR LIMIT=10] -->
   <!-- Read email screen, button name. Install an attachment. [CHAR LIMIT=10] -->
   <!-- Photo view screen, button name. Print photo. [CHAR LIMIT=20] -->
+  <string name="menu_photo_print">Imprimir</string>
   <!-- Menu item to view an image  [CHAR LIMIT=50]-->
+  <string name="contextmenu_view_image">Ver imaxe</string>
   <!-- Formatting for the collapsed To header in the MessageHeaderView -->
+  <plurals name="to_header">
+    <item quantity="one"> &amp; %1$d otro</item>
+    <item quantity="other">&amp; %1$d otros</item>
+  </plurals>
+  <plurals name="conversation_todo">
+    <!-- Displayed while setting one conversation to-do -->
+    <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; marcadas como pendentes.</item>
+    <!-- Displayed while archiving multiple conversations -->
+    <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; marcadas como pendentes.</item>
+  </plurals>
   <!-- Displayed in undo LeaveBehindItem after reporting a message as spam -->
+  <string name="reported_as_spam">Declarado como correo lixo</string>
   <!-- New Message notification text that appears over conversation view on incoming message. [CHAR LIMIT=40] -->
+  <string name="new_incoming_messages_one">Amosar nova mensaxe de <xliff:g id="sender">%1$s</xliff:g>.</string>
   <!-- New Message notification text that appears over conversation view on incoming messages. Will only be used if there is more than one new message. [CHAR LIMIT=40] -->
+  <plurals name="new_incoming_messages_many">
+    <item quantity="one">Amosar <xliff:g id="count">%1$d</xliff:g> nova mensaxe.</item>
+    <item quantity="other">Amosar <xliff:g id="count">%1$d</xliff:g> novas mensaxes.</item>
+  </plurals>
   <!-- Button name, displayed in dialogs [CHAR LIMIT=10] -->
+  <string name="edit">Editar</string>
   <!-- Hint for searching/filtering folders in the folder selection dialog [CHAR LIMIT=30] -->
+  <string name="folder_search_hint">Busca</string>
   <!-- The section headers for the move to folder dialog [CHAR LIMIT=15] -->
+  <string-array name="moveto_folder_sections">
+    <item>Ficheiros intelixentes</item>
+    <item>Todos os cartafoles</item>
+  </string-array>
   <!-- The section headers for the change folders dialog [CHAR LIMIT=15] -->
+  <string-array name="change_folders_sections">
+    <item>Etiquetas intelixentes</item>
+    <item>Todas as etiquetas</item>
+  </string-array>
   <!-- String used in the FolderListFragment to mark the start of "boxes" -->
+  <string name="boxes_heading">Caixas</string>
   <!-- String used in the FolderListFragment to mark the start of user-defined folders -->
+  <string name="all_folders_heading">Cartafoles</string>
   <!-- String used in the FolderListFragment to mark the start of accounts -->
+  <string name="accounts_heading">Contas</string>
   <!-- Default email signature on vendor builds -->
+  <string name="vendor_signature">Enviado dende o meu móbil Cyanogen</string>
+  <string name="vendor_signature_fmt">Enviado dende <xliff:g id="brand" example="samsung">%1$s</xliff:g></string>
+  <string name="blu_signature">Enviado dende o meu teléfono BLU - BLU Mail fornecido por Boxer</string>
+  <string name="vendor_signature_o2">Enviado dende Cyanogen baixo O2</string>
   <!-- Notification action for deleting a message. [CHAR LIMIT=20] -->
+  <string name="notification_action_mark_read">LER</string>
   <!-- Notification action for replying to a message. [CHAR LIMIT=20] -->
+  <string name="notification_action_reply">RESPONDER</string>
   <!-- Notification action for deleting a message. [CHAR LIMIT=20] -->
+  <string name="notification_action_delete">ELIMINAR</string>
   <!-- Notification message to the user upon new messages for a conversation. [CHAR LIMIT=120] -->
+  <plurals name="new_messages">
+    <item quantity="one"><xliff:g id="count">%1$d</xliff:g> nova mensaxe</item>
+    <item quantity="other"><xliff:g id="count">%1$d</xliff:g> novas mensaxes</item>
+  </plurals>
   <!--  Settings screen, Swipe actions preference title -->
+  <string name="preferences_swipe_actions_title">Xestos</string>
   <!--  Settings screen, Swipe actions preference summary -->
+  <string name="preferences_swipe_actions_summary">Personalizar os xestos de arrastre á esquerda e á dereita</string>
   <!--  Settings screen, Swipe actions, Left short preference title -->
+  <string name="preferences_swipe_left_short_title">Xesto de arrastre curto á esquerda</string>
   <!--  Settings screen, Swipe actions, Left long preference title -->
+  <string name="preferences_swipe_left_long_title">Xesto de arrastre longo á esquerda</string>
   <!--  Settings screen, Swipe actions, Right short preference title -->
+  <string name="preferences_swipe_right_short_title">Xesto de arrastre curto á dereita</string>
   <!--  Settings screen, Swipe actions, Right long preference title -->
+  <string name="preferences_swipe_right_long_title">Xesto de arrastre longo á dereita</string>
   <!-- Menu item text to that when clicked will allow a user to print an email conversation. [CHAR LIMIT=25] -->
+  <string name="print">Imprimir</string>
   <!-- Number of messages in a conversation [CHAR LIMIT=30]-->
+  <plurals name="num_messages">
+    <item quantity="one"><xliff:g id="count">%1$d</xliff:g> mensaxe</item>
+    <item quantity="other"><xliff:g id="count">%1$d</xliff:g> mensaxes</item>
+  </plurals>
   <!-- Shown to display the date of the message [CHAR LIMIT=50] -->
+  <string name="date_message_received_print"><xliff:g id="day_and_date">%1$s</xliff:g> o <xliff:g id="time">%2$s</xliff:g></string>
   <!-- Shown to display the to recipient(s) of the message if the message is a draft [CHAR LIMIT=20] -->
+  <string name="draft_to_heading">Borrador para:\u0020</string>
   <!-- Shown to display in the message header if the message is a draft and there are no "to" addresses in the draft [CHAR LIMIT=10] -->
+  <string name="draft_heading">Borrador</string>
   <!-- Shown to inform the user that the quoted text for this message has been hidden. [CHAR LIMIT=50] -->
+  <string name="quoted_text_hidden_print">Agochouse o texto citado</string>
   <!-- Number of attachments in a message [CHAR LIMIT=30]-->
+  <plurals name="num_attachments">
+    <item quantity="one"><xliff:g id="count">%1$d</xliff:g> anexo</item>
+    <item quantity="other"><xliff:g id="count">%1$d</xliff:g> anexos</item>
+  </plurals>
   <!-- Title to display when an email has no subject. [CHAR LIMIT=50]-->
+  <string name="no_subject">(sen asunto)</string>
+  <string name="action_grid_select_quick_response">Seleccionar resposta rápida</string>
+  <string name="action_grid_todo_dialog_title">Detalles</string>
+  <string name="action_grid_set_due_date">Establecer data límite</string>
+  <string name="action_grid_due">Límite: <xliff:g id="datestring">%1$s</xliff:g></string>
+  <string name="action_grid_add_priority">Engadir prioridade</string>
+  <string name="action_grid_priority">Prioridade:\u0020</string>
+  <string name="action_grid_add_assignee">Engadir asignatario</string>
+  <string name="action_grid_assignee">Asignatario:\u0020</string>
+  <string name="action_grid_due_date_dialog_title">Establecer data límite</string>
+  <string name="action_grid_due_date_today">Hoxe</string>
+  <string name="action_grid_due_date_tomorrow">Mañá</string>
+  <string name="action_grid_due_date_this_week">Esta semana</string>
+  <string name="action_grid_due_date_next_week">Vindeira semana</string>
+  <string name="action_grid_due_date_specific_date">Data concreta</string>
+  <string name="action_grid_priority_dialog_title">Engadir prioridade</string>
+  <string name="action_grid_priority_highest">Prioridade moi alta</string>
+  <string name="action_grid_priority_high">Prioridade alta</string>
+  <string name="action_grid_priority_normal">Prioridade normal</string>
+  <string name="action_grid_priority_low">Prioridade baixa</string>
+  <string name="action_grid_priority_lowest">Prioridade moi baixa</string>
+  <string name="action_grid_assignee_dialog_title">Engadir asignatario</string>
+  <string name="action_grid_assignee_search_for_contact">Buscar contactos</string>
+  <string name="action_grid_assignee_button_bar_clear">Despexado</string>
   <!-- Prompt used if you are trying to delete a message -->
+  <string name="action_message_header_delete">Eliminar esta mensaxe?</string>
   <!-- These strings below represent the default Actions that are available for the ActionGrid -->
+  <string name="action_like">Gústame</string>
   <string name="action_todo">Pendentes</string>
+  <string name="action_quick">Veloz</string>
+  <string name="action_move">Mover</string>
+  <string name="action_label">Etiquetar</string>
+  <string name="action_move_or_label">Mover ou etiquetar</string>
+  <string name="action_archive">Arquivadas</string>
+  <string name="action_delete">Eliminar</string>
+  <string name="action_spam">Lixo</string>
+  <string name="action_flag">Avisar</string>
+  <string name="action_star">Pór estrela</string>
+  <string name="action_clear_star">Quitar estrela</string>
+  <string name="action_star_or_flag">Por estrela/Informar</string>
+  <string name="action_mark_unread">Marcar como non lida</string>
+  <string name="action_mark_read">Marcar como lida</string>
+  <string name="action_read_or_unread">Lidas/Non lidas</string>
+  <string name="action_actions">Accións</string>
   <!-- These strings are shown in Toast messages when an Action above is selected -->
+  <plurals name="quick_response_sent">
+    <!-- Quick respond to 1 conversation -->
+    <item quantity="one">Resposta enviada</item>
+    <!-- Quick respond to several conversations -->
+    <item quantity="other">Respostas enviadas</item>
+  </plurals>
+  <plurals name="liked_message">
+    <!-- Like 1 conversation -->
+    <item quantity="one">Indicaches que che gusta esta mensaxe</item>
+    <!-- Like several conversations -->
+    <item quantity="other">Indicaches que che gusta estas mensaxes</item>
+  </plurals>
+  <string name="invalid_selection">Selección non válida</string>
+  <string name="file_action_more_than_one_account">Seleccionaches conversas de máis dunha conta. Proba a seleccionar conversas unicamente dunha conta soa.</string>
+  <string name="action_more_than_one_conversation">A funcionalidade de Evernote só é compatible con unha conversa cada vez. Proba a seleccionar só unha conversa.</string>
+  <string name="not_installed">Non instalado</string>
+  <string name="evernote_not_installed">Evernote non parece estar instalado. É necesario instalalo para poder utilizar esta funcionalidade.</string>
+  <string name="custom_mailbox_button">Engadir caixa personalizada</string>
+  <string name="custom_mailbox_settings_label">Axustes</string>
+  <string name="custom_mailbox_folder_name_hint">Nome da caixa personalizada</string>
+  <string name="custom_mailbox_background_sync_label">Sincronización de fondo</string>
+  <string name="custom_mailbox_background_sync_switch_on">Activo</string>
+  <string name="custom_mailbox_background_sync_switch_off">Apagar</string>
+  <string name="custom_mailbox_delete_box">Eliminar caixa</string>
+  <string name="custom_mailbox_error_no_selected_folders">Por favor selecciona polo menos un cartafol da lista de abaixo</string>
   <!-- Title for confirm delete box dialog -->
+  <string name="custom_mailbox_delete_box_dialog_title">Aviso</string>
+  <string name="custom_mailbox_delete_box_dialog_message">Está seguro de que quere eliminar esta caixa personalizada?</string>
+  <string name="custom_mailbox_error_deleting_box">Non se puido eliminar a caixa personalizada</string>
   <!-- Ratings Viral Prompt -->
+  <string name="viral_prompt_rate_app_title">Valora esta aplicación</string>
+  <string name="viral_prompt_rate_app_body">Se lle gusta esta aplicación, podería dedicar un momento a valorala? Será tan só un minuto. Grazas polo seu apoio!</string>
+  <string name="viral_ratings_prompt_rate_now">Valorar agora</string>
+  <string name="promo_code_edittext_hint">Inserir código promocional</string>
+  <string name="promo_code_button_text">Enviar</string>
+  <string name="promo_code_error_no_code_entered">Insire, por favor, un código promocional antes de premer Enviar</string>
+  <string name="promo_code_error_invalid_code">Código promocional non válido</string>
+  <string name="promo_code_progress_dialog_validating">Validando o código promocional</string>
+  <string name="rage_shake_title">Detectouse un abaneo</string>
+  <string name="rage_shake_message">Quere forzar o peche da aplicación para enviar un informe de depuración?</string>
+  <string name="actions_dialog_title">Personalizar</string>
+  <string name="actions_dialog_message">Utiliza cartafoles a miúdo? Adoita a marcar o correo lixo? Encántalle enviar cousas a Evernote?\n\nCos xeitos personalizados pode establecer estos xestos de arrastre para que se acomoden ao seu ritmo de traballo.\n</string>
+  <string name="actions_dialog_positive_button_text">Personalizar xestos</string>
+  <string name="actions_dialog_negative_button_text">Pechar</string>
   <!-- Account Setup -->
+  <string name="account_setup_start_company_slogan_text">Benvido/a a unha mellor caixa de entrada.</string>
+  <string name="account_setup_vendor_heading">Benvido/a ao Correo electrónico</string>
   <!-- Like Feature -->
+  <string name="like_action_dialog_tittle">Como funciona Gústame?</string>
+  <string name="like_action_dialog_message">Acaba de descubrir una das nosas funcionalidades favoritas. Cando indica que lle gusta unha mensaxe, avísaselle ao remitente e outros destinatarios por medio dun correo electrónico. É o xeito máis rápido de contestar a un correo.</string>
   <!-- Displayed on a button whose action is to create something new. -->
+  <string name="new_button">Nova</string>
   <!-- Text hint when creating a new folder from the move/label dialog. -->
+  <string name="folder_name_hint">Nome do cartafol</string>
   <!-- Progress text when creating a new folder from the move/label dialog. -->
+  <string name="create_folder_progess">Creando o cartafol\u2026</string>
   <!-- Error title used when the user tries to add a folder that matches an existing folder. -->
+  <string name="duplicate_folder_title">Nome duplicado</string>
   <!-- Error message used when the user tries to add a folder that matches an existing folder. -->
+  <string name="duplicate_folder_message">O nome do cartafol inserido xa existe.</string>
   <!-- Title used for generic error alerts. -->
+  <string name="error">Erro</string>
   <!-- Error message displayed when a folder fails to be created on the server. -->
+  <string name="error_creating_folder_message">Non se puido crear o cartafol.</string>
   <!-- Menu item: report an email was not readable or poorly rendered -->
+  <string name="report_rendering_problem">Comunicar problema</string>
   <!-- Toast message for above action -->
+  <string name="message_reported">Informouse desa mensaxe</string>
   <!-- Conversation list shared between the Activity and Widget -->
   <!-- Displayed in the middle of the screen when conversations are being loaded [CHAR LIMIT 100]-->
+  <string name="no_conversation_needs_sync">Aquí non hai correo.\nArrastra dende o cabeceiro para actualizar</string>
+  <string name="getting_messages">Recibindo mensaxes</string>
+  <string name="empty_folder">Sen correo.</string>
+  <string name="empty_inbox">Feito! Por favor, goza do día.</string>
+  <string name="empty_search">Vaites! Non atopamos nada con \"<xliff:g id="search_query">%1$s</xliff:g>\".</string>
+  <string name="empty_spam_folder">Que ben! Non hai correo lixo!</string>
+  <string name="empty_trash_folder">Non hai nada na papeleira. Grazas por reciclar!</string>
   <!-- Calendar invite hero card -->
   <!-- Link for opening an invite's event in the calendar app. -->
+  <string name="view_on_calendar">Ver no calendario</string>
   <!-- Response action buttons. -->
+  <string name="accept">Aceptar</string>
+  <string name="maybe">Quizais</string>
+  <string name="decline">Rexeitar</string>
+  <string name="remove_from_cal">Eliminar do calendario</string>
+  <string name="remove_series_from_cal">Eliminar as series do calendario</string>
   <!-- Attendee text when user is the only attendee. -->
+  <string name="calendar_attendees_me_only">Eu</string>
   <!-- Attendee text when there are additional attendees. -->
+  <plurals name="calendar_attendees">
+    <item quantity="one">Eu &amp; %1$d outro</item>
+    <item quantity="other">Eu &amp; %1$d outros</item>
+  </plurals>
   <!-- Accompanies the date/time for all day events. -->
+  <string name="all_day">Todo o día</string>
   <!-- Status for canceled events. -->
+  <string name="canceled">Cancelado</string>
   <!-- Send availability strings -->
+  <string name="times_that_work_for_me">Horas que teño dispoñíbles:</string>
+  <string name="availability_by">Dispoñibilidade por</string>
+  <string name="remove_availability">Eliminar dispoñibilidade</string>
+  <string name="event_over">Terminouse o evento</string>
+  <string name="busy">Ocupado</string>
+  <string name="available">Dispoñíbel</string>
+  <plurals name="other_conflicts">
+    <item quantity="one">%1$d conficto máis</item>
+    <item quantity="other">%1$d confictos máis</item>
+  </plurals>
+  <string name="meeting_invitation">Resumo do convite:</string>
+  <string name="invitation_by">Convite de</string>
+  <string name="remove_invite">Eliminar invitación</string>
+  <string name="action_liked_message_cm"><xliff:g id="display_name" example="John Doe">%1$s</xliff:g> gustoulle a túa mensaxe con &lt;a href=\"%2$s\"&gt;Boxer on Cyanogen OS&lt;/a&gt;.</string>
+  <string name="error_no_app_store">Non se atopou ningunha tenda de aplicacións válida</string>
   <!-- String shown in the TO field when it is blank -->
+  <string name="undisclosed_recipients">Destinatarios non revelados</string>
+  <string name="previous_action">Anterior</string>
   <!-- Title for enter passcode screen -->
+  <string name="enter_passcode_title">Introduce o contrasinal</string>
+  <string name="enter_passcode_logo_desc">Logo de Boxer</string>
+  <string name="enter_passcode_status_desc">Indicador de estado</string>
+  <string name="enter_passcode_hint">Introduce o teu contrasinal</string>
+  <string name="enter_passcode_go">Ir</string>
+  <string name="enter_passcode_success">Listo!</string>
+  <string name="enter_passcode_failure">O código incorrecto</string>
+  <string name="enter_passcode_failure_with_max">%1$d de %2$d intentos fallidos</string>
+  <string name="enter_passcode_last_chance">1 intento restante.\nSe fallas, borraranse todos os correos do dispositivo.</string>
+  <string name="enter_passcode_wipe">Borrarando os datos da aplicación</string>
   <!-- Start of combined settings strings -->
+  <string name="header_category_mail">Correo</string>
+  <string name="header_category_other">Outros</string>
+  <string name="header_default_account_title">Conta predefinida</string>
+  <string name="header_local_calendars_title">Calendarios locais</string>
+  <string name="header_mail_settings_title">Máis axustes do correo</string>
+  <string name="header_calendar_settings_title">Máis axustes do calendario</string>
+  <string name="header_passcode_title">Contrasinal</string>
   <!-- In Account Setup options screen, label for email lookback selector -->
+  <string name="account_setup_options_mail_window_label">Correo sincronizado por</string>
   <!-- In Account Settings screen, label for email lookback selector -->
+  <string name="account_settings_options_mail_window_label">Días a sincronizar</string>
+  <string name="account_settings_sync_calendar_summary">Sincronizar o evento do calendario desta conta</string>
+  <string name="default_account_fragment_title">Conta predefinida</string>
+  <string name="mail_settings_fragment_title">Axustes do email</string>
   <!-- The menu item to send logs -->
+  <string name="menu_send_logs">Enviar rexistros</string>
   <!-- The menu item to open the about section -->
+  <string name="menu_about">Acerca de</string>
+  <string name="version">Versión</string>
+  <string name="build">Compilación</string>
+  <string name="build_date">Data de compilación</string>
+  <string name="legal">Legal</string>
+  <string name="open_source">Licenzas de código aberto</string>
+  <string name="privacy_policy">Política de privacidade de AirWatch</string>
   <!-- Name of the DeviceAdmin (seen in settings & in user confirmation screen) -->
+  <string name="device_admin_label">Boxer</string>
   <!-- Settings passcode strings -->
+  <string name="settings_passcode_on">Activar código de acceso</string>
+  <string name="settings_passcode_off">Desactivar código de acceso</string>
+  <string name="settings_passcode_change">Cambiar código de acceso</string>
+  <string name="settings_passcode_time_interval">Require código de acceso</string>
   <!-- String array for require passcode in passcode settings -->
+  <string name="settings_require_passcode_1min">1 minuto</string>
+  <string name="settings_require_passcode_2min">2 minutos</string>
+  <string name="settings_require_passcode_3min">3 minutos</string>
+  <string name="settings_require_passcode_4min">4 minutos</string>
+  <string name="settings_require_passcode_5min">5 minutos</string>
+  <string name="settings_require_passcode_10min">10 minutos</string>
+  <string name="settings_require_passcode_15min">15 minutos</string>
+  <string name="settings_require_passcode_30min">30 minutos</string>
+  <string name="settings_require_passcode_1hour">1 hora</string>
+  <string name="settings_require_passcode_1.5hours">1.5 horas</string>
+  <string name="settings_require_passcode_4hours">4 horas</string>
+  <plurals name="settings_require_passcode_minutes">
+    <item quantity="one">minuto</item>
+    <item quantity="other">minutos</item>
+  </plurals>
+  <plurals name="settings_require_passcode_hours">
+    <item quantity="one">hora</item>
+    <item quantity="other">horas</item>
+  </plurals>
   <!-- Permission related string -->
+  <string name="permissions_enable">Activado</string>
+  <string name="permissions_call_title">Permitir o acceso ao teléfono</string>
+  <string name="permissions_call_message">Para chamar, debes permitir o acceso de Boxer ao teléfono.</string>
+  <string name="permissions_storage_title">Activar o acceso ao almacenamento</string>
+  <string name="permissions_storage_message">Para gardar ficheiros anexos, é preciso permitir acceso ao almacenamento a Boxer.</string>
+  <string name="permissions_calendar_title">Activar o acceso ao calendario</string>
+  <string name="permissions_calendar_message">Boxer non ten acceso aos eventos de calendario nativos.</string>
+  <string name="permissions_do_not_show_again">Non mostrar de novo</string>
   <!-- String shown as a toast when sending a quick response fails due to some unknown error-->
+  <string name="emailing_guests_failed">Non é posíbel enviar correos aos convidados</string>
+  <string name="account_setup_selection_title">Tipo de conta</string>
+  <string name="account_setup_discovery_title">Detalles da conta</string>
+  <string name="account_setup_options_title">Opcións de sincronización</string>
+  <string name="plugin_permission_label">Permisos do engadido de Boxer</string>
+  <string name="plugin_permission_description">Os engadidos de Boxer cárganse pola aplicación para proporcionar características adicionais. Os engadidos debe ser firmados por Boxer para cargarse.</string>
+  <string name="view">Ver</string>
+  <string name="original_appointment">---Cita oxiginal---</string>
+  <string name="meeting_from">
+        De:
+        <xliff:g id="From">%s</xliff:g>
+    </string>
+  <string name="meeting_subject">
+        Asunto:
+        <xliff:g id="Subject">%s</xliff:g>
+    </string>
+  <string name="meeting_to">
+        Para:
+        <xliff:g id="To">%s</xliff:g>
+    </string>
+  <string name="email_attendees">Asistentes do correo</string>
+  <string name="forward_event">Reenviar evento</string>
+  <string name="email_organizer">Organizador de correo</string>
+  <string name="email_everyone">Todos os correos</string>
 </resources>

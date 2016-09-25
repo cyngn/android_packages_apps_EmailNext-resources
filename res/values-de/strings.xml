@@ -568,6 +568,7 @@
   <!--  Button name: discard this message [CHAR LIMIT=15] -->
   <string name="discard">Verwerfen</string>
   <!-- The possible ways to reply to a message [CHAR LIMIT=15] -->
+  <string name="compose">Erstellen</string>
   <!-- The possible ways to reply to a message [CHAR LIMIT=15] -->
   <string-array name="compose_modes">
     <!-- Reply -->
@@ -1057,6 +1058,7 @@
   <!-- General preference: Description of the setting for the direction to move to
          when deleting the current message.
          Options contain "newer message","older message", etc. [CHAR LIMIT=64] -->
+  <string name="auto_advance_summary">Was soll nach dem Löschen einer Nachricht angezeigt werden?</string>
   <!-- Title of the dialog that appears the first time they perform an action that would cause
          auto advance logic to fire [CHAR LIMIT=70] -->
   <string name="auto_advance_help_title">\"Automatisch fortfahren\" einrichten\n(nach dem Löschen usw.)</string>
@@ -1082,6 +1084,7 @@
   <string name="clear_display_images_whitelist_dialog_title">Bildgenehmigungen löschen?</string>
   <!-- Settings screen, message of dialog shown to confirm action when tapping
     "Clear picture approvals" [CHAR LIMIT=1000]-->
+  <string name="clear_display_images_whitelist_dialog_message">Keine eingebetteten Bilder mehr von zuvor zugelassenen Absendern anzeigen.</string>
   <!-- Message shown in toast when the user taps "Restore default for "Show pictures"" in Gmail general preferences. [CHAR LIMIT=50] -->
   <string name="sender_whitelist_cleared">Bilder werden nicht automatisch angezeigt.</string>
   <!-- Settings screen, name of the setting that lets the user choose their signature [CHAR LIMIT=50] -->
