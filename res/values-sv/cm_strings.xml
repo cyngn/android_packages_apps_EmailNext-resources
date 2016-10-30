@@ -39,6 +39,7 @@
   <string name="account_setup_check_settings_dialog_manual_button">Manuell</string>
   <!-- Error message shown in dialog body when authenticating an account during setup fails -->
   <!-- Dialog title when "setup" could not finish -->
+  <string name="account_setup_failed_dlg_title">Kunde inte konfigurera kontot</string>
   <!-- hint for account email password text field -->
   <string name="account_setup_basics_progress_message">Automatisk upptäckt pågår</string>
   <!-- In Account setup options screen, Activity title [CHAR LIMIT=45] -->
@@ -52,7 +53,9 @@
   <!-- In Account setup options screen, optional check box to also sync contacts -->
   <string name="account_setup_options_sync_contacts_label">Synkronisera kontakter</string>
   <!-- In Account setup options screen, optional check box to also sync calendar -->
+  <string name="account_setup_options_sync_calendar_label">Synkronisera kalender</string>
   <!-- In Account setup options screen, check box to sync email -->
+  <string name="account_setup_options_sync_email_label">Synkronisera post</string>
   <!-- On Settings screen, setting option for showing all images -->
   <string name="account_settings_show_all_images_title">Bilder</string>
   <string name="account_settings_show_all_images_show">Visa alltid</string>

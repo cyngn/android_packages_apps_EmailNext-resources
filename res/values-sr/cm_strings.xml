@@ -38,12 +38,26 @@
   <string name="account_setup_general_heading">Поставке налога</string>
   <string name="account_setup_authentication_heading">Провера</string>
   <string name="account_setup_passcode_title">Exchange админ тражи да поставиш лозинку за синхронизацију.</string>
+  <string name="account_setup_passcode_format_restriction_complex">Имаш <xliff:g id="quantity">%1$d</xliff:g> више од дозвољеног: великих слова, малих слова, бројева и/или специјалних карактера.</string>
+  <plurals name="account_setup_passcode_length_restriction">
+    <item quantity="one">Нека буде бар 1 карактер дугачак.</item>
+    <item quantity="few">Нека буде бар <xliff:g id="length">%1$d</xliff:g> карактер дугачак.</item>
+    <item quantity="other">Нека буде бар <xliff:g id="length">%1$d</xliff:g> карактер дугачак.</item>
+  </plurals>
+  <plurals name="account_setup_passcode_previous_use_restriction">
+    <item quantity="one">Не могу потврдити твоју претходну лозинку.</item>
+    <item quantity="few">Не могу потврдити једну од претходних <xliff:g id="passcodeHistoryLength">%1$d</xliff:g> лозинки.</item>
+    <item quantity="other">Не могу потврдити једну од претходних <xliff:g id="passcodeHistoryLength">%1$d</xliff:g> лозинки.</item>
+  </plurals>
   <string name="account_setup_passcode_hint">Унеси лозинку</string>
   <string name="account_setup_confirm_passcode_title">Потврди лозинку</string>
+  <string name="account_setup_confirm_passcode_subtitle">Лозинке се морају подударати</string>
   <string name="account_setup_confirm_passcode_action_label">Потврди</string>
   <string name="account_setup_check_settings_dialog_manual_button">Ручно</string>
   <!-- Error message shown in dialog body when authenticating an account during setup fails -->
+  <string name="account_setup_failed_dlg_message_fmt"><xliff:g id="error_msg">%1$s</xliff:g>Да ли желиш ажурирати своје подешавање и пробати поново или ручно поставити подешавање?</string>
   <!-- Dialog title when "setup" could not finish -->
+  <string name="account_setup_failed_dlg_title">Није могуће конфигурисати налог</string>
   <!-- hint for account email password text field -->
   <string name="account_setup_basics_progress_message">Ауто-откривање у току</string>
   <!-- In Account setup options screen, Activity title [CHAR LIMIT=45] -->
@@ -83,7 +97,9 @@
   <!-- On Settings screen, shown as an option for label/move preference -->
   <string name="account_settings_label_title">Ознака</string>
   <!-- The domain can only be changed during initial account setup. [CHAR LIMIT=none] -->
+  <string name="account_setup_domain_uneditable_error">Не можеш променити домен налога. Да додаш налог са другим доменом користи додај налог.</string>
   <!-- The email can only be changed during initial account setup. [CHAR LIMIT=none] -->
+  <string name="account_setup_email_uneditable_error">Не можеш променити Е-пошту налога. Да додаш налог са другом Е-поштом користи додај налог.</string>
   <!-- General preference: Labels for the setting to mark emails as read before archiving them -->
   <string name="general_preference_mark_archive_messages_read">Архивирај као прочитано</string>
   <string name="general_preference_mark_archive_messages_read_description">Означи Е-пошту као прочитану пре архивирања</string>
@@ -102,6 +118,7 @@
   <!-- Label for signing in with Google using OAuth -->
   <string name="sign_in_with_google">Прјавите се на Google</string>
   <!--  On the "Setup up email" screen, label indicating what service we are signed in with [CHAR LIMIT=40] -->
+  <string name="signed_in_with_service_label">Пријављен са %1$s</string>
   <!-- Label for the authentication section [CHAR LIMIT=20] -->
   <string name="authentication_label">Провера</string>
   <!-- Label for the add authentication icon [CHAR LIMIT=40] -->
@@ -116,6 +133,7 @@
   <!-- Preference for the compose toolbar -->
   <string name="preference_compose_toolbar_visibility">Прикажи сређивање траке са алатима</string>
   <!-- Preference for conversation threading -->
+  <string name="preference_conversation_threading">Развој преписке</string>
   <string name="message_send_failed_ticker">Слање поруке није успело</string>
   <string name="message_send_failed_title">Порука није послата</string>
   <string name="preferences_clear_search_history_title">Обриши историју претраге</string>
@@ -133,6 +151,12 @@
   <string name="preference_allow_insecure_attachments_title">Дозволи несигурне прилоге</string>
   <string name="preference_allow_insecure_attachments_summary">Дозволи преглед или чување несигурних прилога</string>
   <string name="custom_perms_dialog_title">Дуплиране дозволе</string>
+  <string name="custom_perms_dialog_msg">Друга апликација може покушати да прикупи твоје личне податке.\n\n<xliff:g id="content">%1$s</xliff:g>\n\nМолим контактирај Boxer подршку за помоћ.</string>
+  <plurals name="custom_perms_dialog_app_violation">
+    <item quantity="one"><xliff:g id="app_name">(%1$s)</xliff:g> редефинисана дозвола: <xliff:g id="permissions_list">%2$s</xliff:g></item>
+    <item quantity="few"><xliff:g id="app_name">(%1$s)</xliff:g> редефинисане дозволе: <xliff:g id="permissions_list">%2$s</xliff:g></item>
+    <item quantity="other"><xliff:g id="app_name">(%1$s)</xliff:g> редефинисане дозволе: <xliff:g id="permissions_list">%2$s</xliff:g></item>
+  </plurals>
   <string name="custom_perms_pos_btn">Направи извештај</string>
   <!-- Label shown in the account selector to select "Combined", which contains
          Combined Inbox, Combined Outbox, etc. [CHAR LIMIT=30] -->
@@ -146,6 +170,7 @@
   <!-- Delete account -->
   <string name="delete_account_title">Избриши налог</string>
   <string name="delete_account_summary">Избриши овај налог и сва његова подешавања и податке</string>
+  <string name="delete_account_confirmation_msg">Ово ће обрисати сва подешавања и е-пошту налога <xliff:g id="account">%1$s</xliff:g>. Ову операцију није могуће опозвати.\n\nНаставити?</string>
   <string name="deleting_account_msg">Брисање налога\u2026</string>
   <string name="delete_account_failed">Није могуће избрисати налог</string>
   <!-- Read email screen, button name. Open an attachment. [CHAR LIMIT=10] -->
@@ -155,6 +180,11 @@
   <!-- Menu item to view an image  [CHAR LIMIT=50]-->
   <string name="contextmenu_view_image">Прикажи слику</string>
   <!-- Formatting for the collapsed To header in the MessageHeaderView -->
+  <plurals name="to_header">
+    <item quantity="one"> &amp; %1$d други</item>
+    <item quantity="few">&amp; %1$d остали</item>
+    <item quantity="other">&amp; %1$d остали</item>
+  </plurals>
   <plurals name="conversation_todo">
     <!-- Displayed while setting one conversation to-do -->
     <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; означен за урадити.</item>
@@ -165,6 +195,7 @@
   <!-- Displayed in undo LeaveBehindItem after reporting a message as spam -->
   <string name="reported_as_spam">Пријављено као спам</string>
   <!-- New Message notification text that appears over conversation view on incoming message. [CHAR LIMIT=40] -->
+  <string name="new_incoming_messages_one">Прикажи нову поруку од <xliff:g id="sender">%1$s</xliff:g>.</string>
   <!-- New Message notification text that appears over conversation view on incoming messages. Will only be used if there is more than one new message. [CHAR LIMIT=40] -->
   <plurals name="new_incoming_messages_many">
     <item quantity="one">Прикажи <xliff:g id="count">%1$d</xliff:g> нову поруку.</item>
@@ -193,6 +224,7 @@
   <string name="accounts_heading">Налози</string>
   <!-- Default email signature on vendor builds -->
   <string name="vendor_signature">Послато са мог Cyanogen телефона</string>
+  <string name="vendor_signature_fmt">Послато са <xliff:g id="brand" example="samsung">%1$s</xliff:g></string>
   <string name="blu_signature">Послато са мог BLU телефона - BLU пошта покренута Boxer-ом</string>
   <string name="vendor_signature_o2">Послато од Cyanogen-а на O2</string>
   <!-- Notification action for deleting a message. [CHAR LIMIT=20] -->
@@ -200,7 +232,13 @@
   <!-- Notification action for replying to a message. [CHAR LIMIT=20] -->
   <string name="notification_action_reply">ОДГОВОРИ</string>
   <!-- Notification action for deleting a message. [CHAR LIMIT=20] -->
+  <string name="notification_action_delete">ИЗБРИШИ</string>
   <!-- Notification message to the user upon new messages for a conversation. [CHAR LIMIT=120] -->
+  <plurals name="new_messages">
+    <item quantity="one"><xliff:g id="count">%1$d</xliff:g> нова порука</item>
+    <item quantity="few"><xliff:g id="count">%1$d</xliff:g> нове поруке</item>
+    <item quantity="other"><xliff:g id="count">%1$d</xliff:g> нове поруке</item>
+  </plurals>
   <!--  Settings screen, Swipe actions preference title -->
   <string name="preferences_swipe_actions_title">Акција превлачења</string>
   <!--  Settings screen, Swipe actions preference summary -->
@@ -228,8 +266,20 @@
   <!-- Shown to display in the message header if the message is a draft and there are no "to" addresses in the draft [CHAR LIMIT=10] -->
   <string name="draft_heading">Недовршена порука</string>
   <!-- Shown to inform the user that the quoted text for this message has been hidden. [CHAR LIMIT=50] -->
+  <string name="quoted_text_hidden_print">Означи текст скривеним</string>
   <!-- Number of attachments in a message [CHAR LIMIT=30]-->
+  <plurals name="num_attachments">
+    <item quantity="one"><xliff:g id="count">%1$d</xliff:g> прилог</item>
+    <item quantity="few"><xliff:g id="count">%1$d</xliff:g> прилога</item>
+    <item quantity="other"><xliff:g id="count">%1$d</xliff:g> прилога</item>
+  </plurals>
   <!-- Title to display when an email has no subject. [CHAR LIMIT=50]-->
+  <string name="no_subject">(без назива)</string>
+  <string name="action_grid_select_quick_response">Изабери брз одговор</string>
+  <string name="action_grid_todo_dialog_title">Детаљи</string>
+  <string name="action_grid_set_due_date">Намести доспели датум</string>
+  <string name="action_grid_due">Приспели: <xliff:g id="datestring">%1$s</xliff:g></string>
+  <string name="action_grid_add_priority">Постави приоритет</string>
   <string name="action_grid_priority">Приоритет:\u0020</string>
   <string name="action_grid_add_assignee">Додај преносника</string>
   <string name="action_grid_assignee">Представник:\u0020</string>
@@ -285,6 +335,7 @@
   </plurals>
   <string name="invalid_selection">Неважећи избор</string>
   <string name="file_action_more_than_one_account">Изабрао си конверзацију са више од једног налога. Покушај изабрати конверзацију само са једним налогом.</string>
+  <string name="action_more_than_one_conversation">Селектована акција подржава једну по једну преписку. Пробај селектовати само једну преписку.</string>
   <string name="not_installed">Није инсталирано</string>
   <string name="evernote_not_installed">Evernote изгледа није инсталиран. Молим инсталирајте да би користили ову функционалност.</string>
   <string name="custom_mailbox_button">Додај прилагођену кутију</string>
@@ -344,6 +395,7 @@
   <string name="getting_messages">Добијање твојих порука</string>
   <string name="empty_folder">Нема поште овде.</string>
   <string name="empty_inbox">Завршио си! Уживај у свом дану.</string>
+  <string name="empty_search">Опа! Нисмо нашли ништа за \"<xliff:g id="search_query">%1$s</xliff:g>\".</string>
   <string name="empty_spam_folder">Ура, нема спама овде!</string>
   <string name="empty_trash_folder">Нема ђубрета овде. Хвала за рециклажу!</string>
   <!-- Calendar invite hero card -->
@@ -358,6 +410,11 @@
   <!-- Attendee text when user is the only attendee. -->
   <string name="calendar_attendees_me_only">Мени</string>
   <!-- Attendee text when there are additional attendees. -->
+  <plurals name="calendar_attendees">
+    <item quantity="one">Мени &amp; %1$d другом</item>
+    <item quantity="few">Мени &amp; %1$d другима</item>
+    <item quantity="other">Мени &amp; %1$d другима</item>
+  </plurals>
   <!-- Accompanies the date/time for all day events. -->
   <string name="all_day">Цео дан</string>
   <!-- Status for canceled events. -->
@@ -369,9 +426,15 @@
   <string name="event_over">Догађај завршен</string>
   <string name="busy">Заузет</string>
   <string name="available">Доступан</string>
+  <plurals name="other_conflicts">
+    <item quantity="one">%1$d други конфликт</item>
+    <item quantity="few">%1$d други конфликти</item>
+    <item quantity="other">%1$d други конфликти</item>
+  </plurals>
   <string name="meeting_invitation">Резиме позивнице:</string>
   <string name="invitation_by">Позивница од</string>
   <string name="remove_invite">Уклони позивницу</string>
+  <string name="action_liked_message_cm"><xliff:g id="display_name" example="John Doe">%1$s</xliff:g> воли твоју поруку са &lt;a href=\"%2$s\"&gt;Boxer на Cyanogen OS&lt;/a&gt;.</string>
   <string name="error_no_app_store">Није пронађена одговарајућа апликација за складиштење</string>
   <!-- String shown in the TO field when it is blank -->
   <string name="undisclosed_recipients">Неоткривени примаоци</string>
@@ -379,20 +442,27 @@
   <!-- Title for enter passcode screen -->
   <string name="enter_passcode_title">Унеси лозинку</string>
   <string name="enter_passcode_logo_desc">Boxer лого</string>
+  <string name="enter_passcode_status_desc">Индикатор статуса</string>
   <string name="enter_passcode_hint">Унеси лозинку</string>
   <string name="enter_passcode_go">Иди</string>
   <string name="enter_passcode_success">Успешно!</string>
   <string name="enter_passcode_failure">Нетачна лозинка</string>
+  <string name="enter_passcode_failure_with_max">%1$d од %2$d неуспелих покушаја</string>
+  <string name="enter_passcode_last_chance">преостао 1 покушај.\nАко пропадне сва е-пошта ће бити обрисана са уређаја.</string>
+  <string name="enter_passcode_wipe">Брисање података апликације</string>
   <!-- Start of combined settings strings -->
   <string name="header_category_mail">Пошта</string>
   <string name="header_category_other">Друго</string>
   <string name="header_default_account_title">Подразумевани налог</string>
   <string name="header_local_calendars_title">Локални календари</string>
   <string name="header_mail_settings_title">Још поставки поште</string>
+  <string name="header_calendar_settings_title">Још подешавања календара</string>
   <string name="header_passcode_title">Лозинка</string>
   <!-- In Account Setup options screen, label for email lookback selector -->
+  <string name="account_setup_options_mail_window_label">Е-пошта синхронизована за</string>
   <!-- In Account Settings screen, label for email lookback selector -->
   <string name="account_settings_options_mail_window_label">Дани за синхронизацију</string>
+  <string name="account_settings_sync_calendar_summary">Синхр. дог. календара за овај налог</string>
   <string name="default_account_fragment_title">Подразумевани налог</string>
   <string name="mail_settings_fragment_title">Поставке поште</string>
   <!-- The menu item to send logs -->
@@ -400,12 +470,18 @@
   <!-- The menu item to open the about section -->
   <string name="menu_about">О програму</string>
   <string name="version">Верзија</string>
+  <string name="build">Верзија</string>
   <string name="build_date">Датум издања</string>
+  <string name="legal">Правно</string>
   <string name="open_source">Лиценце отвореног кода</string>
+  <string name="privacy_policy">AirWatch изјава о приватности</string>
   <!-- Name of the DeviceAdmin (seen in settings & in user confirmation screen) -->
   <string name="device_admin_label">Boxer</string>
   <!-- Settings passcode strings -->
+  <string name="settings_passcode_on">Укључи лозинку</string>
+  <string name="settings_passcode_off">Искључи лозинку</string>
   <string name="settings_passcode_change">Промени лозинку</string>
+  <string name="settings_passcode_time_interval">Захтева лозинку</string>
   <!-- String array for require passcode in passcode settings -->
   <string name="settings_require_passcode_1min">1 минут</string>
   <string name="settings_require_passcode_2min">2 минута</string>
@@ -430,8 +506,36 @@
   </plurals>
   <!-- Permission related string -->
   <string name="permissions_enable">Омогући</string>
+  <string name="permissions_call_title">Омогући приступ телефону</string>
+  <string name="permissions_call_message">Да би позвао мораш омогућити приступ телефону за Boxer.</string>
+  <string name="permissions_storage_title">Омогући приступ складишту</string>
+  <string name="permissions_storage_message">Да би сачувао прилоге мораш омогућити приступ складишту за Boxer.</string>
+  <string name="permissions_calendar_title">Омогући приступ календару</string>
+  <string name="permissions_calendar_message">Boxer нема приступ догађајима календара.</string>
+  <string name="permissions_do_not_show_again">Не приказуј поново</string>
   <!-- String shown as a toast when sending a quick response fails due to some unknown error-->
+  <string name="emailing_guests_failed">Није могућа е-пошта гостима</string>
   <string name="account_setup_selection_title">Тип налога</string>
+  <string name="account_setup_discovery_title">Детаљи налога</string>
   <string name="account_setup_options_title">Опције синхронизације</string>
+  <string name="plugin_permission_label">Дозволе Boxer додацима</string>
+  <string name="plugin_permission_description">Boxer додаци су учитани од апликације да пруже додатне функције. Додаци морају бити потписани од Boxer-а да би се учитали.</string>
   <string name="view">Погледај</string>
+  <string name="original_appointment">----Оргинални састанак----</string>
+  <string name="meeting_from">
+        Од:
+        <xliff:g id="From">%s</xliff:g>
+    </string>
+  <string name="meeting_subject">
+        Тема:
+        <xliff:g id="Subject">%s</xliff:g>
+    </string>
+  <string name="meeting_to">
+        За:
+        <xliff:g id="To">%s</xliff:g>
+    </string>
+  <string name="email_attendees">Учесници е-поште</string>
+  <string name="forward_event">Проследи догађај</string>
+  <string name="email_organizer">Организатор е-поште</string>
+  <string name="email_everyone">Е-пошта свима</string>
 </resources>

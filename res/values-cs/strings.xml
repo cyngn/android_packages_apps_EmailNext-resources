@@ -812,51 +812,159 @@
     <!-- Dialog message to confirm archival of several conversations -->
     <item quantity="other">Archivovat <xliff:g id="COUNT">%1$d</xliff:g> konverzací?</item>
   </plurals>
+  <plurals name="confirm_discard_drafts_conversation">
+    <!-- Dialog message to confirm discarding drafts from one conversation [CHAR LIMIT=50] -->
+    <item quantity="one">Zahodit koncepty z této konverzace?</item>
+    <item quantity="few">Zahodit koncepty z těchto <xliff:g id="count">%1$d</xliff:g> konverzací?</item>
+    <!-- Dialog message to confirm discarding drafts from several conversations [CHAR LIMIT=50] -->
+    <item quantity="other">Zahodit koncepty z těchto <xliff:g id="count">%1$d</xliff:g> konverzací?</item>
+  </plurals>
   <!-- Dialog text: confirm discard -->
+  <string name="confirm_discard_text">Zahodit tuto zprávu?</string>
   <!-- Conversation list shared between the Activity and Widget -->
   <!-- Displayed in the middle of the screen when conversations are being loaded [CHAR LIMIT 100]-->
+  <string name="loading_conversations">Načítání\u2026</string>
   <!-- Undo bar strings -->
   <!-- Menu item: undo latest action [CHAR LIMIT=12]-->
+  <string name="undo">Zpět</string>
+  <plurals name="conversation_unstarred">
+    <item quantity="one">Odebrána hvězdička z <xliff:g id="count">%1$d</xliff:g> konverzace.</item>
+    <item quantity="few">Odebrána hvězdička ze <xliff:g id="count">%1$d</xliff:g> konverzací.</item>
+    <item quantity="other">Odebrána hvězdička z <xliff:g id="count">%1$d</xliff:g> konverzací.</item>
+  </plurals>
   <!-- The following are shown as a toast after the operation has completed -->
+  <plurals name="conversation_muted">
+    <!-- Displayed while muting one conversation -->
+    <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; ignorovaná.</item>
+    <item quantity="few">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; ignorované.</item>
+    <!-- Displayed while muting several conversations -->
+    <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; ignorovaných.</item>
+  </plurals>
+  <plurals name="conversation_spammed">
+    <!-- Displayed while reporting one conversation as spam -->
+    <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; nahlášena jako spam.</item>
+    <item quantity="few">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; nahlášené jako spam.</item>
+    <!-- Displayed while reporting several conversations as spam -->
+    <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; nahlášených jako spam.</item>
+  </plurals>
+  <plurals name="conversation_not_spam">
+    <!-- Displayed while reporting one conversation as not spam -->
+    <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; nahlášená jako ne spam.</item>
+    <item quantity="few">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; nahlášené jako ne spam.</item>
+    <!-- Displayed while reporting several conversations as not spam -->
+    <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; nahlášených jako ne spam.</item>
+  </plurals>
+  <plurals name="conversation_not_important">
+    <!-- Displayed while reporting one conversation as not important in the important folder -->
+    <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; označena jako nedůležitá.</item>
+    <item quantity="few">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; označeny jako nedůležité.</item>
+    <!-- Displayed while reporting several conversations as not important in the important folder -->
+    <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; označených jako nedůležité.</item>
+  </plurals>
+  <plurals name="conversation_phished">
+    <!-- Displayed while reporting one conversation as phishing -->
+    <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; nahlášená jako phishing.</item>
+    <item quantity="few">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; nahlášené jako phishing.</item>
+    <!-- Displayed while reporting several conversations as phishing -->
+    <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; nahlášených jako phishing.</item>
+  </plurals>
+  <plurals name="conversation_archived">
+    <!-- Displayed while archiving one conversation -->
+    <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; archivována.</item>
+    <item quantity="few">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; archivovány.</item>
+    <!-- Displayed while archiving multiple conversations -->
+    <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; archivovaných.</item>
+  </plurals>
+  <plurals name="conversation_deleted">
+    <!-- Displayed while deleting one conversation -->
+    <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; smazána.</item>
+    <item quantity="few">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; smazány.</item>
+    <!-- Displayed while deleting multiple conversations -->
+    <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; smazaných.</item>
+  </plurals>
   <!-- Displayed when swiping away a single conversation to delete it [CHAR LIMIT=80] -->
+  <string name="deleted">Smazáno</string>
   <!-- Displayed when swiping away a single conversation to archive it [CHAR LIMIT=80] -->
+  <string name="archived">Archivováno</string>
   <!-- Displayed when swiping away a single conversation to remove the currently displayed folder [CHAR LIMIT=80] -->
+  <string name="folder_removed">Odstraněno ze složky <xliff:g id="folderName">%1$s</xliff:g></string>
+  <plurals name="conversation_folder_changed">
+    <!-- Displayed while adding and removing folders to a single conversation. [CHAR LIMIT=100] -->
+    <item quantity="one">Složka změněna.</item>
+    <item quantity="few">Složky změněny.</item>
+    <!-- Displayed while adding and removing folders to multiple conversations. [CHAR LIMIT=100] -->
+    <item quantity="other">Složek změněno.</item>
+  </plurals>
   <!-- Displayed after moving a conversation to a different folder. [CHAR LIMIT=100] -->
+  <string name="conversation_folder_moved">Přesunuto do složky <xliff:g id="folderName">%1$s</xliff:g></string>
   <!-- Search Results: Text for header that is shown above search results [CHAR LIMIT=30] -->
+  <string name="search_results_header">Výsledky</string>
   <!-- Toast shown when the user taps the search hard key when viewing an account that does not support search [CHAR LIMIT=100] -->
+  <string name="search_unsupported">Vyhledávání není v tomto účtu podporováno.</string>
   <!-- Search Results: Text for header that is shown above search results, while waiting for search results from the server [CHAR LIMIT=30] -->
+  <string name="search_results_searching_header">Vyhledávání\u2026</string>
   <!-- Conversation view -->
   <!--  Text anchor for control to add / change labels on a conversation when
           viewing it. [CHAR LIMIT=40] -->
+  <string name="add_label">Přidat složku</string>
   <!-- Conversation message header strings -->
   <!--  Icon name for expanding recipient details in a message when viewing it. [CHAR LIMIT=40] -->
+  <string name="expand_recipient_details">Rozbalit podrobnosti o příjemci</string>
   <!--  Icon name for collapsing recipient details in a message when viewing it. [CHAR LIMIT=40] -->
+  <string name="collapse_recipient_details">Sbalit podrobnosti o příjemci</string>
   <!--  Icon name for showing sender contact information. [CHAR LIMIT=100] -->
+  <string name="contact_info_string">Zobrazit kontaktní údaje uživatele <xliff:g id="name">%1$s</xliff:g></string>
   <!--  Icon name for showing sender contact information when we cannot get sender info. [CHAR LIMIT=100] -->
+  <string name="contact_info_string_default">Zobrazit kontaktní údaje</string>
   <!-- Shown in collapsed mode when a conversation has more than one read message.
          The message count is shown to the right of this text. [CHAR LIMIT=70] -->
+  <plurals name="show_messages_read">
+    <item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> starší zpráva</item>
+    <item quantity="few"><xliff:g id="count" example="2">%1$d</xliff:g> starší zprávy</item>
+    <item quantity="other"><xliff:g id="count" example="10">%1$d</xliff:g> starších zpráv</item>
+  </plurals>
   <!-- Shown to display the from address of the message [CHAR LIMIT=10] -->
   <!-- Shown to display the reply to address of the message [CHAR LIMIT=20] -->
+  <string name="replyto_heading">Odpověď na:\u0020</string>
   <!-- Shown to display the to recipient(s) of the message [CHAR LIMIT=10] -->
+  <string name="to_heading">Komu:\u0020</string>
   <!-- Shown to display the cc recipient(s) of the message [CHAR LIMIT=10] -->
+  <string name="cc_heading">Kopie:\u0020</string>
   <!-- Shown to display the bcc recipient(s) of the message [CHAR LIMIT=10] -->
+  <string name="bcc_heading">Skrytá:\u0020</string>
   <!-- Shown to display the recipient(s) of the message [CHAR LIMIT=10] -->
   <!-- Displayed above an HTML message to show the images in that message [CHAR LIMIT=40] -->
+  <string name="show_images">Zobrazit obrázky</string>
   <!-- Displayed above an HTML message to always show images in messages from that sender [CHAR LIMIT=40] -->
+  <string name="always_show_images">Vždy zobrazit obrázky od tohoto kontaktu</string>
   <!-- Shown in a toast to acknowledge always showing images for a sender [CHAR LIMIT=100] -->
+  <string name="always_show_images_toast">Obrázky od tohoto odesílatele se zobrazí automaticky.</string>
   <!-- Display format of an email recipient, displayed in expanded message details [CHAR LIMIT=10] -->
+  <string name="address_display_format"><xliff:g id="name">%1$s</xliff:g> <xliff:g id="email">%2$s</xliff:g></string>
   <!-- Display format of an email sender if the message has a via domain set, displayed in expanded message details [CHAR LIMIT=15] -->
+  <string name="address_display_format_with_via_domain"><xliff:g id="name">%1$s</xliff:g> <xliff:g id="email">%2$s</xliff:g> přes <xliff:g id="via_domain">%3$s</xliff:g></string>
   <!-- Displayed for one second after user saves message as draft [CHAR LIMIT=50]-->
+  <string name="message_saved">Zpráva uložena jako koncept.</string>
   <!-- Displayed for one second while message is being sent [CHAR LIMIT=50]-->
+  <string name="sending_message">Odesílání zprávy\u2026</string>
   <!-- Displayed for one second after trying to send with invalid recipients [CHAR LIMIT=50]-->
+  <string name="invalid_recipient">Adresa <xliff:g id="wrongemail">%1$s</xliff:g> je neplatná.</string>
   <!-- Shown in HTML to allow the user to see quoted text; should match Gmail web UI. 25B6 is Unicode for a right-pointing triangle. [CHAR LIMIT=50] -->
+  <string name="show_elided">\u25B6 Zobrazit citovaný text</string>
   <!-- Shown in HTML to allow the user to hide quoted text; should match Gmail web UI. 25BC is Unicode for a downward-pointing triangle. [CHAR LIMIT=50] -->
+  <string name="hide_elided">\u25BC Skrýt citovaný text</string>
   <!-- Shown as a heading in message view when a message contains a calendar invite [CHAR LIMIT=30]-->
+  <string name="message_invite_title">Pozvánka v kalendáři</string>
   <!-- Shown as a button label in message view to launch calendar to see this invite [CHAR LIMIT=40]-->
+  <string name="message_invite_calendar_view">Zobrazit v Kalendáři</string>
   <!-- Shown as a text label in message view describing the choices of whether to attend an invite [CHAR LIMIT=20]-->
+  <string name="message_invite_label_attending">Přijdete?</string>
   <!-- Shown as a button label in message view to accept a calendar invite [CHAR LIMIT=20]-->
+  <string name="message_invite_accept">Ano</string>
   <!-- Shown as a button label in message view to give a tentative response to a calendar invite [CHAR LIMIT=20]-->
+  <string name="message_invite_tentative">Možná</string>
   <!-- Shown as a button label in message view to decline a calendar invite [CHAR LIMIT=20]-->
+  <string name="message_invite_decline">Ne</string>
   <!-- An enumeration comma for separating items in lists. [CHAR LIMIT=2] -->
   <!-- Button name, displayed in dialogs [CHAR LIMIT=10]-->
   <!-- Button name, displayed in dialogs [CHAR LIMIT=10]-->
@@ -867,54 +975,98 @@
   <!-- Button name, displayed in dialogs [CHAR LIMIT=10] -->
   <string name="cancel">Zrušit</string>
   <!-- Button name, displayed in dialogs [CHAR LIMIT=10] -->
+  <string name="clear">Vymazat</string>
   <!-- Sync status errors. Please do not change the order [CHAR LIMIT=100] -->
+  <string-array name="sync_status">
+    <item>Podařilo se</item>
+    <item>Žádné připojení.</item>
+    <item>Přihlášení se nezdařilo.</item>
+    <item>Chyba zabezpečení.</item>
+    <item>Chyba synchronizace.</item>
+    <item>Interní chyba</item>
+  </string-array>
   <!-- Widget strings -->
   <!-- Displayed when user adds a new widget. Tapping on the widget in this
           mode will bring user to the account selection screen [CHAR LIMIT=35] -->
+  <string name="tap_to_configure">Nastavte dotykem</string>
   <!-- Displayed within a widget that was setup for a non-synced folder [CHAR LIMIT=60] -->
+  <string name="non_synced_folder_description">Chcete-li zobrazit konverzace, synchronizujte tuto složku.</string>
   <!-- Displayed within a widget that was setup for a non-synced folder.  This is the text of the
          button that will allow the user to configure sync for the folder [CHAR LIMIT=35] -->
+  <string name="tap_to_configure_folder_sync">Synchronizovat složku</string>
   <!-- Displayed in widget when unread count > 100. [CHAR LIMIT=4] -->
+  <string name="widget_large_unread_count">%1$d+</string>
+  <plurals name="actionbar_unread_messages">
+    <item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> nepřečtená</item>
+    <item quantity="few"><xliff:g id="count" example="2">%1$d</xliff:g> nepřečtené</item>
+    <!-- String for the actionbar subtitle when messages are unread [CHAR LIMIT=30] -->
+    <item quantity="other"><xliff:g id="count" example="10">%1$d</xliff:g> nepřečtených</item>
+  </plurals>
   <!-- Displayed in the actionbar when unread count > 999. [CHAR LIMIT=30] -->
+  <string name="actionbar_large_unread_count"><xliff:g id="count">%1$d</xliff:g>+ nepřečtených</string>
   <!-- Displayed at the end of the conversation list in the widget. Tapping on this will open the default Inbox. [CHAR LIMIT=35] -->
+  <string name="view_more_conversations">Zobrazit další konverzace</string>
   <!-- Name of the Mailboxes activity [CHAR LIMIT=30] -->
+  <string name="activity_mailbox_selection">Výběr účtu</string>
   <!-- Name of the Folders activity [CHAR LIMIT=30] -->
+  <string name="activity_folder_selection">Výběr složky</string>
   <!-- Name of the Folder shortcut widget. Should use "Email" to refer to the app. [CHAR LIMIT=30] -->
   <!-- Folder selection dialog -->
   <!-- Title for change folders dialog [CHAR LIMIT=30] -->
+  <string name="change_folders_selection_dialog_title">Změnit složky</string>
   <!-- Title for move to dialog [CHAR LIMIT=30] -->
+  <string name="move_to_selection_dialog_title">Přesunout</string>
   <!-- Search -->
   <!-- Shown in light gray in the Search box when no text has been entered [CHAR LIMIT=20]-->
   <!-- Search Results: Text for status of the search when the results are completely loaded [CHAR LIMIT=10] -->
   <!-- Shown in conversation list footer when application cannot make a connection [CHAR LIMIT=20]-->
+  <string name="network_error">Žádné připojení</string>
   <!-- Button at bottom of conversation list screen if last attempt to load conversations failed [CHAR LIMIT=20]-->
+  <string name="retry">Opakovat</string>
   <!-- Button at bottom of conversation list screen if the folder for which contents are being shown supports loading more on demand [CHAR LIMIT=20]-->
+  <string name="load_more">Načíst další</string>
   <!-- Text for dummy attachments to load the actual attachment. This is not an ideal string, but it's too late to add a new string and get it translated -->
   <!-- Shortcut strings -->
   <!-- Title for shortcut naming dialog [CHAR LIMIT=100]-->
+  <string name="shortcut_name_title">Zadejte název zkratky složky</string>
   <!-- Wait fragment strings -->
   <!-- Displayed in title bar during the initial sync  [CHAR LIMIT=40] -->
+  <string name="wait_for_sync_title">Čekání na synchronizaci</string>
   <!-- Displayed in the middle of the screen during the initial sync [CHAR LIMIT=40] -->
   <!-- Title for the screen displayed during the initial sync [CHAR LIMIT=100]  -->
+  <string name="not_synced_title">Účet není synchronizován</string>
   <!-- Displayed in the middle of the screen during the initial sync [CHAR LIMIT=300]-->
+  <string name="wait_for_manual_sync_body">Tento účet není nastaven na automatickou synchronizaci.\nChcete-li poštu jednou synchronizovat, dotkněte se položky <b>Synchronizovat</b>. Chcete-li v účtu nastavit automatickou synchronizaci pošty, dotkněte se položky <b>Změnit nastavení synchronizace</b>.</string>
   <!-- Displayed at the bottom of the screen during the initial sync. If pressed will sync users mail for the selected account. [CHAR LIMIT=12]  -->
+  <string name="manual_sync">Synchronizovat</string>
   <!-- Displayed at the bottom of the screen during the initial sync. If pressed will open sync setting screen for accounts. [CHAR LIMIT=30]  -->
+  <string name="change_sync_settings">Změnit nastavení synchronizace</string>
   <!-- Displayed when we could not load a photo in the photo viewer. [CHAR LIMIT=30] -->
+  <string name="photo_load_failed">Nelze načíst obrázek</string>
   <!--  The move message / change labels action can't be taken because the selected messages
         come from different accounts -->
   <string name="cant_move_or_change_labels">Přesun nelze uskutečnit, protože vybrané zprávy pocházejí z různých účtů.</string>
   <!-- Format string used when displaying a summary in a message summary in list notification that was triggered by several new conversations.
          Extra space between sender and subject is intentional.  [CHAR LIMIT=120] -->
   <!-- Format string used when displaying the big text of a notification that was triggered by a single new conversation. [CHAR LIMIT=120] -->
+  <string name="single_new_message_notification_big_text"><xliff:g id="subject">%1$s</xliff:g>\n<xliff:g id="snippet">%2$s</xliff:g></string>
   <!-- Displayed in a message subheading. Ignore the current spam warning. [CHAR LIMIT=30] -->
   <!-- Displayed in the message heading. Shown if the message was sent via another domain. [CHAR LIMIT=10] -->
+  <string name="via_domain">via <xliff:g id="viaDomain">%1$s</xliff:g></string>
   <!-- Button text for the button to click to have the user sign in again. [CHAR LIMIT=20]-->
+  <string name="signin">Přihlásit se</string>
   <!-- Button text for the button to click for more information. [CHAR LIMIT=20]-->
+  <string name="info">Informace</string>
   <!-- Button text for the button to click to report feedback. [CHAR LIMIT=20]-->
   <!-- Dialog title when a sync error occurs. [CHAR LIMIT=50]-->
+  <string name="sync_error">Nelze synchronizovat.</string>
   <!-- Dialog title when a sync error occurs. [CHAR LIMIT=100]-->
+  <string name="sync_error_message">Ve vašem zařízení není pro synchronizaci dostatek místa.</string>
   <!-- Button text for the button to click to go to the manage storage settings screen. [CHAR LIMIT=20]-->
+  <string name="storage">Úložiště</string>
   <!-- Token used as a divider between senders -->
+  <string name="senders_split_token">,\u00A0</string>
+  <string name="draft_count_format">\u00A0(<xliff:g id="count">%1$s</xliff:g>)</string>
   <!-- Token to replace senders that are not visible -->
   <!-- Token used to space out elided senders that are not visible -->
   <!-- Token used to space out message count, draft text, and senders -->
@@ -923,12 +1075,23 @@
   <!-- General preference: Label of the setting for the direction to move to
          when deleting the current message.
          Options contain "newer message","older message", etc. [CHAR LIMIT=32] -->
+  <string name="auto_advance_label">Automatický přechod</string>
   <!-- General preference: Description of the setting for the direction to move to
          when deleting the current message.
          Options contain "newer message","older message", etc. [CHAR LIMIT=64] -->
+  <string name="auto_advance_summary">Vyberte, kterou obrazovku chcete zobrazit po smazání zprávy</string>
   <!-- Title of the dialog that appears the first time they perform an action that would cause
          auto advance logic to fire [CHAR LIMIT=70] -->
+  <string name="auto_advance_help_title">Nastavit volbu automatického přechodu\n(po archivaci, smazání, atd.)</string>
   <!-- The auto-advance modes -->
+  <string-array name="prefEntries_autoAdvance">
+    <!-- Newer conversation -->
+    <item>Novější</item>
+    <!-- Older conversation -->
+    <item>Starší</item>
+    <!-- Conversation list -->
+    <item>Seznam konverzací</item>
+  </string-array>
   <!-- Description for each auto-advance option to display after the user has picked one -->
   <!-- The entries here must correspond to the entries in prefEntries_autoAdvance [CHAR LIMIT=60] -->
   <!-- TODO: these pref keys that are never user visible should probably be
@@ -936,153 +1099,266 @@
   <!-- The default auto-advance mode -->
   <!-- The auto-advance mode values -->
   <!-- Settings screen, title of "Restore default for "Show pictures"" [CHAR LIMIT=1000]-->
+  <string name="clear_display_images_whitelist_title">Zrušit schválení obrázků</string>
   <!-- Settings screen, title of dialog shown to confirm action when user taps
     "Clear picture approvals" in preferences [CHAR LIMIT=200]-->
+  <string name="clear_display_images_whitelist_dialog_title">Zrušit schválení obrázků?</string>
   <!-- Settings screen, message of dialog shown to confirm action when tapping
     "Clear picture approvals" [CHAR LIMIT=1000]-->
+  <string name="clear_display_images_whitelist_dialog_message">Přestat zobrazovat vložené obrázky od odesílatelů, u kterých jste to dříve povolili.</string>
   <!-- Message shown in toast when the user taps "Restore default for "Show pictures"" in Gmail general preferences. [CHAR LIMIT=50] -->
+  <string name="sender_whitelist_cleared">Obrázky se nebudou zobrazovat automaticky.</string>
   <!-- Settings screen, name of the setting that lets the user choose their signature [CHAR LIMIT=50] -->
+  <string name="preferences_signature_title">Podpis</string>
   <!-- Settings screen, title of the dialog that lets the user configure their signature [CHAR LIMIT=50] -->
+  <string name="preferences_signature_dialog_title">Podpis</string>
   <!-- Settings screen, setting summary text when no signature set [CHAR LIMIT=100] -->
+  <string name="preferences_signature_summary_not_set">Nenastaveno</string>
   <!-- Notification action for replying-all to a message. [CHAR LIMIT=20] -->
+  <string name="notification_action_reply_all">Odpovědět všem</string>
   <!-- Notification action for archiving a message. [CHAR LIMIT=20] -->
+  <string name="notification_action_archive">Archív</string>
   <!-- Notification action for removing a label from a message. [CHAR LIMIT=20] -->
+  <string name="notification_action_remove_label">Odebrat štítek</string>
   <!-- Notification undo text after archiving a message. [CHAR LIMIT=30] -->
+  <string name="notification_action_undo_archive">Archivováno</string>
   <!-- Notification undo text after removing a label from a message. [CHAR LIMIT=30] -->
+  <string name="notification_action_undo_remove_label">Štítek odstraněn</string>
   <!-- Notification undo text after deleting a message. [CHAR LIMIT=30] -->
+  <string name="notification_action_undo_delete">Smazáno</string>
   <!-- Regex that specifies veiled addresses. These are all empty because this is disabled currently. -->
   <!-- String to be shown instead of a veiled addresses. [CHAR LIMIT=50] -->
   <!-- String to be shown instead of a veiled addresses. [CHAR LIMIT=50] -->
   <!-- Summary string to be shown instead of a veiled recipient. [CHAR LIMIT=50] -->
   <!-- Notification ticker text for per-label notification [CHAR LIMIT=30]-->
+  <string name="label_notification_ticker">"<xliff:g id="label">%1$s</xliff:g>: <xliff:g id="notification">%2$s</xliff:g>"</string>
   <!-- Format string used when displaying the title of a notification that was triggered by a single new conversation. [CHAR LIMIT=120] -->
+  <string name="single_new_message_notification_title"><xliff:g id="sender">%1$s</xliff:g>: <xliff:g id="subject">%2$s</xliff:g></string>
   <!-- Settings screen, what to display for Ringtone when the user chooses "silent" [CHAR LIMIT=100]-->
+  <string name="silent_ringtone">Tichý režim</string>
   <!-- Settings screen, preference name for archive vs. delete [CHAR LIMIT=50] -->
   <!-- Options to select from for whether to have archive or delete as the remove action [CHAR LIMIT=50] -->
   <!-- Description of currently selected option of whether to use archive or delete as remove action [CHAR LIMIT=200] -->
   <!-- Dialog title for the choosing whether to use archive or delete as remove action [CHAR LIMIT=150] -->
   <!-- The default value -->
   <!--  Settings screen, Reply to all default setting title  [CHAR LIMIT=30] -->
+  <string name="preferences_default_reply_all_title">Odpovědět všem</string>
   <!--  Settings screen, Reply to all default setting summary [CHAR LIMIT=70] -->
+  <string name="preferences_default_reply_all_summary">Použít jako výchozí pro odpovědi na zprávy</string>
   <!-- Preference name for swipe action when action is archive [CHAR LIMIT=100]-->
   <!-- Preference name for swipe action when action is delete [CHAR LIMIT=100]-->
   <!-- Preference description swiping in conversation list option [CHAR LIMIT=100] -->
   <!-- In conversation list, when user initiates a downward swipe,
         this text is displayed in the action bar as a hint that they can trigger a
         sync/refresh by continuing the downward swipe. [CHAR LIMIT=60] -->
+  <string name="swipe_down_to_refresh">Seznam aktualizujete posunutím dolů</string>
   <!-- In conversation list, when user has triggered a sync via a downward swipe,
         this text is displayed in the action bar for a brief moment to
     indicate that a sync is in progress.  [CHAR LIMIT=60] -->
+  <string name="checking_for_mail">Kontrola pošty</string>
   <!-- Conversation list screen overflow menu in trash folder [CHAR LIMIT=50]  -->
+  <string name="empty_trash">Vysypat koš</string>
   <!-- Conversation list screen overflow menu in spam folder [CHAR LIMIT=50]  -->
+  <string name="empty_spam">Vyprázdnit složku se spamem</string>
   <!-- Dialog title for empty trash confirmation dialog [CHAR LIMIT=100] -->
+  <string name="empty_trash_dialog_title">Chcete vysypat koš?</string>
   <!-- Dialog title for empty spam confirmation dialog [CHAR LIMIT=100] -->
+  <string name="empty_spam_dialog_title">Chcete vyprázdnit složku se spamem?</string>
   <!-- Dialog message for empty folder confirmation dialog [CHAR LIMIT=300] -->
+  <plurals name="empty_folder_dialog_message">
+    <item quantity="one"><xliff:g id="count">%1$d</xliff:g> zpráva bude trvale smazána.</item>
+    <item quantity="few"><xliff:g id="count">%1$d</xliff:g> zprávy bude trvale smazány.</item>
+    <item quantity="other"><xliff:g id="count">%1$d</xliff:g> zpráv bude trvale smazáno.</item>
+  </plurals>
   <!-- Strings used for accessibility for the items that toggles the drawer action  -->
+  <string name="drawer_open">Otevřít navigační složku</string>
+  <string name="drawer_close">Zavřít navigační složku</string>
+  <string name="conversation_photo_welcome_text">Klepnutím na obrázek odesílatele vyberete příslušnou konverzaci.</string>
   <!-- Content description for the folder icon for nested folders. -->
   <!--  Button, "Add account" in the preference screen [CHAR LIMIT=30] -->
+  <string name="add_account">Přidat účet</string>
   <!-- Action bar title for viewing messages that are attached to another message. -->
+  <string name="attached_message">Přiložená zpráva</string>
   <!-- Shown to display the date of the message when the message was received yesterday. [CHAR LIMIT=50]  -->
+  <string name="date_message_received_yesterday">Včera v <xliff:g id="datetime">%1$s</xliff:g></string>
   <!-- Content description for the "X" image icon for dismissing a tip. This is used for spoken description of the icon when touch explore is enabled. [CHAR LIMIT=50] -->
+  <string name="dismiss_tip_hover_text">Zavřít tip</string>
   <!-- Tip for letting user know that their device auto-sync setting
         is turned off, in case they are wondering why they are not
         receiving any new mail. [CHAR LIMIT=250] -->
+  <string name="auto_sync_off">Automatická synchronizace je vypnuta.</string>
   <!-- Tap to turn on device auto-sync setting.  [CHAR LIMIT=250] -->
+  <string name="tap_to_enable_sync">Zapnete ji klepnutím.</string>
   <!-- Tip for letting user know that their account level sync setting
         is turned off, in case they are wondering why they are not
         receiving any new mail. [CHAR LIMIT=250] -->
+  <string name="account_sync_off">Synchronizace účtu je vypnuta.</string>
   <!-- Hint text for user to enable sync in Gmail's account settings.
          The whole string should read "Turn on in Account settings.", but because we need
          "Account settings" to appear as blue link text, it's a parameter here.
          [CHAR LIMIT=250] -->
+  <string name="enable_sync_in_account_settings">Zapněte ji v <xliff:g id="account_settings">%1$s</xliff:g>.</string>
   <!-- This is used as a parameter to another string and combined reads
          "Turn on in Account settings." [CHAR LIMIT=250] -->
   <string name="account_settings_param">Nastavení účtu</string>
   <!-- Hint text that there are X number of unsent messages users
     Outbox. [CHAR LIMIT=250] -->
+  <string name="unsent_messages_in_outbox">Neodeslané zprávy ve složce <xliff:g id="outbox">%2$s</xliff:g>: <xliff:g id="number">%1$s</xliff:g></string>
   <!-- Title of dialog to turn auto-sync on [CHAR LIMIT=100] -->
+  <string name="turn_auto_sync_on_dialog_title">Zapnout automatickou synchronizaci?</string>
   <!-- Text of dialog to turn auto-sync on [CHAR LIMIT=500] -->
+  <string name="turn_auto_sync_on_dialog_body">Změny, které provedete ve všech aplikacích a účtech (nikoli jen v Gmailu), budou synchronizovány mezi webem, ostatními zařízeními a vaším <xliff:g id="phone_or_tablet">%1$s</xliff:g>.</string>
   <!-- Phone (vs. tablet) for describing this device [CHAR LIMIT=30] -->
+  <string name="phone">telefonem</string>
   <!-- Tablet (vs. phone) for describing this device [CHAR LIMIT=30] -->
+  <string name="tablet">tabletem</string>
   <!-- Confirm button text for dialog to turn auto-sync on [CHAR
          LIMIT=30] -->
+  <string name="turn_auto_sync_on_dialog_confirm_btn">Zapnout</string>
   <!-- Button in conversation list to show more folders [CHAR LIMIT=50] -->
   <!-- Button in conversation list to hide folders [CHAR LIMIT=50] -->
   <!-- Error message that is displayed when the user clicks on a quick contacts badge, but
          there is no contacts application installed that can display the quick contact -->
+  <string name="quick_contacts_not_available">K zobrazení tohoto kontaktu nebyla nalezena žádná aplikace.</string>
   <!-- Custom phone number type -->
+  <string name="phoneTypeCustom">Vlastní</string>
   <!-- Home phone number type -->
+  <string name="phoneTypeHome">Domů</string>
   <!-- Mobile phone number type -->
+  <string name="phoneTypeMobile">Mobil</string>
   <!-- Work phone number type -->
+  <string name="phoneTypeWork">Práce</string>
   <!-- Work fax phone number type -->
+  <string name="phoneTypeFaxWork">Fax do zaměstnání</string>
   <!-- Home fax phone number type -->
+  <string name="phoneTypeFaxHome">Fax domů</string>
   <!-- Pager phone number type -->
+  <string name="phoneTypePager">Pager</string>
   <!-- Other phone number type -->
+  <string name="phoneTypeOther">Jiný</string>
   <!-- Callback phone number type -->
+  <string name="phoneTypeCallback">Zpětné volání</string>
   <!-- Car phone number type -->
+  <string name="phoneTypeCar">Automobil</string>
   <!-- Company main phone number type -->
+  <string name="phoneTypeCompanyMain">Hlavní</string>
   <!-- ISDN phone number type -->
+  <string name="phoneTypeIsdn">ISDN</string>
   <!-- Main phone number type -->
+  <string name="phoneTypeMain">Hlavní</string>
   <!-- Other fax phone number type -->
+  <string name="phoneTypeOtherFax">Jiný Fax</string>
   <!-- Radio phone number type -->
+  <string name="phoneTypeRadio">Rádio</string>
   <!-- Telex phone number type -->
+  <string name="phoneTypeTelex">Telex</string>
   <!-- TTY TDD phone number type -->
+  <string name="phoneTypeTtyTdd">TTY TDD</string>
   <!-- Work mobile phone number type -->
+  <string name="phoneTypeWorkMobile">Pracovní mobil</string>
   <!-- Work pager phone number type -->
   <string name="phoneTypeWorkPager">Pracovní pager</string>
   <!-- Assistant phone number type -->
+  <string name="phoneTypeAssistant">Asistent</string>
   <!-- MMS phone number type -->
+  <string name="phoneTypeMms">MMS</string>
   <!-- Label for custom events  [CHAR LIMIT=20] -->
+  <string name="eventTypeCustom">Vlastní</string>
   <!-- Label for a birthday event  [CHAR LIMIT=20] -->
+  <string name="eventTypeBirthday">Narozeniny</string>
   <!-- Label for an anniversary event  [CHAR LIMIT=20] -->
+  <string name="eventTypeAnniversary">Výročí</string>
   <!-- Label for other events  [CHAR LIMIT=20] -->
+  <string name="eventTypeOther">Jiný</string>
   <!-- Custom email type -->
+  <string name="emailTypeCustom">Vlastní</string>
   <!-- Home email type -->
+  <string name="emailTypeHome">Domov</string>
   <!-- Work email type -->
+  <string name="emailTypeWork">Práce</string>
   <!-- Other email type -->
+  <string name="emailTypeOther">Jiný</string>
   <!-- Mobile email type -->
+  <string name="emailTypeMobile">Mobil</string>
   <!-- Custom postal address type -->
+  <string name="postalTypeCustom">Vlastní</string>
   <!-- Home postal address type -->
+  <string name="postalTypeHome">Domov</string>
   <!-- Work postal address type -->
+  <string name="postalTypeWork">Práce</string>
   <!-- Other postal address type -->
+  <string name="postalTypeOther">Jiný</string>
   <!-- Custom IM address type -->
+  <string name="imTypeCustom">Vlastní</string>
   <!-- Home IM address type -->
+  <string name="imTypeHome">Domov</string>
   <!-- Work IM address type -->
+  <string name="imTypeWork">Práce</string>
   <!-- Other IM address type -->
+  <string name="imTypeOther">Jiný</string>
   <!-- Custom IM protocol type -->
+  <string name="imProtocolCustom">Vlastní</string>
   <!-- AIM IM protocol type -->
+  <string name="imProtocolAim">AIM</string>
   <!-- MSN IM protocol type -->
+  <string name="imProtocolMsn">Windows Live</string>
   <!-- Yahoo IM protocol type -->
+  <string name="imProtocolYahoo">Yahoo</string>
   <!-- Skype IM protocol type -->
+  <string name="imProtocolSkype">Skype</string>
   <!-- QQ IM protocol type -->
+  <string name="imProtocolQq">QQ</string>
   <!-- Google Talk IM protocol type -->
+  <string name="imProtocolGoogleTalk">Hangouts</string>
   <!-- ICQ IM protocol type -->
+  <string name="imProtocolIcq">ICQ</string>
   <!-- Jabber IM protocol type -->
+  <string name="imProtocolJabber">Jabber</string>
   <!-- NetMeeting IM protocol type -->
+  <string name="imProtocolNetMeeting">NetMeeting</string>
   <!-- Work organization type -->
+  <string name="orgTypeWork">Práce</string>
   <!-- Other organization type -->
+  <string name="orgTypeOther">Jiný</string>
   <!-- Custom organization type -->
+  <string name="orgTypeCustom">Vlastní</string>
   <!-- Custom relationship custom [CHAR LIMIT=20] -->
   <!-- Assistant relationship type [CHAR LIMIT=20] -->
+  <string name="relationTypeAssistant">Asistent</string>
   <!-- Brother relationship type [CHAR LIMIT=20] -->
+  <string name="relationTypeBrother">Bratr</string>
   <!-- Child relationship type [CHAR LIMIT=20] -->
+  <string name="relationTypeChild">Dítě</string>
   <!-- Domestic Partner relationship type [CHAR LIMIT=20] -->
+  <string name="relationTypeDomesticPartner">Partner</string>
   <!-- Father relationship type [CHAR LIMIT=20] -->
+  <string name="relationTypeFather">Otec</string>
   <!-- Friend relationship type [CHAR LIMIT=20] -->
+  <string name="relationTypeFriend">Přítel</string>
   <!-- Manager relationship type [CHAR LIMIT=20] -->
+  <string name="relationTypeManager">Manažer</string>
   <!-- Mother relationship type [CHAR LIMIT=20] -->
+  <string name="relationTypeMother">Matka</string>
   <!-- Parent relationship type [CHAR LIMIT=20] -->
   <string name="relationTypeParent">Rodič</string>
   <!-- Partner relationship type [CHAR LIMIT=20] -->
+  <string name="relationTypePartner">Partner</string>
   <!-- Referred by relationship type [CHAR LIMIT=20] -->
+  <string name="relationTypeReferredBy">Podle</string>
   <!-- Relative relationship type [CHAR LIMIT=20] -->
+  <string name="relationTypeRelative">Relativní</string>
   <!-- Sister relationship type [CHAR LIMIT=20] -->
+  <string name="relationTypeSister">Sestra</string>
   <!-- Spouse relationship type [CHAR LIMIT=20] -->
   <string name="relationTypeSpouse">Partner</string>
   <!-- Custom SIP address type. Same context as Custom phone type.  -->
+  <string name="sipAddressTypeCustom">Vlastní</string>
   <!-- Home SIP address type. Same context as Home phone type. -->
+  <string name="sipAddressTypeHome">Domov</string>
   <!-- Work SIP address type. Same context as Work phone type. -->
+  <string name="sipAddressTypeWork">Práce</string>
   <!-- Other SIP address type. Same context as Other phone type. -->
+  <string name="sipAddressTypeOther">Jiný</string>
   <!-- Part of a description of an repeating event. This part states the date when a repeating
          event ends. The part before the semi-colon describes how it repeats.
          e.g. Every 2 weeks; until 1/1/2030 [CHAR LIMIT=21] -->
@@ -1096,6 +1372,11 @@
     <item quantity="other">; <xliff:g id="number">%1$d</xliff:g> krát</item>
   </plurals>
   <!-- A description for an event that repeats daily. For example, Every 2 days [CHAR LIMIT=15]-->
+  <plurals name="daily">
+    <item quantity="one">Denně</item>
+    <item quantity="few">Každé <xliff:g id="number">%1$d</xliff:g> dny</item>
+    <item quantity="other">Každých <xliff:g id="number">%1$d</xliff:g> dnů</item>
+  </plurals>
   <!-- A label in a multiple-choice list for the specifying that an event
          repeats every weekday (Monday through Friday) -->
   <string name="every_weekday">"Každý všední den (Po\u2013Pá)"</string>
@@ -1108,22 +1389,31 @@
   </plurals>
   <!-- The common portion of a string describing how often an event repeats,
          example: 'Monthly (on day 2)' -->
+  <string name="monthly">Měsíčně</string>
   <!-- Calendar spinner item, to select that an event recurs every year. -->
+  <string name="yearly_plain">Ročně</string>
   <!-- [CHAR LIMIT=NONE] Boot message while upgrading calendar. -->
   <!-- Temporary Calendar name to use before we have the calendar name from the server -->
   <!-- Caption on secret calendar info -->
   <!-- Error message for secret calendar info -->
+  <string name="calendar_info_error">Chyba</string>
   <!-- No calendars message for secret calendar info -->
+  <string name="calendar_info_no_calendars">Žádné kalendáře</string>
   <!-- Event count message for secret calendar info -->
   <string name="calendar_info_events">Události: <xliff:g id="events">%1$d</xliff:g></string>
   <!-- Event and dirty event count message for secret calendar info -->
   <string name="calendar_info_events_dirty">Události: <xliff:g id="events">%1$d</xliff:g>, neuložené: <xliff:g id="dirty events">%2$d</xliff:g></string>
   <!-- What to show in messaging that refers to this provider, e.g. AccountSyncSettings -->
+  <string name="provider_label">Kalendář</string>
+  <string name="contacts_provider_label">Kontakty</string>
   <!-- Debug tool - dialog - delete file now [CHAR LIMIT=NONE] -->
+  <string name="debug_tool_delete_button">Nyní odstranit</string>
   <!-- Debug tool - dialog - start copying [CHAR LIMIT=NONE] -->
+  <string name="debug_tool_start_button">Spustit</string>
   <!-- Debug tool - Main message shown to the user when starting up the debug tool [CHAR LIMIT=NONE] -->
   <string name="debug_tool_message">Bude provedeno 1) vytvoření kopie databáze kalendáře a její uložení na kartu SD / úložiště USB, která je poté čitelná jakoukoliv aplikací a 2) odeslání jí e-mailem. Nezapomeňte tuto tuto kopii co nejdříve odstranit.</string>
   <!-- Debug tool - email subject [CHAR LIMIT=NONE] -->
+  <string name="debug_tool_email_sender_picker">Zvolte program pro odeslání souboru</string>
   <!-- Debug tool - email subject [CHAR LIMIT=NONE] -->
   <string name="debug_tool_email_subject">Databáze kalendáře přiložena</string>
   <!-- Debug tool - email body [CHAR LIMIT=NONE] -->

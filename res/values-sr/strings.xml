@@ -98,12 +98,33 @@
   <!-- Notification title when a forwarded attachment couldn't be sent [CHAR LIMIT=30]-->
   <string name="forward_download_failed_title">Прилог није прослеђен</string>
   <!-- Notification ticker when email account authentication fails [CHAR LIMIT=none] -->
+  <string name="login_failed_ticker"><xliff:g id="account_name">%1$s</xliff:g> пријављивање неуспешно.</string>
   <!-- Notification title when email account authentication fails [CHAR LIMIT=30]-->
   <string name="login_failed_title">Пријављивање није могуће</string>
   <!-- Size unit for bytes for attachments [CHAR LIMIT=10] -->
+  <plurals name="message_view_attachment_bytes">
+    <item quantity="one"><xliff:g id="size_in_bytes" example="1">%1$d</xliff:g>B</item>
+    <item quantity="few"><xliff:g id="size_in_bytes" example="279">%1$d</xliff:g>B</item>
+    <item quantity="other"><xliff:g id="size_in_bytes" example="279">%1$d</xliff:g>B</item>
+  </plurals>
   <!-- Size unit for kilo bytes for attachments [CHAR LIMIT=10] -->
+  <plurals name="message_view_attachment_kilobytes">
+    <item quantity="one"><xliff:g id="size_in_kilobytes" example="1">%1$d</xliff:g>KB</item>
+    <item quantity="few"><xliff:g id="size_in_kilobytes" example="279">%1$d</xliff:g>KB</item>
+    <item quantity="other"><xliff:g id="size_in_kilobytes" example="279">%1$d</xliff:g>KB</item>
+  </plurals>
   <!-- Size unit for mega bytes for attachments [CHAR LIMIT=10] -->
+  <plurals name="message_view_attachment_megabytes">
+    <item quantity="one"><xliff:g id="size_in_megabytes" example="1">%1$d</xliff:g>MB</item>
+    <item quantity="few"><xliff:g id="size_in_megabytes" example="279">%1$d</xliff:g>MB</item>
+    <item quantity="other"><xliff:g id="size_in_megabytes" example="279">%1$d</xliff:g>MB</item>
+  </plurals>
   <!-- Size unit for giga bytes for attachments [CHAR LIMIT=10] -->
+  <plurals name="message_view_attachment_gigabytes">
+    <item quantity="one"><xliff:g id="size_in_gigabytes" example="1">%1$d</xliff:g>GB</item>
+    <item quantity="few"><xliff:g id="size_in_gigabytes" example="279">%1$d</xliff:g>GB</item>
+    <item quantity="other"><xliff:g id="size_in_gigabytes" example="279">%1$d</xliff:g>GB</item>
+  </plurals>
   <!-- Title of screen when setting up new email account [CHAR LIMIT=45] -->
   <string name="account_setup_basics_title">Подешавање налога</string>
   <!-- Headline of screen when setting up new email account (large text over divider)
@@ -120,6 +141,7 @@
   <string name="account_duplicate_dlg_title">Дуплирани налог</string>
   <!-- Message of dialog shown when a duplicate account is created.  The display name of
          the duplicate account is displayed. -->
+  <string name="account_duplicate_dlg_message_fmt">Већ користишто корисничко име за налог \"<xliff:g id="duplicate">%1$s</xliff:g>\".</string>
   <!-- String that is displayed as error text for passwords with leading or trailing
          spaces.  [CHAR LIMIT=none] -->
   <string name="account_password_spaces_error">Ова лозинка почиње или се завршава једним размаком или више њих. Многи сервери не подржавају лозинке са размацима.</string>
@@ -254,6 +276,7 @@
   <string name="account_setup_failed_dlg_certificate_message">Безбедно повезивање са сервером није могуће.</string>
   <!-- An error message presented to the user when the server's identity
          cannot be established or trusted [CHAR LIMIT=NONE] -->
+  <string name="account_setup_failed_dlg_certificate_message_fmt">Не могу се сигурно конектовати на сервер.\n(<xliff:g id="error">%1$s</xliff:g>)</string>
   <!-- An error message presented to the user when the server requires a
          client certificate to connect [CHAR LIMIT=NONE] -->
   <string name="account_setup_failed_certificate_required">Сертификат клијента је обавезан. Да ли желите да се повежете са сервером са сертификатом клијента?</string>
@@ -265,6 +288,7 @@
   <!-- "Setup could not finish" dialog text; e.g., Cannot connect to server -->
   <string name="account_setup_failed_dlg_server_message">Повезивање са сервером није могуће.</string>
   <!-- "Setup could not finish" dialog text; e.g., Cannot connect to server\n(Connection timed out) -->
+  <string name="account_setup_failed_dlg_server_message_fmt">Не могу се конектовати на сервер.\n(<xliff:g id="error">%1$s</xliff:g>)</string>
   <!-- Additional diagnostic text when TLS was required but the server doesn't support it -->
   <string name="account_setup_failed_tls_required">TLS је захтеван, али га сервер не подржава.</string>
   <!-- Additional diagnostic text when server does not support any of our authentication methods -->
@@ -285,8 +309,10 @@
   <!-- Additional diagnostic text when validation requires security provisioning (e.g. support
          for device lock PIN, or remote wipe.) and we ask the user permission before continuing.
          [CHAR LIMIT=none] -->
+  <string name="account_setup_security_policies_required_fmt"> Сервер <xliff:g id="server">%1$s</xliff:g> захтева да дозволиш удаљену контролу неких безбедносних функција твог андроид уређаја. Да ли желиш завршити подешавање овог налога?</string>
   <!-- Additional diagnostic text when validation failed due to required provisioning not
          being supported [CHAR LIMIT=none] -->
+  <string name="account_setup_failed_security_policies_unsupported">Овај сервер захтева безбедносне функције које твој андроид уређај не подржава укључујући <xliff:g id="error">%1$s</xliff:g></string>
   <!-- The user name can only be changed during initial account setup. [CHAR LIMIT=none] -->
   <string name="account_setup_username_uneditable_error">Не можете да промените корисничко име налога. Да бисте додали налог са другим корисничким именом, додирните Додај налог.</string>
   <!-- Warning given to users when they request disabling device administration (i.e. that their
@@ -299,8 +325,11 @@
   <!-- Additional diagnostic text when the account requires some amount of device security
          provisioning, just before jumping into system settings such as Device Policy grant,
          PIN/password, or encryption setup.  [CHAR LIMIT=none] -->
+  <string name="account_security_dialog_content_fmt"><xliff:g id="account">%1$s</xliff:g> захтева ажурирање твог безбедносног подешавања.</string>
   <!-- Notification ticker when device security required (note: unused in Holo XL) -->
+  <string name="security_unsupported_ticker_fmt">Налог \"<xliff:g id="account">%1$s</xliff:g>\" се неможе синхронизовати због безбедносних захтева.</string>
   <!-- Notification ticker when device security required (note: unused in Holo XL) -->
+  <string name="security_needed_ticker_fmt">Налог \"<xliff:g id="account">%1$s</xliff:g>\" захтева ажурирање безбедносног подешавања.</string>
   <!-- Notification ticker when device security required (note: unused in Holo XL) -->
   <!-- Notification content title when device security required [CHAR_LIMIT=30] -->
   <string name="security_notification_content_update_title">Потребно је безбедн. ажурирање</string>
@@ -311,9 +340,11 @@
   <string name="account_security_title">Безбедност уређаја</string>
   <!-- Additional diagnostic text when the email app asserts control of the phone.
         [CHAR LIMIT=none] -->
+  <string name="account_security_policy_explanation_fmt">Сервер <xliff:g id="server">%1$s</xliff:g> захтева да му омогућите удаљену контролу појединих безбедносних функција Android уређаја.</string>
   <!-- "Setup could not finish" dialog action button -->
   <string name="account_setup_failed_dlg_edit_details_action">Измени детаље</string>
   <!-- Notification ticker when device password is getting ready to expire [CHAR_LIMIT=80] -->
+  <string name="password_expire_warning_ticker_fmt">\"<xliff:g id="account">%1$s</xliff:g>\" захтева да промените PIN или лозинку за закључавање екрана.</string>
   <!-- Notification content title when device password is getting ready to expire
             [CHAR_LIMIT=30] -->
   <string name="password_expire_warning_content_title"> Лозинка за екран истиче</string>
@@ -324,9 +355,11 @@
   <!-- Dialog title if device pin/password is going to expire soon. [CHAR_LIMIT=40] -->
   <string name="password_expire_warning_dialog_title">Лозинка за закључавање екрана истиче</string>
   <!-- Dialog content device pin/password is going to expire soon. [CHAR_LIMIT=none] -->
+  <string name="password_expire_warning_dialog_content_fmt">Потребно је да ускоро промените PIN или лозинку за закључавање екрана или ће подаци за <xliff:g id="account">%1$s</xliff:g> бити избрисани. Да ли желите да их сада промените?</string>
   <!-- Dialog title if device pin/password has already expired. [CHAR_LIMIT=40] -->
   <string name="password_expired_dialog_title">Лозинка за закључавање екрана је истекла</string>
   <!-- Dialog content device pin/password has already expired. [CHAR_LIMIT=none] -->
+  <string name="password_expired_dialog_content_fmt">Подаци за <xliff:g id="account">%1$s</xliff:g> су обрисани са уређаја. Можете да их вратите ако промените PIN или лозинку за закључавање екрана. Желите ли да их промените сада?</string>
   <!-- On AccountSettingsXL, dialog text if you try to exit in/out/eas fragment (server settings)
          without checking/saving [CHAR LIMIT=none]-->
   <string name="account_settings_exit_server_settings">Желите ли да одбаците несачуване промене?</string>
@@ -335,8 +368,10 @@
   <string name="account_settings_login_dialog_title">Пријављивање није могуће</string>
   <!-- Dialog content if you were brought here due to a login failure.
         [CHAR_LIMIT=none] -->
+  <string name="account_settings_login_dialog_content_fmt">Корисничко име или лозинка за <xliff:g id="account">%1$s</xliff:g> нису тачни. Да ли желите да их ажурирате сада?</string>
   <!-- Dialog content if you were brought here due to a login failure, and the server provided a reason
         [CHAR_LIMIT=none] -->
+  <string name="account_settings_login_dialog_reason_fmt">Пријављивање на <xliff:g id="account">%1$s</xliff:g> није успело; сервер је рекао: <xliff:g id="reason">%2$s</xliff:g> Желите ли да ажурирате корисничко име и/или лозинку?</string>
   <!-- On Settings screen, setting option name -->
   <!-- Title of account preference for downloading attachments in background [CHAR LIMIT=32] -->
   <string name="account_settings_background_attachments_label">Преузми прилоге</string>
@@ -408,6 +443,7 @@
   <!-- Mailbox settings activity title [CHAR LIMIT=none] -->
   <string name="mailbox_settings_activity_title">Опције синхронизације</string>
   <!-- Mailbox settings activity title, with the target folder name [CHAR LIMIT=none] -->
+  <string name="mailbox_settings_activity_title_with_mailbox">Опције синхронизације (<xliff:g id="mailboxx_name" example="Family">%1$s</xliff:g>)</string>
   <!-- On mailbox settings screen: Whether to sync this mailbox when the account syncs. -->
   <string name="mailbox_settings_sync_enabled_label">Синхронизуј овај директоријум</string>
   <!-- On mailbox settings screen: Explanatory text for what it means to "sync this folder". -->
@@ -506,7 +542,9 @@
   <string name="pop3_name">POP3</string>
   <string name="folder_picker_title">Бирач директоријума</string>
   <!-- Displayed when the user must pick his server's trash folder from a list [CHAR LIMIT 30]-->
+  <string name="trash_folder_selection_title">Изабери фолдер за отпад на серверу за <xliff:g id="account">%1$s</xliff:g></string>
   <!-- Displayed when the user must pick his server's sent items folder from a list [CHAR LIMIT 30]-->
+  <string name="sent_folder_selection_title">Изаберите фолдер на серверу за послато за <xliff:g id="account">%1$s</xliff:g></string>
   <string name="account_waiting_for_folders_msg">Учитавање листе директоријума...</string>
   <!-- Feedback uri to be used when feedback is enabled -->
   <!-- Names of packages and authorities that are common to all apps
@@ -548,6 +586,7 @@
   <!-- Compose screen, prefixed to the subject of a message when replying to it (if not already present). Do not translate. -->
   <!-- Compose screen, Prefix to forwarded message subject. Do not translate. -->
   <!-- Compose screen, displayed at the top of a message being replied to. Please preserve the HTML entities (surrounded by & and ;).  The two %s strings will be replaced by 1) the date 2) the person who wrote the email being responded to. [CHAR LIMIT=1000]-->
+  <string name="reply_attribution">На <xliff:g id="date">%1$s</xliff:g>, <xliff:g id="person">%2$s</xliff:g> је написао:</string>
   <!-- Compose screen, displayed at the top of a message being forwarded. Please preserve the HTML entities (surrounded by & and ;). [CHAR LIMIT=1000] -->
   <string name="forward_attribution">---------- Прослеђена порука ----------&lt;br&gt;Од: <xliff:g id="FROM">%1$s</xliff:g>&lt;br&gt;Датум: <xliff:g id="DATE">%2$s</xliff:g>&lt;br&gt;Наслов: <xliff:g id="SUBJECT">%3$s</xliff:g>&lt;br&gt;Коме: <xliff:g id="TO">%4$s</xliff:g>&lt;br&gt;</string>
   <!-- Compose screen, displayed at the top of a message being forwarded. [CHAR LIMIT=100]-->
@@ -727,15 +766,19 @@
     <item quantity="other">Премести <xliff:g>%1$d</xliff:g> преписке</item>
   </plurals>
   <!-- Formatting string for the content description field of a conversation list item when device is in accessibility mode. [CHAR LIMIT=250] -->
+  <string name="content_description"><xliff:g id="sender">%1$s</xliff:g> о <xliff:g id="subject">%2$s</xliff:g>, <xliff:g id="snippet">%3$s</xliff:g> на <xliff:g id="date">%4$s</xliff:g>, <xliff:g id="readstate">%5$s</xliff:g></string>
   <!-- Formatting string for the content description field of a conversation list item when device is in accessibility mode and the message was received today. [CHAR LIMI=250] -->
+  <string name="content_description_today"><xliff:g id="sender">%1$s</xliff:g> о <xliff:g id="subject">%2$s</xliff:g>, <xliff:g id="snippet">%3$s</xliff:g> у <xliff:g id="time">%4$s</xliff:g>, <xliff:g id="readstate">%5$s</xliff:g></string>
   <!-- String used in content description field of a conversation list item when device is in accessibility mode and the conversation was read [CHAR LIMIT=250] -->
   <string name="read_string">преписка је прочитана</string>
   <!-- String used in content description field of a conversation list item when device is in accessibility mode and the conversation was not read [CHAR LIMIT=250] -->
   <string name="unread_string">преписка није прочитана</string>
   <!-- Formatting string. If the subject contains the tag of a mailing-list (text surrounded with
     return the subject with that tag ellipsized, e.g. "[android-gmail-team] Hello" -> "[andr...] Hello" [CHAR LIMIT=100] -->
+  <string name="filtered_tag"> [<xliff:g id="tag">%1$s</xliff:g>]<xliff:g id="subject">%2$s</xliff:g></string>
   <!-- Displayed in Conversation Header View and Widget in the form of "subject - snippet"
          [CHAR LIMIT=5] -->
+  <string name="subject_and_snippet"><xliff:g>%1$s</xliff:g> \u2014 <xliff:g>%2$s</xliff:g></string>
   <!-- Displayed in browse list item when the list item is a draft message instead of showing the subject [CHAR LIMIT=100] -->
   <plurals name="draft">
     <!-- Title of the screen when there is exactly one draft -->
@@ -769,19 +812,89 @@
     <!-- Dialog message to confirm archival of several conversations -->
     <item quantity="other">Сачувати ове <xliff:g id="count">%1$d</xliff:g> преписке?</item>
   </plurals>
+  <plurals name="confirm_discard_drafts_conversation">
+    <!-- Dialog message to confirm discarding drafts from one conversation [CHAR LIMIT=50] -->
+    <item quantity="one">Одбаци скице из ове преписке?</item>
+    <item quantity="few">Одбаци скице из ових <xliff:g id="count">%1$d</xliff:g> преписки?</item>
+    <!-- Dialog message to confirm discarding drafts from several conversations [CHAR LIMIT=50] -->
+    <item quantity="other">Одбаци скице из ових <xliff:g id="count">%1$d</xliff:g> преписки?</item>
+  </plurals>
   <!-- Dialog text: confirm discard -->
   <string name="confirm_discard_text">Одбаци ову поруку?</string>
   <!-- Conversation list shared between the Activity and Widget -->
   <!-- Displayed in the middle of the screen when conversations are being loaded [CHAR LIMIT 100]-->
+  <string name="loading_conversations">Учитавање\u2026</string>
   <!-- Undo bar strings -->
   <!-- Menu item: undo latest action [CHAR LIMIT=12]-->
+  <string name="undo">Опозови</string>
+  <plurals name="conversation_unstarred">
+    <item quantity="one">Уклоњена звездица <xliff:g id="count">%1$d</xliff:g> преписке.</item>
+    <item quantity="few">Уклоњена звездица <xliff:g id="count">%1$d</xliff:g> преписки.</item>
+    <item quantity="other">Уклоњена звездица <xliff:g id="count">%1$d</xliff:g> преписки.</item>
+  </plurals>
   <!-- The following are shown as a toast after the operation has completed -->
+  <plurals name="conversation_muted">
+    <!-- Displayed while muting one conversation -->
+    <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; утишан.</item>
+    <item quantity="few">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; утишаних.</item>
+    <!-- Displayed while muting several conversations -->
+    <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; утишаних.</item>
+  </plurals>
+  <plurals name="conversation_spammed">
+    <!-- Displayed while reporting one conversation as spam -->
+    <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; пријављен као нежељен.</item>
+    <item quantity="few">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; пријављених као нежељени.</item>
+    <!-- Displayed while reporting several conversations as spam -->
+    <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; пријављених као нежељени.</item>
+  </plurals>
+  <plurals name="conversation_not_spam">
+    <!-- Displayed while reporting one conversation as not spam -->
+    <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; пријављена да није нежељена.</item>
+    <item quantity="few">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; пријављене да нису нежељене.</item>
+    <!-- Displayed while reporting several conversations as not spam -->
+    <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; пријављене да нису нежељене.</item>
+  </plurals>
+  <plurals name="conversation_not_important">
+    <!-- Displayed while reporting one conversation as not important in the important folder -->
+    <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; означен као важан.</item>
+    <item quantity="few">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; означене као важне.</item>
+    <!-- Displayed while reporting several conversations as not important in the important folder -->
+    <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; означене као важне.</item>
+  </plurals>
+  <plurals name="conversation_phished">
+    <!-- Displayed while reporting one conversation as phishing -->
+    <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; пријављен као ловљење.</item>
+    <item quantity="few">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; пријављени као ловљење.</item>
+    <!-- Displayed while reporting several conversations as phishing -->
+    <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; пријављени као ловљење.</item>
+  </plurals>
+  <plurals name="conversation_archived">
+    <!-- Displayed while archiving one conversation -->
+    <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; сачуван.</item>
+    <item quantity="few">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; сачуване.</item>
+    <!-- Displayed while archiving multiple conversations -->
+    <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; сачуване.</item>
+  </plurals>
+  <plurals name="conversation_deleted">
+    <!-- Displayed while deleting one conversation -->
+    <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; обрисан.</item>
+    <item quantity="few">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; обрисане.</item>
+    <!-- Displayed while deleting multiple conversations -->
+    <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; обрисане.</item>
+  </plurals>
   <!-- Displayed when swiping away a single conversation to delete it [CHAR LIMIT=80] -->
   <string name="deleted">Избрисано</string>
   <!-- Displayed when swiping away a single conversation to archive it [CHAR LIMIT=80] -->
   <string name="archived">Архивирано</string>
   <!-- Displayed when swiping away a single conversation to remove the currently displayed folder [CHAR LIMIT=80] -->
   <string name="folder_removed">Уклоњено из директоријума <xliff:g id="Foldername">%1$s</xliff:g></string>
+  <plurals name="conversation_folder_changed">
+    <!-- Displayed while adding and removing folders to a single conversation. [CHAR LIMIT=100] -->
+    <item quantity="one">Промењен фолдер.</item>
+    <item quantity="few">Промењени фолдери.</item>
+    <!-- Displayed while adding and removing folders to multiple conversations. [CHAR LIMIT=100] -->
+    <item quantity="other">Промењени фолдери.</item>
+  </plurals>
   <!-- Displayed after moving a conversation to a different folder. [CHAR LIMIT=100] -->
   <string name="conversation_folder_moved">Премештена је у <xliff:g id="Foldername">%1$s</xliff:g></string>
   <!-- Search Results: Text for header that is shown above search results [CHAR LIMIT=30] -->
@@ -805,6 +918,11 @@
   <string name="contact_info_string_default">Прикажи контакт информације</string>
   <!-- Shown in collapsed mode when a conversation has more than one read message.
          The message count is shown to the right of this text. [CHAR LIMIT=70] -->
+  <plurals name="show_messages_read">
+    <item quantity="one"><xliff:g id="count" example="4">%1$d</xliff:g> стара порука</item>
+    <item quantity="few"><xliff:g id="count" example="4">%1$d</xliff:g> старих порука</item>
+    <item quantity="other"><xliff:g id="count" example="4">%1$d</xliff:g> старих порука</item>
+  </plurals>
   <!-- Shown to display the from address of the message [CHAR LIMIT=10] -->
   <!-- Shown to display the reply to address of the message [CHAR LIMIT=20] -->
   <string name="replyto_heading">Одговор на:\u0020</string>
@@ -830,6 +948,7 @@
   <!-- Displayed for one second while message is being sent [CHAR LIMIT=50]-->
   <string name="sending_message">Слање поруке\u2026</string>
   <!-- Displayed for one second after trying to send with invalid recipients [CHAR LIMIT=50]-->
+  <string name="invalid_recipient">Адреса <xliff:g id="wrongemail" example="foo@@gmail..com">%1$s</xliff:g> је неважећа.</string>
   <!-- Shown in HTML to allow the user to see quoted text; should match Gmail web UI. 25B6 is Unicode for a right-pointing triangle. [CHAR LIMIT=50] -->
   <string name="show_elided">\u25B6 Прикажи наведени текст</string>
   <!-- Shown in HTML to allow the user to hide quoted text; should match Gmail web UI. 25BC is Unicode for a downward-pointing triangle. [CHAR LIMIT=50] -->
@@ -877,6 +996,12 @@
   <string name="tap_to_configure_folder_sync">Синхронизуј фолдер</string>
   <!-- Displayed in widget when unread count > 100. [CHAR LIMIT=4] -->
   <string name="widget_large_unread_count">%1$d+</string>
+  <plurals name="actionbar_unread_messages">
+    <item quantity="one"><xliff:g id="count" example="4">%1$d</xliff:g> непрочитана</item>
+    <item quantity="few"><xliff:g id="count" example="4">%1$d</xliff:g> непрочитаних</item>
+    <!-- String for the actionbar subtitle when messages are unread [CHAR LIMIT=30] -->
+    <item quantity="other"><xliff:g id="count" example="4">%1$d</xliff:g> непрочитаних</item>
+  </plurals>
   <!-- Displayed in the actionbar when unread count > 999. [CHAR LIMIT=30] -->
   <string name="actionbar_large_unread_count">Непрочитаних: <xliff:g id="count">%1$d</xliff:g>+</string>
   <!-- Displayed at the end of the conversation list in the widget. Tapping on this will open the default Inbox. [CHAR LIMIT=35] -->
@@ -950,6 +1075,7 @@
   <!-- General preference: Label of the setting for the direction to move to
          when deleting the current message.
          Options contain "newer message","older message", etc. [CHAR LIMIT=32] -->
+  <string name="auto_advance_label">Аутоматски прелазак</string>
   <!-- General preference: Description of the setting for the direction to move to
          when deleting the current message.
          Options contain "newer message","older message", etc. [CHAR LIMIT=64] -->
@@ -1039,6 +1165,11 @@
   <!-- Dialog title for empty spam confirmation dialog [CHAR LIMIT=100] -->
   <string name="empty_spam_dialog_title">Испразнити нежељено?</string>
   <!-- Dialog message for empty folder confirmation dialog [CHAR LIMIT=300] -->
+  <plurals name="empty_folder_dialog_message">
+    <item quantity="one"><xliff:g id="count">%1$d</xliff:g> порука ће бити трајно обрисана.</item>
+    <item quantity="few"><xliff:g id="count">%1$d</xliff:g> поруке ће бити трајно обрисане.</item>
+    <item quantity="other"><xliff:g id="count">%1$d</xliff:g> поруке ће бити трајно обрисане.</item>
+  </plurals>
   <!-- Strings used for accessibility for the items that toggles the drawer action  -->
   <string name="drawer_open">Отвори фиоку за навигацију</string>
   <string name="drawer_close">Затвори фиоку за навигацију</string>
@@ -1072,6 +1203,7 @@
   <string name="account_settings_param">Подешавања налога</string>
   <!-- Hint text that there are X number of unsent messages users
     Outbox. [CHAR LIMIT=250] -->
+  <string name="unsent_messages_in_outbox"><xliff:g id="number">%1$s</xliff:g> непослате у <xliff:g id="outbox">%2$s</xliff:g></string>
   <!-- Title of dialog to turn auto-sync on [CHAR LIMIT=100] -->
   <string name="turn_auto_sync_on_dialog_title">Желите ли да укључите аутоматску синхронизацију?</string>
   <!-- Text of dialog to turn auto-sync on [CHAR LIMIT=500] -->
@@ -1109,51 +1241,96 @@
   <!-- Car phone number type -->
   <string name="phoneTypeCar">Кола</string>
   <!-- Company main phone number type -->
+  <string name="phoneTypeCompanyMain">Фирмин главни</string>
   <!-- ISDN phone number type -->
+  <string name="phoneTypeIsdn">ISDN</string>
   <!-- Main phone number type -->
+  <string name="phoneTypeMain">Главни</string>
   <!-- Other fax phone number type -->
+  <string name="phoneTypeOtherFax">Други факс</string>
   <!-- Radio phone number type -->
+  <string name="phoneTypeRadio">Радио</string>
   <!-- Telex phone number type -->
+  <string name="phoneTypeTelex">Телекс</string>
   <!-- TTY TDD phone number type -->
+  <string name="phoneTypeTtyTdd">TTY TDD</string>
   <!-- Work mobile phone number type -->
+  <string name="phoneTypeWorkMobile">Пословни мобилни</string>
   <!-- Work pager phone number type -->
+  <string name="phoneTypeWorkPager">Пословни пејџер</string>
   <!-- Assistant phone number type -->
+  <string name="phoneTypeAssistant">Асистент</string>
   <!-- MMS phone number type -->
+  <string name="phoneTypeMms">MMS</string>
   <!-- Label for custom events  [CHAR LIMIT=20] -->
+  <string name="eventTypeCustom">Прилагођено</string>
   <!-- Label for a birthday event  [CHAR LIMIT=20] -->
+  <string name="eventTypeBirthday">Рођендан</string>
   <!-- Label for an anniversary event  [CHAR LIMIT=20] -->
+  <string name="eventTypeAnniversary">Годишњица</string>
   <!-- Label for other events  [CHAR LIMIT=20] -->
+  <string name="eventTypeOther">Друго</string>
   <!-- Custom email type -->
+  <string name="emailTypeCustom">Прилагођено</string>
   <!-- Home email type -->
+  <string name="emailTypeHome">Кућа</string>
   <!-- Work email type -->
+  <string name="emailTypeWork">Посао</string>
   <!-- Other email type -->
+  <string name="emailTypeOther">Друго</string>
   <!-- Mobile email type -->
+  <string name="emailTypeMobile">Мобилни</string>
   <!-- Custom postal address type -->
+  <string name="postalTypeCustom">Прилагођено</string>
   <!-- Home postal address type -->
+  <string name="postalTypeHome">Кућа</string>
   <!-- Work postal address type -->
+  <string name="postalTypeWork">Посао</string>
   <!-- Other postal address type -->
+  <string name="postalTypeOther">Друго</string>
   <!-- Custom IM address type -->
+  <string name="imTypeCustom">Прилагођено</string>
   <!-- Home IM address type -->
+  <string name="imTypeHome">Кући</string>
   <!-- Work IM address type -->
+  <string name="imTypeWork">Посао</string>
   <!-- Other IM address type -->
+  <string name="imTypeOther">Друго</string>
   <!-- Custom IM protocol type -->
+  <string name="imProtocolCustom">Прилагођено</string>
   <!-- AIM IM protocol type -->
+  <string name="imProtocolAim">AIM</string>
   <!-- MSN IM protocol type -->
+  <string name="imProtocolMsn">Windows Live</string>
   <!-- Yahoo IM protocol type -->
+  <string name="imProtocolYahoo">Yahoo</string>
   <!-- Skype IM protocol type -->
+  <string name="imProtocolSkype">Скајп</string>
   <!-- QQ IM protocol type -->
+  <string name="imProtocolQq">QQ</string>
   <!-- Google Talk IM protocol type -->
+  <string name="imProtocolGoogleTalk">Hangouts</string>
   <!-- ICQ IM protocol type -->
+  <string name="imProtocolIcq">ICQ</string>
   <!-- Jabber IM protocol type -->
+  <string name="imProtocolJabber">Jabber</string>
   <!-- NetMeeting IM protocol type -->
+  <string name="imProtocolNetMeeting">NetMeeting</string>
   <!-- Work organization type -->
+  <string name="orgTypeWork">Посао</string>
   <!-- Other organization type -->
+  <string name="orgTypeOther">Друго</string>
   <!-- Custom organization type -->
+  <string name="orgTypeCustom">Прилагођено</string>
   <!-- Custom relationship custom [CHAR LIMIT=20] -->
   <!-- Assistant relationship type [CHAR LIMIT=20] -->
+  <string name="relationTypeAssistant">Асистент</string>
   <!-- Brother relationship type [CHAR LIMIT=20] -->
+  <string name="relationTypeBrother">Брат</string>
   <!-- Child relationship type [CHAR LIMIT=20] -->
+  <string name="relationTypeChild">Дете</string>
   <!-- Domestic Partner relationship type [CHAR LIMIT=20] -->
+  <string name="relationTypeDomesticPartner">Домаћи партнер</string>
   <!-- Father relationship type [CHAR LIMIT=20] -->
   <string name="relationTypeFather">Отац</string>
   <!-- Friend relationship type [CHAR LIMIT=20] -->
@@ -1185,14 +1362,31 @@
   <!-- Part of a description of an repeating event. This part states the date when a repeating
          event ends. The part before the semi-colon describes how it repeats.
          e.g. Every 2 weeks; until 1/1/2030 [CHAR LIMIT=21] -->
+  <string name="endByDate">; све до <xliff:g id="date">%1$s</xliff:g></string>
   <!-- Part of a description of an repeating event. This part how many times the event repeats.
          The part before the semi-colon describes how it repeats.
          e.g. Every 2 weeks; for 15 times [CHAR LIMIT=15] -->
+  <plurals name="endByCount">
+    <item quantity="one">; једном</item>
+    <item quantity="few">; за <xliff:g id="number">%1$d</xliff:g> пута</item>
+    <item quantity="other">; за <xliff:g id="number">%1$d</xliff:g> пута</item>
+  </plurals>
   <!-- A description for an event that repeats daily. For example, Every 2 days [CHAR LIMIT=15]-->
+  <plurals name="daily">
+    <item quantity="one">Дневно</item>
+    <item quantity="few">Сваких <xliff:g id="number">%1$d</xliff:g> дана</item>
+    <item quantity="other">Сваких <xliff:g id="number">%1$d</xliff:g> дана</item>
+  </plurals>
   <!-- A label in a multiple-choice list for the specifying that an event
          repeats every weekday (Monday through Friday) -->
+  <string name="every_weekday">"Сваким радним даном (Пон\u2013Пет)"</string>
   <!-- A description for an event that repeats weekly on some day of the week. For example,
          'Weekly on Tuesday' or Every 2 weeks on Monday, Tuesday.  [CHAR LIMIT=25]-->
+  <plurals name="weekly">
+    <item quantity="one">Недељно у <xliff:g id="days_of_week">%2$s</xliff:g></item>
+    <item quantity="few">Сваких <xliff:g id="number">%1$d</xliff:g> недеље у <xliff:g id="days_of_week">%2$s</xliff:g></item>
+    <item quantity="other">Сваких <xliff:g id="number">%1$d</xliff:g> недеље у <xliff:g id="days_of_week">%2$s</xliff:g></item>
+  </plurals>
   <!-- The common portion of a string describing how often an event repeats,
          example: 'Monthly (on day 2)' -->
   <string name="monthly">Месечно</string>
@@ -1206,7 +1400,9 @@
   <!-- No calendars message for secret calendar info -->
   <string name="calendar_info_no_calendars">Нема календара</string>
   <!-- Event count message for secret calendar info -->
+  <string name="calendar_info_events">Догађаји: <xliff:g id="events">%1$d</xliff:g></string>
   <!-- Event and dirty event count message for secret calendar info -->
+  <string name="calendar_info_events_dirty">Догађаји: <xliff:g id="events">%1$d</xliff:g>, Несачувано: <xliff:g id="dirty events">%2$d</xliff:g></string>
   <!-- What to show in messaging that refers to this provider, e.g. AccountSyncSettings -->
   <string name="provider_label">Календар</string>
   <string name="contacts_provider_label">Контакти</string>
@@ -1215,8 +1411,11 @@
   <!-- Debug tool - dialog - start copying [CHAR LIMIT=NONE] -->
   <string name="debug_tool_start_button">Почни</string>
   <!-- Debug tool - Main message shown to the user when starting up the debug tool [CHAR LIMIT=NONE] -->
+  <string name="debug_tool_message">Ви ћете 1) направити копију базе података календара на SD картицу/USB складиште која је видљива свакој апликацији и 2) послати је е-поштом. Не заборавите да избришете копију чим сте је успешно ископирали са уређаја или је е-пошта примљена.</string>
   <!-- Debug tool - email subject [CHAR LIMIT=NONE] -->
   <string name="debug_tool_email_sender_picker">Одабери програм за слање фајла</string>
   <!-- Debug tool - email subject [CHAR LIMIT=NONE] -->
+  <string name="debug_tool_email_subject">Календарска ДБ прикачена</string>
   <!-- Debug tool - email body [CHAR LIMIT=NONE] -->
+  <string name="debug_tool_email_body">Приложена је моја база података календара свих мојих састанака и личних информација. Поступати са пажњом.</string>
 </resources>

@@ -1008,6 +1008,7 @@
   <!-- Text for dummy attachments to load the actual attachment. This is not an ideal string, but it's too late to add a new string and get it translated -->
   <!-- Shortcut strings -->
   <!-- Title for shortcut naming dialog [CHAR LIMIT=100]-->
+  <string name="shortcut_name_title">Ordnerverknüpfung benennen</string>
   <!-- Wait fragment strings -->
   <!-- Displayed in title bar during the initial sync  [CHAR LIMIT=40] -->
   <string name="wait_for_sync_title">Warten auf Synchronisierung</string>

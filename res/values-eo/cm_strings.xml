@@ -32,6 +32,7 @@
   <!-- In Account setup options screen, optional check box to also sync calendar -->
   <!-- In Account setup options screen, check box to sync email -->
   <!-- On Settings screen, setting option for showing all images -->
+  <string name="account_settings_show_all_images_title">Bildoj</string>
   <!-- On Settings Screen, setting option for setting the account color -->
   <!-- On Settings screen, led notification title label -->
   <!-- On Settings screen, led color title and summary label -->
@@ -48,6 +49,7 @@
   <!-- Title of screen to choose with authentication to use -->
   <!-- Button shown on SignInActivity -->
   <!-- Label between OAuth and password authentication, indicating the user must do one or the other [CHAR LIMIT=40] -->
+  <string name="or_label">AŬ</string>
   <!-- Label for signing in with Google using OAuth -->
   <!--  On the "Setup up email" screen, label indicating what service we are signed in with [CHAR LIMIT=40] -->
   <!-- Label for the authentication section [CHAR LIMIT=20] -->
@@ -76,6 +78,7 @@
   <!-- New Message notification text that appears over conversation view on incoming message. [CHAR LIMIT=40] -->
   <!-- New Message notification text that appears over conversation view on incoming messages. Will only be used if there is more than one new message. [CHAR LIMIT=40] -->
   <!-- Button name, displayed in dialogs [CHAR LIMIT=10] -->
+  <string name="edit">Redakti</string>
   <!-- Hint for searching/filtering folders in the folder selection dialog [CHAR LIMIT=30] -->
   <!-- The section headers for the move to folder dialog [CHAR LIMIT=15] -->
   <!-- The section headers for the change folders dialog [CHAR LIMIT=15] -->
@@ -86,6 +89,7 @@
   <!-- Notification action for deleting a message. [CHAR LIMIT=20] -->
   <!-- Notification action for replying to a message. [CHAR LIMIT=20] -->
   <!-- Notification action for deleting a message. [CHAR LIMIT=20] -->
+  <string name="notification_action_delete">FORIGI</string>
   <!-- Notification message to the user upon new messages for a conversation. [CHAR LIMIT=120] -->
   <!--  Settings screen, Swipe actions preference title -->
   <!--  Settings screen, Swipe actions preference summary -->
@@ -101,19 +105,25 @@
   <!-- Shown to inform the user that the quoted text for this message has been hidden. [CHAR LIMIT=50] -->
   <!-- Number of attachments in a message [CHAR LIMIT=30]-->
   <!-- Title to display when an email has no subject. [CHAR LIMIT=50]-->
+  <string name="action_grid_due_date_today">Hodiaŭ</string>
   <!-- Prompt used if you are trying to delete a message -->
   <!-- These strings below represent the default Actions that are available for the ActionGrid -->
+  <string name="action_delete">Forigi</string>
   <!-- These strings are shown in Toast messages when an Action above is selected -->
+  <string name="custom_mailbox_settings_label">Agordoj</string>
   <!-- Title for confirm delete box dialog -->
+  <string name="custom_mailbox_delete_box_dialog_title">Averto</string>
   <!-- Ratings Viral Prompt -->
   <!-- Account Setup -->
   <!-- Like Feature -->
   <!-- Displayed on a button whose action is to create something new. -->
+  <string name="new_button">Nova</string>
   <!-- Text hint when creating a new folder from the move/label dialog. -->
   <!-- Progress text when creating a new folder from the move/label dialog. -->
   <!-- Error title used when the user tries to add a folder that matches an existing folder. -->
   <!-- Error message used when the user tries to add a folder that matches an existing folder. -->
   <!-- Title used for generic error alerts. -->
+  <string name="error">Eraro</string>
   <!-- Error message displayed when a folder fails to be created on the server. -->
   <!-- Menu item: report an email was not readable or poorly rendered -->
   <!-- Toast message for above action -->
@@ -130,14 +140,35 @@
   <!-- String shown in the TO field when it is blank -->
   <!-- Title for enter passcode screen -->
   <!-- Start of combined settings strings -->
+  <string name="header_default_account_title">Defaŭlta konto</string>
   <!-- In Account Setup options screen, label for email lookback selector -->
   <!-- In Account Settings screen, label for email lookback selector -->
+  <string name="default_account_fragment_title">Defaŭlta konto</string>
   <!-- The menu item to send logs -->
   <!-- The menu item to open the about section -->
   <string name="menu_about">Pri</string>
   <!-- Name of the DeviceAdmin (seen in settings & in user confirmation screen) -->
   <!-- Settings passcode strings -->
   <!-- String array for require passcode in passcode settings -->
+  <string name="settings_require_passcode_1min">1 minuto</string>
+  <string name="settings_require_passcode_2min">2 minutoj</string>
+  <string name="settings_require_passcode_3min">3 minutoj</string>
+  <string name="settings_require_passcode_4min">4 minutoj</string>
+  <string name="settings_require_passcode_5min">5 minutoj</string>
+  <string name="settings_require_passcode_10min">10 minutoj</string>
+  <string name="settings_require_passcode_15min">15 minutoj</string>
+  <string name="settings_require_passcode_30min">30 minutoj</string>
+  <string name="settings_require_passcode_1hour">1 horo</string>
+  <string name="settings_require_passcode_1.5hours">1,5 horoj</string>
+  <string name="settings_require_passcode_4hours">4 horoj</string>
+  <plurals name="settings_require_passcode_minutes">
+    <item quantity="one">minuto</item>
+    <item quantity="other">minutoj</item>
+  </plurals>
+  <plurals name="settings_require_passcode_hours">
+    <item quantity="one">horo</item>
+    <item quantity="other">horoj</item>
+  </plurals>
   <!-- Permission related string -->
   <!-- String shown as a toast when sending a quick response fails due to some unknown error-->
 </resources>

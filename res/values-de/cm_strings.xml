@@ -409,6 +409,7 @@
   <string name="canceled">Abgesagt</string>
   <!-- Send availability strings -->
   <string name="times_that_work_for_me">Zeiten, die für mich passen würden:</string>
+  <string name="availability_by">Verfügbarkeit über</string>
   <string name="remove_availability">Verfügbarkeit entfernen</string>
   <string name="event_over">Termin abgelaufen</string>
   <string name="busy">Beschäftigt</string>

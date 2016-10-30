@@ -27,6 +27,7 @@
   <!-- Button name used as part of a multi-step process -->
   <!-- Button name used to confirm acceptance of dialog boxes, warnings, errors, etc. -->
   <!-- Button name used to cancel out of dialog boxes -->
+  <string name="cancel_action">Nuligi</string>
   <!-- Button name used to move to previous step during setup sequence [CHAR_LIMIT=16] -->
   <!--  Button name used to complete a multi-step process -->
   <!--  Menu item used to create a new quick response [CHAR_LIMIT=16] -->
@@ -110,7 +111,9 @@
   <!-- "Incoming server settings" screen, title [CHAR LIMIT=45] -->
   <!-- "Incoming server settings" screen, headline (text over divider) [CHAR LIMIT=none] -->
   <!-- "Incoming server settings" screen, label for text field -->
+  <string name="account_setup_incoming_username_label">Uzantnomo</string>
   <!-- "Incoming server settings" screen, label for text field -->
+  <string name="account_setup_incoming_password_label">Pasvorto</string>
   <!-- "Incoming server settings" screen, label for text field -->
   <!-- "Incoming server settings" screen, label for text field -->
   <!-- "Incoming server settings" screen, label for pop-up menu -->
@@ -130,6 +133,7 @@
   <!-- "Incoming server settings" screen, label for pop-up menu -->
   <!-- "Incoming server settings" screen, options in pop-up menu for Delete email from server: -->
   <!-- "Incoming server settings" screen, options in pop-up menu for Delete email from server: -->
+  <string name="account_setup_incoming_delete_policy_never_label">Neniam</string>
   <!-- "Incoming server settings" screen, options in pop-up menu for Delete email from server: -->
   <!-- "Incoming server settings" screen, label for setting IMAP path prefix: -->
   <!-- "Incoming server settings" screen, hint for setting IMAP path prefix: -->
@@ -140,6 +144,7 @@
   <!-- On "Outgoing server settings" screen, label for pop-up menu -->
   <!-- On "Outgoing server settings" screen, label for check box -->
   <!-- On "Outgoing server settings" screen, label for text field -->
+  <string name="account_setup_outgoing_username_label">Uzantnomo</string>
   <!-- On "Outgoing server settings" screen, label for text field -->
   <!-- On "Exchange" setup screen, a heading title for the current client certificate [CHAR LIMIT=50] -->
   <!-- On "Exchange" setup screen, a button label to include a client certificate [CHAR LIMIT=35] -->
@@ -150,6 +155,7 @@
   <!-- On "Exchange" setup screen, the exchange device-id label [CHAR LIMIT=30] -->
   <!-- In Account setup options screen, Activity headline [CHAR LIMIT=none] -->
   <!-- In Account setup options & Account Settings screens, label for email check frequency option -->
+  <string name="account_setup_options_mail_check_frequency_never">Neniam</string>
   <!-- In Account setup options & Account Settings screens, label for email check frequency option -->
   <!-- In Account setup options & Account Settings screens, email check frequency option -->
   <!-- In Account setup options & Account Settings screens, email check frequency option -->
@@ -284,6 +290,7 @@
   <!-- Strings that support the DeviceAdmin / DevicePolicyManager API -->
   <!-- Long-form description of the DeviceAdmin (2nd line in settings & in user conf. screen) -->
   <!-- Settings activity title [CHAR LIMIT=40]-->
+  <string name="settings_activity_title">Agordoj</string>
   <!-- General Preferences Screen -->
   <!-- Label in preferences header to describe general preferences [CHAR LIMIT=32] -->
   <!-- General preference: Label of the setting for requiring confirmation before
@@ -369,6 +376,7 @@
   <!-- Displayed for one second after discarding draft message [CHAR LIMIT=50]-->
   <!--  Shown in the from dropdown in front of custom from addresses. [CHAR LIMIT=15] -->
   <!-- Menu item: send this message -->
+  <string name="send">Sendi</string>
   <!-- Menu item: mark this conversation as read -->
   <!-- Menu item: mark this conversation as unread -->
   <!--  Menu item: mute this conversation -->
@@ -380,11 +388,13 @@
   <!-- Menu item: report this conversation not as spam [CHAR LIMIT = 30] -->
   <!-- Menu item: report this conversation as phishing [CHAR LIMIT = 30] -->
   <!-- Menu item: delete this conversation -->
+  <string name="delete">Forigi</string>
   <!-- Menu item: discard the drafts in this conversation [CHAR LIMIT = 30] -->
   <!-- Menu item: refresh the inbox -->
   <!-- Menu item: reply to this message -->
   <!-- Menu item: reply to all recipients in this message [CHAR LIMIT=18] -->
   <!-- Menu item: resume a draft message [CHAR LIMIT=12] -->
+  <string name="resume_draft">Redakti</string>
   <!-- Menu item: forward this message -->
   <!-- Menu item: compose a new email -->
   <!-- Menu item: change the folders for this conversation. -->
@@ -394,6 +404,7 @@
   <!-- Menu item text to show the original version of an email conversation, before message manipulation [CHAR LIMIT=25] -->
   <!-- Menu item: options for this folder. When source text cannot be translated within the char limit, please translate the shorter "Folder options" instead. [CHAR LIMIT = 30] -->
   <!-- Menu item: launch the Settings activity -->
+  <string name="menu_settings">Agordoj</string>
   <!-- Menu item: search through the Gmail inbox -->
   <!--  Menu item: shown in conversation menu. Tap this to move to mark conversation as important [CHAR LIMIT=30] -->
   <!--  Menu item: shown in conversation menu. Tap this to move to mark conversation as not important [CHAR LIMIT=30] -->
@@ -410,10 +421,12 @@
   <!-- Size unit, displayed in a button next to an attachment [CHAR LIMIT=5] -->
   <!-- Size unit, displayed in a button next to an attachment  [CHAR LIMIT=5]-->
   <!-- Attachment description for image files [CHAR LIMIT=30] -->
+  <string name="attachment_image">Bildo</string>
   <!-- Attachment description for video files [CHAR LIMIT=30] -->
   <!-- Attachment description for audio files [CHAR LIMIT=30] -->
   <!-- Attachment description for text files [CHAR LIMIT=30] -->
   <!-- Attachment description for .doc files [CHAR LIMIT=30] -->
+  <string name="attachment_application_msword">Dokumento</string>
   <!-- Attachment description for .ppt files [CHAR LIMIT=30] -->
   <!-- Attachment description for excel files [CHAR LIMIT=30] -->
   <!-- Attachment description for .pdf files [CHAR LIMIT=30] -->
@@ -511,6 +524,7 @@
   <!-- Shown as a button label in message view to launch calendar to see this invite [CHAR LIMIT=40]-->
   <!-- Shown as a text label in message view describing the choices of whether to attend an invite [CHAR LIMIT=20]-->
   <!-- Shown as a button label in message view to accept a calendar invite [CHAR LIMIT=20]-->
+  <string name="message_invite_accept">Jes</string>
   <!-- Shown as a button label in message view to give a tentative response to a calendar invite [CHAR LIMIT=20]-->
   <!-- Shown as a button label in message view to decline a calendar invite [CHAR LIMIT=20]-->
   <!-- An enumeration comma for separating items in lists. [CHAR LIMIT=2] -->
@@ -519,6 +533,7 @@
   <!-- Button name, displayed in dialogs [CHAR LIMIT=10] -->
   <!-- Button name, displayed in dialogs [CHAR LIMIT=10] -->
   <!-- Button name, displayed in dialogs [CHAR LIMIT=10] -->
+  <string name="cancel">Nuligi</string>
   <!-- Button name, displayed in dialogs [CHAR LIMIT=10] -->
   <!-- Sync status errors. Please do not change the order [CHAR LIMIT=100] -->
   <!-- Widget strings -->
@@ -633,6 +648,7 @@
   <!-- Strings used for accessibility for the items that toggles the drawer action  -->
   <!-- Content description for the folder icon for nested folders. -->
   <!--  Button, "Add account" in the preference screen [CHAR LIMIT=30] -->
+  <string name="add_account">Aldoni konton</string>
   <!-- Action bar title for viewing messages that are attached to another message. -->
   <!-- Shown to display the date of the message when the message was received yesterday. [CHAR LIMIT=50]  -->
   <!-- Content description for the "X" image icon for dismissing a tip. This is used for spoken description of the icon when touch explore is enabled. [CHAR LIMIT=50] -->
@@ -749,10 +765,12 @@
   <!-- Temporary Calendar name to use before we have the calendar name from the server -->
   <!-- Caption on secret calendar info -->
   <!-- Error message for secret calendar info -->
+  <string name="calendar_info_error">Eraro</string>
   <!-- No calendars message for secret calendar info -->
   <!-- Event count message for secret calendar info -->
   <!-- Event and dirty event count message for secret calendar info -->
   <!-- What to show in messaging that refers to this provider, e.g. AccountSyncSettings -->
+  <string name="contacts_provider_label">Kontaktoj</string>
   <!-- Debug tool - dialog - delete file now [CHAR LIMIT=NONE] -->
   <!-- Debug tool - dialog - start copying [CHAR LIMIT=NONE] -->
   <!-- Debug tool - Main message shown to the user when starting up the debug tool [CHAR LIMIT=NONE] -->

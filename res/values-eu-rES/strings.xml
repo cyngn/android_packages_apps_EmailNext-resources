@@ -127,7 +127,7 @@
         [CHAR LIMIT=none] -->
   <!-- On "Set up email" screen, enthusiastic welcome message. -->
   <!-- On "Set up email" screen, hint for account email address text field -->
-  <string name="account_setup_basics_email_label">Eposta helbidea</string>
+  <string name="account_setup_basics_email_label">E-posta helbidea</string>
   <!-- Button name on "Set up email" screen [CHAR LIMIT=20] -->
   <string name="account_setup_basics_manual_setup_action">Eskuzko konfigurazioa</string>
   <!-- Toast when we can't build a URI from the given email & password -->
@@ -189,7 +189,7 @@
         port, including SSL certificate checks -->
   <string name="account_setup_incoming_security_tls_label">STARTTLS</string>
   <!-- "Incoming server settings" screen, label for pop-up menu -->
-  <string name="account_setup_incoming_delete_policy_label">Ezabatu eposta zerbitzaritik</string>
+  <string name="account_setup_incoming_delete_policy_label">Ezabatu e-posta zerbitzaritik</string>
   <!-- "Incoming server settings" screen, options in pop-up menu for Delete email from server: -->
   <!-- "Incoming server settings" screen, options in pop-up menu for Delete email from server: -->
   <string name="account_setup_incoming_delete_policy_never_label">Inoiz ez</string>
@@ -295,7 +295,7 @@
   <string name="account_setup_failed_ioerror">Ezin izan da zerbitzariarekin konexioa ezarri.</string>
   <!-- Additional diagnostic text when server connection failed due to our inability to support a
          required EAS protocol version [CHAR LIMIT=none] -->
-  <string name="account_setup_failed_protocol_unsupported">Zerbitzari helbide oker bat idatzi duzu edo zerbitzariak Epostak onartzen ez duen protokolo bat erabiltzen du.</string>
+  <string name="account_setup_failed_protocol_unsupported">Zerbitzari helbide oker bat idatzi duzu edo zerbitzariak E-postak onartzen ez duen protokolo bat erabiltzen du.</string>
   <!-- Additional diagnostic text when server access was denied; the user should contact the
          administrator of the server for more information [CHAR LIMIT=none] -->
   <string name="account_setup_failed_access_denied">Ez duzu zerbitzari honekin sinkronizatzeko baimenik. Jarri kontaktuan zerbitzariaren administratzailearekin gehiago jakiteko.</string>
@@ -313,7 +313,7 @@
   <string name="account_setup_username_uneditable_error">Ezin da kontu baten erabiltzaile izena aldatu. Beste erabiltzaile izen bat duen kontua gehitzeko, ukitu Gehitu kontua.</string>
   <!-- Warning given to users when they request disabling device administration (i.e. that their
          administered accounts will be deleted) [CHAR LIMIT=none] -->
-  <string name="disable_admin_warning">ABISUA: zure gailua administratzeko Eposta aplikazioaren baimena desaktibatzen baduzu, aplikazio honetan hori behar duten kontu guztiak ezabatuko dira, baita eposta helbideak, kontaktuak, egutegiko gertakariak eta bestelako datuak ere.</string>
+  <string name="disable_admin_warning">ABISUA: zure gailua administratzeko E-posta aplikazioaren baimena desaktibatzen baduzu, aplikazio honetan hori behar duten kontu guztiak ezabatuko dira, baita e-posta helbideak, kontaktuak, egutegiko gertakariak eta bestelako datuak ere.</string>
   <!-- Dialog shown when the account requires some amount of device security provisioning,
          just before jumping into system settings such as Device Policy grant, PIN/password,
          or encryption setup.  [CHAR_LIMIT=40] -->
@@ -373,12 +373,12 @@
   <string name="account_settings_background_attachments_label">Deskargatu eranskinak</string>
   <!-- Summary of account preference for downloading attachments in background [CHAR LIMIT=64] -->
   <string name="account_settings_background_attachments_summary">Automatikoki deskargatu berriki jasotako mezuen eranskinak Wi-Fi bidez</string>
-  <string name="account_settings_notify_label">Eposta jakinarazpenak</string>
+  <string name="account_settings_notify_label">E-posta jakinarazpenak</string>
   <!-- On Settings screen, summary line when called via AccountManager for Exchange accounts
         [CHAR LIMIT=50] -->
   <string name="account_settings_summary">Sinkronizazio maiztasuna, jakinarazpenak, etab.</string>
   <!-- On Settings screen, setting summary text -->
-  <string name="account_settings_notify_summary">Jakinarazi eposta berria iristean</string>
+  <string name="account_settings_notify_summary">Jakinarazi e-posta berria iristean</string>
   <!-- On Settings screen, setting option name and title of dialog box that opens -->
   <string name="account_settings_mail_check_frequency_label">Sinkronizazio maiztasuna</string>
   <!-- On Settings screen, setting option name -->
@@ -409,7 +409,7 @@
         for insertion in message body. [CHAR_LIMIT=24]-->
   <string name="account_settings_edit_quick_responses_label">Erantzun azkarrak</string>
   <!-- On Settings screen, setting option summary [CHAR LIMIT=64] -->
-  <string name="account_settings_edit_quick_responses_summary">Editatu eposta idaztean maiz erabiltzen duzun testua</string>
+  <string name="account_settings_edit_quick_responses_summary">Editatu e-posta idaztean maiz erabiltzen duzun testua</string>
   <!-- On Settings screen, section heading -->
   <string name="account_settings_notifications">Jakinarazpenen ezarpenak</string>
   <!-- On Settings screen, section heading for data usage [CHAR LIMIT=70] -->
@@ -427,9 +427,9 @@
   <!-- On settings screen, sync calendar check box label [CHAR LIMIT=20]-->
   <string name="account_settings_sync_calendar_enable">Sinkronizatu egutegia</string>
   <!-- On settings screen, sync email check box label [CHAR LIMIT=20]-->
-  <string name="account_settings_sync_email_enable">Sinkronizatu eposta</string>
+  <string name="account_settings_sync_email_enable">Sinkronizatu e-posta</string>
   <!-- On settings screen, sync email summary text [CHAR LIMIT=35] -->
-  <string name="account_settings_sync_email_summary">Sinkronizatu kontu honetako eposta</string>
+  <string name="account_settings_sync_email_summary">Sinkronizatu kontu honetako e-posta</string>
   <!-- On Settings screen, vibrate pop-up menu label -->
   <string name="account_settings_vibrate_when_label">Bibratu</string>
   <!-- On Settings screen, setting option name -->
@@ -515,7 +515,7 @@
   <!-- A policy limiting the number of old calendar events synced [CHAR LIMIT=50] -->
   <string name="policy_calendar_age">Mugatu sinkronizatuko den egutegiko gertaera kopurua</string>
   <!-- A policy limiting the number of emails synced [CHAR LIMIT=50] -->
-  <string name="policy_email_age">Murriztu sinkronizatuko den eposta kopurua</string>
+  <string name="policy_email_age">Murriztu sinkronizatuko den e-posta kopurua</string>
   <!-- The four strings below represent "quick responses" which the user can insert into a
         message being composed with just a couple of taps.  These four responses MUST be defined,
         but need not include a string (i.e. they are optional).  Further, the responses can be
@@ -558,7 +558,7 @@
   <!-- Shown in Compose; the subject of the message [CHAR LIMIT=100] -->
   <string name="subject_hint">Gaia</string>
   <!-- Shown in Compose; the subject of the message [CHAR LIMIT=100] -->
-  <string name="body_hint">Idatzi eposta</string>
+  <string name="body_hint">Idatzi e-posta</string>
   <!--  Compose screen button. Add an attachment to this message [CHAR LIMIT=20] -->
   <string name="add_file_attachment">Erantsi fitxategia</string>
   <!--  Compose screen button. Add a photo attachment to this message [CHAR LIMIT=20] -->
@@ -743,7 +743,7 @@
   <!-- Menu item to add a contact  [CHAR LIMIT=50]-->
   <string name="contextmenu_add_contact">Gehitu kontaktua</string>
   <!-- Menu item to send an email [CHAR LIMIT=50] -->
-  <string name="contextmenu_send_mail">Bidali mezua</string>
+  <string name="contextmenu_send_mail">Bidali e-posta</string>
   <!-- Menu item to show a map  [CHAR LIMIT=50]-->
   <string name="contextmenu_map">Mapa</string>
   <!-- Menu item to share link  [CHAR LIMIT=50]-->

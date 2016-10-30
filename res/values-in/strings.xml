@@ -237,7 +237,7 @@
   <!-- A sync window length setting (i.e. load messages this far back) [CHAR LIMIT=25]  -->
   <string name="account_setup_options_mail_window_all">Semua</string>
   <!-- Per-mailbox sync window setting.  This means "use the account's sync window setting" [CHAR LIMIT=40] -->
-  <string name="account_setup_options_mail_window_default">Gunakan pengaturan baku akun</string>
+  <string name="account_setup_options_mail_window_default">Gunakan akun standar</string>
   <!-- "Setup could not finish" dialog text; e.g., Username or password incorrect -->
   <string name="account_setup_failed_dlg_auth_message">Nama pengguna atau sandi salah.</string>
   <!-- "Setup could not finish" dialog text; e.g., Username or password incorrect\n(ERR01 Account does not exist) -->

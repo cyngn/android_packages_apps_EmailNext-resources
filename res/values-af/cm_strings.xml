@@ -27,14 +27,40 @@
   <string name="mailbox_name_display_archive">Argiveer</string>
   <string name="mailbox_name_local_only_display_name"> - Plaaslik</string>
   <string name="account_setup_email_address_hint">Tik jou epos adres</string>
+  <string name="account_setup_password_label">Tik jou wagwoord</string>
+  <string name="account_setup_discovery_account_name_hint">Rekening naam</string>
+  <string name="account_setup_username_invalid_chars">Die volgende karakters word nie toegelaat nie: <xliff:g id="chars">%1$s </xliff:g></string>
+  <string name="account_setup_invalid_server_address">Ongeldige bediener adres ingetik</string>
+  <string name="account_setup_oauth_required_failure">Twee-stap-verifikasie nog nie vir <xliff:g id="account_type">%1$s </xliff:g> rekeninge ondersteun nie. Teken asseblief in op jou rekening om \'n app spesifieke wagwoord te genereer.</string>
+  <string name="account_setup_domain_label">Domein</string>
+  <string name="account_setup_server_info_heading">Bediener inligting</string>
   <string name="account_setup_security_heading">Sekeriteit</string>
+  <string name="account_setup_general_heading">Rekening voorkeure</string>
   <string name="account_setup_authentication_heading">Verifikasie</string>
+  <string name="account_setup_passcode_title">Die Exchange admin vereis dat jy moet \'n wagwoord stel om te sinkroniseer.</string>
+  <string name="account_setup_passcode_format_restriction_complex">Het tenminste <xliff:g id="quantity">%1$d </xliff:g> uit die volgende: \'n hoofletter, \'n kleinletter, \'n nommer en/of \'n spesiale karakter.</string>
+  <plurals name="account_setup_passcode_length_restriction">
+    <item quantity="one">Ten minste 1 karakter lank.</item>
+    <item quantity="other">Dit moet tenminste <xliff:g id="length">%1$d</xliff:g> karakters lank wees.</item>
+  </plurals>
+  <plurals name="account_setup_passcode_previous_use_restriction">
+    <item quantity="one">Stem nie ooreen met jou vorige wagwoord nie.</item>
+    <item quantity="other">Stem nie ooreen met 1 van jou vorige <xliff:g id="passcodeHistoryLength">%1$d</xliff:g> wagwoorde nie.</item>
+  </plurals>
+  <string name="account_setup_passcode_hint">Tik jou wagwoord</string>
+  <string name="account_setup_confirm_passcode_title">Bevestig wagwoord</string>
+  <string name="account_setup_confirm_passcode_subtitle">Wagwoorde moet ooreenstem</string>
+  <string name="account_setup_confirm_passcode_action_label">Bevestig</string>
+  <string name="account_setup_check_settings_dialog_manual_button">Handmatig</string>
   <!-- Error message shown in dialog body when authenticating an account during setup fails -->
+  <string name="account_setup_failed_dlg_message_fmt"><xliff:g id="error_msg">%1$s </xliff:g> Wil jy nou jou instellings bywerk en weer probeer, of tik sleutel instellings handmatig in?</string>
   <!-- Dialog title when "setup" could not finish -->
+  <string name="account_setup_failed_dlg_title">Kan nie rekening konfigureer nie</string>
   <!-- hint for account email password text field -->
   <string name="account_setup_basics_progress_message">Outo-ontdekking aan die gang</string>
   <!-- In Account setup options screen, Activity title [CHAR LIMIT=45] -->
   <!-- In Account setup options screen, label for email check frequency selector -->
+  <string name="account_setup_options_mail_check_frequency_label">Kyk na inkassie</string>
   <!-- In Account setup options & Account Settings screens, email check frequency option -->
   <string name="account_setup_options_mail_check_frequency_2hour">Elke 2 ure</string>
   <!-- In Account setup options & Account Settings screens, email check frequency option -->
@@ -42,8 +68,11 @@
   <!-- In Account setup options & Account Settings screens, email check frequency option -->
   <string name="account_setup_options_mail_check_frequency_1day">Elke dag</string>
   <!-- In Account setup options screen, optional check box to also sync contacts -->
+  <string name="account_setup_options_sync_contacts_label">Sinkroniseer kontakte</string>
   <!-- In Account setup options screen, optional check box to also sync calendar -->
+  <string name="account_setup_options_sync_calendar_label">Sinkroniseer kalender</string>
   <!-- In Account setup options screen, check box to sync email -->
+  <string name="account_setup_options_sync_email_label">Sinkroniseer e-pos</string>
   <!-- On Settings screen, setting option for showing all images -->
   <string name="account_settings_show_all_images_title">Fotos</string>
   <string name="account_settings_show_all_images_show">Wys altyd</string>
@@ -66,7 +95,9 @@
   <!-- On Settings screen, shown as an option for label/move preference -->
   <string name="account_settings_label_title">Etiket</string>
   <!-- The domain can only be changed during initial account setup. [CHAR LIMIT=none] -->
+  <string name="account_setup_domain_uneditable_error">Jy kan nie \'n rekening se domein verander nie. Om \'n rekening met \'n ander domein by te voeg, raak \"Voeg rekening by\".</string>
   <!-- The email can only be changed during initial account setup. [CHAR LIMIT=none] -->
+  <string name="account_setup_email_uneditable_error">Jy kan nie \'n rekening se e-pos verander nie. Om \'n rekening met \'n ander e-pos by te voeg, raak \"Voeg rekening by\".</string>
   <!-- General preference: Labels for the setting to mark emails as read before archiving them -->
   <string name="general_preference_mark_archive_messages_read">Argief as gelees</string>
   <string name="general_preference_mark_archive_messages_read_description">Merk e-pos as gelees voordat argiveer</string>
@@ -85,6 +116,7 @@
   <!-- Label for signing in with Google using OAuth -->
   <string name="sign_in_with_google">Teken in met Google</string>
   <!--  On the "Setup up email" screen, label indicating what service we are signed in with [CHAR LIMIT=40] -->
+  <string name="signed_in_with_service_label">Teken in met %1$s</string>
   <!-- Label for the authentication section [CHAR LIMIT=20] -->
   <string name="authentication_label">Verifikasie</string>
   <!-- Label for the add authentication icon [CHAR LIMIT=40] -->
@@ -99,6 +131,7 @@
   <!-- Preference for the compose toolbar -->
   <string name="preference_compose_toolbar_visibility">Wys komponeer nutsbalk</string>
   <!-- Preference for conversation threading -->
+  <string name="preference_conversation_threading">Gesprek lyn</string>
   <string name="message_send_failed_ticker">Stuur van boodskap het mislik</string>
   <string name="message_send_failed_title">Boodskap nie gestuur</string>
   <string name="preferences_clear_search_history_title">Maak soek geskiedenis skoon</string>
@@ -116,89 +149,378 @@
   <string name="preference_allow_insecure_attachments_title">Laat onveilige aanhangsels toe</string>
   <string name="preference_allow_insecure_attachments_summary">Laat toe die besigtiging van of stoor van onveilige aanhangsels</string>
   <string name="custom_perms_dialog_title">Duplikaat toestemming</string>
+  <string name="custom_perms_dialog_msg">\'n Ander toep het probeer om persoonlike inligting te verkry.\n\n<xliff:g id="content">%1$s</xliff:g>\n\nKontak asseblief Boxer vir hulp.</string>
+  <plurals name="custom_perms_dialog_app_violation">
+    <item quantity="one"><xliff:g id="app_name">(%1$s)</xliff:g> herdefinieer regte: <xliff:g id="permissions_list">%2$s</xliff:g></item>
+    <item quantity="other"><xliff:g id="app_name">(%1$s)</xliff:g> herdefinieer regte: <xliff:g id="permissions_list">%2$s</xliff:g></item>
+  </plurals>
   <string name="custom_perms_pos_btn">Gee aan</string>
   <!-- Label shown in the account selector to select "Combined", which contains
          Combined Inbox, Combined Outbox, etc. [CHAR LIMIT=30] -->
+  <string name="mailbox_list_account_selector_combined_view">Gekombineerd</string>
   <!-- Menu item: Select all conversations -->
+  <string name="menu_select_all">Kies alles</string>
+  <string name="menu_actiongrid">Aksie rooster</string>
   <!-- Main screen and setting, menu item [CHAR LIMIT=30]-->
   <!-- Main screen and setting, menu item [CHAR LIMIT=30]-->
+  <string name="support">Ondersteuning</string>
   <!-- Delete account -->
+  <string name="delete_account_title">Verwyder rekening</string>
+  <string name="delete_account_summary">Verwyder hierdie rekening met al sy instellings en data</string>
+  <string name="delete_account_confirmation_msg">Hierdie sal alle instellings en e-posse verwyder van die volgende rekening <xliff:g id="account">%s</xliff:g>. Hierdie aksie kan nie ontdoen word nie.\n\nGaan voort?</string>
+  <string name="deleting_account_msg">Verwydering van rekening\u2026</string>
+  <string name="delete_account_failed">Kon nie rekening verwyder nie</string>
   <!-- Read email screen, button name. Open an attachment. [CHAR LIMIT=10] -->
   <!-- Read email screen, button name. Install an attachment. [CHAR LIMIT=10] -->
   <!-- Photo view screen, button name. Print photo. [CHAR LIMIT=20] -->
+  <string name="menu_photo_print">Druk</string>
   <!-- Menu item to view an image  [CHAR LIMIT=50]-->
+  <string name="contextmenu_view_image">Kyk na foto</string>
   <!-- Formatting for the collapsed To header in the MessageHeaderView -->
+  <plurals name="to_header">
+    <item quantity="one"> &amp; %d ander</item>
+    <item quantity="other">&amp; %d ander</item>
+  </plurals>
+  <plurals name="conversation_todo">
+    <!-- Displayed while setting one conversation to-do -->
+    <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; gemerk as om-te-doen.</item>
+    <!-- Displayed while archiving multiple conversations -->
+    <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; gemerk as om-te-doen.</item>
+  </plurals>
   <!-- Displayed in undo LeaveBehindItem after reporting a message as spam -->
+  <string name="reported_as_spam">Berig as strooipos</string>
   <!-- New Message notification text that appears over conversation view on incoming message. [CHAR LIMIT=40] -->
+  <string name="new_incoming_messages_one">Wys nuwe boodskap van <xliff:g id="sender">%s</xliff:g>.</string>
   <!-- New Message notification text that appears over conversation view on incoming messages. Will only be used if there is more than one new message. [CHAR LIMIT=40] -->
+  <plurals name="new_incoming_messages_many">
+    <item quantity="one">Wys <xliff:g id="count">%1$d</xliff:g> nuwe boodskap.</item>
+    <item quantity="other">Wys <xliff:g id="count">%1$d</xliff:g> nuwe boodskappe.</item>
+  </plurals>
   <!-- Button name, displayed in dialogs [CHAR LIMIT=10] -->
+  <string name="edit">Verander</string>
   <!-- Hint for searching/filtering folders in the folder selection dialog [CHAR LIMIT=30] -->
+  <string name="folder_search_hint">Soek</string>
   <!-- The section headers for the move to folder dialog [CHAR LIMIT=15] -->
+  <string-array name="moveto_folder_sections">
+    <item>Slim vouers</item>
+    <item>Alle vouers</item>
+  </string-array>
   <!-- The section headers for the change folders dialog [CHAR LIMIT=15] -->
+  <string-array name="change_folders_sections">
+    <item>Slim etikette</item>
+    <item>Alle etikette</item>
+  </string-array>
   <!-- String used in the FolderListFragment to mark the start of "boxes" -->
+  <string name="boxes_heading">Bokse</string>
   <!-- String used in the FolderListFragment to mark the start of user-defined folders -->
+  <string name="all_folders_heading">Vouers</string>
   <!-- String used in the FolderListFragment to mark the start of accounts -->
+  <string name="accounts_heading">Rekeninge</string>
   <!-- Default email signature on vendor builds -->
+  <string name="vendor_signature">Gestuur van my foon</string>
+  <string name="vendor_signature_fmt">Gestuur vanaf my <xliff:g id="brand" example="samsung">%s</xliff:g></string>
+  <string name="blu_signature">Gestuur van my BLU foon - BLU epos aangedryf deur Boxer</string>
+  <string name="vendor_signature_o2">Gestuur van Cyanogen op O2</string>
   <!-- Notification action for deleting a message. [CHAR LIMIT=20] -->
+  <string name="notification_action_mark_read">GELEES</string>
   <!-- Notification action for replying to a message. [CHAR LIMIT=20] -->
+  <string name="notification_action_reply">ANTWOORD</string>
   <!-- Notification action for deleting a message. [CHAR LIMIT=20] -->
+  <string name="notification_action_delete">VERW</string>
   <!-- Notification message to the user upon new messages for a conversation. [CHAR LIMIT=120] -->
+  <plurals name="new_messages">
+    <item quantity="one"><xliff:g id="count">%1$d</xliff:g> nuwe boodskap</item>
+    <item quantity="other"><xliff:g id="count">%1$d</xliff:g> nuwe boodskappe</item>
+  </plurals>
   <!--  Settings screen, Swipe actions preference title -->
+  <string name="preferences_swipe_actions_title">Vee aksies</string>
   <!--  Settings screen, Swipe actions preference summary -->
+  <string name="preferences_swipe_actions_summary">Verpersoonlik links en regs vee aksies</string>
   <!--  Settings screen, Swipe actions, Left short preference title -->
+  <string name="preferences_swipe_left_short_title">Links kort vee</string>
   <!--  Settings screen, Swipe actions, Left long preference title -->
+  <string name="preferences_swipe_left_long_title">Links lang vee</string>
   <!--  Settings screen, Swipe actions, Right short preference title -->
+  <string name="preferences_swipe_right_short_title">Regs kort vee</string>
   <!--  Settings screen, Swipe actions, Right long preference title -->
+  <string name="preferences_swipe_right_long_title">Regs lang vee</string>
   <!-- Menu item text to that when clicked will allow a user to print an email conversation. [CHAR LIMIT=25] -->
+  <string name="print">Druk</string>
   <!-- Number of messages in a conversation [CHAR LIMIT=30]-->
+  <plurals name="num_messages">
+    <item quantity="one"><xliff:g id="count">%1$d</xliff:g> boodskap</item>
+    <item quantity="other"><xliff:g id="count">%1$d</xliff:g> boodskappe</item>
+  </plurals>
   <!-- Shown to display the date of the message [CHAR LIMIT=50] -->
+  <string name="date_message_received_print"><xliff:g id="day_and_date">%1$s</xliff:g> at <xliff:g id="time">%2$s</xliff:g></string>
   <!-- Shown to display the to recipient(s) of the message if the message is a draft [CHAR LIMIT=20] -->
+  <string name="draft_to_heading">Konsep na:\u0020</string>
   <!-- Shown to display in the message header if the message is a draft and there are no "to" addresses in the draft [CHAR LIMIT=10] -->
+  <string name="draft_heading">Konsep</string>
   <!-- Shown to inform the user that the quoted text for this message has been hidden. [CHAR LIMIT=50] -->
+  <string name="quoted_text_hidden_print">Aangehaalde teks verskuil</string>
   <!-- Number of attachments in a message [CHAR LIMIT=30]-->
+  <plurals name="num_attachments">
+    <item quantity="one"><xliff:g id="count">%1$d</xliff:g> aanhangsel</item>
+    <item quantity="other"><xliff:g id="count">%1$d</xliff:g> aanhangsels</item>
+  </plurals>
   <!-- Title to display when an email has no subject. [CHAR LIMIT=50]-->
+  <string name="no_subject">(geen onderwerp)</string>
+  <string name="action_grid_select_quick_response">Kies vinnige antwoord</string>
+  <string name="action_grid_todo_dialog_title">Besonderhede</string>
+  <string name="action_grid_set_due_date">Stel aanvang datum</string>
+  <string name="action_grid_due">Aanvang: <xliff:g id="datestring">%s</xliff:g></string>
+  <string name="action_grid_add_priority">Voeg prioriteit by</string>
+  <string name="action_grid_priority">Prioriteit:\u0020</string>
+  <string name="action_grid_add_assignee">Voeg by gevolmagtigde</string>
+  <string name="action_grid_assignee">Gevolmagtigde:\u0020</string>
+  <string name="action_grid_due_date_dialog_title">Stel aanvang datum</string>
+  <string name="action_grid_due_date_today">Vandag</string>
+  <string name="action_grid_due_date_tomorrow">Môre</string>
+  <string name="action_grid_due_date_this_week">Hierdie week</string>
+  <string name="action_grid_due_date_next_week">Volgende week</string>
+  <string name="action_grid_due_date_specific_date">Spesifieke datum</string>
+  <string name="action_grid_priority_dialog_title">Voeg prioriteit by</string>
+  <string name="action_grid_priority_highest">Hoogste prioriteit</string>
+  <string name="action_grid_priority_high">Hoë prioriteit</string>
+  <string name="action_grid_priority_normal">Normale prioriteit</string>
+  <string name="action_grid_priority_low">Lae prioriteit</string>
+  <string name="action_grid_priority_lowest">Laagste prioriteit</string>
+  <string name="action_grid_assignee_dialog_title">Voeg by gevolmagtigde</string>
+  <string name="action_grid_assignee_search_for_contact">Soek vir kontak</string>
+  <string name="action_grid_assignee_button_bar_clear">Maak skoon</string>
   <!-- Prompt used if you are trying to delete a message -->
+  <string name="action_message_header_delete">Verwyder hierdie boodskap?</string>
   <!-- These strings below represent the default Actions that are available for the ActionGrid -->
+  <string name="action_like">Hou van</string>
   <string name="action_todo">Om-te-doen</string>
+  <string name="action_quick">Vinnig</string>
   <string name="action_move">Skuif</string>
   <string name="action_label">Etiket</string>
+  <string name="action_move_or_label">Skuif/Etiket</string>
   <string name="action_archive">Argiveer</string>
+  <string name="action_delete">Verwyder</string>
+  <string name="action_spam">Strooipos</string>
+  <string name="action_flag">Merk</string>
+  <string name="action_star">Ster</string>
+  <string name="action_clear_star">Verwyder ster</string>
+  <string name="action_star_or_flag">Ster/Merk</string>
+  <string name="action_mark_unread">Merk as ongelees</string>
+  <string name="action_mark_read">Merk as gelees</string>
+  <string name="action_read_or_unread">Gelees/Ongelees</string>
+  <string name="action_actions">Aksies</string>
   <!-- These strings are shown in Toast messages when an Action above is selected -->
+  <plurals name="quick_response_sent">
+    <!-- Quick respond to 1 conversation -->
+    <item quantity="one">Reaksie gestuur</item>
+    <!-- Quick respond to several conversations -->
+    <item quantity="other">Antwoorde gestuur</item>
+  </plurals>
+  <plurals name="liked_message">
+    <!-- Like 1 conversation -->
+    <item quantity="one">Hou van boodskap</item>
+    <!-- Like several conversations -->
+    <item quantity="other">Hou van boodskappe</item>
+  </plurals>
+  <string name="invalid_selection">Ongeldige keuse</string>
+  <string name="file_action_more_than_one_account">Jy het gesprekke gekies uit meer as een rekening. Probeer net gesprekke van een rekening kies.</string>
+  <string name="action_more_than_one_conversation">Die geselekteerde aksie ondersteun net een gesprek op \'n tyd. Probeer om net een gesprek te kies.</string>
+  <string name="not_installed">Nie geïnstalleer</string>
+  <string name="evernote_not_installed">Evernote is nie geïnstalleer nie. Installeer om hierdie funksie te gebruik.</string>
+  <string name="custom_mailbox_button">Voegby persoonlike boks</string>
+  <string name="custom_mailbox_settings_label">Instellings</string>
+  <string name="custom_mailbox_folder_name_hint">Persoonlike boks naam</string>
+  <string name="custom_mailbox_background_sync_label">Agtergrond sync</string>
+  <string name="custom_mailbox_background_sync_switch_on">Aan</string>
+  <string name="custom_mailbox_background_sync_switch_off">Af</string>
+  <string name="custom_mailbox_delete_box">Verwyder boks</string>
+  <string name="custom_mailbox_error_no_selected_folders">Kies ten minste een lêer van die lys hieronder</string>
   <!-- Title for confirm delete box dialog -->
+  <string name="custom_mailbox_delete_box_dialog_title">Waarskuwing</string>
+  <string name="custom_mailbox_delete_box_dialog_message">Is jy seker jy wil hierdie pasgemaakte boks verwyder?</string>
+  <string name="custom_mailbox_error_deleting_box">Daar was \'n fout tydens die verwydering van jou persoonlike posbus</string>
   <!-- Ratings Viral Prompt -->
+  <string name="viral_prompt_rate_app_title">Gradeer hierdie program</string>
+  <string name="viral_prompt_rate_app_body">As jy gebruik van hierdie program geniet, sal jy omgee om dit te gradeer? Dit sal nie meer as \'n minuut neem nie. Dankie vir jou ondersteuning!</string>
+  <string name="viral_ratings_prompt_rate_now">Gradeer nou</string>
+  <string name="promo_code_edittext_hint">Tik promo kode</string>
+  <string name="promo_code_button_text">Stuur</string>
+  <string name="promo_code_error_no_code_entered">Voer asseblief \'n promo kode voordat jy stuur druk</string>
+  <string name="promo_code_error_invalid_code">Ongeldige promo kode</string>
+  <string name="promo_code_progress_dialog_validating">Validering van promo kode</string>
+  <string name="rage_shake_title">Skud bespeur</string>
+  <string name="rage_shake_message">Wil jy graag die program ineenstort om foutverslag inligting te stuur?</string>
+  <string name="actions_dialog_title">Pasmaak</string>
+  <string name="actions_dialog_message">Gebruik jy gereeld vouers? Dikwels gemerk as strooipos? Hou daarvan om te clip aan Evernote\n\nMet persoonlike vee aksies kan jy enige van hierdie gebare stel om jou werkvloei aan te pas.\n</string>
+  <string name="actions_dialog_positive_button_text">Pasmaak vee\'s</string>
+  <string name="actions_dialog_negative_button_text">Maak toe</string>
   <!-- Account Setup -->
+  <string name="account_setup_start_company_slogan_text">Welkom by \'n beter inkassie</string>
+  <string name="account_setup_vendor_heading">Welkom by epos</string>
   <!-- Like Feature -->
+  <string name="like_action_dialog_tittle">Wat is soos?</string>
+  <string name="like_action_dialog_message">Jy het ons gunsteling funksie gevind. Wanneer jy \'n boodskap \'Hou van\', sal \'n e-pos gestuur word om die stuurder en ander ontvangers te laat weet jou hou daarvan. Dit is die vinnigste manier om te reageer nog op e-pos.</string>
   <!-- Displayed on a button whose action is to create something new. -->
+  <string name="new_button">Nuut</string>
   <!-- Text hint when creating a new folder from the move/label dialog. -->
+  <string name="folder_name_hint">Gids naam</string>
   <!-- Progress text when creating a new folder from the move/label dialog. -->
+  <string name="create_folder_progess">Skep gids\u2026</string>
   <!-- Error title used when the user tries to add a folder that matches an existing folder. -->
+  <string name="duplicate_folder_title">Dubbele naam</string>
   <!-- Error message used when the user tries to add a folder that matches an existing folder. -->
+  <string name="duplicate_folder_message">Die gids se naam bestaan alreeds.</string>
   <!-- Title used for generic error alerts. -->
+  <string name="error">Fout</string>
   <!-- Error message displayed when a folder fails to be created on the server. -->
+  <string name="error_creating_folder_message">Die gids kon nie geskep word nie.</string>
   <!-- Menu item: report an email was not readable or poorly rendered -->
   <string name="report_rendering_problem">Gee aan</string>
   <!-- Toast message for above action -->
+  <string name="message_reported">Boodskap gerapporteer</string>
   <!-- Conversation list shared between the Activity and Widget -->
   <!-- Displayed in the middle of the screen when conversations are being loaded [CHAR LIMIT 100]-->
+  <string name="no_conversation_needs_sync">Geen e-pos hier.\nTrek af van bo om te verfris</string>
+  <string name="getting_messages">Besig om jou boodskappe te kry</string>
+  <string name="empty_folder">Daar is geen e-pos hier nie.</string>
+  <string name="empty_inbox">Jy is klaar! Lekker dag.</string>
+  <string name="empty_search">O gats! Ons kon nie enigiets vind vir \"<xliff:g id="search_query">%1$s</xliff:g>\".</string>
+  <string name="empty_spam_folder">Lekker man, geen strooipos hier!</string>
+  <string name="empty_trash_folder">Geen vullis hier. Dankie dat jy herwinning doen!</string>
   <!-- Calendar invite hero card -->
   <!-- Link for opening an invite's event in the calendar app. -->
+  <string name="view_on_calendar">Kyk binne kalender</string>
   <!-- Response action buttons. -->
+  <string name="accept">Aanvaar</string>
+  <string name="maybe">Miskien</string>
+  <string name="decline">Weier</string>
+  <string name="remove_from_cal">Verwyder van kalender</string>
+  <string name="remove_series_from_cal">Verwyder reeks van kalender</string>
   <!-- Attendee text when user is the only attendee. -->
+  <string name="calendar_attendees_me_only">Ekke</string>
   <!-- Attendee text when there are additional attendees. -->
+  <plurals name="calendar_attendees">
+    <item quantity="one">Ekke &amp; %d ander</item>
+    <item quantity="other">Ekke &amp; %d ander</item>
+  </plurals>
   <!-- Accompanies the date/time for all day events. -->
+  <string name="all_day">Heeldag</string>
   <!-- Status for canceled events. -->
+  <string name="canceled">Gekanselleer</string>
   <!-- Send availability strings -->
+  <string name="times_that_work_for_me">Tye wat vir my sal werk:</string>
+  <string name="availability_by">Beskikbaarheid teen</string>
+  <string name="remove_availability">Verwyder beskikbaarheid</string>
+  <string name="event_over">Gebeurtenis oor</string>
+  <string name="busy">Besig</string>
+  <string name="available">Beskikbaar</string>
+  <plurals name="other_conflicts">
+    <item quantity="one">%d ander konflik</item>
+    <item quantity="other">%d ander konflikte</item>
+  </plurals>
+  <string name="meeting_invitation">Uitnodiging opsomming:</string>
+  <string name="invitation_by">Uitgenooi deur</string>
+  <string name="remove_invite">Verwyder uitnodiging</string>
+  <string name="action_liked_message_cm"><xliff:g id="display_name" example="John Doe">%s</xliff:g> hou van jou boodskap met &lt;a href=\"%s\"&gt;Boxer op Cyanogen OS&lt;/a&gt;.</string>
+  <string name="error_no_app_store">Geen beskikbare toep winkel is gevind</string>
   <!-- String shown in the TO field when it is blank -->
+  <string name="undisclosed_recipients">Onbekende Ontvangers</string>
+  <string name="previous_action">Vorige</string>
   <!-- Title for enter passcode screen -->
+  <string name="enter_passcode_title">Voer wagwoord in</string>
+  <string name="enter_passcode_logo_desc">Boxer logo</string>
+  <string name="enter_passcode_status_desc">Status aanwyser</string>
+  <string name="enter_passcode_hint">Tik jou wagwoord</string>
+  <string name="enter_passcode_go">Gaan</string>
+  <string name="enter_passcode_success">Sukses!</string>
+  <string name="enter_passcode_failure">Verkeerde wagwoord</string>
+  <string name="enter_passcode_failure_with_max">%1$d van %2$d mislukte pogings</string>
+  <string name="enter_passcode_last_chance">1 poging bly oor. \nIf as weer vaal, sal al jou e-posse uitgevee word op toestel.</string>
+  <string name="enter_passcode_wipe">Besig om program data uit te vee</string>
   <!-- Start of combined settings strings -->
+  <string name="header_category_mail">E-pos</string>
+  <string name="header_category_other">Ander</string>
+  <string name="header_default_account_title">Standaard rekening</string>
+  <string name="header_local_calendars_title">Plaaslike kalenders</string>
+  <string name="header_mail_settings_title">Meer e-pos-instellings</string>
+  <string name="header_calendar_settings_title">Meer kalender instellings</string>
+  <string name="header_passcode_title">Wagwoord</string>
   <!-- In Account Setup options screen, label for email lookback selector -->
+  <string name="account_setup_options_mail_window_label">E-pos gesinkroniseer vir</string>
   <!-- In Account Settings screen, label for email lookback selector -->
+  <string name="account_settings_options_mail_window_label">Dae om te sinkroniseer</string>
+  <string name="account_settings_sync_calendar_summary">Sinkroniseer kalender items vir hierdie rekening</string>
+  <string name="default_account_fragment_title">Standaard rekening</string>
+  <string name="mail_settings_fragment_title">E-pos-instellings</string>
   <!-- The menu item to send logs -->
+  <string name="menu_send_logs">Stuur logs</string>
   <!-- The menu item to open the about section -->
   <string name="menu_about">Aangaande</string>
+  <string name="version">Weergawe</string>
+  <string name="build">Bou</string>
+  <string name="build_date">Bou datum</string>
+  <string name="legal">Wetlike</string>
+  <string name="open_source">Oopbron lisensies</string>
+  <string name="privacy_policy">AirWatch privaatheid beleid</string>
   <!-- Name of the DeviceAdmin (seen in settings & in user confirmation screen) -->
+  <string name="device_admin_label">Boxer</string>
   <!-- Settings passcode strings -->
+  <string name="settings_passcode_on">Skakel wagwoord aan</string>
+  <string name="settings_passcode_off">Skakel wagwoord af</string>
+  <string name="settings_passcode_change">Verander wagwoord</string>
+  <string name="settings_passcode_time_interval">Vereis wagwoord</string>
   <!-- String array for require passcode in passcode settings -->
+  <string name="settings_require_passcode_1min">1 minuut</string>
+  <string name="settings_require_passcode_2min">2 minute</string>
+  <string name="settings_require_passcode_3min">3 minute</string>
+  <string name="settings_require_passcode_4min">4 minute</string>
+  <string name="settings_require_passcode_5min">5 minute</string>
+  <string name="settings_require_passcode_10min">10 minute</string>
+  <string name="settings_require_passcode_15min">15 minute</string>
+  <string name="settings_require_passcode_30min">30 minute</string>
+  <string name="settings_require_passcode_1hour">1 uur</string>
+  <string name="settings_require_passcode_1.5hours">1.5 ure</string>
+  <string name="settings_require_passcode_4hours">4 ure</string>
+  <plurals name="settings_require_passcode_minutes">
+    <item quantity="one">minuut</item>
+    <item quantity="other">minute</item>
+  </plurals>
+  <plurals name="settings_require_passcode_hours">
+    <item quantity="one">uur</item>
+    <item quantity="other">ure</item>
+  </plurals>
   <!-- Permission related string -->
+  <string name="permissions_enable">Aktiveer</string>
+  <string name="permissions_call_title">Aktiveer foon toegang</string>
+  <string name="permissions_call_message">Ten einde te bel, moet foon toegang vir Boxer geaktiveer word.</string>
+  <string name="permissions_storage_title">Aktiveer stoor spasie toegang</string>
+  <string name="permissions_storage_message">Om aanhegsels te stoor, moet foon stoor spasie vir Boxer geaktiveer word.</string>
+  <string name="permissions_calendar_title">Aktiveer kalender toegang</string>
+  <string name="permissions_calendar_message">Boxer het nie toegang tot inheemse kalender afsprake nie.</string>
+  <string name="permissions_do_not_show_again">Moet nie weer wys nie</string>
   <!-- String shown as a toast when sending a quick response fails due to some unknown error-->
+  <string name="emailing_guests_failed">Kon nie gaste e-pos nie</string>
+  <string name="account_setup_selection_title">Rekening tipe</string>
+  <string name="account_setup_discovery_title">Rekening besonderhede</string>
+  <string name="account_setup_options_title">Sinkroniseer opsies</string>
+  <string name="plugin_permission_label">Boxer invoertoep toestemming</string>
+  <string name="plugin_permission_description">Boxer invoegtoepassings (plugins) word gelaai om ekstra funksionaliteit te verskaf. Invoegtoepassings moet deur Boxer geteken word om gelaai te word.</string>
+  <string name="view">Maak oop</string>
+  <string name="original_appointment">----Oorspronklike Afspraak----</string>
+  <string name="meeting_from">
+        Van:
+        <xliff:g id="From">%s</xliff:g>
+    </string>
+  <string name="meeting_subject">
+        Onderwerp:
+        <xliff:g id="Subject">%s</xliff:g>
+    </string>
+  <string name="meeting_to">
+        Aan:
+        <xliff:g id="To">%s</xliff:g>
+    </string>
+  <string name="email_attendees">E-pos bywoners</string>
+  <string name="forward_event">Stuur Gebeurtenis na</string>
+  <string name="email_organizer">E-pos organiseerder</string>
+  <string name="email_everyone">E-pos almal</string>
 </resources>

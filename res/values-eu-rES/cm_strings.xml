@@ -17,7 +17,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Name of EmailProvider shown in AccountManager -->
-  <string name="email_provider">Eposta</string>
+  <string name="email_provider">E-posta</string>
   <!-- In the UI, the drafts will be displayed with this name -->
   <string name="mailbox_name_display_local_drafts">Tokiko zirriborroak</string>
   <string name="mailbox_name_display_server_drafts">Zerbitzariko zirriborroak</string>
@@ -26,7 +26,7 @@
   <!-- In the UI, the archive will be displayed with this name -->
   <string name="mailbox_name_display_archive">Artxiboa</string>
   <string name="mailbox_name_local_only_display_name"> - Tokikoa</string>
-  <string name="account_setup_email_address_hint">Sartu zure eposta helbidea</string>
+  <string name="account_setup_email_address_hint">Sartu zure e-posta helbidea</string>
   <string name="account_setup_password_label">Sartu zure pasahitza</string>
   <string name="account_setup_discovery_account_name_hint">Kontuaren izena</string>
   <string name="account_setup_username_invalid_chars">Honako karaktere hauek ez dira onartzen: <xliff:g id="chars">%1$s</xliff:g></string>
@@ -137,7 +137,7 @@
   <string name="preferences_clear_search_history_title">Ezabatu bilaketen historia</string>
   <string name="preferences_clear_search_history_summary">Ezabatu aurreko bilaketa guztiak</string>
   <string name="search_history_cleared">Bilaketen historia ezabatu da.</string>
-  <string name="update_available_ticker">Epostaren eguneraketa bat dago eskuragarri</string>
+  <string name="update_available_ticker">E-postaren eguneraketa bat dago eskuragarri</string>
   <string name="update_availalable_title">Eguneraketa bat dago eskuragarri</string>
   <string name="update_available_content">Ukitu eguneraketa instalatzeko</string>
   <!-- Security settings category -->
@@ -499,7 +499,7 @@
   <string name="permissions_calendar_message">Boxerrek ez du sarbidea gailuko egutegietako gertakizunetara.</string>
   <string name="permissions_do_not_show_again">Ez erakutsi berriro</string>
   <!-- String shown as a toast when sending a quick response fails due to some unknown error-->
-  <string name="emailing_guests_failed">Ezin izan da gonbidatuei mezua bidali</string>
+  <string name="emailing_guests_failed">Ezin izan da gonbidatuei e-posta bidali</string>
   <string name="account_setup_selection_title">Kontu mota</string>
   <string name="account_setup_discovery_title">Kontuaren xehetasunak</string>
   <string name="account_setup_options_title">Sinkronizazio aukerak</string>
